@@ -1,0 +1,8 @@
+# Kairon runtime state
+.kairon/
+
+# OS files
+.DS_Store
+
+# Pi runtime
+.pi/
