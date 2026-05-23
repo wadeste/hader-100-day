@@ -1,68 +1,62 @@
-# Hader 100-Day Plan — Research Context
+# Optimizer AI — 100-Day Plan Research Context
 
 **Last updated:** 2026-05-24
 
-## The Plan
+## The Company
 
-Hader Growth 100-day plan was approved by Marcus (Hader Institute founder) in early May 2026. Jesse and Kam were tasked with reviewing details.
+**Optimizer AI** — new AI company under Australian Vet Group.
+**Founders:** Marcus (principal), Kham (Japan-based, AI/tech lead)
+**Steven's role:** Marketing Manager ($100k base + 20% performance bonus + 1% equity valued at $100k)
+**Equity vesting:** 1/3 on signing, 1/3 after 12 months, 1/3 after 24 months
+**Domain:** optimizer.ai
+**Reporting:** Steven reports to Kham
 
-Steven Wade is Head of Growth. His bonus is tied to hitting a **$10M annual sales target**.
+## Targets
 
-## Four Phases
+| Metric | Target |
+|--------|--------|
+| Enrollments/month | 1,000 within 24 months |
+| EBITDA | $10M |
+| Overall conversion rate | 9–10% of total database |
+| Organic leads | 20% of total, 25% conversion rate |
+| Current lead-to-conversion | ~85% in Zoho |
 
-### Phase 1: Baseline & Foundation (Weeks 1–4)
-- Baseline data access
-- Paid media baseline
-- Competitor scan
-- AI automations
+## Core Products
 
-### Phase 2: Channel Audit & Scale (Weeks 5–8)
-- Channel audit at 3× spend scale
-- Competitor asymmetry analysis
-- Email audit with Krizia
-- AI automation across paid channels
+1. **Orientation call robot (Phase 1)** — Automates 60+ hours/week of enrollment call labor
+2. **AI skill packages for RTO staff** — TAZ reviews, policy compliance checks, objection-handling prompts in Aircall
+3. **Unified marketing attribution dashboard** — Resolves Zoho lead dedup issues
+4. **Website CRO + SEO** — Planned content expansion, high-conversion page migration
 
-### Phase 3: Optimisation & Growth (Weeks 9–14)
-- CRO test programme
-- Student reviews strategy
-- Payment plan transparency
-- Retargeting campaigns
+## Key Deliverables
 
-### Phase 4: Strategic Positioning (Weeks 15–20+)
-- Content marketing hub feasibility
-- Corporate partnership opportunities
-- AITOD 30/90-day plan alignment
-- Agency pivot readiness assessment
+| Deliverable | Due | Notes |
+|-------------|-----|-------|
+| 100-day onboarding & activation plan | Day 100 (2026-08-07) | **This is the bonus-linked deliverable** |
+| 12-24 month marketing strategy | Day 60 (2026-06-28) | Lead-gen + Optimizer AI go-to-market |
 
-## Current State (May 2026)
+## Current State
 
-| Metric | Value |
-|--------|-------|
-| MTD spend | ~$17.2k (projecting ~$29.7k month-end) |
-| Revenue target | $380k–$400k/month |
-| Revenue to date | $194.6k (39 sales) |
-| Avg cost per conversion | $108 |
-| Attribution gap | ~50% |
-| Top campaign | PMax Cert 4 Youth |
-| Meta vs Google volume | Meta ~14× Google |
-
-## Key Issues to Fix
-1. **CRM sync lag** — 17 days between lead capture and CRM visibility
-2. **Google Ads dashboard** — no live KPI dashboard (cost-per-call target: $300–$350)
-3. **Meta spend data** — April 2026 numbers needed for blended CPA calc
-4. **Cert 4 Youth AI Max** — tripled spend with minimal conversion gain
-5. **Competitor analysis** — no formal gap-action matrix yet
+- Company being established (accountants finalising, week of 2026-05-04)
+- Trading name being registered
+- Heads of agreement with Area Ten (areaten.com) — Steven turning off prior Area Ten work
+- Tools: Zoho CRM, Aircall AI, Claude (team plan → Enterprise upgrade), Monday.com, Slack
+- Cert IV courses: high-volume, good margins
+- AI courses: early-stage promising demand with long-tail keywords
+- Digital marketing diploma/advanced diploma: volumes declining
+- Community services qualifications: future expansion opportunity
 
 ## Team
-- **Marcus** — Founder, approved the plan
-- **Jesse** — Operations, reviews plan progress
-- **Kam** — Technical/data, works on automation
-- **Krizia** — Email nurture owner
-- **Jamie** — Payroll/finance
-- **Khamsouk (Kham)** — External collaborator, CRO plan contributor
-- **Steven** — Head of Growth, owns the plan
+
+- **Marcus** — Founder/principal, Hader Institute owner
+- **Kham (Khamsouk)** — Japan-based, AI/tech lead, Steven's direct manager
+- **Steven** — Marketing lead, owns go-to-market and 100-day plan
+- **Jesse** — Operations, involved in planning
+- **Cam** — Shared full Optimizer AI strategy document
 
 ## Related
+
+- Hader Growth 100-day plan (separate, also approved by Marcus — marketing ops for Hader)
 - AITOD 30/90-day plan (also approved by Marcus)
-- GTM plan merged into 100-day plan
-- Optimizer AI (new AI company by Marcus + Kham, Steven is marketing lead)
+- AI-driven CRM product planning (Feb 2026 — configurable core, Docker skill containers, $100/seat pricing)
+- RTO AI agent scaling (Mar 2026 — scale from 200 to 500 students)

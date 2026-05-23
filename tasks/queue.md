@@ -1,33 +1,34 @@
-# Hader 100-Day Plan — Research Queue
+# Optimizer AI — 100-Day Go-To-Market Research Queue
 
-**Context:** Hader Growth 100-day plan approved by Marcus (early May 2026). Bonus tied to $10M annual sales target. Steven is Head of Growth.
-**Current state (May 2026):** $17.2k MTD campaign spend projecting to ~$29.7k month-end. $380k–$400k revenue target. 39 sales, $194.6k revenue so far. PMax Cert 4 Youth is top revenue driver. ~50% attribution gap. CRM sync lag of 17 days.
+**Context:** Optimizer AI is a new AI company under Australian Vet Group (Marcus + Kham). Steven joined as Marketing Manager ($100k base + 20% bonus + 1% equity, $10M EBITDA target). Domain: optimizer.ai. Goal: AI-driven RTO handling from inquiry through enrollment to graduation. 100-day plan due 2026-08-07. 12-24 month marketing strategy due day 60 (2026-06-28).
 
-## Phase 1: Baseline & Foundation (Weeks 1–4)
+## Phase 1: Foundation & Market Positioning (Days 1–30)
 
-- [ ] **100-day plan current-state audit** — Map the approved plan (Phase 1: baseline data access, paid baseline, competitor scan, AI automations) against actual progress. Identify which milestones are complete, which are behind, and what's blocking progress. Focus on KPI linkage to bonus.
-- [ ] **Google Ads performance deep-dive** — May spend $12.1k, $108 avg cost per conversion, ~50% attribution gap. Analyse PMax Cert 4 Youth (top performer), Mental Health V2 Phrase (6→14 conversions same spend), and Cert 4 Youth Head Terms AI Max (tripled spend, minimal conversion gain). Identify optimisation opportunities.
-- [ ] **Meta ads performance review** — Provide April 2026 Meta spend data for blended cost-per-enrolment calculation (Google + Meta). Review active ad copy, identify underperformers, and flag creative refresh opportunities. Meta has ~14× volume vs Google.
-- [ ] **CRM sync lag fix analysis** — 17-day lag between lead capture and CRM visibility is blocking real-time attribution and sales follow-up. Document the root cause, assess impact on conversion rates, and propose a fix timeline.
-- [ ] **Google Ads dashboard gap** — Build requirements for a live KPI dashboard showing cost-per-call ($300–$350 target), qualified calls (MQLs/SQLs), and sales calendar fill rate. Current reporting is manual/offline.
+- [ ] **Optimizer AI market positioning research** — Define the category: is it AI for RTO marketing, AI for student enrollment, AI for RTO operations? Research competitors in AI-powered education tech (Study Buddy, Area Ten, EdTech AI platforms). Build a positioning matrix with clear differentiation.
+- [ ] **RTO pain point deep-dive** — Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage (current: 60+ hrs/week on enrollment calls alone).
+- [ ] **Orientation call robot — product-market fit research** — Study existing solutions (voice AI, chatbots, call automation) in the education sector. Research compliance requirements for AI handling student enrollment conversations (ASQA, RTO standards). Size the TAM: how many Australian RTOs could use this?
+- [ ] **AI skill packages for RTO staff — use case validation** — Research: TAZ (Training and Assessment Strategy) reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's the willingness to pay?
+- [ ] **Unified marketing attribution dashboard — competitive landscape** — Research existing attribution tools for education marketing (Google Ads + CRM integration, Zoho dedup solutions). Understand why current tools fail RTOs. Size the product opportunity as a standalone SaaS vs. bundled offering.
 
-## Phase 2: Channel Audit & Scale (Weeks 5–8)
+## Phase 2: Go-To-Market Strategy (Days 31–60)
 
-- [ ] **Channel audit at 3× spend scale** — Model what happens if Hader scales spend from ~$30k/month to ~$90k/month. Identify capacity constraints (sales team, CRM, enrolment processing), CPA inflation risks, and channel-specific ceilings.
-- [ ] **Competitor asymmetry analysis** — Deep comparison vs Open Colleges (ACL), Upskilled (Navitas), Kirana, Training.com.au, ACAP. Focus on: pricing gaps, keyword gaps, creative differentiation, student review presence, payment plan transparency. Build a gap-action matrix.
-- [ ] **Email nurture audit with Krizia** — Review current enquiry-to-enrolment email sequences. Identify drop-off points, gaps in nurturing, and opportunities for AI-powered personalisation. Krizia owns this — coordinate with her.
-- [ ] **AI automation across paid channels** — Identify repetitive tasks in campaign management (bid adjustments, ad copy testing, budget reallocation) that can be automated. Build business case for AI tools (Ralph loops, DSPy/DSP ad copy optimisation).
+- [ ] **GTM channel strategy research** — How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, conferences, content marketing, LinkedIn outbound? Research what's working for EdTech companies targeting education providers.
+- [ ] **Pricing model research** — How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-based? Research pricing for: AI voice agents ($500–$5k/mo), marketing attribution tools ($200–$2k/mo), AI compliance tools. Build a pricing model recommendation.
+- [ ] **Customer acquisition cost modelling** — Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer (sales cycle length, demo costs, trial conversion). Factor into the $10M EBITDA target.
+- [ ] **12-24 month marketing strategy foundation** — Research the market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build the foundation for Steven's 12-24 month marketing strategy (due day 60). Include lead-gen for Optimizer AI itself.
+- [ ] **AI courses market opportunity** — Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. This is both a product line for Hader (revenue) and a credibility play for Optimizer AI (expertise).
 
-## Phase 3: Optimisation & Growth (Weeks 9–14)
+## Phase 3: Product Validation & Early Traction (Days 61–80)
 
-- [ ] **CRO test programme design** — Based on Khamsouk's 30-day CRO plan for Hader course pages. Design a testing framework for landing page optimisation, form friction reduction, and trust signal placement. Prioritise high-impact tests.
-- [ ] **Student reviews page strategy** — Competitor analysis identified this as a gap. Research best practices for RTO student review collection and display. Propose a page structure, collection mechanism, and integration with marketing funnel.
-- [ ] **Payment plan transparency optimisation** — Competitors prominently display weekly costs (e.g., Open Colleges at $60.77/week). Audit Hader's current pricing presentation and recommend changes to increase conversion.
-- [ ] **Retargeting campaign design** — Facebook/Instagram retargeting for students who visited but didn't enquire. Research audience sizing, creative angles, frequency capping, and budget allocation.
+- [ ] **Early customer discovery interviews** — Research the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers). Design interview questions around their biggest pain points and willingness to adopt AI.
+- [ ] **Proof of concept design** — Research what a compelling POC looks like for each product line. For the orientation call robot: what metrics prove value (call handling rate, conversion lift, time saved)? For the attribution dashboard: what reporting gaps does it fill?
+- [ ] **Partnership opportunity scan** — Research potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers?
+- [ ] **Regulatory and compliance research** — ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers. Any licensing constraints for AI agents in education?
 
-## Phase 4: Strategic Positioning (Weeks 15–20+)
+## Phase 4: Scale Planning & 100-Day Deliverable (Days 81–100)
 
-- [ ] **Content marketing hub feasibility** — Competitors (Open Colleges, Upskilled) use career guides, industry outlook articles, and "how to become..." content for organic acquisition. Assess Hader's content gap, resource requirements, and SEO opportunity.
-- [ ] **Corporate partnership opportunity scan** — Open Colleges leverages partnerships with Tesla, Ford, Hungry Jack's, Guide Dogs. Research similar B2B training opportunities for Hader's qualification areas.
-- [ ] **AITOD 30/90-day plan alignment** — Marcus also approved Steven's AITOD plan. Ensure Hader 100-day plan and AITOD plan are synergistic, not competing for resources. Identify shared AI/automation opportunities.
-- [ ] **Agency pivot readiness assessment** — Steven is considering pulling away from Hader growth work to sell WadeVault/AI infrastructure as "second brains for businesses." Assess what Hader work can be productised/automated to free Steven's time for the pivot. Timeline deferred from Sep 2026 — could be sooner.
+- [ ] **1,000 enrollments/month feasibility study** — Research the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA.
+- [ ] **Organic leads strategy research** — Target: 20% of total leads from organic with 25% conversion rate. Research SEO, content marketing, thought leadership strategies for Optimizer AI. What content positions the company as the authority in AI for RTOs?
+- [ ] **Competitive moat analysis** — What's defensible about Optimizer AI's approach? Research: proprietary data advantages, network effects, switching costs, integration depth. What prevents competitors from copying the orientation call robot or attribution dashboard?
+- [ ] **100-day plan synthesis & deliverable preparation** — Research best practices for executive presentations of 100-day plans. Synthesize all research findings into a structured deliverable for Marcus and Kham: market sizing, product recommendations, GTM strategy, pricing, timeline, resource requirements, and KPIs.
+- [ ] **Community services qualification expansion research** — Opportunity identified in community services qualifications for future expansion. Research the market size, competitive landscape, and AI opportunity in community services, mental health, youth work, and AOD courses.
