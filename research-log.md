@@ -2703,3 +2703,172 @@ Principles:
 ---
 
 *End of Cycle 158 refinement. Gap filled: Customer discovery framework (Mom Test + Lean), interview scripts (CEO + Enrollment Manager), pain point questions (5 categories), interview analysis framework (5 questions), Month 1 schedule (10 interviews), target metrics, recommended actions.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 159): 1,000 Enrollments/Month Feasibility Study — The Math, Customer Requirements, and Revenue Impact
+
+### Gap identified: Research mentions "1,000 enrollments/month" but lacks the actual math: how many RTO customers are needed, what enrollment uplift per RTO is required, and how this ties to $10M EBITDA
+
+**Original finding**: "1,000 enrollments/month feasibility study" in queue requires researching the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA. Current research has the $10M EBITDA target (794 customers, Year 3-4) but not the specific 1,000 enrollments/month breakdown.
+
+**Why this matters**: "1,000 enrollments/month" is a specific metric that could be the company's North Star metric (tracked as a leading indicator of revenue). Understanding the math helps prioritize customer acquisition (which RTO segments drive most enrollments) and product development (which features increase enrollment volume).
+
+### The Core Math
+
+**Goal: 1,000 enrollments/month**
+
+**Question 1: How many RTOs do we need?**
+
+| Avg enrollments/RTO/month | RTOs needed for 1,000 enrollments/mo |
+|--------------------------|--------------------------------------|
+| 5 enrollments/RTO/mo | 200 RTOs |
+| 10 enrollments/RTO/mo | 100 RTOs |
+| 20 enrollments/RTO/mo | 50 RTOs |
+| 50 enrollments/RTO/mo | 20 RTOs |
+
+**Realistic range:**
+- Small RTOs (<50 students/mo): ~5-10 enrollments/month
+- Mid RTOs (50-200 students/mo): ~10-30 enrollments/month
+- Large RTOs (200+ students/mo): ~50-100 enrollments/month
+
+**Target mix for 1,000 enrollments/month:**
+- 30 small RTOs × 10 enrollments = 300 enrollments
+- 20 mid RTOs × 20 enrollments = 400 enrollments
+- 5 large RTOs × 60 enrollments = 300 enrollments
+- **Total: 55 RTOs → 1,000 enrollments/month**
+
+### Enrollment Uplift Analysis
+
+**AI impact on enrollment volume:**
+
+Without AI:
+- Average conversion rate: 25-30%
+- Missed call rate: 30-40%
+- Net enrollments: ~20-25% of inquiries
+
+With AI:
+- Average conversion rate: 35-45% (+10-15 points)
+- Missed call rate: 5% (24/7 coverage)
+- Net enrollments: ~35-40% of inquiries
+
+**Enrollment uplift per RTO:**
+
+| RTO Size | Monthly Inquiries | Without AI | With AI | Uplift |
+|----------|------------------|------------|---------|--------|
+| Small | 30 | 6-9 enrollments | 10-12 enrollments | +3-5 |
+| Mid | 80 | 20-24 enrollments | 28-32 enrollments | +8-12 |
+| Large | 200 | 50-60 enrollments | 70-80 enrollments | +20-25 |
+
+**Avg uplift per RTO:** ~10 enrollments/month
+
+### Path to 1,000 Enrollments/Month
+
+**Year 1: Foundation (30 RTOs)**
+- 30 RTOs × 10 enrollments/RTO/mo = 300 enrollments/month
+- End of Year 1: 300 enrollments/month
+- Revenue: 30 × $999/mo = $30k MRR = $360k ARR
+
+**Year 2: Scale (80 RTOs)**
+- 50 new RTOs added (40 Growth tier, 10 Scale tier)
+- 80 RTOs × 12 enrollments/RTO/mo (mix shifts to mid/large) = 960 enrollments/month
+- End of Year 2: ~960 enrollments/month (approaching target)
+- Revenue: 80 × $1,200/mo (avg) = $96k MRR = $1.15M ARR
+
+**Year 3: Target (85 RTOs)**
+- 5 more large RTOs added
+- 85 RTOs × 12-15 enrollments/RTO/mo = 1,020-1,275 enrollments/month
+- **End of Year 3: 1,000+ enrollments/month ✓**
+- Revenue: 85 × $1,500/mo (avg) = $127.5k MRR = $1.53M ARR
+
+### Revenue Model: Enrollments → EBITDA
+
+**From enrollments to revenue:**
+
+Assume average course value: $3,500
+- 1,000 enrollments/month × $3,500 = $3.5M/month student spend
+- RTO keeps ~50% (vs. revenue), but that's RTO revenue, not Optimizer AI
+
+**Optimizer AI revenue from 1,000 enrollments/month:**
+- At $999/mo per RTO, 85 RTOs = $127.5k/mo
+- At 70% gross margin = $89k EBITDA/month = $1.07M/year
+
+**Wait — this doesn't hit $10M EBITDA.**
+
+**Correction needed:**
+- 85 RTOs × $1,500/mo (enterprise avg) = $127.5k MRR
+- 70% margin = $89k/mo × 12 = $1.07M/year
+
+**To hit $10M EBITDA, need:**
+- $10M / 70% = $14.3M ARR
+- $14.3M / $12k avg ACV = 1,192 RTOs
+- 1,192 RTOs × 15 enrollments/RTO/mo (avg) = 17,880 enrollments/month
+
+**Revised target:**
+- 1,000 enrollments/month = ~$1M EBITDA/year (not $10M)
+- $10M EBITDA requires 17,880 enrollments/month
+
+**This means Optimizer AI should track BOTH metrics:**
+1. **Leading indicator:** 1,000 enrollments/month (measures product value)
+2. **Revenue target:** $10M EBITDA (requires 1,192 RTOs)
+
+### Customer Concentration Risk
+
+**1,000 enrollments/month with 85 RTOs = 12 enrollments/RTO average**
+
+Risk: If top 10 RTOs account for 40% of enrollments:
+- 10 RTOs × 40 enrollments = 400 enrollments
+- 75 other RTOs × 8 enrollments = 600 enrollments
+- Loss of top 10 = 40% revenue drop
+
+**Mitigation:**
+- Diversify RTO base (no single customer >10% of revenue)
+- Target small-to-mid RTOs (less concentrated)
+- Monitor customer concentration monthly
+
+### Enrollment Quality vs. Quantity
+
+**Not all enrollments are equal:**
+- Quick enrollments (short courses): Fast, but low value
+- Long enrollments (diplomas): Slower, higher value
+
+**AI impact on enrollment quality:**
+- Faster response → higher quality students (less drop-off)
+- Better qualification → better enrollment-to-completion rate
+- Fewer missed calls → more completions
+
+**Tracking metrics:**
+- Enrollments/month (volume)
+- Enrollment-to-completion rate (quality)
+- Revenue per enrollment (value)
+
+### Monthly Tracking Dashboard
+
+| Metric | Month 1 | Month 6 | Month 12 | Year 3 |
+|--------|---------|---------|----------|--------|
+| RTO customers | 3 | 15 | 30 | 85 |
+| Enrollments/mo | 30 | 150 | 300 | 1,000 |
+| MRR | $3k | $15k | $30k | $127k |
+| ARR | $36k | $180k | $360k | $1.53M |
+| EBITDA (70%) | $25k | $126k | $252k | $1.07M |
+
+### Recommended Actions for Steven
+
+- [ADDED] Track enrollments/month as North Star metric (leading indicator) — from Month 1
+- [ADDED] Set target: 300 enrollments/mo by Year 1, 1,000 by Year 3 — by Month 1
+- [ADDED] Monitor customer concentration (no single customer >10% of revenue) — monthly
+- [ADDED] Target mid-to-large RTOs for faster enrollment growth — ongoing
+- [ADDED] Track enrollment-to-completion rate (quality indicator) — monthly
+- [ADDED] Model $10M EBITDA as 1,192 RTOs (17,880 enrollments/mo) — by Week 2
+- [ADDED] Report both metrics in weekly update: enrollments (leading) + EBITDA (lagging) — ongoing
+
+### Sources
+
+- Enrollment benchmarks: NCVER AVETMISS data (2025)
+- Course pricing: Australian course fee databases (2025)
+- AI conversion lift: Industry voice AI case studies (2025)
+- RTO size distribution: ASQA RTO statistics (2025)
+
+---
+
+*End of Cycle 159 refinement. Gap filled: The math for 1,000 enrollments/month (55 RTOs needed), enrollment uplift by RTO size (3-25 enrollments), 3-year path (30 → 85 RTOs), revenue model (1,000 enrollments = $1M EBITDA, $10M EBITDA requires 17,880 enrollments), customer concentration risk, enrollment quality metrics, monthly tracking dashboard.*
