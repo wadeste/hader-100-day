@@ -536,3 +536,158 @@ Research mentions "3,800 RTOs in Australia" and general market opportunity but l
 ---
 
 *End of Cycle 190 refinement. Gap filled: TAM ($67M annual tech spend), SAM (600-800 RTOs), SOM (55-250 RTOs in 3 scenarios), RTO revenue benchmarks by size tier, AI adoption curve (2024-2028), penetration scenarios for $10M ARR, B2B SaaS comparable market validation, realistic vs optimistic timelines. 8 recommended actions for Steven.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 191): AI Tools Benchmarking — VAPI, Bland AI, Air.ai, Retell, Hyro vs. Optimizer AI Feature Comparison and Build vs. Buy Decision Framework
+
+### Gap identified
+Research mentions "VAPI, Aircall AI, voice AI platforms" but lacks specific feature comparison, pricing benchmarks, technical limitations, and build vs. buy decision framework. Optimizer AI needs to decide: build on top of existing platforms or build from scratch?
+
+**Original finding**: "Orientation call robot — product-market fit research" (Cycle 123) identifies voice AI as core technology but doesn't benchmark specific platforms, compare pricing, or evaluate integration complexity.
+
+**Why this matters**: The choice of AI voice platform determines: (1) time to market, (2) ongoing costs, (3) technical debt, (4) competitive differentiation. Building on the wrong platform wastes 6-12 months. The right platform choice accelerates time-to-revenue.
+
+### Voice AI Platform Comparison Matrix
+
+| Platform | Best For | Pricing Model | Min Monthly | Pros | Cons | RTO Fit |
+|----------|----------|---------------|-------------|------|------|--------|
+| **VAPI** | Developers, custom workflows | Per-minute + markup | $250/mo | Full control, great docs, Webhook flexibility | Requires dev setup, no native CRM | ★★★★ |
+| **Bland AI** | Enterprise, high volume | Per-minute | $500/mo | Human-like voice, 100+ languages, enterprise SLAs | Expensive, less customizable | ★★★ |
+| **Retell AI** | Call centers, mid-market | Per-minute + seat | $200/mo | Turnkey bot builder, 11+ integrations, analytics | Less flexibility for complex flows | ★★★★ |
+| **Air.ai** | Outbound sales | Per-minute | $500/mo | 10-minute long calls, infinite memories, pre-built templates | Outbound focus, less inbound | ★★ |
+| **Hyro** | Enterprise, complex integrations | Custom enterprise | $2K+/mo | No-code builder, 40+ integrations, enterprise features | Expensive, overkill for SMB | ★★ |
+| **Play AI** | Voice cloning, custom voices | Per-character | $100/mo | 120+ voices, voice cloning, affordable | Not a full agent platform | ★★★ |
+| **ElevenLabs** | Voice synthesis | Per-character | $30/mo | Best voice quality (Rachel), voice cloning | Not an agent, just TTS | ★★★ |
+
+### Recommended Stack for Optimizer AI
+
+**Primary: VAPI** (as currently in use) + **ElevenLabs** (voice synthesis):
+- VAPI provides the agent infrastructure, webhook handling, and phone number management
+- ElevenLabs provides the voice quality (Rachel or similar)
+- This combination gives: quality voice + flexible agent logic + reasonable cost
+
+**Alternative for faster launch (if VAPI is too complex): Retell AI**
+- Turnkey bot builder with 11+ integrations (including Zoho)
+- Better for non-technical team members
+- Slightly higher per-minute cost but faster time-to-market
+- Best if Kham can't build on VAPI within timeline
+
+### Per-Call Cost Modeling
+
+**Based on typical RTO call patterns** (avg 4-6 min, 500 calls/month):
+
+| Platform | Voice Quality | Cost/Min | Avg Call Length | Monthly Calls | Monthly Cost | Annual Cost |
+|----------|--------------|----------|-----------------|---------------|--------------|-------------|
+| **VAPI + ElevenLabs** | ★★★★★ | $0.006 + $0.03 | 5 min | 500 | $90 | $1,080 |
+| **Bland AI** | ★★★★ | $0.05 | 5 min | 500 | $125 | $1,500 |
+| **Retell AI** | ★★★★ | $0.035 | 5 min | 500 | $87.50 | $1,050 |
+| **Air.ai** | ★★★ | $0.05 | 5 min | 500 | $125 | $1,500 |
+
+**COST INSIGHT**: Voice platform cost is NOT the major expense. The real costs are:
+1. Engineering time to build flows (weeks to months)
+2. Phone number + carrier costs (~$50-100/month)
+3. CRM integration (Zoho API costs)
+4. Training data collection (time + effort)
+
+**Platform cost per customer: <$100/month — negligible vs. $499-1,999/month revenue**
+
+### Build vs. Buy Decision Framework
+
+**What to build (differentiators)**:
+- RTO-specific call flows (disclosure statements, USI collection, orientation booking)
+- ASQA compliance documentation (recording, transcripts, audit export)
+- Zoho CRM integration (custom for RTO enrollment data)
+- Customer success features (health scoring, retention AI)
+
+**What to buy/partner (commodities)**:
+- Voice synthesis (ElevenLabs — best quality, reasonable price)
+- Phone carrier/numbers (VAPI, Twilio — commodity)
+- Basic analytics (VAPI dashboard — sufficient)
+- Transcription (VAPI built-in — good enough)
+
+**Build from scratch (never)**:
+- Voice AI models (requires billions in training)
+- Phone network (requires telecom infrastructure)
+- General NLU/NLP (requires massive datasets)
+
+### Competitor AI Tool Analysis
+
+**How competitors likely stack up**:
+
+| Competitor | Likely Platform | Rationale | Threat Level |
+|------------|-----------------|-----------|---------------|
+| **Study Buddy** | Custom build + VAPI | Mid-sized EdTech, can afford dev | Medium (3-6 months behind) |
+| **Area Ten** | Generic AI (no voice) | Marketing agency, not AI-first | Low (different product) |
+| **DIY RTOs** | VAPI + manual setup | No resources, basic flows | Low (fragile, audit risk) |
+| **New entrant** | Retell or Bland | Faster launch, less control | Medium (6-12 months) |
+| **International** | Generic (US/EU) | Don't know ASQA | Low (compliance gap) |
+
+### Recommended Technical Architecture
+
+```
+Optimizer AI Voice Stack (recommended):
+
+┌─────────────────────────────────────────────────┐
+│                  VAPI (Agent Layer)              │
+│  - Call orchestration                           │
+│  - Webhook handling                             │
+│  - Session management                           │
+│  - Transcript generation                        │
+├─────────────────────────────────────────────────┤
+│               ElevenLabs (Voice)                │
+│  - Rachel voice (or custom clone)               │
+│  - Low latency                                  │
+│  - Natural inflection                           │
+├─────────────────────────────────────────────────┤
+│               Zoho CRM (Data)                   │
+│  - Enrollment records                           │
+│  - USI collection                               │
+│  - Orientation booking                          │
+├─────────────────────────────────────────────────┤
+│              Optimizer AI (Logic)               │
+│  - RTO-specific flows                           │
+│  - ASQA compliance docs                         │
+│  - Customer success features                    │
+└─────────────────────────────────────────────────┘
+```
+
+**Why this stack**:
+1. VAPI gives full control without enterprise pricing
+2. ElevenLabs gives premium voice quality at commodity cost
+3. Zoho integration is already built (existing relationship)
+4. Optimizer AI's value is in the RTO logic layer, not the voice layer
+
+### Action: Kham's Decision Point
+
+**If Kham can build VAPI flows in <8 weeks**: Use VAPI + ElevenLabs (full control, lower cost)
+**If Kham needs faster launch**: Use Retell AI (turnkey, 2-4 weeks to first call)
+**If Kham wants enterprise features without enterprise cost**: Use VAPI + custom tooling
+
+**Recommendation**: Start with VAPI + ElevenLabs. If timeline slips beyond Month 3, pivot to Retell as fallback.
+
+### Recommended Actions for Steven
+
+- [ADDED] Confirm Kham's preferred platform (VAPI vs Retell) by Week 2 — critical path decision
+- [ADDED] Get VAPI pricing locked in (confirm $250/mo floor, negotiate based on volume) — by Week 2
+- [ADDED] Test ElevenLabs Rachel voice quality with 5 sample RTO calls — by Week 3
+- [ADDED] Build cost model: platform costs + engineering time vs. revenue per customer — by Month 1
+- [ADDED] Document build vs. buy decisions in technical architecture doc — by Month 1
+- [ADDED] Create competitor tech stack tracking (what Study Buddy uses, etc.) — ongoing
+- [ADDED] Evaluate Retell AI as fallback if VAPI timeline slips — by Month 2
+- [ADDED] Set up VAPI monitoring dashboard (cost per call, avg duration, containment rate) — by Month 2
+- [ADDED] Benchmark voice quality quarterly (human review of 20 random calls) — from Month 3
+
+### Sources
+
+- VAPI pricing: vapi.ai/pricing (2025)
+- ElevenLabs pricing: elevenlabs.io/pricing (2025)
+- Retell AI pricing: retellai.com/pricing (2025)
+- Bland AI pricing: bland.ai/pricing (2025)
+- Air.ai features: air.ai (2025)
+- Hyro AI enterprise pricing: hyro.ai (2025)
+- Voice AI comparison: techcrunch.com (AI voice agent roundup 2025)
+
+---
+
+*End of Cycle 191 refinement. Gap filled: Voice AI platform comparison (7 platforms), recommended stack (VAPI + ElevenLabs), per-call cost modeling (<$100/month), build vs. buy framework (differentiators vs commodities), competitor tech stack analysis, technical architecture diagram, Kham decision point, 9 recommended actions for Steven.*
