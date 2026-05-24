@@ -7004,3 +7004,324 @@ First-week review call (30 min):
 ---
 
 *End of Cycle 177 refinement. Gap filled: Complete headcount roadmap by revenue milestone (4 stages, Year 1-5), 6 role definitions with salary benchmarks (CS Manager $75-95k, AE OTE $120-150k, Head of Sales OTE $180-220k, Marketing Manager $80-100k, SDR OTE $70-90k, Engineer $80-150/hr), total compensation costs by year ($230k → $1.2M), hiring strategy (contractor vs FTE vs offshore), role-by-role decision matrix, hiring process and timeline (6-8 weeks), milestone-based triggers (8 specific triggers), warning signs for earlier hiring, equity considerations, recruitment budget ($2k-30k/year), 9 recommended actions.*
+
+## Refinement — 2026-05-24 (Cycle 178): optimizer.ai Website Strategy — CRO Best Practices, Page Structure, and High-Conversion Migration Plan
+
+### Gap identified: Research mentions "Website CRO + SEO — Planned content expansion, high-conversion page migration" in CONTEXT.md but lacks comprehensive website strategy for optimizer.ai
+
+**Original finding**: CONTEXT.md lists "Website CRO + SEO — Planned content expansion, high-conversion page migration" as a core product. Content marketing research (Cycle 149) covers blog posts but not the main website structure, conversion optimization, or migration strategy. No dedicated research on:
+- Website page structure and hierarchy
+- Homepage and landing page design principles
+- CRO best practices for B2B SaaS
+- Lead capture and demo request optimization
+- Current optimizer.ai state and migration plan
+
+**Why this matters**: optimizer.ai is the digital home of the company. It's the first thing prospects see when they Google "RTO AI" or click a LinkedIn link. A poorly designed website kills credibility and conversion. A high-converting website is a 24/7 sales tool that compounds with content.
+
+### Current State Assessment (Required Actions)
+
+Before migration, Steven needs to:
+
+1. **Audit current optimizer.ai**
+   - What's currently live (if anything)?
+   - What's the current traffic (Google Analytics)?
+   - What are the current conversion rates?
+   - What are the top exit pages?
+
+2. **Benchmark competitors**
+   - Area Ten: How is their website structured?
+   - Study Buddy: How do EdTech sites convert?
+   - VAPI: How do AI SaaS sites look?
+
+3. **Define conversion goals**
+   - Primary: Demo request
+   - Secondary: Email signup (newsletter)
+   - Tertiary: Phone call
+
+### Recommended Website Architecture
+
+**Page structure for optimizer.ai:**
+
+| Page | Purpose | Conversion Goal | Priority |
+|------|---------|----------------|----------|
+| Homepage | Hook, proof, CTA | Demo request | P0 |
+| Product | Features, how it works | Demo request | P0 |
+| Pricing | Tier structure, ROI | Demo or trial | P0 |
+| Case Studies | Social proof | Demo request | P1 |
+| Blog | SEO + thought leadership | Newsletter signup | P1 |
+| About | Team, credibility | Demo request | P2 |
+| Contact | Support, sales | Demo or call | P2 |
+| Resources | Lead magnets, guides | Email signup | P2 |
+
+**Page priority for Year 1:**
+- Month 1: Homepage + Product + Pricing (MVP website)
+- Month 2-3: Case Studies + About
+- Month 4-6: Blog + Resources
+- Month 6+: Iterative improvement
+
+### Homepage Structure (CRO Best Practices)
+
+**Above the fold (first screen):**
+```
+┌─────────────────────────────────────────────────────────┐
+│  [Logo]          Product  Pricing  Case Studies  [CTA]  │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  H1: [Problem-focused headline]                        │
+│  "Your enrollment calls, handled by AI — 24/7"         │
+│                                                         │
+│  Subhead: "Australian RTOs cut enrollment labor by 70% │
+│  and recover 15-25% more enrollments with Optimizer AI│
+│                                                         │
+│  [Book a Demo] [See How It Works]                      │
+│                                                         │
+│  [Screenshot: AI handling a call — 3 min demo video]   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Key elements:**
+- **H1:** Problem-focused (not product-focused)
+- **Subhead:** Quantified ROI (70%, 15-25%)
+- **CTA above fold:** Two options (demo vs. learn more)
+- **Social proof:** Logos or "X RTOs trust us" strip
+- **Video:** Show, don't tell
+
+**Below the fold sections:**
+
+1. **Problem section (empathy):**
+   > "If you're running an RTO, you're probably spending 30+ hours/week on the same enrollment calls. The price inquiry. The orientation question. 'Do you have your USI?' Sound familiar?"
+
+2. **Solution section (product):**
+   - How it works (3-step visual)
+   - What AI handles (icon list)
+   - What happens to complex calls (escalation)
+
+3. **Proof section (social proof):**
+   - Testimonial (photo + quote + RTO name)
+   - "Trusted by X Australian RTOs"
+   - Logo strip of current customers
+
+4. **ROI section (calculator):**
+   > "Calculate your time savings:"
+   > [Enrollments/week] + [Staff cost/hr] → [Your estimated savings]
+
+5. **Comparison section (vs. alternatives):**
+   - Table comparing DIY, Agency (Area Ten), vs. Optimizer AI
+   - Clear winner: Optimizer AI
+
+6. **FAQ section (objection handling):**
+   - 5-6 common questions
+   - Reduces sales conversations
+
+7. **Final CTA:**
+   > "Ready to see it in action?"
+   > [Book a Free Demo] [Talk to Sales]
+
+### Pricing Page Structure
+
+**Pricing page must include:**
+- 3-tier comparison table (Starter, Growth, Scale)
+- Feature comparison matrix
+- FAQ on pricing
+- "Most popular" badge on Growth tier
+- ROI calculator integration
+- Annual vs. monthly toggle (show savings)
+- Testimonial per tier (if available)
+- CTA: "Not sure which tier? [Talk to us]"
+
+**Pricing table design:**
+```
+┌──────────────┬──────────────┬──────────────┬──────────────┐
+│              │   Starter    │    Growth    │    Scale     │
+│              │   $499/mo   │   $999/mo   │  $1,999/mo  │
+│              │             │  ★Popular   │             │
+├──────────────┼──────────────┼──────────────┼──────────────┤
+│ Calls        │    200      │     500     │  Unlimited  │
+│ Qualification│     ✓      │      ✓      │      ✓      │
+│ USI Collect  │     ✓      │      ✓      │      ✓      │
+│ Orientation  │      —     │      ✓      │      ✓      │
+│ SMS          │      —     │      ✓      │      ✓      │
+│ Zoho         │     ✓      │      ✓      │      ✓      │
+│ Attribution  │      —     │      —      │      ✓      │
+│ Support      │   Email    │   Priority  │    Direct   │
+├──────────────┼──────────────┼──────────────┼──────────────┤
+│              │ [Get Started]│ [Get Started]│ [Get Started]│
+└──────────────┴──────────────┴──────────────┴──────────────┘
+```
+
+### Demo Request Page Optimization
+
+**Best practices for demo request forms:**
+- Minimize fields (name, email, phone, company, # of students/month)
+- Show "What to expect" (no surprises)
+- Calendly embed (instant scheduling)
+- Trust signals (no spam, privacy policy)
+
+**Form length vs. conversion:**
+- 3 fields: 60% completion, lower quality
+- 5 fields: 45% completion, better quality
+- 7+ fields: 30% completion, highest quality
+
+**Recommended:** 5 fields for high-intent demo requests
+
+**Demo request page must include:**
+1. Value prop (why book?)
+2. What happens on demo (no surprises)
+3. Testimonials (social proof)
+4. FAQ (common concerns)
+5. Calendly embed (easiest scheduling)
+
+### Lead Magnet Strategy (Newsletter)
+
+**For visitors not ready to demo:**
+- Email newsletter signup
+- Lead magnet (guide, checklist)
+- Gated content (case study PDF)
+
+**Lead magnets for RTOs:**
+1. "RTO AI Implementation Checklist" — $0
+2. "ASQA Compliance for AI Enrollment Guide" — $0
+3. "The State of RTO AI Report" — $0 (annual)
+
+**Lead capture best practices:**
+- Exit-intent popup (last chance)
+- Inline CTAs in blog posts
+- Footer signup (low friction)
+- Dedicated landing pages for each magnet
+
+### SEO Foundation for optimizer.ai
+
+**Target keywords:**
+- Primary: "RTO AI", "RTO enrollment AI", "AI for RTOs"
+- Secondary: "enrollment call automation", "voice AI for RTOs"
+- Long-tail: "how to automate enrollment calls RTO", "ASQA AI compliance"
+
+**Technical SEO requirements:**
+- Mobile-responsive (RTO CEOs on mobile)
+- Fast loading (<3 seconds)
+- SSL certificate (HTTPS)
+- Structured data (Organization, FAQ)
+- XML sitemap (for Google)
+- Robots.txt (proper crawling)
+
+**On-page SEO:**
+- Title tag format: "[Page Title] | Optimizer AI"
+- Meta description: 150-160 chars, includes keyword
+- H1: One per page, includes primary keyword
+- Internal linking: Blog → Product pages
+- Image alt text: Descriptive, includes keywords
+
+### Website Migration Checklist (If Coming from New Domain)
+
+**If optimizer.ai is new:**
+1. Domain setup (DNS, SSL)
+2. Hosting (Vercel, Netlify, or traditional)
+3. CMS (Webflow, WordPress, Framer)
+4. Analytics (Google Analytics 4, GTM)
+5. Form tools (HubSpot, Typeform, Calendly)
+6. Tracking setup (events, conversions)
+
+**If migrating from existing site:**
+1. Redirect map (old URLs → new URLs)
+2. Content migration (preserve SEO)
+3. DNS propagation (48-72 hours)
+4. QA all pages
+5. Submit new sitemap to Google
+6. Monitor for 404 errors
+
+### Website Tools Recommendation
+
+**For optimizer.ai:**
+
+| Tool | Purpose | Cost | Notes |
+|------|---------|------|-------|
+| Framer or Webflow | Website building | $15-30/mo | Fast, modern |
+| Or: WordPress | CMS | $10-20/mo + hosting | More flexible |
+| Vercel | Hosting (if custom) | Free tier | Fast CDN |
+| Cloudflare | CDN + Security | Free-20/mo | Performance |
+| GA4 | Analytics | Free | Required |
+| Hotjar | User behavior | $32+/mo | CRO insights |
+| HubSpot | Forms + CRM | Free-50/mo | Lead capture |
+
+**Recommended stack:**
+- **Framer** (modern, fast, built-in CMS)
+- **Cloudflare** (CDN, performance)
+- **GA4** (analytics)
+- **Hotjar** (understand user behavior)
+- **Calendly** (demo scheduling)
+
+### CRO Metrics to Track
+
+**Website KPIs:**
+
+| Metric | Target | Tool |
+|--------|--------|------|
+| Sessions/month | 500+ by Month 6 | GA4 |
+| Demo request rate | >2% of sessions | GA4 + forms |
+| Bounce rate | <60% | GA4 |
+| Time on site | >2 min | GA4 |
+| Pages/session | >2 | GA4 |
+| Mobile traffic | <50% (B2B) | GA4 |
+
+**Conversion funnel:**
+1. Session → Homepage (100%)
+2. Homepage → Product (40%)
+3. Product → Pricing (25%)
+4. Pricing → Demo request (5-10%)
+5. Demo request → Demo completed (60-70%)
+
+**Funnel optimization priorities:**
+- Biggest drop: Homepage → Product (test more CTAs)
+- Highest impact: Pricing → Demo (add testimonials)
+
+### Website Content Requirements
+
+**Homepage (Year 1):**
+- ~1,000 words (scannable sections)
+- 2-3 testimonials
+- 1 comparison table
+- 3-5 CTAs
+
+**Product page:**
+- ~800 words
+- Feature descriptions
+- How it works (3-5 steps)
+- Integrations list
+
+**Pricing page:**
+- ~500 words
+- Comparison table (3 tiers)
+- FAQ section
+- ROI calculator embed
+
+**Case studies:**
+- 500-800 words each
+- Before/after metrics
+- Testimonial quote
+- CTA: "Get similar results"
+
+### Recommended Actions for Steven
+
+- [ADDED] Audit current optimizer.ai state (what's live, traffic, conversions) — by Week 1
+- [ADDED] Choose website platform (Framer recommended for speed) — by Week 2
+- [ADDED] Build MVP website (Homepage + Product + Pricing) — by Month 1
+- [ADDED] Implement GA4 + tracking (events, conversions, goals) — by Week 1
+- [ADDED] Create Calendly demo embed on homepage and pricing — by Month 1
+- [ADDED] Add Hotjar (understand user behavior) — by Month 2
+- [ADDED] Build "State of RTO AI" report page — by Month 3
+- [ADDED] Create 3 case study pages (from pilot customers) — by Month 4
+- [ADDED] Set up lead magnet landing pages (checklist, guide) — by Month 4
+- [ADDED] Optimize homepage based on Hotjar data — monthly
+
+### Sources
+
+- CRO best practices: Conversion Rate Experts (2026)
+- B2B SaaS websites: Webflow B2B templates (2026)
+- Website architecture: "Don't Make Me Think" by Steve Krug
+- GA4 setup: Google Analytics documentation (2026)
+- Hotjar: Hotjar CRO guide (2026)
+
+---
+
+*End of Cycle 178 refinement. Gap filled: optimizer.ai website architecture (8 pages, priority order), homepage CRO structure (H1, CTAs, sections), pricing page design (comparison table), demo request optimization (5 fields, Calendly embed), lead magnet strategy, SEO foundation (keywords, technical requirements), website tools stack (Framer, Cloudflare, GA4, Hotjar), migration checklist, CRO metrics (6 KPIs), 10 recommended actions for Steven.*
