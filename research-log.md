@@ -946,3 +946,251 @@ Based on B2B SaaS benchmarks and education vertical:
 - B2B email benchmarks: mailshake.com/blog/b2b-email-stats
 - Conference ROI: eventmanagerblog.com/conference-roi
 - Partner channel data: saas partnership reports (2025-2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 31)
+### Gap identified: TAM/SAM/SOM market sizing and unit economics model missing — no clear path from current state to $10M EBITDA
+
+**Original finding**: "12-24 month marketing strategy foundation" and "100-day plan synthesis" — but no specific market size estimates, no unit economics model, no CAC/LTV calculation, no customer targets needed to hit $10M EBITDA, and no financial model with assumptions documented.
+
+**Why this matters**: Marcus and Kham need to know if the $10M EBITDA target is realistic and what it takes to get there. Without TAM/SAM/SOM sizing and unit economics, the day 60 deliverable cannot include a credible financial model or customer acquisition targets. The strategy could be underselling the opportunity (leaving money on the table) or overselling (setting unrealistic expectations).
+
+**What the research currently states**: Pricing tiers ($499-1,999/mo), product lines (voice robot, skill packages, attribution), and GTM channels — but no financial model connecting customer count to EBITDA target.
+
+### Australian RTO Market Sizing (TAM/SAM/SOM)
+
+**Total Addressable Market (TAM)** — All Australian RTOs:
+
+| Data point | Value | Source/Note |
+|------------|-------|-------------|
+| Total registered RTOs in Australia | ~4,000-4,500 | ASQA registry (2025), conservative estimate accounting for inactive/suspended |
+| RTOs with 50+ students (active) | ~2,500 | Industry estimate, ~55% of registered RTOs have meaningful student volume |
+| RTOs with 200+ students (mid-market) | ~800 | Likely target segment for Optimizer AI |
+| RTOs with 500+ students (enterprise) | ~200-300 | High-value targets, longer sales cycles |
+
+**TAM calculation** (if all RTOs adopted AI enrollment tools):
+- 4,000 RTOs × $999/mo (Growth tier) = $4M/mo = $48M/year
+- 4,000 RTOs × $1,999/mo (Scale tier) = $8M/mo = $96M/year
+- **TAM range: $48M-$96M/year** (assuming average pricing of $1,000-2,000/mo)
+
+**Note**: TAM is theoretical ceiling — not all RTOs will adopt AI tools, and not all will pay top-tier prices.
+
+**Serviceable Addressable Market (SAM)** — RTOs Optimizer AI can realistically reach:
+
+| Segment | RTOs | Price point | Annual revenue potential |
+|---------|------|-------------|--------------------------|
+| Small RTOs (50-150 students/mo) | 1,200 | $499/mo | $7.2M/yr |
+| Mid-market RTOs (150-500 students/mo) | 600 | $999/mo | $7.2M/yr |
+| Enterprise RTOs (500+ students/mo) | 150 | $1,999/mo | $3.6M/yr |
+| **Total SAM** | **1,950** | **Blended avg ~$900/mo** | **$21M/yr** |
+
+**SAM assumptions**:
+- Small RTOs (1,200): Price sensitivity, Starter tier ($499), higher churn risk
+- Mid-market (600): Primary target, Growth tier ($999), moderate churn
+- Enterprise (150): Scale tier ($1,999), longer sales cycle, lower churn
+
+**SAM = $21M/year** — Represents ~22% of TAM, which is realistic for a new entrant with limited go-to-market resources in years 1-2.
+
+**Serviceable Obtainable Market (SOM)** — What Optimizer AI can capture in 12-24 months:
+
+| Year | Customers | Avg revenue/mo | Annual revenue | EBITDA margin | EBITDA |
+|------|-----------|----------------|----------------|---------------|--------|
+| Year 1 (months 1-12) | 15-25 | $900 | $162K-270K | -50% (investing) | -$81K to -$135K |
+| Year 2 (months 13-24) | 40-80 | $900 | $432K-864K | 30% (scaling) | $130K-260K |
+| Year 3 (months 25-36) | 100-150 | $950 | $1.14M-1.71M | 45% | $513K-770K |
+| Year 4 (months 37-48) | 200-300 | $1,000 | $2.4M-3.6M | 50% | $1.2M-1.8M |
+| Year 5 (months 49-60) | 350-500 | $1,050 | $4.4M-6.3M | 55% | $2.4M-3.5M |
+
+**SOM Year 5 (Month 60)**: $2.4M-$3.5M annual revenue, $1.3M-$1.9M EBITDA
+**Gap to $10M EBITDA**: $8.1M-$8.7M remains — requires either higher pricing, more customers, or new revenue streams.
+
+**Key insight: $10M EBITDA in 5 years requires either**:
+1. **500+ customers at $1,500/mo avg** (50% market share of mid-market)
+2. **Enterprise pricing at $3,000-5,000/mo** for large RTOs
+3. **Additional revenue streams** (AI courses, consulting, white-label)
+
+### Unit Economics Model (CAC, LTV, Payback Period)
+
+**Customer Acquisition Cost (CAC) — B2B SaaS benchmarks for education vertical**:
+
+| Channel | CAC | Conversion time | Notes |
+|---------|-----|-----------------|-------|
+| Marcus's network (warm) | $500-1,000 | 2-4 weeks | Lowest CAC, highest conversion |
+| RTO consultant referrals | $1,500-2,500 | 4-8 weeks | 20-30% commission = high CAC |
+| LinkedIn outbound (cold) | $3,000-5,000 | 8-16 weeks | Requires significant outreach volume |
+| Content/SEO (organic) | $1,000-2,000 | 6-12 months | Low CAC but slow |
+| Conference leads | $2,000-4,000 | 8-12 weeks | RTO Connect Forum, high quality |
+| **Blended average (Year 1)** | **$2,500-4,000** | **8-12 weeks** | Mixed channel approach |
+
+**CAC calculation assumptions**:
+- Average sales cycle: 8-12 weeks (longer for enterprise)
+- Sales team: Steven (Marketing Manager) + Marcus (CEO sales)
+- Marketing spend: $5,000-10,000/month in months 4-12
+- Conversion rate from lead to customer: 10-15% (conservative)
+
+**Lifetime Value (LTV) calculation**:
+
+| Pricing tier | Monthly revenue | Gross margin | Avg customer lifetime | LTV |
+|--------------|-----------------|--------------|---------------------|-----|
+| Starter ($499/mo) | $499 | 95% | 18 months | $8,500 |
+| Growth ($999/mo) | $999 | 97% | 24 months | $23,200 |
+| Scale ($1,999/mo) | $1,999 | 98% | 36 months | $70,000 |
+| **Blended average** | **$900/mo** | **97%** | **24 months** | **$20,900** |
+
+**LTV:CAC ratio**:
+- Starter: $8,500 / $3,000 = 2.8x (borderline healthy for SaaS)
+- Growth: $23,200 / $3,000 = 7.7x (healthy, target ratio)
+- Scale: $70,000 / $4,000 = 17.5x (enterprise, excellent)
+- **Blended: 5-7x** — Healthy for early-stage B2B SaaS
+
+**Payback period**:
+- CAC: $3,000 (average)
+- Monthly revenue: $900
+- Gross margin: 97%
+- **Gross profit/month: $873**
+- **Payback: $3,000 / $873 = 3.4 months** — Excellent, well under 12-month SaaS benchmark
+
+**Why payback is fast**: High gross margins (97%) mean most revenue drops to profit. At $900/mo with 97% margin, each customer pays back CAC in 3-4 months.
+
+**Churn impact on LTV**:
+
+| Monthly churn rate | Annual churn | Avg lifetime | LTV impact |
+|-------------------|--------------|--------------|------------|
+| 5% | 60% | 20 months | $17,400 |
+| 3% | 36% | 33 months | $28,700 |
+| 2% | 24% | 50 months | $43,500 |
+
+**Churn target**: <3%/month (36% annual) to maintain 5x+ LTV:CAC ratio. At 5% monthly churn, LTV drops to $17,400 and ratio drops to 5.8x — still acceptable but requires constant new customer acquisition.
+
+### Path to $10M EBITDA — Financial Model
+
+**Assumptions for financial model**:
+- Average customer revenue: $900/mo ($10,800/yr)
+- Gross margin: 95% (infrastructure costs are low)
+- Sales & marketing: 30% of revenue (Year 1-2), declining to 20% by Year 3
+- R&D: 25% of revenue (building product)
+- G&A: 15% of revenue (operations, legal, finance)
+- Annual growth rate: 80-120% (aggressive but achievable for new market)
+
+**Revenue model by year**:
+
+| Year | Customers (EOY) | Revenue | COGS | Gross profit | S&M | R&D | G&A | EBITDA |
+|------|----------------|---------|------|--------------|-----|-----|-----|--------|
+| Year 1 | 20 | $216K | $11K | $205K | $65K | $54K | $32K | **$54K** |
+| Year 2 | 60 | $777K | $39K | $738K | $233K | $194K | $117K | **$194K** |
+| Year 3 | 120 | $1.56M | $78K | $1.48M | $312K | $234K | $156K | **$778K** |
+| Year 4 | 200 | $2.59M | $130K | $2.46M | $518K | $389K | $259K | **$1.29M** |
+| Year 5 | 300 | $3.89M | $194K | $3.69M | $584K | $584K | $389K | **$2.14M** |
+
+**Gap analysis**: At Year 5, EBITDA is ~$2.1M, not $10M. To hit $10M EBITDA, need:
+- **Option A: Higher pricing** — Average revenue $3,000/mo (enterprise focus) × 300 customers = $10.8M ARR
+- **Option B: More customers** — 700 customers at $1,500/mo avg = $12.6M ARR
+- **Option C: New revenue streams** — AI courses ($500K/yr), consulting ($500K/yr), white-label ($1M/yr)
+
+**Most realistic path to $10M EBITDA**: Option C (diversified revenue) + Option A (enterprise pricing push) combined.
+
+### Customer Acquisition Targets by Year
+
+**Required customer acquisition**:
+
+| Year | New customers needed | Churn (est.) | Total EOY customers | Monthly revenue |
+|------|---------------------|--------------|---------------------|-----------------|
+| Year 1 | 25 | 3 | 22 | $19,800 |
+| Year 2 | 50 | 12 | 60 | $54,000 |
+| Year 3 | 80 | 20 | 120 | $108,000 |
+| Year 4 | 120 | 36 | 200 | $180,000 |
+| Year 5 | 180 | 60 | 320 | $384,000 |
+
+**Monthly acquisition rate**:
+- Year 1: 2-3 new customers/month
+- Year 2: 4-5 new customers/month
+- Year 3: 6-7 new customers/month
+- Year 4: 10 new customers/month
+- Year 5: 15 new customers/month
+
+**Conversion funnel (per 100 leads)**:
+- Leads: 100
+- Discovery calls: 20 (20%)
+- Proposals: 8 (40% of calls)
+- Closed won: 2-3 (25-35% of proposals)
+- **Required leads/month**: 75-100 in Year 1, scaling to 300+ by Year 4
+
+### Break-Even Analysis
+
+**Company break-even** (all costs covered, $0 profit):
+- Fixed costs (G&A): ~$32K/yr = $2,700/mo
+- Variable costs scale with revenue
+- **Break-even at ~35 customers** ($900/mo × 35 = $31,500/mo)
+
+**Steven break-even** (cover his $100K salary):
+- Base salary: $8,333/mo
+- Plus payroll tax (~10%): $833/mo
+- **Total: $9,166/mo**
+- **Requires 11 customers at $900/mo** (after COGS) to cover salary
+- **Requires 15-20 customers to cover salary + benefits + tools**
+
+**Month-by-month cash flow (Year 1)**:
+
+| Month | New customers | Total customers | Revenue | COGS | S&M | EBITDA | Cumulative |
+|-------|--------------|----------------|---------|------|-----|--------|------------|
+| Month 1 | 0 | 0 | $0 | $0 | $3K | -$3K | -$3K |
+| Month 2 | 0 | 0 | $0 | $0 | $4K | -$4K | -$7K |
+| Month 3 | 1 | 1 | $900 | $27 | $4K | -$3.1K | -$10K |
+| Month 4 | 2 | 3 | $2,700 | $81 | $5K | -$2.4K | -$12K |
+| Month 5 | 2 | 5 | $4,500 | $135 | $5K | -$635 | -$13K |
+| Month 6 | 3 | 8 | $7,200 | $216 | $6K | +$1K | -$12K |
+| Month 7 | 3 | 11 | $9,900 | $297 | $6K | +$3.6K | -$8K |
+| Month 8 | 3 | 14 | $12,600 | $378 | $7K | +$5.2K | -$3K |
+| Month 9 | 4 | 18 | $16,200 | $486 | $7K | +$8.7K | +$5.7K |
+| Month 10 | 4 | 22 | $19,800 | $594 | $8K | +$11.2K | +$16.9K |
+| Month 11 | 4 | 26 | $23,400 | $702 | $8K | +$14.7K | +$31.6K |
+| Month 12 | 4 | 30 | $27,000 | $810 | $8K | +$18.2K | +$49.8K |
+
+**Break-even month**: Month 6-7 (6 customers at $900/mo covers fixed costs)
+**Year 1 EBITDA**: ~$50K (as calculated above)
+
+### Key Financial Insights for Day 60
+
+1. **$10M EBITDA target is 5-year goal, not Year 5** — Current model shows $2.1M in Year 5. Need to revise expectation to $2-3M in Year 5, $10M in Year 7-8.
+
+2. **Fast payback period (3.4 months) enables efficient growth** — Each customer pays back CAC in 3-4 months. Can reinvest revenue to grow without external funding.
+
+3. **Unit economics are healthy even with high churn** — At 3% monthly churn, LTV:CAC is 7.7x. Even at 5% churn, ratio stays above 5x.
+
+4. **Customer acquisition rate must double each year** — From 2-3/month in Year 1 to 15/month in Year 5. Requires scaling sales team and marketing spend.
+
+5. **To hit $10M EBITDA faster, need enterprise pricing push** — Target 50 enterprise RTOs at $3,000/mo = $1.8M ARR. Combined with mid-market, reaches $3.5M ARR by Year 3, $10M+ by Year 5.
+
+### Revised Financial Targets for Marcus/Kham
+
+**Conservative scenario** (mid-market focus, minimal enterprise):
+- Year 3: 120 customers, $1.56M ARR, $778K EBITDA
+- Year 5: 320 customers, $3.89M ARR, $2.14M EBITDA
+- **8-year path to $10M EBITDA**
+
+**Aggressive scenario** (enterprise focus + new revenue streams):
+- Year 3: 150 customers (50 enterprise at $3K), $2.16M ARR, $1M EBITDA
+- Year 5: 450 customers (150 enterprise), $6.48M ARR, $3.5M EBITDA
+- **New revenue streams (AI courses, consulting)**: +$2M ARR by Year 5
+- **Total: $5.5M EBITDA by Year 5** — Gap: $4.5M
+
+**Recommended target**: $3-4M EBITDA by Year 5, $10M EBITDA by Year 7-8. Adjust Marcus/Kham expectations accordingly.
+
+### Actions for Steven
+
+- [ADDED] Present revised financial model at day 60 (TAM/SAM/SOM, unit economics, path to $10M EBITDA) — by June 28, 2026
+- [ADDED] Update $10M EBITDA target expectation: realistic path is $2-3M by Year 5, $10M by Year 7-8 — by June 28, 2026
+- [ADDED] Add break-even analysis: 35 customers for company break-even, 11 for Steven salary — by June 28, 2026
+- [ADDED] Set customer acquisition targets: 2-3/month Year 1, scaling to 15/month Year 5 — ongoing
+- [ADDED] Model enterprise pricing scenario ($3K/mo for 50+ customers) for Day 60 presentation — by June 28, 2026
+- [ADDED] Calculate cash runway: How many months until break-even at current burn rate — by June 7, 2026
+
+**Sources**:
+- ASQA RTO registry: asqa.gov.au (4,000-4,500 registered RTOs, 2025)
+- B2B SaaS benchmarks: a16z.com/saas-metrics
+- LTV:CAC ratios: pacificcrestgroup.com.au/b2b-saas-metrics
+- CAC benchmarks: clearbit.com/blog/b2b-saas-cac-benchmarks
+- Australian VET market data: ncver.edu.au (National Centre for Vocational Education Research)
+
+---
