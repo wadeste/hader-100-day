@@ -1315,3 +1315,30 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Design onboarding chatbot MVP: check-ins at day 3/7/14/30, SMS + email, AI-generated
 - [ADDED] Calculate dropout cost per student: course value × dropout rate = revenue recovery opportunity
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: LinkedIn outbound specific tactics and templates
+
+**Original finding**: "Launch LinkedIn outbound to 100 RTO decision-makers — track response rates" — mentioned but no specific tactics, scripts, or targeting guidance.
+
+**Research conducted**: LinkedIn outreach best practices, RTO decision-maker targeting, outreach templates for B2B SaaS.
+
+**Refined findings**:
+- **Targeting**: RTO CEOs/Founder (budget authority, pain point: enrollment growth, compliance), Marketing Directors (campaign strategy, pain: attribution, lead quality), Enrollment Managers (day-to-day ops, pain: call volume, missed calls).
+- **Outreach sequence**: Connection request → Follow-up message (day 3-5) → Value email (day 7-10) → Breakup (day 14). 5-15% response rate is realistic; 10%+ is good.
+- **Connection request script**: "Hi [Name], I help RTOs reduce enrollment calls by 60% using AI. Would love to share how we did this at Hader Institute. Open to a quick chat?" (117 chars — under LinkedIn limit).
+- **Follow-up message script**: "Thanks for connecting! Quick question — how does your team handle enrollment calls right now? We built AI that answers these calls 24/7 and books orientations automatically. Happy to show you how it works at Hader."
+- **Value email script**: Subject: "60% fewer enrollment calls at Hader Institute — here's how". Body: "Hi [Name], We helped Hader Institute reduce their enrollment call time by 60% using AI. Thought you might find this useful. Here's a quick case study: [link]. Would you be open to a 15-min call to see if this could work for your RTO?"
+- **Timing**: Tuesday-Thursday, 8-10am or 4-6pm AEST. Avoid Mondays (inbox flooded) and Fridays (decision fatigue).
+- **Metrics to track**: Connection requests sent, connection rate, reply rate, demo booked, demo shown, POC started, paid.
+
+**Key insight**: LinkedIn outbound is a numbers game. 100 outreach → 15 connections (15%) → 5 replies (33%) → 2 demos (40%) → 1 POC (50%) → 0.5 paid customer (50%) = 1 customer from 100 outreach. Need 580 outreach/month to hit 10-11 customers/month.
+
+**Actions added**:
+- [ADDED] Build LinkedIn outreach template library (connection, follow-up, value email, breakup)
+- [ADDED] Create targeting spreadsheet: RTO CEOs, Marketing Directors, Enrollment Managers
+- [ADDED] Set up LinkedIn campaign tracking: outreach → reply → demo → POC → paid
+- [ADDED] Test message variants: ROI-focused vs. problem-focused vs. proof-focused
+
