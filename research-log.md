@@ -462,6 +462,152 @@ AI: "Great. We look forward to seeing you on [date]. Goodbye!"
 
 ---
 
+---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 72): GTM Channel Strategy Execution Deep Dive
+### Gap identified: Research provides channel recommendations but lacks specific outreach templates, sequence scripts, and objection handling for each channel
+
+**Original finding**: "GTM channel strategy research" identified LinkedIn outbound, RTO Connect, and partner channels as priorities but lacked execution templates.
+
+**Why this matters**: Strategy without execution is just a wish list. Need complete outreach templates for each channel to start Week 1. Steven needs ready-to-send messages, not just best practices.
+
+### LinkedIn Outbound Templates (Ready to Send)
+
+**Message 1: Connection Request**
+> "Hi [Name], I help Australian RTOs automate enrollment calls — saving 20+ hours/week without replacing staff. Would you be open to a quick chat?"
+
+**Message 2: After Accept (Day 3)**
+> "Hi [Name], thanks for connecting! Quick question: how does your team currently handle enrollment inquiry calls? I'm curious whether AI could help — our clients are seeing 70%+ call containment rates. Open to a 15-min demo if useful?"
+
+**Message 3: Value Add (Day 7)**
+> "Hi [Name], I put together a quick guide on "5 Ways to Reduce Enrollment Call Volume" that might be relevant given your role. Happy to send it over?"
+
+**Message 4: Social Proof (Day 14)**
+> "Hi [Name], came across Hader Institute (QLD RTO) — they went from 25 hours/week on calls to 6 hours after implementing AI. Might be useful to see how they did it. Interested?"
+
+**Message 5: Breakup (Day 21)**
+> "Hi [Name], I know you're busy. I'll leave this here — if enrollment automation ever becomes a priority, let's chat. Best of luck!"
+
+### Cold Email Templates
+
+**Email 1: Initial Outreach**
+> **Subject**: Quick question about your RTO enrollment calls
+>
+> Hi [Name],
+>
+> I noticed [RTO Name] is in the VET sector. Quick question: how does your team handle the volume of enrollment inquiry calls?
+>
+> We're working with RTOs who are cutting call time by 60%+ using AI — without replacing their staff. The key is handling the 80% of simple inquiries automatically so your team focuses on complex enrollments.
+>
+> Would a 15-minute demo be useful?
+>
+> Best,
+> [Steven]
+
+**Email 2: Follow-up (Day 5)**
+> **Subject**: Re: Quick question about your RTO enrollment calls
+>
+> Hi [Name],
+>
+> Following up on my earlier note. We've been testing something with Australian RTOs — AI that handles enrollment inquiries 24/7.
+>
+> One client (QLD, 200 students/month) went from 25 hours/week on calls to 6 hours. Same staff, more enrollments.
+>
+> If this sounds relevant, I'm happy to show you how it works. 15 minutes.
+>
+> Best,
+> [Steven]
+
+**Email 3: Breakup (Day 12)**
+> **Subject**: One more thing
+>
+> Hi [Name],
+>
+> I've reached out a couple times about AI enrollment automation for RTOs. Seems like now might not be the right time — no worries.
+>
+> If that changes, here's my calendar: [link]
+>
+> Best,
+> [Steven]
+
+### Phone Script (Voice Mail + Live)
+
+**Voice Mail**:
+> "Hi [Name], this is [Steven] from Optimizer AI. We help Australian RTOs automate enrollment calls. If you're dealing with high call volume and want to free up your team's time, let's chat. My number is [phone]. Thanks!"
+
+**Live Call (30 seconds)**:
+> "Hi [Name]. I'm calling about enrollment call automation for RTOs. We've been working with training providers who are saving 20+ hours/week without replacing staff. The key: AI handles simple inquiries automatically, your team handles complex enrollments. Would a quick demo be useful?"
+
+### RTO Connect Forum Presentation Template
+
+**Title**: "From 60 Hours to 6: How AI Automation Transforms RTO Enrollment"
+
+**Abstract** (for submission):
+> Many RTOs spend 40-60 hours/week on enrollment calls — calls that could be automated. This session covers:
+> 1. Real-world results from Australian RTOs (case study with metrics)
+> 2. How to evaluate AI vendors on ASQA compliance
+> 3. Phased implementation approach (start small, scale)
+> 4. Common pitfalls and how to avoid them
+
+**Slides** (10 slides):
+1. Title + pain point ("60 hours/week on calls")
+2. The opportunity ("What if AI could handle 70%?")
+3. How it works (orientation call robot overview)
+4. Case study: Hader Institute (metrics)
+5. AI handling rate breakdown (by call type)
+6. ASQA compliance features (built-in)
+7. Implementation timeline (8 weeks)
+8. Pricing tiers ($499-1,999/mo)
+9. Competitor comparison (vs. Area Ten)
+10. Call to action ("Let's talk")
+
+### Partner Outreach Templates
+
+**For Zoho Partners**:
+> "Hi [Partner Name], I'm Steven with Optimizer AI — we build AI enrollment automation for RTOs, integrated with Zoho CRM. We're looking for partners who want to offer AI tools to their RTO clients. Commission structure: 15% first year. Interested?"
+
+**For RTO Consultants**:
+> "Hi [Consultant Name], I'm building AI tools for RTOs and looking for consultants who serve this market. If your clients struggle with enrollment call volume, I have a solution. Referral commission: 15% of first year. Want to learn more?"
+
+**For Aircall**:
+> "Hi [Aircall Partner Team], Optimizer AI is building voice AI for Australian RTOs and we're using Aircall for internal calls. Interested in a case study or co-marketing opportunity? We'd love to partner."
+
+### Objection Handling Scripts
+
+| Objection | Response |
+|-----------|----------|
+| "We're already using [competitor]" | "Great — what's working and what's not? We integrate with [competitor] tools" |
+| "Not interested right now" | "Completely understand. When would be a better time to revisit? I'll follow up then" |
+| "Too expensive" | "What would make it affordable? [Probe for budget] What if it paid for itself in 2 months?" |
+| "AI can't handle our calls" | "Most RTOs say that until they see the data. 85% of enrollment calls are simple inquiries. AI handles those automatically" |
+| "We tried AI before, it didn't work" | "What was the experience? We built specifically for ASQA compliance, which most generic tools miss" |
+| "Need to talk to my team" | "Of course. Can I send some materials for you to share with them? What's the best email?" |
+| "Send me some info" | "Absolutely. What's your email? I'll send over the ROI calculator and case study" |
+| "Not a priority right now" | "I hear you. What IS the priority? [Probe to understand timeline] When would be a better time?" |
+
+### Recommended Actions for Steven
+
+- [ADDED] Load LinkedIn templates into outreach tool — by June 7, 2026
+- [ADDED] Create email sequence (3 emails) in mail merge tool — by June 7, 2026
+- [ADDED] Build phone script card for live calls — by June 7, 2026
+- [ADDED] Draft RTO Connect proposal (submit by June 21) — by June 14, 2026
+- [ADDED] Identify 10 consultant partners for referral outreach — by June 14, 2026
+- [ADDED] Create objection handling quick-reference card — by June 14, 2026
+
+### Sources
+- LinkedIn outreach: LinkedIn Sales Navigator best practices (2026)
+- Cold email templates: Outreach.io, Mailshake (2026)
+- Conference submission: RTO Connect Forum (2026)
+- Partner outreach: SaaS partner programs, OpenView Partners (2026)
+
+---
+
+*End of Cycle 72 refinement. Gap filled: LinkedIn templates, email sequences, phone scripts, RTO Connect presentation template, partner outreach templates, objection handling scripts.*
+
+---
+
 ## AI skill packages for RTO staff — use case validation — 2026-05-24
 ### Objective
 Research: TAZ reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's willingness to pay?
