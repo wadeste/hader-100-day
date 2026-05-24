@@ -3662,3 +3662,250 @@ Partner LTV: $12,000 (12 months)
 ---
 
 *End of Cycle 163 refinement. Gap filled: Partner categories (5 types: Zoho, software, associations, peak bodies, Aircall), specific partner profiles (ACPET, ITECA, VETTRAK), outreach sequence (3-touch), success metrics (per partner), tier structure (3 levels), Year 1 targets (20 partners, 32 conversions), materials needed (6 items), recommended actions.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 164): Proof of Concept Design — Metrics, Pilot Structure, and Success Criteria for Each Product Line
+
+### Gap identified: Research mentions "compelling POC metrics" but lacks specific measurement frameworks for each product line (orientation call robot, attribution dashboard)
+
+**Original finding**: "Proof of concept design" in queue requires researching what a compelling POC looks like for each product line. For the orientation call robot: what metrics prove value (call handling rate, conversion lift, time saved)? For the attribution dashboard: what reporting gaps does it fill? Current research mentions metrics in passing but lacks a comprehensive POC framework.
+
+**Why this matters**: A well-designed POC validates product-market fit, generates case study data, and provides social proof for sales. Without clear POC metrics, Steven cannot demonstrate value to early customers or measure success objectively.
+
+### POC Framework Overview
+
+**POC Goal:** Validate product-market fit with 3-5 pilot customers before scaling
+
+**Success criteria:**
+- 80%+ satisfaction with product
+- Measurable ROI (time savings, revenue lift)
+- Willingness to pay for full version
+- Referral to other RTOs
+
+**POC structure:**
+- Duration: 30 days
+- Price: 50% off (pilot pricing)
+- Support: Weekly check-ins
+- Data: Shared case study (with permission)
+
+### Product Line 1: Orientation Call Robot
+
+**POC metrics:**
+
+| Metric | Baseline (before AI) | Target (with AI) | Measurement Method |
+|--------|---------------------|-------------------|-------------------|
+| Call handling rate | 70% (30% missed) | 95% | AI logs vs missed calls |
+| Containment rate | N/A (baseline has no AI) | 70% | AI handles vs transfers |
+| Time on enrollment calls | 25-40 hrs/week | 5-8 hrs/week | Staff time tracking |
+| Orientation booking rate | 70% (30% no-show) | 85% | Bookings vs inquiries |
+| USI collection rate | 60% on first call | 80% on first call | USI logged vs needed |
+| Student satisfaction | (baseline measure) | +10% or maintain | Post-call survey |
+
+**Data collection plan:**
+
+Week 1: Baseline measurement
+- Count enrollment calls per day
+- Track time spent on enrollment calls
+- Measure USI collection rate
+- Survey staff on pain points
+
+Week 2: AI deployment
+- Configure AI for orientation booking
+- Launch 24/7 call answering
+- Start call logging
+
+Week 3: Mid-point check
+- Review containment rate
+- Adjust AI prompts
+- Capture early wins
+
+Week 4: Final measurement + case study
+- Compare metrics to baseline
+- Collect testimonials
+- Calculate ROI
+
+**POC success criteria:**
+- Containment rate > 65%
+- Time savings > 50%
+- USI collection improved > 10%
+- Staff satisfaction > 70%
+- Willingness to continue (pay full price)
+
+### Product Line 2: Attribution Dashboard
+
+**POC metrics:**
+
+| Metric | Baseline (before) | Target (with) | Measurement Method |
+|--------|------------------|---------------|-------------------|
+| Lead source visibility | 50% (incomplete) | 95% | Sources tracked |
+| CPE (cost per enrollment) | Unknown or $250 | <$200 | Marketing spend / enrollments |
+| Lead-to-enrollment rate | 25% | >30% | Enrollments / leads |
+| Marketing decision speed | Weekly (manual) | Daily (automated) | Report generation time |
+| Data accuracy | 70% (manual error) | 95% | Cross-validation |
+
+**Data collection plan:**
+
+Week 1: Integration setup
+- Connect Google Ads
+- Connect Facebook
+- Connect Zoho CRM
+- Verify data flow
+
+Week 2: Baseline data
+- Pull historical data (3 months)
+- Identify data gaps
+- Clean duplicates
+
+Week 3: Active tracking
+- Monitor new leads
+- Track enrollments
+- Calculate ROAS by channel
+
+Week 4: Report generation + case study
+- Create attribution report
+- Identify quick wins (channel reallocation)
+- Calculate ROI
+
+**POC success criteria:**
+- 90%+ lead sources tracked
+- CPE measurable and improved
+- 1+ marketing decision made based on data
+- Willingness to pay for continued access
+
+### Product Line 3: TAZ AI
+
+**POC metrics:**
+
+| Metric | Baseline (before) | Target (with) | Measurement Method |
+|--------|------------------|---------------|-------------------|
+| TAZ development time | 40-80 hours | 15-25 hours | Project tracking |
+| TAZ quality score | (qualitative) | Improved | Compliance officer review |
+| Time to first draft | 1-2 weeks | 1-2 days | Project tracking |
+| Revision rounds | 3-5 | 1-2 | Project tracking |
+
+**Data collection plan:**
+
+Week 1: Upload existing TAZ
+- Input 1 existing TAZ
+- Generate AI draft
+- Compare to original
+
+Week 2: New TAZ project
+- Start new qualification TAZ
+- Use AI assistance throughout
+- Track time and quality
+
+Week 3: Iteration
+- Refine AI based on feedback
+- Test with second qualification
+- Measure time savings
+
+Week 4: Case study
+- Compare to baseline (original TAZ)
+- Calculate cost savings
+- Collect testimonial
+
+**POC success criteria:**
+- Time savings > 50%
+- Quality maintained or improved
+- Compliance officer approval
+- Willingness to pay for ongoing access
+
+### General POC Structure
+
+**For all products:**
+
+1. **Kickoff meeting (Day 1)**
+   - Set expectations
+   - Define success metrics
+   - Establish communication cadence
+   - Share baseline measurement guide
+
+2. **Weekly check-ins (Weeks 1-4)**
+   - Review progress
+   - Address blockers
+   - Adjust approach
+   - Capture wins
+
+3. **Final review (Day 30)**
+   - Present results
+   - Calculate ROI
+   - Discuss continuation
+   - Request testimonial/case study
+
+### POC Documentation Template
+
+**Week 1: Baseline**
+```
+Customer: [Name]
+Date: [Date]
+Products tested: [List]
+
+Baseline metrics:
+- Call volume: ___/week
+- Time on calls: ___ hrs/week
+- Missed calls: ___%
+- USI collection rate: ___%
+- Enrollment conversion: ___%
+
+Goals:
+1. [Goal 1]
+2. [Goal 2]
+3. [Goal 3]
+
+Support needed: [List]
+```
+
+**Week 4: Results**
+```
+Results:
+- Call handling rate: ___% (target: 95%)
+- Time savings: ___ hrs/week (target: >50%)
+- USI collection: ___% (target: +10%)
+- ROI calculated: $___
+
+Testimonial:
+"[Quote from customer]"
+
+Willingness to continue: Yes/No
+Referrals: [Names if any]
+```
+
+### Pilot Customer Selection Criteria
+
+**Ideal POC customers:**
+1. Marcus/Kham network (warm leads)
+2. Mid-size RTOs (50-200 students/month)
+3. CEO has budget authority
+4. Enrolled manager is tech-forward
+5. Clear pain point (time, missed calls, compliance)
+6. Willing to share data and testimonials
+
+**Avoid:**
+1. Very small RTOs (<20 students) — won't show ROI
+2. Very large RTOs — too complex for first POC
+3. RTOs with existing AI — comparison issues
+4. RTOs with no budget authority — can't convert
+
+### Recommended Actions for Steven
+
+- [ADDED] Design POC framework for each product (Call Robot, Attribution, TAZ AI) — by Week 2
+- [ADDED] Create baseline measurement guide (spreadsheet) — by Week 1
+- [ADDED] Select 3-5 pilot customers (Marcus/Kham network first) — by Week 2
+- [ADDED] Execute first POC with orientation call robot — by Month 2
+- [ADDED] Track weekly metrics (containment, time savings, conversion) — ongoing
+- [ADDED] Create case study template (before/after + testimonial) — by Month 2
+- [ADDED] Convert pilots to paying customers (full price) — by Month 3
+- [ADDED] Use pilot data in sales materials (quantified ROI) — from Month 3
+
+### Sources
+
+- POC frameworks: "The Lean Startup" by Eric Ries (validated learning)
+- Pilot customer programs: SaaS best practices (2025)
+- Metrics: Bessemer Venture Partners SaaS metrics (2026)
+- Case study templates: HubSpot case study guide (2026)
+
+---
+
+*End of Cycle 164 refinement. Gap filled: POC framework (3 products, 4-week structure), orientation call robot metrics (6 KPIs with baselines and targets), attribution dashboard metrics (5 KPIs), TAZ AI metrics (4 KPIs), data collection plan (week by week), documentation templates, pilot customer selection criteria, recommended actions.*
