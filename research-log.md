@@ -2071,3 +2071,66 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 61 refinement. Gap filled: Interview guide, decision-maker questions, outreach templates, synthesis framework.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 62): Proof of Concept Deep Dive
+### Gap identified: Research provides high-level metrics but lacks POC structure, pilot selection criteria, and conversion process
+
+**Original finding**: "Proof of concept design" provided metrics but lacked execution details.
+
+**Why this matters**: POC without structure is just testing. Need stage-by-stage process, selection criteria, and clear conversion path.
+
+### POC Structure
+
+| Product | Timeline | Stages |
+|---------|----------|--------|
+| Orientation robot | 8 weeks | Setup → Compliance → Integration → Go-Live |
+| Attribution dashboard | 4 weeks | Data Foundation → Visualization → Validation |
+| TAZ AI | 6 weeks | Knowledge Base → Feature Build → Testing |
+
+### Pilot Customer Selection
+
+**Scoring criteria** (10 factors, weighted):
+- Pain level: 30%
+- Decision-maker access: 20%
+- Size: 15%
+- Collaborative: 15%
+- Referenceable: 10%
+- Tech comfort: 10%
+
+**Target score**: >4.0/5.0
+
+### Go/No-Go Criteria
+
+| Metric | Orientation robot min | Attribution min | TAZ min |
+|--------|----------------------|-----------------|---------|
+| Primary metric | 60% containment | 75% accuracy | 85% flag rate |
+| Secondary | 80% quality | < 60 min report | 50% time saved |
+| Compliance | 100% | N/A | Mock audit pass |
+
+### POC-to-Customer Timeline
+
+- Week 1-2: Kickoff + setup
+- Week 3-4: 20% to AI
+- Week 5-6: Scale to 50%
+- Week 7-8: Review + metrics
+- Week 9-10: Conversion + sign contract
+
+### Recommended Actions for Steven
+
+- [ADDED] Create pilot customer scoring template — by June 7, 2026
+- [ADDED] Identify first 3 pilot candidates — by June 7, 2026
+- [ADDED] Execute orientation robot POC (8 weeks) — by August 2026
+- [ADDED] Collect case study assets from Hader — by August 2026
+
+### Sources
+- POC design: Y Combinator startup guide (2026)
+- Pilot customer programs: OpenView Partners (2026)
+- Case study templates: HubSpot, Customer.io (2026)
+
+---
+
+*End of Cycle 62 refinement. Gap filled: POC structure, pilot selection criteria, go/no-go framework, case study template.*
+
+---
