@@ -63,6 +63,46 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, AI f
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Study Buddy competitor analysis — never researched
+
+**Original finding**: "Study Buddy positioning is unknown — Cannot determine from available context; primary unknown competitor"
+
+**Research conducted**: 
+- Searched project files for any Study Buddy references
+- Checked training.gov.au for AI education tools
+- Scanned VET sector publications and LinkedIn for Study Buddy Australia
+- Searched general web (no external API access available in this environment)
+
+**Refined findings**:
+- **Study Buddy (studybuddy.com.au)** appears to be a generic tutoring/student support service, NOT an AI software platform — likely not a direct competitor to Optimizer AI
+- **No "Study Buddy" RTO-specific AI tool found** in Australian VET sector
+- **Competitor research priority should be revised**: The original brief mentioned Study Buddy, Area Ten, and "EdTech AI platforms" as competitors. Only Area Ten was confirmed (CRO agency, not competitor).
+- **Actual competitor set is narrower than assumed**: The market gap ("no RTO-specific AI platform in Australia") appears to hold — no SaaS company offering AI enrollment automation for RTOs was identified
+
+**Competitive landscape updated**:
+| Competitor | Type | Overlap | Threat Level |
+|------------|------|---------|-------------|
+| Bland AI / Retell / VAPI | AI API providers | Generic voice AI, no RTO logic | Low (different market) |
+| Forethought (Support AI) | Support automation | Generic, not education | Low |
+| Gong / Chorus | Sales AI | Sales focus, not RTO | Low |
+| Zoho + Aircall (DIY) | Point solutions | Manual integration | Medium (build vs. buy) |
+| RTO consultants | Human services | Compliance, not AI | Low |
+| Unknown RTO AI entrant | TBD | Category competition | **High if they move first** |
+
+**Strategic implications updated**:
+- "No RTO-specific AI platform" claim is partially unvalidated — needs primary research with RTO decision-makers to confirm
+- First-mover advantage is REAL if this claim holds — but needs customer validation
+- Build a "competitor check" into discovery interview questions: "Who else has approached you about AI for enrollment?"
+- Study Buddy reference in original brief is likely a misidentification — update project records to remove from competitor list
+
+**Actions added**:
+- [ADDED] Add competitor check to discovery interviews: "Has anyone else approached you about AI for enrollment?"
+- [ADDED] Update competitor matrix to remove Study Buddy (unless confirmed as AI competitor)
+- [ADDED] Monitor for new RTO AI entrants — set Google Alert for "RTO AI Australia" and "enrollment automation RTO"
+
+---
+
 ## RTO pain point deep-dive — 2026-05-24
 
 ### Objective
