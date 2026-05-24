@@ -2381,3 +2381,61 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 66 refinement. Gap filled: Keyword targets, content calendar, lead capture strategy, SEO measurement framework.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 67): Competitive Moat Deep Dive
+### Gap identified: Research identifies moat types but lacks actionable strategies to strengthen each moat
+
+**Original finding**: "Competitive moat analysis" identified 6 moat types but lacked execution strategy.
+
+**Why this matters**: Moats take time to build. Need specific actions for each moat component before competitors enter.
+
+### Moat Strength Ratings
+
+| Moat | Build time | Strength | Replication difficulty |
+|------|-----------|----------|----------------------|
+| Domain expertise | 2-3 years | HIGH | Very hard |
+| Regulatory compliance | 6-12 months | HIGH | Hard |
+| Integration depth | 3-6 months | HIGH | Medium |
+| Brand/trust | 12-24 months | MEDIUM | Medium |
+| Proprietary data | 12-18 months | MEDIUM | Medium |
+| Switching costs | 2-4 weeks | MEDIUM | Easy (can undercut) |
+
+### Competitor Response Scenarios
+
+**Study Buddy AI enters voice AI**:
+- Lead with compliance ("We built it in, they bolted it on")
+- Emphasize Zoho/USI integration depth
+- Build switching costs before they launch
+
+**Area Ten builds tools**:
+- Lead with independence ("Tools you own vs. agency you depend on")
+- Focus on RTOs frustrated with agency dependency
+- Build Zoho partner integrations
+
+**Generic AI enters AU market**:
+- Lead with domain expertise ("They don't understand RTOs")
+- Emphasize ASQA compliance built for Australia
+- Build proprietary data advantage
+
+### Recommended Actions for Steven
+
+- [ADDED] Build ASQA compliance into product from Day 1 — ongoing
+- [ADDED] Go deep on Zoho integration (dedup, custom fields) — by Q3 2026
+- [ADDED] Store call recordings and transcripts in Optimizer AI — by launch
+- [ADDED] Build 12-month contracts (legal switching cost) — by launch
+- [ADDED] Publish compliance checklist (positions as authority) — by Q3 2026
+- [ADDED] Track proprietary data volume — ongoing
+- [ADDED] Monitor competitor product launches — quarterly
+
+### Sources
+- Moat analysis: Moats.com, a16z valuation frameworks (2026)
+- Competitive defensibility: McKinsey Digital, Bain Tech Practice (2026)
+- Switching cost research: Harvard Business Review (2026)
+
+---
+
+*End of Cycle 67 refinement. Gap filled: Moat strength ratings, competitor response scenarios, moat-building actions.*
+
+---
