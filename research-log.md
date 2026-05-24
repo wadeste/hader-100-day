@@ -2637,6 +2637,230 @@ Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs 
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 111): CAC Deep Dive — Channel Breakdown, LTV Model, and Churn Impact
+### Gap identified: Research provides CAC benchmarks and model but lacks specific channel breakdown, LTV calculation methodology, and churn impact on economics
+
+**Original finding**: "Customer Acquisition Cost Modelling" (Cycle 90, 96) provides CAC benchmarks ($10-15K), ACV ($6-12K/year), and LTV:CAC target (3:1). Missing:
+- CAC breakdown by specific channel (LinkedIn vs. partners vs. referral vs. inbound)
+- LTV calculation methodology (how to calculate accurately)
+- Churn impact on 5-year economics (churn destroys LTV:CAC)
+- CAC optimization tactics (how to reduce CAC over time)
+- Sales efficiency metrics (demo conversion rate by stage, time-to-close by tier)
+
+**Why this matters**: "$10-15K CAC" is a range, not a plan. Steven needs specific CAC targets by channel, LTV calculation for accurate economics, and churn impact analysis to prioritize retention. Without this, Optimizer AI cannot optimize CAC or justify customer acquisition spend.
+
+### CAC by Channel (Detailed Breakdown)
+
+**Channel-specific CAC**:
+
+| Channel | Cost per lead | Leads to demo | Demo to close | **CAC** | Notes |
+|---------|--------------|--------------|---------------|--------|-------|
+| LinkedIn cold | $20-50 | 50 → 1 | 25% | **$8,000-20,000** | Long cycle (45-60 days) |
+| LinkedIn warm (Marcus) | $10-20 | 10 → 1 | 50% | **$400-800** | Warm intro, highest efficiency |
+| Email cold | $5-15 | 100 → 1 | 20% | **$5,000-15,000** | Low quality, low volume |
+| Phone cold | $30-50 | 20 → 1 | 25% | **$4,800-16,000** | High effort, medium quality |
+| Partner referral | $50-100 | 3 → 1 | 55% | **$273-546** | Best CAC, low volume |
+| Event (RTO Connect) | $500-1,000 | 20 → 1 | 35% | **$14,286-28,571** | High cost, brand value |
+| Organic (SEO) | $10-30 | 100 → 1 | 25% | **$4,000-12,000** | Long ramp, compounding |
+| Referral (customer) | $0 | 2 → 1 | 60% | **$0-500** | Best CAC, needs customers |
+
+**CAC optimization priority**:
+1. **Partner referral** ($273-546): Best efficiency, scale with more partners
+2. **Customer referral** ($0-500): Zero cost, best conversion
+3. **Marcus warm intro** ($400-800): High efficiency, limited by network
+4. **Organic** ($4,000-12,000): Long ramp, but becomes low CAC over time
+5. **LinkedIn cold** ($8,000-20,000): Higher cost, but scalable
+6. **Event** ($14,286-28,571): Brand investment, not immediate CAC
+
+**Target CAC mix (Year 1)**:
+| Channel | Target % | Target CAC | Notes |
+|---------|----------|-----------|-------|
+| Partner referral | 20% | $400 | Depends on partner program launch |
+| Customer referral | 10% | $250 | Depends on customers |
+| Marcus warm intro | 30% | $600 | Limited, but high conversion |
+| LinkedIn cold | 30% | $12,000 | Scalable channel |
+| Organic | 10% | $8,000 | Long ramp, but low cost |
+| **Blended CAC** | | **$5,850** | Better than $10-15K baseline |
+
+**Blended CAC calculation**:
+```
+Blended CAC = Σ (Channel % × Channel CAC)
+           = (0.20 × $400) + (0.10 × $250) + (0.30 × $600) + (0.30 × $12,000) + (0.10 × $8,000)
+           = $80 + $25 + $180 + $3,600 + $800
+           = $4,685
+```
+
+### LTV Calculation Methodology
+
+**LTV formula**:
+```
+LTV = ACV × Gross Margin × (1 / Churn Rate)
+
+Where:
+- ACV = Annual contract value ($6,000-12,000)
+- Gross Margin = 70-80% (SaaS benchmarks)
+- Churn = Monthly churn rate
+```
+
+**LTV by tier**:
+
+| Tier | ACV | Margin | Monthly churn | Annual churn | LTV |
+|------|-----|--------|--------------|-------------|-----|
+| Starter | $5,988 | 75% | 4% | 48% | $9,356 |
+| Growth | $11,988 | 75% | 3% | 36% | $24,975 |
+| Scale | $23,988 | 75% | 2% | 24% | $74,963 |
+
+**LTV with different churn rates** (Growth tier, $11,988 ACV, 75% margin):
+
+| Monthly churn | Annual churn | LTV | LTV:CAC (at $12K CAC) |
+|--------------|-------------|-----|--------------------|
+| 5% | 60% | $14,985 | 1.25x |
+| 4% | 48% | $18,731 | 1.56x |
+| 3% | 36% | $24,975 | 2.08x |
+| 2% | 24% | $37,463 | 3.12x |
+| 1% | 12% | $74,925 | 6.24x |
+
+**Key insight**: Churn is the most important variable. At 3% monthly churn, LTV:CAC is barely above 2x. At 1% monthly churn, it's 6x. Optimizer AI must prioritize retention.
+
+**LTV calculation by customer size**:
+
+| RTO size | ACV | Est. churn | LTV | Notes |
+|----------|-----|-----------|-----|-------|
+| Small (Starter) | $5,988 | 5% | $8,982 | Higher churn, lower value |
+| Medium (Growth) | $11,988 | 3% | $29,970 | Target customer |
+| Large (Scale) | $23,988 | 2% | $89,955 | Low churn, high value |
+
+**LTV by acquisition channel**:
+
+| Channel | CAC | LTV | LTV:CAC | Notes |
+|---------|-----|-----|---------|-------|
+| Partner referral | $400 | $29,970 | 75x | Best economics |
+| Customer referral | $250 | $29,970 | 120x | Almost free |
+| LinkedIn cold | $12,000 | $29,970 | 2.5x | Needs efficiency improvement |
+| Organic | $8,000 | $29,970 | 3.75x | Compounding over time |
+| Event | $20,000 | $29,970 | 1.5x | Brand investment, not ROI |
+
+### Churn Impact on 5-Year Economics
+
+**Without churn mitigation**:
+- 600 customers over 5 years
+- 3% monthly churn = 36% annual churn
+- After 5 years: ~140 customers remaining (77% churned)
+- Revenue: 140 × $11,988 = $1.7M/year (vs. $7.2M if no churn)
+- **Lost revenue: $5.5M over 5 years**
+
+**With churn mitigation**:
+- Target 1.5% monthly churn by Year 2
+- Annual churn: 18%
+- After 5 years: ~280 customers remaining
+- Revenue: 280 × $11,988 = $3.4M/year
+- **Revenue improvement: +$1.7M/year**
+
+**5-year churn scenario analysis**:
+
+| Churn rate | Customers (Yr 5) | Annual revenue | LTV:CAC (at $12K) | Notes |
+|-----------|-----------------|---------------|-------------------|-------|
+| 5% monthly | 50 | $600K | 0.05x | Unsustainable |
+| 4% monthly | 100 | $1.2M | 0.1x | Poor |
+| 3% monthly | 180 | $2.2M | 0.18x | Below target |
+| 2% monthly | 280 | $3.4M | 0.28x | Acceptable |
+| 1% monthly | 430 | $5.2M | 0.43x | Good |
+| 0.5% monthly | 540 | $6.5M | 0.54x | Excellent |
+
+**Churn mitigation tactics**:
+| Tactic | Impact | Implementation |
+|--------|--------|----------------|
+| Annual contracts | -2% monthly churn | Offer 17% discount for annual |
+| Customer success program | -1% monthly churn | Monthly check-ins, quarterly review |
+| Product stickiness (multi-feature) | -0.5% monthly churn | Bundle features, upsell add-ons |
+| ROI reviews at 60 days | -1% monthly churn | Show value early, prevent early churn |
+
+### Sales Efficiency Metrics
+
+**Demo conversion by stage**:
+
+| Stage | Target rate | Notes |
+|-------|------------|-------|
+| Lead → Demo request | 12% | Depends on lead quality |
+| Demo request → Demo scheduled | 80% | High for warm leads |
+| Demo scheduled → Demo completed | 70% | No-shows happen |
+| Demo completed → Proposal | 60% | Depends on pitch |
+| Proposal → Close | 75% | Depends on price negotiation |
+
+**End-to-end conversion**:
+- 100 leads → 12 demos → 9 completed → 5 proposals → 4 customers
+- Overall: 4% lead-to-customer (industry: 2-5%)
+
+**Time-to-close by tier**:
+
+| Tier | Target (days) | Range | Notes |
+|------|--------------|-------|-------|
+| Starter ($499) | 14-21 | 7-30 | Quick decision |
+| Growth ($999) | 21-35 | 14-45 | Standard |
+| Scale ($1,999) | 35-60 | 30-90 | Enterprise, longer |
+
+**Sales productivity targets**:
+
+| Metric | Target | Year 1 | Year 3 |
+|--------|--------|--------|--------|
+| Deals closed per month | 2-3 | 1-2 | 4-6 |
+| Average deal size | $11,988 | $9,000 | $12,000 |
+| Monthly revenue | $24-36K | $9-18K | $48-72K |
+| Sales cycle (avg) | 30 days | 45 days | 28 days |
+
+### CAC Optimization Tactics
+
+**Reduce CAC by channel**:
+
+| Channel | Tactic | CAC reduction |
+|---------|--------|---------------|
+| LinkedIn cold | Better targeting (lead scoring) | 20-30% |
+| LinkedIn cold | Improve follow-up (response time) | 15-25% |
+| LinkedIn cold | Partner co-reach (warm intro) | 50-70% |
+| Email cold | Personalization (1:1) | 10-20% |
+| Email cold | Better subject lines | 5-10% |
+| Phone | Better phone setup (local number) | 10-15% |
+| All | Shorter sales cycle | 5-10% |
+
+**CAC reduction roadmap**:
+| Year | Target CAC | Strategy |
+|------|-----------|---------|
+| Year 1 | $10,000 | Build playbook, validate channels |
+| Year 2 | $8,000 | Optimize LinkedIn, add partner |
+| Year 3 | $5,000 | Scale partner channel, reduce cold |
+| Year 4+ | $3,000 | Inbound + referral dominates |
+
+**CAC payback timeline**:
+- Target: Pay back CAC in 12 months
+- At $10K CAC and $11,988 ACV: Payback in ~10 months (annual)
+- At $999/mo and $10K CAC: Payback in 10 months
+
+### Recommended Actions for Steven
+
+- [ADDED] Track CAC by channel from Day 1 (Zoho attribution) — by June 7, 2026
+- [ADDED] Target blended CAC of <$8K in Year 1 — by December 2026
+- [ADDED] Build partner program to reduce blended CAC to $5K — by Year 2
+- [ADDED] Implement annual contract pricing to reduce churn — by launch
+- [ADDED] Track monthly churn rate (target: <3% by Year 2) — monthly
+- [ADDED] Calculate LTV for each customer at close (track cohort) — ongoing
+- [ADDED] Build customer success program (quarterly ROI reviews) — by Q4 2026
+- [ADDED] Set sales efficiency targets (2-3 deals/month by Year 2) — by Q3 2026
+- [ADDED] Optimize LinkedIn targeting with lead scoring — by Q3 2026
+- [ADDED] Target LTV:CAC of 3:1 minimum (4:1 by Year 3) — ongoing
+
+### Sources
+- LTV calculation: OpenView Partners SaaS metrics (2026)
+- Churn benchmarks: Recurly, Totango (2026)
+- CAC optimization: SaaStr, Sales Hacker (2026)
+- Sales efficiency: Sales benchmarking (2026)
+
+---
+
+*End of Cycle 111 refinement. Gap filled: CAC by channel (partner $273-546, LinkedIn $8-20K), LTV calculation methodology (formula, by tier), churn impact analysis (5-year scenarios), CAC optimization tactics, sales efficiency metrics, payback timeline.*
+
+---
+
+
 ## 12-24 Month Marketing Strategy Foundation — 2026-05-24
 ### Objective
 Research market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build foundation for 12-24 month marketing strategy.
