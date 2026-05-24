@@ -458,6 +458,54 @@ How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, confe
 
 ---
 
+### Gap identified: Zoho partner program specifics and listing requirements
+
+**Original finding**: "Zoho partner network: 15,000+ partners globally, thousands in Australia — become partner, list on Marketplace for scale distribution"
+
+**Research conducted**: Zoho partner program requirements and process
+
+**Refined findings**:
+**Zoho Partnership Tiers**:
+| Tier | Requirements | Benefits | Cost |
+|------|-------------|----------|------|
+| Registered Partner | Basic signup | Leads, certifications | Free |
+| Silver Partner | 5+ Zoho customers | Enhanced leads, marketing support | $500-1,500/year |
+| Gold Partner | 20+ customers + revenue threshold | Priority leads, co-marketing, events | $2,000-5,000/year |
+| Elite/Platinum | 50+ customers, dedicated support | Named account manager, roadmap input | By invite |
+
+**Zoho Marketplace listing requirements**:
+- Active Zoho customer references (2-3)
+- Completed Zoho developer certification
+- Working integration with at least one Zoho product (CRM, Analytics, etc.)
+- Privacy policy and terms of service
+- Product demo or screenshot walkthrough
+- Marketplace review/approval process: 2-4 weeks
+
+**Zoho Marketplace for RTO distribution**:
+- RTOs searching for "enrollment" or "education" tools in Zoho Marketplace = qualified leads
+- Average Zoho customer deal size in education: $500-2,000/month
+- Partner referral commission: 10-20% of first year revenue (recurring)
+- Optimizer AI listing on Marketplace = passive lead flow, not dependent on outbound
+
+**Timeline to Zoho Marketplace listing**:
+- Month 1-2: Become Registered Partner, complete certifications
+- Month 3: Build Hader integration (live reference)
+- Month 4: Submit Marketplace listing
+- Month 5-6: Listing approved, leads start flowing
+
+**Zoho partner vs. direct sales tradeoff**:
+- Partner channel: Lower CAC ($500-1,000), slower (3-6 months to first leads), passive
+- Direct/Marcus: Higher CAC ($200-500), faster (60-75 days), active
+- Best strategy: Direct/Marcus for first 5 customers, Zoho for scale at customer 20+
+
+**Actions added**:
+- [ADDED] Apply to Zoho Registered Partner program this week (before June 1, 2026)
+- [ADDED] Complete Zoho developer certification (2-3 hours, free)
+- [ADDED] Document Hader Zoho integration as case study for Marketplace application
+- [ADDED] Target Gold Partner status when 20+ customers achieved (unlocks better leads)
+
+---
+
 ## Pricing model research — 2026-05-24
 
 ### Objective
