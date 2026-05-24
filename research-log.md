@@ -6102,3 +6102,217 @@ Day 3-5:
 ---
 
 *End of Cycle 174 refinement. Gap filled: Weekly reporting structure (1-page dashboard + detailed data), 6 metric sections (pipeline, revenue, CS, marketing, channels, partners), executive summary format, status indicators (red/yellow/green), decision framework (standard vs. escalated), monthly deep-dive template, quarterly business review agenda, KPI tracking systems, 8 recommended actions for Steven.*
+
+
+## Refinement — 2026-05-24 (Cycle 175): Conference and Event Strategy — RTO Industry Events, Speaking Opportunities, and ROI Measurement
+
+### Gap identified: Research covers conference strategy but lacks specific event calendar, speaking opportunities, and ROI measurement framework
+
+**Original finding:** GTM channel strategy (Cycle 154) includes a brief conference section with 3 target events (Australian Training Awards, EdTech Summit, RTO Leaders Summit) and budget (-10k/event). Missing: detailed event calendar for 2026-2027, speaking opportunities攻略, and how to measure ROI from events.
+
+**Why this matters:** Conference presence is a key brand-building channel for RTO Enrollment AI category. Without a specific event calendar, Steven will miss opportunities or attend wrong events. Without speaking strategy, Steven will attend passively rather than building authority. Without ROI measurement, Steven can't justify conference spend.
+
+### RTO Industry Event Calendar (2026-2027)
+
+**Australia-focused events:**
+
+| Event | Date | Location | Attendees | RTO Decision-Makers | Priority | Cost |
+|-------|------|----------|-----------|---------------------|---------|------|
+| **EdTech Summit Australia** | May 2026 | Sydney | 500+ | High | P1 | -5k |
+| **Australian Training Awards** | Sept 2026 | Melbourne | 800+ | Very High | P0 | -8k |
+| **RTO Leaders Summit (QLD)** | Aug 2026 | Brisbane | 150 | Very High | P0 | -3k |
+| **ACPET National Conference** | Nov 2026 | Sydney | 400+ | High | P1 | -5k |
+| **ITECA Annual Conference** | Oct 2026 | Various | 300+ | High | P1 | -3k |
+| **VET Conference Australia** | June 2026 | Melbourne | 600+ | High | P1 | -4k |
+| **National VET Conference** | March 2027 | Canberra | 700+ | Very High | P1 | -6k |
+| **State-based RTO events** | Quarterly | Various | 100-200 | Medium | P2 | 00-2k |
+
+**International events (watch list):**
+| Event | Date | Location | RTO Decision-Makers | Relevance | Priority |
+|-------|------|----------|---------------------|-----------|----------|
+| BETT (London) | Jan 2027 | London | Low (UK focus) | Medium | P3 |
+| ASU+GSV (USA) | April 2027 | San Diego | Medium (US focus) | Low | P3 |
+
+**Recommended events by quarter:**
+
+**Q2 2026:**
+1. VET Conference Australia (June) — first major event
+2. EdTech Summit (May) — tech-forward audience
+
+**Q3 2026:**
+1. RTO Leaders Summit (August) — high-value, small
+2. Australian Training Awards (September) — prestige
+
+**Q4 2026:**
+1. ACPET National Conference (November) — association event
+2. ITECA Annual Conference (October) — association event
+
+**Q1 2027:**
+1. National VET Conference (March) — largest in sector
+
+### Event Strategy by Type
+
+**Large conferences (500+ attendees):**
+- Sponsorship: Table/booth (-8k)
+- Visibility: Branded materials, giveaways
+- Networking: Schedule 20+ meetings beforehand
+- Goal: Brand awareness, partner recruitment, lead gen
+
+**Mid-size events (200-500 attendees):**
+- Sponsorship: Small booth or table (-3k)
+- Visibility: Case study poster, demo station
+- Networking: 10+ meetings, speaker slots available
+- Goal: Lead gen, thought leadership
+
+**Small/regional events (50-200 attendees):**
+- Attendance: 00-1k (no sponsorship)
+- Visibility: Business cards, casual networking
+- Goal: Relationship building, referrals
+
+### Speaking Opportunity Strategy
+
+**Why speaking matters:**
+- Positions Steven as expert (not just sales)
+- Builds credibility with audience
+- Generates content (recordings, slides)
+- Creates backlinks and press
+- Multiplies time (1 talk = 100+ people reached)
+
+**How to get speaking slots:**
+
+1. **Submit proposals early** (6+ months before)
+   - Most events open CFPs 6-9 months in advance
+   - Submit to 5+ events per year
+
+2. **Build speaker credibility:**
+   - Write blog posts on RTO AI topics
+   - Get quoted in industry publications
+   - Build LinkedIn following (authority)
+   - Create case studies with data
+
+3. **Strong proposal format:**
+   - Title: Problem-focused, benefit-driven
+   - Abstract: 150-200 words, specific
+   - Takeaways: 3 concrete things audience learns
+   - Speaker bio: Relevant experience, not corporate resume
+
+**Sample proposal titles:**
+- "From 60 Hours to 10: How AI Transforms RTO Enrollment"
+- "The RTO AI Playbook: 5 Steps to 24/7 Enrollment Coverage"
+- "AI Compliance for RTOs: What ASQA Actually Expects"
+- "Case Study: How [RTO] Recovered 40% More Enrollments with AI"
+- "The Future of RTO Enrollment: AI, Automation, and What Comes Next"
+
+**Talk formats:**
+- 45-min keynote (large events) — big picture, inspiration
+- 20-30 min session (mid events) — practical, how-to
+- 10-15 min lightning talk (small events) — quick win
+- Panel participation — position as practitioner, not vendor
+
+### Event ROI Measurement Framework
+
+**Track event metrics:**
+
+| Metric | How to Measure | Target |
+|--------|---------------|--------|
+| Leads generated | Business cards + CRM tracking | 10-20/RTO event, 20-40/general |
+| Demos booked | Calendly link tracked | 2-5/RTO event |
+| Customers acquired | 6-month follow-up | 1-2/RTO event, 3-5/general |
+| Partner prospects | Follow-up needed | 3-5/RTO event |
+| Brand impressions | Social mentions, badge scans | 100+/event |
+| Content generated | Recordings, photos, quotes | 1-3 pieces/event |
+| Backlinks acquired | Conference mentions us | 1-3/event |
+
+**Cost per acquisition from events:**
+
+| Event Type | Total Cost | Leads | Cost/Lead | Customers | Cost/Customer |
+|-----------|-----------|-------|-----------|-----------|---------------|
+| RTO event (sponsored) | $5k | 20 | $250 | 2 | $2,500 |
+| RTO event (attend only) | $1k | 10 | $100 | 1 | $1,000 |
+| General EdTech (sponsored) | $3k | 15 | $200 | 1 | $3,000 |
+| General EdTech (attend only) | $500 | 8 | $63 | 0 | N/A |
+
+**Event ROI calculation:**
+> (Customers acquired × avg ACV) - Total event cost = ROI
+
+Example:
+- 2 customers × $12k ACV = $24k revenue
+- $5k event cost
+- ROI = $19k (3.8x)
+
+**Track pipeline separately:**
+- Event leads: Add to CRM with event tag
+- Pipeline progression: 30-day, 60-day, 90-day
+- Event attribution: Track which customers came from which event
+
+### Event Execution Checklist
+
+**4 weeks before:**
+- [ ] Confirm registration and logistics
+- [ ] Book hotel and travel (if needed)
+- [ ] Schedule 10+ meetings via LinkedIn/email
+- [ ] Prepare business cards (200+ for large, 50+ for small)
+- [ ] Create one-pagers (50+ for large events)
+- [ ] Prepare demo video on tablet (optional)
+- [ ] Practice 30-second elevator pitch
+
+**1 week before:**
+- [ ] Confirm all meetings (send calendar invites)
+- [ ] Review attendee list (identify targets)
+- [ ] Print materials (if needed)
+- [ ] Prepare follow-up emails (template)
+- [ ] Pack: business cards, one-pagers, tablet, charger, notebook
+
+**During event:**
+- [ ] Wear branded shirt/attire
+- [ ] Collect business cards (take photo for backup)
+- [ ] Take notes on each conversation
+- [ ] Schedule follow-ups same day
+- [ ] Post on LinkedIn (live updates)
+
+**After event (within 48 hours):**
+- [ ] Enter all leads into CRM (event tag)
+- [ ] Send personalized follow-up to each contact
+- [ ] Post event summary on LinkedIn
+- [ ] Thank key contacts (new connections)
+- [ ] Analyze results vs. targets
+
+### Conference Content Strategy
+
+**Create content from events:**
+
+1. **Recording:** Record talks (with permission), edit for YouTube/website
+2. **Slides:** Export and share on LinkedIn (with permission)
+3. **Quotes:** Capture audience quotes, testimonials
+4. **Photos:** Post-conference blog with images
+5. **Case studies:** Use event feedback to build case study
+6. **Social proof:** "Spoke at [Event] to [X] RTO leaders"
+
+**Repurpose schedule:**
+- Week 1: LinkedIn post (event recap)
+- Week 2: Blog post (key takeaways)
+- Week 3: Video (talk recording)
+- Week 4: Email (event summary to list)
+
+### Recommended Actions for Steven
+
+- [ADDED] Create 2026-2027 event calendar (8 events above) — by Week 1
+- [ADDED] Submit speaking proposals to 5 events (Q2-Q3 2026) — by Month 1
+- [ADDED] Plan RTO Leaders Summit attendance (August, Brisbane) — by Month 2
+- [ADDED] Budget $8-12k for events Year 1 (3-5 events) — by Month 1
+- [ADDED] Create speaking one-pager (speaker credentials) — by Week 2
+- [ADDED] Track event metrics in CRM (event tag for all leads) — from first event
+- [ADDED] Develop event follow-up sequence (template above) — by Month 1
+- [ADDED] Create content from each event (recording, blog, social) — ongoing
+- [ADDED] Calculate event ROI monthly (leads, demos, customers, cost) — ongoing
+
+### Sources
+
+- RTO events: ASQA events calendar (asqa.gov.au, 2026)
+- EdTech events: EdTech Australia (edtechaustralia.org.au)
+- Conference ROI: B2B marketing event benchmarks (2025)
+- Speaking proposals: Talk Like This by Daniel G. Graham
+
+---
+
+*End of Cycle 175 refinement. Gap filled: Event calendar (8 events Q2 2026 - Q1 2027), speaking opportunity strategy (proposal format, topic ideas, talk formats), ROI measurement framework (6 metrics, cost/acquisition, pipeline tracking), execution checklist (4 phases), content strategy from events (5 repurposing tactics), 9 recommended actions for Steven.*
