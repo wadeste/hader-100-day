@@ -1184,3 +1184,39 @@ What's defensible about Optimizer AI's approach? Research: proprietary data adva
 - Zoho partner ecosystem knowledge
 - Note: Recommend primary research on competitor capabilities and timelines
 
+
+## 100-day plan synthesis & deliverable preparation — 2026-05-24
+
+### Objective
+Research best practices for executive presentations of 100-day plans. Synthesize all research findings into a structured deliverable for Marcus and Kham: market sizing, product recommendations, GTM strategy, pricing, timeline, resource requirements, and KPIs.
+
+### Key Findings
+- **Two deliverables with different audiences**: 12-24 month marketing strategy (day 60, executive) and 100-day plan (day 100, operational). Don't conflate direction (strategy) with execution (plan).
+- **Three data gaps block deliverables**: (1) Hader's current monthly enrollment volume, (2) $10M EBITDA target scope (Optimizer AI only vs. includes Hader?), (3) First 5-10 RTO contacts from Marcus's network. Must resolve before presenting.
+- **Deliverable structure clear**: Problem → Solution → Proof → Plan → Numbers → Ask. Lead with "We built this at Hader Institute" — the proof point that differentiates.
+- **Financial model**: Year 1 (50 customers, $1.5M ARR), Year 2 (150, $4.5M), Year 3 (300, $9M), Year 4 (433, $13M → $10M EBITDA). 433 customers required at $30,000 ARR.
+- **GTM timeline**: Marcus network (months 1-3) → Zoho partners (months 4-12) → Content/inbound (months 3-12+)
+- **Resource requirements**: $12-14k/month marketing budget, sales person at 20 customers (month 6-9), content writer at month 3
+
+### Strategic Implications
+- **Ask Marcus immediately**: Hader enrollment volume, EBITDA scope, first 5-10 contacts, permission for AI training data
+- **Present drafts with placeholders**: Until missing data is filled, show draft structure and indicate where data goes
+- **Day 60 deliverable**: Strategic (direction, approval, budget)
+- **Day 100 deliverable**: Operational (execution plan, milestones, KPIs, resources)
+
+### Recommended Actions
+- [ ] Ask Marcus for Hader's current enrollment volume and call volume — by June 7, 2026
+- [ ] Clarify $10M EBITDA target scope — by June 7, 2026
+- [ ] Ask Marcus for 5-10 RTO contacts — by June 7, 2026
+- [ ] Get permission for AI training data — by June 7, 2026
+- [ ] Draft 12-24 month strategy with placeholders — by June 14, 2026
+- [ ] Present strategy at day 60 (2026-06-28)
+- [ ] Execute, collect data, build 100-day plan
+- [ ] Present 100-day plan at day 100 (2026-08-07)
+
+### Sources
+- 100-day plan best practices: McKinsey, BCG frameworks
+- B2B SaaS executive presentation templates
+- Previous research synthesis (all topics in research-log.md)
+- Note: Recommend gathering missing data from Marcus before finalizing deliverable
+
