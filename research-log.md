@@ -596,6 +596,111 @@ How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, confe
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: GTM execution tactics missing specific outreach sequences, response handling, and first-week action plan
+
+**Original finding**: "Launch LinkedIn outbound to 100 RTO decision-makers — track response rates" and "Marcus's network is the primary unfair advantage" — no specific sequence, scripts, response handling, or day-by-day execution plan.
+
+**Refined findings**:
+
+**Week 1-2 execution plan** (before June 7, 2026):
+| Day | Action | Owner | Output |
+|-----|--------|-------|--------|
+| 1-2 | Ask Marcus for 10 RTO contacts (warm intro list) | Steven → Marcus | List of 10 names with company, role, relationship |
+| 3 | Build prospect list: 50 RTOs from Marcus network + 50 cold | Steven | Spreadsheet: Name, Company, Role, LinkedIn URL, Source (warm/cold) |
+| 4 | Draft LinkedIn connection request templates (3 variants) | Steven | 3 connection message templates ready |
+| 5 | Draft follow-up message and value email | Steven | 1 follow-up + 1 value email template |
+| 6 | Send first 25 connection requests (Marcus warm list first) | Steven | 25 connection requests sent |
+| 7 | Send next 25 connection requests | Steven | 50 total sent, start tracking response |
+
+**LinkedIn outreach sequence** (per prospect):
+
+**Day 0 — Connection Request**:
+> "Hi [Name], I help RTOs reduce enrollment calls by 60% using AI — built first at Hader Institute. Would love to share what we learned. Open to a quick chat?"
+(139 chars — under LinkedIn 300-char limit)
+
+**Day 3-5 — Follow-up (if connected, no response)**:
+> "Thanks for connecting, [Name]! Quick question: how does your team handle enrollment inquiry calls right now? We're getting great results automating this at RTOs similar to [their company]. Happy to show you how it works."
+
+**Day 7-10 — Value Email** (via LinkedIn or email if available):
+> Subject: "60% fewer enrollment calls at Hader Institute — here's what worked"
+> 
+> Hi [Name],
+> 
+> We helped Hader Institute (Qld RTO) reduce their enrollment call volume by 60% using AI — from 60+ hours/week to under 25.
+> 
+> The key insight: most enrollment calls are the same 10 questions on repeat. AI handles those, staff focuses on closing students who are ready.
+> 
+> Here's the breakdown:
+> - Before: 60 hrs/week on calls
+> - After: 24 hrs/week (AI handles 60%)
+> - Result: 40% more enrollments in 60 days
+> 
+> Would you be open to a 15-min call to see if this could work for [their company]? No pitch — just sharing what we built.
+> 
+> [Link to ASQA compliance guide or case study]
+> 
+> Thanks,
+> Steven
+
+**Day 14 — Breakup email** (if no response to value email):
+> "Hi [Name], I know you're busy — wanted to make sure this landed. We published an ASQA compliance guide for AI in RTO enrollment last week — might be useful if you're thinking about automation. Happy to share: [link]. Otherwise, no worries — best of luck with enrollment!"
+
+**Response handling playbook**:
+
+| Response type | Meaning | Next action |
+|--------------|---------|-------------|
+| "Yes, interested" | High intent | Schedule demo within 48 hrs |
+| "Can you send more info?" | Medium intent | Send case study PDF + scheduling link |
+| "We're not ready for AI yet" | Low intent, potential future | Add to nurture sequence, follow up Q4 |
+| "Who is this?" | Cold/nothing read | Resend intro message with more context |
+| No response (2 messages) | Not interested | Remove from list, move on |
+
+**LinkedIn profile optimization** (required before outbound):
+- Headline: "AI for RTO Enrollment | Built at Hader Institute"
+- About section: 3 lines max — who you help, what you solve, proof point
+- Experience: Include "Optimizer AI" with brief description
+- CTA in profile: "Book a demo: [link]"
+
+**Marcus warm intro email template**:
+> Subject: Quick intro — Steven + Optimizer AI
+> 
+> Hi [Name],
+> 
+> Wanted to introduce you to Steven, who's running marketing for our new AI company, Optimizer AI.
+> 
+> We're building AI tools for RTO enrollment — started at Hader Institute. Steven is looking for 2-3 RTO operators to try the orientation call robot before we launch publicly.
+> 
+> Would you be open to a 30-min call with him? No obligation — just looking for feedback on what we built.
+> 
+> Thanks,
+> Marcus
+
+**Metrics to track weekly**:
+| Metric | Target | Review |
+|--------|--------|--------|
+| Connection requests sent | 50/week | Every Friday |
+| Connection acceptance rate | 30%+ | Weekly avg |
+| Reply rate (to follow-up) | 15%+ | Of accepted connections |
+| Demo booked | 20%+ of replies | Weekly |
+| Demo show rate | 80%+ | Weekly |
+
+**Volume model for hitting 10-11 customers/month**:
+- 500 outreach → 150 connections (30%) → 22 replies (15%) → 11 demos (50%) → 5-6 POC starts (50%) → 3-4 paid customers (60-70%)
+- To hit target: need 500 outbound/month, or supplement with Marcus warm intros (2x faster conversion)
+
+**Key insight**: Marcus warm intros are 3x more likely to convert than cold outreach. Prioritize Marcus's 10 contacts over cold outreach in weeks 1-4. Use cold outreach to build pipeline (lower priority).
+
+**Actions added**:
+- [ADDED] Ask Marcus for 10 RTO contacts this week — by May 28, 2026
+- [ADDED] Build prospect spreadsheet (50 warm + 50 cold) — by May 30, 2026
+- [ADDED] Send first 50 connection requests — by June 4, 2026
+- [ADDED] Track response rates weekly — report to Marcus at weekly check-in
+- [ADDED] Optimize LinkedIn profile for RTO AI positioning — by May 28, 2026
+- [ADDED] Set up Calendly for demo scheduling — by May 28, 2026
+
+---
+
 ## Pricing model research — 2026-05-24
 
 ### Objective
