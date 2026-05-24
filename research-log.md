@@ -6210,3 +6210,141 @@ If Marcus provides 10 warm intros:
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 15)
+### Gap identified: Channel sequencing logic missing — why Marcus network first, then LinkedIn, then content/inbound, then Zoho?
+
+**Original finding**: "Recommended channel priority: (1) Marcus network, (2) Zoho partner channel, (3) Referral program, (4) LinkedIn outbound, (5) Content/inbound, (6) Selective conferences" — this is stated but not explained. For a category-creation play where prospects don't know they need "RTO Enrollment AI," the channel order matters more than for an established category where all channels work equally.
+
+**Why this matters**: The channel sequencing isn't just about "where we'll find customers first" — it's about how category creators build awareness, credibility, and demand in a specific order. Getting the sequence wrong means spending money on channels that don't work for unknown categories, while missing channels that are essential for category creation.
+
+**What the research currently states**:
+
+The channel priority list is presented without explaining the category-creation logic behind it:
+
+| Channel | Priority | Reasoning (current) |
+|---------|----------|--------------------|
+| Marcus network | #1 | "Warm introductions, fastest and cheapest" |
+| Zoho partner | #2 | "Passive lead flow" |
+| Referral | #3 | "Best CAC" |
+| LinkedIn outbound | #4 | "Primary acquisition" |
+| Content/inbound | #5 | "12-month ramp" |
+| Events | #6 | "Brand building" |
+
+**What's missing**: Why this specific order for a NEW category, not an existing market?
+
+**Category creation channel theory** (why the order matters):
+
+For established categories, you can use any channel. For category creation, you need a specific sequence:
+
+| Stage | Goal | Channel | Why first |
+|-------|------|---------|----------|
+| **1. Proof** | Validate product works | Marcus network | Trust + fast feedback + case study material |
+| **2. Reference** | Build first proof points | First 3-5 customers | Proof for all future sales |
+| **3. Amplify** | Spread the word | Content/inbound | Create category language + SEO foundation |
+| **4. Scale** | Reach beyond warm network | LinkedIn outbound | Systematic outreach once you know what works |
+| **5. Distribute** | Leverage existing networks | Zoho partners | Partners already have the customers |
+| **6. Elevate** | Industry authority | Events + PR | Speaking slots, awards, media |
+
+**The critical insight**: You can't skip stages. You can't scale before you have proof. You can't get partners before you have customers. You can't do content/inbound before you know what to say.
+
+**Revised channel sequencing with category-creation logic**:
+
+| Phase | Timeline | Channel | Purpose | What's needed first |
+|-------|----------|---------|---------|--------------------|
+| **Phase 1: Proof** | Months 1-3 | Marcus network | Validate product, build first case study | Marcus's 10 contacts |
+| **Phase 2: Reference** | Months 2-4 | First 5 customers | Build proof points, testimonials | 3-5 paying customers |
+| **Phase 3: Amplify** | Months 3-6 | Content/inbound | Create category language, own keywords | Proof to reference + product to describe |
+| **Phase 4: Scale** | Months 4-8 | LinkedIn outbound | Systematic acquisition | Content + case studies to share |
+| **Phase 5: Distribute** | Months 6-12 | Zoho partners | Passive lead flow via partners | Zoho partner status + product listing |
+| **Phase 6: Elevate** | Months 9-18 | Events + PR | Industry authority, thought leadership | Content moat + customer stories |
+
+**What goes wrong if you skip phases**:
+
+| Skipped Phase | Problem | Result |
+|--------------|---------|--------|
+| Skip Marcus → go straight to LinkedIn | Cold outreach for unknown category | Low response, expensive, no proof to show |
+| Skip proof → go straight to content | Writing about something unvalidated | Content is generic, unconvincing |
+| Skip content → go straight to Zoho | No asset to list in Marketplace | Can't get partner status without product proof |
+| Skip partners → go straight to events | Speaking without audience | No one knows what "RTO Enrollment AI" means |
+
+**Marcus network serves two critical purposes** (not just "fastest path to customers"):
+
+1. **Proof validation**: Before spending money on content or LinkedIn, need to know the product actually works. Marcus's contacts test the product, give feedback, and become the first proof points.
+
+2. **Category language creation**: The first customers help define what "RTO Enrollment AI" means. Their language (pain points, objections, success criteria) becomes the content vocabulary.
+
+**Content/inbound must come before LinkedIn scaling** (not after):
+
+Why content first, then LinkedIn:
+- Content defines the category language you use in LinkedIn outreach
+- Content creates proof points for LinkedIn messages ("see our case study at [link]")
+- Content builds SEO so LinkedIn leads find you
+- Content creates something to share — without content, LinkedIn outreach is just "buy our thing"
+
+Why LinkedIn after content:
+- Outreach without content = cold pitch
+- Outreach with content = "I wrote about this, here's more"
+- Outreach with case study = "We did this for similar RTO, here's proof"
+
+**Zoho partner timing** (why months 6-12, not months 1-3):
+
+Zoho partners want to see:
+- Working product with existing customers
+- Case studies they can share with prospects
+- Partner certification completed
+- Marketplace listing (requires all of the above)
+
+You can't get these in months 1-3. You can only approach Zoho partners once you have 5+ customers and a track record.
+
+**Events as a credibility multiplier** (not a lead-generation channel):
+
+Events work for category creation when:
+- You have something to say (category definition, proof points)
+- You have an audience to reach (content already built awareness)
+- You're speaking, not just attending (thought leadership)
+
+Events don't work for category creation when:
+- No one knows what "RTO Enrollment AI" is (you're explaining from scratch)
+- No proof points to share (your talk is generic AI pitch)
+- You're a booth with a flyer (no authority)
+
+**What this means for budget allocation by phase**:
+
+| Phase | Primary channel | Budget % | Why |
+|-------|----------------|----------|-----|
+| Months 1-3 | Marcus network | 50%+ | Validation + proof |
+| Months 3-6 | Content/inbound | 40%+ | Category creation + SEO |
+| Months 4-8 | LinkedIn outbound | 30%+ | Scale once you know the message |
+| Months 6-12 | Zoho partners | 20%+ | Distribution once you have proof |
+| Months 9-18 | Events | 15%+ | Elevation once you have authority |
+
+**Key insight**: The channel order isn't arbitrary — it's the logical sequence for category creation. Marcus network validates and creates proof. Content creates the category language and SEO foundation. LinkedIn scales what content defines. Zoho distributes what LinkedIn proves. Events elevate what Zoho distributes.
+
+**What to tell Marcus/Kham at day 60**:
+
+> "Our channel strategy follows a specific order because we're creating a category, not competing in one:
+> - Months 1-3: Marcus network validates the product and builds our first proof points
+> - Months 3-6: Content creates the 'RTO Enrollment AI' category language and starts organic pipeline
+> - Months 4-8: LinkedIn scales once we know what works and have content to share
+> - Months 6-12: Zoho partners come when we have proof to show and a listing to offer
+> - Months 9-18: Events become effective once we have content, proof, and audience
+>
+> This sequence is why we won't see meaningful organic leads until month 9-12 — that's normal for category creation. The priority is getting Marcus's warm contacts through the funnel first so we have something to scale."
+
+**Actions added**:
+- [ADDED] Sequence GTM channels by category-creation logic, not by "best ROI" alone
+- [ADDED] Don't invest heavily in LinkedIn until content is live (Phase 3)
+- [ADDED] Don't approach Zoho partners until 5+ customers and case studies exist (Phase 5)
+- [ADDED] Don't prioritize events until content moat is built (Phase 6)
+- [ADDED] At day 60: Present channel sequencing as category-creation strategy, not just channel priority list
+
+**Sources**:
+- Category creation: "Play Bigger" (Al Ramadan et al.), category design frameworks
+- Channel sequencing: B2B marketing strategy (First Round Capital, Andreessen Horowitz)
+- Content before outreach: Content marketing best practices (Content Marketing Institute)
+
+---
+
