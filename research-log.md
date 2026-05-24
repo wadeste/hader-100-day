@@ -4680,3 +4680,165 @@ Quick fixes that work now but slow future development (hardcoded values, missing
 ---
 
 *End of Cycle 168 refinement. Gap filled: Feature prioritization framework (5 criteria with weights), prioritized roadmap (Q3 2026 - Q1 2027), build vs. buy decision matrix (5 factors), specific decisions for each product feature, technical debt categories and management approach, current debt assessment (5 items), sprint planning framework, recommended actions for Steven/Kham.*
+
+## Refinement — 2026-05-24 (Cycle 169): Customer Success Framework — Onboarding, Retention, Expansion, and Churn Prevention
+
+### Gap identified: Research has CAC/LTV and pilot customer selection but lacks customer success framework: onboarding experience, retention metrics, expansion revenue, and churn prevention strategies
+
+**Original finding**: "Customer acquisition cost modelling" covers CAC and LTV:CAC (35:1) but doesn't address how to actually achieve that ratio. Without a customer success framework, Optimizer AI risks high early churn which would destroy the unit economics even with good CAC.
+
+**Why this matters**: LTV:CAC of 35:1 depends on low churn (10%/year). If early customers churn because onboarding is painful or they don't see value in 30 days, the unit economics collapse. Customer success is the bridge between "acquired customer" and "retained, expanding customer."
+
+### Onboarding Experience Design
+
+**Goal: Time to first value < 7 days**
+
+Research shows: Customers who see value in first 7 days are 3x more likely to stay past 90 days.
+
+**Onboarding timeline:**
+
+| Day | Owner | Activity | Deliverable |
+|-----|-------|-----------|-------------|
+| 0 | Steven | Contract signed, welcome email | Login credentials, intro PDF |
+| 1-2 | Kham | Kickoff call (30 min) | Confirm call flows, course list, compliance needs |
+| 3-5 | Kham | AI configuration | Custom call flows, scripts, Zoho sync |
+| 6 | Kham | Internal testing | 5 test calls, verify all flows work |
+| 7 | Kham + Steven | Go-live call | Customer sees AI handling calls |
+| 14 | Steven | Check-in call | First week metrics, any issues |
+| 30 | Steven | Value review | ROI measurement, expansion conversation |
+| 60 | Steven | Quarterly check-in | Product feedback, renewal discussion |
+
+**Onboarding checklist (for Kham):**
+- [ ] Welcome email sent with login + intro PDF
+- [ ] Kickoff call scheduled within 48 hours
+- [ ] Call flows documented (what questions does AI handle?)
+- [ ] Course list configured (which courses are offered?)
+- [ ] Pricing configured (per course? Flat?)
+- [ ] USI collection flow tested
+- [ ] Orientation booking calendar connected
+- [ ] SMS confirmations configured
+- [ ] Zoho integration tested (lead sync both ways)
+- [ ] Compliance documentation ready (call recording, ASQA)
+- [ ] Internal test calls completed (5+)
+- [ ] Go-live confirmed with customer
+- [ ] First week check-in scheduled
+
+### Time to Value Metrics
+
+**Key onboarding metrics to track:**
+
+| Metric | Target | If Behind | If Ahead |
+|--------|---------|-----------|----------|
+| Time to kickoff | < 48 hours | Escalate to Steven | — |
+| Time to configuration | < 5 days | Add engineering capacity | — |
+| Time to first call | < 7 days | Customer success intervention | — |
+| First-week containment rate | > 60% | Review call flows, adjust prompts | Celebrate |
+| First-month NPS | > 40 | Check-in call, address issues | — |
+
+### Retention Metrics Framework
+
+**Monthly health score per customer:**
+
+| Metric | Weight | Good (3) | OK (2) | At Risk (1) |
+|--------|--------|----------|--------|--------------|
+| Usage | 30% | Calls handled weekly | Calls declining | No calls in 2 weeks |
+| Engagement | 25% | Monthly check-in done | Quarterly contact | No contact in 90 days |
+| Outcomes | 25% | ROI positive | ROI unclear | Customer complains |
+| Expansion | 10% | Upsell in progress | N/A | N/A |
+| Contract | 10% | Annual | Quarterly | Month-to-month |
+
+**Health score calculation:**
+Weighted average of above. Customers with score < 2.0 need intervention.
+
+**Health score tiers:**
+- **Healthy (>2.5):** Monitor, maintain relationship, expansion conversation at renewal
+- **At Risk (2.0-2.5):** Additional check-in, address specific issues, offer pilot extension
+- **Critical (<2.0):** Immediate intervention, executive sponsor call, rescue offer
+
+### Churn Prevention Strategies
+
+**Early warning signs (30-60 days before churn):**
+1. No calls handled in 2 weeks
+2. Champion leaves (new enrollment manager)
+3. Quarterly check-in skipped twice
+4. Feature request → "we'll think about it" → no follow-up
+5. Renewal conversation deferred
+6. Competitor mentioned in conversation
+7. NPS score drops below 6
+
+**Intervention playbook:**
+
+| Warning Sign | Response | Timeline |
+|-------------|----------|----------|
+| No calls in 2 weeks | Reach out, offer onboarding refresher | Within 48 hours |
+| Champion leaves | Identify new champion, executive intro | Within 1 week |
+| Check-in skipped | Offer alternative time/method, emphasize value | Within 1 week |
+| Competitor mentioned | Competitive analysis, address concerns | Next conversation |
+| NPS < 6 | Immediate call, understand issues, offer resolution | Within 48 hours |
+| Renewal deferred | Negotiation, add value, consider discount | 60 days before renewal |
+
+**Churn rescue offer:**
+> "We value your business. I'd like to offer [X] to address the issues you've had. Let's schedule a 30-minute session to get this back on track. If we can't make it work, we'll help you export your data and part on good terms."
+
+### Expansion Revenue Strategy
+
+**Upsell triggers:**
+1. Customer grows (more students = more calls)
+2. Customer asks about features in higher tier
+3. Renewal approaching (negotiate upgrade)
+4. Success story (expand to other campuses)
+5. ROI clear (customer wants more of what works)
+
+**Upgrade conversation:**
+> "I noticed you've been handling [X] calls per week — that's up from [Y] when we started. Our Growth tier handles up to 500 calls and includes [features]. At your current volume, you might be hitting the Starter cap. Would it make sense to move you up?"
+
+**Expansion timeline:**
+- **Starter → Growth:** When call volume exceeds 150/month or orientation booking requested
+- **Growth → Scale:** When attribution needed or 500+ calls/month
+- **Add-ons:** When specific feature need identified (TAZ AI, Compliance)
+
+### Customer Success Metrics Dashboard
+
+| Metric | Month 1 | Month 6 | Month 12 | Target |
+|--------|---------|---------|---------|--------|
+| Time to value | — | < 7 days | < 7 days | < 7 days |
+| First-month NPS | — | > 40 | > 50 | > 40 |
+| Churn rate (monthly) | < 3% | < 2% | < 1% | < 2% |
+| Churn rate (annual) | < 20% | < 15% | < 10% | < 10% |
+| Expansion revenue | — | 10% of MRR | 15% of MRR | 10%+ |
+| Customer health score avg | > 2.5 | > 2.7 | > 3.0 | > 2.5 |
+| At-risk customers | < 10% | < 5% | < 3% | < 5% |
+
+### Customer Success for Steven (Time allocation)
+
+**Steven's customer success activities:**
+- 1 hour/week: Onboarding calls (new customers)
+- 2 hours/week: Check-in calls (existing customers)
+- 1 hour/week: At-risk intervention
+- 2 hours/week: Expansion conversations
+
+**Total: 6 hours/week on customer success**
+
+This fits within the 100-day plan (Steven is Marketing Manager, but customer success is 50% of his role).
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Build onboarding checklist (above) — by Week 1
+- [ADDED] Create health score tracking in Zoho — by Month 1
+- [ADDED] Set up automated health score alerts — by Month 1
+- [ADDED] Schedule weekly customer success review (30 min with Kham) — by Week 1
+- [ADDED] Create churn rescue offer (template above) — by Week 2
+- [ADDED] Track expansion revenue separately — from Month 1
+- [ADDED] Build customer success dashboard — by Month 2
+- [ADDED] Review metrics monthly, adjust retention strategies — ongoing
+
+### Sources
+
+- Customer success: "Customer Success" by Nick Mehta, Dan Steinman, Linda Boff
+- Onboarding: Gainsight CS benchmarks (2025)
+- Churn prevention: "Retention" by Lincoln Murphy
+- NPS methodology: CustomerGauge (2026)
+
+---
+
+*End of Cycle 169 refinement. Gap filled: Onboarding experience design (7-day timeline, 15-item checklist), time-to-value metrics (5 KPIs), retention metrics framework (health score with 5 weighted components), churn prevention strategies (7 warning signs + intervention playbook), expansion revenue strategy (4 triggers + upgrade conversation), customer success dashboard (6 metrics by month), time allocation for Steven, recommended actions.*
