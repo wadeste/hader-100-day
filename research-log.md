@@ -2319,3 +2319,91 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Timeline: MVP in 3 months (Sept 2026) if resources allocated
 - [ADDED] Target launch: October 2026 (coincide with AUSPED conference)
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: AI skill packages missing specific curriculum design, learning paths by role, and implementation timeline
+
+**Original finding**: "TAZ reviews are the killer feature" and "Build sequence: orientation call robot → Objection-handling Aircall → TAZ compliance tool" — no specific curriculum outline, role-based learning paths, or time-to-build estimates for AI skill packages.
+
+**Refined findings**:
+**AI skill packages as distinct product line vs. bundled feature**:
+The original research treated AI skill packages as "objection-handling prompts in Aircall" — a feature, not a standalone product. This refinement separates three distinct offerings:
+
+1. **AI Skills Training for RTO Staff** (standalone product — course-based)
+   - Non-accredited short course: "AI Tools for RTO Enrollment"
+   - Accredited skill set (future): "AI in Vocational Education"
+   
+2. **AI-Augmented Workflow Tools** (bundled SaaS feature)
+   - Objection-handling prompts in Aircall
+   - TAZ review automation
+   - Policy compliance checking
+   
+3. **AI Coaching/Overlay** (premium add-on)
+   - Real-time AI coaching during live calls
+   - Post-call AI debrief and improvement suggestions
+   - Monthly AI performance review
+
+**Role-based learning paths** (curriculum design):
+
+| Role | Current Pain | AI Skill Package | Delivery Format | Duration |
+|------|-------------|------------------|------------------|----------|
+| Enrollment Manager | 60+ hrs/week on calls | "AI Conversation Management" | 4-week course + live coaching | 20 hours |
+| Marketing Director | Attribution gaps | "AI Marketing Analytics" | Self-paced + 2 workshops | 12 hours |
+| Compliance Manager | TAZ reviews, audit prep | "AI Compliance Automation" | Case-based + tool training | 16 hours |
+| RTO CEO | Strategic AI adoption | "AI for RTO Leaders" | 1-day workshop + consultation | 8 hours |
+| Trainer/Assessor | Course delivery | "AI-Assisted Assessment" | Blended (online + practice) | 24 hours |
+
+**"AI Conversation Management" curriculum breakdown** (for Enrollment Managers):
+| Module | Topics | Deliverables | Time |
+|--------|--------|--------------|------|
+| 1. AI Fundamentals | How voice AI works, what it can/cannot do | Understanding AI limits | 2 hrs |
+| 2. Script Design | Writing AI-ready enrollment scripts | Draft orientation call script | 4 hrs |
+| 3. AI Oversight | Monitoring AI calls, quality assurance | QA checklist, escalation matrix | 3 hrs |
+| 4. Integration | Zoho + Aircall AI workflows | Map enrollment workflow | 3 hrs |
+| 5. Optimization | Reading AI analytics, A/B testing scripts | Monthly optimization report | 4 hrs |
+| 6. Compliance | ASQA + AI, audit trail management | Compliance documentation | 4 hrs |
+| **Total** | | | **20 hours** |
+
+**Objection-handling prompt library** (specific phrases to add to Aircall):
+| Objection Type | Human Response | AI Prompt for Aircall |
+|---------------|----------------|----------------------|
+| "Course too expensive" | "Let me check if payment plans are available" | "I understand cost is a factor. We offer [X] payment options starting at $[Y]/month. Would that help?" |
+| "Need to think about it" | "Sure, when should I follow up?" | "No problem. I'll send you a summary email now so you have everything in writing. What's your email? I'll follow up in 3 days to answer any questions." |
+| "My employer needs to approve" | "That's great — would a letter to your employer help?" | "Many students get employer support. I can send you a template letter explaining the course benefits — want me to do that?" |
+| "Not sure if I qualify" | "Let me check the entry requirements with you" | "I'd love to check that with you. What's your highest qualification so far, and what field is your current work in?" |
+| "Want to compare other RTOs" | "Absolutely — here's what makes us different" | "Totally understand. The key difference is our AI-powered enrollment support — you'll have 24/7 access to course information and a personal enrollment advisor. Here's a comparison sheet I can send over." |
+
+**Implementation timeline for AI skill packages**:
+| Component | Build Time | Resources | Launch Target |
+|-----------|------------|----------|---------------|
+| Objection-handling prompts (Aircall) | 1-2 weeks | Kham + enrollment script review | June 2026 (month 1) |
+| "AI for RTO Leaders" workshop | 2-3 weeks | Steven (content) + Marcus (delivery) | July 2026 |
+| "AI Conversation Management" course | 4-6 weeks | External instructional designer | August 2026 |
+| AI coaching tool (real-time) | 8-12 weeks | Kham (build) | October 2026 |
+| Accredited skill set development | 3-6 months | ASQA consultant + instructional designer | Q1 2027 |
+
+**Pricing model for AI skill packages**:
+| Offering | Price Point | Format | Target Customer |
+|----------|------------|--------|-----------------|
+| Objection-handling prompts | $199 one-time OR $49/mo | Add-on to SaaS | Existing SaaS customers |
+| "AI for RTO Leaders" workshop | $499/person | 1-day in-person or Zoom | RTO CEOs, founders |
+| "AI Conversation Management" course | $299/person | Self-paced online | Enrollment managers |
+| Full AI skills program | $799/person | 5 courses + coaching | RTOs (teams of 3-5) |
+| Enterprise AI upskilling | $2,500/quarter | Custom curriculum + ongoing | Large RTOs (20+ staff) |
+
+**Key insight**: AI skill packages serve dual purposes — revenue generation AND demand generation. Every enrollment manager who takes "AI Conversation Management" becomes a potential SaaS customer (they understand AI, they want it at their RTO). Track course-to-SaaS conversion rate as key metric.
+
+**Flywheel validation**:
+- 50 RTO staff trained on AI tools (course revenue: $50 × $299 = $14,950)
+- 10% convert to SaaS customers (5 new customers × $24,000 ARR = $120,000 ARR pipeline)
+- ROI on training investment: $15k course revenue → $120k SaaS ARR potential = 8x pipeline value
+
+**Actions added**:
+- [ADDED] Build objection-handling prompt library for Aircall (priority: month 1) — by June 21, 2026
+- [ADDED] Design "AI for RTO Leaders" 1-day workshop outline — by July 5, 2026
+- [ADDED] Create "AI Conversation Management" course outline (6 modules, 20 hours) — by July 15, 2026
+- [ADDED] Hire instructional designer for course production — by August 2026
+- [ADDED] Track course enrollment → SaaS conversion rate (target: 10%) — ongoing
+- [ADDED] Partner with TAFE or private RTO for AI skills course co-marketing — by Q4 2026
+
