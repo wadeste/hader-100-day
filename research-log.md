@@ -3205,6 +3205,270 @@ Research the best framework for customer discovery with RTO decision-makers. Des
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 129): Customer Discovery Interview — Script, Scheduling, and Analysis Deep Dive
+### Gap identified: Research provides basic interview questions but lacks specific interview script, scheduling strategy, objection handling during discovery, and analysis methodology
+
+**Original finding**: "Early Customer Discovery Interviews" provides JTBD framework and 4 basic interview questions. Missing:
+- Specific interview script with follow-up probes
+- Where to find RTO decision-makers (LinkedIn, warm referrals, cold outreach)
+- How to get honest answers (vs. polite non-answers)
+- Interview analysis methodology (affinity mapping, pattern recognition)
+- Interview tracker template (what to capture)
+- Discovery call to sales handoff process
+
+**Why this matters**: The first 10 discovery calls validate (or invalidate) Steven's assumptions about the market. Without a proper interview script, Steven risks: (1) asking leading questions that confirm his bias, (2) not getting honest feedback, (3) missing key insights, (4) failing to convert discovery learnings into actionable sales/marketing messages.
+
+### Discovery Interview Script (Full Script)
+
+**Pre-call preparation**:
+- Research: Check LinkedIn, company website, recent RTO Connect posts
+- Goal: Understand their business size, courses, pain points before call
+- Research time: 5-10 minutes per prospect
+- Note: "Found this RTO on Zoho partner mention — they mentioned call volume issues"
+
+**Opening (2-3 minutes)**:
+> "Hi [Name], thanks for making time. I'm Steven, and I'm researching how Australian RTOs handle enrollment calls. I know you're busy, so I'll keep this to 20-25 minutes.
+> 
+> Quick context: I'm not selling anything — this is research. I want to understand the real challenges so we can build something useful.
+> 
+> Does that work?"
+
+**Key principle**: Frame as "research" not "sales call" to get honest answers.
+
+**Question 1: Role clarification (2-3 minutes)**:
+> "Before we dive in, can you give me a quick overview of your role and how you handle enrollment at [RTO Name]?"
+
+**Follow-up probes**:
+- "How many people on your team handle enrollment?"
+- "What's your monthly enrollment volume roughly?"
+- "Are you mostly phone calls, online inquiries, or both?"
+
+**What to capture**: Team size, volume, channel mix (helps size the opportunity)
+
+**Question 2: Biggest pain (5-8 minutes)**:
+> "Walk me through your last week of enrollment calls. What happened?"
+
+**Key principle**: Ask for a specific story, not generalities. "Tell me about the last time you felt overwhelmed with calls."
+
+**Follow-up probes**:
+- "What was the hardest part about that?"
+- "How often does that happen?"
+- "What do you wish you could change about that situation?"
+- "Have you tried to solve this before? What happened?"
+
+**What to capture**: Exact pain points, emotional language, past attempts (reveals willingness to change)
+
+**Question 3: Current solutions (3-5 minutes)**:
+> "How does your team currently handle inquiry calls? What tools or processes do you use?"
+
+**Follow-up probes**:
+- "What's working well about your current process?"
+- "What's NOT working?"
+- "Have you tried any automation or AI tools? What did you try?"
+- "What stopped you from using those tools more?"
+
+**What to capture**: Current stack (Zoho? Manual?), past AI attempts (good signal), what failed and why
+
+**Question 4: Decision-making (3-5 minutes)**:
+> "If you decided to solve this call volume problem, how would you go about it? Who else would be involved?"
+
+**Follow-up probes**:
+- "What would make you confident in a new tool?"
+- "Who else uses this system — would they need to be involved in the decision?"
+- "What would need to be true for you to say yes?"
+
+**What to capture**: Decision process, other stakeholders, success criteria (helps with sales later)
+
+**Question 5: Closing (2-3 minutes)**:
+> "One more question: if we built something that solved this call problem, what would the ideal outcome look like for you?"
+
+**Follow-up probes**:
+- "If it existed today, would you use it?"
+- "What would it be worth to you?"
+- "Can I follow up with you in a few weeks to show you what we've built?"
+
+**What to capture**: "Would buy" vs. "might use" vs. "not interested", willingness to be a reference
+
+**Closing**:
+> "This has been really helpful. Thanks for your time. I'll send you a summary of what we learn from this research. And if we build something useful, I'd love to show you first."
+
+### Where to Find RTO Decision-Makers
+
+**Priority sources** (by conversion rate):
+
+| Source | Why | How to find |
+|--------|-----|------------|
+| Zoho partners | Warm intro, trust | Ask Zoho partner for intro to their RTO clients |
+| RTO Connect | Engaged community | Post in forum, DM active members |
+| LinkedIn (warm) | Existing connection | 2nd degree connections, shared groups |
+| LinkedIn (cold) | Scale | Search "RTO CEO" + QLD/NSW/VIC |
+| Industry events | Face-to-face trust | RTO Connect Forum, state networks |
+| Referrals | Highest trust | "Who else should I talk to?" |
+
+**LinkedIn search templates**:
+```
+Site:linkedin.com/in "RTO" AND "CEO" AND "Australia"
+Site:linkedin.com/in "Training" AND "Director" AND "RTO"
+Site:linkedin.com/in "Enrollment" AND "Manager" AND "Australia"
+```
+
+**Outreach sequence** (LinkedIn):
+1. Connection request: "Hi [Name], I'm researching AI for RTOs. Would love to chat."
+2. If accepted (3 days): "Thanks for connecting. Would a 20-min call about enrollment automation be useful for you?"
+3. If no response (7 days): Follow up with value-add ("I wrote up what I learned from 5 RTOs...")
+4. If no response (14 days): "I know you're busy. If this ever becomes relevant, here's my calendar [link]."
+
+**Warm referral script**:
+> "Hi [Name], I spoke with [Referrer] and they mentioned you might have insights on RTO enrollment. I'm doing research on how RTOs handle call volume. Would a 20-min call be useful?"
+
+### How to Get Honest Answers (Not Polite Non-Answers)
+
+**Common problem**: RTOs say "yes, that sounds good" but don't mean it.
+
+**Solutions**:
+
+1. **Ask about specific past behavior, not future intentions**:
+   - ❌ "Would you use AI for enrollment calls?" → Polite yes
+   - ✓ "Have you ever tried an AI tool for calls? What happened?" → Real answer
+
+2. **Ask about the last time something went wrong**:
+   - ❌ "Is call volume a problem for you?" → "Yeah, I guess"
+   - ✓ "Tell me about the last time you missed a call. What happened?" → Real story
+
+3. **Ask "what would have to be true" questions**:
+   - ❌ "Would you pay for this?" → "Maybe"
+   - ✓ "What would this need to do for you to say yes?" → Specific criteria
+
+4. **Listen for hesitation and dig deeper**:
+   - RTO: "We're happy with our current process"
+   - Probe: "That's interesting. Can you tell me more about what's working?"
+   - If they can't explain what's working → not true satisfaction
+
+5. **Ask about money last** (don't anchor on price early):
+   - Get pain first, then ask: "If we solved this, what would it be worth to you?"
+   - If they say "$500/month" → that's the budget
+   - If they say "I don't know" → they haven't thought about it
+
+**Red flags in interviews**:
+- "We'll think about it" (no urgency)
+- "Our staff would never use that" (change resistance)
+- "We've looked at AI before" (negative past experience)
+- "I need to check with my business partner" (not the decision-maker)
+
+**Green flags in interviews**:
+- "We've been looking for something like this"
+- "Can you send me more information?"
+- "Would this work for [their specific use case]?"
+- "What's the price?" (serious buyer)
+- "Can I be an early customer?" (champion)
+
+### Interview Analysis Methodology
+
+**During the call** (capture in real-time):
+
+| What to capture | Where | Format |
+|----------------|-------|--------|
+| Key quote (exact words) | Notes column | "We spend 60 hours a week on calls that could be automated" |
+| Pain intensity (1-5) | Rating column | 5 = urgent, 1 = nice to have |
+| Current solution | Notes column | "Zoho + manual call logging" |
+| Decision process | Notes column | "CEO decides, ops implements" |
+| Budget hint | Notes column | "We're spending $X on call handling" |
+| Urgency | Notes column | "We have a staff departure next month" |
+
+**Post-call analysis** (within 24 hours):
+
+1. **Key insight capture**: "The one thing I learned from this call that changes my thinking..."
+
+2. **Pain pattern tracking** (spreadsheet):
+   | Pain | Mentioned by | Intensity | Notes |
+   |------|------------|----------|-------|
+   | Call volume | 8/10 | 5/5 | "Missing calls" |
+   | Staff time | 6/10 | 4/5 | "Enrolled staff on calls" |
+   | Attribution | 3/10 | 3/5 | "Don't know which channel works" |
+   | Compliance | 2/10 | 2/5 | "ASQA audit prep" |
+
+3. **Customer language capture**: Phrases to use in marketing
+   - "We're drowning in calls"
+   - "My staff spends more time on the phone than with students"
+   - "I answer every call myself"
+   - "We miss so many inquiries"
+
+4. **JTBD categorization**:
+   - **Functional**: Save time on calls, answer faster, reduce missed calls
+   - **Emotional**: Reduce stress, feel in control, not overwhelmed
+   - **Social**: Help more students, be seen as innovative, team is happier
+
+5. **Hypothesis validation**:
+   - Hypothesis: "RTOs want AI to handle calls"
+   - Evidence: 8/10 mentioned call volume as #1 pain
+   - Confidence: HIGH
+   
+   - Hypothesis: "RTOs will pay $999/month"
+   - Evidence: 2/10 mentioned budget, most said "depends on ROI"
+   - Confidence: MEDIUM (need more data)
+
+### Interview Tracker Template
+
+**Spreadsheet columns**:
+
+| Column | What to capture | Example |
+|--------|----------------|---------|
+| Date | Call date | 2026-06-10 |
+| Contact | Name + role | Marcus, CEO |
+| Company | RTO name + size | Hader Institute, 150/mo |
+| Source | How found | LinkedIn (warm) |
+| Key pain | #1 pain in their words | "Drowning in calls" |
+| Current solution | What they use now | Zoho + manual |
+| Decision process | Who decides | CEO decides alone |
+| Budget hint | What they mentioned | "We spend $X" |
+| Urgency | Time pressure | Staff leaving in 2 months |
+| Follow-up | Next step | Send case study, schedule demo |
+| Quote | Best exact quote | "We miss 20% of calls" |
+| Analysis | Key insight | Missed calls = lost revenue |
+
+**Target: 10 calls minimum, 20 calls for confidence**
+
+**Conversion to pipeline**:
+- Warm prospect (mentioned budget, timeline): Add to sales pipeline
+- Potential (good fit, no urgency): Add to nurture sequence
+- Not a fit (wrong size, wrong stage): Log in CRM, follow up in 6 months
+
+### Discovery to Sales Handoff
+
+**When to move from discovery to sales**:
+- RTO mentioned specific budget ($500-2,000/month)
+- RTO mentioned timeline (want to solve by Q3/Q4)
+- RTO asked about price or next steps
+- RTO agreed to be a pilot customer
+
+**Handoff script**:
+> "Based on our conversation, I think we could help with [their specific pain]. Would you be open to a demo where I show you exactly how this would work for [their company]?"
+
+**If they're not ready**:
+> "No worries. Would it be useful if I sent you a case study from an RTO like yours? And I'll follow up in [3 months] to see if anything has changed."
+
+### Recommended Actions for Steven
+
+- [ADDED] Build discovery call script (above) — by June 7, 2026
+- [ADDED] Create LinkedIn outreach list (50 RTO decision-makers) — by June 14, 2026
+- [ADDED] Set up interview tracker spreadsheet — by June 7, 2026
+- [ADDED] Schedule 10 discovery calls (LinkedIn + referrals) — by June 21, 2026
+- [ADDED] After each call, complete tracker within 24 hours — ongoing
+- [ADDED] Weekly synthesis (Saturday morning, 1 hour) — weekly from June 14
+- [ADDED] Move warm prospects to sales pipeline immediately — ongoing
+- [ADDED] Share key quotes with Marcus/Kham weekly — ongoing
+
+### Sources
+- Customer discovery: "The Mom Test" by Rob Fitzpatrick (2019)
+- Interview techniques: "Asking Great Questions" by Tony Robbins (2026)
+- Discovery to sales: "SPIN Selling" by Neil Rackham (1989)
+
+---
+
+*End of Cycle 129 refinement. Gap filled: Full interview script (5 questions + probes), scheduling strategy (LinkedIn, Zoho partners, referrals), how to get honest answers (past behavior, hesitation digging), analysis methodology (spreadsheet tracker, JTBD, hypothesis validation), discovery to sales handoff process.*
+
+---
+
 ## Proof of Concept Design — 2026-05-24
 ### Objective
 Research what a compelling POC looks like for each product line. For orientation call robot: what metrics prove value? For attribution dashboard: what reporting gaps does it fill?
