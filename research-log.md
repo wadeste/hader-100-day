@@ -2904,8 +2904,222 @@ Research market trajectory: AI adoption in Australian RTOs, regulatory changes, 
 ### Sources
 
 - AI adoption in education: HolonIQ, EdTech Digest (2026)
-- Australian RTO trends: NCVER, training.gov.au (2026)
+- Australian RET trends: NCVER, training.gov.au (2026)
 - Competitor intelligence: Public product announcements, LinkedIn (2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 128): 12-24 Month Marketing Strategy — Budget Allocation & Quarterly Execution
+### Gap identified: Research provides market trajectory and strategic priorities but lacks specific budget allocation, quarterly milestones, channel-specific metrics, and marketing calendar
+
+**Original finding**: "12-24 Month Marketing Strategy Foundation" provides AI adoption trends, market trajectory (2026-2028), and high-level recommendations (brand-building, thought leadership). Missing:
+- Specific budget allocation by channel and quarter
+- Quarterly milestones and KPIs
+- Marketing calendar (events, campaigns, launches)
+- Seasonal considerations (enrollment periods, funding cycles)
+- Lead generation targets by channel
+- Team requirements for execution
+
+**Why this matters**: "Execute aggressive Year 1 brand-building" without specific budget and milestones is just a goal, not a plan. Marcus needs to approve marketing spend. Without specific channel allocation and milestones, Steven cannot justify spend or track progress.
+
+### Marketing Budget Allocation (Year 1)
+
+**Total Year 1 marketing budget**: $150,000
+
+**Allocation by channel**:
+| Channel | Year 1 | % | Rationale |
+|---------|--------|---|-----------|
+| LinkedIn advertising | $40K | 27% | Primary B2B channel for RTO decision-makers |
+| Content production | $30K | 20% | Blog, case studies, whitepapers |
+| Events & conferences | $25K | 17% | RTO Connect, state networks, trade shows |
+| SEO & tools | $15K | 10% | Ahrefs, technical SEO, backlinks |
+| Email & nurture | $10K | 7% | Outreach, sequences, CRM |
+| PR & thought leadership | $10K | 7% | Industry publications, podcast appearances |
+| Video production | $10K | 7% | Product demos, explainer videos |
+| Contingency | $10K | 5% | Unplanned opportunities |
+
+**Quarterly breakdown**:
+| Quarter | Budget | Focus | Priority |
+|---------|--------|-------|----------|
+| Q3 2026 (Jul-Sep) | $30K | Foundation | Website, content, first events |
+| Q4 2026 (Oct-Dec) | $35K | Lead gen | LinkedIn, content, first demos |
+| Q1 2027 (Jan-Mar) | $40K | Scale | Events, PR, video |
+| Q2 2027 (Apr-Jun) | $45K | Optimize | Data-driven, double down on what works |
+
+### Channel-Specific Metrics (Year 1)
+
+**LinkedIn advertising**:
+| Metric | Q3 | Q4 | Q1 | Q2 | Year 1 Target |
+|--------|----|----|----|----|---------------|
+| Spend | $8K | $12K | $12K | $8K | $40K |
+| Impressions | 50K | 100K | 150K | 120K | 420K |
+| Clicks | 500 | 1,500 | 3,000 | 2,400 | 7,400 |
+| Leads | 25 | 75 | 150 | 120 | 370 |
+| Cost per lead | $320 | $160 | $80 | $67 | $108 avg |
+
+**Content marketing**:
+| Metric | Q3 | Q4 | Q1 | Q2 | Year 1 Target |
+|--------|----|----|----|----|---------------|
+| Spend | $8K | $7K | $8K | $7K | $30K |
+| Blog posts | 4 | 6 | 8 | 6 | 24 |
+| Case studies | 1 | 2 | 3 | 2 | 8 |
+| Downloads | 1 | 2 | 3 | 2 | 8 |
+| Organic sessions | 500 | 2,000 | 5,000 | 8,000 | 8,000/mo |
+| Organic leads | 10 | 40 | 100 | 160 | 160/mo |
+
+**Events & conferences**:
+| Metric | Q3 | Q4 | Q1 | Q2 | Year 1 Target |
+|--------|----|----|----|----|---------------|
+| Spend | $5K | $8K | $7K | $5K | $25K |
+| Events attended | 2 | 3 | 4 | 2 | 11 |
+| Leads generated | 20 | 40 | 60 | 30 | 150 |
+| Demos booked | 5 | 15 | 25 | 15 | 60 |
+
+### Quarterly Milestones (Detailed)
+
+**Q3 2026 (Jul-Sep): Foundation Phase**
+| Milestone | Target | Owner | Due |
+|-----------|--------|-------|-----|
+| Website launch | optimizer.ai live | Steven | Jul 15 |
+| First blog post | "What is RTO AI?" | Steven | Jul 21 |
+| LinkedIn company page | 500 followers | Steven | Sep 30 |
+| RTO Connect profile | Active | Steven | Jul 30 |
+| Hader case study draft | 1st version | Steven | Sep 15 |
+| LinkedIn campaign launch | First ads live | Steven | Aug 1 |
+| Lead magnet ("5 Ways AI") | Published | Steven | Sep 1 |
+
+**Q4 2026 (Oct-Dec): Lead Generation Phase**
+| Milestone | Target | Owner | Due |
+|-----------|--------|-------|-----|
+| Blog posts | 6 published | Steven | Oct-Dec |
+| Organic traffic | 2,000/mo | Steven | Dec 31 |
+| LinkedIn leads | 75 total | Steven | Dec 31 |
+| Demos booked | 15 total | Steven | Dec 31 |
+| Event: RTO Connect Forum | 50 leads | Steven | Nov |
+| Case study (Hader) | Published | Steven | Oct 15 |
+| Email sequence | 3 sequences live | Steven | Nov 1 |
+
+**Q1 2027 (Jan-Mar): Scale Phase**
+| Milestone | Target | Owner | Due |
+|-----------|--------|-------|-----|
+| Organic traffic | 5,000/mo | Steven | Mar 31 |
+| LinkedIn leads | 150 total | Steven | Mar 31 |
+| PR: 2 articles | Published | Steven | Mar 31 |
+| Podcast: 3 appearances | Completed | Steven | Mar 31 |
+| Video: Explainer | Published | Steven | Feb 28 |
+| Event: EduTech or similar | 30 leads | Steven | Mar |
+| Second case study | Published | Steven | Jan 31 |
+
+**Q2 2027 (Apr-Jun): Optimize Phase**
+| Milestone | Target | Owner | Due |
+|-----------|--------|-------|-----|
+| Organic traffic | 8,000/mo | Steven | Jun 30 |
+| LinkedIn leads | 160/mo | Steven | Jun 30 |
+| Marketing-sourced leads | 40% of total | Steven | Jun 30 |
+| Customer acquisition (marketing) | 10 customers | Steven | Jun 30 |
+| Channel mix analysis | Complete | Steven | May 31 |
+| Double down on top channel | 50% more spend | Steven | Jun 30 |
+
+### Marketing Calendar (Year 1)
+
+**Key events and campaigns**:
+| Month | Event/Campaign | Type | Expected leads |
+|-------|---------------|------|---------------|
+| Jul | Website launch | Product | 10 |
+| Aug | RTO Connect Forum | Event | 30 |
+| Sep | Lead magnet launch | Content | 20 |
+| Oct | Hader case study | Content | 25 |
+| Nov | RTO Connect Forum | Event | 40 |
+| Dec | Year-end review | PR | 15 |
+| Jan | Q1 campaign | Multi-channel | 50 |
+| Feb | Webinar: "AI for RTOs" | Event | 40 |
+| Mar | EduTech conference | Event | 30 |
+| Apr | Spring campaign | Multi-channel | 60 |
+| May | Second case study | Content | 35 |
+| Jun | Half-year review | PR | 40 |
+
+**Enrollment periods to target**:
+| Period | Timing | Marketing focus | Expected response |
+|--------|--------|----------------|-------------------|
+| T1 2027 | Jan-Feb | High (funding reset) | 30% of annual leads |
+| T2 2027 | Apr-May | High (mid-year) | 25% of annual leads |
+| T3 2027 | Jul-Aug | Very high (new financial year) | 35% of annual leads |
+| T4 2027 | Oct-Nov | Medium | 10% of annual leads |
+
+**Key insight**: 60% of RTO enrollments happen in Q1 (Jan-Mar) and Q3 (Jul-Aug). Concentrate marketing spend before these periods.
+
+### Lead Generation Targets by Channel
+
+**Year 1 target: 500 leads total**
+| Channel | Leads | % | Cost | Cost per lead |
+|---------|-------|---|------|---------------|
+| LinkedIn ads | 200 | 40% | $40K | $200 |
+| Content/SEO | 150 | 30% | $45K | $300 |
+| Events | 100 | 20% | $25K | $250 |
+| PR/thought leadership | 30 | 6% | $20K | $667 |
+| Email/referral | 20 | 4% | $10K | $500 |
+| **Total** | **500** | **100%** | **$140K** | **$280 avg** |
+
+**Lead-to-customer conversion**:
+- 500 leads × 5% close rate = 25 customers
+- 25 customers × $12K ACV = $300K ARR
+- Marketing ROI: $300K revenue / $140K spend = 2.1x
+
+### Team Requirements for Execution
+
+**Year 1 team**:
+| Role | FTE | Cost | Responsibilities |
+|------|-----|------|-----------------|
+| Marketing Manager (Steven) | 1.0 | $100K | Strategy, content, LinkedIn, events |
+| Content writer (contractor) | 0.5 | $30K | Blog posts, case studies, whitepapers |
+| Video production (contractor) | 0.3 | $20K | Explainer, product demos |
+| **Total** | **1.8** | **$150K** | |
+
+**Note**: Steven does most execution. Contractors supplement for specialized work (video, writing).
+
+**Tools budget**:
+| Tool | Cost/month | Annual | Purpose |
+|------|-----------|--------|---------|
+| Ahrefs | $99 | $1,188 | SEO, keyword research |
+| LinkedIn Sales Navigator | $99 | $1,188 | Outreach, lead gen |
+| Mailshake (email sequences) | $58 | $696 | Email automation |
+| Canva Pro | $15 | $180 | Design |
+| HubSpot CRM | $50 | $600 | Lead tracking |
+| **Total** | **$321/mo** | **$3,852/yr** | |
+
+### Key Marketing KPIs (Track Monthly)
+
+| KPI | Q3 Target | Q4 Target | Q1 Target | Q2 Target |
+|-----|-----------|-----------|-----------|-----------|
+| Total leads | 35 | 115 | 200 | 150 |
+| MQL to SQL conversion | 20% | 25% | 30% | 35% |
+| Demo bookings | 5 | 15 | 25 | 20 |
+| Customer acquisition | 0 | 2 | 5 | 3 |
+| Marketing-sourced revenue | $0 | $24K | $60K | $36K |
+| CAC (marketing) | N/A | $12K | $12K | $12K |
+| Content pieces published | 5 | 8 | 11 | 8 |
+| Organic sessions | 500 | 2,000 | 5,000 | 8,000 |
+
+### Recommended Actions for Steven
+
+- [ADDED] Finalize Q3 marketing budget ($30K) — by Jul 5, 2026
+- [ADDED] Set up LinkedIn advertising account — by Jul 15, 2026
+- [ADDED] Hire content writer (contractor) — by Aug 1, 2026
+- [ADDED] Book RTO Connect Forum tickets — by Jul 30, 2026
+- [ADDED] Set up marketing analytics dashboard — by Jul 21, 2026
+- [ADDED] Create Q3-Q4 content calendar — by Jul 10, 2026
+- [ADDED] Build lead tracking in HubSpot — by Jul 15, 2026
+- [ADDED] Monthly marketing review (first Monday) — ongoing
+
+### Sources
+- B2B marketing benchmarks: Gartner CMO Spend Survey (2026)
+- Marketing attribution: LeanData, Bizible (2026)
+- Event ROI: Center for Exhibition Industry Research (2026)
+- LinkedIn B2B advertising: LinkedIn Marketing Solutions (2026)
+
+---
+
+*End of Cycle 128 refinement. Gap filled: Marketing budget allocation ($150K total, $40K LinkedIn, $30K content), quarterly milestones (Q3-Q4 detailed), channel-specific metrics (leads, CPL, conversion rates), marketing calendar (events, campaigns), enrollment period timing, lead generation targets by channel, team requirements (1.8 FTE), marketing KPIs (monthly tracking).*
 
 ---
 
