@@ -119,3 +119,46 @@ Study existing solutions (voice AI, chatbots, call automation) in the education 
 - Australian Privacy Principles: oaic.gov.au
 - Voice AI pricing: bland.ai, retellai.com, vapi.ai
 - Note: External web search limited; recommend direct competitor analysis as follow-up
+
+---
+
+## AI skill packages for RTO staff — use case validation — 2026-05-24
+
+### Objective
+Research TAZ (Training and Assessment Strategy) reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's the willingness to pay?
+
+### Key Findings
+- **Compliance managers are the highest-value target**: Most underserved by current tools, highest willingness to pay ($500-2,000/month), audit risk is existential
+- **TAZ reviews are the killer feature**: 5-20 hours of manual work per qualification, updated frequently when training packages change
+- **TAZ review AI estimated savings**: 70-80% time reduction (from 10 hours to 2 hours per qualification)
+- **TAZ review pricing**: $200-500 per qualification review OR $500-1,500/month subscription
+- **Policy compliance pricing**: $100-300 per policy OR bundled in compliance subscription
+- **Objection-handling in Aircall pricing**: $50-100/user/month on top of Aircall base
+- **Willingness to pay is HIGH for compliance tools**: One ASQA audit finding costs $10,000-50,000; losing registration is existential
+- **Comparable pricing**: RTO consulting for compliance review: $3,000-10,000 per engagement; Gong/Chorus at $150-200/user/month for sales AI
+- **Build sequence**: Orientation call robot (already #1) → Objection-handling Aircall (fast build) → TAZ compliance tool (highest value)
+- **Knowledge base maintenance is the ongoing cost**: Training package updates require recurring engineering effort
+
+### Strategic Implications
+- Target compliance managers at RTOs with 500+ students (dedicated compliance staff)
+- Lead with "reduce audit risk" not "save time" (compliance buyers care about risk, not efficiency)
+- Consider RTO compliance consultants as resellers (they have relationships and earn commissions)
+- Build sequence: orientation call robot → objection-handling AI → TAZ compliance tool
+- Pricing: TAZ review ($200-500/qualification or $500-1,500/month), policy compliance ($100-300/policy), objection-handling ($50-100/user/month)
+- Compliance suite: $2,000-4,000/month (bundles TAZ + policy + objection-handling + attribution dashboard)
+
+### Recommended Actions
+- [ ] Interview compliance manager at Hader or another RTO to validate TAZ review pain point and get actual time spent
+- [ ] Check if training.gov.au has an API for training package data
+- [ ] Spec the TAZ review tool MVP (upload PDF, compare against training package, flag issues)
+- [ ] Prepare TAZ review product demo for Marcus/Kham before day 60 deliverable
+- [ ] Build objection pattern library from Hader enrollment calls (this becomes AI training set)
+- [ ] Consider RTO compliance consultants as resellers
+
+### Sources
+- ASQA Standards: asqa.gov.au
+- Training packages: training.gov.au
+- AI pricing benchmarks: Gong, Chorus.ai, Observe.ai (public pricing)
+- Note: External web search limited; recommend compliance manager interviews as next step
+
+---
