@@ -3195,6 +3195,92 @@ But at $2,000/month customers ($24,000 ARR), commission = $3,600 = 7.5% of LTV. 
 - [ADDED] Identify 3-5 community services RTOs in Queensland for pilot — by June 28, 2026
 - [ADDED] Design "prerequisite verification" feature for community services orientation call — by July 2026
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: AI product adaptations needed for community services, and Hader expansion timeline missing specificity
+
+**Original finding**: "Unique AI opportunity for community services: prerequisite verification, placement matching, supervision documentation" — no detail on how Optimizer AI's products would need to adapt for community services, or the specific timeline for Hader to expand into this market.
+
+
+**Refined findings**:
+
+**How Optimizer AI products adapt for community services RTOs**:
+
+
+| Product | General RTO Version | Community Services Adaptation | Build Effort |
+|---------|--------------------|-----------------------------|-------------|
+| **Orientation call robot** | Standard qualification + orientation | Add prerequisite checks: Cert III required? Experience documented? Visa status? | Medium (script extension) |
+| **Attribution dashboard** | Same for all RTOs | Add community services-specific fields (placement status, clinical hours) | Low (config only) |
+| **Onboarding chatbot** | Standard check-ins | Add placement matching prompts: "Have you found a placement?" | Medium (new prompts) |
+| **TAZ review tool** | Standard TAS comparison | Add CHC-specific unit sequencing rules | High (new logic) |
+
+**Community services orientation call script additions** (specific to Cert IV Mental Health as example):
+
+```
+Existing script:
+- "Are you interested in [course]?"
+- "What's your highest qualification?"
+
+Community services script additions:
+- "Cert IV Mental Health requires a Cert III in Community Services OR documented experience in the field. Do you have either of these?"
+- "We require students to complete 160 hours of supervised placement. Do you have access to a suitable workplace for placement?"
+- "Students in this course must complete LLN assessment and a working with children check. Are you comfortable with these requirements?"
+```
+
+**Prerequisite verification workflow** (for AI to handle automatically):
+1. AI asks: "What's your highest qualification?"
+2. AI asks: "Do you have any experience in community services, mental health, or related fields?"
+3. If Cert IV Mental Health selected:
+   - If no Cert III → AI says: "You'll need to complete Cert III Community Services first, or we can discuss experience recognition."
+   - If no experience → same response
+   - If has Cert III or experience → continue enrollment path
+4. AI flags for human review: "Customer has Cert III but no placement access — needs placement support discussion"
+
+
+**Hader expansion into community services — decision framework**:
+
+| Question | Analysis | Decision |
+|----------|----------|----------|
+| Does Hader have scope for CHC training packages? | Unknown — need to ask Marcus | Must confirm before any planning |
+| Does community services align with Hader's mission? | Community services = vocational education = fit | Likely yes |
+| What's the revenue potential? | 50-100 CHC students/month × $5,000 avg = $250-500k/month | High |
+| What's the AI opportunity? | Each CHC RTO needs orientation robot (prerequisite checks) | 20-40 CHC RTOs in QLD = $40-80k/month MRR |
+| What's the competitive landscape? | Fewer players than general business RTOs | Lower competition |
+| What's the first step? | Ask Marcus about CHC scope — if no, apply for scope expansion | June 2026 |
+
+
+**Community services AI market sizing for Optimizer AI**:
+
+| Market Segment | RTOs in AU | Target RTOs (20%+ enrollment) | MRR Opportunity | ARR Opportunity |
+|----------------|-----------|-----------------------------|----------------|----------------|
+| General RTO (business, IT) | ~1,200 | 400 | $800k/month | $9.6M/year |
+| Community Services RTOs | ~400 | 120 | $240k/month | $2.9M/year |
+| Mental Health/AOD RTOs | ~100 | 30 | $60k/month | $720k/year |
+| **Total Optimizer AI SAM** | **~1,700** | **550** | **$1.1M/month** | **$13.2M/year** |
+
+
+**Key insight**: Community services is a separate market segment from general RTOs. Optimizer AI's orientation call robot can be adapted for community services with script changes (not rebuild). The prerequisite verification feature is valuable specifically for Cert IV Mental Health and Cert IV AOD — no competitor has built this.
+
+
+**Community services expansion roadmap** (if Hader confirms CHC scope):
+
+| Quarter | Action | Resource | Output |
+|---------|--------|----------|--------|
+| Q3 2026 | Add prerequisite verification to orientation robot | Kham (2 weeks) | Community services script module |
+| Q4 2026 | Target 2-3 community services RTOs for pilot | Steven (outreach) | 1 pilot customer |
+| Q1 2027 | Build community services case study | Steven | Published case study |
+| Q2 2027 | Expand to full community services segment | Steven + AE | 10 community services customers |
+
+
+**Actions added**:
+- [ADDED] Ask Marcus: Does Hader have CHC training package scope? (Cert III, Cert IV Community Services) — by June 7, 2026
+- [ADDED] If no CHC scope: Research scope expansion requirements (ASQA application) — by June 21, 2026
+- [ADDED] Design prerequisite verification script for Cert IV Mental Health — by July 2026
+- [ADDED] Model community services market: 400 CHC RTOs × 20% = 80 target customers × $2k avg = $160k/month MRR
+- [ADDED] Add community services module to product roadmap — by day 60 presentation
+- [ADDED] Target first community services pilot: Brisbane North area, private RTO (not TAFE) — by Q4 2026
+
 
 ## Refinement — 2026-05-24
 ### Gap identified: TAZ review tool missing specific workflow, technical approach, and time-to-build estimate
