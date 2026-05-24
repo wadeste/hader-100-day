@@ -2201,6 +2201,86 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Identify 5 backlink targets and begin outreach — by July 2026
 - [ADDED] Track DA monthly (use Moz or Ahrefs free tools) — target DA 10+ by month 6
 
+---
+
+## Refinement — 2026-05-24 (Cycle 4)
+### Gap identified: Positioning validation framework — how to test which positioning resonates before day 60
+
+**Original finding**: "Test three options with early customers, double down on what resonates" — no specific methodology for quick positioning validation.
+
+**Refined findings**:
+
+**Positioning validation is time-sensitive**: The day 60 deliverable needs a *recommended* positioning, not just three options. Marcus and Kham need a decision, not a menu. So the validation framework must produce a recommendation, not just feedback.
+
+**Three-phase validation approach** (before day 60):
+
+**Phase 1: Static message test (Week 1-2, days 1-14)** — Fastest signal
+- Create three brief descriptions (150 chars each) for LinkedIn posts:
+  - Option A: "AI for RTO Enrollment — Automate 60% of enrollment calls"
+  - Option B: "The AI Platform Built for ASQA Compliance"
+  - Option C: "AI for RTO Student Journey — From Inquiry to Graduation"
+- Run as LinkedIn poll or carousel: "Which of these would make you want to learn more?"
+- Target: 50+ responses per option to be statistically meaningful
+- Signal: Which option gets highest CTR to demo booking page
+
+**Phase 2: Discovery interview probe (Week 2-3, days 14-21)** — Richest signal
+- Add positioning probe to discovery interviews:
+  - "If I told you we help RTOs automate enrollment calls, what would you ask next?"
+  - "If I told you we're the only AI platform built for ASQA compliance, what would you ask?"
+  - "If I told you we handle the entire student journey from inquiry to graduation, what would you think?"
+- Code responses by: Interest level, skepticism level, follow-up questions
+- Signal: Which framing produces curiosity vs. dismissal
+
+**Phase 3: Demo conversion tracking (Weeks 3-6, days 21-42)** — Real-world signal
+- A/B test positioning at start of demos:
+  - 5 demos with Option A framing
+  - 5 demos with Option B framing
+  - Track: "Would you use this?" response rate
+- Signal: Which framing produces higher "yes, I want this" rate
+
+**Quick positioning validation before day 60** (if no time for full 3-phase):
+
+Single 30-minute test with Marcus's 3 warmest contacts:
+1. Send email with three positioning statements + ask for feedback
+2. Include one specific question: "Which one would make you book a demo?"
+3. Collect 48-hour responses
+4. Recommend the option with 2+ of 3 votes
+
+**Decision matrix for day 60 recommendation**:
+| Criterion | Option A: Enrollment Automation | Option B: ASQA Compliance | Option C: Student Journey |
+|-----------|-------------------------------|--------------------------|--------------------------|
+| Specificity | High | High | Medium |
+| Measurable proof | Easy (60% call reduction) | Medium (audit readiness) | Hard (long timeframe) |
+| Staff resistance | Low (handles boring calls) | Low (protects compliance) | Medium (bigger change) |
+| CEO appeal | High (ROI) | High (risk reduction) | Low (abstract) |
+| Enrollment manager appeal | High (day-to-day pain) | Medium | Medium |
+| Speed to first content | Fast (orientation robot stories) | Fast (compliance guide) | Slow (need full journey) |
+| **Recommended for** | **Initial GTM** | **Competitor response** | **Year 2+ expansion** |
+
+**What to say to Marcus/Kham at day 60**:
+> "Based on testing with [X] RTO operators and analysis of market fit, we recommend Option A: 'AI for RTO Enrollment Automation' as the primary positioning for the first 6 months. Here's why: [specific reason]. We'll monitor response to Options B and C in the first 90 days and can pivot if compliance objection becomes dominant or enterprise RTOs demand full journey. Option B becomes primary if a competitor enters and compliance differentiation becomes critical. Option C becomes primary at 20+ customers when we've proven the full journey capability."
+
+**Positioning as strategic asset, not just messaging**:
+- Option A ("Enrollment Automation") is the beachhead — highest urgency, clearest ROI, fastest first customer
+- Option B ("ASQA Compliance") is the wall — defensible against competitors, harder to copy, stickier
+- Option C ("Student Journey") is the castle — category leadership, but requires proof points that take time to build
+
+**Timeline for positioning evolution**:
+| Period | Primary Position | Secondary Position | Use Case |
+|--------|-----------------|-------------------|----------|
+| Months 1-6 | Option A | Option B | Initial GTM, first 20 customers |
+| Months 6-12 | Option A or B | Option C | Depends on market response |
+| Months 12-24 | Category leader | All three | 30+ customers, full suite launched |
+
+**Critical insight**: Don't wait to choose one. Build all three into the product roadmap so positioning can evolve without pivoting. Option A gets you first customers; Options B and C become the competitive moats you layer in.
+
+**Actions added**:
+- [ADDED] Create three positioning statements for LinkedIn poll test — by May 28, 2026
+- [ADDED] Add positioning probe to discovery interview guide — by June 7, 2026
+- [ADDED] Test positioning with Marcus's warmest 3 contacts before day 60 — by June 21, 2026
+- [ADDED] Build decision matrix slide for day 60 presentation — by June 28, 2026
+- [ADDED] Recommend Option A for initial GTM with clear triggers to shift to B or C
+
 
 ## Refinement — 2026-05-24
 ### Gap identified: Partnership scan missing specific partner names, outreach scripts, and commission structure
