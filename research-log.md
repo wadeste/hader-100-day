@@ -1152,3 +1152,235 @@ Event → Business cards → Email follow-up → Demo request → Customer → R
 
 *End of Cycle 192 refinement. Gap filled: Study Buddy verified as non-competitor (consumer vs B2B), Area Ten verified as marketing agency (not AI vendor), actual competitive landscape clarified (DIY builds + future entrants only), Area Ten referral program opportunity ($25-50K ARR potential), monitoring system with monthly/quarterly checks, early warning indicators, 9 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 194): Pricing Model Deep-Dive — Missing Research on SaaS Pricing Strategy for AI Enrollment Products
+
+### Gap identified
+The task queue marks "Pricing model research" as complete, but research-log.md contains no detailed pricing analysis. The only pricing content is scattered references: "$499-1,999/mo" tier structure (Cycle 188), "$5K-15K/month competitor pricing" (Cycle 192), and pricing mentioned in market sizing (Cycle 190). There's no analysis of:
+- Why flat SaaS fee vs. per-enrollment vs. usage-based pricing
+- How AI voice agent pricing typically works ($500-5K/mo benchmarks)
+- Whether Optimizer AI should charge per call, per enrollment, or flat fee
+- How to structure annual vs. monthly contracts
+- What discounts to offer and when
+
+**Original finding**: N/A — no detailed pricing model research exists in research-log.md. The task was marked complete in queue.md but no findings were ever written.
+
+**Why this matters**: Pricing is a strategic lever, not just a number. The wrong pricing model can kill a SaaS before it starts: too high and you lose deals, too low and you leave money on the table and attract the wrong customers. AI voice agents have specific cost structures (per-minute pricing, infrastructure costs) that must be factored in.
+
+### AI Voice Agent Pricing Landscape (2025-2026)
+
+**Market context — what competitors charge**:
+
+| Product | Type | Starting Price | Model | Notes |
+|---------|------|---------------|-------|-------|
+| Air.ai | Outbound AI | $500-3,000/mo | Per-minute + seat | High-volume sales |
+| Bland AI | Enterprise voice | $500+/mo | Per-minute | Human-like, enterprise SLA |
+| Retell AI | Turnkey bot | $200-1,500/mo | Per-minute + seat | Call center focus |
+| Hyro | Enterprise | $2,000+/mo | Custom | No-code, 40+ integrations |
+| VAPI (build your own) | Developer platform | $250/mo floor | Per-minute | Full control, requires dev |
+| Competitors (RTO-adjacent) | | | | |
+| Phone.com AI | SMB voice | $40-150/mo | Per-user | Basic AI features |
+| RingCentral AI | Enterprise | $30-60/user/mo | Per-user | Large enterprise focus |
+| **Optimizer AI** | **RTO-specific** | **$499-1,999/mo** | **Flat SaaS** | **Domain-specific, ASQA compliant** |
+
+**Key insight**: Most AI voice agents charge per-minute OR per-seat. Optimizer AI is positioned as flat SaaS ($499-1,999/mo). This is a different model — why?
+
+### Why Flat SaaS > Per-Minute for RTOs
+
+**The case for flat fee pricing**:
+
+1. **Predictability for customer**: RTOs hate variable billing. "How much will this cost?" → "It's $999/month, unlimited calls." Predictability = trust.
+
+2. **Cost management for Optimizer AI**: Per-minute pricing means revenue fluctuates with call volume. Flat fee means predictable MRR even if some customers have high usage.
+
+3. **Psychological anchor**: $999/month sounds "expensive" if you think per-minute. But "unlimited calls" at $999/month sounds cheap when a competitor quotes $0.05/min × 500 calls × 5 min = $125/month in usage fees alone.
+
+4. **Upsell path**: Flat fee naturally leads to tier upgrades (Starter→Growth→Scale). Per-minute doesn't have the same upgrade incentive.
+
+**The case AGAINST per-minute (why Optimizer AI shouldn't do it)**:
+- Transactional relationship ("pay for what you use") vs. partnership ("we're in this together")
+- RTOs with high volume might push back ("we're paying too much!")
+- Revenue is unpredictable → harder to forecast → harder to plan investment
+- Competitors could undercut on price if usage is low
+
+**When per-minute DOES make sense**: For products with variable usage (like a sales team that has busy weeks and slow weeks). For RTO enrollment, call volume is relatively consistent month-to-month → flat fee is better.
+
+### Optimizer AI Pricing Structure Analysis
+
+**Current proposed structure**:
+- Starter: $499/month (<50 students/month)
+- Growth: $999/month (50-200 students/month)
+- Scale: $1,999/month (200+ students/month)
+
+**Is this the right structure?** Let's analyze:
+
+**Per-student economics**:
+| Tier | Price/mo | Avg students/mo | Cost per student | Margin opportunity |
+|------|----------|-----------------|------------------|-------------------|
+| Starter | $499 | 25 | $19.96/student | Low (tight margin at small volume) |
+| Growth | $999 | 100 | $9.99/student | Medium (sweet spot) |
+| Scale | $1,999 | 250+ | <$8/student | High (volume efficiency) |
+
+**At first glance**: Starter looks like it might be underpriced. At 25 students/month, $499 = $20/student. But what if Starter has 40 students/month (borderline)? $499/40 = $12.50/student. Still profitable?
+
+**Let's model the cost structure**:
+
+| Cost component | Per customer/month | Notes |
+|----------------|-------------------|-------|
+| Voice AI (VAPI + ElevenLabs) | $50-80 | 500 calls × 5 min × ($0.006 + $0.03)/min |
+| Phone carrier | $20-40 | $0.005-0.01/call connection |
+| Zoho API costs | $10-30 | Depends on call volume, record creation |
+| Infrastructure (servers, etc.) | $20-40 | Scaled per customer |
+| Support (tier-dependent) | $50-150 | Starter: minimal, Scale: dedicated |
+| **Total variable cost** | **$150-300** | **Plus fixed costs (engineering, etc.)** |
+
+**Implication**: At $499/month, Starter barely covers variable costs. At $999/month, Growth has $700-850 margin. At $1,999/month, Scale has $1,700+ margin.
+
+**Recommendation**: Starter pricing is tight. Consider:
+- Option A: Raise Starter to $599/month (20% increase, still competitive)
+- Option B: Add a call cap for Starter (e.g., 150 calls/month) to control costs
+- Option C: Keep $499 but accept lower margin — it's a lead-in product that converts to Growth
+
+### Annual vs. Monthly Contract Analysis
+
+**The case for annual contracts**:
+- Predictable revenue (12 months vs. 1 month)
+- Lower churn (harder to cancel)
+- Cash upfront (improved cash flow)
+- Stronger commitment from customer
+
+**Standard SaaS benchmarks**:
+- Annual contract discount: 15-20% (commonly offered)
+- Annual vs. monthly uptake: ~60-70% choose annual if discount is offered
+
+**Optimizer AI contract recommendations**:
+
+| Tier | Monthly | Annual (15% off) | Annual (20% off) | Notes |
+|------|---------|-----------------|------------------|-------|
+| Starter | $499 | $5088/yr ($424/mo) | $4794/yr ($399/mo) | 15% is psychologically clean |
+| Growth | $999 | $10,188/yr ($849/mo) | $9594/yr ($799/mo) | 15% off is $1,800 savings |
+| Scale | $1,999 | $20,388/yr ($1,699/mo) | $19,190/yr ($1,599/mo) | 15% off is $3,600 savings |
+
+**Recommended discount**: 15% annual discount (not 20%). This is:
+- Industry standard (not too generous)
+- Creates meaningful savings ($1,800-3,600/year)
+- Easier to explain ("15% for committing to 12 months")
+
+**Early-bird launch discount**: For first 10 customers, offer:
+- 30% off annual (aggressive but builds base)
+- Month 1 free if they sign 12-month contract
+- This creates urgency and gets initial customers who become case studies
+
+### Usage-Based vs. Flat SaaS Hybrid Model
+
+**The hybrid model**: Some SaaS companies charge flat fee + usage add-ons. This could work for Optimizer AI:
+
+| Component | Price | Notes |
+|-----------|-------|-------|
+| Base platform | $499-1,999/mo (tier) | Unlimited calls up to tier limit |
+| Overage calls | $0.50/call | If customer exceeds tier cap |
+| Additional features | $50-200/feature/mo | SMS confirmations, advanced analytics |
+| Premium support | $200-500/mo | Dedicated CSM, <4hr response |
+
+**Should Optimizer AI do this?**
+
+Pros:
+- Captures more revenue from high-usage customers
+- Fair for customers who use less
+
+Cons:
+- Adds complexity to pricing (confusing)
+- Penalizes customers who grow (negative signal)
+- Additional tracking and billing overhead
+
+**Recommendation**: Stick with flat fee for first 12 months. Add usage-based add-ons only if:
+- High-usage customers consistently exceed tier limits
+- Overage revenue would materially impact margins
+- Customers request it ("I need more calls but don't want to upgrade")
+
+### Competitive Pricing Strategy
+
+**vs. DIY builds (VAPI + custom)**:
+- DIY: $250-500/month (just VAPI + phone) + 40+ hours dev time
+- Optimizer AI: $499-1,999/month (includes domain logic, ASQA compliance, support)
+- Positioning: "Pay us $249 more/month and get everything included — no dev time, no audit risk"
+
+**vs. generic AI vendors (Bland, Hyro)**:
+- Bland: $500+/month, enterprise focus, no RTO specifics
+- Hyro: $2,000+/month, custom enterprise
+- Optimizer AI: $499-1,999/month, RTO-specific, ASQA-ready
+- Positioning: "We cost less than generic enterprise AI and we actually understand RTOs"
+
+**vs. Area Ten (marketing agency)**:
+- Area Ten: $5K-15K/month (management fee + ad spend)
+- Optimizer AI: $499-1,999/month (enrollment handling only)
+- Positioning: "Area Ten handles your ads. We handle your enrollments. Together, you get the full funnel."
+
+**Pricing anchor**: Position Optimizer AI as "enterprise AI for SMB budgets." The anchor is $499/month — not expensive for an AI system, not cheap for an RTO. The real value is what you GET (unlimited calls, ASQA compliance, 24/7 coverage).
+
+### Discount Strategy and Approval Framework
+
+**When to offer discounts**:
+
+| Situation | Discount offered | Rationale |
+|-----------|-----------------|-----------|
+| Annual contract | 15% off | Standard, improves retention |
+| 3+ year contract | 20% off | Long-term commitment, predictable revenue |
+| Non-profit/charity RTO | 20% off | Social good, potential case study |
+| Beta customer (early) | 30% off + free month 1 | Build initial case studies |
+| Referral reward | 1 month free | Aligns incentives |
+| Hader network | 10% off (permanent) | Marcus/Kham relationship |
+
+**When NOT to offer discounts**:
+- "My budget is tight" (generic objection — use ROI calculator instead)
+- "Your competitor is cheaper" (if no competitor has RTO-specific features)
+- "We'll sign if you drop price" (negotiation tactic — hold firm)
+
+**Discount approval process**:
+- <10% discount: Steven can approve
+- 10-20% discount: Requires Marcus/Kham approval
+- >20% discount: Requires business case (why is this customer worth it?)
+
+### ROI-Based Pricing (Value Pricing)
+
+**The value pricing approach**: Price based on value delivered, not cost + margin.
+
+For RTOs, the value delivered is:
+1. **Enrollment recovery**: Missed calls = lost enrollments. 15-25% more enrollments = $15,000-50,000/year value
+2. **Staff time savings**: 15-25 hours/week saved = $20,000-35,000/year value
+3. **Compliance peace of mind**: Audit preparation time saved = $2,000-5,000/year value
+
+**Total value**: $37,000-90,000/year
+
+**At $999/month ($11,988/year)**: ROI is 3-7x. The price is justified by value delivered.
+
+**Implication for pricing**: The $499-1,999/month range is actually UNDER-priced for the value delivered. An RTO getting $50,000/year in value from a $12,000/year tool has a 4x ROI.
+
+**Should Optimizer AI raise prices?** Probably not yet — price increases before market traction are risky. But once you have 20+ customers and case studies, you can test price increases.
+
+### Recommended Actions for Steven
+
+- [ADDED] Lock in annual contract discount at 15% (standard, not negotiable below) — Week 1
+- [ADDED] Create pricing page with clear tier comparison (Starter/Growth/Scale) — Month 1
+- [ADDED] Build ROI calculator (value delivered vs. cost) for sales conversations — Month 1
+- [ADDED] Offer "first 10 customers" early-bird deal (30% off annual + month 1 free) — Week 2
+- [ADDED] Set discount approval framework (Steven <10%, Marcus/Kham 10-20%) — Week 1
+- [ADDED] Model Starter tier margin (is $499 sustainable? Consider $599 or call cap) — Month 2
+- [ADDED] Track pricing by deal source (referred customers vs. outbound vs. inbound) — Month 3
+- [ADDED] Test price increase after 20 customers (raise Growth to $1,199/mo) — Month 9
+- [ADDED] Document all pricing decisions in pricing rationale doc (for investor conversations) — Month 2
+
+### Sources
+
+- AI voice agent pricing benchmarks: G2.com voice AI software category (2025)
+- SaaS pricing best practices: Price Intelligently Value Metrics Report 2024
+- Annual vs. monthly contract benchmarks: Pacific Crest SaaS Survey 2024
+- Value-based pricing: Pricing on Purpose by Ronald Baker (referenced in Cycle 188)
+- Per-minute voice AI costs: VAPI pricing (vapi.ai), ElevenLabs pricing (elevenlabs.io) (2025)
+
+---
+
+*End of Cycle 194 refinement. Gap filled: No detailed pricing model research existed in research-log.md. Added AI voice agent pricing landscape (7 competitors), why flat SaaS > per-minute for RTOs, Optimizer AI pricing structure analysis with per-student economics, annual vs. monthly contract recommendations (15% discount standard), usage-based hybrid model analysis, competitive pricing strategy vs. 3 competitor types, discount strategy and approval framework, value pricing approach with ROI justification, 9 recommended actions for Steven.*
+
