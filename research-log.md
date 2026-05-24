@@ -8817,5 +8817,252 @@ lead_score = (budget_fit × weight) + (authority_level × weight) + (need_intens
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 226): Team Structure and Hiring Roadmap — Missing Human Capital Plan for $10M EBITDA Target
+
+### Gap identified
+Research covers financial modelling (revenue targets, unit economics) in Cycle 209 and implementation timeline (milestones, KPIs) in Cycle 207, but lacks a **human capital plan**: what roles to hire, when to hire, salary benchmarks, hiring triggers, and how team structure scales with revenue. Steven joined as the first non-founder employee. The $10M EBITDA target implies a significant team. Without a hiring roadmap, Optimizer AI risks: hiring too late (stunting growth), hiring too early (burning cash), or hiring wrong roles (wrong skills for the stage).
+
+**Original finding**: "Financial modelling" (Cycle 209) covers operating expenses but only mentions "hire 1 sales person, hire 1 engineer" without timing or benchmarks. "Implementation timeline" (Cycle 207) shows milestones by month but doesn't map team structure. "Customer success" (Cycle 210) mentions CSM for Scale tier but no scaling plan.
+
+**Why this matters**: The SaaS rule of thumb: each $500K ARR需要一个 dedicated full-time person (sales, engineering, customer success). At $10M EBITDA (~$12M revenue), that implies 20-24 people. But the journey from 1 (Steven) to 20+ requires deliberate hiring decisions. The wrong hire at the wrong time can cost $50-200K (salary + recruiting + ramp time) with months of lost momentum.
+
+### Team Scaling Framework — Revenue to Headcount Mapping
+
+**SaaS benchmarks for team scaling**:
+
+| ARR Milestone | Team Size | Primary Roles | Time to Reach (est.) |
+|--------------|-----------|---------------|---------------------|
+| $0-500K | 2-3 | Steven (sales/marketing), Kham (product/engineering), Marcus/Kham (exec) | Year 1 |
+| $500K-1M | 4-5 | + Customer Success, + junior engineer | Year 2 |
+| $1M-2M | 6-8 | + Account Manager, + second engineer, + marketing support | Year 2-3 |
+| $2M-5M | 10-14 | + Sales person, + CS lead, + product manager, + data/AI specialist | Year 3-4 |
+| $5M-10M | 18-24 | + VP Sales, + marketing lead, + ops, + customer success team | Year 4-5 |
+
+**For Optimizer AI specifically** (RTO domain expertise required):
+- Each hire needs RTO industry knowledge or significant ramp time
+- Sales requires understanding of RTO operations (can't be generic SaaS sales)
+- Engineering requires voice AI + compliance knowledge (specialized)
+- Customer success requires RTO compliance knowledge (ASQA, USI, enrollment)
+
+**Implication**: Optimizer AI's team scaling will be slower than generic SaaS because domain expertise is required. Plan for longer hiring timelines (3-6 months for good fits).
+
+### Role-by-Role Hiring Plan
+
+**Role 1: Steven (already hired)**
+- Title: Marketing Manager → VP of Sales (evolve)
+- Primary: Sales, marketing, partnerships, customer success (Year 1)
+- Salary: $100K base + $20K bonus + 1% equity
+- Evolves to: Sales leader (manage team) as revenue grows
+
+**Role 2: Kham (founder)**
+- Primary: Product, engineering, AI/voice, Zoho integration
+- Timeline: Full-time founder (no hire until $1M+ ARR)
+
+**Role 3: Customer Success Representative** (first hire, Month 6-9)
+
+| Attribute | Detail |
+|-----------|--------|
+| **Why hire now** | Steven stretched thin with sales + marketing + CS; CS prevents churn |
+| **Responsibilities** | Onboarding new customers, training, health monitoring, renewals |
+| **Profile** | RTO background (former enrollment manager) or strong customer success |
+| **Salary range** | $65-80K base (Australia, SMB SaaS CS bench) |
+| **Hiring trigger** | >8 active customers OR Steven spending >50% time on CS |
+| **Time to productivity** | 2-3 months (RTO domain knowledge ramp) |
+| **Key metrics owned** | Churn rate, health scores, NPS, onboarding time |
+
+**Role 4: Sales Development Representative (SDR)** (Month 9-12)
+
+| Attribute | Detail |
+|-----------|--------|
+| **Why hire now** | Steven can't outbound + close simultaneously; need pipeline development |
+| **Responsibilities** | Outbound prospecting, lead qualification, meeting scheduling |
+| **Profile** | 1-2 years B2B SaaS experience, Hunter mentality |
+| **Salary range** | $55-65K base + $20-30K OTE (commission) |
+| **Hiring trigger** | Steven spending >60% time on prospecting/outbound |
+| **Time to productivity** | 3-4 months |
+| **Key metrics owned** | Meetings booked, qualified leads, pipeline created |
+
+**Role 5: Full-Stack Engineer** (Month 12-15)
+
+| Attribute | Detail |
+|-----------|--------|
+| **Why hire now** | Kham can't build product + maintain infrastructure + new features |
+| **Responsibilities** | Feature development, infrastructure, integrations, AI optimization |
+| **Profile** | 3-5 years experience, React/Node.js + API integrations + AI/voice interest |
+| **Salary range** | $100-130K base (Australia, SaaS engineering) |
+| **Hiring trigger** | Product roadmap blocked by engineering capacity |
+| **Time to productivity** | 3-4 months |
+| **Key metrics owned** | Features shipped, uptime, technical debt reduction |
+
+**Role 6: Account Manager / Senior CS** (Month 15-18)
+
+| Attribute | Detail |
+|-----------|--------|
+| **Why hire now** | CS rep needs management; enterprise accounts need dedicated attention |
+| **Responsibilities** | Manage Scale tier accounts, upsells, executive relationships |
+| **Profile** | 3-5 years CS or account management in SaaS; RTO background preferred |
+| **Salary range** | $80-100K base |
+| **Hiring trigger** | >15 customers OR 3+ Scale tier accounts |
+| **Time to productivity** | 2-3 months |
+| **Key metrics owned** | Expansion revenue, retention, customer satisfaction |
+
+**Role 7: VP of Sales** (Month 18-24)
+
+| Attribute | Detail |
+|-----------|--------|
+| **Why hire now** | Steven needs to focus on strategy; need sales leader to scale |
+| **Responsibilities** | Sales team management, strategy, enterprise deals, partner channel |
+| **Profile** | 5+ years B2B SaaS sales, experience building and managing teams |
+| **Salary range** | $120-150K base + variable |
+| **Hiring trigger** | >3 sales reps OR enterprise deals requiring dedicated attention |
+| **Time to productivity** | 3-4 months |
+| **Reports to** | Marcus/Kham |
+
+### Hiring Triggers and Decision Framework
+
+**Green light to hire** (all conditions met):
+| Condition | Rationale |
+|-----------|-----------|
+| Revenue target achieved | Cash to fund salary |
+| Current team at capacity | Avoid hiring before needed |
+| Work backlog documented | Clear role scope |
+| 3+ months runway | Avoid mid-hire cash crunch |
+| Domain expertise available | RTO knowledge takes time to build |
+
+**Hiring sequence logic**:
+```
+Month 0-6: Steven + Kham (founders)
+├── Pain: Steven doing sales + marketing + CS
+├── Trigger: >8 customers OR Steven >50% on CS
+└── Hire: Customer Success Rep
+
+Month 6-12: Steven + Kham + CS Rep
+├── Pain: Steven can't prospect + close + manage CS simultaneously
+├── Trigger: Pipeline stalled OR outbound suffering
+└── Hire: SDR
+
+Month 12-18: Steven + Kham + CS Rep + SDR
+├── Pain: Engineering backlog blocking growth
+├── Trigger: Product roadmap delayed 2+ months
+└── Hire: Full-Stack Engineer
+
+Month 15-24: Full team (5-6 people)
+├── Pain: CS rep needs management; enterprise needs attention
+├── Trigger: >15 customers OR Scale tier accounts
+└── Hire: Account Manager
+
+Month 18-24: Growing team
+├── Pain: Steven stretched across sales strategy + execution
+├── Trigger: >3 reps or enterprise deals complex
+└── Hire: VP Sales
+```
+
+### Salary Benchmarks (Australia, 2026)
+
+**Total compensation includes base + variable (where applicable)**:
+
+| Role | Base Salary | Variable/OTE | Equity | Total Comp |
+|------|-------------|--------------|--------|------------|
+| CS Rep | $65-80K | None or 5% | 0-0.25% | $65-85K |
+| SDR | $55-65K | $20-30K | 0-0.25% | $75-95K |
+| Account Manager | $80-100K | $15-25K | 0.25-0.5% | $95-130K |
+| Engineer | $100-130K | None | 0.25-0.5% | $100-135K |
+| VP Sales | $120-150K | $50-100K | 0.5-1% | $170-250K |
+| Marketing Manager | $90-110K | $15-25K | 0.25-0.5% | $105-140K |
+| VP Marketing | $130-160K | $30-50K | 0.5-1% | $160-215K |
+
+**Equity allocation**:
+- Total equity pool: 10-15% (standard for VC-backed SaaS)
+- Steven has 1% (already allocated)
+- Reserve 1-2% per early hire (0.25-0.5% each)
+- Vesting: 4 years, 1-year cliff (standard)
+
+### Remote vs. In-Office Considerations
+
+**For Optimizer AI Year 1-2**:
+- Remote-first is viable (RTOs are remote, customers are everywhere)
+- Core hours overlap: 10am-2pm AEST (reasonable for distributed team)
+- Tools: Slack, Zoom, Notion, Zoho
+
+**Hybrid approach**:
+- Preferred: 2-3 days in-office (Sydney/Melbourne) for collaboration
+- Acceptable: Fully remote for right candidate (domain expertise > location)
+- Required: Quarterly in-person for planning/strategy
+
+### Org Chart Evolution
+
+**Year 1 (0-12 months) — Foundation**:
+```
+Marcus/Kham (Co-Founders, CEO)
+└── Steven (Marketing Manager, Sales, CS)
+    └── Kham (Product/Engineering)
+```
+
+**Year 2 (12-24 months) — First Hires**:
+```
+Marcus/Kham (Co-Founders)
+├── Steven (VP Sales/Marketing)
+│   ├── CS Rep
+│   └── SDR
+└── Kham (CTO)
+    └── Engineer
+```
+
+**Year 3 (24-36 months) — Scaling**:
+```
+Marcus/Kham (Co-Founders)
+├── VP Sales
+│   ├── 2x Account Manager
+│   └── 2x SDR/BDR
+├── VP Marketing (if hired)
+│   └── Content/SEO specialist
+├── Head of CS
+│   └── 2x CS Rep
+└── CTO
+    ├── 2x Engineer
+    └── AI/ML Specialist (optional)
+```
+
+### Compliance With Employment Law
+
+**Australia-specific considerations**:
+| Requirement | Implementation |
+|-------------|---------------|
+| Fair Work Act compliance | All employees on valid contracts, fair pay above award |
+| Superannuation | 11.5% (2026) on top of salary |
+| Leave entitlements | Annual leave, sick leave, parental leave per legislation |
+| Termination | Notice periods per contract (standard 2-4 weeks) |
+| Probation | 3-6 months with clear assessment criteria |
+| Tax File Number declaration | Required for all employees |
+| Single Touch Payroll (STP) | Mandatory reporting to ATO |
+
+### Recommended Actions for Steven
+
+- [ADDED] Define CS Rep job description and interview questions — Month 5 (hire by Month 6)
+- [ADDED] Set hiring trigger thresholds (8 customers for CS, 10 for SDR) — Month 1
+- [ADDED] Budget for CS Rep ($65-80K + super) in Year 2 financials — Month 2
+- [ADDED] Create equity allocation plan (10% pool, per-hire grants) — Month 3
+- [ADDED] Source RTO-background candidates (LinkedIn, industry networks) — Month 4
+- [ADDED] Build interview process (technical + cultural + RTO knowledge) — Month 5
+- [ADDED] Onboarding template for new hires (RTO domain + Optimizer AI product) — Month 6
+- [ADDED] Set KPI targets for each role before hiring (accountability from day 1) — Month 6
+- [ADDED] Plan for contractor-to-full-time conversions (if using contractors) — Month 3
+- [ADDED] Review team structure quarterly (Month 3, 6, 9, 12) — Quarterly
+
+### Sources
+
+- SaaS team scaling: OpenView Partners SaaS Benchmarks (2024)
+- Australia tech salaries: Glassdoor, Indeed, Robert Half Tech Salary Guide (2026)
+- Equity allocation: Carta (cap table) industry standards (2025)
+- Hiring triggers: "The SaaS Playbook" by Robert Skelton (reference)
+- Employment law Australia: fairwork.gov.au (2026)
+- Superannuation rates: ato.gov.au (2026, 11.5%)
+
+---
+
+*End of Cycle 226 refinement. Gap filled: No team structure and hiring plan existed. Added revenue-to-headcount mapping (6 stages, 2-24 people), role-by-role hiring plan (6 roles with profile, salary, trigger), hiring trigger decision framework (5 conditions), salary benchmarks (7 roles with base + variable + equity), org chart evolution (Year 1-3), compliance requirements (Australia Fair Work, super, STP). 10 recommended actions for Steven.*
+
+---
+
 *End of Cycle 225 refinement. Gap filled: Lead scoring and marketing automation were thin (mentioned in passing only). Added BANT+Fit scoring model (5 criteria, 100-point scale, 4 tiers), behavioral scoring (10 positive/negative signals), lead routing strategy (4 types with response times), marketing automation implementation (5 nurture sequences, 5 triggers), nurture email content (5 templates for "Enrollment AI Evaluation" sequence), tool recommendations (Zoho + Mailtrack + Calendly stack), Zoho implementation steps (custom fields, scoring formula, automation rules), lead scoring metrics (6 KPIs to track). 10 recommended actions for Steven.*
 

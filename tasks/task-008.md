@@ -85,4 +85,6 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 222: Sales Pipeline and Conversion Metrics — 8-stage framework, 4% overall conversion, hiring triggers
 - [x] Cycle 223: Enrollment Feasibility — 1,000 enrollments/month math, 50 RTOs, goal hierarchy, tracking KPIs
 - [x] Cycle 224: LinkedIn Paid Advertising — targeting parameters, CTR/CPC benchmarks, retargeting strategy, creative strategy
-- [ ] Cycle 225: (next topic — revisit any remaining thin areas)
+- [x] Cycle 225: Lead Scoring + Marketing Automation — BANT model, behavioral signals, nurture sequences, Zoho implementation
+- [x] Cycle 226: Team Structure and Hiring Roadmap — Human Capital Plan, Salary Benchmarks, Org Charts
+- [ ] Cycle 227: (next topic — revisit any remaining thin areas)
