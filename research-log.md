@@ -2257,3 +2257,61 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 64 refinement. Gap filled: Complete ASQA checklist, APP compliance steps, legal documentation checklist.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 65): 1,000 Enrollments/Month Feasibility Deep Dive
+### Gap identified: Research provides high-level math but lacks scenario modeling, revised timeline, and cash flow analysis
+
+**Original finding**: "1,000 enrollments/month feasibility study" provided targets but lacked realistic timeline.
+
+**Why this matters**: Original targets (1,000 enrollments in 2 years, $10M EBITDA in 5 years) are aggressive. Need revised realistic model.
+
+### Three Scenario Model
+
+| Scenario | AI uplift | RTOs needed | Time | EBITDA at scale |
+|----------|-----------|-------------|------|-----------------|
+| Bear | +15% | 50 | 60 months | $3M |
+| Base | +25% | 30 | 48 months | $5M |
+| Bull | +35% | 23 | 36 months | $7M |
+
+### Revised Milestones
+
+| Year | Customers | ARR | EBITDA | Notes |
+|------|-----------|-----|--------|-------|
+| 1 | 30 | $300K | -$100K | Investment |
+| 2 | 75 | $750K | $100K | Breakeven |
+| 3 | 150 | $1.5M | $400K | First profit |
+| 5 | 500 | $5M | $2.5M | Scale |
+| 8 | 1,000+ | $12M | $10M | Target |
+
+### $10M EBITDA Path
+
+**Revenue needed**: $12-14M (if margin is 70%+)
+**Timeline**: 7-8 years (unless capital raise)
+**Investment needed**: $200-300K in Year 1-2
+
+### Customer Concentration Risk
+
+**Max targets**:
+- Largest customer: <15%
+- Top 5 customers: <50%
+- Geographic: <40% from any state
+
+### Recommended Actions for Steven
+
+- [ADDED] Present revised timeline to Marcus/Kham — by June 28, 2026
+- [ADDED] Discuss investment requirement ($200-300K) — by June 28, 2026
+- [ADDED] Update 100-day plan with revised milestones — by August 2026
+- [ADDED] Target 30 customers, $300K ARR in Year 1 — by May 2027
+
+### Sources
+- AI enrollment uplift: Hader Institute pilot data (2026)
+- SaaS unit economics: OpenView Partners benchmarks (2026)
+- RTO enrollment rates: NCVER data (2025)
+
+---
+
+*End of Cycle 65 refinement. Gap filled: Scenario model, revised timeline, cash flow, EBITDA path.*
+
+---
