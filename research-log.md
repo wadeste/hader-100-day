@@ -6316,3 +6316,265 @@ Example:
 ---
 
 *End of Cycle 175 refinement. Gap filled: Event calendar (8 events Q2 2026 - Q1 2027), speaking opportunity strategy (proposal format, topic ideas, talk formats), ROI measurement framework (6 metrics, cost/acquisition, pipeline tracking), execution checklist (4 phases), content strategy from events (5 repurposing tactics), 9 recommended actions for Steven.*
+
+
+## Refinement — 2026-05-24 (Cycle 176): Onboarding Experience Deep-Dive — Pre-boarding, First-week Experience, and Time-to-Value Optimization
+
+### Gap identified: Research covers customer success framework (Cycle 169) but lacks detailed pre-boarding process, first-week experience, and time-to-value optimization
+
+**Original finding:** Customer success framework includes a 30-day onboarding timeline with kickoff call, configuration, and go-live. Missing: detailed pre-boarding activities (before kickoff), first-week experience design (Day 1-7), and specific tactics to reduce time-to-value.
+
+**Why this matters:** Research shows customers who see value in first 7 days are 3x more likely to stay past 90 days. Without a detailed first-week experience, Optimizer AI risks customer drop-off during the "valley of disappointment" (first week before AI goes live). The pre-boarding period is critical for setting expectations and gathering configuration data.
+
+### Pre-Boarding Phase (Days -7 to 0)
+
+**Pre-boarding goal:** Customer is prepared, excited, and has provided all necessary data for configuration.
+
+**Day -7 (Week before kickoff):**
+- Steven sends welcome email with:
+  - What to expect in the next 30 days
+  - Kickoff call calendar invite
+  - "Getting Ready" checklist (see below)
+  - Estimated timeline to go-live
+- Steven sends data collection request:
+  - Course list (name, code, price, intake dates)
+  - Call flow preferences (what questions to ask)
+  - Current phone number for call routing
+  - Zoho login (for integration)
+  - Compliance requirements (ASQA notes, special policies)
+
+**Day -6:**
+- Kham reviews provided data
+- Flags missing information
+- Steven follows up if data incomplete
+
+**Day -5:**
+- Kham creates initial call flow draft
+- Steven sends customer "sneak peek" email:
+  - "Here's what we're building for you"
+  - Draft call flow for review
+  - Request for feedback
+
+**Day -4:**
+- Customer reviews and provides feedback
+- Steven consolidates feedback
+- Kham updates call flow
+
+**Day -3:**
+- Kham finalizes configuration plan
+- Steven confirms kickoff call agenda with customer
+
+**Pre-boarding checklist (for Steven):**
+- [ ] Welcome email sent with timeline
+- [ ] Data collection request sent
+- [ ] Course list received
+- [ ] Call flow preferences received
+- [ ] Phone number confirmed for routing
+- [ ] Zoho access provided
+- [ ] Compliance requirements documented
+- [ ] Kickoff call scheduled (30 min)
+- [ ] Call flow draft reviewed by customer
+- [ ] Configuration plan finalized
+
+### Kickoff Call Agenda (Day 0 or Day 1)
+
+**Duration:** 30 minutes
+
+**Attendees:** Customer (CEO or enrollment manager), Steven, Kham
+
+**Agenda:**
+
+| Time | Topic | Owner | Output |
+|------|-------|-------|--------|
+| 0-2 min | Introductions, agenda review | Steven | Alignment |
+| 2-10 min | Review provided data | Kham | Confirm understanding |
+| 10-20 min | Call flow walkthrough | Kham | Customer approval |
+| 20-25 min | Timeline and next steps | Steven | Confirmed go-live date |
+| 25-30 min | Q&A, concerns addressed | Both | Excitement, confidence |
+
+**Kickoff call goals:**
+1. Customer feels heard (reviewing their data)
+2. Customer understands the product (call flow walkthrough)
+3. Customer is confident (clear timeline, next steps)
+4. Customer is excited (Q&A addresses concerns)
+
+### First Week Experience (Day 1-7)
+
+**Day 1-2: Configuration (Kham)**
+
+Activities:
+- Configure AI with customer data (course list, pricing, policies)
+- Set up Zoho integration (lead sync, enrollment update)
+- Configure SMS confirmations (templates, timing)
+- Set up call routing (phone number integration)
+- Test internally (10+ test calls)
+
+Customer action:
+- Review and approve SMS templates
+- Confirm call flow (approve or request changes)
+
+**Day 3-4: Internal Testing (Kham)**
+
+Activities:
+- Run 20+ test calls (various scenarios)
+- Verify USI collection flow
+- Verify orientation booking flow
+- Test SMS confirmation delivery
+- Test Zoho sync (leads created correctly)
+- Identify and fix any issues
+
+Customer action:
+- Optional: Listen to test calls (build confidence)
+- Provide final approval for go-live
+
+**Day 5-6: Soft Launch (Kham + Customer)**
+
+Activities:
+- Go live with small percentage of calls (10-20%)
+- Monitor in real-time (Kham + customer both watching)
+- Identify any issues (fix immediately)
+- Collect initial data (call handling, containment)
+
+Customer action:
+- Answer AI escalations (staff training)
+- Provide feedback on AI responses
+- Identify any needed adjustments
+
+**Day 7: Full Launch + First-Week Review**
+
+Activities:
+- Transition to full call coverage (100%)
+- Steven schedules first-week review call
+- Kham monitors first full day
+
+First-week review call (30 min):
+- What worked?
+- What needs adjustment?
+- First metrics (calls handled, containment rate)
+- Next steps (tuning, expansion)
+
+### Time-to-Value Acceleration Tactics
+
+**Tactic 1: Set expectations before go-live**
+- Communicate: "You'll see results in the first week, but we'll optimize over the first month"
+- Avoid: "This will solve all your problems immediately"
+- Reason: Prevents disappointment if AI makes mistakes in first days
+
+**Tactic 2: Configure for "easy wins" first**
+- Prioritize: Calls AI handles well (80%+ containment)
+- Defer: Edge cases that require human judgment
+- Reason: Customer sees value quickly, builds confidence
+
+**Tactic 3: Personalize from day one**
+- Use: RTO name, course names, pricing from their data
+- Avoid: Generic responses ("Please call us" instead of "Call [RTO Name]")
+- Reason: Customer feels product is built for them
+
+**Tactic 4: Provide visibility early**
+- Share: Real-time dashboard access (even if basic)
+- Show: Calls being handled, enrollments processed
+- Reason: Customer sees value happening, not just promised
+
+**Tactic 5: Quick wins in first week**
+- Target: Capture at least one "win" in first week
+  - Orientation booked via AI
+  - USI collected via AI
+  - Student enrolled via AI
+- Reason: Concrete evidence of value, builds momentum
+
+**Tactic 6: Proactive issue resolution**
+- Monitor: AI errors, escalations, customer complaints
+- Respond: Within hours, not days
+- Reason: Shows customer they're valued, prevents churn
+
+### First-Week Metrics to Track
+
+| Metric | Day 1 | Day 3 | Day 7 | Target | Notes |
+|--------|-------|-------|-------|--------|-------|
+| Calls handled | X | X | X | >80% | Core metric |
+| Containment rate | X% | X% | X% | >65% | AI handled vs. transferred |
+| USI collection | X | X | X | >70% | On first call |
+| Orientation booked | X | X | X | >50% | Of relevant inquiries |
+| Customer satisfaction | N/A | N/A | X | >7/10 | First-week review |
+| Issues identified | X | X | X | <5 | For Kham to fix |
+
+### First-Week Customer Checkpoints
+
+**Checkpoint 1: Day 2 (Kham reaches out)**
+- "How's it going? Any concerns I should know about?"
+- Purpose: Identify issues early, before they escalate
+
+**Checkpoint 2: Day 5 (Steven reaches out)**
+- "You've been live for a few days. Want to hop on a 15-min call to review?"
+- Purpose: First-week review, gather feedback
+
+**Checkpoint 3: Day 7 (Full review call)**
+- Full 30-min review (see agenda above)
+- Purpose: Celebrate wins, address issues, plan optimization
+
+### Common First-Week Problems and Solutions
+
+**Problem 1: "AI is transferring too many calls"**
+- Cause: AI encounters unknown questions
+- Solution: Add Q&A to call flow (Kham adjusts)
+- Timeline: 24-48 hours to implement
+
+**Problem 2: "Students are confused by AI"**
+- Cause: AI voice or script not clear
+- Solution: Adjust greeting, simplify language
+- Timeline: 24 hours to implement
+
+**Problem 3: "SMS not sending"**
+- Cause: Wrong phone number or template issue
+- Solution: Verify SMS gateway, check template
+- Timeline: Fix immediately
+
+**Problem 4: "Zoho leads not syncing"**
+- Cause: Integration configuration issue
+- Solution: Check webhook, verify credentials
+- Timeline: 4-24 hours to fix
+
+**Problem 5: "Customer not engaged"**
+- Cause: Customer too busy to monitor
+- Solution: Reduce calls to 50%, send daily summary
+- Timeline: Ongoing adjustment
+
+### First-Week Success Indicators
+
+**Customer is successful if:**
+1. Calls being handled (>80% of incoming)
+2. AI containment rate improving (>60% by Day 7)
+3. Customer engaged (responding to check-ins)
+4. No major complaints (nothing urgent)
+5. First "win" captured (orientation booked, USI collected)
+6. Customer excited (asking about what else AI can do)
+
+**Customer needs help if:**
+1. Calls not being routed to AI (technical issue)
+2. Containment rate very low (<40%) — AI not working
+3. Customer not responding to check-ins (disengaged)
+4. Major complaints (students frustrated)
+5. No "wins" in first week (AI not doing anything)
+6. Customer skeptical ("this isn't working")
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Create pre-boarding email sequence (7 emails, Days -7 to 0) — by Week 2
+- [ADDED] Build data collection form (course list, call flow preferences, Zoho access) — by Week 2
+- [ADDED] Design first-week timeline (Day 1-7 activities for Kham + customer) — by Week 2
+- [ADDED] Create first-week review call agenda — by Week 2
+- [ADDED] Build time-to-value acceleration tactics into onboarding — by Month 1
+- [ADDED] Track first-week metrics (template above) — from first customer
+- [ADDED] Document first-week problems and solutions (update as issues arise) — ongoing
+- [ADDED] Review and improve onboarding based on first 3 customers — by Month 2
+
+### Sources
+
+- Customer onboarding: Gainsight CS benchmarks (2025)
+- Time-to-value: Customer Success by Nick Mehta et al.
+- Onboarding checklists: ChuCKarf resources (2026)
+- Onboarding metrics: Totango onboarding benchmarks (2025)
+
+---
+
+*End of Cycle 176 refinement. Gap filled: Pre-boarding phase (Days -7 to 0, 10-step checklist), kickoff call agenda (30 min, 5 sections), first-week experience (Day 1-7 detailed timeline), time-to-value acceleration tactics (6 specific tactics), first-week metrics (7 metrics by day), customer checkpoints (3 checkpoints), common problems and solutions (5 problems), success indicators (6 signs), 8 recommended actions for Steven/Kham.*
