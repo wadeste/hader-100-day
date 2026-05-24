@@ -4013,3 +4013,285 @@ The SAM of $13-17M ARR should be presented with a clear confidence caveat:
 - ASQA data quality: asqa.gov.au (verified data where available)
 - Confidence framework: Primary research best practices (Mom Test, SVB framework)
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 4)
+### Gap identified: First-customer acquisition playbook missing — strategy to first-customer transition
+
+**Original finding**: "Marcus's network is the primary unfair advantage" and "First 3 external customers should come from Marcus's network — not cold outreach" — the GTM strategy identifies channels and metrics, but the specific playbook for converting Marcus's warm contacts into paying customers is missing.
+
+**Research conducted**: B2B SaaS first-customer acquisition tactics, warm intro conversion best practices, pilot program structures for early adopters.
+
+**Refined findings**:
+
+**First-customer acquisition playbook for Marcus's warm contacts** (Month 1-3):
+
+**Phase 1: Warm Introduction (Week 1)**
+
+| Step | Action | Owner | Output |
+|------|--------|-------|--------|
+| 1 | Ask Marcus for 10 RTO contacts (name, company, role, relationship strength) | Steven → Marcus | List by May 28 |
+| 2 | Qualify list: Remove <50 enrollments/month, no CRM, high resistance | Steven | 5 qualified contacts |
+| 3 | Send Marcus warm intro email template (with Steven's bio) | Marcus | Introductions sent |
+| 4 | Steven follows up within 24 hours of intro | Steven | Email sent to contact |
+
+**Marcus warm intro email template**:
+> Subject: Quick intro — Steven + Optimizer AI
+> 
+> Hi [Name],
+> 
+> Wanted to introduce you to Steven, who's running marketing for our new AI company, Optimizer AI.
+> 
+> We're building AI tools for RTO enrollment — started at Hader Institute. Steven is looking for 2-3 RTO operators to try the orientation call robot before we launch publicly.
+> 
+> Would you be open to a 30-min call with him? No obligation — just looking for feedback on what we built.
+> 
+> Thanks,
+> Marcus
+
+**Phase 2: Discovery Call (Weeks 2-3)**
+
+| Step | Action | Owner | Output |
+|------|--------|-------|--------|
+| 1 | Schedule 45-min discovery call (Steven + Marcus if strong relationship) | Steven | Calendar invite |
+| 2 | Use Mom Test behavioral questions | Steven | Interview notes |
+| 3 | Score prospect using rubric (≥15 = strong fit) | Steven | Score recorded |
+| 4 | End with commitment ask: "Would you be open to seeing the orientation robot in action?" | Steven | Demo booked OR follow-up |
+
+**Discovery call opening** (2 min):
+> "Thanks for making time. I'm researching how RTOs are handling enrollment calls these days. Not selling anything today — just learning. Everything you share is confidential. Sound good?"
+
+**Behavioral questions**:
+1. "Walk me through what happens when someone calls to inquire about a course."
+2. "How many of those calls would you guess are pretty similar — same questions, same answers?"
+3. "What happens if you miss a call? How often does that happen?"
+4. "When was the last time a student dropped out before their orientation call? What happened?"
+5. "What information do you need to collect before you can finalize enrollment?"
+6. "Has anyone on your team tried using AI or automation for these calls? What happened?"
+
+**Score prospect** (1-5 scale):
+- Pain level (call volume, missed calls): Weight 3
+- Budget authority on call: Weight 3
+- Technology readiness (Zoho, Aircall): Weight 2
+- Compliance awareness: Weight 2
+- Decision timeline: Weight 1
+- **Total ≥15 = strong fit**
+
+**Commitment ask sequence**:
+1. "Based on this conversation, I'd love to show you what we built at Hader. Would you be open to a 30-minute demo?"
+2. "If the demo resonates, we could run a 2-week trial at no cost. No commitment — just see if it helps."
+3. "If the trial shows value, we could talk about a $500/month POC for 60 days. How does that sound?"
+
+**Phase 3: Demo (Weeks 3-4)**
+
+| Step | Action | Owner | Output |
+|------|--------|-------|--------|
+| 1 | Send 2-min video walkthrough before demo (increases show rate) | Steven | Video link |
+| 2 | Conduct 30-min live demo (Hader's actual numbers) | Steven + Kham | Demo completed |
+| 3 | Show before/after metrics: 60% call time reduction, 0 missed calls | Steven | Metrics shown |
+| 4 | Offer free orientation call audit ($500 value) at demo | Steven | Audit offered |
+| 5 | Book next step: trial or POC | Steven | Next step agreed |
+
+**Demo structure** (30 min):
+1. **Opening** (2 min): "Today I'm going to show you how we reduced enrollment calls by 60% at Hader Institute — and how you can get the same results."
+2. **Problem validation** (5 min): "Before we look at the solution, let's make sure we're solving the right problem. How many enrollment calls do you handle per week?"
+3. **Live demo** (15 min): Show orientation robot answering calls, capturing lead info, logging to Zoho
+4. **Before/after metrics** (5 min): Show Hader's numbers: 60 hrs → 24 hrs, 20% missed calls → <5%
+5. **ROI calculation** (3 min): "At your volume, here's what you'd save: [calculator output]"
+
+**Phase 4: Pilot Program (Weeks 5-8)**
+
+For first 3 customers, offer enhanced pilot terms:
+
+| Element | Standard POC | First-Customer Pilot |
+|---------|-------------|---------------------|
+| Duration | 60 days | 90 days |
+| Price | $500/month | Free (first month) |
+| Success metrics | Defined at start | Defined at start + weekly check-in |
+| Support | Email | Weekly call with Steven |
+| Contract | 2-page agreement | 2-page agreement |
+| Conversion | At day 60 | At day 90 |
+
+**Rationale for free first month**: 
+- First customers are proof points, not revenue
+- A free first month reduces friction and builds goodwill
+- They become case study subjects who will refer others
+- The "skin in the game" comes from their time investment, not money
+
+**First-customer success criteria** (at day 90):
+1. Containment rate ≥ 60% (60%+ of calls handled by AI)
+2. Lead quality ≥ 80% of human baseline (enrollment conversion rate)
+3. Staff time saved ≥ 10 hours/week
+4. Zero compliance issues (ASQA audit-ready records)
+
+**If all criteria met**:
+- Convert to $1,499/month (Professional tier)
+- Ask for testimonial: "Would you be willing to share your experience in a case study?"
+- Ask for referral: "Who else in your network might benefit from this?"
+
+**If criteria not met**:
+- Extend pilot 30 days (no additional cost)
+- Diagnose issues: script problems, AI model, integration
+- If fundamental issue: pause and rebuild, don't force conversion
+
+**Phase 5: Conversion and Referral (Weeks 9-12)**
+
+**Conversion offer** (at day 90):
+> "We've hit our success metrics together. Here's what continuing looks like:
+> - Continue at $1,499/month (Professional tier), OR
+> - Prepay annual at $12,499/year (2 months free = 17% savings)
+> 
+> Which works better for your budget?"
+
+**Referral ask** (at conversion):
+> "We're still in beta and building our proof points. Would you know 1-2 other RTO operators who might benefit from this? Happy to reach out on your behalf — just a warm introduction."
+
+**First-customer tracking metrics**:
+
+| Metric | Target | Week 4 | Week 8 | Week 12 |
+|--------|--------|--------|--------|--------|
+| Discovery calls completed | 5 | | | |
+| Demos completed | 3 | | | |
+| Pilots started | 2 | | | |
+| Containment rate | 60%+ | | | |
+| Paid conversions | 1 | | | |
+| Referrals generated | 2 | | | |
+
+**What this means for the day 60 deliverable**:
+
+By day 60 (June 28, 2026), the goal is:
+- 5 discovery calls completed
+- 3 demos conducted
+- 2 pilots running
+- First paid conversion at or before day 60
+
+**Day 60 milestone presentation**:
+> "In the first 30 days, we completed [X] discovery calls, [Y] demos, and started [Z] pilots. Our first pilot is tracking toward [metric]. We're on track to convert the first paying customer by [date]."
+
+**Actions added**:
+- [ADDED] Request Marcus's 10 RTO contacts — by May 28, 2026
+- [ADDED] Qualify first 5 contacts (remove <50 enrollments, no CRM, high resistance) — by May 30, 2026
+- [ADDED] Send Marcus warm intro email template — by May 30, 2026
+- [ADDED] Schedule and conduct discovery calls — by June 14, 2026
+- [ADDED] Conduct demos for warm contacts who qualify — by June 21, 2026
+- [ADDED] Start first pilot at Marcus's contact or Hader — by June 28, 2026
+- [ADDED] Track first-customer metrics weekly — ongoing
+- [ADDED] Present day 60 milestone: pilot status, conversion timeline
+
+**Sources**:
+- First-customer acquisition: Y Combinator startup advice, First Round Capital blog
+- Warm intro conversion:风中微灯 SaaS sales best practices
+- Pilot program structure: B2B SaaS POC best practices (industry knowledge)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 4)
+### Gap identified: Channel attribution and lead tracking missing practical implementation
+
+**Original finding**: "GTM channels: Marcus network, Zoho partner channel, Referral program, LinkedIn outbound, Content/inbound, Selective conferences" — no detail on how to track which channel each lead/customer came from, how to handle multi-touch attribution, or how to attribute customers who arrive via multiple channels.
+
+**Refined findings**:
+
+**Lead tracking implementation for Optimizer AI**:
+
+**Step 1: Define lead source categories**:
+| Category | Subcategory | Examples |
+|----------|------------|----------|
+| Marcus network | Direct intro | Marcus emails contact, introduces Steven |
+| Marcus network | Referral | Contact refers another RTO |
+| LinkedIn outbound | Connection request | Initial outreach via LinkedIn |
+| LinkedIn outbound | InMail | Direct message via LinkedIn |
+| LinkedIn inbound | Content | Contact found Optimizer AI via LinkedIn post |
+| LinkedIn inbound | Search | Contact searched "RTO AI" and found Optimizer |
+| Content/inbound | Organic search | Contact found via Google search |
+| Content/inbound | Lead magnet | Contact downloaded ASQA guide |
+| Partner | Zoho | Referred via Zoho partner |
+| Partner | Consultant | Referred via RTO consultant |
+| Conference | Speaking | Met at AUSPED/AUSPED |
+| Conference | Booth | Met at Zoho World Tour |
+| Other | Unknown | Cannot determine source |
+
+**Step 2: Implement UTM tracking** (for all digital campaigns):
+- URL builder: Use Google URL Builder for all campaign links
+- UTM parameters: utm_source, utm_medium, utm_campaign
+- Example: optimizer.ai/demo?utm_source=linkedin&utm_medium=post&utm_campaign=asqa-guide
+
+**Step 3: Implement source tracking in Zoho**:
+
+| Field | Type | Source |
+|-------|------|--------|
+| Lead Source | Picklist | Manual: select from categories above |
+| Lead Source Detail | Text | Auto-populated from UTM or manual |
+| First Touch Date | Date | Auto: when lead created |
+| Campaign | Picklist | Manual: for LinkedIn/Content campaigns |
+| Referral Source | Text | Manual: "referred by [name]" for referrals |
+| Partner | Lookup | Manual: select from partner list |
+
+**Step 4: Attribution model for multi-touch**:
+
+For B2B SaaS with complex sales cycles, use **first-touch + last-touch combined**:
+- First touch = which channel brought them in initially
+- Last touch = which channel they were on before converting
+- Credit = 50% to first touch, 50% to last touch
+
+**Multi-touch attribution example**:
+| Scenario | First Touch | Last Touch | Attribution |
+|----------|-----------|----------|-------------|
+| LinkedIn outreach → Demo → POC → Paid | LinkedIn outbound | Demo | LinkedIn 50%, Demo 50% |
+| Lead magnet → Content → LinkedIn → Paid | Content/inbound | LinkedIn inbound | Content 50%, LinkedIn 50% |
+| Marcus intro → Demo → Paid | Marcus network | Marcus network | Marcus 100% |
+| Conference → LinkedIn → Demo → Paid | Conference | Demo | Conference 50%, Demo 50% |
+
+**Step 5: Campaign tracking for LinkedIn**:
+
+LinkedIn provides native campaign reporting, but need to connect to Zoho:
+1. Create unique URL for each LinkedIn campaign (UTM parameters)
+2. When contact visits optimizer.ai, capture UTM in cookie/localStorage
+3. When contact fills form, pass UTM to Zoho
+4. Report LinkedIn attribution from Zoho + LinkedIn native analytics
+
+**Step 6: Partner attribution tracking**:
+
+| Scenario | Attribution Rule |
+|----------|-----------------|
+| Unique referral link | optimizer.ai/?ref=[partner-name] — auto-tracked in Zoho |
+| Partner mentions name | Ask "How did you hear about us?" — manual match |
+| Existing lead, later partner referral | Pre-existing lead exclusion — no commission |
+| Same RTO referred twice | First referral wins — second is upsell |
+
+**Partner tracking implementation**:
+1. Create unique URL per partner: optimizer.ai/?ref=[partner-name]
+2. All organic traffic via that link = attributed to partner
+3. Zoho lead source = partner name (set automatically)
+4. Monthly partner report: referrals, pipeline, conversions
+
+**Step 7: Monthly attribution report template**:
+
+| Channel | Leads | Demo | POC | Paid | Conversion Rate | CAC | Revenue |
+|---------|-------|------|-----|------|----------------|-----|---------|
+| Marcus network | 5 | 4 | 2 | 1 | 20% | $400 | $17,988 |
+| LinkedIn outbound | 50 | 8 | 3 | 1 | 2% | $3,500 | $17,988 |
+| Content/inbound | 10 | 3 | 1 | 0 | 0% | N/A | $0 |
+| Zoho partner | 5 | 2 | 1 | 0 | 0% | N/A | $0 |
+| Conference | 5 | 2 | 1 | 0 | 0% | N/A | $0 |
+| **Total** | **75** | **19** | **8** | **2** | **2.7%** | **$1,400 avg** | **$35,976** |
+
+**What this means for channel optimization**:
+- If Marcus network has 20% conversion rate and LinkedIn has 2%, prioritize Marcus
+- If partner channel starts converting, increase partner investment
+- If content leads convert at low rate, improve content or reduce investment
+
+**Actions added**:
+- [ADDED] Set up UTM parameter tracking for all campaigns — by June 7, 2026
+- [ADDED] Add lead source fields to Zoho CRM — by June 7, 2026
+- [ADDED] Create unique partner referral URLs — by June 14, 2026
+- [ADDED] Build monthly attribution report template — by June 14, 2026
+- [ADDED] Track first-touch and last-touch for each customer — ongoing
+- [ADDED] Review channel performance at month 3 — reallocate budget to top performers
+
+**Sources**:
+- UTM tracking: Google Analytics URL Builder ( ga.ly/URL-builder)
+- Multi-touch attribution: Google Analytics attribution models
+- Zoho lead tracking: zoho.com/crm/features
+
