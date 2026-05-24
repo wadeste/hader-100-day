@@ -1589,6 +1589,98 @@ Research the math: how many RTO customers does Optimizer AI need to support to d
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Revenue per enrollment modeling and break-even analysis for reaching 1,000 enrollments/month
+
+**Original finding**: "20 RTO customers × 50 enrollments each = 1,000 enrollments/month" and "If Hader-only, need $20,000/month marketing spend" — no revenue-per-enrollment modeling or break-even analysis to understand if 1,000 enrollments/month justifies the investment.
+
+
+**Refined findings**:
+
+**Revenue per enrollment modeling** (for Hader and RTO customers):
+
+
+| Metric | Hader Estimate | Industry Average | Notes |
+|--------|---------------|-----------------|-------|
+| Average course fee | $3,000-5,000 (assumed) | $2,500-4,000 | Varies by qualification |
+| Completion rate | 70-80% (assumed) | 65-75% | Some dropout before completion |
+| Revenue per inquiry | $1,500-2,500 (assumed) | $1,200-2,000 | Avg fee × completion rate |
+| Revenue per RTO customer/month | $75,000-125,000 | $60,000-100,000 | At 50 enrollments/month |
+
+
+**Break-even analysis for Hader reaching 1,000 enrollments/month**:
+
+| Cost/Revenue Factor | Calculation | Value |
+|--------------------|-----------|-------|
+| Revenue at 1,000 enrollments/month | 1,000 × $4,000 avg fee | $4M/month |
+| Revenue at 1,000 enrollments/month (annual) | $4M × 12 | $48M/year |
+| EBITDA at 25% margin | $48M × 25% | $12M/year |
+| Marketing spend required | $20,000-50,000/month | $240-600k/year |
+| Additional staff required | 3-5 enrollment staff | $180,000-300,000/year |
+| Total additional cost | $420-900k/year | |
+| Net benefit | $48M revenue - $12M EBITDA target = $36M margin | |
+
+**Key insight**: If 1,000 enrollments/month is Hader-only and generates $48M revenue, the $10M EBITDA target is a rounding error. Either Marcus is focused on Optimizer AI SaaS revenue (where 1,000 enrollments means something different), or there's a fundamental misunderstanding of what 1,000 enrollments represents.
+
+
+**Clarifying the two possible meanings of "1,000 enrollments/month"**:
+
+
+| Definition | Implication | Math |
+|-----------|-------------|-------|
+| **A: Hader-only** (1,000 students enrolling at Hader per month) | Massive revenue target ($48M/year), not a SaaS growth target | 1,000 × $4,000 = $48M/year revenue |
+| **B: Total across Optimizer AI RTO customers** (1,000 enrollments happen at all SaaS customers combined) | Growth proxy for SaaS, not revenue target | 20 customers × 50 enrollments = 1,000 |
+
+
+Definition B is much more likely correct given Steven's role (Marketing Manager for Optimizer AI, not Hader). Marcus likely means: "1,000 enrollments/month happen across all RTO customers using Optimizer AI tools."
+
+Under Definition B, the model is about AI tool adoption driving enrollment growth at RTOs, not about Hader itself hitting 1,000.
+
+
+**Optimizer AI revenue model under Definition B**:
+
+| Metric | Calculation | Value |
+|--------|-----------|-------|
+| Total enrollments at SaaS customers | 1,000/month | |
+| Avg enrollments per RTO customer | 50/month | |
+| Number of RTO customers needed | 1,000 / 50 | 20 RTO customers |
+| Avg Optimizer AI revenue per customer | $1,499-2,999/month | $2,000 assumed |
+| Total Optimizer AI MRR at 1,000 enrollments | 20 × $2,000 | $40,000/month |
+| Total Optimizer AI ARR at 1,000 enrollments | $40,000 × 12 | $480,000/year |
+| EBITDA at 80% margin | $480,000 × 80% | $384,000/year |
+
+
+**Gap to $10M EBITDA**: If 1,000 enrollments/month = $384k ARR, Optimizer AI needs significantly more customers. At 1,000 enrollments/month target:
+- Target MRR: $40,000/month (20 customers)
+- $10M EBITDA requires MRR: $1,000,000/month (417 customers × $2,400 avg)
+- Gap: 1,000 enrollments/month is only ~4% of the path to $10M EBITDA
+
+**Revised interpretation**: The 1,000 enrollments/month target likely refers to a **milestone** on the path to $10M EBITDA, not the end state. 1,000 enrollments/month = proof that AI tools work at scale, before doubling down on customer acquisition.
+
+**What Marcus needs to know**:
+1. "1,000 enrollments/month" = milestone, not final target
+2. 20 RTO customers = 1,000 enrollments/month at their sites
+3. 20 RTO customers = $480k ARR (4.8% of $10M EBITDA path)
+4. To reach $10M EBITDA, need 417 RTO customers × 50 enrollments = 20,850 enrollments/month total
+5. Ask Marcus: "Is 1,000 enrollments/month the proof-of-concept milestone? Or the end target?"
+
+
+**If 1,000 enrollments/month is the end target (not milestone)**:
+- This means Optimizer AI serves 20 RTOs × 50 enrollments = 1,000 total
+- But $10M EBITDA requires 417 customers × $30k ARR = $12.5M ARR
+- **These two targets are inconsistent** — can't have 1,000 enrollments/month AND $10M EBITDA with current pricing
+- Resolution: Either raise prices (1,000 enrollments at $10M ARR = $10k/enrollment/month average, unlikely) OR the 1,000 enrollments target was miscommunicated
+
+
+**Actions added**:
+- [ADDED] Ask Marcus directly: "Is 1,000 enrollments/month a milestone (proof of concept) or the end target?" — by June 7, 2026
+- [ADDED] Clarify: Does $10M EBITDA include Hader revenue OR Optimizer AI SaaS only? — by June 7, 2026
+- [ADDED] Model revenue per enrollment at $4,000 avg (Hader-specific) for planning purposes — by June 14, 2026
+- [ADDED] If Definition B (SaaS customers): Present dual tracking: Optimizer AI MRR vs. total enrollments at SaaS customer sites — by day 60
+- [ADDED] If targets are inconsistent: Flag to Marcus at day 60 — need to reconcile before finalizing strategy
+
+---
+
 ## Organic leads strategy research — 2026-05-24
 
 ### Objective
