@@ -878,3 +878,56 @@ Research the best framework for customer discovery with RTO decision-makers (CEO
 - Note: Recommend primary discovery interviews as next step validation
 
 ---
+
+### Gap identified: Interview guide specifics and compliance question handling
+
+**Original finding**: "Mom Test framework is optimal" and "ASQA compliance is #1 objection" — no specific question guidance
+
+**Research conducted**: Customer discovery best practices, objection handling frameworks
+
+**Refined findings**:
+**Discovery interview script — Opening (2 min)**:
+> "Thanks for making time. I'm researching how RTOs are handling enrollment calls these days. Not selling anything today — just learning. Everything you share is confidential. Sound good?"
+
+**Key behavioral questions**:
+1. "Walk me through what happens when someone calls to inquire about a course."
+2. "How many of those calls would you guess are pretty similar — same questions, same answers?"
+3. "What happens if you miss a call? How often does that happen?"
+4. "When was the last time a student dropped out before their orientation call? What happened?"
+5. "What information do you need to collect before you can finalize enrollment?"
+6. "Has anyone on your team tried using AI or automation for these calls? What happened?"
+
+**Objection handling scripts for ASQA compliance**:
+| RTO objection | Response |
+|--------------|----------|
+| "AI will never pass an audit" | "That's the first thing we built for. Every AI conversation is recorded, transcribed, and logged. We can export a full audit trail — what was asked, what was answered, what was escalated." |
+| "ASQA doesn't allow AI enrollment" | "ASQA hasn't prohibited AI — they've said RTOs are responsible for compliance outcomes. The question is whether your AI creates proper records and passes the audit trail test." |
+| "Who is accountable if AI gives wrong info?" | "AI doesn't complete enrollment — it collects information and schedules a human follow-up. Final enrollment always goes to your staff. Think of it as a very smart receptionist, not an autonomous system." |
+
+**Interview logistics**:
+- Duration: 45-60 minutes (schedule 60, end at 45)
+- Attendees: Steven (host) + Marcus (if warm intro, adds credibility)
+- Note-taking: Record audio with consent OR have second person taking notes
+- Follow-up: Send thank-you email within 24 hours with summary + commitment ask
+
+**Commitment ask sequence**:
+1. "Based on this conversation, I'd love to show you what we built at Hader. Would you be open to a 30-minute demo?"
+2. "If the demo resonates, we could run a 2-week trial at no cost. No commitment — just see if it helps."
+3. "If the trial shows value, we could talk about a $500/month POC for 60 days. How does that sound?"
+
+**Discovery interview scoring rubric**:
+| Factor | Score 1-5 | Notes |
+|--------|-----------|-------|
+| Pain level (call volume, missed calls) | | |
+| Budget authority on call | | |
+| Technology readiness (Zoho, Aircall) | | |
+| Compliance awareness | | |
+| Decision timeline | | |
+| **Total score (≥15 = strong fit)** | | |
+
+**Actions added**:
+- [ADDED] Draft discovery interview script with all questions and objection handling — by June 7, 2026
+- [ADDED] Practice objection handling with Marcus before first interview
+- [ADDED] Create interview scoring rubric for consistent qualification
+- [ADDED] Send discovery summary email within 24 hours of each interview
+
