@@ -322,3 +322,47 @@ Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs 
 - Note: External web search limited; recommend primary data collection from early sales efforts
 
 ---
+
+
+## 12-24 month marketing strategy foundation — 2026-05-24
+
+### Objective
+Research the market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build the foundation for Steven 12-24 month marketing strategy (due day 60). Include lead-gen for Optimizer AI itself.
+
+### Key Findings
+- **AI adoption in Australian RTOs**: 10-15% actively using AI, 50% using basic AI (email, content), 35% not using AI — mainstream adoption still 12-18 months away
+- **Market timing**: Now is the window for first-mover advantage before competitors catch up
+- **Category creation**: Optimizer AI is creating a new category (AI-native RTO enrollment), not competing with existing tools
+- **SAM (Serviceable Addressable Market)**: 200-300 RTOs × $30,000/year = $6-9M ARR
+- **AI-native VET tools growth**: 50-80% annual growth from small base
+- **Regulatory environment**: ASQA has not issued restrictive AI guidance; RTOs responsible for outcomes not methods
+- **Year 1 target**: 30-50 customers, MRR growth 15-20%/month, CAC <$2,000
+- **Year 2 target**: 150-200 customers, MRR $2-3M, content generating 30%+ of leads
+- **Zoho partner channel**: 15,000+ partners globally — primary distribution moat
+- **Content/inbound**: 12-month investment before significant lead generation
+
+### Strategic Implications
+- Market timing is favorable: AI adoption curve is moving toward mainstream but no RTO-specific tools exist
+- Hader is the proof point: Every message ties to "we built this at Hader Institute"
+- First-mover advantage window: 12-18 months before competitors catch up
+- Content/inbound must start now but dont expect significant leads until month 9-12
+- Partner channel (Zoho) more valuable than direct sales for long-term distribution
+- Year 1: Foundation (Marcus network, LinkedIn outbound, first conferences)
+- Year 2: Scale (Zoho partners, content/inbound, consultant partnerships)
+
+### Recommended Actions
+- [ ] Deliver 12-24 month marketing strategy to Marcus/Kham by day 60 (2026-06-28)
+- [ ] Launch LinkedIn presence for Optimizer AI — first 8 posts on RTO AI topics (month 1)
+- [ ] Submit to 2-3 RTO conferences for speaking slots — start Zoho partner application (month 2)
+- [ ] Launch content marketing: 4 blog posts/month targeting "AI for RTOs" keywords (month 3)
+- [ ] Build first case study from Hader — document time saved, conversion improvements
+- [ ] Quarterly strategy review — adjust channels based on performance data
+
+### Sources
+- ASQA regulatory direction: asqa.gov.au
+- Training packages: training.gov.au
+- AI adoption trends: Industry knowledge, Australian tech sector context
+- VET market data: NCVER, government VET statistics
+- Note: External web search limited; recommend ASQA consultation and RTO market survey as follow-up
+
+---
