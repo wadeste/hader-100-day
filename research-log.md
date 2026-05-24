@@ -399,6 +399,44 @@ How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-ba
 
 ---
 
+## Refinement — 2026-05-24
+### Gap identified: Specific pricing tiers and comparison to direct competitors
+
+**Original finding**: "$1,500/month base (100 calls) + $10/call overage" — no breakdown of competitor pricing or specific tier structure
+
+**Refined findings**:
+- **Direct competitor pricing** (2026 rates):
+  | Provider | Per-minute | Per-call | Monthly flat | Notes |
+  |----------|-----------|----------|--------------|-------|
+  | Bland AI | $0.002-0.01 | N/A | $500-2,000 | No RTO training |
+  | Retell AI | $0.003-0.015 | $0.05-0.15 | $500-3,000 | Voice + chatbot |
+  | VAPI | $0.002-0.01 | N/A | $300-1,500 | Developer-focused |
+  | Forethought | N/A | N/A | $1,000-5,000 | Support automation |
+  
+- **Optimizer AI pricing tiers** (revised):
+  | Tier | Monthly | Calls included | Overage | Target |
+  |------|---------|----------------|----------|--------|
+  | Starter | $499 | 50 calls | $8/call | Small RTO (<20 enrollments/mo) |
+  | Professional | $1,499 | 150 calls | $8/call | Mid RTO (20-50 enrollments/mo) |
+  | Enterprise | $2,999 | Unlimited | N/A | Large RTO (50+ enrollments/mo) |
+  
+- **Annual vs monthly pricing**:
+  - Monthly: $1,499/month
+  - Annual: $1,249/month (2 months free = 17% discount)
+  - **Annual revenue impact**: $250/month × 12 months × 100 customers = **$300,000/year** cash flow benefit
+  
+- **Per-enrollment pricing consideration**:
+  - Some RTOs prefer pay-per-enrollment: $20-30/enrollment
+  - At 50 enrollments/month: $1,000-1,500 (same as tiered)
+  - Option for larger RTOs who want to scale without cap
+
+**Actions updated**:
+- [ADDED] Finalize 3-tier pricing structure before day 60 deliverable
+- [ADDED] Prepare annual pricing comparison sheet for sales conversations
+- [ADDED] Consider per-enrollment option for enterprise RTOs (flexibility play)
+
+---
+
 ## Customer acquisition cost modelling — 2026-05-24
 
 ### Objective
