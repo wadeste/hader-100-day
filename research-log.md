@@ -8967,3 +8967,148 @@ Document findings. If 3+ customers leave for the same reason, fix it in the prod
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 20)
+### Gap identified: Hader Institute case study — referenced throughout research but no actual document exists
+
+**Original finding**: "Hader Institute case study is strongest proof point" appears in 15+ locations throughout the research log — from positioning ("we built this at Hader Institute") to product-market fit ("60% call reduction at Hader") to GTM ("case study: Hader reduced enrollment calls by 60%"). Yet no actual case study document exists. All data is placeholder ("estimated 60%," "approximate $8,400/month savings").
+
+**Why this matters**: The entire GTM strategy, positioning, and sales collateral depend on "the Hader case study." If that case study doesn't exist with real data, everything downstream is built on sand. Every sales call, every demo, every piece of content that references "what we built at Hader Institute" is weaker without verified numbers.
+
+**What's currently stated vs. what exists**:
+
+| Claim in Research | Data Status | Evidence of Claim |
+|-----------------|-------------|------------------|
+| "60% call time reduction at Hader" | Placeholder | "Assumed" in research, not documented |
+| "$8,400/month savings (60 hrs/week at $35/hr)" | Modeled | $35/hr not verified with Jesse |
+| "0 missed calls since AI launch" | Unknown | No Aircall report reviewed |
+| "Enrollment conversion rate improved" | Unknown | No before/after data documented |
+| "Zoho dedup identified 30% duplicate rate" | Unverified | No Zoho report reviewed |
+| "85% lead-to-enrollment conversion" | From CONTEXT.md | Needs verification with current data |
+
+**What a proper Hader case study document should contain**:
+
+```
+# Hader Institute AI Enrollment Case Study
+**Date**: [Month Year]
+**Prepared by**: Steven | **Status**: [Draft/Verified]
+
+## Before AI (Baseline — Month X 2026)
+- Monthly enrollment volume: [X]
+- Weekly enrollment call volume: [X] calls
+- Staff time on enrollment calls: [X] hrs/week
+- Missed call rate: [X]%
+- Average call duration: [X] min
+- Lead-to-enrollment conversion: [X]%
+- Duplicate lead rate in Zoho: [X]%
+- Monthly enrollment call cost: $[X] (staff time)
+
+## AI Implementation
+- Launch date: [Month Year]
+- Products: [Orientation call robot, Attribution dashboard, etc.]
+- Integration: [Zoho + Aircall setup]
+- Training data: [X] enrollment scripts, [X] FAQ entries
+
+## After AI (Month Y 2026)
+- Monthly enrollment volume: [X]
+- Weekly enrollment call volume: [X] calls (AI: [X], Human: [X])
+- Staff time on enrollment calls: [X] hrs/week
+- AI containment rate: [X]%
+- Missed call rate: [X]%
+- Average call duration: [X] min
+- Lead-to-enrollment conversion: [X]%
+- Monthly enrollment call cost: $[X]
+- Staff satisfaction: [Qualitative feedback]
+
+## Calculated Impact
+- Staff time saved: [X] hrs/week
+- Labor cost saved: $[X]/month
+- Missed calls recovered: [X]/month
+- Revenue from recovered enrollments: $[X]/month
+- Duplicate leads identified/cost avoided: $[X]/month
+- **Total monthly savings**: $[X]
+- **ROI**: [X]x
+
+## Quotes
+- [Enrollment Manager name]: "[Quote about before/after]"
+- [CEO/Marcus]: "[Quote about business impact]"
+
+## Challenges & Solutions
+- [Challenge 1]: [How it was addressed]
+- [Challenge 2]: [How it was addressed]
+
+## Lessons Learned
+- [Key learning 1]
+- [Key learning 2]
+```
+
+**How to capture actual Hader case study data**:
+
+| Data Point | How to Capture | Owner | Timeline |
+|-----------|----------------|-------|----------|
+| Weekly call volume | Aircall report (last 30 days) | Jesse | Available now |
+| Staff hours on calls | Interview Jesse + timesheet review | Steven | This week |
+| Missed call rate | Aircall report (last 30 days) | Jesse | Available now |
+| Staff cost per hour | Interview Jesse or check payroll | Steven | This week |
+| Lead-to-enrollment conversion | Zoho report (last 90 days) | Steven | Available now |
+| Duplicate lead rate | Zoho dedup report | Steven | Available now |
+| Before/after call duration | Aircall report comparison | Jesse | Available now |
+| Staff satisfaction | 15-min interview with Jesse | Steven | This week |
+
+**Questions to ask Marcus and Jesse** (to complete the case study):
+
+> "To complete the Hader Institute case study (which we need for every sales conversation), I need to capture the before/after data. Can we schedule 30 minutes with Jesse to:
+> 1. Pull the last 30 days of Aircall call reports
+> 2. Run a Zoho report on lead volume and conversion
+> 3. Review what enrollment call time looked like before AI (any timesheet data?)
+> 4. Get Jesse's perspective on what changed after AI launched"
+
+**Timeline for completing the case study**:
+
+| Week | Action | Output |
+|------|--------|--------|
+| Week 1 | Ask Marcus for access to Aircall + Zoho | Data access granted |
+| Week 1 | Interview Jesse (staff hours, satisfaction) | Qualitative data |
+| Week 2 | Pull Aircall + Zoho reports | Quantitative baseline |
+| Week 2 | Calculate before/after metrics | Draft case study |
+| Week 3 | Get Marcus + Jesse quotes | Final quotes |
+| Week 4 | Finalize case study document | Complete case study |
+
+**Case study usage across all GTM channels**:
+
+| Channel | How case study is used |
+|---------|----------------------|
+| LinkedIn posts | "At Hader Institute, we achieved [X] — here's how" |
+| Sales emails | "Hader Institute saw [Y] after implementing AI" |
+| Demo deck | Slide: "What we built at Hader Institute" |
+| Website | Case study page with before/after data |
+| ROI calculator | Input real Hader numbers to show ROI |
+| Partner materials | Zoho partners want customer proof |
+| Day 60 presentation | Slide: "Proof: Hader Institute Results" |
+
+**What this means for the day 60 deliverable**:
+
+Current state: "We estimate 60% call reduction at Hader based on industry benchmarks"
+Better state: "Hader Institute reduced enrollment call time from 60 hrs/week to 24 hrs/week (60% reduction) in the first 30 days, saving $[X]/month in labor costs and recovering [Y] previously missed enrollments."
+
+The second version is 10x more compelling. Marcus and Kham will trust the data because it's from their own RTO. Sales conversations become "let me show you what we built at Hader — here's the actual data" instead of "we estimate you'll save X."
+
+**Key insight**: The Hader case study is the single most important piece of content for Optimizer AI. Without real numbers, every claim is an estimate. With real numbers, every claim is a proof point. The 4 weeks to document the case study properly is the best investment Steven can make before day 60.
+
+**Actions added**:
+- [ADDED] Ask Marcus for access to Aircall + Zoho data this week — by May 28, 2026
+- [ADDED] Interview Jesse to capture staff hours before AI + satisfaction after — by May 30, 2026
+- [ADDED] Pull before/after Aircall reports (last 30 days vs. same period 3 months ago) — by June 4, 2026
+- [ADDED] Run Zoho dedup report to confirm duplicate rate — by June 4, 2026
+- [ADDED] Calculate actual savings from Hader data (not estimates) — by June 7, 2026
+- [ADDED] Get Marcus and Jesse quotes for case study — by June 7, 2026
+- [ADDED] Finalize Hader case study document with real numbers — by June 14, 2026
+- [ADDED] Update all research log claims with actual Hader numbers — by June 14, 2026
+- [ADDED] Update all sales materials (LinkedIn, emails, demo deck) with real case study — by June 21, 2026
+- [ADDED] Present verified Hader case study (not estimates) at day 60 — by June 28, 2026
+
+**Sources**:
+- Aircall reporting: aircall.io/reports (access via Hader account)
+- Zoho Analytics: zoho.com/analytics (access via Hader account)
+- Hader baseline data: Jesse (staff hours), Marcus (approval)
+- Case study template: B2B SaaS case study best practices
+
