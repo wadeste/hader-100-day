@@ -1715,6 +1715,157 @@ Target: 20% of total leads from organic with 25% conversion rate. Research SEO, 
 - LinkedIn marketing: LinkedIn Business solutions
 - Industry knowledge: B2B SaaS content strategies
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Technical SEO implementation, domain authority strategy, and content repurposing plan missing
+
+**Original finding**: "Primary keywords to own: 'AI enrollment RTO,' 'RTO AI tools,' 'AI student enrollment Australia'" and "Publish ASQA compliance guide first" — no technical SEO implementation plan, no domain authority strategy, no content repurposing plan.
+
+**Refined findings**:
+
+**Technical SEO implementation for optimizer.ai** (what needs to be set up immediately):
+
+| Component | Status | Action Required | Priority |
+|-----------|--------|-----------------|----------|
+| **SSL certificate** | Must have | HTTPS required for Google ranking | P0 (Day 1) |
+| **XML sitemap** | Must have | Submit to Google Search Console | P0 (Day 1) |
+| **Robots.txt** | Must have | Allow AI content, block admin pages | P0 (Day 1) |
+| **Page speed** | Critical | <3 sec load time, mobile-first | P1 (Month 1) |
+| **Schema markup** | Important | Organization, FAQ, HowTo schema | P1 (Month 1) |
+| **Core Web Vitals** | Important | LCP <2.5s, FID <100ms, CLS <0.1 | P1 (Month 1) |
+| **Canonical URLs** | Important | Prevent duplicate content issues | P2 (Month 2) |
+| **Hreflang** | Low priority | Only if multilingual | P0 (N/A for AU) |
+
+**Google Search Console setup** (required before any content launches):
+1. Create Google Search Console account for optimizer.ai
+2. Verify ownership (DNS TXT record or HTML file upload)
+3. Submit XML sitemap
+4. Set up email alerts for crawl errors, manual actions
+5. Monitor search performance monthly: clicks, impressions, CTR, position
+6. Submit updated sitemap after each major content publish
+
+**Domain authority (DA) building strategy**:
+
+DA (Moz metric) or DR (Ahrefs metric) matters for ranking. Current DA is 0 (new domain). Target: DA 10+ by month 6.
+
+
+| DA Milestone | Strategy | Timeline |
+|-------------|----------|----------|
+| DA 0-5 | Get indexed, submit to directories, first backlinks | Months 1-3 |
+| DA 5-10 | Guest posts, partnerships, PR | Months 3-6 |
+| DA 10-20 | Authority content, co-marketing | Months 6-12 |
+| DA 20+ | Thought leadership, awards, industry recognition | Year 2+ |
+
+
+**Directory listings for quick DA boost** (submit all in month 1):
+| Directory | URL | DA Est. | Notes |
+|-----------|-----|---------|-------|
+| Google Business Profile | business.google.com | High | Free, high local impact |
+| LinkedIn Company | linkedin.com/company | High | Required for B2B |
+| Product Hunt | producthunt.com | 89 | For SaaS launch |
+| Crunchbase | crunchbase.com | 86 | For investor credibility |
+| Clutch | clutch.co | 82 | B2B SaaS directory |
+| G2 | g2.com | 81 | SaaS reviews |
+| Capterra | capterra.com | 78 | SaaS directory |
+| AlternativeTo | alternativeto.net | 71 | Competitor comparison |
+| Australian Business Register | abr.business.gov.au | High | Government listing |
+
+
+**Content repurposing strategy** (get 3x value from every piece):
+
+One piece of content → 5+ formats → 10+ distribution channels:
+
+| Original Content | Repurposed Format 1 | Repurposed Format 2 | Repurposed Format 3 |
+|-----------------|---------------------|---------------------|---------------------|
+| ASQA Compliance Guide (PDF) | LinkedIn carousel post | YouTube explainer video | Email nurture sequence |
+| Case study (blog) | LinkedIn story post | SlideShare presentation | Guest post for RTO blog |
+| Pillar page (2,500 words) | YouTube video script | LinkedIn thread (5 posts) | Podcast interview talking points |
+| ROI calculator (tool) | PDF report template | LinkedIn interactive post | Email drip campaign |
+
+**Repurposing workflow**:
+1. Write long-form content (2,000+ words) first
+2. Extract key points → LinkedIn carousel (10 slides)
+3. Extract key points → LinkedIn thread (5 posts, one insight each)
+4. Expand one section → YouTube video (10 min)
+5. Create email sequence → each email focuses on one insight
+6. Create PDF checklist → lead magnet for email capture
+
+**Content-to-lead conversion funnel**:
+
+```
+Organic Search (100 visitors)
+    ↓
+Blog/Pillar Page (90 read article)
+    ↓
+Lead Magnet Offer (20% click = 18 visitors)
+    ↓
+Email Capture (5% convert = 1 email lead)
+    ↓
+Nurture Email → Demo Request (20% convert = 0.2 demos/month)
+    ↓
+Demo → POC (50% convert = 0.1 POC/month)
+    ↓
+POC → Paid (60% convert = 0.06 customers/month)
+```
+
+At 1,000 visitors/month: 0.6 customers/month from organic.
+To hit 10 customers/month: need ~16,700 visitors/month (all channels) or 10x the content strategy.
+
+
+**SEO content quality checklist** (before publishing any piece):
+
+| Check | Requirement | Why |
+|-------|------------|-----|
+| Word count | 1,500+ words | Google's preference for comprehensive content |
+| Headings | H1 + H2 + H3 hierarchy | Readability + SEO structure |
+| Internal links | 3+ links to other pages | Site architecture, time on site |
+| External links | 2+ to authoritative sources | E-E-A-T signal |
+| Images | Alt text on every image | Accessibility + SEO |
+| Keyword in title | First 60 characters | Click-through rate |
+| Keyword in first 100 words | Yes | Relevance signal |
+| Readability | Flesch-Kincaid Grade 8-10 | Australia adult reading level |
+| Questions answered | FAQ section | Featured snippet opportunity |
+| CTA | Present | Convert readers to leads |
+
+
+**What NOT to do (SEO mistakes to avoid)**:
+- Don't over-optimize keywords (keyword stuffing penalty)
+- Don't copy content from other sites (duplicate content penalty)
+- Don't use AI-generated thin content (Google's Helpful Content Update penalizes)
+- Don't ignore mobile users (mobile-first indexing)
+- Don't skip meta descriptions (affects CTR)
+- Don't build spammy backlinks (link scheme penalty)
+
+
+**Content calendar execution tracking**:
+
+| Week | Content Piece | Status | Published | Traffic (Month 3) |
+|------|--------------|--------|----------|-------------------|
+| M1 W1 | ASQA Compliance Guide | Draft | ☐ | — |
+| M1 W2 | Case study: Hader 60% reduction | Draft | ☐ | — |
+| M1 W3 | Thought leadership: AI before June | Draft | ☐ | — |
+| M1 W4 | Pillar page: AI for RTO Enrollment | Draft | ☐ | — |
+| M2 W1 | 5 Ways AI Transforms RTOs | Draft | ☐ | — |
+| M2 W2 | Zoho + AI tutorial | Draft | ☐ | — |
+| M2 W3 | Voice AI implementation guide | Draft | ☐ | — |
+| M2 W4 | Marketing attribution for RTOs | Draft | ☐ | — |
+
+
+**Key insight**: Organic is a 12-month investment with zero results in months 1-3, first signals in months 4-6, and meaningful pipeline in months 9-12. Budget accordingly. The ASQA compliance guide should be #1 priority — it's both the highest-value lead magnet AND the fastest path to demonstrating expertise.
+
+
+
+**Actions added**:
+- [ADDED] Set up Google Search Console for optimizer.ai — by June 7, 2026
+- [ADDED] Verify SSL, submit XML sitemap, check robots.txt — by June 7, 2026 (Day 1)
+- [ADDED] Submit to 10+ directories (LinkedIn, Crunchbase, G2, etc.) — by June 14, 2026
+- [ADDED] Create content repurposing workflow (1 piece → 5 formats) — by June 14, 2026
+- [ADDED] Write and publish ASQA Compliance Guide — by June 21, 2026 (priority content)
+- [ADDED] Build content calendar tracking spreadsheet (with traffic targets) — by June 7, 2026
+- [ADDED] Set up Google Analytics 4 or alternative for traffic tracking — by June 7, 2026
+- [ADDED] Create SEO quality checklist (apply to every piece before publishing) — by June 14, 2026
+
 
 ## Competitive moat analysis — 2026-05-24
 
