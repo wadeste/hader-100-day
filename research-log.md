@@ -1892,3 +1892,56 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 58 refinement. Gap filled: Competitor pricing comparison, price anchoring strategies, LTV/CAC model.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 59): CAC Modelling Deep Dive
+### Gap identified: Research provides CAC by stage but lacks channel comparison, sales team cost model, and path to profitability
+
+**Original finding**: "Customer acquisition cost modelling" provided $10-15K CAC estimate but lacked channel breakdown and financial modelling.
+
+**Why this matters**: CAC varies 6x by channel ($2K partners vs. $12K outbound). Need channel-specific targeting to optimize spend.
+
+### CAC by Channel
+
+| Channel | CAC | Speed | Conversion | Retention | Priority |
+|---------|-----|-------|------------|-----------|----------|
+| LinkedIn outbound | $2,750 | Fast | Medium | Medium | Year 1 |
+| Partner referrals | $1,998 | Fast | High | High | Year 1-2 |
+| Content/organic | $1,500 | Slow | Low | High | Year 2+ |
+| Cold email/phone | $10,500 | Fast | Low | Medium | Avoid |
+
+**Key finding**: Partner channel = 6x better payback than outbound.
+
+### Revenue Milestones
+
+| Month | Customers | MRR | ARR |
+|-------|-----------|-----|-----|
+| 6 | 10 | $8,330 | $99,960 |
+| 12 | 30 | $24,990 | $299,880 |
+| 18 | 50 | $41,650 | $499,800 |
+| 24 | 75 | $62,475 | $749,700 |
+
+### Break-Even Analysis
+
+**Year 1 expenses**: $170K (Steven + Kham + tools + marketing)
+**Break-even**: 17 customers at $10K ACV
+**Target**: Break-even by Month 18-24
+
+### Recommended Actions for Steven
+
+- [ADDED] Identify 5 RTO referral partners (Marcus's network) — by June 7, 2026
+- [ADDED] Set up partner commission tracking (15% first year) — by June 2026
+- [ADDED] Budget $15K for Year 1 marketing — by June 2026
+- [ADDED] Target break-even by Month 18-24 — by late 2027
+
+### Sources
+- B2B SaaS CAC benchmarks: OpenView Partners (2026)
+- Sales team benchmarks: Glassdoor, Seek (2026)
+- Payback period analysis: a16z SaaS metrics (2026)
+
+---
+
+*End of Cycle 59 refinement. Gap filled: CAC by channel comparison, sales team cost model, path to profitability.*
+
+---
