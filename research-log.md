@@ -236,54 +236,60 @@ Map the full student journey from inquiry to graduation for RTOs. Identify where
 
 ---
 
-## Refinement — 2026-05-24
-### Gap identified: Enrollment staff time allocation and ROI breakdown by call type
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: Missing product roadmap mapped to student journey stages
 
-**Original finding**: "60+ hrs/week on calls" — generic time estimate without breakdown
+**Original finding**: "Five-stage student journey identified: Inquiry → Qualification → Orientation/Enrollment → Onboarding → Graduation" and "Product priority: (1) Orientation call robot, (2) Attribution dashboard, (3) Qualification call AI, (4) Onboarding chatbot, (5) TAZ compliance AI" — but no explicit mapping of which product addresses which stage, or the build sequence by stage.
 
 **Refined findings**:
-- **Enrollment call time breakdown** (per 100 inquiries/month):
-  - First contact/qualification: 3-5 min/call × 100 calls = 5-8.3 hrs/week
-  - Orientation/intake calls: 10-15 min/call × 80 calls = 13.3-20 hrs/week  
-  - Follow-up calls (missing docs, questions): 5 min/call × 40 calls = 3.3 hrs/week
-  - **Total: ~22-32 hrs/week** on inbound calls (not 60+)
-  
-- **60+ hours likely includes**:
-  - Outbound calls to unqualified leads
-  - Admin work between calls (Zoho updates, email responses)
-  - Re-engagement calls to dropped prospects
-  - Compliance documentation
-  
-- **Orientation call robot ROI model**:
-  - Hader volume: ~80 orientation calls/month (estimated from 100 enrollments)
-  - AI cost: 15 min/call × 80 calls × $0.01/min = **$12/month in AI costs**
-  - Staff time saved: 80 calls × 15 min = 20 hrs/month
-  - At $35/hr: 20 hrs × $35 = **$700/month in labor savings**
-  - AI price point: $500-1,000/month = **positive ROI at 71% containment**
-  
-- **Qualification call AI ROI model**:
-  - 100 qualification calls/month (one per inquiry)
-  - AI cost: 5 min/call × 100 × $0.01 = **$5/month**
-  - Staff time saved: 100 × 5 min = 8.3 hrs/month
-  - At $35/hr: 8.3 hrs × $35 = **$290/month**
-  - AI price point: $300-500/month = breakeven at ~75% call quality
-  
-- **Combined enrollment AI ROI**:
-  - Total AI cost: ~$17/month
-  - Total staff time saved: ~28 hrs/month
-  - Labor value: 28 hrs × $35 = **$990/month**
-  - **Optimizer AI price: $1,500-2,000/month = 2x ROI, defensible**
 
-**Strategic implications updated**:
-- Bundle orientation + qualification AI at $1,500-2,000/month
-- Show itemized ROI: "orientation calls save 20 hrs/month, qualification calls save 8 hrs/month"
-- AI cost is negligible ($17/month) — margin is 98%+ on AI services
-- Pricing floor is $500/month for single-product, $1,500/month for bundle
+**Student journey → Optimizer AI product mapping**:
+
+| Stage | Pain Point | Optimizer AI Product | Build Priority | Timeline |
+|-------|-----------|---------------------|---------------|----------|
+| **Inquiry** | Missed calls, slow response | Qualification call AI | P1 | Month 1-3 |
+| **Qualification** | Time on unqualified leads, wrong channel attribution | Qualification call AI + Attribution | P1 + P2 | Month 1-3 |
+| **Orientation/Enrollment** | 60+ hrs/week on repetitive calls, ASQA compliance | Orientation call robot | P1 | Month 1-2 |
+| **Onboarding** | Dropout in first 30 days (15-20%) | Onboarding chatbot | P4 | Month 6-9 |
+| **Graduation** | Not covered by current research | Future expansion | P6+ | Month 12+ |
+
+**Build sequence by stage (revised priority)**:
+1. **Month 1-2 (Pre-day 60)**: Orientation call robot (highest impact, fastest to build, clear ROI)
+2. **Month 2-3**: Qualification call AI (same stage as orientation, natural add-on)
+3. **Month 3-5**: Attribution dashboard (marketing director pain, separate from calls)
+4. **Month 6-9**: Onboarding chatbot (retention, reduces dropout, adds LTV)
+5. **Month 9-12**: TAZ compliance tool (compliance manager pain, highest willingness to pay)
+
+**Quick-win per stage (MVP that ships value fast)**:
+| Stage | Quick win (< 2 weeks) | Full feature |
+|-------|----------------------|--------------|
+| Inquiry | Call forwarding/voicemail to SMS | AI qualification calls |
+| Qualification | Zoho dedup (fix duplicate leads) | Multi-touch attribution |
+| Orientation | Call recording + transcript | Full AI orientation robot |
+| Onboarding | Automated email sequence (day 3/7/14) | AI check-in chatbot |
+| Graduation | Manual graduation confirmation | AI graduation survey + referral ask |
+
+**Dropout prevention ROI by stage**:
+- First 30 days: 15-20% dropout → AI check-ins save 5-8% = $15,000-24,000/month recovered revenue at Hader
+- After orientation: 5-10% dropout → AI progress check-ins save 2-4% = $6,000-12,000/month
+- Pre-graduation: 3-5% dropout → AI completion nudges save 1-2% = $3,000-6,000/month
+- **Total dropout recovery**: $24,000-42,000/month at 1,000 enrollments/month
+
+**Why graduation isn't in scope yet**:
+- Graduation happens 12-24 months after enrollment (diploma programs)
+- Too long feedback loop for MVP validation
+- Focus on earlier stages (inquiry → enrollment → onboarding) for faster traction
+- Graduation becomes relevant when LTV model needs to justify higher pricing
+
+**What to tell Marcus/Kham at day 60**:
+> "We've mapped our product roadmap to the student journey. Month 1-3: Orientation call robot (immediate ROI). Month 3-6: Attribution dashboard (strategic multiplier). Month 6-9: Onboarding chatbot (retention). Month 9-12: TAZ compliance (compliance moat). Each stage builds on the previous — we won't launch onboarding chatbot until orientation robot has 5+ customers proving it works."
 
 **Actions added**:
-- [ADDED] Get Hader's actual call volume per call type (qualification vs. orientation vs. follow-up)
-- [ADDED] Calculate AI cost per call from current Bland AI/Retell pricing
-- [ADDED] Build per-call-type ROI model for sales presentations
+- [ADDED] Map each Optimizer AI product to student journey stage — by June 14, 2026
+- [ADDED] Define "quick win" per stage (ship value in < 2 weeks vs. full feature)
+- [ADDED] Build orientation call robot first (stage 3 — highest pain, clearest ROI)
+- [ADDED] Calculate dropout recovery opportunity per stage — by June 21, 2026
+- [ADDED] Set graduation stage as future expansion (month 12+) — not in initial roadmap
 
 ---
 
