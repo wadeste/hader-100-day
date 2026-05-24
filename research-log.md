@@ -2680,3 +2680,233 @@ Based on B2B SaaS benchmarks and education vertical:
 - ASQA enrollment standards: asqa.gov.au/standards/enrolment (2026)
 - Australian Privacy Principles: oaic.gov.au (2026)
 - Competitor pricing: studybuddy.com.au, enroly.com (May 2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 37)
+### Gap identified: Regulatory and compliance research missing specific ASQA standards for AI tools, audit triggers, APP obligations, and what "ASQA-compliant AI" actually means
+
+**Original finding**: "Regulatory and compliance research — ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers." Missing: specific ASQA standards numbers, what "compliant AI" looks like, audit trigger data, APP compliance checklist.
+
+**Why this matters**: If Optimizer AI's products fail ASQA compliance, customers fail audits and leave. Must understand exactly what ASQA requires for AI enrollment tools to build compliant products and avoid liability.
+
+### ASQA Standards Relevant to AI Enrollment Tools
+
+**Standard 1: Training and Assessment (TAZ)**
+
+| Requirement | AI implication | Compliance method |
+|-------------|----------------|-------------------|
+| Training is delivered according to TAZ | AI must use correct course info (no hallucination) | Scripted responses, approved content only |
+| Assessment is valid and reliable | AI must not make assessment promises | No assessment outcome guarantees in calls |
+| RTO maintains assessment evidence | AI calls must be logged for audit | Call recordings retained 3 years |
+
+**Standard 4: Assessment**
+
+| Requirement | AI implication | Compliance method |
+|-------------|----------------|-------------------|
+| Assessment is fair, valid, reliable, flexible | AI cannot assess students | Orientation calls only, no assessment decisions |
+| Reasonable adjustment provided | AI must flag LLN needs | Script includes LLN support offer |
+| Recognition of Prior Learning (RPL) | AI must escalate RPL requests | RPL = human decision, not AI |
+
+**Standard 5: Vulnerable learners**
+
+| Requirement | AI implication | Compliance method |
+|-------------|----------------|-------------------|
+| Appropriate learner support | AI must flag welfare concerns | Escalation triggers for distress, self-harm |
+| Language, literacy, numeracy support | AI must offer LLN support | Script includes LLN disclosure |
+
+**Standard 6: Learner support (most relevant)**
+
+| Requirement | AI implication | Compliance method |
+|-------------|----------------|-------------------|
+| Learners identified and supported | AI check-ins can help | Student retention AI flags at-risk |
+| Reasonable adjustment provided | AI can identify needs | LLN triage in orientation robot |
+| Progress monitoring | AI can track engagement | LMS pattern analysis |
+
+**Standard 7: Enrolment**
+
+| Requirement | AI implication | Compliance method |
+|-------------|----------------|-------------------|
+| Enrolment information provided before enrolment | AI must disclose fees, refund, cooling off | Script includes mandatory disclosures |
+| USI collected or exemption recorded | AI must collect USI or trigger exemption check | USI collection in script (hard blocker) |
+| Evidence of identity collected | AI must request documents | Document checklist in script |
+| Enrolment confirmation sent | AI sends confirmation SMS/email | Automated confirmation |
+
+### AI-Specific Compliance: What "ASQA-Compliant AI" Means
+
+**ASQA does not have specific AI regulations yet (2026)**. But AI must comply with existing standards:
+
+**Rule 1: AI cannot make assessment decisions**
+- AI can qualify students, not assess them
+- RPL decisions must be human
+- Credit transfers must be human
+- Competency outcomes must be human decisions
+
+**Rule 2: AI must provide mandatory disclosures**
+- Fee and payment terms before enrollment
+- Refund policy before payment
+- Cooling off period for funded courses
+- Language/LLN support available
+- Complaints/appeals process
+- Privacy notice (APP)
+
+**Rule 3: AI must log interactions for audit**
+- All calls recorded and retained 3 years
+- Lead records complete (source, outcome, follow-up)
+- Escalation logs with timestamps
+- No data loss or gaps
+
+**Rule 4: AI cannot discriminate or bias**
+- Must handle all callers equally
+- Cannot prioritize based on payment ability
+- Must offer same information to all callers
+
+**Rule 5: Human oversight required**
+- AI must transfer to human when requested
+- AI must transfer when uncertain
+- Human can review AI decisions
+- Final decisions are human decisions
+
+### ASQA Audit Triggers and AI Risk Points
+
+**Common audit triggers**:
+1. Student complaints (about enrollment process)
+2. High dropout rates (potential LLN issues)
+3. USI non-compliance (missing USI or exemption)
+4. Fee disputes (confusion about costs)
+5. Assessment validity questions
+
+**AI-specific audit risks**:
+
+| Risk | Trigger | Mitigation |
+|------|---------|------------|
+| AI gives wrong course info | Student complaint, audit finds discrepancy | Script with approved content only, no dynamic web scraping |
+| AI doesn't collect USI | Audit finds enrollment without USI | USI collection is hard blocker in script |
+| AI doesn't disclose fees | Student says they didn't know total cost | Fee disclosure before any commitment |
+| AI doesn't log calls | Audit requests call records, none exist | Call recording enabled, 3-year retention |
+| AI discriminates | Complaint or data review | Test for bias, monitor call outcomes |
+| AI keeps caller on too long | Complaint about pressure | Script includes time limits, no high-pressure tactics |
+| AI doesn't transfer to human | Complaint about no human option | Human transfer always available |
+
+**How ASQA might audit AI enrollment tools**:
+- Request call recordings for sample enrollments
+- Interview students about their enrollment experience
+- Check if AI disclosures matched actual process
+- Verify USI collection rate
+- Review escalation logs
+
+### Australian Privacy Principles (APP) Compliance
+
+**APP obligations for AI enrollment tools**:
+
+**APP 3 (Collection of personal information)**:
+- Must collect personal info lawfully and fairly
+- Must notify purpose of collection
+- Must only collect what's necessary
+
+**APP 5 (Notification of collection)**:
+- Must tell student why info is collected
+- Must tell who collects and stores it
+- Must tell their rights (access, correction)
+
+**AI implication**: Privacy notice at start of call ("Your info will be stored securely under Australian privacy law. You can ask us to delete it at any time.")
+
+**APP 6 (Use or disclosure)**:
+- Cannot use student data for other purposes
+- Cannot share with third parties without consent
+
+**AI implication**: Student data in Zoho, call recordings stored in AU cloud only. No US data storage.
+
+**APP 11 (Security of personal information)**:
+- Must protect from misuse, loss, unauthorized access
+- Must protect from modification
+
+**AI implication**: AU-hosted storage, encryption at rest, access controls, regular security audits.
+
+**Critical: Data stored overseas = APP breach risk**
+- Bland AI, Retell AI store data in US
+- VAPI can use AU region
+- Twilio has AU region
+- Recommendation: AU-hosted only, DPA with any US vendor
+
+### Marketing Compliance for Education Providers
+
+**ESOS Act (for international students)** — not relevant for domestic RTOs
+**National Code (for international)** — not relevant for domestic RTOs
+
+**Consumer Law requirements**:
+- No misleading conduct (AI cannot say "guaranteed enrollment")
+- No unconscionable conduct (AI cannot pressure vulnerable students)
+- Clear pricing (AI must state total cost, not hide fees)
+
+**Competitor comparison compliance**:
+- Cannot disparage competitors
+- Can say "unlike generic AI, we understand ASQA" (fact, not opinion)
+
+### Compliance Documentation Checklist
+
+**For orientation call robot build**:
+
+**Disclosure script (required)**:
+- [ ] AI disclosure at call start
+- [ ] Call recording notice
+- [ ] Human transfer option
+- [ ] USI requirement and collection
+- [ ] Fee disclosure (total cost)
+- [ ] Payment plan terms
+- [ ] Refund policy
+- [ ] Cooling off period (for funded courses)
+- [ ] LLN support offer
+- [ ] Complaints/appeals rights
+- [ ] Privacy notice (APP)
+
+**Data management**:
+- [ ] Call recordings retained 3 years (AU storage)
+- [ ] Lead records complete (source, outcome, follow-up)
+- [ ] Escalation logs with timestamps
+- [ ] No data stored overseas
+- [ ] Student can request their data
+
+**Quality assurance**:
+- [ ] 10% sample call review (monthly)
+- [ ] Script accuracy audit (quarterly)
+- [ ] Complaint investigation process
+- [ ] Human oversight mechanism
+
+**Audit readiness**:
+- [ ] Call recordings available within 48 hours
+- [ ] USI collection rate >95%
+- [ ] Disclosure compliance >98%
+- [ ] Escalation logs complete
+
+### What Optimizer AI Must Deliver for ASQA Compliance
+
+**Minimum viable compliance** (orientation call robot):
+1. AI disclosure at start of every call
+2. Call recording + 3-year AU retention
+3. Human transfer option always available
+4. USI collection scripted (hard blocker)
+5. Fee disclosure before any commitment
+6. Privacy notice before data collection
+7. Escalation logging with reason and outcome
+
+**For future products (attribution, TAZ tool)**:
+- TAZ tool: Must include evidence of TAZ review (document upload, compliance report)
+- Attribution: Must preserve lead source data for audit trail
+
+### Actions for Steven
+
+- [ADDED] Add ASQA compliance checklist to orientation call robot build spec (16 mandatory items) — by June 7, 2026
+- [ADDED] Confirm AU-region storage for all data (VAPI AU region, Zoho AU region) — by June 7, 2026
+- [ADDED] Add APP privacy notice to script (Q19) — by June 14, 2026
+- [ADDED] Build escalation logging system (reason, timestamp, outcome) — by July 7, 2026
+- [ADDED] Create 10% sample QA process for call review — by July 21, 2026
+- [ADDED] Add "ASQA-compliant" claim to marketing materials only if checklist is met — by June 28, 2026
+- [ADDED] Document data flows (call → VAPI → Zoho → AU storage) for legal review — by June 14, 2026
+
+**Sources**:
+- ASQA Standards: asqa.gov.au/standards (2026)
+- Australian Privacy Principles: oaic.gov.au/privacy-guide (2026)
+- Consumer Law: consumerlaw.gov.au (2026)
+- VAPI data storage: vapi.ai (May 2026)
+- ASQA audit triggers: asqa.gov.au/news-and-updates (2025-2026)
