@@ -913,6 +913,82 @@ If demo-to-POC improves to 50% and POC-to-paid to 75%:
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: CAC model missing specific budget allocation, sales team costs, and unit economics by customer segment
+
+**Original finding**: "Need 10-11 new customers/month to hit $10M EBITDA by year 4 (417 customers total)" and "Annual CAC spend: ~$315,000 to support path to $10M EBITDA" — no specific allocation by channel, no sales team cost breakdown, no unit economics by customer size.
+
+**Refined findings**:
+
+**Detailed marketing budget allocation by channel** (Year 1: $144k total):
+
+| Channel | % | Annual | Monthly | Expected customers/year | Cost/customer |
+|---------|---|--------|---------|------------------------|----------------|
+| Marcus network + referrals | 15% | $21,600 | $1,800 | 15-20 | $1,080-1,440 |
+| LinkedIn outbound | 30% | $43,200 | $3,600 | 20-25 | $1,728-2,160 |
+| Content/inbound | 25% | $36,000 | $3,000 | 5-10 | $3,600-7,200 |
+| Zoho partner | 15% | $21,600 | $1,800 | 5-10 | $2,160-4,320 |
+| Events/speaking | 10% | $14,400 | $1,200 | 2-5 | $2,880-7,200 |
+| Tools + operations | 5% | $7,200 | $600 | — | — |
+| **Total** | **100%** | **$144,000** | **$12,000** | **47-70** | **$2,057-3,064** |
+
+**Sales team cost model** (phased hiring):
+
+| Role | Month hired | Base salary | Commission (4 deals/mo) | Total annual |
+|------|------------|-------------|------------------------|--------------|
+| Steven (Marketing + Sales) | Month 1 | $100,000 | N/A | $100,000 |
+| SDR/BDR | Month 6 | $70,000 | $15,000 ($1,250/mo × 12) | $85,000 |
+| Account Executive | Month 8 | $90,000 | $43,200 (4 × $1,079/mo × 12) | $133,200 |
+| Customer Success | Month 12 | $75,000 | $21,600 (5% recurring) | $96,600 |
+| **Total sales ops** | | | | **$414,800** |
+
+**Total Year 1 cost (marketing + sales)**: $144k + $415k = **$559k**
+
+**EBITDA model with sales team costs**:
+| Metric | Year 1 | Year 2 | Year 3 | Year 4 |
+|--------|--------|--------|--------|--------|
+| Customers | 50 | 150 | 300 | 433 |
+| ARR | $1.5M | $4.5M | $9M | $13M |
+| Gross margin (80%) | $1.2M | $3.6M | $7.2M | $10.4M |
+| Operating costs | $1.0M | $1.8M | $2.5M | $3.5M |
+| Sales + marketing | $560k | $700k | $800k | $900k |
+| **EBITDA** | **$640k** | **$2.1M** | **$4.9M** | **$7M** |
+
+**Gap to $10M EBITDA**: Year 4 shows $7M vs. $10M target. Options to close:
+1. Increase average ARR to $35k (price increase or upsell)
+2. Reduce churn from 10% to 7%
+3. Add enterprise tier at $5k/month
+4. Scale faster (12-15 customers/month instead of 10-11)
+
+**Unit economics by customer segment**:
+
+| Segment | ARR | CAC | LTV | LTV:CAC | Churn risk |
+|---------|-----|-----|-----|---------|------------|
+| Small RTO (<20 enroll/mo) | $6,000 | $1,500 | $36,000 | 24:1 | Low (stable) |
+| Mid RTO (20-50) | $18,000 | $2,500 | $108,000 | 43:1 | Medium |
+| Large RTO (50+) | $36,000 | $4,000 | $216,000 | 54:1 | Low |
+
+**Key insight**: Mid-market RTOs (20-50 enrollments/month) are the sweet spot — highest volume, manageable CAC, strong LTV:CAC. Large RTOs require more sales effort but have highest retention.
+
+**Cash flow model by quarter** (accounting for sales cycle delay):
+| Quarter | New customers | New ARR | Churn | Net ARR | Cumulative |
+|---------|--------------|---------|-------|---------|------------|
+| Q1 | 5 | $60k | 0 | $60k | $60k |
+| Q2 | 10 | $120k | 1 | $102k | $162k |
+| Q3 | 15 | $180k | 2 | $162k | $324k |
+| Q4 | 20 | $240k | 4 | $216k | $540k |
+
+**Break-even point**: Month 18-24 at current growth rate.
+
+**Actions added**:
+- [ADDED] Build detailed budget spreadsheet by channel — by June 7, 2026
+- [ADDED] Model sales team hiring plan with commission structure — by June 14, 2026
+- [ADDED] Calculate EBITDA trajectory with all costs included — by June 21, 2026
+- [ADDED] Identify gap to $10M EBITDA and recommend price adjustments — by day 60 deliverable
+- [ADDED] Track actual vs. budget monthly — adjust channel allocation quarterly
+
+---
+
 ## 12-24 month marketing strategy foundation — 2026-05-24
 
 ### Objective
