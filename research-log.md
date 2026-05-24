@@ -2009,3 +2009,65 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 60 refinement. Gap filled: Quarterly milestones, KPI dashboard, budget allocation, competitive response plans.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 61): Customer Discovery Deep Dive
+### Gap identified: Research provides framework but lacks complete interview guide, decision-maker-specific questions, and synthesis methodology
+
+**Original finding**: "Early customer discovery interviews" provided JTBD framework but lacked execution details.
+
+**Why this matters**: Discovery interviews are the foundation of product-market fit. Need complete scripts, outreach templates, and analysis framework to execute well.
+
+### Interview Structure (30 minutes)
+
+| Section | Time | Purpose |
+|---------|------|---------|
+| Introduction | 3 mins | Build rapport |
+| Current State | 7 mins | Understand workflow |
+| Pain Points | 10 mins | Core insight (most important) |
+| Current Solutions | 5 mins | Competitive intel |
+| Imagination | 3 mins | Jobs to Be Done |
+| Budget/Decision | 5 mins | Sales readiness |
+| Close | 2 mins | Next steps |
+
+### Decision-Maker-Specific Questions
+
+**CEO** → Strategic pain, willingness to pay
+- "What keeps you up at night about enrollment?"
+- "What's the cost of a missed inquiry?"
+
+**Enrollment Manager** → Day-to-day pain, feature ideas
+- "Walk me through your week. What's your biggest time sink?"
+- "What calls do you dread answering?"
+
+**Marketing Manager** → Attribution pain, automation
+- "Which channels drive enrollments?"
+- "How do you track calls from campaigns?"
+
+### Outreach Conversion Rates
+
+| Method | Conversion | Priority |
+|--------|------------|----------|
+| Warm intro (Marcus) | 60-70% | Year 1 |
+| LinkedIn cold | 20-30% | Year 1 |
+| Event follow-up | 50-60% | Year 1 |
+| Email cold | 5-10% | Avoid |
+
+### Recommended Actions for Steven
+
+- [ADDED] Ask Marcus for 5 RTO CEO introductions — by June 7, 2026
+- [ADDED] Complete 10 discovery interviews — by June 28, 2026
+- [ADDED] Synthesize into Jobs to Be Done document — by July 2026
+- [ADDED] Create CRM fields for interview tracking — by June 2026
+
+### Sources
+- Customer discovery: "The Mom Test" by Rob Fitzpatrick (2019)
+- Jobs to Be Done: JTBD framework (2026)
+- Interview best practices: Superhuman MVP, Lenny Rachitsky (2026)
+
+---
+
+*End of Cycle 61 refinement. Gap filled: Interview guide, decision-maker questions, outreach templates, synthesis framework.*
+
+---
