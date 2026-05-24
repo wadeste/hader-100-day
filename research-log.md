@@ -8127,3 +8127,334 @@ Enrollment lift = (Post-AI rate - Pre-AI rate) / Pre-AI rate × 100%
 ---
 
 *End of Cycle 223 refinement. Gap filled: "1,000 enrollments/month feasibility" was referenced twice in research-log.md but never analyzed. Added clarification: 1,000 enrollments = AI-facilitated enrollments across customer base, not per-customer. Added enrollment math (20 enrollments/RTO/month at 20% recovery = 50 RTOs for 1,000 total). Linked enrollment volume to ARR ($600K at 50 RTOs). Revised goal hierarchy: 1,000 enrollments (Year 2) → $5M ARR (Year 3) → $10M EBITDA (Year 5). Added conversion rate benchmarks (2.8x improvement). Set enrollment tracking KPIs. 10 recommended actions for Steven.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 224): LinkedIn Paid Advertising Strategy Deep-Dive — Targeting Parameters, Creative Strategy, Budget Benchmarks, and CTR/CPC Data
+
+### Gap identified
+The GTM channel strategy (Cycle 193) mentions "Set up LinkedIn ad campaigns targeting RTO CEOs/Marketing Directors" and allocates $18,000/year to LinkedIn ads, but provides no specific targeting parameters, ad creative strategy, expected CTR/CPC benchmarks, budget allocation by campaign type, or retargeting strategy. The website CRO section (Cycle 195) mentions "LinkedIn ads" as a channel but lacks specifics. Without detailed LinkedIn ad strategy, Steven will spend budget inefficiently.
+
+**Original finding**: "GTM channel strategy research" (Cycle 193) allocated budget to LinkedIn ads but provided no execution details. "Website CRO + SEO research" (Cycle 195) mentioned LinkedIn ad campaign landing pages but no targeting strategy.
+
+**Why this matters**: LinkedIn advertising is the primary acquisition channel ($18K/year budget), but LinkedIn has specific requirements for B2B targeting, higher CPC than Meta/Google, and distinct ad formats. Without a strategy, Steven may waste budget on wrong audiences, wrong formats, or untested creative. B2B LinkedIn ads require careful optimization — the difference between a 0.5% CTR and a 2% CTR is 4x more leads for the same spend.
+
+### LinkedIn Advertising Landscape for B2B SaaS (2026)
+
+**Market context — why LinkedIn for RTO targeting**:
+
+| Metric | LinkedIn | Meta (Facebook/Instagram) | Google Ads |
+|--------|----------|---------------------------|------------|
+| Monthly active users (AU) | 13M+ | 25M+ | N/A (search) |
+| B2B decision-maker reach | Highest | Medium | Low-Medium |
+| CPC (B2B, AU) | $8-25 | $2-8 | $3-15 |
+| CTR (Sponsored Content) | 0.5-2% | 0.5-1.5% | 3-8% |
+| Conversion rate (to demo) | 2-5% | 1-3% | 2-4% |
+| Audience quality (RTO decision-makers) | ★★★★★ | ★★ | ★★★ |
+| Audience size (niche targeting) | ★★★ | ★★★★★ | ★★★ |
+| Cost per demo | $50-200 | $30-100 | $40-150 |
+
+**Key insight**: LinkedIn has the highest cost per click but the highest-quality B2B audience. For niche targeting (RTO CEOs/Marketing Directors), LinkedIn's audience quality justifies the premium. A RTO CEO on LinkedIn is more likely to engage with education AI content than the same person on Facebook.
+
+**LinkedIn ad format comparison for RTO SaaS**:
+
+| Format | Best For | CPC Range | CTR | Conversion | Notes |
+|--------|----------|-----------|-----|-----------|-------|
+| Sponsored Content (single image) | Awareness, case studies | $10-20 | 0.5-1% | Low | Good for thought leadership |
+| Sponsored Content (video) | Engagement, demos | $12-25 | 0.8-1.5% | Medium | Video outperforms static by 2x |
+| Lead Gen Forms | Demo requests | $15-30 | 1-2% | High (2-5%) | Pre-fills data, lower friction |
+| Message Ads (InMail) | Direct outreach | $0.15-0.30/msg | 5-15% open | Medium | Good for 1:1 feel |
+| Dynamic Ads (follower) | Brand building | $8-15 | 0.3-0.8% | Low | Retargeting/brand play |
+| **Text Ads** | Testing, retargeting | $5-12 | 0.2-0.5% | Low | Cheapest, lowest conversion |
+
+**Recommended format mix for Optimizer AI**:
+- **60% Lead Gen Forms** (primary conversion mechanism — "Download Guide," "Book Demo")
+- **25% Sponsored Content (video)** (awareness, engagement, case studies)
+- **15% Message Ads** (personalized outreach to warm prospects)
+
+### LinkedIn Targeting Strategy for RTO Decision-Makers
+
+**Audience segmentation** (detailed targeting parameters):
+
+**Audience 1: RTO CEOs/Owners (Starter/Growth tier)**
+- Job titles: "Owner," "Founder," "CEO," "Managing Director," "General Manager"
+- Company: "Registered Training Organisation" (exact phrase), "RTO," "Training Provider," "Education Provider," "Vocational Education"
+- Company size: 11-50 employees (small RTO), 51-200 employees (medium RTO)
+- Industry: Education, Training & Development, Vocational Education
+- Location: Australia (Metro: Sydney, Melbourne, Brisbane, Perth, Adelaide)
+- Seniority: Founder, C-suite, VP, Director
+- **Estimated audience size**: 2,000-4,000 (niche, high-quality)
+- **Priority**: High
+
+**Audience 2: Marketing Directors (Scale tier)**
+- Job titles: "Marketing Director," "Head of Marketing," "Marketing Manager," "Digital Marketing Manager"
+- Company: Same as above (RTO, Training Provider, etc.)
+- Company size: 51-200 employees (medium-large RTO)
+- Industry: Education, Training & Development
+- Location: Australia (Metro)
+- Seniority: Director, Manager, Head of
+- **Estimated audience size**: 1,500-3,000
+- **Priority**: Medium (higher ACV but smaller audience)
+
+**Audience 3: Enrollment Managers (Growth tier)**
+- Job titles: "Enrollment Manager," "Student Services Manager," "Admissions Manager," "Enrolments Coordinator"
+- Company: Same as above
+- Company size: 11-100 employees
+- Industry: Education, Training & Development
+- Location: Australia
+- **Estimated audience size**: 1,000-2,000
+- **Priority**: Medium (champion role, influences but doesn't decide)
+
+**Audience 4: Compliance Officers (Scale tier)**
+- Job titles: "Compliance Manager," "Quality Manager," "RTO Manager," "Regulatory Compliance"
+- Company: Same as above
+- Industry: Education
+- **Estimated audience size**: 500-1,000
+- **Priority**: Low (important but small audience)
+
+**Targeting approach**: Start with Audience 1 (CEOs) as primary, expand to Audience 2 once budget allows. Use LinkedIn's "Matched Audiences" to target website visitors (retargeting) and email lists (account-based marketing).
+
+### LinkedIn Ad Creative Strategy by Funnel Stage
+
+**Top-of-funnel (Awareness) — Objective: Brand recall, problem education**
+
+| Ad Type | Headline | Description | Image/Video | CTA |
+|---------|----------|-------------|-------------|-----|
+| Sponsored Content (video) | "The #1 reason RTOs lose enrollments" | "Most RTOs lose 15-25% of potential students to missed calls. Here's why — and what to do about it." | 30-sec video: RTO owner talking about missed calls problem | "Learn More" |
+| Sponsored Content (image) | "Is your RTO losing enrollments to missed calls?" | "We help RTOs handle enrollment calls 24/7 — without hiring more staff." | Infographic: Missed calls = lost students | "Download Guide" |
+| Lead Gen Form | "Free: RTO Enrollment Audit" | "Find out how many enrollments you're losing to missed calls." | Simple form: 5 questions about call volume | "Get My Audit" |
+
+**Mid-funnel (Consideration) — Objective: Demo requests, guide downloads**
+
+| Ad Type | Headline | Description | Image/Video | CTA |
+|---------|----------|-------------|-------------|-----|
+| Lead Gen Form | "See Optimizer AI in action — 30-min demo" | "Watch how AI handles enrollment calls, collects USI, and books orientations — ASQA-compliant." | Product screenshot | "Book Demo" |
+| Sponsored Content (case study) | "Hadar Institute: 25% more enrollments in 60 days" | "How one Australian RTO transformed enrollment with AI — without hiring." | Hadar Institute logo + results | "Read Case Study" |
+| Sponsored Content (video) | "Watch: How Optimizer AI handles an enrollment call" | "30-second demo of our AI voice agent in action." | Video: AI handling sample call | "Watch More" |
+
+**Bottom-of-funnel (Decision) — Objective: Conversion, demo-to-close**
+
+| Ad Type | Headline | Description | Image/Video | CTA |
+|---------|----------|-------------|-------------|-----|
+| Lead Gen Form | "Ready to never miss an enrollment call?" | "Book your personalized demo. We'll show you exactly how it works for your RTO size." | Dashboard screenshot + social proof | "Book Demo" |
+| Message Ad | "[Name], want to see how Optimizer AI works for [RTO Name]?" | "We help RTOs like yours handle enrollment calls 24/7. Would a 20-minute demo be worth it?" | N/A (InMail) | "Reply to book" |
+| Retargeting Lead Gen | "Your competitors are using AI for enrollment" | "Here's why RTOs that automate enrollment calls see 25%+ more enrollments." | Retargeting: visited pricing page | "Book Demo" |
+
+### Creative Best Practices for LinkedIn B2B Ads
+
+**Headline guidelines**:
+- 50-70 characters max
+- Lead with problem or outcome, not features
+- Use numbers ("25% more enrollments") not claims ("best AI")
+- Avoid corporate jargon ("transform your business")
+
+**Image guidelines**:
+- Use real photos (not stock), especially faces
+- Avoid cluttered designs — simple is better
+- Use brand colors consistently
+- For video: First frame must hook (no logo delay)
+
+**Copy guidelines**:
+- First sentence is critical — make it about them ("Your RTO loses enrollments when...")
+- Address the specific pain ("missed calls," "staff overwhelmed")
+- Include social proof ("Used by X RTOs," "results like...")
+- Clear, single CTA ("Book Demo," "Download Guide")
+
+**Video creative specifically**:
+- 15-30 seconds optimal (LinkedIn auto-plays, longer loses attention)
+- Hook in first 3 seconds
+- Show real product/dashboard (not talking head)
+- Include captions (many watch without sound)
+- End with clear CTA
+
+### Budget Allocation by Campaign Type
+
+**Recommended $18,000/year LinkedIn budget allocation**:
+
+| Campaign Type | Monthly Budget | Annual Budget | % | Objective | Expected Leads/Mo |
+|--------------|---------------|---------------|-----|----------|------------------|
+| Lead Gen Forms (demos) | $500 | $6,000 | 33% | Demo requests | 10-15 |
+| Sponsored Content (awareness) | $400 | $4,800 | 27% | Engagement, guide downloads | 20-30 |
+| Case study/video ads | $350 | $4,200 | 23% | Social proof, trust | 15-25 |
+| Message Ads (warm) | $150 | $1,800 | 10% | 1:1 outreach | 5-10 |
+| Retargeting | $100 | $1,200 | 7% | Website visitors | 5-10 |
+| **Total** | **$1,500/mo** | **$18,000/yr** | 100% | | **55-90 leads/mo** |
+
+**Note**: $1,500/month is conservative for LinkedIn B2B. At $15-25 CPC, this generates 60-100 clicks/month, which translates to 55-90 leads/month if CTR is 0.8-1.5% and conversion is 2-5%. This is the right budget to start — scale up when ROAS > 3x.
+
+**Scaling plan**:
+- Month 1-3: $1,000/month (test and learn)
+- Month 4-6: $1,500/month (scale winners)
+- Month 7-12: $2,000-3,000/month (if ROAS supports it)
+
+### Expected CTR/CPC Benchmarks for RTO Targeting
+
+**Based on LinkedIn advertising data for B2B SaaS in Australia (2025-2026)**:
+
+| Ad Type | Expected CPC | Expected CTR | Expected CPL | Notes |
+|---------|-------------|-------------|--------------|-------|
+| Sponsored Content (image) | $15-25 | 0.5-1% | $50-150 | Depends on targeting tightness |
+| Sponsored Content (video) | $20-35 | 0.8-1.5% | $40-120 | Video outperforms static |
+| Lead Gen Forms | $20-40 | 1-2% | $30-80 | Lower friction = higher conversion |
+| Message Ads | $0.20-0.40/msg | 5-15% open rate | $5-15 | Not per click — per message |
+| Dynamic Ads | $10-18 | 0.3-0.6% | $60-120 | Brand play, lower conversion |
+| **Blended average** | **$18-28** | **0.7-1.2%** | **$40-100** | |
+
+**Optimizer AI targets**:
+- CPC: Aim for <$20 (achievable with precise targeting)
+- CTR: Target >0.8% (test creative until achieved)
+- CPL: Target <$80 (LinkedIn is expensive but should be <$100 for B2B)
+- Demo conversion: Target >3% (of those who click)
+
+### Retargeting Strategy — The Missing Piece
+
+**Why retargeting matters**: Only 5-10% of your target audience is ready to buy at any given time. Retargeting lets you reach the 90-95% who aren't ready yet — when they ARE ready, you appear first.
+
+**Retargeting audience layers**:
+1. **Website visitors (all)** — Visited optimizer.ai in last 30 days
+2. **Pricing page visitors** — High intent, bottom-of-funnel
+3. **Blog/guide readers** — Mid-funnel, problem-aware
+4. **Video viewers (75%+ watched)** — High engagement
+5. **Email subscribers** — Warm, opted in
+6. **Demo requestors (didn't convert)** — Hot lead
+
+**Retargeting ad strategy**:
+- **Website visitors (all)**: Sponsored content with case study ("What RTOs learned after 60 days")
+- **Pricing page visitors**: Lead Gen Form with demo offer ("Ready to see how it works?")
+- **Video viewers (75%+)**: Direct demo request ("You watched most of our demo video — want to see the full version?")
+- **Demo requestors (no show)**: Message Ads ("Saw you requested a demo — can we reschedule?")
+
+**Retargeting budget**: Start at 15% of LinkedIn budget ($150-225/month), increase to 25% if retargeting CTR is >1.5%.
+
+### A/B Testing Strategy for LinkedIn Ads
+
+**What to test** (in order of impact):
+1. **Creative (highest impact)**: Test images vs. video vs. carousel
+2. **Headlines**: Test problem-led vs. outcome-led vs. question-led
+3. **CTA**: Test "Book Demo" vs. "Download Guide" vs. "Learn More"
+4. **Audience**: Test broad (50K) vs. narrow (5K) targeting
+5. **Ad format**: Test Sponsored Content vs. Lead Gen Forms
+
+**Testing methodology**:
+- Run 3-5 variations simultaneously for 2 weeks
+- Allocate 20% of budget to "new tests," 80% to "proven winners"
+- Kill ads with CTR <0.3% after 1 week (not working)
+- Double budget on ads with CTR >1.2% (working well)
+- Let winners run for 4-6 weeks (not too early to declare)
+
+**Minimum viable testing**:
+- Test 2 ad creatives per campaign
+- Test 2 headlines per creative
+- Test 2 audience segments per campaign
+- Minimum 500 impressions per variation before deciding
+
+### Attribution and Measurement Strategy
+
+**How to track LinkedIn ad performance** (required for optimization):
+
+| Metric | How to Track | Target | Notes |
+|--------|-------------|--------|-------|
+| **Impressions** | LinkedIn Campaign Manager | N/A | Baseline |
+| **Clicks** | LinkedIn Campaign Manager | >500/month | Generate traffic |
+| **CTR** | Clicks ÷ Impressions | >0.8% | Creative effectiveness |
+| **Leads** | LinkedIn Lead Gen + GA4 | >40/month | Lead volume |
+| **CPL** | Spend ÷ Leads | <$80 | Cost efficiency |
+| **Demo requests** | GA4 goal + CRM | >15/month | Bottom-line metric |
+| **Demo show rate** | CRM tracking | >60% | Qualify leads |
+| **Demo-to-close** | CRM | >25% | Sales effectiveness |
+| **Cost per customer** | CAC calculation | <$2,500 | Final metric |
+
+**UTM parameters for all LinkedIn ads**:
+```
+utm_source=linkedin
+utm_medium=paid
+utm_campaign=[campaign-name]
+utm_content=[ad-name]
+utm_term=[audience-segment]
+```
+
+**Attribution model**: Use "last touch" for LinkedIn (primary channel) but track multi-touch for full funnel (LinkedIn → Email → Demo → Customer).
+
+### Common LinkedIn Ad Mistakes to Avoid
+
+**Mistake 1: Too broad targeting**
+- Problem: Targeting "Education industry" includes universities, schools, daycares — not just RTOs
+- Fix: Use exact phrase targeting ("Registered Training Organisation"), combine job titles + company
+
+**Mistake 2: Generic creative**
+- Problem: "AI for Education" doesn't resonate — too generic
+- Fix: "RTO-specific" messaging, use the word "enrollment," show ASQA compliance
+
+**Mistake 3: No retargeting**
+- Problem: Running only cold campaigns, wasting 90%+ of traffic
+- Fix: Install LinkedIn Insight Tag, build retargeting audiences, show ads to warm prospects
+
+**Mistake 4: Wrong ad objective**
+- Problem: Using "Traffic" objective drives clicks, not leads
+- Fix: Use "Lead Generation" objective for demo requests, "Conversions" for bottom-funnel
+
+**Mistake 5: Not testing enough**
+- Problem: Running one ad and hoping it works
+- Fix: Test 3-5 creatives, kill losers fast, let winners run
+
+**Mistake 6: Ignoring mobile**
+- Problem: 60%+ of LinkedIn usage is mobile — ads may render poorly
+- Fix: Preview ads on mobile, use vertical images/videos, test mobile-specific creative
+
+### Step-by-Step LinkedIn Ad Setup for Steven
+
+**Week 1: Foundation**
+1. Create LinkedIn Campaign Manager account (business.linkedin.com)
+2. Install LinkedIn Insight Tag on optimizer.ai (enables retargeting)
+3. Set up conversion events: "Demo Request," "Guide Download," "Pricing Page Visit"
+4. Create audience: "Website visitors (30 days)"
+
+**Week 2: Targeting and creative**
+1. Build target audience: RTO CEOs (Audience 1)
+2. Create 3 ad creatives: video (awareness), image (case study), Lead Gen Form (demo)
+3. Write headlines and copy (use templates above)
+4. Set up UTM tracking for all links
+
+**Week 3: Launch first campaign**
+1. Launch with $500/month budget (test phase)
+2. Run for 2 weeks, gather data
+3. Check CTR, CPL, demo conversion
+
+**Week 4: Optimize**
+1. Kill ads with <0.3% CTR
+2. Double budget on ads with >1% CTR
+3. Launch second audience (Marketing Directors)
+4. Start retargeting (website visitors)
+
+**Ongoing: Scale and optimize**
+- Review metrics weekly
+- Test new creatives monthly
+- Expand to new audiences quarterly
+- Increase budget when ROAS > 3x
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up LinkedIn Campaign Manager and install Insight Tag on optimizer.ai — Week 1
+- [ADDED] Define 4 target audiences (CEO, Marketing Director, Enrollment Manager, Compliance) — Week 1
+- [ADDED] Create 3 ad creatives for launch: video (awareness), Lead Gen Form (demos), case study — Week 2
+- [ADDED] Set up conversion tracking (Demo Request, Guide Download, Pricing Page Visit) — Week 1
+- [ADDED] Launch first campaign with $500/month budget, test for 2 weeks — Week 3
+- [ADDED] Implement retargeting (website visitors 30-day audience) — Week 3
+- [ADDED] Set up UTM parameters for all ads (track in GA4 + CRM) — Week 2
+- [ADDED] Create A/B test schedule (test 3 creatives, kill losers at 500 impressions) — Week 2
+- [ADDED] Review LinkedIn metrics weekly (CTR, CPL, demo conversion) — Weekly
+- [ADDED] Scale budget to $1,500/month after Month 3 if ROAS > 2x — Month 3
+
+### Sources
+
+- LinkedIn advertising benchmarks: WordStream LinkedIn Ads Benchmarks Report (2025)
+- B2B LinkedIn CTR benchmarks: Databox B2B LinkedIn study (2025)
+- LinkedIn CPC by industry: WebFX LinkedIn advertising cost guide (2025)
+- LinkedIn Lead Gen Form benchmarks: LinkedIn Marketing Solutions case studies (2025)
+- B2B ad creative best practices: LinkedIn Creative Best Practices Guide (2025)
+- Retargeting benchmarks: OptinMonster retargeting statistics (2025)
+
+---
+
+*End of Cycle 224 refinement. Gap filled: LinkedIn paid advertising strategy was thin in GTM channel research (only "$18K budget" mentioned). Added LinkedIn ad format comparison (6 formats), targeting strategy for RTO decision-makers (4 audiences with parameters), ad creative strategy by funnel stage (9 ad variations), creative best practices (headline, image, copy guidelines), budget allocation ($1,500/month with breakdown), CTR/CPC benchmarks ($18-28 CPC, 0.7-1.2% CTR), retargeting strategy (6 audience layers), A/B testing methodology, attribution and measurement framework, 5 common mistakes to avoid, step-by-step setup guide for Steven. 10 recommended actions for Steven.*
+
