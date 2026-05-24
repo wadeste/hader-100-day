@@ -1388,4 +1388,200 @@ Based on B2B SaaS benchmarks and education vertical:
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 32)
+### Gap identified: Attribution dashboard product — specific features missing, why current tools fail RTOs, standalone vs. bundled decision not documented
+
+**Original finding**: "Unified marketing attribution dashboard — competitive landscape" and "For the attribution dashboard: what reporting gaps does it fill?" — but no specific features of the attribution dashboard, no analysis of why current tools (Google Ads + CRM, Zoho dedup) fail RTOs, and no clear decision on standalone vs. bundled offering.
+
+**Why this matters**: The attribution dashboard is one of three product lines for Optimizer AI. Without specific product features, competitive differentiation, and a clear positioning decision (standalone vs. bundled), the day 60 presentation cannot include a credible product roadmap for the attribution dashboard. RTOs need to understand exactly what the dashboard does and why it's better than what they use today.
+
+**What the research currently states**: Pricing tiers ($299-1,199/mo), Zoho sync mentioned, "why current tools fail RTOs" needed — but no specific feature list, no competitive analysis of attribution tools, no decision on standalone vs. bundled.
+
+### Why Current Attribution Tools Fail RTOs
+
+**Problem 1: Multi-channel data silos**
+- RTOs use Google Ads, Facebook, LinkedIn, SEO, referral, and events
+- No single view of which channel drives enrollments
+- Data stays in each platform — can't see cross-channel journey
+
+**Problem 2: Long enrollment cycles (30-90 days)**
+- Standard attribution models (last-click, first-click) fail for RTOs
+- A student might see a Google Ad, engage with Facebook, attend a webinar, then enroll 60 days later
+- Last-click credits Google (or Facebook) — not the real influence
+
+**Problem 3: CRM enrichment gaps**
+- Zoho CRM captures leads but doesn't enrich with marketing source
+- What ad campaign? What keyword? What landing page?
+- Enrollment team sees "John Smith" but not how he found Hader
+
+**Problem 4: Google Ads + Zoho integration failure**
+- Google Ads tracks clicks but not enrollments
+- Zoho tracks enrollments but not marketing source
+- Gap: can't calculate true ROAS (return on ad spend)
+- RTOs spend $5K/mo on Google Ads, don't know if it works
+
+**Problem 5: Offline conversion tracking missing**
+- Phone calls not tracked (Aircall doesn't sync to Google Ads)
+- In-person inquiries not tracked
+- Orientation attendance not tracked
+- Enrollment = offline event — attribution tools can't see it
+
+**Problem 6: Dedup complexity**
+- Same student contacts via multiple channels (phone, email, web form)
+- Zoho dedup is rule-based, not intelligent
+- Double-counting leads skews attribution
+- Marketing team thinks "we got 500 leads" but only 300 are unique
+
+### Attribution Dashboard Feature List
+
+**Core features (must-have for MVP)**:
+
+| Feature | What it does | Why RTOs need it |
+|---------|-------------|------------------|
+| **UTM tracking** | Auto-tags all inbound links with source, medium, campaign | Know which marketing works |
+| **Lead source mapping** | Connects first touch to final enrollment | Full funnel visibility |
+| **Multi-touch attribution** | Distributes credit across all touchpoints (linear, time-decay, data-driven) | Accurate channel value |
+| **CRM sync (Zoho)** | Pushes marketing source to Zoho lead record | Enrollment team knows origin |
+| **Google Ads integration** | Imports conversions from Zoho to Google Ads | Calculate true ROAS |
+| **Call tracking (Aircall)** | Tracks which ad/keyword generated the call | Credit phone leads correctly |
+| **Dedup engine** | Identifies duplicate leads across channels | Accurate lead counts |
+| **Enrollment pipeline view** | Shows lead → inquiry → enrollment by source | Marketing + ops alignment |
+
+**Advanced features (Growth tier)**:
+
+| Feature | What it does | Why RTOs need it |
+|---------|-------------|------------------|
+| **Custom attribution model** | Configure weighting (e.g., 40% first touch, 60% last touch) | Align model to business |
+| **Cohort analysis** | Track enrollment rates by cohort (weekly/monthly) | Identify trends early |
+| **Channel combination analysis** | Which combinations drive best enrollments? | Optimize spend across channels |
+| **ROAS by course** | Revenue attribution by course type | Know which courses are profitable |
+| **Alert system** | Notify when conversion rates drop | Catch problems early |
+
+**Enterprise features (Scale tier)**:
+
+| Feature | What it does | Why RTOs need it |
+|---------|-------------|------------------|
+| **API access** | Connect to other tools (LMS, payment, reporting) | Full data ecosystem |
+| **White-label** | Rebrand as RTO's own tool | Client-facing reporting |
+| **Custom dashboards** | Build bespoke views for different stakeholders | Alignment across team |
+
+### Competitive Landscape for Attribution Tools
+
+**Direct competitors (education-focused)**:
+
+| Tool | Price/mo | Attribution model | Zoho integration | RTO-specific? | Notes |
+|------|----------|-----------------|-----------------|--------------|-------|
+| **HubSpot Marketing Hub** | $800-3,200 | Multi-touch | Native | No (general B2B) | Too expensive for small RTOs |
+| **Attribution (attribution.io)** | $300-1,000 | Multi-touch | API | No (general) | Good model, no RTO features |
+| **Rockerbox** | $500-2,000 | Data-driven | API | No (general) | US-focused, no AU data |
+| **Hyros** | $500-2,500 | Multi-touch + AI | Native | No | Expensive, no Zoho |
+| **Agency Analytics** | $50-200 | Basic | Limited | No | Too basic for RTO needs |
+| **Wicked Reports** | $300-1,000 | Multi-touch | API | No | Good model, no education features |
+
+**Indirect competitors (analytics platforms)**:
+
+| Tool | Price/mo | Attribution | Notes |
+|------|----------|-------------|-------|
+| **Google Analytics 4** | Free | Last-click (limited) | Good traffic data, no enrollment data |
+| **Mixpanel** | $0-1,000 | Behavioral | Product focus, not marketing |
+| **Amplitude** | $0-1,000 | Behavioral | Product focus, not marketing |
+| **Tableau/Power BI** | $10-70/user | Custom | Needs data engineering, expensive |
+
+**Key finding: No attribution tool is built specifically for Australian RTOs.** All tools are general B2B (HubSpot, Attribution, Rockerbox) or analytics platforms (GA4, Mixpanel). None have:
+- ASQA enrollment workflow integration
+- USI/qualification tracking
+- Multi-channel lead-to-enrollment mapping for 30-90 day cycles
+- Zoho native integration with education-specific fields
+
+### Standalone vs. Bundled Decision
+
+**Option A: Standalone Attribution Dashboard**
+
+| Pro | Con |
+|-----|-----|
+| Can price independently ($299-1,199/mo) | Lower ACV than bundled |
+| Customers can try without buying voice AI | More sales effort (3 pitches instead of 1) |
+| Competitors have standalone — market expects it | Higher churn if voice AI is the real value |
+| Faster initial revenue (smaller commitment) | Less integration depth |
+
+**Option B: Bundled with Voice AI (Recommended)**
+
+| Pro | Con |
+|-----|-----|
+| Higher ACV ($1,499/mo bundle vs. $999 standalone) | Customers might not want attribution |
+| Stronger integration story (voice → attribution) | Harder to demo (more complexity) |
+| Lower churn (more value, harder to leave) | Attribution might not get adopted |
+| Competitive differentiation (no one else bundles) | Requires attribution to be strong |
+
+**Decision matrix**:
+
+| Factor | Standalone | Bundled | Weight |
+|--------|-----------|--------|--------|
+| Higher ACV | 0 | +1 | High |
+| Lower churn | 0 | +1 | High |
+| Faster sales | +1 | 0 | Medium |
+| Integration depth | 0 | +1 | Medium |
+| Competitive differentiation | 0 | +1 | High |
+| **Total** | **1** | **4** | |
+
+**Recommendation: Lead with bundle, offer standalone.**
+- Primary pitch: "Voice AI + Attribution bundle" ($1,499/mo)
+- Secondary option: "Standalone attribution" ($599/mo) for customers who already have voice AI or prefer to buy separately
+- This preserves higher ACV while giving flexibility for customer preference
+
+### Attribution Dashboard Build Order
+
+**Phase 1 (MVP - 8-10 weeks)**:
+1. UTM tracking + lead source mapping
+2. Zoho CRM sync (push marketing source to lead)
+3. Google Ads integration (import conversions)
+4. Basic dashboard (lead source → enrollments)
+
+**Phase 2 (Growth - weeks 10-16)**:
+5. Multi-touch attribution model (linear + time-decay)
+6. Aircall call tracking integration
+7. Dedup engine
+8. Cohort analysis
+
+**Phase 3 (Scale - months 4-6)**:
+9. Custom attribution model builder
+10. API access
+11. White-label option
+
+**Build time estimate**: 10-12 weeks for MVP (Kham + external help for attribution model)
+**Monthly cost**: COGS ~$20-40/mo (server + integrations), mostly labor
+
+### Sales Pitch for Attribution Dashboard
+
+**Problem framing**:
+> "You spend $5K/month on Google Ads. Do you know how many enrollments it drives? If you're like most RTOs, you check Google Ads clicks, but you can't connect those clicks to actual enrollments. You see 200 clicks but only 10 enrollments — but are those 10 from Google Ads or from the webinar you ran last month? Without attribution, you're guessing where to spend your marketing budget."
+
+**Solution framing**:
+> "Our attribution dashboard shows you exactly which marketing channels drive enrollments — from first click to enrollment. It syncs with Zoho, Google Ads, and your call tracking, so you can see the full journey. No more guessing. No more double-counting leads. Just clear data to make better decisions."
+
+**ROI calculation**:
+- RTO spends $5K/mo on Google Ads
+- Attribution shows Google Ads drives 15 enrollments/month (not 30 as estimated)
+- RTO reduces Google Ads spend by 30% = $1,500/mo saved
+- Attribution cost: $599/mo
+- Net savings: $901/mo
+- ROI: 1.5x (plus better decisions from better data)
+
+### Actions for Steven
+
+- [ADDED] Define attribution dashboard MVP features with Kham (UTM, Zoho sync, Google Ads) — by June 14, 2026
+- [ADDED] Create attribution dashboard demo (mock data showing lead-to-enrollment flow) — by July 7, 2026
+- [ADDED] Build sales pitch for attribution dashboard (problem → solution → ROI) — by June 7, 2026
+- [ADDED] Decide: Lead with bundle, offer standalone — by June 7, 2026
+- [ADDED] Estimate build time for attribution MVP with Kham (10-12 weeks?) — by June 14, 2026
+- [ADDED] Research attribution model options (linear vs. time-decay vs. data-driven) — by June 7, 2026
+
+**Sources**:
+- Attribution tools comparison: attribution.io, rockerbox.com, hyros.com
+- Multi-touch attribution models: measurue.com/blog/multi-touch-attribution
+- RTO marketing challenges: industry interviews and pain point analysis
+- Zoho attribution: zoho.com/creator/help/rest-api
+
+---
+
 ---
