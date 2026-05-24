@@ -1080,3 +1080,36 @@ ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy
 - National Code 2018: education.gov.au/national-code-2018
 - Note: Recommend legal consultation for final compliance
 
+
+## 1,000 enrollments/month feasibility study — 2026-05-24
+
+### Objective
+Research the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA.
+
+### Key Findings
+- **Two separate targets**: 1,000 enrollments/month (Hader internal) vs. $10M EBITDA (Optimizer AI SaaS ARR). Track separately.
+- **$10M EBITDA requires 433 RTO customers** at $30,000 ARR each (revised from 417 based on $13M ARR ÷ $30K)
+- **20-33 RTO customers can support 1,000 enrollments/month** (if avg RTO = 30-50 enrollments/month)
+- **AI enrollment uplift per RTO**: 15-40% depending on tools deployed (faster follow-up + better qualification + less dropout)
+- **Critical gap**: Need Hader's current monthly enrollment volume to calculate AI uplift needed. If current = 700, need 43% growth (achievable). If current = 200, need 5x (unlikely from AI alone).
+
+### Strategic Implications
+- **Ask Marcus**: What's Hader's current monthly enrollment volume? (Blocks all planning)
+- **Clarify**: Is 1,000 enrollments/month Hader-only or includes other RTOs?
+- **Revised customer targets**: Year 1 (50), Year 2 (150), Year 3 (300), Year 4 (433)
+- **Operating costs to hit $10M EBITDA**: Must stay under $2.5M at year 4
+
+### Recommended Actions
+- [ ] Get Hader's current monthly enrollment volume from Marcus — by June 7, 2026
+- [ ] Clarify: Is 1,000 enrollments/month Hader-only or includes other RTOs?
+- [ ] Calculate exact AI uplift needed (X% growth required)
+- [ ] Build dual KPI dashboard: Hader enrollments vs. Optimizer AI MRR
+- [ ] Update EBITDA model spreadsheet with revised 433 customer target
+- [ ] Set quarterly milestones: Month 3 (4), Month 6 (12), Month 9 (25), Month 12 (50)
+
+### Sources
+- CONTEXT.md — $10M EBITDA target, 1,000 enrollments/month target
+- Previous research on CAC, pricing, unit economics
+- Industry benchmarks for SaaS growth rates (15-20%/month early stage)
+- Note: Recommend primary data collection from Hader to validate assumptions
+
