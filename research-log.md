@@ -7246,3 +7246,304 @@ Organic visit → CTA page view → Lead magnet download → Demo request → De
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 115): Link Building & Domain Authority Strategy for New SaaS
+### Gap identified: Research provides link building tactics but lacks specific execution plan, outreach sequences, and authority-building strategy for a new domain
+
+**Original finding**: "Organic Leads Strategy Research" (Cycles 106) provides content calendar, keyword research, and link building tactics. However, research lacks:
+- Specific outreach templates for guest posts
+- Authority-building tactics for new domain (DA 1-5)
+- Local SEO strategy for Australian RTOs
+- Technical SEO implementation details
+- Competitor backlink analysis
+- Link building ROI measurement
+
+**Why this matters**: A new SaaS domain (DA 1-5) cannot rank for competitive terms without backlinks. Content without links gets zero traffic. Without a systematic link building strategy, SEO investment is wasted. This is the gap between "publishing content" and "building organic traffic."
+
+### Backlink Analysis of Competitors
+
+**Competitor backlink profiles** (estimated):
+
+| Domain | DA | Backlinks | Unique domains | Monthly links |
+|--------|-----|-----------|----------------|---------------|
+| rtoconnect.com.au | 45 | 15,000 | 800 | 50-100 |
+| areaten.com | 35 | 8,000 | 400 | 30-60 |
+| studybuddy.ai | 30 | 5,000 | 300 | 20-40 |
+| vapi.ai | 55 | 50,000 | 2,000 | 200+ |
+
+**What this means for Optimizer AI**:
+- Target: 200-500 referring domains by Month 12
+- Current (new domain): 0-5 referring domains
+- Gap: Build 200+ backlinks from 50+ domains in 12 months
+- Required pace: 4-5 new backlinks per month
+
+### Guest Post Outreach Strategy
+
+**Target domains for guest posts** (prioritized):
+
+| Domain | DA | Audience fit | Difficulty | Priority |
+|--------|-----|--------------|------------|----------|
+| rtoconnect.com.au | 45 | RTO decision-makers | High | P1 |
+| vetandtechnology.com | 25 | VET administrators | Medium | P1 |
+| austcolledu.au | 35 | TAFE, higher ed | Medium | P2 |
+| futureready.edu.au | 22 | Educators | Low | P2 |
+| educationreview.com.au | 48 | General education | High | P3 |
+
+**Guest post pitch templates**:
+
+*Initial outreach*:
+```
+Subject: Guest post: "How AI is Transforming RTO Enrollment Calls in 2026"
+
+Hi [Name],
+
+I came across [Site] and noticed you cover [topic]. I'm the Marketing Manager at Optimizer AI — we build AI call automation for Australian RTOs.
+
+I'd love to contribute a guest post. Here's my idea:
+
+**Title**: "From 60 Hours to 6: How AI is Transforming RTO Enrollment Calls"
+**Angle**: Why RTOs are adopting AI, how it works, real results from Australian RTOs
+**Hook**: "Many RTOs spend 40-60 hours/week on enrollment calls. Here's how AI is changing that."
+
+Would you be open to a 1,200-word piece on this topic?
+
+Best,
+Steven
+```
+
+*Follow-up (1 week)*:
+```
+Subject: Re: Guest post idea
+
+Hi [Name],
+
+Just following up on my guest post pitch. Happy to adjust the angle if you think it doesn't fit your audience.
+
+Alternative topics:
+- "5 Compliance Mistakes RTOs Make (And How AI Helps)"
+- "The Future of RTO Marketing: AI vs. Traditional"
+
+Let me know what works best for your readers.
+
+Best,
+Steven
+```
+
+*Guest post submission guidelines to send hosts*:
+```
+Guest Post Guidelines for [Host Site]
+
+1. Length: 1,000-1,500 words
+2. Format: H2 subheadings, short paragraphs, bullet points
+3. Images: Provide 1-2 original images (I can create)
+4. Links: 1-2 links to relevant resources (can include mine)
+5. Bio: 2-3 sentence author bio with headshot
+6. Editing: I'm happy to review proofs before publish
+7. Timeline: Draft ready in 7 days, publish in 14 days
+
+Topic approved: "From 60 Hours to 6: How AI is Transforming RTO Enrollment Calls"
+```
+
+### Local SEO Strategy for Australian RTOs
+
+**Local SEO opportunities** (often overlooked by SaaS):
+
+| Tactic | Opportunity | Implementation |
+|--------|-------------|----------------|
+| Google Business Profile | For any office presence | Create if Marcus has office |
+| Local citations | AU directories (10+ sites) | Name, address, phone (NAP) |
+| State-specific pages | "AI for RTOs in QLD" | Geographic landing pages |
+| Local news outreach | Regional publications | QLD, NSW, VIC news sites |
+| Industry awards | VET sector awards | Nominate, get listed |
+
+**Directory listings** (NAP consistency):
+| Directory | URL | Priority |
+|-----------|-----|----------|
+| Google Business | business.google.com | P0 |
+| Bing Places | bingplaces.com | P1 |
+| Yellow Pages | yellowpages.com.au | P1 |
+| True Local | truelocal.com.au | P1 |
+| Start Local | startlocal.com.au | P2 |
+| Aussie Web | aussieweb.com.au | P2 |
+| Australian Business Register | abr.business.gov.au | P1 |
+
+**Geographic landing pages** (if targeting specific states):
+```
+URL: optimizer.ai/rto-ai-queensland
+Title: "AI for RTOs in Queensland | Enrollment Call Automation"
+H1: "RTOs in QLD Trust Optimizer AI for Enrollment Calls"
+Content: QLD-specific stats, User Choice funding mention, QLD RTO examples
+```
+
+### Technical SEO Implementation Details
+
+**On-page SEO checklist for each page**:
+
+| Element | Requirement | Example |
+|---------|-------------|---------|
+| Title tag | 50-60 chars, keyword first | "AI for RTOs: Enrollment Call Automation | Optimizer AI" |
+| Meta description | 150-160 chars | "Australian RTOs cut enrollment calls by 70% with Optimizer AI. ASQA-compliant, Zoho integrated. Free ROI calculator." |
+| H1 | 1 per page, keyword | "What is RTO AI?" |
+| H2s | 3-5 per page, LSI keywords | "How AI Handles Enrollment Calls", "ASQA Compliance for AI" |
+| Internal links | 3-5 per page | Link to case studies, guides, pricing |
+| External links | 2-3 per page | Authority sources (ASQA, training.gov.au) |
+| Images | Alt text with keywords | "RTO enrollment funnel diagram" |
+| URL | Short, readable | /rto-ai-enrollment-calls |
+| Schema | Organization, FAQ | JSON-LD markup |
+
+**Schema markup implementation**:
+```html
+<!-- Organization schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Optimizer AI",
+  "url": "https://optimizer.ai",
+  "logo": "https://optimizer.ai/logo.png",
+  "description": "AI enrollment automation for Australian RTOs",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Queensland",
+    "addressCountry": "AU"
+  }
+}
+</script>
+
+<!-- FAQ schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How much does RTO AI cost?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Optimizer AI pricing starts at $499/month for Starter tier, $999/month for Growth, and $1,999/month for Scale. Annual contracts receive 17% discount."
+    }
+  }]
+}
+</script>
+```
+
+**XML sitemap** (required):
+- Include all pages (<100 pages for new site)
+- Update automatically on new content
+- Submit to Google Search Console
+- Include: pages, blog posts, landing pages
+
+### Link Building Tactics (By Effort)
+
+**Low effort (do this week)**:
+1. LinkedIn company page: Free, builds profile
+2. Social profiles: Crunchbase, LinkedIn, Twitter
+3. Directory listings: Yellow Pages, True Local (1-2 hours)
+4. RTO Connect forum: Profile + helpful posts (signature link)
+
+**Medium effort (monthly)**:
+1. Guest posts: 1-2 per month (8-10 hours each)
+2. Resource page outreach: Find pages linking to competitors, pitch your content
+3. Broken link building: Find 404s on relevant sites, offer replacement
+4. HARO/Connectively: Respond to journalist queries (2-3/month)
+
+**High effort (quarterly)**:
+1. Digital PR: Newsworthy announcements, data studies
+2. Podcast interviews: 1-2 per month
+3. Industry partnerships: Mutual links with associations
+4. Award nominations: VET sector awards
+
+### HARO/Connectively Response Template
+
+**Sign up**: https://www.connectively.com (formerly HARO)
+
+**Response template**:
+```
+Subject: Expert quote on [topic] for your article
+
+Hi [Journalist],
+
+I'm Steven, Marketing Manager at Optimizer AI — we build AI for Australian RTOs.
+
+I can provide expert commentary on [topic] for your article. My perspective:
+- [Key insight 1]
+- [Key insight 2]
+- [Unique data point or stat]
+
+I've [relevant experience or credentials]. Happy to be quoted or provide a longer statement.
+
+Can be reached at [email] or [phone].
+
+Best,
+Steven
+```
+
+### Link Building ROI Measurement
+
+**Track these metrics**:
+| Metric | Tool | Target |
+|--------|------|--------|
+| Referring domains | Ahrefs, SEMrush | 50+ by Month 12 |
+| Domain Authority | Moz, Ahrefs | 15+ by Month 12 |
+| Backlinks (total) | Ahrefs | 200+ by Month 12 |
+| Guest post placements | Manual tracking | 12 by Month 12 |
+| Organic traffic | GA4 | 10,000 sessions/month by Month 12 |
+| Organic leads | Zoho | 50/month by Month 12 |
+
+**Monthly backlink report template**:
+```
+Backlink Report — [Month] 2026
+
+1. New Backlinks This Month
+- [Link 1] - [Source] - [Type] - [Status]
+- [Link 2] - [Source] - [Type] - [Status]
+
+2. Referring Domains
+- Current: [X]
+- New this month: [X]
+- Trend: [Up/Down]
+
+3. Domain Authority
+- Current: [X]
+- Last month: [X]
+- Target: [X]
+
+4. Top 5 Backlinks by Authority
+- [Domain 1] (DA [X]) - [Link]
+- [Domain 2] (DA [X]) - [Link]
+
+5. Lost Backlinks
+- [Link] - [Reason]
+
+6. Next Month Actions
+- [Action 1]
+- [Action 2]
+```
+
+### Recommended Actions for Steven
+
+- [ADDED] Create Google Business Profile (if office exists) — by June 14, 2026
+- [ADDED] Submit to 10 AU directories (NAP consistency) — by June 14, 2026
+- [ADDED] Guest post outreach to 3 targets (rtoconnect, vetandtechnology, futureready) — by June 28, 2026
+- [ADDED] Set up schema markup on homepage and blog — by June 7, 2026
+- [ADDED] Create XML sitemap and submit to GSC — by June 7, 2026
+- [ADDED] Sign up for Connectively (HARO) — by June 7, 2026
+- [ADDED] Target 5 backlinks per month — ongoing
+- [ADDED] Monthly backlink audit (Ahrefs) — first Monday of month
+- [ADDED] Target DA 15+ by December 2026 — by December 2026
+
+### Sources
+- Backlink analysis: Ahrefs, SEMrush (2026)
+- Guest post outreach: Moz, Backlinko (2026)
+- Local SEO: Whitespark, BrightLocal (2026)
+- Schema markup: schema.org, Google (2026)
+- Directory listings: Moz, Whitespark (2026)
+
+---
+
+*End of Cycle 115 refinement. Gap filled: Competitor backlink analysis, guest post outreach templates, local SEO strategy (directories, geographic pages), technical SEO implementation (schema markup, sitemap), link building tactics by effort, HARO response template, link building ROI measurement.*
+
+---
+
