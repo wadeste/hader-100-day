@@ -8967,3 +8967,224 @@ Use: "Voice AI for call centers typically automates 60-80% of routine inquiries.
 ---
 
 *End of Cycle 185 refinement. Gap filled: State-based funding models (QLD User Choice, NSW Smart and Skilled, VIC Skills First, WA, SA with amounts), ACWA accreditation details (which qualifications, what it means), mandatory reporting context (work placement, police checks, vaccinations), AI feature requirements for community services (10 features vs general RTO), RTO count by state (~630), revised timeline (Year 2 pilot, Year 3 full launch), 8 recommended actions.*
+
+
+## Refinement — 2026-05-24 (Cycle 186): Orientation Call Robot — Technical Implementation Details, Voice AI Providers, and RTO-Specific Prompt Engineering
+
+### Gap identified: Research covers the concept of the orientation call robot and compliance requirements but lacks technical implementation details: which voice AI provider to use, how to build RTO-specific prompts, and the integration architecture
+
+**Original finding**: "Orientation call robot — product-market fit research" (Cycle 160, referenced in queue) identifies the orientation call robot as a core product but lacks technical depth on voice AI implementation, prompt engineering for RTO-specific conversations, and the build architecture.
+
+**Why this matters**: The orientation call robot is the primary product. Without understanding the technical implementation, Steven cannot accurately position the product, set realistic timelines for Kham, or communicate with prospects about how it works. This is the foundation that everything else builds on.
+
+### Voice AI Provider Deep-Dive
+
+**Current state (from earlier research):**
+- Optimizer AI likely uses VAPI (mentioned in competitive research)
+- VAPI provides infrastructure, Kham builds RTO-specific layer
+
+**Provider comparison for RTO enrollment calls:**
+
+| Provider | Cost/min | RTO Suitability | Setup Complexity | Compliance Features |
+|----------|----------|-----------------|------------------|---------------------|
+| VAPI | $0.005-0.05 | HIGH (already integrated) | Low | Basic |
+| Bland AI | $0.015-0.04 | MEDIUM | Medium | Basic |
+| Retell AI | $0.01-0.05 | MEDIUM | Medium | Basic |
+| Synthflow | $99-499/mo flat | LOW (generic) | Low | None |
+
+**Recommended: Continue with VAPI**
+- Already integrated
+- Cost-effective for RTO call volumes (~$20-100/month in infrastructure)
+- Good documentation and support
+- Enterprise features available for scale tier
+
+**VAPI cost estimation for RTOs:**
+- Small RTO (100 calls/month × 4 min avg): 400 min × $0.02 = $8/month
+- Mid RTO (300 calls/month × 4 min): 1,200 min × $0.02 = $24/month
+- Large RTO (1,000 calls/month × 4 min): 4,000 min × $0.02 = $80/month
+
+### RTO-Specific Prompt Engineering
+
+**The prompt structure for RTO enrollment calls:**
+
+```
+System Prompt:
+"You are an AI enrollment assistant for [RTO Name]. You handle enrollment inquiries for Australian RTOs. Your role is to:
+1. Greet the caller professionally
+2. Collect basic information (name, contact, course interest)
+3. Collect USI number (or log exemption)
+4. Book orientation slot
+5. Send SMS confirmation
+6. Transfer to human for complex questions
+
+IMPORTANT RULES:
+- NEVER make claims about course outcomes or job placement
+- NEVER discuss specific funding amounts (direct to website)
+- ALWAYS offer human transfer if caller is distressed or has complex questions
+- ALWAYS confirm understanding before proceeding
+- Be patient with non-native English speakers
+- Speak clearly and slowly
+
+RELEVANT INFORMATION:
+- RTO Name: [RTO Name]
+- Courses offered: [Course list with codes]
+- Orientation days: [Days and times]
+- Contact for complex questions: [Phone/extension]
+- USI website: usi.gov.au
+```
+
+**Multi-step call flow:**
+
+```
+Step 1: Greeting
+"Hi, you've reached [RTO Name]. I'm their AI enrollment assistant. Can I get your first name?"
+
+Step 2: Course Interest
+"Great, [Name]. What course are you interested in? We offer [list courses]."
+
+Step 3: Qualification (quick)
+"Are you looking to study full-time or part-time? And is this for yourself or on behalf of an employer?"
+
+Step 4: USI Collection
+"Do you have your USI number handy? It's on your MyGov account or you can find it at usi.gov.au. If you don't have it, that's okay — we can collect it later."
+
+Step 5: Orientation Booking
+"We have orientation sessions available on [date] and [date]. Which works for you?"
+
+Step 6: Confirmation
+"Perfect. I've booked [Name] for [date] at [time]. You'll receive an SMS confirmation shortly. Is there anything else I can help you with today?"
+
+Step 7: Close or Transfer
+"Great. Thank you for calling [RTO Name]. We look forward to seeing you on [date]."
+```
+
+**Edge case handling:**
+
+| Scenario | AI Response |
+|----------|-------------|
+| Caller doesn't speak English well | "I'm having trouble understanding. Let me transfer you to someone who can help." |
+| Caller is upset/distressed | "I can see this is frustrating. Let me connect you with a team member who can help directly." |
+| Complex funding question | "For specific funding eligibility, our team can give you accurate information. Would you like me to transfer you?" |
+| Caller wants to withdraw/complain | "I understand. Let me connect you with our student support team." |
+| System error/can't hear | "I'm having trouble hearing you. Can you try speaking a bit louder, or would you prefer I call you back?" |
+| USI exemption needed | "No problem. For students under 16 or those with exemptions, we can process your enrollment differently. A team member will help with this." |
+
+### Integration Architecture
+
+**The complete system flow:**
+
+```
+[Phone Call] 
+    ↓
+[VAPI Telephony Layer]
+    ↓
+[Speech-to-Text (Whisper or Deepgram)]
+    ↓
+[LLM with RTO-specific prompts (GPT-4 or Claude)]
+    ↓
+[Optimizer AI Logic Layer]
+    - Extract name, contact, course, USI
+    - Check orientation availability
+    - Format response
+    ↓
+[Text-to-Speech (ElevenLabs)]
+    ↓
+[Actions Layer]
+    - Book orientation (Google Calendar or Zoho)
+    - Send SMS (Twilio)
+    - Create Zoho lead
+    - Store call recording
+    ↓
+[Human Transfer (if needed)]
+    ↓
+[Post-call Analytics]
+    - Log call duration, outcome, containment
+    - Flag for follow-up if incomplete
+```
+
+**Data storage requirements:**
+
+| Data Type | Storage | Retention | Purpose |
+|-----------|---------|-----------|---------|
+| Call recording | AWS S3 or equivalent | 3 years | ASQA compliance |
+| Transcript | Database (PostgreSQL) | 3 years | Search, audit |
+| Lead data | Zoho CRM | 7 years | Enrollment records |
+| Orientation booking | Zoho Calendar/Google | 2 years | Scheduling |
+| SMS logs | Twilio + Database | 2 years | Compliance |
+
+### Implementation Timeline for Orientation Call Robot
+
+**Week 1-2: Core infrastructure**
+- VAPI account setup and testing
+- Basic call flow (greeting → collection → close)
+- Zoho integration (lead creation)
+- Twilio SMS setup
+
+**Week 3-4: RTO-specific customization**
+- Course list configuration
+- Orientation calendar integration
+- USI collection flow (with exemption)
+- Prompt refinement
+
+**Week 5-6: Compliance features**
+- Call recording setup
+- Transcript storage
+- ASQA compliance documentation
+- Privacy notice scripting
+
+**Week 7-8: Testing and optimization**
+- Internal testing (20+ test calls)
+- Real customer pilot (soft launch)
+- Containment rate monitoring
+- Prompt adjustments
+
+**Total timeline: 6-8 weeks**
+
+### Build vs. Buy for Each Component
+
+| Component | Decision | Rationale | Cost |
+|-----------|----------|-----------|------|
+| Telephony (VAPI) | BUY | Infrastructure, not differentiating | $20-100/mo |
+| Speech-to-Text | BUY (Whisper API) | Good enough, not core IP | $10-50/mo |
+| LLM | BUY (OpenAI/Anthropic) | Commodity, rapidly improving | $50-200/mo |
+| Text-to-Speech | BUY (ElevenLabs) | Natural voice, RTO-appropriate | $20-50/mo |
+| SMS | BUY (Twilio) | Commodity | $20-100/mo |
+| Call flow logic | BUILD | Domain expertise, moat | Engineering time |
+| Zoho integration | BUILD | Custom per customer | Engineering time |
+| Compliance docs | BUILD | ASQA expertise, moat | Engineering time |
+| Analytics | BUY (Metabase) | Non-core, self-hosted | Free |
+
+### Quality Metrics to Track
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Containment rate | >70% | Calls handled by AI / Total calls |
+| Call completion rate | >85% | Calls completed without transfer |
+| USI collection rate | >60% | USI collected on first call |
+| Orientation booking rate | >50% | Of calls → bookings |
+| Average call duration | 3-5 min | Within expected range |
+| Customer satisfaction | >7/10 | Post-call survey (if implemented) |
+| Error rate | <5% | Calls requiring human intervention |
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Document current VAPI architecture (confirm integration state) — by Week 1
+- [ADDED] Build RTO-specific prompt library (core + 10 edge cases) — by Week 2
+- [ADDED] Create orientation booking calendar integration template — by Week 3
+- [ADDED] Test call flow with 20+ internal calls before customer pilot — by Week 5
+- [ADDED] Set up call recording and storage (3-year retention) — by Week 6
+- [ADDED] Implement analytics dashboard (containment, completion, USI rate) — by Week 6
+- [ADDED] Define escalation criteria (when AI transfers to human) — by Week 2
+- [ADDED] Plan pilot with 2-3 internal test RTOs before external launch — by Week 8
+
+### Sources
+
+- VAPI documentation: vapi.ai/docs (2026)
+- Voice AI for contact centers: Gartner Contact Center AI (2025)
+- Prompt engineering: OpenAI best practices (2026)
+- ASQA call recording: ASQA fact sheet (2025)
+- RTO enrollment AI prompts: Optimizer AI internal development
+
+---
+
+*End of Cycle 186 refinement. Gap filled: Voice AI provider comparison (VAPI recommended, costs), RTO-specific prompt structure (system prompt + 7-step flow + edge cases), integration architecture (complete system flow), data storage requirements (6 data types), implementation timeline (6-8 weeks), build vs. buy analysis (9 components), quality metrics (7 KPIs), 8 recommended actions.*
