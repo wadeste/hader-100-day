@@ -1,5 +1,319 @@
 ---
 
+---
+
+*End of Cycle 75 refinement. Gap filled: Aircall integration architecture, joint value proposition, implementation timeline, co-marketing plan, pricing impact, competitive differentiation.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 78): Website Conversion Optimization (CRO) Deep Dive
+### Gap identified: Research mentions website hero section and competitor comparison page but lacks specific CRO requirements, page architecture, conversion elements, and testing plan
+
+**Original finding**: "Optimizer AI market positioning research" identifies website building as a task (July 7, 2026) and mentions pain-first messaging, competitor comparison, and one-pager structure, but lacks specific CRO requirements for the optimizer.ai website.
+
+**Why this matters**: The website is Optimizer AI's primary digital presence and primary conversion point for inbound leads. Without specific CRO requirements, the website risks being a generic brochure rather than a lead-generation machine. The 25% conversion rate target for organic leads (from CONTEXT.md) requires a conversion-optimized website.
+
+### Website Purpose Definition
+
+**Primary purpose**: Convert skeptical RTO decision-makers into demo requesters
+**Secondary purpose**: SEO ranking for "AI for RTOs" keywords
+**Target visitor**: RTO CEO/enrollment manager, mid-funnel, has heard of AI but skeptical
+
+**Visitor journey**:
+1. Find via Google (SEO) or LinkedIn ad → homepage
+2. Scan hero, check if pain resonates → pricing page or objection page
+3. Check social proof (case study) → decision to request demo
+
+### Required Pages (8 pages)
+
+| Page | URL | Purpose | Priority |
+|------|-----|---------|----------|
+| Homepage | optimizer.ai/ | Convert to demo | Critical |
+| Pricing | optimizer.ai/pricing | Convert to demo (price-sensitive) | Critical |
+| Objection Handling | optimizer.ai/wont-work | Convert skeptics | High |
+| Case Study | optimizer.ai/case-study/hader | Build credibility | High |
+| Features | optimizer.ai/features | Detail for consideration | Medium |
+| About | optimizer.ai/about | Build trust | Medium |
+| Blog | optimizer.ai/blog | SEO + authority | Ongoing |
+| Contact/Demo | optimizer.ai/demo | Capture lead | Critical |
+
+### Homepage Structure (5 sections)
+
+**Section 1: Hero (above fold)**
+- Headline: "Enrollment, Automated."
+- Subheadline: "AI-powered call automation for Australian RTOs. Handle 70% of enrollment calls 24/7 — without replacing your staff."
+- CTA: "See a Demo" (primary) | "Read Case Study" (secondary)
+- Trust badge: "ASQA-compliant | 3-year call retention | Zoho integration"
+
+- Background: Subtle RTO imagery (classroom, student, not generic office)
+
+**Section 2: Pain/Problem (scroll)**
+- Headline: "Your RTO is losing students because your phone is ringing"
+- Stats: "60+ hours/week on enrollment calls | 25% of inquiries lost to slow response | $2,500 avg lost per inquiry"
+- Visual: Before/after staff time allocation
+
+**Section 3: Solution/Product (scroll)**
+- Headline: "The only AI that knows ASQA"
+- 3-step visual: "Student calls → AI qualifies → Orientation booked → Lead in Zoho"
+- Feature bullets: 24/7 availability, USI collection, ASQA-compliant, Zoho integration
+
+**Section 4: Social Proof (scroll)**
+- Headline: "RTOs already automating enrollment calls"
+- Hader case study card: Before/after metrics (70% containment, 19 hrs/week saved)
+- Quote: "[Quote from Marcus or enrollment manager]"
+- logos: RTO names (with permission)
+
+**Section 5: Pricing Preview (scroll)**
+- Headline: "Simple, predictable pricing"
+- Tier cards: Starter ($499), Growth ($999), Scale ($1,999)
+- "Most popular: Growth" badge
+- CTA: "Compare plans" → pricing page | "Start with a demo"
+
+### Homepage CRO Elements
+
+**Sticky header**:
+- Logo (left)
+- Nav: Features | Pricing | Case Studies | About
+- CTA: "Get a Demo" (right, orange button)
+
+- Mobile: Hamburger menu
+
+**Exit intent popup**:
+- Trigger: Mouse moves toward URL bar
+- Offer: "Download: 5 Ways to Reduce Enrollment Call Volume" (lead magnet)
+- Capture: Email only
+
+**Chat widget**:
+- Position: Bottom right
+- Trigger: 30 seconds on page OR scroll 50%
+- Message: "Questions about AI enrollment automation? I'm here to help."
+- Options: "Chat now" | "Book a demo" | "Send guide instead"
+
+**Trust signals (below fold)**:
+- "Trusted by X RTOs" (update as customers grow)
+- ASQA compliance statement
+- Zoho integration badge
+- Aircall partnership badge
+- Data security statement ("Your data stays in Australia")
+
+
+### Pricing Page Structure
+
+**Header**: "Simple, predictable pricing. No per-call fees. No surprises."
+
+
+**Tier comparison table**:
+| Feature | Starter | Growth | Scale |
+|---------|---------|--------|-------|
+| Price | $499/mo | $999/mo | $1,999/mo |
+| Calls/month | 100 | 300 | Unlimited |
+| Qualification | ✓ | ✓ | ✓ |
+| USI collection | ✓ | ✓ | ✓ |
+| Zoho sync | ✓ | ✓ | ✓ |
+| Orientation booking | — | ✓ | ✓ |
+| SMS reminders | — | ✓ | ✓ |
+| Analytics | — | ✓ | ✓ |
+| Attribution dashboard | — | — | ✓ |
+| TAZ AI | — | — | ✓ |
+| Priority support | — | — | ✓ |
+
+**Pricing anchor** (visible on page):
+- "Area Ten charges $7,000-55,000/month for marketing you don't own. We charge $999/month for AI you own."
+- "You get ASQA compliance that generic tools don't have — at 7x less cost."
+
+**FAQ section** (5 questions):
+1. "How does it work with our existing Zoho setup?"
+2. "What happens if AI can't answer a caller's question?"
+3. "How long does implementation take?"
+4. "Is our data secure?"
+5. "Can we try it before committing?"
+
+
+**CTA**: "Not sure which plan? Let's talk. Book a free 15-minute call."
+
+
+### Objection Handling Page Structure
+
+**URL**: optimizer.ai/wont-work
+**Purpose**: Convert skeptics who researched and found objections
+
+**Header**: "Won't work for us? Here's why it will."
+
+**5 objections with responses**:
+
+1. **"Our students won't talk to AI"**
+   - Response: "70% of enrollment calls are routine — price, schedule, requirements. AI handles those. Staff handles the relationships."
+   - Proof: Hader case study (70% containment)
+
+2. **"Too complex to set up"**
+   - Response: "We integrate with your Zoho in 1 week. No migration, no downtime."
+   - Proof: "Hader went live in 8 weeks with zero disruption."
+
+3. **"We tried something similar before"**
+   - Response: "Most 'AI' tools are generic chatbots. We built for ASQA — call recordings, USI collection, compliance logging."
+   - Proof: ASQA compliance checklist
+
+4. **"AI doesn't understand RTO compliance"**
+   - Response: "We're the only AI that knows ASQA. 3-year retention, audit trail, disclosures — built in."
+   - Proof: Compliance architecture diagram
+
+5. **"What's the ROI?"**
+   - Response: "$999/month saves $12,500/month in staff time + recovers $7,500/month in lost inquiries. 20x return."
+   - Proof: ROI calculator link
+
+**CTA**: "Still have questions? Let's address them on a 15-minute call."
+
+### Case Study Page Structure
+
+**URL**: optimizer.ai/case-study/hader
+**Format**: Long-form (2,000+ words)
+
+**Sections**:
+1. **Title**: "How Hader Institute Cut Enrollment Call Time by 75% with AI Automation"
+2. **Overview card**: RTO size, call volume before/after, time saved
+3. **Problem**: "60+ hours/week on calls, staff burnout, missed inquiries"
+4. **Solution**: "VAPI voice AI + Zoho integration"
+5. **Implementation**: "8-week timeline, no disruption"
+6. **Results**: Metrics with comparison table (before/after)
+7. **Quote**: Verbatim from Marcus
+8. **Lessons learned**: What RTOs should know before implementing
+9. **CTA**: "Ready to see similar results? Book a demo."
+
+**Metrics table**:
+| Metric | Before AI | After AI | Change |
+|--------|----------|---------|--------|
+| Weekly call hours | 25 hrs | 6 hrs | -76% |
+| Containment rate | 0% | 70% | +70 pts |
+| Missed calls | 25% | 5% | -80% |
+| Staff focus | Enrollment calls | Complex enrollments | Shift |
+
+
+### Contact/Demo Page Structure
+
+**URL**: optimizer.ai/demo
+**Form fields** (minimal for conversion):
+1. Name (required)
+2. Email (required)
+3. RTO name (required)
+4. Monthly enrollment volume (dropdown: <50, 50-150, 150+)
+5. "What's your biggest enrollment challenge?" (textarea, optional)
+6. Preferred demo time (dropdown)
+
+
+**Submit CTA**: "Book My Free 15-Minute Demo"
+
+**Trust reinforcement**: "No commitment. 15 minutes. See your ROI before you pay."
+
+**Alternative**: Calendly embed for self-scheduling
+
+### Technical SEO Requirements
+
+**On-page SEO**:
+- Title tag: "AI Enrollment Automation for Australian RTOs | Optimizer AI"
+- Meta description: "Automate 70% of enrollment calls 24/7. ASQA-compliant, Zoho-integrated. Save 20+ hours/week. Start with a free demo."
+- H1: "Enrollment, Automated."
+- H2s: Logical hierarchy (pain, solution, features, pricing)
+- Image alt tags: Descriptive ("RTO enrollment call automation dashboard")
+- Internal links: Every page links to every other page
+
+**Technical**:
+- SSL: Required (https)
+- Mobile responsive: Required
+- Page speed: < 3 seconds load
+- Schema markup: Organization, FAQ, SoftwareApplication
+- Sitemap: optimizer.ai/sitemap.xml
+- Robots: optimizer.ai/robots.txt
+
+
+**Content SEO**:
+- Target keyword: "AI for RTOs" (primary)
+- Secondary keywords: "RTO automation software", "enrollment call AI", "ASQA-compliant AI"
+- Blog: 2-4 posts/month targeting long-tail keywords
+- Lead magnets: 3-5 downloadable resources
+
+### A/B Testing Plan
+
+**Phase 1: Hero test (Week 1-4 after launch)**
+- Variant A: "Enrollment, Automated." (tagline)
+- Variant B: "AI handles 70% of your enrollment calls 24/7"
+- Metric: Demo request conversion rate
+- Minimum sample: 500 visitors per variant
+
+
+**Phase 2: CTA test (Week 5-8)**
+- Variant A: "See a Demo" (primary CTA)
+- Variant B: "Book a Free Demo" (with "free")
+- Metric: Click-through rate on CTA
+
+
+**Phase 3: Social proof placement (Week 9-12)**
+- Variant A: Case study below fold
+- Variant B: Case study in hero section
+- Metric: Scroll depth + demo requests
+
+**Phase 4: Pricing anchor test (Week 13-16)**
+- Variant A: Area Ten comparison on pricing page
+- Variant B: Staff time savings ($12,500/month) on pricing page
+- Metric: Pricing page → demo conversion
+
+### Analytics Setup
+
+**Required tracking**:
+- Google Analytics 4: Page views, session duration, scroll depth
+- Google Tag Manager: All events
+- Hotjar or Microsoft Clarity: Heatmaps, session recordings
+- Lead form: Form abandonment tracking
+- Demo requests: Source attribution
+
+**Key events to track**:
+1. Hero section view
+2. Pricing section view
+3. Case study clicks
+4. Demo form opens
+5. Demo form submissions
+6. Exit intent popup displays
+7. Chat widget opens
+
+**Dashboard metrics** (weekly review):
+- Demo requests/week
+- Demo request → demo completed rate
+- Demo → customer conversion rate
+- Bounce rate by page
+- Average session duration
+- Lead source breakdown
+
+### Recommended Actions for Steven
+
+- [ADDED] Define website page architecture (8 pages) — by June 7, 2026
+- [ADDED] Build homepage with 5-section structure — by July 7, 2026
+- [ADDED] Create pricing page with tier comparison — by July 7, 2026
+- [ADDED] Build objection handling page ("Won't work for us") — by July 7, 2026
+- [ADDED] Create Hader case study page — by July 7, 2026
+- [ADDED] Set up Calendly for demo booking — by June 7, 2026
+- [ADDED] Install Google Analytics 4 + Tag Manager — by June 7, 2026
+- [ADDED] Add trust signals (ASQA, Zoho, Aircall badges) — by launch
+- [ADDED] Set up Hotjar or Clarity for heatmaps — by launch
+- [ADDED] Draft homepage A/B test (hero variant) — by Week 4
+- [ADDED] Review website metrics weekly — weekly from launch
+- [ADDED] Add blog to website (2 posts/month) — by August 2026
+- [ADDED] Create lead magnet ("5 Ways to Reduce Call Volume") — by July 2026
+
+### Sources
+- B2B SaaS website CRO: unbounce.com, hubspot.com (2026)
+- Website conversion benchmarks: WordStream, Instapage (2026)
+- Homepage structure: Unbounce, HubSpot one-pager templates (2026)
+- Technical SEO: Google Search Central, Moz (2026)
+- A/B testing: Optimizely, VWO (2026)
+- Analytics setup: Google Analytics 4, Google Tag Manager (2026)
+
+---
+
+*End of Cycle 78 refinement. Gap filled: Website CRO requirements, page architecture (8 pages), homepage structure (5 sections), pricing page with anchor, objection handling page, case study format, contact/demo page, technical SEO, A/B test plan, analytics setup.*
+
+
+---
+
+
 ## Optimizer AI market positioning research — 2026-05-24
 ### Objective
 Define the category: is it AI for RTO marketing, AI for student enrollment, or AI for RTO operations? Research competitors in AI-powered education tech. Build positioning matrix with clear differentiation.
