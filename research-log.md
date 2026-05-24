@@ -931,3 +931,45 @@ Research the best framework for customer discovery with RTO decision-makers (CEO
 - [ADDED] Create interview scoring rubric for consistent qualification
 - [ADDED] Send discovery summary email within 24 hours of each interview
 
+
+### Gap identified: Attribution dashboard MVP spec and build complexity
+
+**Original finding**: "Feature requirements: (1) Unified lead ID... (2) Multi-touch attribution model..." — no priority ordering or MVP scope
+
+**Research conducted**: SaaS build complexity analysis, attribution tool feature prioritization
+
+**Refined findings**:
+**Attribution dashboard MVP — Minimum viable feature set**:
+| Priority | Feature | Build Time | Difficulty | Notes |
+|----------|---------|------------|------------|-------|
+| 1 | Zoho dedup (phone + email matching) | 1-2 weeks | Medium | Data foundation — must be first |
+| 2 | Call source tracking (CallRail/WhatConverts → Zoho sync) | 2-3 weeks | Medium | Already have tools, just integrate |
+| 3 | Enrollment funnel visualization (stage-by-stage) | 1 week | Low | Zoho reporting build |
+| 4 | Channel attribution (first-touch, last-touch) | 2 weeks | High | Algorithm complexity |
+| 5 | Marketing ROI by channel | 2 weeks | Medium | Requires cost input |
+| **TOTAL MVP** | | **8-10 weeks** | | |
+
+**Dedup algorithm specifics**:
+- Phone number matching: Exact match + normalization (04XX XXX XXX vs 04xxxxxxxx)
+- Email matching: Exact match + domain handling (gmail.com vs googlemail.com)
+- Fuzzy matching: Levenshtein distance for name variations (John vs Jon)
+- Confidence scoring: 80%+ match = auto-merge, 60-80% = review queue, <60% = no action
+- Merge behavior: Keep newest record + link to master record (preserve history)
+
+**Build vs. buy for attribution**:
+- Build: 8-10 weeks, $30,000-50,000 development cost, 96% gross margin long-term
+- Buy: $200-500/month, no development cost, but no RTO-specific features
+- Recommendation: Build MVP internally (Kham's expertise), iterate based on customer feedback
+
+**Quick win — Zoho dedup in 2 weeks**:
+- Write Zoho function to identify duplicates based on phone + email
+- Show Marcus the duplicate count (creates urgency)
+- This alone solves the immediate pain point
+- Can be sold as standalone "Zoho Deduplication Tool" for $99-199/month
+
+**Actions added**:
+- [ADDED] Build Zoho dedup script first (2 weeks max) — immediate value, can sell standalone
+- [ADDED] Define attribution model before building — first-touch vs last-touch vs multi-touch
+- [ADDED] Get Hader's marketing spend by channel (input for ROI dashboard)
+- [ADDED] Build mock dashboard in Google Sheets first (before investing in development)
+
