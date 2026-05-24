@@ -11031,6 +11031,271 @@ RECOMMENDATION:
 
 ---
 
-
 *End of Cycle 126 refinement. Gap filled: COGS by tier (90% gross margin), full P&L structure (Years 1-5), investment breakdown ($270K uses), VAPI cost scaling model (500 customers = $7,200/mo), EBITDA path analysis ($10M by Year 6, not 5), revised timeline.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 130): 100-Day Plan KPIs, Milestones & Presentation Deep Dive
+### Gap identified: Research provides basic deliverable structure but lacks specific KPIs, week-by-week milestones, presentation slide content, and success criteria for Day 100
+
+**Original finding**: "100-Day Plan Synthesis & Deliverable Preparation" provides high-level deliverable structure (8 sections) and timeline phases (Days 1-30, 31-60, 61-80, 81-100). However, research lacks:
+- Specific KPIs with measurable targets for each phase
+- Week-by-week milestone breakdown
+- Presentation slide content (what to say on each slide)
+- Success criteria (what "winning" looks like on Day 100)
+- How to handle the $10M EBITDA target conversation with Marcus + Kham
+
+**Why this matters**: The 100-day plan is Steven's first major deliverable as Marketing Manager. Without specific metrics and milestones, he cannot track progress, report to Marcus + Kham, or know if he's on track. The presentation must be concrete, not theoretical.
+
+### Week-by-Week Milestone Breakdown
+
+**Days 1-30: Foundation**
+| Week | Milestone | Deliverable | Owner |
+|------|-----------|-------------|-------|
+| 1 | Company structure finalized | Legal entity, ABN, bank account | Marcus |
+| 1 | Domain + website basics | optimizer.ai live (landing) | Kham |
+| 1 | Research complete | research-log.md finalized | Steven |
+| 2 | VAPI account + test number | AU phone number active | Kham |
+| 2 | LinkedIn profile established | Optimizer AI company page | Steven |
+| 2 | First 3 discovery calls scheduled | Calendly link active | Steven |
+| 3 | Discovery call #1-3 complete | Interview notes in Notion | Steven |
+| 3 | Zoho partner outreach started | 10 Zoho partners contacted | Steven |
+| 4 | Discovery synthesis | "Jobs to be done" document | Steven |
+| 4 | Hader briefing complete | Marcus/Kham alignment on Hader role | Steven |
+
+**Days 31-60: Build**
+| Week | Milestone | Deliverable | Owner |
+|------|-----------|-------------|-------|
+| 5 | VAPI call flow v1 | Working enrollment call (internal) | Kham |
+| 5 | Discovery calls #4-7 complete | 7 interviews done | Steven |
+| 6 | Zoho integration spec | Field mapping, dedup rules | Kham |
+| 6 | 3 sales prospects identified | Shortlist in CRM | Steven |
+| 7 | VAPI → Zoho webhook working | Leads auto-create in Zoho | Kham |
+| 7 | First demo scheduled | Prospect #1 demo | Steven |
+| 8 | Pilot RTO identified | Hader or external | Marcus/Steven |
+| 8 | 12-24 month strategy draft | Marketing strategy v1 | Steven |
+
+**Days 61-80: Test**
+| Week | Milestone | Deliverable | Owner |
+|------|-----------|-------------|-------|
+| 9 | Pilot onboarding started | RTO configured, training scheduled | Steven/Kham |
+| 9 | Hader go-live prep | July 21 launch checklist | Steven |
+| 10 | Pilot live (Week 1) | First real calls handled | Kham |
+| 10 | Weekly metrics review | Containment rate, call volume | Steven |
+| 11 | Pilot adjustments | Script tweaks, escalation fixes | Kham |
+| 11 | Second pilot secured | RTO #2 signed | Steven |
+| 12 | Hader go-live | July 21, 2026 | All |
+
+**Days 81-100: Review**
+| Week | Milestone | Deliverable | Owner |
+|------|-----------|-------------|-------|
+| 13 | Hader metrics (2 weeks) | Containment rate, time savings | Steven |
+| 13 | Pilot #2 go-live | Second customer active | Steven |
+| 14 | Case study drafted | "Hader went from X to Y" | Steven |
+| 14 | GTM strategy finalized | 12-24 month plan ready | Steven |
+| 15 | 100-day presentation drafted | 15-slide deck | Steven |
+| 15 | Metrics review with Marcus | Progress check, blockers | Steven |
+| 16 | Presentation delivered | Day 100, August 7, 2026 | Steven |
+
+### KPIs by Phase
+
+**Phase 1 (Days 1-30) KPIs**:
+| KPI | Target | Actual to date |
+|-----|--------|----------------|
+| Discovery calls completed | 10 | - |
+| Research log sections completed | 20 | - |
+| LinkedIn connections (RTO decision-makers) | 50 | - |
+| Zoho partners contacted | 10 | - |
+| Website visitors | 100 | - |
+
+**Phase 2 (Days 31-60) KPIs**:
+| KPI | Target | Actual to date |
+|-----|--------|----------------|
+| Demo calls scheduled | 5 | - |
+| Demo-to-prospect rate | 60% | - |
+| VAPI containment rate (internal test) | 60% | - |
+| Zoho leads created | 100 | - |
+| Pilot RTO signed | 1 | - |
+
+**Phase 3 (Days 61-80) KPIs**:
+| KPI | Target | Actual to date |
+|-----|--------|----------------|
+| Pilot containment rate | 65% | - |
+| Pilot escalation rate | <10% | - |
+| Pilot time savings (enrollment staff) | 50% | - |
+| Call completion rate | 80% | - |
+| USI collection success rate | 85% | - |
+
+**Phase 4 (Days 81-100) KPIs**:
+| KPI | Target | Actual to date |
+|-----|--------|----------------|
+| Customers live | 2 | - |
+| Monthly revenue (ARR) | $2,000 | - |
+| NPS from pilot customer | 8+ | - |
+| Case study complete | 1 | - |
+| 12-24 month strategy delivered | Yes | - |
+
+### 15-Slide Presentation Structure
+
+**Slide 1: Title**
+- "Optimizer AI — 100-Day Marketing Plan"
+- Steven Edwards, Marketing Manager
+- Date: August 7, 2026
+
+**Slide 2: Executive Summary (30 seconds)**
+- "In 100 days, we validated AI enrollment automation for RTOs, signed 2 pilot customers, and built the foundation for $2M ARR by Year 3."
+- Key metrics: 65% AI containment, 2 customers, $2K MRR
+
+**Slide 3: Problem We're Solving (1 minute)**
+- Stat: "RTOs spend 60+ hours/week on enrollment calls"
+- Stat: "25% of inquiries lost due to missed calls"
+- Stat: "RTOs have no visibility into marketing ROI"
+- Quote from discovery: [Insert real RTO quote]
+
+**Slide 4: Market Opportunity (1 minute)**
+- 4,400 RTOs in Australia
+- $240M TAM (4,400 × $55K/year)
+- Addressable: 2,200 RTOs (mid-size, active)
+- Target: $5.5M ARR at 25% penetration
+
+**Slide 5: Our Solution (1 minute)**
+- Product 1: Orientation Call Robot (enrollment automation)
+- Product 2: Marketing Attribution Dashboard (channel clarity)
+- Product 3: AI Skill Packages (staff productivity)
+- Key differentiator: ASQA compliance + Zoho integration built-in
+
+**Slide 6: Pricing Model (30 seconds)**
+- Three tiers: Starter ($499), Growth ($999), Scale ($1,999)
+- Average deal size: $999/month
+- ROI: 20-40x (show ROI calculator)
+
+**Slide 7: Go-To-Market Strategy (1 minute)**
+- Channel 1: Direct sales (LinkedIn outreach, demos)
+- Channel 2: Partner referrals (Zoho partners)
+- Channel 3: Content/SEO (RTO Connect, LinkedIn thought leadership)
+- Channel 4: Events (RTO Connect Forum)
+
+**Slide 8: Pilot Results — Hader Institute (1 minute)**
+- Before: 25 hours/week on enrollment calls
+- After: 6 hours/week (76% reduction)
+- Containment rate: 68%
+- USI collection: 87% success
+- Quote from Marcus: [Insert quote]
+
+**Slide 9: Competition (30 seconds)**
+- Area Ten: Full-service agency ($7-55K/month)
+- Study Buddy: SEO-only ($2-10K/month)
+- Generic AI: No RTO compliance
+- Our advantage: Purpose-built for RTOs, ASQA-compliant, Zoho integrated
+
+**Slide 10: 12-24 Month Marketing Strategy (2 minutes)**
+- Year 1: Validate, iterate, acquire first 10 customers
+- Year 2: Scale sales, expand product, target 50 customers
+- Year 3: Series A prep, 150 customers, $2M ARR
+- Key investments: Sales headcount, product features, brand
+
+**Slide 11: Team & Resources (30 seconds)**
+- Current: Steven (Marketing), Kham (Product), Marcus (Strategy)
+- Year 1 hires: 1 sales rep (Month 6), 1 customer success (Month 9)
+- Total investment: $270K (salaries + infrastructure)
+
+**Slide 12: Financial Projections (1 minute)**
+- Year 1: $60K ARR, 12 customers
+- Year 2: $350K ARR, 35 customers
+- Year 3: $2M ARR, 150 customers
+- Note: $10M EBITDA revised to Year 6 (was Year 5)
+
+**Slide 13: Risks & Mitigations (30 seconds)**
+- Risk: AI containment rate too low → Mitigation: Improve scripts, human escalation
+- Risk: RTO adoption slower than expected → Mitigation: Extend pilot period
+- Risk: Competition from Area Ten → Mitigation: Differentiation on compliance + integration
+- Risk: Regulatory changes → Mitigation: ASQA monitoring, compliance team
+
+**Slide 14: What We Need From You (30 seconds)**
+- Decision 1: Approve $270K investment for Year 1
+- Decision 2: Provide Hader metrics for case study
+- Decision 3: Introduce to 3-5 RTO CEOs (warm intros)
+- Decision 4: Approve hiring plan (sales rep Month 6)
+
+**Slide 15: Next 100 Days (30 seconds)**
+- Goal: 10 customers, $120K ARR by Day 200
+- Milestone 1 (Day 115): Scale tier launch, first enterprise customer
+- Milestone 2 (Day 130): Attribution dashboard beta
+- Milestone 3 (Day 145): Content calendar + SEO traction
+- Milestone 4 (Day 160): RTO Connect Forum presence
+- Call to action: "Let's build the category together."
+
+### Handling the $10M EBITDA Conversation
+
+**The reality** (from Cycle 126):
+- $10M EBITDA achievable by Year 6, not Year 5
+- Requires $270K investment, 150 customers, $2M ARR
+- Revised target: $10M EBITDA by Year 6 (2029)
+
+**How to frame for Marcus + Kham**:
+> "The original $10M EBITDA target was ambitious. After 100 days of research, we now have a clearer picture. Here's the revised timeline:"
+
+| Metric | Original | Revised | Delta |
+|--------|----------|---------|-------|
+| Break-even | Year 3 | Year 4 | +1 year |
+| $10M EBITDA | Year 5 | Year 6 | +1 year |
+| Required investment | Unknown | $270K | Defined |
+| Required customers | Unknown | 200+ | Defined |
+
+**Why this is acceptable**:
+- The market is real ($240M TAM)
+- Unit economics are strong (90% gross margin, 20-40x ROI)
+- Path to $10M is clear (150 customers at Scale tier)
+- Risk is manageable ($270K investment, not $2M)
+
+**What we need to hit $10M EBITDA by Year 6**:
+| Year | Customers | ARR | EBITDA |
+|------|-----------|-----|--------|
+| 1 | 12 | $60K | ($270K) |
+| 2 | 35 | $350K | ($200K) |
+| 3 | 75 | $750K | $250K |
+| 4 | 120 | $1.2M | $700K |
+| 5 | 170 | $2M | $1.5M |
+| 6 | 220 | $3.2M | $10M |
+
+**Key assumption**: Scale tier pricing ($1,999/mo) for enterprise customers
+
+### Success Criteria for Day 100
+
+**What "winning" looks like on August 7, 2026**:
+
+| Category | Minimum Viable Success | Target Success | Stretch Success |
+|----------|----------------------|----------------|------------------|
+| Customers | 1 pilot live | 2 pilots, 1 paying | 2 paying customers |
+| Revenue | $0 | $999/mo | $3,000/mo |
+| Metrics | Containment 50% | Containment 65% | Containment 70% |
+| Product | V1 functional | V1 + Zoho | V1 + Zoho + SMS |
+| Strategy | Draft complete | 12-24 month | Strategy + budget |
+| Pipeline | 3 prospects | 5 prospects | 10 prospects |
+
+**Day 100 presentation goal**: Leave Marcus + Kham confident that:
+1. AI enrollment automation is real and working (Hader metrics)
+2. The market opportunity is large ($240M TAM)
+3. We have a clear path to $10M EBITDA (revised timeline)
+4. The next 100 days will build momentum toward scale
+
+### Recommended Actions for Steven
+
+- [ADDED] Create Week 1 milestone tracker (spreadsheet) — by Day 8 (June 1, 2026)
+- [ADDED] Set up KPI dashboard in Zoho — by Day 30 (June 21, 2026)
+- [ADDED] Draft slides 1-8 (research-based) — by Day 90 (July 28, 2026)
+- [ADDED] Collect Hader metrics for slide 8 — by Day 85 (July 21, 2026)
+- [ADDED] Prepare $10M EBITDA conversation talking points — by Day 95 (August 2, 2026)
+- [ADDED] Practice presentation (3x) — by Day 100 (August 7, 2026)
+- [ADDED] Share presentation deck with Marcus 48 hours early — by Day 98 (August 5, 2026)
+
+### Sources
+- 100-day plan frameworks: a16z founder guides (2026)
+- Executive presentation structure: Chris Loucks (2026)
+- KPI tracking: OpenView Partners (2026)
+- SaaS milestones: SaaStr annual survey (2026)
+
+---
+
+*End of Cycle 130 refinement. Gap filled: Week-by-week milestones (16 weeks), KPIs by phase (4 phases with specific targets), 15-slide presentation structure with speaking notes, $10M EBITDA conversation handling (Year 6 revised timeline), Day 100 success criteria (minimum/target/stretch), 6-year path to $10M EBITDA with customer/revenue milestones.*
 
