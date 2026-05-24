@@ -13,7 +13,7 @@
 ## Phase 2: Go-To-Market Strategy (Days 31–60)
 
 - [x] **GTM channel strategy research** — How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, conferences, content marketing, LinkedIn outbound? Research what's working for EdTech companies targeting education providers. — researched 2026-05-24
-- [ ] **Pricing model research** — How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-based? Research pricing for: AI voice agents ($500–$5k/mo), marketing attribution tools ($200–$2k/mo), AI compliance tools. Build a pricing model recommendation.
+- [x] **Pricing model research** — How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-based? Research pricing for: AI voice agents ($500–$5k/mo), marketing attribution tools ($200–$2k/mo), AI compliance tools. Build a pricing model recommendation. — researched 2026-05-24
 - [ ] **Customer acquisition cost modelling** — Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer (sales cycle length, demo costs, trial conversion). Factor into the $10M EBITDA target.
 - [ ] **12-24 month marketing strategy foundation** — Research the market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build the foundation for Steven's 12-24 month marketing strategy (due day 60). Include lead-gen for Optimizer AI itself.
 - [ ] **AI courses market opportunity** — Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. This is both a product line for Hader (revenue) and a credibility play for Optimizer AI (expertise).
