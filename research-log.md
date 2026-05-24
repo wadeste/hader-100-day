@@ -15280,3 +15280,330 @@ Bland AI gross margin: ($11,988 - $720) / $11,988 = 93.9%
 
 *End of Cycle 144 refinement. Gap filled: Live VAPI pricing verification ($0.004-0.015/min), Retell AI comparison ($0.006-0.015, similar), Twilio Flex comparison (higher cost, enterprise), Bland AI comparison ($0.025, 2.5x VAPI), COGS modeling per tier ($14-61/RTO/month, 96-97% margin), infrastructure selection rationale (VAPI correct choice), margin impact at scale ($500K+ difference at $10M), additional COGS components (phone, SMS, storage), infrastructure recommendations for Kham.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 145): 100-Day Plan Presentation — Slide-by-Slide Structure and Executive Deliverable Design
+### Gap identified: Research provides deliverable structure (8 sections, 4 phases) but lacks specific slide-by-slide content, visual design guidelines, executive presentation flow, and Day 100 success criteria
+
+**Original finding**: "100-Day Plan Synthesis & Deliverable Preparation" (Cycle 97) provides deliverable structure (executive summary, market sizing, product, GTM, pricing, timeline, resources, KPIs) and timeline phases (Days 1-30, 31-60, 61-80, 81-100). However, research lacks:
+- Specific slide-by-slide content outline
+- Visual design guidelines for executive presentation
+- Presentation flow and timing per section
+- Day 100 success criteria (what "success" looks like)
+- Marcus/Kham-specific talking points
+- Q&A preparation (likely questions and answers)
+
+**Why this matters**: The 100-day deliverable is the most important presentation Steven will give as Marketing Manager. Without specific slide content, visual guidelines, and success criteria, Steven risks: (1) incomplete presentation, (2) unclear messaging, (3) failure to set proper expectations, (4) inability to answer questions. This is the gap between "structure exists" and "presentation ready."
+
+### Slide-by-Slide Content Outline
+
+**Slide 1: Title**
+| Element | Content |
+|---------|---------|
+| Title | "Optimizer AI: 100-Day Marketing Plan" |
+| Subtitle | "Marcus + Kham | Steven Edwards | May-August 2026" |
+| Visual | Company logo (once registered) or "Optimizer AI" text |
+| Duration | 30 seconds (title + welcome) |
+
+**Slide 2: Executive Summary** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "100 days to establish RTO AI as the category leader" |
+| Key points | (3 bullets max) |
+| | • Market: 4,400 Australian RTOs, $500M+ opportunity |
+| | • Product: AI enrollment automation, go-live July 21 |
+| | • Target: 10 external customers by Dec 2026, $10M EBITDA path |
+| Call to action | "Seeking approval for $50K marketing budget and Q3-Q4 execution plan" |
+
+**Slide 3: The Problem** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "RTOs are losing enrollments because they can't answer calls" |
+| Stats | • 60+ hours/week on enrollment calls (Hader baseline) |
+| | • 25% of inquiries lost due to missed calls |
+| | • $7K-55K/month to agencies that don't own the tools |
+| Visual | Image: Overwhelmed enrollment staff, phone ringing |
+| Transition | "What if AI could handle 70% of calls automatically?" |
+
+**Slide 4: The Solution** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Optimizer AI: AI enrollment automation for Australian RTOs" |
+| Product features | (4 bullets) |
+| | • AI answers calls 24/7, qualifies leads, books orientation |
+| | • USI collection + ASQA compliance built in |
+| | • Zoho integration, attribution dashboard |
+| | • Starting at $499/month, RTO owns the tools |
+| Visual | Screenshot: AI call in progress OR dashboard view |
+| Transition | "We go live with Hader Institute on July 21." |
+
+**Slide 5: Market Opportunity** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "$500M+ market, early majority adoption" |
+| TAM | 4,400 RTOs × $10K/year = $44M (if full penetration) |
+| SAM | 2,200 RTOs (20-200 students/month, QLD/NSW/VIC) |
+| SOM | 550 RTOs (early adopters, Year 1-3) |
+| Market fit | "20-30% of mid-large RTOs exploring AI tools (2026)" |
+| Competitive | "Category creator — no competitor offers RTO-specific AI + ASQA" |
+| Visual | TAM/SAM/SOM pyramid |
+
+**Slide 6: Competitive Landscape** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "We're the only AI built for RTO compliance" |
+| Comparison table | |
+| | Feature | Optimizer AI | Area Ten | Study Buddy | Generic AI |
+| | AI call handling | ✓ | ✗ | ✗ | ⚠️ |
+| | ASQA compliance | ✓ | ✗ | ✗ | ✗ |
+| | USI collection | ✓ | ✗ | ✗ | ✗ |
+| | Zoho integration | ✓ | ✓ | ✗ | ✗ |
+| | Price | $999/mo | $7K-55K/mo | $9.99/mo | $500-2K/mo |
+| Key message | "Area Ten doesn't own AI. We do. 7x cheaper." |
+
+**Slide 7: Product Roadmap** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Build fast, expand smart" |
+| Timeline | |
+| | Q3 2026 (Jul-Sep) | VAPI call handling, USI, ASQA compliance, Hader go-live |
+| | Q4 2026 (Oct-Dec) | Attribution dashboard, orientation booking, 10 customers |
+| | Q1 2027 (Jan-Mar) | TAZ AI (beta), 25 customers |
+| | Q2 2027 (Apr-Jun) | Community services, 50 customers |
+| Key milestone | "Go-live: July 21, 2026" |
+
+**Slide 8: Go-to-Market Strategy** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "3 channels, 12 months to $1.2M ARR" |
+| Channels | |
+| | 1. LinkedIn outbound | 30% of customers | $8-20K CAC |
+| | 2. Partner referrals | 20% of customers | $273-546 CAC |
+| | 3. Content/SEO | 20% of customers | $4-8K CAC |
+| Priority | "Start with LinkedIn outbound + Zoho partners" |
+| Sales process | Discovery → Demo → POC ($299/mo) → Annual contract |
+
+**Slide 9: Pricing Model** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Simple, value-based pricing" |
+| Tiers | |
+| | Starter | $499/mo | 100 calls, basic qualification |
+| | Growth | $999/mo | 300 calls, orientation booking, SMS |
+| | Scale | $1,999/mo | Unlimited, attribution, TAZ AI |
+| Key anchor | "vs. Area Ten ($7K-55K/month), we're 7x cheaper" |
+| ROI example | "$999/month saves $12,500/month in staff time = 12.5x ROI" |
+
+**Slide 10: Unit Economics** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Healthy SaaS economics from day one" |
+| Metrics | |
+| | ACV | $6K-12K/year |
+| | Gross margin | 96-97% (VAPI + SMS COGS) |
+| | LTV:CAC target | 3:1 minimum |
+| | CAC payback | 10-12 months |
+| | Churn target | <2%/month |
+| Key insight | "Churn is the most important variable. At 3%/month, LTV:CAC is 2x. At 1%, it's 6x." |
+
+**Slide 11: 12-Month Financial Model** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Path to $10M EBITDA: $14M revenue by Year 5" |
+| Table | Year | Customers | Revenue | EBITDA |
+| | Year 1 | 20 | $240K | -$100K |
+| | Year 2 | 50 | $600K | $50K |
+| | Year 3 | 100 | $1.2M | $300K |
+| | Year 4 | 200 | $2.4M | $1M |
+| | Year 5 | 400 | $4.8M | $2.4M |
+| Assumptions | "Requires: 10 external customers by Dec 2026, <2%/month churn" |
+
+**Slide 12: Investment Required** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "Year 1 investment: $150K marketing, $70K deployment" |
+| Marketing budget | $150K (Q3-Q4 2026) |
+| | LinkedIn ads | $40K |
+| | Content production | $30K |
+| | Events & conferences | $25K |
+| | SEO & tools | $15K |
+| Deployment cost | $70K (one-time, Year 1) |
+| Total Year 1 | $220K |
+| ROI projection | "$240K revenue Year 1, $600K Year 2, payback by Year 2" |
+
+**Slide 13: First 100 Days** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "What we accomplish in 100 days" |
+| Timeline | |
+| | Days 1-30 | Company setup, VAPI config, privacy policy, first outreach |
+| | Days 31-60 | 10 discovery calls, pilot selection, build refinement |
+| | Days 61-80 | Pilot onboarding, Hader go-live (July 21), metrics tracking |
+| | Days 81-100 | First external POC, strategy refinement, 12-24 month plan |
+| Day 100 deliverable | "10 discovery calls, 1 external POC, July 21 Hader go-live, 12-24 month plan" |
+
+**Slide 14: KPIs and Success Metrics** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "How we'll measure success" |
+| Year 1 KPIs | |
+| | Customers | 20 by Dec 2026, 50 by Mar 2027 |
+| | Monthly recurring revenue | $20K by Dec 2026, $50K by Mar 2027 |
+| | Customer churn | <2%/month |
+| | Containment rate | >70% (AI handles 70%+ of calls) |
+| | CAC | <$8K blended |
+| Review cadence | Weekly: Steven reviews | Monthly: Marcus + Steven |
+
+**Slide 15: Ask and Next Steps** (1 slide)
+| Element | Content |
+|---------|---------|
+| Headline | "What I'm asking for" |
+| Ask | |
+| | 1. Budget approval | $150K marketing for Q3-Q4 2026 |
+| | 2. Company registration | Optimizer AI Pty Ltd (by June 30) |
+| | 3. Zoho partner intro | 5 introductions to Zoho partners with RTO clients |
+| | 4. Weekly sync | 30 min weekly with Marcus |
+| Next steps | "Today: Approve budget. This week: Begin company setup." |
+| Contact | Steven Edwards | steven@optimizer.ai |
+
+### Presentation Flow and Timing
+
+**Total presentation**: 25-30 minutes + 15 minutes Q&A
+
+| Section | Slides | Time | Notes |
+|---------|--------|------|-------|
+| Opening | 1 | 1 min | Title + welcome |
+| Problem + Solution | 2-4 | 4 min | Build urgency, show product |
+| Market + Competition | 5-6 | 4 min | Opportunity + differentiation |
+| Product + Roadmap | 7 | 2 min | Timeline + milestones |
+| Go-to-Market + Pricing | 8-9 | 4 min | How we win |
+| Economics + Model | 10-11 | 4 min | Financials + investment |
+| First 100 Days + KPIs | 13-14 | 4 min | Action plan + metrics |
+| Ask + Next Steps | 15 | 2 min | Clear ask |
+| Q&A | - | 15 min | Anticipate questions |
+
+### Visual Design Guidelines
+
+**Slide design principles**:
+- One idea per slide (no crowded slides)
+- 3-4 bullets maximum per slide
+- Use visuals for data (tables > paragraphs)
+- Consistent color scheme (brand colors once defined)
+- Professional, not flashy (executive audience)
+
+**Font guidelines**:
+- Headlines: 36pt bold
+- Subheads: 24pt semibold
+- Body: 18-20pt
+- Notes: 14pt
+
+**Visual suggestions**:
+- Problem slide: Stock photo of overwhelmed office worker
+- Solution slide: Screenshot or mockup of AI call dashboard
+- Market slide: TAM/SAM/SOM pyramid
+- Competition slide: Comparison table
+- Roadmap: Timeline graphic (horizontal)
+- Financials: Table with highlight on key numbers
+
+**What to avoid**:
+- Walls of text
+- Multiple fonts
+- Inconsistent colors
+- Unverified data
+- Vague claims
+
+### Day 100 Success Criteria
+
+**What "success" looks like on Day 100**:
+
+| Category | Success metric | Minimum | Target |
+|----------|---------------|---------|--------|
+| Hader go-live | Live on July 21 | ✓ Complete | ✓ Complete + stable |
+| External customers | Signed by Day 100 | 1 POC | 3 POC |
+| Discovery calls | Completed | 10 | 15 |
+| Pipeline | Active prospects | 5 | 10 |
+| Revenue | MRR by Day 100 | $299 (1 POC) | $897 (3 POCs) |
+| Marketing | Website live | ✓ | ✓ + 3 case studies |
+| Product | Containment rate | 60%+ | 70%+ |
+| Company | Legal entity | Registered | Registered + bank account |
+
+**What "failure" looks like on Day 100**:
+- Hader go-live delayed (>1 week)
+- <5 discovery calls completed
+- <1 external POC
+- Containment rate <50%
+- No website launched
+
+### Marcus/Kham-Specific Talking Points
+
+**For Marcus** (CEO, business focus):
+- "This is about revenue. 10 external customers by Dec 2026 = $120K ARR."
+- "ROI is obvious: $999/month costs, $12,500/month value. Customers see ROI in week 1."
+- "We're not building a feature — we're creating a category."
+- "Study Buddy raised $15M for students. We're the first for RTOs."
+- "Churn is the risk. If we keep churn <2%/month, LTV:CAC is 6x."
+
+**For Kham** (technical, product focus):
+- "VAPI is the right infrastructure: $0.004/min, AU support, 99%+ uptime."
+- "COGS is 3% of revenue: $14-61/month per RTO. High margin."
+- "Hader go-live is the proof point. July 21 is the target."
+- "Attribution dashboard is Phase 2 — after call handling is proven."
+
+### Q&A Preparation
+
+**Likely questions and answers**:
+
+| Question | Answer |
+|----------|--------|
+| "What if Hader go-live fails?" | "We have 2-week buffer (target July 21, deliver by Aug 4). If delayed, we extend POC timeline. No external customer risk." |
+| "Why should we spend $150K on marketing?" | "$150K gets us 10-15 customers at $8-12K CAC. $120K ARR by Dec 2026 = 80% payback in Year 1." |
+| "What's the competitive risk?" | "Study Buddy is 12-18 months from voice AI. We build ASQA compliance + data network now as moat." |
+| "Can you really do this alone?" | "Marketing is my role. Operations scales with contractors. Engineering requires Kham or contractor." |
+| "What's the churn risk?" | "<2%/month target. If we hit 3%+, LTV:CAC drops to 2x. We have customer success program to prevent this." |
+| "Why not raise funding?" | "Options for Year 2. Year 1 we prove product-market fit first." |
+| "What if AI regulation changes?" | "ASQA monitoring, compliance team. We're built for compliance — regulatory change is opportunity." |
+| "Why not partner with Area Ten?" | "They compete with us, not partner. Different model (agency vs. SaaS)." |
+
+### Presentation Checklist
+
+**Before presentation**:
+- [ ] Slides reviewed (2x read-through)
+- [ ] Timing confirmed (25-30 min + 15 min Q&A)
+- [ ] Demo prepared (if applicable)
+- [ ] Printed handouts (optional)
+- [ ] Projector/laptop tested
+- [ ] Water available
+- [ ] Questions anticipated
+
+**During presentation**:
+- [ ] Eye contact with both Marcus and Kham
+- [ ] Pause for questions (don't rush)
+- [ ] Be confident, not defensive
+- [ ] If asked something unknown: "I'll follow up on that"
+
+**After presentation**:
+- [ ] Send follow-up email with deck + key links
+- [ ] Schedule weekly sync (if approved)
+- [ ] Set up project tracking (Zoho or spreadsheet)
+- [ ] Book Zoho partner calls (if introductions approved)
+
+### Recommended Actions for Steven
+
+- [ADDED] Draft slide deck (15 slides) — by July 1, 2026
+- [ADDED] Practice presentation (3x, <30 min) — by July 7, 2026
+- [ADDED] Prepare demo (live AI call with Hader) — by July 14, 2026
+- [ADDED] Anticipate Q&A (review 8 questions above) — by July 14, 2026
+- [ADDED] Book presentation room/time with Marcus + Kham — by July 7, 2026
+- [ADDED] Send pre-reading (executive summary) — 1 week before presentation
+- [ADDED] Follow up post-presentation (email + next steps) — Day 100
+
+### Sources
+- 100-day plan best practices: a16z founder guides (2026)
+- Executive presentation structure: McKinsey, Bain frameworks (2026)
+- Slide design: Presentation design principles (2026)
+
+---
+
+*End of Cycle 145 refinement. Gap filled: Slide-by-slide content outline (15 slides, 30-40 min presentation), visual design guidelines, presentation flow and timing, Day 100 success criteria (8 metrics), Marcus/Kham-specific talking points, Q&A preparation (8 likely questions), presentation checklist, recommended actions for Day 100 deliverable.*
+
