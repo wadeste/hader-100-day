@@ -887,5 +887,268 @@ Any competitor who tries to enter this space must build this expertise from scra
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 193): Go-To-Market Channel Strategy Deep-Dive — Missing Research on How to Actually Reach RTO Decision-Makers
+
+### Gap identified
+The task queue marks "GTM channel strategy research" as complete, but the research-log.md contains no content about go-to-market channels. No findings about how B2B SaaS companies sell to RTOs, no channel recommendations, no LinkedIn outbound strategy, no partner channel research, no event/conference strategy. This is a critical gap — Optimizer AI can have perfect positioning and pricing, but without clear channels to reach decision-makers, it won't acquire customers.
+
+**Original finding**: N/A — no GTM channel research exists in research-log.md. The task was marked complete in queue.md but no findings were ever written.
+
+**Why this matters**: "Build it and they will come" doesn't work for B2B SaaS. RTO decision-makers are busy, skeptical of vendors, and rarely searching for "AI enrollment solution." Optimizer AI must go where the customers are: industry events, LinkedIn, referral networks, and trusted partnerships. Without a channel strategy, even the best product fails.
+
+### The RTO Buyer Channel Landscape
+
+**Where RTO decision-makers get information** (in order of influence):
+1. **Word of mouth / peer recommendations** — "Who else is using this?" is the #1 question
+2. **Industry associations** — Australian Training Awards, state RTO networks, VET network groups
+3. **ASQA-related events** — Compliance workshops, audit prep seminars (fear-driven attendance)
+4. **LinkedIn** — CEOs and Marketing Directors are active, especially in metro areas
+5. **Google search** — Primarily for specific problems ("enrollment call automation," "ASQA compliance AI")
+6. **Industry publications** — The Educator, Campus Morning Mail, VET journals
+
+**Channel implication**: Optimizer AI needs a multi-channel approach led by referral/word-of-mouth, supported by LinkedIn outbound and event presence. Content marketing is a slow burn (6-12 months to traction), not a launch strategy.
+
+### Channel 1: Referral Program (Highest ROI, Immediate Priority)
+
+**Why it works**: RTOs trust other RTOs. A referral from a peer CEO is worth 10 cold calls. With Hadar Institute already running and enrolling students, Steven has a built-in case study to start with.
+
+**Referral program structure**:
+| Tier | Referral Reward | Condition |
+|------|----------------|-----------|
+| Customer referral | 1 month free (valued at $999) | Referred RTO signs 6-month contract |
+| Partner referral | 10% of first year's revenue | Zoho partner, education consultant, etc. |
+| Industry advocate | 15% first-year + $500 visa gift card | CEO with strong network, speaks at events |
+
+**Target referral sources**:
+1. Hader Institute existing network (industry contacts Marcus/Kham have)
+2. Zoho partner network (RTOs using Zoho have existing vendor relationships)
+3. RTO industry consultants (compliance consultants, enrollment consultants)
+4. Education technology bloggers/YouTubers in Australia
+
+**Referral program launch**: Start immediately with Marcus/Kham's personal networks. Ask them: "Who do you know who has the same enrollment problem?" Offer "first month free" as the referral reward — low cost, high perceived value.
+
+### Channel 2: LinkedIn Outbound (High Effort, High Control)
+
+**Why it works**: RTO CEOs and Marketing Directors are active on LinkedIn. They're receptive to relevant, non-salesy content. Optimizer AI can build authority and generate inbound through content while also doing direct outreach.
+
+**LinkedIn strategy by persona**:
+
+**Target: RTO CEOs/Owners (Starter/Growth tiers)**:
+- Content: "The enrollment problem no one talks about" — pain-focused, no product mention
+- Outreach: Personalized InMail mentioning their RTO size, not generic template
+- Sequence: Connect → Value content → Demo request (3-step, 3 weeks)
+- Target: 50-100 relevant RTO CEOs per month (filter by: Australia, training/education industry, 50-500 employees)
+
+**Target: Marketing Directors (Scale tier)**:
+- Content: Attribution/ROI focused ("How to know which ads actually drive enrollments")
+- Outreach: Mention their marketing challenge specifically
+- Sequence: Connect → Content → Demo (4-step, 4 weeks)
+- Target: 30-50 Marketing Directors per month
+
+**LinkedIn content calendar** (for Steven as company voice):
+| Week | Content Type | Topic | CTA |
+|------|-------------|-------|-----|
+| 1 | Short post | "The #1 enrollment problem RTOs face" (pain) | None (authority) |
+| 2 | Article | "AI for RTOs: What ASQA actually requires" (compliance) | Lead to newsletter |
+| 3 | Short post | "What 3 RTOs learned after implementing AI" (case study teaser) | "DM me for the full story" |
+| 4 | Long-form | "The complete guide to RTO enrollment automation" (pillar content) | Download guide |
+
+**LinkedIn ad strategy** (complement organic):
+- Target: "Registered Training Organisations" company page employees, CEO/Owner titles
+- Budget: $2,000-3,000/month (start), scale if ROAS > 3x
+- Creative: Video testimonial from Hadar Institute (if usable), or short demo clip
+- Offer: "Free RTO enrollment audit" (lead magnet, not demo yet)
+
+### Channel 3: Event Strategy (Medium ROI, High Credibility)
+
+**Why it works**: RTO decision-makers attend industry events to network and learn. Being present at these events builds credibility and generates warm leads. Events also create content (speaking slots, booth interactions) that feeds other channels.
+
+**Australian RTO event calendar**:
+
+| Event | Date | Audience | Value | Cost | Priority |
+|-------|------|----------|-------|------|----------|
+| **Australian Training Awards** | Nov 2026 | 1,500+ RTO leaders | Highest (national) | $10-15K booth | High |
+| **VET Showcase** | Mar/Apr annually | 500+ VET professionals | High | $3-5K booth | High |
+| **ASQA RTO Conference** | Sep 2026 | Compliance-focused | Medium (compliance buyers) | $2-3K | Medium |
+| **State RTO network events** | Quarterly | 50-200 regional | High (warm, local) | $500-1K/session | High |
+| **The Educator events** | Ongoing | Education leaders | Medium | $1-2K | Medium |
+| **EdTech Aust summits** | Bi-annual | EdTech + education | Low (not RTO-focused) | $2-4K | Low |
+
+**Event strategy for 2026** (Year 1):
+1. **Priority 1**: State RTO network events in QLD, NSW, VIC — low cost, high relevance
+2. **Priority 2**: ASQA RTO Conference (if compliance angle is strong) — attendees are worried about audits
+3. **Priority 3**: Australian Training Awards (Year 2 if budget allows) — national visibility
+
+**Event execution checklist**:
+- [ ] Book booth/sponsorship 3 months in advance (early bird pricing)
+- [ ] Prepare 1-pager with ASQA compliance angle ("Audit-ready AI for RTOs")
+- [ ] Bring iPad demo (if product ready) or video loop (if not)
+- [ ] Collect business cards with QR code to lead magnet
+- [ ] Follow up within 48 hours with personalized email to every contact
+
+### Channel 4: Partner Channel (Medium Effort, Scalable)
+
+**Why it works**: Partners have existing relationships with RTO decision-makers. A Zoho partner recommending Optimizer AI to their RTO clients is a warm introduction that beats cold outreach.
+
+**Partner categories and approach**:
+
+**Zoho partners** (highest priority):
+- RTOs already using Zoho have technical sophistication and are used to SaaS tools
+- Zoho partners already manage their CRM — they're trusted advisors
+- Approach: Contact top 10 Zoho Australia partners, offer 15% referral commission
+- Key targets: Zoho certified partners in education vertical
+
+**RTO consultants** (medium priority):
+- Compliance consultants, enrollment consultants, training advisors
+- They advise RTOs on problems that Optimizer AI solves
+- Approach: Offer "consultant rate" — 20% commission for client referrals
+
+**Education associations** (long-term):
+- Australian Council for Private Education and Training (ACPET)
+- State training associations (QLD Training Assets, etc.)
+- Partnership: Sponsor events, offer member discounts, present at conferences
+- Timeline: Year 2+ (requires existing credibility)
+
+**Integration partners** (medium priority):
+- Companies already integrating with RTOs: VETtrak, SMS-for-RTOs, onboarding platforms
+- Cross-promotion: "Works with your existing [VETtrak/SMS]"
+- Approach: Technical integration + co-marketing
+
+### Channel 5: Content Marketing (Long-term, Builds Authority)
+
+**Why it works**: RTO decision-makers searching for solutions need to find Optimizer AI. Content marketing builds SEO authority and positions Optimizer AI as the domain expert in "AI for RTOs."
+
+**Content strategy**:
+
+**SEO pillar content** (for organic search):
+1. "Complete Guide to AI for RTOs in Australia" (5,000+ words)
+2. "ASQA Requirements for AI Enrollment Systems" (2,000+ words)
+3. "How to Automate RTO Enrollment Calls" (3,000+ words)
+4. "RTO Marketing Attribution Guide" (2,000+ words)
+
+**Content to traffic ratio**: Expect 100-200 organic visits/month after 6 months of consistent publishing. This is a long-term play, not a launch strategy.
+
+**Content repurposing**:
+- Every long-form article → 3 LinkedIn posts
+- Every article → Email newsletter to subscriber list
+- Every case study → Video testimonial (if customer approves)
+- Every guide → Webinar presentation
+
+### Channel 6: Direct Sales (High Touch, High Conversion)
+
+**Why it works**: RTO sales are relationship-driven. With 600-800 potential customers (SAM), a high-touch sales approach is viable if the sales team is small and focused.
+
+**Direct sales motion for Optimizer AI**:
+
+**Outbound (primary for Year 1)**:
+1. **Prospect list**: Build list of 200 highest-fit RTOs (size 50-200 students/month, Zoho users, metro location)
+2. **First contact**: LinkedIn InMail or email (personalized, not template)
+3. **Discovery call**: 20 min, focused on their enrollment problem
+4. **Demo**: 30-45 min, showing Optimizer AI handling their specific scenario
+5. **Proposal**: Custom pricing based on call volume and needs
+6. **Close**: 2-4 weeks after demo
+
+**Inbound (secondary, builds over time)**:
+1. **Lead magnet**: "RTO Enrollment Audit" (free assessment)
+2. **Nurture sequence**: 5-email series over 3 weeks
+3. **Demo request**: Convert on website or from LinkedIn content
+4. **Sales follow-up**: Within 24 hours of demo request
+
+**Sales key performance indicators**:
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Leads/month | 30-50 | Mix of outbound + inbound |
+| Discovery call rate | 40% | Of leads contacted |
+| Demo rate | 20% | Of discovery calls |
+| Close rate | 30% | Of demos |
+| Sales cycle | 4-8 weeks | Starter: 2-4wk, Scale: 8-16wk |
+| Customer acquisition cost | <$2,000 | Target CAC based on $999/mo avg |
+
+### Channel Budget Allocation (Year 1)
+
+**Recommended budget split for $50K marketing spend Year 1**:
+
+| Channel | Budget | % | Rationale |
+|---------|--------|---|-----------|
+| LinkedIn (ads + content) | $18,000 | 36% | Primary acquisition channel |
+| Events (booths + sponsorships) | $12,000 | 24% | Credibility and warm leads |
+| Referral program (rewards) | $5,000 | 10% | High ROI, low cost |
+| Content (articles + guides) | $8,000 | 16% | SEO and authority building |
+| Partner channel (commissions) | $5,000 | 10% | Scalable, low effort |
+| Contingency | $2,000 | 4% | Flexible |
+
+**Note**: This assumes Steven is doing most execution (content, LinkedIn, events) with external support only for design and paid media. If hiring agency support, budget shifts.
+
+### Channel Sequencing (Month 1-12)
+
+**Month 1-3 (Launch)**: Build foundation
+- Launch referral program (immediate, requires no product)
+- Start LinkedIn organic (Steven personal brand)
+- Begin outbound prospecting (first 50 RTOs)
+- Identify and contact 5 Zoho partners
+- Attend 1-2 state RTO events
+
+**Month 4-6 (Early Growth)**: Scale what works
+- Double down on LinkedIn (ads if organic is working)
+- Launch first content assets (guides, case studies)
+- Formalize partner agreements (Zoho, consultants)
+- Attend ASQA conference if timing works
+- Track channel metrics, kill what doesn't work
+
+**Month 7-12 (Growth)**: Build momentum
+- Scale LinkedIn budget if ROAS > 3x
+- Target Australian Training Awards sponsorship (2026 or 2027)
+- Publish monthly case studies (social proof)
+- Launch co-marketing with partners
+- Begin speaking at events (position as AI/RTO expert)
+
+### Channel Integration — The Flywheel Model
+
+The most effective GTM is a flywheel where channels reinforce each other:
+
+```
+Event → Business cards → Email follow-up → Demo request → Customer → Referral source
+                                    ↳ Newsletter → LinkedIn engagement → More connections
+                                    ↳ Case study → Content → SEO → More inbound
+```
+
+**The flywheel in practice**:
+1. Steven speaks at event → collects 30 contacts
+2. Follows up within 48 hours → 10 agree to discovery call
+3. Discovery calls → 3 demos → 1 customer
+4. Customer refers 1 peer → second customer
+5. Second customer → case study → LinkedIn post → 500 views → 5 new connections
+6. Repeat
+
+### Recommended Actions for Steven
+
+- [ADDED] Launch referral program immediately (Marcus/Kham first, then broader) — Week 1
+- [ADDED] Build prospect list of 200 highest-fit RTOs (filter by size, Zoho use, location) — Week 2
+- [ADDED] Start LinkedIn personal brand (Steven) with 3 posts/week — Week 1
+- [ADDED] Identify and contact 5 Zoho Australia partners for referral partnership — Week 3
+- [ADDED] Find 3 state RTO events to attend in Q2-Q3 2026 — Week 4
+- [ADDED] Create "RTO Enrollment Audit" lead magnet (for LinkedIn ads + organic) — Month 2
+- [ADDED] Set up LinkedIn ad campaigns targeting RTO CEOs/Marketing Directors — Month 2
+- [ADDED] Publish first SEO pillar article: "Complete Guide to AI for RTOs in Australia" — Month 2
+- [ADDED] Track channel metrics monthly (leads by source, CAC by channel) — from Month 2
+- [ADDED] Scale channel budget to what works (double winners, kill losers by Month 6) — Month 6
+
+### Sources
+
+- B2B SaaS channel benchmarks: OpenView Partners Go-to-Market Report 2024
+- LinkedIn B2B marketing effectiveness: LinkedIn Economic Graph research (2025)
+- Event marketing ROI: HubSpot State of Marketing Report 2025
+- Partner channel best practices: Salesforce Partner Ecosystem playbook (2025)
+- Referral program benchmarks: Ambassador referral software data (2025)
+- Australian RTO events: Training.com.au event calendar (2026)
+
+---
+
+*End of Cycle 193 refinement. Gap filled: No GTM channel research existed in research-log.md. Added 6-channel GTM strategy (referral, LinkedIn, events, partners, content, direct sales), channel-by-persona approach (CEO vs Marketing Director), event calendar with Australian RTO events, channel budget allocation ($50K Year 1), channel sequencing (Month 1-12), flywheel integration model, 10 recommended actions for Steven.*
+
+---
+
+---
+
 *End of Cycle 192 refinement. Gap filled: Study Buddy verified as non-competitor (consumer vs B2B), Area Ten verified as marketing agency (not AI vendor), actual competitive landscape clarified (DIY builds + future entrants only), Area Ten referral program opportunity ($25-50K ARR potential), monitoring system with monthly/quarterly checks, early warning indicators, 9 recommended actions for Steven.*
 
