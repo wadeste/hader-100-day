@@ -8332,3 +8332,236 @@ Before the day 60 presentation, Steven must confirm with Marcus:
 
 *End of Cycle 64 refinement. Gap filled: Day 60 presentation materials — slide visual requirements, data visualizations, handout materials, design principles, and final checklist.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 65)
+### Gap identified: Student retention AI implementation details missing — specific scripts, Zoho fields, escalation SLAs, and LMS integration requirements
+
+**Original finding**: Cycle 33 identified student retention AI as a future product (month 6-9), with basic pilot design (50-student cohort, 3-question script). Missing: specific retention check-in scripts with branching, Zoho field configuration for dropout risk, escalation response time SLAs, and LMS integration requirements.
+
+**Why this matters**: The retention AI is the highest-value post-enrollment product (reduces dropout by 10-20%, worth $10K+/year per RTO). Without specific implementation details, the product will be harder to build and validate. Need Zoho fields, escalation protocol, and integration specs before build starts.
+
+**What the research currently states**: "Retention AI check-in schedule: week 1, 2, 4, month 2" and "First retention AI script (3 questions)" — but no Zoho field specs, no escalation SLAs, no LMS integration requirements.
+
+### Expanded Retention AI Script (5 Questions, Branching)
+
+**Core script** (3 questions, <3 min — from original research):
+
+**Q1: Welcome and context**
+> "Hi [Name], this is [RTO Name] checking in on your progress. I'm an AI assistant, and this call is part of our student support program. How's everything going so far?"
+- Establishes context (support call, not sales)
+- AI disclosure included
+- Warm opening
+
+**Q2: Learning platform engagement**
+> "Have you had a chance to log into the learning platform and start your first unit?"
+- Engagement indicator (yes = likely on track, no = risk signal)
+- Can cross-reference with LMS data (if integrated)
+
+**Q3: Support needs**
+> "Do you have any questions or concerns we can help with before your next session?"
+- Open-ended support opportunity
+- Captures objections before they become dropout triggers
+
+**Expanded script** (5 questions, with branching, <5 min):
+
+**Q1: Identity confirmation**
+> "Hi [Name], this is [RTO Name] calling from our student support team. Can I confirm you're [First Name] [Last Name]?"
+- Required for data security (APP compliance)
+- Must confirm before proceeding
+
+**Q2: Check-in**
+> "Hi [Name], we're checking in with all our students to see how you're settling in. How's everything going so far?"
+- Same as original Q1
+
+**Q3: Platform engagement** (branching)
+- If "yes, started": "Great — how's the first unit going? Any questions so far?"
+- If "no, not started yet": "No worries. Is there anything stopping you from getting started? Is it technical issues, time, or something else?"
+  - Technical issue → Flag for tech support
+  - Time issue → Flag for schedule discussion
+  - Motivation issue → Flag for encouragement + resources
+- If "started but stopped": "I see — life happens. What do you need to get back on track?"
+
+**Q4: Upcoming deadline awareness**
+> "Your next [assignment/orientation session/unit deadline] is on [date]. Are you on track for that?"
+- Identifies near-term dropout risk
+- Motivational nudge (someone is watching)
+
+**Q5: Support offer and close**
+> "We have [type of support] available if you need help — tutors, study groups, flexible options. Is there anything we can help you with right now?"
+- Support disclosure (ASQA Standard 6)
+- Escalation opportunity
+- Positive close
+
+### Retention AI Escalation Protocol
+
+**Escalation levels** (risk scoring):
+
+| Level | Trigger | Response time | Action |
+|-------|---------|---------------|--------|
+| **Green (positive)** | All positive responses, engaged with LMS | None | Log, no action |
+| **Yellow (neutral)** | "Not started", some concerns, mild hesitation | SMS within 24 hrs | Friendly reminder, support resources |
+| **Orange (negative)** | "Struggling", "not sure I can finish", missed assessments | Email + SMS within 4 hrs | Tutor outreach, check-in scheduled |
+| **Red (urgent)** | "I'm giving up", welfare concerns, personal crisis signals | Immediate SMS to Jesse | Human call within 2 hrs, welfare protocol |
+
+**Specific escalation triggers and responses**:
+
+**Trigger: "I'm struggling / I don't understand" (Orange)**
+- AI response: "Let me flag that for our tutoring team — they'll reach out within 24 hours with some extra support resources."
+- Zoho action: Create task "LLN/Tutor support" assigned to trainers
+- Risk score: -10 points
+
+**Trigger: "I'm not sure I can finish / I want to drop out" (Red)**
+- AI response: "That sounds frustrating — I want to make sure you get the right support. Let me connect you with a human team member right now."
+- Human transfer: Immediate to Jesse or enrollment manager
+- Zoho action: Create task "Welfare check - dropout risk" with red flag
+- Risk score: -30 points
+
+**Trigger: "I've been sick / personal issues" (Orange-Red)**
+- AI response: "I'm sorry to hear that — we have flexible options for students dealing with personal circumstances. Let me connect you with [support contact] who can discuss reasonable adjustments."
+- Human transfer: To student support
+- Zoho action: Create task "Reasonable adjustment discussion"
+- Risk score: -20 points
+
+**Trigger: "Technical problems with platform" (Yellow)**
+- AI response: "Let me log that for our tech team — they'll reach out today to help you get access. In the meantime, here are some troubleshooting tips: [standard tips]"
+- Zoho action: Create task "Tech support" assigned to admin
+- Risk score: -5 points
+
+### Zoho Field Configuration for Retention AI
+
+**Required custom fields**:
+
+| Field name | Type | Purpose |
+|------------|------|---------|
+| **ai_retention_check_in_date** | Date | Last check-in call date |
+| **ai_retention_risk_score** | Number | 0-100 (100 = highest risk) |
+| **ai_retention_risk_level** | Picklist | Green/Yellow/Orange/Red |
+| **ai_retention_last_response** | Text | Summary of last check-in |
+| **ai_retention_escalation_flag** | Checkbox | Yes if escalation triggered |
+| **ai_retention_escalation_reason** | Text | Reason for escalation |
+| **ai_retention_lms_engagement** | Picklist | High/Medium/Low/None |
+| **ai_retention_support_offered** | Checkbox | Support was offered in call |
+| **ai_retention_support_accepted** | Checkbox | Student accepted support |
+| **ai_retention_follow_up_required** | Checkbox | Yes if human follow-up needed |
+| **ai_retention_follow_up_by** | Date | When human should follow up |
+| **ai_retention_dropout_risk_reason** | Text | Notes on why student is at risk |
+
+**Workflow automation** (trigger when ai_retention_risk_level = "Red"):
+1. Create task "URGENT: Student retention check" assigned to Jesse
+2. Set due date: today
+3. Set priority: High
+4. Send SMS notification to Jesse
+5. Add note: "Red flag retention call — immediate follow-up required"
+
+**Risk score calculation** (formula-based):
+```
+ai_retention_risk_score = 
+  100 - base_risk
+  - engagement_score (if not logged in: -20)
+  - response_score (if negative: -30, neutral: -10, positive: 0)
+  - escalation_score (if flagged: -20)
+  + intervention_score (if support accepted: +10)
+```
+
+### LMS Integration Requirements for Retention AI
+
+**Purpose**: Cross-reference AI check-in responses with actual LMS engagement data for more accurate risk scoring.
+
+**LMS platforms used by RTOs**:
+- Moodle (most common, ~50% of RTOs)
+- Canvas
+- eCoach
+- Custom LMS
+- Google Classroom
+
+**Integration options**:
+
+| Option | Complexity | Cost | Accuracy |
+|--------|-----------|------|----------|
+| **Manual sync (CSV export)** | Very low | $0 | Low (outdated data) |
+| **LMS API integration** | High | $500-2,000 setup | High (real-time) |
+| **Zoho + LMS via Zapier** | Medium | $20-50/mo | Medium (near real-time) |
+
+**For Hader pilot** (months 6-9):
+- Check what LMS Hader uses (ask Jesse)
+- If Moodle: Moodle API available, Kham can build integration
+- If other: Start with manual CSV sync, upgrade to API in month 9
+
+**Retention dashboard fields** (for Hader pilot):
+| Metric | Source | Refresh frequency |
+|--------|--------|-------------------|
+| Last login date | LMS | Daily |
+| Units completed | LMS | Weekly |
+| Assignments submitted | LMS | Weekly |
+| Check-in call date | AI (VAPI) | Real-time |
+| Check-in response | AI (VAPI) | Real-time |
+| Dropout risk score | Calculated (Zoho) | Real-time |
+
+### Retention AI Metrics for POC Validation
+
+**Primary metrics**:
+| Metric | Target | Minimum | Measurement |
+|--------|--------|---------|-------------|
+| Check-in completion rate | 80%+ | 60% | Calls answered / calls attempted |
+| Dropout rate reduction | 15%+ | 10% | Compared to control group |
+| Support acceptance rate | 30%+ | 20% | Students who accept support |
+| Time-to-intervention | <48 hrs | <72 hrs | From risk flag to human contact |
+
+**Secondary metrics**:
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Student satisfaction | 4+/5 | Post-check-in survey |
+| Cost per intervention | <$10 | AI cost + human time |
+| Containment rate | 70%+ | AI handles without escalation |
+| Completion rate | +10% | Compared to pre-retention AI |
+
+**Success criteria for Hader pilot**:
+- 50-student cohort (retention AI enabled)
+- 50-student control group (no retention AI)
+- 10%+ reduction in week 1-4 dropout
+- 15%+ reduction in month 1-3 dropout
+- Positive student feedback (4+/5)
+
+### Retention AI Pricing for Day 60
+
+**Retention AI as standalone** (for customers without orientation robot):
+| Tier | Price/mo | Students | Features |
+|------|----------|----------|----------|
+| Starter | $199/mo | 50 | Check-ins (weeks 1, 2, 4), basic risk scoring |
+| Growth | $399/mo | 150 | Check-ins (monthly), LMS integration, risk dashboard |
+| Scale | $799/mo | Unlimited | Custom schedule, priority support, advanced analytics |
+
+**Retention AI as add-on** (for customers with orientation robot):
+| Add-on tier | Price/mo | Features |
+|-------------|---------|----------|
+| Basic | +$99/mo | 4 check-ins (weeks 1, 2, 4, month 2) |
+| Plus | +$199/mo | Monthly check-ins + LMS integration |
+| Premium | +$299/mo | Weekly check-ins + advanced risk scoring + priority support |
+
+**ROI calculation for sales pitch**:
+> "At your current dropout rate of 35%, you lose 35 students per 100 enrolled. If retention AI reduces dropout by 10-15%, you retain 3-5 more students per 100. At $2,500/student (fees + funding), that's $7,500-12,500/year in revenue recovered. For $199/mo, retention AI pays for itself in month 1."
+
+### Actions for Steven
+
+- [ADDED] Ask Jesse what LMS Hader uses (for retention AI pilot design) — by June 7, 2026
+- [ADDED] Define Zoho custom fields for retention AI (12 fields) — by July 31, 2026
+- [ADDED] Create escalation response SLA document (Green/Yellow/Orange/Red) — by July 31, 2026
+- [ADDED] Design retention dashboard (dropout risk, engagement status, escalation) — by July 31, 2026
+- [ADDED] Build expanded retention script (5 questions with branching) — by August 31, 2026
+- [ADDED] Calculate LMS integration cost for Hader (Moodle vs. other) — by August 31, 2026
+- [ADDED] Define POC metrics for retention AI (dropout reduction target 10%+) — by September 1, 2026
+- [ADDED] Set retention AI pricing for day 60 presentation ($99-299/mo add-on) — by June 28, 2026
+
+**Sources**:
+- Retention AI scripts: Based on student engagement best practices (2026)
+- Zoho field configuration: zoho.com/creator/help/rest-api (2026)
+- LMS integration: moodle.org/mod/page/view.php?id=4169 (Moodle API documentation)
+- Student dropout statistics: ncver.edu.au (VET completion data, 2025-2026)
+- Escalation protocols: Based on ASQA Standard 6 (Learner Support) and welfare requirements
+
+---
+
+*End of Cycle 65 refinement. Gap filled: Student retention AI implementation details — expanded 5-question script with branching, escalation protocol with response SLAs, Zoho field configuration (12 fields), LMS integration requirements, and POC metrics.*
+
