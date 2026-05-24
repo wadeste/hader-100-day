@@ -1683,3 +1683,80 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 55 refinement. Gap filled: TAZ AI feature spec, Aircall prompt library examples, consolidated pricing model.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 56): Attribution Dashboard Technical Deep Dive
+### Gap identified: Research mentions attribution tools but lacks Zoho dedup rules, attribution model specs, ASQA requirements, and data tracking implementation
+
+**Original finding**: "Unified marketing attribution dashboard" identified multi-touch attribution and Zoho integration as needs but lacked technical implementation details.
+
+**Why this matters**: Attribution dashboard requires data infrastructure before the dashboard itself. Without UTM enforcement, Zoho fields, and dedup rules from Day 1, the dashboard will have gaps.
+
+### Zoho Dedup Rules
+
+| Rule | Trigger | Action |
+|------|---------|--------|
+| Email dedup | Email matches existing | Merge, append channel tags, preserve first-touch |
+| Phone dedup | Phone matches existing | Merge, append channel tags |
+| Name+domain | First + last + email domain match | Flag for manual review (don't auto-merge) |
+
+**Critical**: Preserve first-touch date and source. Don't overwrite — append all channels.
+
+### Attribution Models
+
+| Model | First-touch | Last-touch | Middle | RTO fit |
+|-------|-------------|------------|--------|---------|
+| First-touch | 100% | 0% | 0% | Awareness only |
+| Last-touch | 0% | 100% | 0% | Simple but incomplete |
+| Position-based | 40% | 40% | 20% | **Best for RTO (40/40/20)** |
+
+**Recommended**: Position-based as primary, time-decay as secondary for optimization.
+
+### ASQA Audit Trail Requirements
+
+| Field | Retention | Purpose |
+|-------|-----------|---------|
+| Lead source | 3 years | Enrollment attribution |
+| Ad spend/channel | 3 years | Funding claims |
+| Enrollment source | 3 years | Which marketing worked |
+| Cost/enrollment | 3 years | ROI documentation |
+| Marketing consent | As long as contact | Student consent |
+
+### Data Tracking Implementation Priority
+
+**Prerequisite (Day 1-7)**:
+- UTM parameter enforcement on all paid campaign URLs
+- Zoho custom fields for attribution data
+- Hidden UTM fields in all inquiry forms
+
+**Phase 2 (Week 2-4)**:
+- Zoho dedup rules (email + phone)
+- CallRail or unique phone numbers per channel
+- Position-based attribution calculation
+
+**Phase 3 (Month 2-3)**:
+- Attribution dashboard (Looker Studio)
+- ASQA-compliant report template
+- Monthly offline conversion import
+
+### Recommended Actions for Steven
+
+- [ADDED] Enforce UTM parameters on all paid campaign URLs — by June 7, 2026
+- [ADDED] Add attribution custom fields to Zoho lead layout — by June 7, 2026
+- [ADDED] Implement Zoho dedup rules (email + phone) — by June 21, 2026
+- [ADDED] Set up CallRail or unique phone numbers per channel — by June 28, 2026
+- [ADDED] Build attribution dashboard in Looker Studio — by July 2026
+- [ADDED] Create ASQA-compliant report template — by July 2026
+
+### Sources
+- Attribution models: Rockerbox, Attribution (2026)
+- ASQA Standards: asqa.gov.au/standards (2026)
+- Zoho dedup: zoho.com/crm/features (2026)
+- UTM tracking: analytics.google.com (2026)
+
+---
+
+*End of Cycle 56 refinement. Gap filled: Zoho dedup rules, attribution model specs, ASQA requirements, data tracking implementation.*
+
+---
