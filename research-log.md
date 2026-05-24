@@ -14640,5 +14640,227 @@ Log in Zoho → Task created for callback within 2 hours
 
 ---
 
-*End of research log. All topics researched and refined. Cycle 141 complete.*
+## Refinement — 2026-05-24 (Cycle 142): USI Exemption Handling & Limited Exemption Criteria — AI Script Logic, Documentation, and Compliance for Specific Student Types
+### Gap identified: Research provides USI collection requirements (Cycle 94) and ASQA audit checklist (Cycle 137) but lacks specific exemption criteria, handling logic for international students, refugees, and other exemption categories
+
+**Original finding**: "USI Collection & Verification" (Cycle 94) provides format validation, error handling, and basic ASQA documentation. "ASQA Audit Requirements" (Cycle 137) mentions "USI exemption logging" as P1 priority. However, research lacks:
+- Complete list of USI exemptions (who is exempt from USI collection)
+- AI script logic for identifying exemption candidates
+- Documentation requirements for each exemption type
+- Handling for international students (subclass 500 visa)
+- Handling for refugees and humanitarian visa holders
+- Process when exemption expires (student gets USI later)
+
+**Why this matters**: USI collection is mandatory for most students, but specific exemptions exist. AI must: (1) identify exemption candidates, (2) collect exemption documentation, (3) handle the enrollment without USI, (4) follow up when exemption no longer applies. Without exemption handling, Optimizer AI will incorrectly block valid enrollments or collect USI from students who shouldn't provide it.
+
+### USI Exemption Categories (Complete List)
+
+**Who is exempt from USI collection**:
+
+| Exemption category | Description | Evidence required | Duration |
+|-------------------|-------------|------------------|----------|
+| **International students (subclass 500)** | On a student visa (excluding offshore) | Visa grant notice | While visa is valid |
+| **Refugees and humanitarian visa holders** | Subclass 200, 201, 203, 204, 866 | Visa evidence | While visa is valid |
+| **Foreign nationals (non-student)** | On temporary protection visa, Safe Haven Enterprise Visa | Visa evidence | While visa is valid |
+| **Students under 16** | Cannot apply for USI themselves | Age verification (DOB) | Until turned 16 |
+| **Justice system** | In custody or supervised release | Confirmation from authority | During custody |
+| **Deceased** | (rare edge case) | N/A | N/A |
+
+**Who is NOT exempt** (must provide USI):
+- Australian citizens
+- Permanent residents
+- New Zealand citizens (resident in AU)
+- Temporary residents (work visa, visitor visa — excluding student visa)
+- Bridging visas (in most cases)
+- Humanitarian visa holders who have become permanent residents
+
+### USI Exemption Detection in AI Flow
+
+**AI script for exemption identification**:
+
+```
+[After USI collection question]
+
+AI: "Do you have a USI number?"
+
+Caller: "No / Don't know"
+
+AI: "Are you an international student on a student visa, or 
+     do you hold a humanitarian or protection visa?"
+
+Caller: "Yes (international student)"
+
+AI: "As an international student, you're exempt from providing a USI. 
+     I'll note this in your file. Your enrollment can proceed without USI. 
+     [Verify: Can you confirm your student visa number or show your visa grant notice?]"
+
+Caller: "Yes / No"
+
+AI: "Great. I'll note the exemption. Is your student visa current and valid?"
+
+[If yes]: Continue enrollment without USI
+[If no]: "You'll need to provide a USI once your visa is confirmed."
+
+OR
+
+Caller: "No (Australian citizen/PR)"
+
+AI: "No worries. You can find your USI at U-S-I dot gov dot A-U. 
+     You'll need this before your enrollment can be completed. 
+     Can I help you with anything else?"
+```
+
+### Exemption Handling by Student Type
+
+**International students (subclass 500 visa)**:
+| Step | Action | Documentation |
+|------|--------|---------------|
+| 1 | Confirm visa holder status | "Are you on a student visa?" |
+| 2 | Note exemption in lead | Custom: "Exemption = International Student" |
+| 3 | Verify visa status (if possible) | Visa grant number (optional) |
+| 4 | No USI collected | USI field left blank |
+| 5 | Flag for follow-up | Task: "Confirm visa status at enrollment" |
+| 6 | Exemption expires if | Visa expires, student becomes PR |
+
+**Refugees and humanitarian visa holders**:
+| Step | Action | Documentation |
+|------|--------|---------------|
+| 1 | Confirm visa type | "Do you hold a protection or humanitarian visa?" |
+| 2 | Note exemption | Custom: "Exemption = Humanitarian Visa" |
+| 3 | Collect visa subclass if provided | Visa subclass (200, 201, 203, 204, 866) |
+| 4 | No USI collected | USI field left blank |
+| 5 | Flag for review | Task: "Humanitarian visa — verify ongoing exemption" |
+| 6 | If PR granted | Update to require USI collection |
+
+**Students under 16**:
+| Step | Action | Documentation |
+|------|--------|---------------|
+| 1 | Confirm age | "Are you 16 or older?" |
+| 2 | If under 16 | Parent/guardian must provide USI on student's behalf |
+| 3 | Note exemption | Custom: "Exemption = Under 16" |
+| 4 | Follow up at 16 | Task: "Contact student when they turn 16 to collect USI" |
+
+### Zoho Fields for USI Exemption
+
+**Required custom fields**:
+| Field | Type | Values |
+|-------|------|--------|
+| USI Exemption Status | Picklist | "Not Exempt", "International Student", "Humanitarian Visa", "Under 16", "Justice System" |
+| USI Exemption Date | Date | Date exemption was noted |
+| USI Exemption Evidence | Text | Visa subclass, confirmation reference |
+| USI Exemption Expiry | Date | When to follow up (visa expiry, student turns 16) |
+| USI Exemption Notes | Long Text | Additional context |
+
+**Workflow for exemption handling**:
+
+```
+Lead created with no USI
+    ↓
+AI asks: "Are you an international student?"
+    ↓
+If yes: Set USI Exemption Status = "International Student"
+        Set USI Exemption Expiry = [From visa grant notice]
+        Create task: "Collect USI if visa expires or PR granted"
+    ↓
+If no: Remind to provide USI at orientation
+```
+
+### Exemption Follow-Up Logic
+
+**When exemption expires** (must collect USI):
+
+| Trigger | Action |
+|---------|--------|
+| Visa expires | Contact student, collect USI for continued enrollment |
+| Student turns 16 | Contact parent/guardian, collect USI |
+| Student gains PR | Contact student, collect USI |
+| Justice supervision ends | Contact student, collect USI |
+
+**AI follow-up script** (when exemption expires):
+```
+AI/Staff: "Hi [Name], calling about your enrollment at [RTO]. 
+         Your previous exemption from USI collection no longer applies. 
+         To continue your enrollment, you'll need to apply for a USI at usi.gov.au. 
+         Do you need help with that?"
+```
+
+### ASQA Audit Requirements for Exemptions
+
+**What ASQA expects**:
+
+| Requirement | Evidence | Checklist |
+|-------------|-----------|-----------|
+| Exemption documented | USI Exemption Status field in Zoho | ✓ |
+| Visa evidence on file | Visa grant notice (scan/pdf) | ✓ (if available) |
+| Exemption still valid | Date of exemption vs. current date | ✓ |
+| USI collected when applicable | USI field populated (not exempt leads) | ✓ |
+| Follow-up for expired exemption | Task created, status tracked | ✓ |
+
+**ASQA audit questions about exemptions**:
+
+> "How do you handle students who are exempt from USI?"
+> → "Optimizer AI identifies exemption candidates during inquiry call. Exemption is documented in Zoho with type and evidence. Follow-up tasks are created when exemptions expire."
+
+> "How do you know the exemption is still valid?"
+> → "We track exemption expiry dates. If visa expires or student turns 16, we follow up to collect USI."
+
+> "What happens if exemption was documented but is no longer applicable?"
+> → "Staff follows up within 7 days to collect USI. Enrollment is not completed until USI is provided (or new exemption is confirmed)."
+
+### AI Script for Exemption Scenarios
+
+**Scenario 1: International student confirms exemption**
+```
+AI: "As an international student on a student visa, you're exempt from providing a USI. I'll note this in your file."
+
+Lead field update:
+- USI Exemption Status: "International Student"
+- USI Exemption Date: [Today's date]
+- USI Exemption Expiry: [From visa grant notice or 5 years default]
+- USI Exemption Notes: "Subclass 500, visa grant [number]"
+
+Task created:
+- "Follow up USI collection if visa expires or student gains PR"
+- Due: [Expiry date minus 30 days]
+```
+
+**Scenario 2: Student claims exemption but may not be eligible**
+```
+AI: "I see you're on a working holiday visa. In that case, you would need to provide a USI. You can apply for one at usi.gov.au — it only takes a few minutes."
+
+[AI collects USI using standard flow]
+```
+
+**Scenario 3: Uncertain about exemption status**
+```
+AI: "If you're not sure whether you need a USI, you can check at usi.gov.au or call 13 28 69. If you're an international student on a student visa, you don't need one. Otherwise, we'll need to collect it before enrollment."
+
+[AI continues with alternative: collect USI OR follow up later]
+```
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Add USI Exemption fields to Zoho (5 fields above) — by June 21, 2026
+- [ADDED] Update AI script to identify exemption candidates — by June 28, 2026
+- [ADDED] Create exemption handling workflow in Zoho — by June 28, 2026
+- [ADDED] Train staff on exemption types and follow-up — by July 7, 2026
+- [ADDED] Add visa expiry follow-up tasks for international students — by July 7, 2026
+- [ADDED] Track exemption rate (target: <5% of students) — ongoing from July 21
+- [ADDED] Include exemption documentation in ASQA audit report — by Q4 2026
+- [ADDED] Review exemption cases monthly (compliance check) — monthly from July 2026
+
+### Sources
+- USI exemptions: USI Act 2014, usi.gov.au (2026)
+- International student exemptions: Department of Home Affairs (2026)
+- Humanitarian visas: Visa subclass 200-204, 866 (2026)
+- ASQA USI audit: asqa.gov.au (2026)
+
+---
+
+*End of Cycle 142 refinement. Gap filled: Complete USI exemption categories (5 types: international student, humanitarian visa, under 16, justice system), exemption detection AI script, Zoho fields (5 fields for exemption tracking), exemption follow-up logic (4 trigger types), ASQA audit requirements for exemptions, AI script for 3 exemption scenarios, documentation requirements, international student handling, follow-up when exemption expires.*
+
+
+---
+
+*End of research log. All topics researched and refined. Cycle 142 complete.*
 
