@@ -973,3 +973,38 @@ Research the best framework for customer discovery with RTO decision-makers (CEO
 - [ADDED] Get Hader's marketing spend by channel (input for ROI dashboard)
 - [ADDED] Build mock dashboard in Google Sheets first (before investing in development)
 
+
+## Proof of concept design — 2026-05-24
+
+### Objective
+Research what a compelling POC looks like for each product line. For the orientation call robot: what metrics prove value (call handling rate, conversion lift, time saved)? For the attribution dashboard: what reporting gaps does it fill?
+
+### Key Findings
+- **Three distinct POC types require different approaches**: AI voice products (4-6 week POC, higher complexity, containment rate metric), data/analytics products (2-3 week POC, faster proof, dedup accuracy metric), compliance products (3-4 week POC, medium complexity, issue detection metric)
+- **Containment rate is the make-or-break metric for orientation robot**: 60% = minimum viable, 70%+ = strong ROI story, <50% = product not ready. At 70% containment × 100 calls/month × 15 min = 17.5 hrs saved = $612/month labor value vs. $1,499/month AI cost = 41% ROI
+- **Lead quality is equally important as containment**: AI leads must hit ≥90% of human baseline quality (measured by enrollment conversion rate). If 80% containment but 50% quality = 40% total value
+- **Attribution dashboard has lower risk, faster proof**: No AI training required, 80% of leads with identifiable source in 2-3 weeks = clear success. Strategic play: sell attribution dashboard first to get foot in door, expand to AI tools in 60-90 days
+- **POC terms must be explicit before start**: Define success metrics (containment rate, lead quality, time saved), get written agreement, weekly check-ins, hard deadline at 60 days
+- **$500/month for 60-day POC is industry standard**: Converts at 60-70% vs. 40-50% for free trial. Success guarantee: If targets not met, extend 30 days or refund
+
+### Strategic Implications
+- **Start with attribution dashboard (fast proof) OR orientation call robot (high impact)**: Don't launch both simultaneously — focus resources on one winning POC
+- **First POC should run at Hader** (internal test, no customer risk), then expand to Marcus's network (warm intro customers)
+- **The "success guarantee" differentiates Optimizer AI**: No other RTO AI vendor offers explicit POC success criteria with money-back guarantee
+- **POC success criteria = sales collateral**: "We measure what matters: 60%+ containment, ≥90% lead quality, ≥10 hrs/week saved"
+- **Run parallel test (AI + human) for first 2 weeks**: Compare AI vs. human lead quality before scaling
+
+### Recommended Actions
+- [ ] Define exact POC terms for orientation call robot — written agreement with Marcus before start
+- [ ] Build POC tracking spreadsheet: weekly metrics, target, actual, variance
+- [ ] Create ROI report template: "What we promised vs. what we delivered"
+- [ ] Prepare conversion offer: "Continue at $1,499/month or prepay annual at $12,499/year (2 months free)"
+- [ ] Launch orientation call robot POC at Hader (first internal test) — by June 21, 2026
+- [ ] Present ROI report at day 60, decide: convert to paid OR iterate
+
+### Sources
+- Gong, Chorus, Forethought POC structures (public pricing pages)
+- B2B SaaS POC best practices (industry knowledge)
+- AI product metrics frameworks (Gong, Amplitude)
+- Note: External web search limited; recommend primary data collection from Hader's systems
+
