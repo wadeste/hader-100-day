@@ -7569,3 +7569,177 @@ Marcus will likely ask 5 questions every update. Have answers ready:
 
 *End of Cycle 60 refinement. Gap filled: Consolidated day 60 and day 100 deliverable checklists with presentation outlines, timing, and "done" criteria.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 61)
+### Gap identified: Financial model missing Marcus/Kham pushback prep and stakeholder-specific messaging
+
+**Original finding**: Cycles 31, 39, 48 cover TAM/SAM/SOM ($50-100M TAM, $21M SAM, $2-4M SOM Year 5), unit economics (LTV:CAC 5-7x, 3.4 month payback), break-even analysis (35 customers company, 11 customers Steven salary), customer acquisition targets (2-3/month Year 1 to 15/month Year 5), and funding scenarios ($80-150K cash needed). Path to $10M EBITDA is Year 7-8, not Year 5. Missing: What Marcus will push back on and how to respond, what Kham will question and how to answer, unit economics simplified to 3 numbers Marcus can remember, and risk-adjusted model showing "what if" scenarios.
+
+**Why this matters**: Day 60 is a presentation, not a document review. Marcus will challenge the financial model — he's a numbers guy (runs Australian Vet Group). Kham will question technical feasibility. Without prepared responses, Steven will lose credibility. The financial model must be defensible AND presented in a way that builds confidence, not creates anxiety.
+
+**What the research currently states**: "$10M EBITDA target is 5-year goal, not Year 5" and "realistic path is $2-3M by Year 5, $10M by Year 7-8." No guidance on how to communicate this to Marcus, no prepared responses to likely objections.
+
+### Marcus's Likely Pushback (and Responses)
+
+**Pushback 1: "$10M EBITDA in 7-8 years? That's too slow."**
+
+Likely because: He set the $10M target, he wants growth fast.
+
+Response:
+> "You're right — $10M by Year 5 would be ideal. Here's what the model shows: At current mid-market pricing ($999/mo), Year 5 EBITDA is ~$2M. To hit $10M faster, we have three levers: (1) Enterprise pricing — 50 RTOs at $3K/mo adds $1.8M ARR, (2) New revenue streams — AI courses and consulting add $2M ARR by Year 5, (3) Faster customer acquisition — doubling growth rate gets us there sooner. I'd recommend starting with mid-market to prove the model, then pushing enterprise in Year 3. That gives us $3-5M EBITDA by Year 5, $10M by Year 7-8."
+
+**Why this works**: Validates his goal while showing you've modeled the gap and have a realistic path. Shows strategic thinking, not just "it's not possible."
+
+**Pushback 2: "35 customers to break even? We're burning cash too long."**
+
+Likely because: Cash flow anxiety, especially if Optimizer AI is funded by Hader.
+
+Response:
+> "Break-even at 35 customers assumes we're paying all costs from Optimizer AI including my salary. If my salary comes from Hader for the first 6 months, break-even drops to 20 customers — around month 8-9 instead of month 14. Also, every customer after month 6 generates $873/month in gross profit (97% margin). By month 12 with 30 customers, we're generating $26K/month in gross profit against $15K/month burn. The cash curve bends fast once we hit critical mass."
+
+**Why this works**: Shows you've thought through the cash flow scenarios and have mitigations. Addresses the anxiety directly.
+
+**Pushback 3: "2-3 customers/month Year 1 — that seems low."**
+
+Likely because: Marcus has high expectations, wants to see fast traction.
+
+Response:
+> "2-3/month is the blended rate across all channels. The first 3 months will be slower (building pipeline), but Marcus's network should deliver 2-4 customers in the first 60 days at 50-60% conversion. Consultant referrals kick in month 2-3. LinkedIn outbound starts month 4. By month 6, we should be at 6-8 customers. The math: 75-100 leads/year at 15% conversion = 11-15 new customers. That's conservative B2B SaaS for an unproven product. Once we have case studies, conversion should improve."
+
+**Why this works**: Breaks down the number so it's not scary. Connects to Marcus's network (his contribution matters). Shows realistic expectations.
+
+**Pushback 4: "What if we don't hit these numbers?"**
+
+Likely because: Risk-averse, wants contingency plans.
+
+Response:
+> "If growth is 50% slower (1-2 customers/month instead of 2-3): We extend runway by 3-4 months, may need to slow marketing spend, but the business still works — unit economics are healthy even at low volume. If churn is higher than modeled (5% instead of 3%): LTV drops but remains positive. If enterprise pricing doesn't work: We focus on mid-market scale, $2-3M EBITDA by Year 5 becomes $1.5M. The model has buffer — every sensitivity test shows the business is viable, just slower."
+
+**Why this works**: Shows you've stress-tested the model. Gives Marcus confidence you're not reckless.
+
+### Kham's Likely Questions (and Responses)
+
+**Question 1: "Can we actually build this in the timeline?"**
+
+Likely because: He knows his own bandwidth, worried about scope.
+
+Response:
+> "Orientation call robot MVP: 7-8 weeks to go-live (not 5-6 weeks — Zoho integration is the critical path). Kham works ~10 hrs/week. First test call: week 3. Go-live: week 7-8. This is conservative — if Kham has more time, we accelerate. TAZ review tool: Starts after orientation robot, 4-6 weeks. Attribution dashboard: Month 4-6. Build order is staged so we're not building everything at once."
+
+**Why this works**: Gives Kham a specific timeline he can commit to. Shows you've accounted for Zoho complexity (not just voice AI).
+
+**Question 2: "What if VAPI goes down or changes pricing?"**
+
+Likely because: Technical risk-aversion, doesn't want to be blamed if the stack fails.
+
+Response:
+> "Risk mitigation: VAPI is our primary (fastest to integrate), Twilio is our fallback (more complex but established). If VAPI pricing changes significantly, we migrate. The cost difference is small ($50-100/month) — not a switching cost issue. We build with abstraction layers so platform changes don't break the call flow. Also: We own the script, the Zoho integration, the data. The voice AI platform is a commodity we can swap."
+
+**Why this works**: Shows you've thought about technical risk. Gives Kham permission to use VAPI without worry.
+
+**Question 3: "What about ASQA compliance — are we covered if they audit?"**
+
+Likely because: Hader just went through ASQA audit, sensitive to compliance.
+
+Response:
+> "ASQA compliance built in from day 1: Call recording (3-year retention in AU), AI disclosure at start of call, USI requirement built into script, all required disclosures at point of relevance. We're also logging every call with timestamps, outcomes, and escalation triggers — that's better than most RTOs' manual processes. If ASQA asks how AI handles enrollment, we show the script, the compliance checklist, and the call logs. We're more auditable with AI than without it."
+
+**Why this works**: Speaks to Kham's recent ASQA experience. Positions AI as a compliance asset, not a compliance risk.
+
+### The Three Numbers Marcus Needs to Remember
+
+Steven needs to distill the financial model into 3 memorable numbers for Marcus:
+
+**Number 1: 35 customers break-even**
+> "35 customers and we're covering all costs. At 2-3/month, that's month 12-14."
+
+**Number 2: $900/mo average revenue**
+> "$900/mo per customer (mid-market average). 30 customers = $27K/mo recurring."
+
+**Number 3: $10M EBITDA by Year 7-8**
+> "$10M EBITDA is the goal, but it's a Year 7-8 outcome. Year 5 target is $2-4M. To accelerate, we need enterprise pricing or new revenue streams."
+
+**Why 3 numbers**: Marcus will remember these in the car driving home. Don't give him a spreadsheet — give him three anchors.
+
+### Risk-Adjusted Model: "What If" Scenarios for Day 60
+
+| Scenario | Customers Year 5 | EBITDA Year 5 | Path to $10M |
+|----------|-----------------|---------------|---------------|
+| **Base case** (as modeled) | 320 | $2.1M | Year 7-8 |
+| **Bear case** (50% slower growth) | 160 | $1.0M | Year 9-10 |
+| **Bull case** (enterprise + revenue streams) | 450 + $2M ARR | $5.5M | Year 5-6 |
+| **Stretch case** (fast enterprise adoption) | 500 + $3M ARR | $8M | Year 5 |
+
+**Marcus's likely question**: "What's the worst case?"
+
+**Response**:
+> "Worst case: 50% slower growth. 160 customers in Year 5, $1M EBITDA. We'd need 9-10 years to hit $10M. But the business is still viable — unit economics work at any scale. The $150K cash buffer covers us for 10-12 months even at slow growth. We'd adjust by slowing marketing spend, potentially reducing my salary temporarily, but we wouldn't shut down."
+
+### Day 60 Financial Slide Structure
+
+**What to put on the slide**:
+1. Three numbers (35 customers break-even, $900/mo revenue, $10M by Year 7-8)
+2. Customer acquisition curve (Year 1: 30, Year 2: 60, Year 3: 120, Year 4: 200, Year 5: 320)
+3. EBITDA curve (Year 1: $50K, Year 3: $778K, Year 5: $2.1M, Year 7-8: $10M)
+4. One sentence: "Mid-market focus first 2 years, enterprise push Year 3-4, diversified revenue by Year 5."
+
+**What NOT to put on the slide**:
+- Every assumption (put in appendix)
+- Sensitivity tables (too complex for presentation)
+- Detailed cash flow (Marcus can ask for this separately)
+- $10M by Year 5 (without caveat — it will trigger immediate skepticism)
+
+### Pre-Day 60 Checklist for Steven
+
+Before the day 60 presentation, Steven must confirm with Marcus:
+1. [ ] "Is my salary coming from Optimizer AI or Hader for the first 6 months?" — Changes break-even by 4-6 months
+2. [ ] "How much cash is available for Year 1?" — $80K (lean), $150K (moderate), $300K (aggressive)
+3. [ ] "What's Kham's weekly availability for the orientation robot build?" — Changes timeline by 2-4 weeks
+4. [ ] "Is external investment an option if growth is slower than modeled?" — Backup plan for cash runway
+
+**These questions must be answered BEFORE day 60.** If Steven presents a financial model without knowing these inputs, Marcus will lose confidence immediately.
+
+### One-Page Financial Summary for Marcus
+
+**The Optimizer AI Financial Model — One Pager**
+
+| Metric | Year 1 | Year 3 | Year 5 | Year 7-8 |
+|--------|--------|--------|--------|----------|
+| Customers | 30 | 120 | 320 | 600+ |
+| ARR | $324K | $1.56M | $3.89M | $7M+ |
+| EBITDA | $50K | $778K | $2.1M | $10M |
+
+**Three levers to hit $10M faster**:
+1. Enterprise pricing ($3K+/mo for large RTOs)
+2. New revenue (AI courses, consulting)
+3. Faster growth (more sales + marketing spend)
+
+**Cash needed**: $80-150K for Year 1 (depends on whether Steven's salary comes from Optimizer AI or Hader)
+
+**Break-even**: 35 customers (month 8-14, depending on funding model)
+
+**Unit economics**: LTV:CAC 5-7x, payback 3.4 months
+
+**Key risk**: Customer acquisition slower than modeled. Mitigation: Marcus's network + consultant referrals + lean operations.
+
+### Actions for Steven
+
+- [ADDED] Confirm Marcus's funding model inputs before day 60 (4 questions above) — by June 7, 2026
+- [ADDED] Prepare 3-number summary for Marcus (35 customers, $900/mo, $10M by Year 7-8) — by June 28, 2026
+- [ADDED] Prepare responses to 4 Marcus pushbacks (listed above) — by June 28, 2026
+- [ADDED] Prepare responses to 3 Kham technical questions (listed above) — by June 28, 2026
+- [ADDED] Build risk-adjusted model (bear/bull/stretch scenarios) — by June 28, 2026
+- [ADDED] Create one-page financial summary for Marcus — by June 28, 2026
+- [ADDED] Practice financial presentation with Kham first (dry run) — by June 21, 2026
+
+**Sources**:
+- B2B SaaS financial modeling: a16z.com/saas-metrics (2026)
+- Stakeholder communication: hbr.org/presenting-financial-data (2026)
+- Marcus context: CEO of Australian Vet Group, numbers-focused, sets aggressive targets
+- Kham context: Technical lead, recent ASQA audit experience, cautious about timelines
+
+---
+
+*End of Cycle 61 refinement. Gap filled: Marcus/Kham pushback prep, three-number summary, risk-adjusted model, stakeholder-specific messaging.*
