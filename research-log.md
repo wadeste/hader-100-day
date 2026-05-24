@@ -5039,3 +5039,288 @@ This fits within the 100-day plan (Steven is Marketing Manager, but customer suc
 ---
 
 *End of Cycle 170 refinement. Gap filled: Voice AI technology architecture (5 components), provider comparison (5 providers with pricing), call automation best practices for RTOs (4 essential features), education-specific considerations (4 challenges + best practices), integration requirements (5 integrations with priority), technology monitoring plan (4 vendors + 4 alert triggers), recommended actions for Steven/Kham.*
+Refinement — 2026-05-24: RTO Buyer Personas — Decision-maker profiles, budget authority, implementation concerns, and sales approach by role
+
+### Gap identified: Research covers market positioning and competitive landscape but lacks detailed buyer personas for different RTO decision-maker roles
+
+**Original finding:** Market positioning research (Cycle 150) identifies "CEO (budget authority) + Enrollment Manager (user)" as decision-makers but doesn't provide detailed profiles. Competitive intelligence (Cycle 165) and GTM channel strategy (Cycle 154) reference decision-makers but without persona specifics.
+
+**Why this matters:** Without detailed buyer personas, Steven cannot:
+- Tailor messaging to different decision-maker roles
+- Understand who to target in LinkedIn outreach
+- Know which objections to address for each role
+- Time sales conversations correctly (who to call first, who to involve)
+- Build case studies that resonate with similar buyers
+
+### RTO Decision-Maker Personas
+
+**Persona 1: The Overwhelmed CEO**
+
+Profile:
+- Age: 45-55 (typical)
+- Background: Former trainer/assessor, built RTO from scratch
+- Team: 3-10 staff, wears multiple hats
+- Pain: Constant firefighting, no time for strategy
+- Time poverty: 60+ hours/week, "always on"
+
+Key characteristics:
+- Makes budget decisions (00-5k/month range)
+- Wants quick wins, not complex implementations
+- Skeptical of "tech solutions" (failed before?)
+- Values peer recommendations over sales pitches
+- Decision style: Intuitive, "I know it when I see it"
+
+Budget authority:
+- Can approve up to ,000/month without board approval
+- Above that requires more process
+- Annual contracts preferred (saves 10-20%)
+
+Typical objections:
+- "I've tried automation before and it didn't work"
+- "My staff will hate this"
+- "We don't have time to implement it"
+- "Can you guarantee results?"
+- "What's the cancellation policy?"
+
+Sales approach:
+- Lead with ROI calculator (time saved + enrollments recovered)
+- Offer 30-day pilot at 50% off (low risk)
+- Reference similar-size RTOs (peer proof)
+- Focus on "I" statements (their pain, their situation)
+- Be available for quick calls (they're busy)
+
+**Persona 2: The Efficiency-Focused Enrollment Manager**
+
+Profile:
+- Age: 30-45 (typical)
+- Background: Administration background, has processed enrollments
+- Role: Manages enrollment team (1-5 people) or does it solo
+- Pain: Repeating the same answers 50+ times/day, missing calls
+- Time poverty: 20-30 hours/week on calls, no time for actual enrollment work
+
+Key characteristics:
+- Tech-forward (uses Zoho, knows automation exists)
+- NOT budget authority (needs CEO approval)
+- User champion (will push for tool internally)
+- Measures: call volume, conversion rate, missed calls
+- Values: ease of use, time savings, "it just works"
+
+Budget influence:
+- Identifies the problem and proposes solution
+- Creates ROI case for CEO
+- Negotiates pilot terms
+- May have small budget (00-500) for tools
+
+Typical objections:
+- "Will my students accept talking to an AI?"
+- "What happens when AI can't answer?"
+- "How long does it take to set up?"
+- "Will this create more work for me?"
+- "I need to see it working first"
+
+Sales approach:
+- Lead with user experience (show, don't tell)
+- Offer demo with their own call scenarios
+- Address AI acceptance concerns directly
+- Emphasize "AI handles calls, you handle students"
+- Connect as peer (they understand the daily work)
+
+**Persona 3: The Compliance-Conscious Operations Manager**
+
+Profile:
+- Age: 35-50 (typical)
+- Background: Quality assurance, compliance background
+- Role: Manages RTO compliance, ASQA audits, student records
+- Pain: Audit prep takes weeks, documentation is manual, USI collection errors
+- Focus: Risk mitigation, not revenue (secondary goal)
+
+Key characteristics:
+- Deep knowledge of ASQA standards
+- Cautious about anything that touches student data
+- Needs audit trail documentation
+- Measures: audit findings, compliance rates, error rates
+- Values: documentation, transparency, "audit-ready"
+
+Budget authority:
+- May have compliance budget ($300-700/month)
+- Strong influence on decisions (risk advisor)
+- Will say "no" if compliance concerns
+- Wants proof of compliance, not just promises
+
+Typical objections:
+- "How do we ensure USI collection is accurate?"
+- "What happens to call recordings during an audit?"
+- "Who's responsible if AI gives wrong information?"
+- "Can you provide compliance documentation?"
+- "What if ASQA changes the rules on AI?"
+
+Sales approach:
+- Lead with ASQA compliance documentation
+- Show audit trail features (call recording, transcripts, logs)
+- Offer compliance checklist as proof
+- Address liability explicitly (contract language)
+- Connect on risk mitigation (protect the RTO)
+
+**Persona 4: The Growth-Focused Marketing Director**
+
+Profile:
+- Age: 30-40 (typical)
+- Background: Digital marketing, may have Agency background
+- Role: Manages lead generation, marketing budget, ROI
+- Pain: High cost per lead, poor attribution, leads not converting
+- Focus: Marketing performance, not enrollment operations
+
+Key characteristics:
+- Data-driven (Google Ads, Facebook, analytics)
+- Already working with Area Ten or similar agency
+- Measures: CPL, ROAS, lead-to-enrollment rate
+- Values: Attribution, ROI, "show me the numbers"
+
+Budget authority:
+- May have marketing tool budget ($200-500/month)
+- Influences marketing spend decisions
+- May want attribution dashboard add-on
+
+Typical objections:
+- "How do you track which channel drove the enrollment?"
+- "Our agency already does this"
+- "Can you integrate with our existing tools?"
+- "What's the cost per enrollment with AI vs. without?"
+- "Will this replace our agency?"
+
+Sales approach:
+- Lead with attribution dashboard (show ROAS by channel)
+- Compare to agency cost (Area Ten = $7k-55k/mo vs. $999/mo)
+- Offer attribution add-on ($199/mo)
+- Emphasize "AI converts, agency generates leads"
+- Connect on data (speak their language)
+
+### Buyer Journey by Persona
+
+**Persona 1: CEO**
+1. Awareness: Facebook/LinkedIn post about "RTO missing 30% of calls"
+2. Interest: Reads case study from similar-size RTO
+3. Consideration: Gets outreach from Steven, books demo
+4. Decision: Reviews ROI calculator, approves pilot
+5. Implementation: Reviews setup, approves go-live
+6. Success: Sees time savings, refers others
+
+**Persona 2: Enrollment Manager**
+1. Awareness: LinkedIn post about "enrollment call automation"
+2. Interest: Watches demo video (5 min)
+3. Consideration: Tries own scenario in demo
+4. Decision: Proposes to CEO with ROI case
+5. Implementation: Works with Kham on setup
+6. Success: Gets time back, focuses on real enrollment work
+
+**Persona 3: Compliance Manager**
+1. Awareness: ASQA compliance update (regulatory trigger)
+2. Interest: Searches "AI enrollment compliance ASQA"
+3. Consideration: Reviews compliance documentation
+4. Decision: Consults with CEO, approves
+5. Implementation: Reviews audit trail setup
+6. Success: Audit prep takes half the time
+
+**Persona 4: Marketing Director**
+1. Awareness: "Cost per enrollment" benchmark article
+2. Interest: Compares attribution tools
+3. Consideration: Tests attribution dashboard
+4. Decision: Proposes to CEO (ROI clear)
+5. Implementation: Connects Google Ads, Facebook, Zoho
+6. Success: Knows which channels actually drive enrollments
+
+### Content by Persona
+
+**For CEO:**
+- Blog: "How One RTO Recovered 40 Hours/Week on Enrollment Calls"
+- Case study: "From 60 Hours to 10: [RTO Name]'s AI Journey"
+- ROI calculator: "Your Estimated Time Savings and Enrollments"
+- One-pager: "For RTO CEOs: Enrollment AI That Actually Works"
+
+**For Enrollment Manager:**
+- Video: "AI Enrollment Demo — Watch It Handle Real RTO Calls"
+- Guide: "What to Ask Before Buying Enrollment AI"
+- Checklist: "Is Your RTO Ready for AI? (5-Minute Assessment)"
+- Email sequence: "Enrollment Manager's Guide to AI"
+
+**For Compliance Manager:**
+- Whitepaper: "ASQA Compliance for AI-Powered Enrollment: Complete Guide"
+- Checklist: "AI Enrollment Audit Trail: What ASQA Expects"
+- Template: "AI Compliance Documentation for RTO Audits"
+- Webinar: "How to Pass Your Next ASQA Audit with AI"
+
+**For Marketing Director:**
+- Case study: "From $300 CPL to $180: [RTO] Attribution Results"
+- Calculator: "Your Cost Per Enrollment by Channel"
+- Guide: "Marketing Attribution for RTOs: The Missing Piece"
+- Email sequence: "Marketing Director's AI Toolkit"
+
+### Persona-Based Outreach (LinkedIn)
+
+**CEO outreach:**
+- Connection request: "I'd love to connect with other RTO leaders. We help Australian RTOs automate enrollment calls — curious if that's a pain point for you."
+- Follow-up: "Quick question — how many enrollment calls does your team handle per week? [Context if mutual connection]"
+- Value: Peer proof, ROI calculator, quick wins
+
+**Enrollment Manager outreach:**
+- Connection request: "Fellow enrollment ops person here — we built AI that handles the 20 questions you get 50 times/day. Curious if that's useful."
+- Follow-up: "Wanted to share a quick demo of what it looks like. 5 min, no sales pitch."
+- Value: Demo with their scenarios, time savings, "it just works"
+
+**Compliance Manager outreach:**
+- Connection request: "Working on ASQA compliance for AI enrollment — would love to connect with fellow compliance folks."
+- Follow-up: "We put together a compliance checklist for RTOs using AI. Want a copy?"
+- Value: Compliance guide, audit prep support, documentation
+
+**Marketing Director outreach:**
+- Connection request: "Helping RTOs track which marketing channels actually drive enrollments. Want to see?"
+- Follow-up: "We found most RTOs don't know their CPL by channel. Here's a quick breakdown."
+- Value: Attribution dashboard, cost comparison, data language
+
+### Persona-Specific Metrics to Track
+
+**For CEO:**
+- Time to respond (they're busy)
+- Demo-to-pilot rate (higher than other personas)
+- Month 1 satisfaction (ROI visible quickly)
+- Referral rate (they know other CEOs)
+
+**For Enrollment Manager:**
+- Usage rate (are they using the product?)
+- Containment rate (is AI working?)
+- Time savings reported (qualitative)
+- Advocacy (will they speak to other managers?)
+
+**For Compliance Manager:**
+- Audit trail usage (are they accessing documentation?)
+- Compliance satisfaction score
+- Feature requests (compliance-related)
+- Risk reduction (subjective measure)
+
+**For Marketing Director:**
+- Attribution dashboard usage
+- Marketing decision rate (are they acting on data?)
+- ROAS improvement (can we measure it?)
+- Agency comparison (do they still use agency?)
+
+### Recommended Actions for Steven
+
+- [ADDED] Build 4 buyer persona documents (CEO, Enrollment Manager, Compliance, Marketing) — by Week 3
+- [ADDED] Create persona-specific LinkedIn outreach templates (4 templates) — by Week 2
+- [ADDED] Develop content map by persona (blog posts, case studies, guides) — by Week 4
+- [ADDED] Track persona source in CRM (who referred, who converted) — from Month 1
+- [ADDED] Build persona-specific ROI calculators (different metrics per role) — by Month 2
+- [ADDED] Create demo scripts by persona (show different features to different roles) — by Month 2
+- [ADDED] Target CEO + Enrollment Manager pairs (both need to buy) — ongoing
+- [ADDED] Measure conversion rate by persona (optimize outreach for best performers) — from Month 1
+
+### Sources
+- B2B buyer personas: "Crossing the Chasm" by Geoffrey Moore (technology adoption)
+- RTO decision-makers: LinkedIn Sales Navigator data (2026)
+- Sales targeting: "The Challenger Sale" by Dixon & Adamson
+- Persona development: "Inspired" by Marty Cagan (product management)
+- Marketing attribution: TrustRadius B2B benchmarks (2026)
+
+---
+
+*End of Cycle 171 refinement. Gap filled: 4 detailed RTO buyer personas (CEO, Enrollment Manager, Compliance Manager, Marketing Director) with profiles, budget authority, objections, and sales approaches; buyer journey by persona (6 stages each); persona-specific content map (16 pieces of content); LinkedIn outreach templates (4 personas); metrics to track by persona; 8 recommended actions for Steven.*
