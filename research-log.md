@@ -6720,3 +6720,293 @@ IMPORTANT RULES:
 *End of research log. All topics researched and refined. Cycle 108 complete.*
 
 ---
+
+## Refinement — 2026-05-24 (Cycle 113): Customer Success Program Deep Dive — Onboarding, Health Scoring, and Retention
+### Gap identified: Research provides customer acquisition strategy and LTV calculations but lacks specific customer success program design, onboarding sequences, health scoring, and retention tactics
+
+**Original finding**: Multiple sections reference "customer success program" as a retention mechanism (Cycle 97 KPIs, Cycle 111 churn mitigation, Cycle 112 compliance). However, research lacks:
+- Customer onboarding sequence and milestone checkpoints
+- Customer health scoring methodology
+- Quarterly Business Review (QBR) agenda and content
+- Customer education and training programs
+- NPS improvement tactics
+- Expansion revenue trigger identification
+
+**Why this matters**: LTV:CAC research showed churn destroys economics. At 3% monthly churn, LTV:CAC is barely 2x. At 1% monthly churn, it's 6x. Every 1% reduction in monthly churn is worth ~$15,000 in LTV per customer (Growth tier). Customer success is the highest-ROI investment after sales.
+
+### Customer Onboarding Sequence
+
+**Onboarding timeline** (first 30 days):
+
+| Day | Milestone | Owner | Success criteria |
+|-----|-----------|-------|------------------|
+| 1 | Welcome email + calendar invite | Steven | Email opened, meeting scheduled |
+| 2 | Kickoff call (60 min) | Steven | Alignment on goals, success metrics defined |
+| 3-5 | Technical setup | Kham | VAPI routing, Zoho sync, test calls |
+| 7 | Go-live call | Steven + Kham | AI live, first real calls |
+| 14 | 2-week review | Steven | Containment rate >60%, issues resolved |
+| 21 | Training refresh | Steven | Staff comfortable with escalation |
+| 30 | 30-day checkpoint | Steven | Full metrics review, case study initiated |
+
+**Onboarding checklist** (for each customer):
+- [ ] Kickoff call completed (goals documented)
+- [ ] Technical setup verified (test calls successful)
+- [ ] Staff trained on AI handling (training recorded)
+- [ ] Escalation path confirmed (Marcus/primary contact)
+- [ ] First week: No critical issues
+- [ ] 30-day metrics reviewed
+- [ ] Case study permission obtained (or defer)
+- [ ] Next 90-day goals set
+
+**Onboarding documentation** (deliver to customer):
+1. Welcome guide (PDF, 10 pages)
+2. Quick reference card (AI handling, escalation)
+3. Metrics dashboard access
+4. Contact list (support, success manager)
+5. FAQ document
+
+### Customer Health Scoring
+
+**Health score methodology** (100-point scale):
+
+| Factor | Weight | Score criteria |
+|--------|--------|----------------|
+| Product usage | 0-30 | 30: >80% call capacity used; 15: 40-80%; 0: <40% |
+| Containment rate | 0-20 | 20: >75%; 10: 60-75%; 0: <60% |
+| Support tickets | 0-15 | 15: 0 tickets; 10: 1-2; 5: 3-5; 0: >5 |
+| Engagement | 0-15 | 15: Monthly calls; 10: Quarterly; 0: Ad-hoc only |
+| Contract status | 0-10 | 10: Annual; 5: 3-month; 0: Monthly |
+| Expansion signals | 0-10 | 10: Asked about upgrades; 5: Engagement signals; 0: None |
+
+**Health categories**:
+| Score | Category | Color | Action |
+|-------|----------|-------|--------|
+| 80-100 | Healthy | Green | Maintain, identify expansion |
+| 60-79 | At risk | Yellow | Monthly outreach, proactively address |
+| 40-59 | Unhealthy | Orange | Bi-weekly outreach, escalate to founders |
+| 0-39 | Critical | Red | Immediate intervention, executive outreach |
+
+**Health score triggers** (automatic alerts):
+- Containment drops below 60%: Yellow alert
+- Containment drops below 50%: Red alert + immediate call
+- No calls in 7 days: Yellow alert
+- Support ticket open >48 hours: Yellow alert
+- Contact not engaged in 60 days: Orange alert
+- NPS detractor (<7): Orange alert + review call
+
+### Quarterly Business Review (QBR) Agenda
+
+**QBR structure** (90 minutes):
+
+**Section 1: Value Realization (30 min)**:
+- Metrics review: Containment, enrollments, time saved
+- ROI calculation: Cost savings vs. subscription
+- Comparison to baseline: Before/after Optimizer AI
+- Customer feedback: What's working, what's not
+
+**Section 2: Product Updates (20 min)**:
+- New features since last QBR
+- Roadmap preview (next 6 months)
+- Early access opportunities
+- Beta testing interest
+
+**Section 3: Expansion Planning (20 min)**:
+- Usage analysis: Are they hitting tier limits?
+- Feature gaps: What's missing for their needs?
+- Upsell opportunities: Next tier, add-ons
+- Case study status: Any new stories to share?
+
+**Section 4: Strategic Alignment (20 min)**:
+- Business updates: What's changing for them?
+- Support needs: Training, technical, strategic
+- Partnership opportunities: Referrals, references
+- Next 90-day goals and commitments
+
+**QBR deliverables** (within 48 hours):
+1. Meeting notes
+2. Updated metrics (slide deck)
+3. Action items (owner + due date)
+4. Proposal (if expansion discussed)
+
+**QBR frequency by tier**:
+| Tier | Frequency | Owner |
+|------|-----------|-------|
+| Starter | Quarterly | Steven |
+| Growth | Quarterly + ad-hoc | Steven |
+| Scale | Monthly + Quarterly QBR | Customer Success |
+
+### Customer Education Program
+
+**Training content** (free for customers):
+
+| Content | Format | Duration | Frequency |
+|---------|--------|----------|-----------|
+| AI handling basics | Video | 10 min | New customer |
+| Escalation best practices | Video | 15 min | New customer |
+| Advanced features | Webinar | 30 min | Monthly |
+| Optimization tips | Newsletter | 5 min read | Monthly |
+| Case study sharing | Blog | 3 min read | Quarterly |
+
+**Training delivery**:
+- **New customer**: 3 videos (welcome series, days 1-3)
+- **Monthly webinar**: "Optimizer AI Tips & Tricks" (last Tuesday, 12pm)
+- **Newsletter**: "RTO AI Insider" (monthly, curated content)
+- **Office hours**: 30-min drop-in (bi-weekly, Steven available)
+
+**Certification program** (Scale tier):
+- "Optimizer AI Certified Admin" for customer staff
+- Test: 20 questions (online, 30 min)
+- Badge: Digital certificate + LinkedIn
+- Benefit: Faster support escalation, beta access
+
+### NPS Improvement Tactics
+
+**NPS collection process**:
+- Timing: 30 days post-go-live, then quarterly
+- Method: 1-question survey ("How likely to recommend? 0-10")
+- Follow-up: 5-min call for detractors (<7) and promoters (>9)
+
+**NPS targets**:
+| Score | Classification | Action |
+|-------|---------------|--------|
+| 9-10 | Promoter | Ask for referral, case study |
+| 7-8 | Passive | Address any issues, convert to promoter |
+| 0-6 | Detractor | Immediate review call, escalate |
+
+**Detractor intervention playbook**:
+1. **Day 0**: Send personalized email ("We saw your feedback...")
+2. **Day 1**: Review call, identify root cause
+3. **Day 3**: Review call with customer (30 min)
+4. **Day 7**: Implement fix (if possible)
+5. **Day 14**: Follow-up NPS survey
+6. **Day 30**: Final check, document learning
+
+**Common detractor causes and solutions**:
+| Cause | Solution |
+|-------|----------|
+| Containment too low | Script optimization, AI training |
+| Staff not using correctly | Additional training, reference card |
+| Technical issues | Priority support, technical review |
+| Unmet expectations | Reset expectations, ROI recalculation |
+| Wrong tier | Upgrade/downgrade recommendation |
+
+### Expansion Revenue Identification
+
+**Expansion triggers** (watch for these signals):
+
+| Signal | Expansion opportunity | Action |
+|--------|----------------------|--------|
+| Calls >80% of tier limit | Upgrade tier | "You're almost at your limit. Want to unlock unlimited?" |
+| Asked about TAZ AI | Add TAZ Assistant | "TAZ AI is available now. Want a demo?" |
+| Multiple RTOs mentioned | White-label | "Are you looking to expand to multiple RTOs?" |
+| Referrals made | Additional seats | "Your team loves it. Anyone else to add?" |
+| New course launch | Cross-sell | "New course coming? We'll help with enrollment." |
+| Growth goals stated | Expansion | "You mentioned [goal]. Here's how we can help." |
+
+**Expansion conversation scripts**:
+
+*When customer mentions new course*:
+> "That's exciting. When you launch, we can update the AI to handle that course's specific questions. Would a 15-minute call be useful to plan that out?"
+
+*When customer asks about TAZ*:
+> "TAZ AI is our newest feature — it checks your training and assessment strategies against ASQA requirements. Since you're a Growth customer, it's $199/month add-on. Want to see how it works?"
+
+*When customer hits call limit*:
+> "I noticed you've used 85% of your monthly calls. You're on track to hit your limit. Our Scale tier gives you unlimited calls — and adds TAZ AI and white-label. Want me to send over the details?"
+
+### Customer Success Metrics
+
+**Required metrics to track**:
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Time to value | Days from signup to first ROI | <30 |
+| Onboarding completion | % finishing onboarding checklist | >90% |
+| Health score | 0-100 scale (above) | >70 |
+| NPS | Net Promoter Score | >50 |
+| Churn rate | % lost per month | <2% |
+| Expansion rate | % growing revenue | >15% |
+| QBR completion | % of customers with quarterly QBR | >80% |
+| Support ticket rate | Tickets per customer per month | <2 |
+
+**Monthly customer success report**:
+```
+Customer Success Report — [Month] 2026
+
+1. Health Overview
+- Healthy (80+): [X] customers ([X]%)
+- At Risk (60-79): [X] customers ([X]%)
+- Unhealthy (40-59): [X] customers ([X]%)
+- Critical (<40): [X] customers ([X]%)
+
+2. Churn
+- Churned this month: [X]
+- Churn rate: [X]%
+- Churned customers: [list]
+- Churn reason: [list]
+
+3. Expansion
+- Upgrades: [X] ($[X] MRR added)
+- Expansion rate: [X]%
+- Expansion MRR: $[X]
+
+4. NPS
+- Responses: [X]
+- Promoters: [X]%
+- Passives: [X]%
+- Detractors: [X]%
+- NPS score: [X]
+
+5. QBR Schedule
+- Completed: [X]
+- Scheduled: [X]
+- Overdue: [X]
+
+6. Actions for Next Month
+- [Action 1]
+- [Action 2]
+```
+
+### Customer Success Team Structure
+
+**By customer count**:
+| Customers | Team | Allocation |
+|-----------|------|------------|
+| 1-10 | Steven (part-time) | 20% |
+| 11-25 | Customer success (FT) | 100% |
+| 26-50 | Customer success (1) + SDR (1) | 100% each |
+| 51-100 | CS manager + 2 CS + 1 onboarding | 100% each |
+
+**Customer success responsibilities**:
+- Onboarding coordination
+- Health monitoring
+- QBR scheduling and execution
+- Expansion identification
+- Detractor intervention
+- NPS management
+
+### Recommended Actions for Steven
+
+- [ADDED] Create onboarding checklist (Google Doc) — by June 7, 2026
+- [ADDED] Build health score dashboard in Zoho — by June 14, 2026
+- [ADDED] Draft QBR template (slide deck) — by June 14, 2026
+- [ADDED] Create customer training videos (3 videos) — by July 2026
+- [ADDED] Set up NPS survey (Typeform or similar) — by July 2026
+- [ADDED] Schedule monthly office hours — from July 2026
+- [ADDED] Build expansion trigger alerts in Zoho — by August 2026
+- [ADDED] First QBR with Hader (post-30 days) — by August 2026
+- [ADDED] Target NPS >50 within 90 days of first external customer — by Q4 2026
+- [ADDED] Target <2% monthly churn by end of Year 1 — by December 2026
+- [ADDED] Target 15% expansion rate (upsell) by end of Year 1 — by December 2026
+
+### Sources
+- Customer success: Gainsight, Totango (2026)
+- Health scoring: CS Insider, ClientSuccess (2026)
+- NPS benchmarks: Delighted, Wootric (2026)
+- Onboarding best practices: WalkMe, Intercom (2026)
+- QBR templates: SaaStr, ClientSuccess (2026)
+
+---
+
+*End of Cycle 113 refinement. Gap filled: Customer onboarding sequence (30-day checklist), health scoring methodology (100-point, 4 categories), QBR structure (90-min agenda), customer education program (videos, webinars, certification), NPS improvement tactics (detractor intervention playbook), expansion revenue triggers, customer success metrics dashboard, team structure by scale.*
+
+---
