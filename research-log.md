@@ -1710,3 +1710,85 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Build scenario model: Low/Medium/High enrollment with AI uplift mapped to each
 - [ADDED] Calculate required marketing spend and time to reach 1,000/month under each scenario
 
+
+## Refinement — 2026-05-24
+### Gap identified: Organic leads strategy missing specific content topics, SEO keywords, and backlink strategy
+
+**Original finding**: "Primary keywords to own: 'AI enrollment RTO,' 'RTO AI tools,' 'AI student enrollment Australia'" — no additional keywords, no search volume estimates, no backlink strategy.
+
+**Refined findings**:
+**Target keywords with priority and difficulty**:
+| Keyword | Difficulty | Volume Est. | Priority | Content Type |
+|---------|-----------|-------------|----------|--------------|
+| AI enrollment RTO | Low | 50-100/mo | P0 | Pillar page |
+| RTO enrollment automation | Low | 30-50/mo | P0 | Pillar page |
+| AI for RTOs | Low | 20-40/mo | P1 | Blog post |
+| RTO AI tools | Low | 40-80/mo | P1 | Comparison guide |
+| AI student enrollment Australia | Low | 20-30/mo | P1 | Blog post |
+| ASQA AI compliance | Low | 10-20/mo | P0 | Lead magnet |
+| RTO marketing automation | Medium | 30-50/mo | P2 | Blog post |
+| enrollment AI chatbot | Low | 20-30/mo | P1 | Case study |
+| voice AI for education | Medium | 30-50/mo | P2 | Technical guide |
+| AI orientation calls RTO | Low | 10-20/mo | P2 | How-to guide |
+
+**10 blog post content calendar**:
+| Month | Week | Topic | Type | Target Keyword | CTA |
+|-------|------|-------|------|----------------|-----|
+| M1 | W1 | "ASQA Compliance Guide for AI in RTO Enrollment" | Lead magnet/PDF | ASQA AI compliance | Download guide |
+| M1 | W2 | "How We Reduced Enrollment Calls by 60% at Hader Institute" | Case study | AI enrollment RTO | Demo request |
+| M1 | W3 | "What RTOs Need to Know About AI Before June 2026" | Thought leadership | AI for RTOs | LinkedIn engagement |
+| M1 | W4 | "The Complete Guide to AI-Powered RTO Enrollment" | Pillar page | RTO enrollment automation | Demo + guide |
+| M2 | W1 | "5 Ways AI Transforms RTO Student Journeys" | Educational | RTO AI tools | ROI calculator |
+| M2 | W2 | "Zoho + AI: Automating RTO Enrollment from Inquiry to Orientation" | Tutorial | enrollment AI | Free audit |
+| M2 | W3 | "Voice AI for RTOs: A Practical Implementation Guide" | How-to | voice AI for education | Demo |
+| M2 | W4 | "Marketing Attribution for RTOs: Why Your Data Is Wrong" | Educational | RTO marketing automation | Dashboard demo |
+| M3 | W1 | "RTO Staff AI Training: Preparing Your Team for AI Adoption" | Educational | AI for RTOs | Course signup |
+| M3 | W2 | "Orientation Call Automation: What to Ask, What to Capture" | Tactical | orientation AI | Script template |
+
+**Backlink strategy** (for domain authority and SEO ranking):
+| Tactic | Target | Outreach Method | Timeline |
+|--------|--------|-----------------|----------|
+| Guest post | RTO industry blogs | Email intro via Marcus network | M2-3 |
+| ASQA consultant partnerships | 3-5 ASQA consultants | Offer free compliance guide co-branding | M1 |
+| Zoho partner content | Zoho partner blogs | Join partner program → submit to partner blog | M4-6 |
+| Directory listings | 20+ Australian business directories | Batch submission | M1 |
+| Education associations | AUSPED, AAVEC | Offer article for newsletter | M2-3 |
+| Local VET networks | State VET associations | Speaking slot at events | M3-4 |
+
+**Backlink outreach email template**:
+> Subject: Guest post idea: "AI Compliance Guide for RTO Enrollment"
+>
+> Hi [Name],
+>
+> I run marketing at Optimizer AI — we build AI tools for Australian RTOs (built first at Hader Institute).
+>
+> I'm writing a comprehensive guide on "ASQA Compliance for AI in RTO Enrollment" and thought it might resonate with your readers. Would you be open to a guest post exchange or sharing the guide with your network?
+>
+> No pitch — just thought this might be valuable for RTO operators.
+>
+> Happy to return the favor with a share or link.
+>
+> Thanks,
+> Steven
+
+**Content distribution matrix**:
+| Content | LinkedIn | Email list | Zoho partners | RTO networks |
+|---------|----------|------------|---------------|--------------|
+| Case study | 5,000+ views | Newsletter | Partner newsletter | Direct email |
+| Compliance guide | 3,000+ downloads | Lead magnet | Lead magnet | Lead magnet |
+| Pillar page | 2,000+ views | Blog update | — | — |
+| Tutorial | 1,500+ views | — | — | — |
+
+**SEO success metrics**:
+- Month 3: 5 keywords in top 20
+- Month 6: 10 keywords in top 10, DA 10+
+- Month 9: First organic lead
+- Month 12: 20%+ of leads from organic
+
+**Actions added**:
+- [ADDED] Build content calendar for Q1 (10 posts) — by June 14, 2026
+- [ADDED] Write ASQA compliance guide first — by June 21, 2026 (highest conversion lead magnet)
+- [ADDED] Set up Google Search Console + keyword tracking — by June 14, 2026
+- [ADDED] Identify 5 backlink targets and begin outreach — by July 2026
+- [ADDED] Track DA monthly (use Moz or Ahrefs free tools) — target DA 10+ by month 6
+
