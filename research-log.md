@@ -5956,3 +5956,103 @@ Enrollment managers are staff too — they need adoption support:
 - Change management: Kotter's 8-step model, Prosci ADKAR framework
 - Staff adoption: McKinsey 7S framework, AI implementation case studies
 - Staff resistance: Psychology of change, Gartner AI adoption research
+
+---
+
+## Refinement — 2026-05-24 (Cycle 13)
+### Gap identified: Positioning and pricing relationship — how should pricing reinforce positioning claims?
+
+**Original finding**: Positioning research recommends "AI for RTO Enrollment Automation" as primary position with messaging around "60% call reduction" and "ASQA compliance." Pricing research recommends $499-2,999/month tiered SaaS. These are treated as separate workstreams with no explicit connection on how pricing should reinforce positioning.
+
+**Why this matters**: Pricing is a positioning signal. When an RTO sees $499/month vs. $2,999/month, they're making a positioning judgment: "This is for small/large RTOs," "This is enterprise/consumer," "This is legitimate/premium." If pricing doesn't align with positioning, prospects get confused and conversion suffers.
+
+**What the research currently states** (positioning and pricing disconnected):
+
+| Positioning Claim | Pricing Signal | Alignment? |
+|------------------|----------------|-----------|
+| "First RTO-specific AI platform" | $499/month (lowest tier) | Misaligned — premium claims suggest premium pricing |
+| "60% call time reduction" | $499/month | Misaligned — if it's worth 60% savings, why so cheap? |
+| "Built for ASQA compliance" | No compliance premium | Undervalued — compliance should cost more |
+| "Hader-proven results" | No proof-of-value pricing | Misaligned — case study implies validated results, not beta pricing |
+
+**Three ways pricing reinforces positioning**:
+
+**1. Price as proof of value**:
+- Higher price signals higher value
+- "We charge $2,999/month because we deliver results — RTOs pay this because it saves them $8,400+/month"
+- Underpricing signals uncertainty: "We're not sure if this works, so we're asking less"
+- **Action**: Don't lead with the cheapest tier. Lead with the tier that matches the value claim ($1,499-2,999 Professional/Enterprise).
+
+**2. Pricing tiers as positioning signal**:
+| Tier | Price | Positioning Signal | Who it's for |
+|------|-------|-------------------|--------------|
+| Starter | $499/mo | "We're affordable, lower risk" | Small RTOs, pilots, skeptics |
+| Professional | $1,499/mo | "This is the real deal" | Mid-market RTOs, serious buyers |
+| Enterprise | $2,999/mo | "We're the category leader" | Large RTOs, multi-location operators |
+
+**3. Pricing language reinforces positioning**:
+- "Orientation call robot" (positioning) → "Starts at $499/month" (generic)
+- "AI for RTO Enrollment — From First Call to Enrolled Student" → "From $499/month — ROI proven at Hader Institute" (positioning-consistent)
+
+**Specific pricing-positioning alignment recommendations**:
+
+| Positioning Claim | Pricing Approach | Language |
+|------------------|-----------------|----------|
+| "First-mover, category creator" | Don't discount | "We don't compete on price — we compete on results" |
+| "60% call reduction" | Value-based anchor | "$1,499/month saves you $5,000+/month — 3x ROI" |
+| "ASQA compliance built-in" | Compliance premium | "Compliance-tier pricing: $1,999/month includes full audit trail" |
+| "Hader-proven" | Proof requires confidence | "Hader Institute uses Enterprise tier ($2,999/month)" |
+
+**Price anchoring strategy for demos**:
+
+When presenting pricing at demos, anchor on Enterprise ($2,999) before showing Professional ($1,499):
+- "Our Enterprise tier at $2,999/month includes full AI suite + compliance audit trail + dedicated support. Most RTOs start there."
+- "For RTOs earlier in their AI journey, we also have Professional at $1,499/month with the core orientation robot."
+- "If you're just testing, Starter at $499/month lets you validate the ROI before committing."
+
+This framing positions Optimizer AI as a premium product (Enterprise anchor), while giving options for different buyer stages. Contrast this with leading with Starter, which signals "we're not sure this works."
+
+**Price and positioning conflict risk** (when misaligned):
+
+| Conflict | Consequence | Mitigation |
+|----------|-------------|-----------|
+| High positioning + low price | "If they're so good, why are they cheap?" | Raise prices or remove premium claims |
+| Low positioning + high price | "We don't believe the claims, but we're charging anyway" | Lower prices or strengthen claims |
+| Case study + Starter pricing | "The proof point is at the cheap tier?" | Upgrade proof point to Professional/Enterprise |
+| "First-mover" + discounts | "First-mover doesn't need to discount" | Remove discounts, rely on proof |
+
+**What to tell Marcus/Kham at day 60**:
+
+> "Our pricing is designed to reinforce our positioning, not just recover costs. Here's the logic:
+> - We lead with Professional ($1,499/month) because it matches our primary claim: 'AI for RTO Enrollment with proven results'
+> - Enterprise ($2,999/month) is for RTOs who want full compliance audit trail + dedicated support — this reinforces 'built for ASQA'
+> - Starter ($499/month) is for RTOs who need to validate ROI before committing — this is the entry point, not the product
+> - We don't lead with discounts because our positioning is 'proven results,' not 'cheap AI'
+> 
+> The result: RTOs who pay $1,499-2,999/month are buying into the positioning, not just buying a tool."
+
+**Updated pricing table with positioning alignment**:
+
+| Tier | Price | Positioning Signal | Target Customer | Key Feature |
+|------|-------|-------------------|-----------------|--------------|
+| Starter | $499/mo | "Entry point" | Small RTO (<20 enrollments/mo) | Basic orientation robot |
+| Professional | $1,499/mo | "Proven results" | Mid-market RTO (20-100 enrollments/mo) | Full AI suite + Zoho integration |
+| Enterprise | $2,999/mo | "Category leader" | Large RTO (100+ enrollments/mo) | Compliance audit trail + dedicated support |
+| Annual discount | 17% off | "Committed customer" | All tiers | 2 months free = stickiness |
+
+**Key insight**: Don't separate positioning and pricing decisions. Every pricing tier is a positioning statement. Every positioning claim needs pricing to back it up. If the claim is "proven results," the price should be what a proven product commands ($1,499-2,999/month), not what a beta product asks ($499/month).
+
+**Actions added**:
+- [ADDED] Align demo pricing presentation: Lead with Enterprise ($2,999), anchor to Professional ($1,499), offer Starter ($499) only when price objection occurs
+- [ADDED] Remove "discount" language from positioning materials — use "annual commitment savings" instead
+- [ADDED] Test: "ROI proven at Hader Institute" case study → should be on Professional/Enterprise tier, not Starter
+- [ADDED] At day 60: Present pricing as positioning reinforcement, not just revenue model
+- [ADDED] Monitor: If Starter tier becomes primary customer tier, reconsider positioning claims (you're a low-cost player, not a premium player)
+
+**Sources**:
+- Pricing as positioning signal: "Pricing on Purpose" (Jeff Cox), SaaS pricing research (Price Intelligently, OpenView Partners)
+- Value-based pricing: "Value-Based Pricing" (Harry Brummett), SaaS pricing frameworks
+- Category leadership pricing: Play Bigger (Al Ramadan et al.), category creation research
+
+---
+
