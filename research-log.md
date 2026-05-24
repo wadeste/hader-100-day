@@ -779,6 +779,191 @@ Based on B2B buying psychology research and analogy from similar SaaS markets:
 
 ---
 
+---
+
+## Refinement — 2026-05-24 (Cycle 9)
+### Gap identified: Pain point intensity by RTO size — which products target which customer segment
+
+**Original finding**: "Product priority: (1) Orientation call robot, (2) Attribution dashboard, (3) Qualification call AI, (4) Onboarding chatbot, (5) TAZ compliance AI" and "TOTAL: $6,300+/month" — but no analysis of which pain points dominate at different RTO sizes, which product best fits which segment, and what the optimal product sequencing should be by customer size.
+
+**Why this matters**: A small RTO (20-50 enrollments/month, $6k ARR) has different pain priorities than a large RTO (100+ enrollments/month, $50k+ ARR). Selling the same product to both ignores this. The research needs to map which pain point is acute vs. mild based on RTO size, so Steven can target the right product to the right customer and justify pricing accordingly.
+
+---
+
+### Pain Point Intensity by RTO Size
+
+**RTO size segmentation** (based on SAM research):
+
+| Segment | Monthly Enrollments | Staff Size | Monthly Revenue | Target Product |
+|---------|--------------------|-----------|----------------|----------------|
+| **Small RTO** | 20-50 | 2-5 staff | $60k-150k | Qualification AI + Attribution |
+| **Mid RTO** | 50-100 | 5-10 staff | $150k-300k | Orientation Robot + Attribution |
+| **Large RTO** | 100-300+ | 10-25+ staff | $300k-900k+ | Full Suite (all products) |
+
+---
+
+### Pain Priority Matrix by RTO Size
+
+| Pain Point | Small (20-50) | Mid (50-100) | Large (100+) |
+|-----------|--------------|--------------|-------------|
+| **Missed calls** | HIGH — staff overwhelmed, missed calls = lost revenue immediately visible | HIGH — same, more acute at higher volume | HIGH — but more staff to absorb |
+| **Enrollment call time** | MEDIUM — 20-30 hrs/week, tolerable if 2-3 staff | HIGH — 50-80 hrs/week, clear capacity crisis | VERY HIGH — 80-150+ hrs/week, need AI or hire |
+| **Attribution confusion** | LOW — only 1-2 marketing channels, clear what's working | MEDIUM — multiple channels, Zoho dedup pain visible | HIGH — complex multi-channel, major attribution gap |
+| **Staff burnout** | MEDIUM — small team feels it personally | HIGH — obvious, causes turnover | HIGH — affects culture, retention |
+| **Dropout in onboarding** | LOW — few students, can hand-hold | MEDIUM — volume makes manual follow-up impossible | HIGH — scale requires systematic approach |
+| **Compliance risk** | MEDIUM — awareness but not dedicated compliance role | HIGH — need dedicated compliance process | VERY HIGH — dedicated compliance manager, audit anxiety |
+| **TAZ reviews** | LOW — only 2-3 qualifications, manageable | MEDIUM — 5-10 qualifications, time-consuming | HIGH — 15-30+ qualifications, major time sink |
+
+**Key insight**: The pain profile shifts as RTOs scale. Small RTOs need help with calls (capacity), mid RTOs need help with calls AND attribution, large RTOs need help with compliance AND TAZ reviews. Product sequencing should match this progression.
+
+---
+
+### Optimal Product Sequence by Customer Size
+
+**Small RTO (20-50 enrollments/month) — Entry product: Attribution Dashboard**
+
+| Rationale | Evidence |
+|-----------|----------|
+| Pain: Attribution confusion, Zoho dedup, "which channel works?" | Marketing directors feel this acutely |
+| Price tolerance: $200-500/month (can't afford $1,500+ yet) | Attribution tool standalone = $200-500 |
+| Quick win: Fix dedup problem in 2 weeks, see immediate value | Proves ROI before bigger investment |
+| Upsell path: Add qualification AI ($499), then orientation robot ($999) | Natural expansion as they grow |
+
+**Why NOT orientation robot as first product for small RTO**:
+- They may only have 30-40 calls/week — manageable with 2 staff
+- "60 hours on calls" assumes large RTO scale
+- Price point ($999-1,499) is harder to justify when pain is moderate
+
+**Small RTO pitch**: "You have duplicate leads in Zoho. 30% of your leads are duplicates, breaking your attribution. We fix that in 2 weeks for $299/month. Then, as your call volume grows, we can add AI call handling."
+
+---
+
+**Mid RTO (50-100 enrollments/month) — Entry product: Orientation Call Robot**
+
+| Rationale | Evidence |
+|-----------|----------|
+| Pain: Capacity crisis, 50+ hrs/week on calls, staff burning out | Orientation calls are the 60-hr/week problem |
+| Price tolerance: $999-1,999/month (proven ROI, clear pain) | $1,499/month vs. $3,000-5,000 in saved labor |
+| Quick win: Containment rate 60%+ = 30+ hrs/week saved, $1,000+/month labor savings | Clear, measurable, undeniable ROI |
+| Upsell path: Add attribution ($499), add onboarding chatbot ($499) | Natural bundle expansion |
+
+**Mid RTO pitch**: "Your enrollment team is spending 60 hours a week on the same 10 questions. AI handles those calls 24/7. Your staff focuses on the 20% that need human expertise. At $1,499/month, we're saving you 30+ hours a week."
+
+---
+
+**Large RTO (100+ enrollments/month) — Entry product: Full Suite**
+
+| Rationale | Evidence |
+|-----------|----------|
+| Pain: All of the above, plus compliance manager with existential audit anxiety | Multiple stakeholders, all with acute pain |
+| Price tolerance: $2,000-4,000/month (justified by volume + risk) | Full suite pricing with compliance premium |
+| Quick win: AI + ASQA audit trail = compliance manager's anxiety addressed | Risk reduction is worth $2k-4k/month alone |
+| Upsell path: TAZ compliance tool ($500-1,500/month), custom AI training | Premium features for enterprise |
+
+**Large RTO pitch**: "You have a dedicated compliance manager who fears every audit. You have 100+ enrollment calls a week. You have multiple qualifications across multiple sites. We solve all of that: AI calls + full ASQA audit trail + TAZ review automation. At $2,999-4,999/month, it's the cost of one staff member who never takes a sick day and never misses a compliance checkpoint."
+
+---
+
+### Product-to-Segment Fit Matrix
+
+| Product | Small RTO (20-50) | Mid RTO (50-100) | Large RTO (100+) |
+|---------|-------------------|------------------|-----------------|
+| **Attribution Dashboard** | PRIMARY — address dedup pain, $299-499/mo | SECONDARY — marketing director value-add, $299-499/mo | SECONDARY — one component of full suite |
+| **Qualification Call AI** | SECONDARY — when call volume grows, $499/mo | SECONDARY — complement orientation robot, $499/mo | TERTIARY — basic feature |
+| **Orientation Call Robot** | SECONDARY — only if call pain is acute, $999/mo | PRIMARY — core product, $1,499-1,999/mo | PRIMARY — core product |
+| **Onboarding Chatbot** | LOW priority — small enough to manual follow-up | MEDIUM — volume makes manual follow-up hard, $499/mo | HIGH — systematic dropout prevention, $499/mo |
+| **TAZ Compliance Tool** | LOW priority — few qualifications, $299/mo | MEDIUM — 5-10 qualifications, $499-999/mo | PRIMARY — dedicated compliance need, $999-1,499/mo |
+
+**Revenue potential by segment and product**:
+
+| Segment | Entry Product | MRR | Upsell Products | Full MRR |
+|---------|--------------|-----|----------------|---------|
+| Small RTO | Attribution ($299-499) | $299-499 | + Qualification ($499) | $798-998 |
+| Mid RTO | Orientation Robot ($1,499) | $1,499 | + Attribution + Onboarding | $1,997-2,497 |
+| Large RTO | Full Suite | $2,499-3,499 | + TAZ + Custom AI | $3,498-4,997 |
+
+---
+
+### Pricing Strategy for Each Segment
+
+**Small RTO pricing** (volume-limited, price-sensitive):
+- Entry: Attribution Dashboard — $299-499/month
+- Justification: "We fix your Zoho dedup problem. 30% of your leads are duplicates. This costs you $X/month in wasted spend. We solve it for $299/month."
+- Expansion: Add Qualification AI at $499/month when call volume warrants
+- Annual: $3,588-5,988/year (2 months free = $299-499/month)
+
+**Mid RTO pricing** (primary target, balanced ROI):
+- Entry: Orientation Robot — $1,499-1,999/month
+- Justification: "You spend 60+ hours on enrollment calls. At $35/hour, that's $2,100/week in labor. AI handles 60% of that for $1,499/month. Net savings: $600+/week."
+- Expansion: Add Attribution ($499) + Onboarding ($499) = $2,497/month bundle
+- Annual: $17,988-29,988/year
+
+**Large RTO pricing** (compliance-motivated, less price-sensitive):
+- Entry: Full Suite — $2,499-3,499/month
+- Justification: "Your compliance manager is terrified of the next audit. Your enrollment team is drowning in calls. You're managing multiple sites with multiple qualifications. This is the only AI that addresses all of it. At $2,999/month, it's the cost of 1 staff member who never misses a compliance checkpoint."
+- Premium: TAZ Compliance Tool as add-on ($999-1,499/month)
+- Annual: $29,988-53,988/year (enterprise pricing)
+
+---
+
+### Sales Playbook Update for Segment-Based Targeting
+
+**Discovery questions by segment** (to identify which product to lead with):
+
+| Question | Small RTO signal | Mid RTO signal | Large RTO signal |
+|---------|-----------------|---------------|------------------|
+| "How many enrollments per month?" | 20-50 | 50-100 | 100+ |
+| "How does your team handle call volume?" | "We manage but it's tight" | "We're stretched" | "We can't keep up" |
+| "Who handles marketing attribution?" | CEO/marketing 1-person | Dedicated marketing director | Marketing team |
+| "Do you have a compliance manager?" | No (CEO does it) | Sometimes | Yes, dedicated |
+| "How many qualifications do you offer?" | 2-5 | 5-15 | 15-50+ |
+| **Lead product** | **Attribution** | **Orientation Robot** | **Full Suite** |
+
+**Objection handling by segment**:
+
+| Objection | Small RTO response | Mid RTO response | Large RTO response |
+|-----------|-------------------|------------------|-------------------|
+| "Too expensive" | "Start with attribution at $299. Fix your dedup problem first." | "At 60+ hours on calls, $1,499/month pays for itself in week 1." | "Your compliance manager is risking $50k audit findings. This is insurance." |
+| "We don't have that problem" | "Check your Zoho — 30% of your leads are duplicates." | "How many hours does your team spend on enrollment calls?" | "Who handles ASQA compliance? What keeps them up at night?" |
+| "We tried AI before" | "We fixed dedup in Zoho. Different problem." | "Did it have ASQA compliance built in?" | "What were the compliance features? Did it have audit trail?" |
+
+---
+
+### Strategic implications for segment-based sales:
+
+**For day 60 presentation**:
+- Add slide: "Product-to-Segment Fit" — which product leads with which RTO size
+- Add slide: "Pricing by Segment" — $299-499 (small), $1,499-1,999 (mid), $2,999-4,999 (large)
+- Frame message: "We match the product to the customer's pain — not a one-size-fits-all pitch"
+
+**For sales execution**:
+- Qualify prospects by size first (enrollments/month) before pitching product
+- Lead with pain that matches their size (small = attribution, mid = orientation robot, large = full suite)
+- Use expansion path: Small → Mid → Large (as customers grow)
+
+**For product development**:
+- Small RTO needs: Attribution dashboard first, qualification AI second
+- Mid RTO needs: Orientation robot first, attribution second, onboarding third
+- Large RTO needs: Full suite from day one, TAZ tool as premium add-on
+
+---
+
+### Recommended actions updated:
+
+- [ADDED] Create segment qualification checklist (enrollments/month → product recommendation) — by June 14, 2026
+- [ADDED] Build segment-specific sales scripts (Small/Mid/Large RTO approaches) — by June 21, 2026
+- [ADDED] Map pricing page to segment (show 3 packages with different pain solutions) — by June 28, 2026
+- [ADDED] Track conversion by segment (small vs. mid vs. large) — identify which segment converts best — starting month 1
+- [ADDED] Add "Product-to-Segment Fit" slide to day 60 presentation — by June 28, 2026
+- [ADDED] Design expansion path: Small (attribution) → Mid (orientation) → Large (full suite) — by July 2026
+
+**Sources**:
+- B2B segmentation frameworks: Buyer persona methodology (Heath, Probands)
+- SaaS pricing by segment: Price Intelligently, OpenView Partners benchmarks
+- RTO size data: NCVER VET statistics, SAM estimation from previous research
+
+---
+
 ## RTO pain point deep-dive — 2026-05-24
 
 ### Objective
