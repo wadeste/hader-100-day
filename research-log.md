@@ -608,3 +608,40 @@ Research demand for AI diploma/advanced diploma courses, Social Media Marketing 
 - Note: External web search limitations; recommend primary demand research with Hader student prospects
 
 ---
+
+## Early customer discovery interviews — 2026-05-24
+
+### Objective
+Research the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers). Design interview questions around their biggest pain points and willingness to adopt AI.
+
+### Key Findings
+- **Four distinct personas identified**: RTO CEOs (budget authority), Marketing Directors (attribution pain), Enrollment Managers (call volume pain), Compliance Managers (audit risk pain) — sell to CEOs, demo to Enrollment Managers
+- **Mom Test framework is optimal**: Behavioral questions over hypothetical — "Walk me through the last call you handled yourself" reveals more than "How would AI help?"
+- **ASQA compliance is #1 objection**: Every RTO asks "will AI pass an audit?" — must address proactively with built-in checkpoints, audit trail, human escalation path
+- **Staff resistance is #2 objection**: Frame AI as "handling boring calls" not "replacing staff" — position enrollment managers as AI overseers
+- **Marcus's warm network = faster cycle**: 60-75 day sales cycle (warm) vs. 90-100 days (cold outreach)
+- **3-5 interviews reveals patterns**: Don't over-research; interview until pain points repeat
+- **Discovery = competitive intelligence**: Ask "who else approached you about AI?" to map landscape
+- **End every interview with commitment ask**: "Can we run a 2-week trial?" — goal is acquisition, not information
+
+### Strategic Implications
+- **For discovery execution**: Start with Marcus's warm network, use Mom Test behavioral questions, address ASQA compliance objection first, end with trial ask
+- **For product development**: Interview pain points become feature priorities; compliance requirements become product requirements
+- **For sales messaging**: "Built for ASQA compliance" = primary differentiator; "We built this at Hader" = proof point; "AI handles boring calls" = staff resistance handler
+- **Green flags**: Already using Zoho + Aircall (70% fit), specific complaint about missed calls (high pain), mentioning competitor interest (market validation)
+- **Red flags**: < 50 enrollments/month (too small), no CRM (no data infrastructure), "AI will never pass ASQA" (high resistance)
+
+### Recommended Actions
+- [ ] Draft full discovery interview guide with all four personas — by June 7, 2026
+- [ ] Ask Marcus for 5 warm intro candidates — by June 14, 2026
+- [ ] Complete 3-5 discovery interviews using Mom Test framework — by June 21, 2026
+- [ ] Synthesize findings into product priorities and messaging — by June 28, 2026
+- [ ] Track discovery insights in shared doc; update quarterly
+
+### Sources
+- The Mom Test (Rob Fitzpatrick) — customer discovery framework
+- Jobs-to-be-Done (JTBD) — outcome-based interviewing
+- RTO decision-maker knowledge from industry context
+- Note: Recommend primary discovery interviews as next step validation
+
+---
