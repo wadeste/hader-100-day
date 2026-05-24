@@ -5319,3 +5319,112 @@ Organic Performance Dashboard (Google Sheets + GA4 API)
 - GA4 setup: support.google.com/analytics
 - Organic-to-revenue tracking: Moz, Ahrefs content marketing guides
 - B2B SaaS SEO benchmarks: First Page Sage
+
+## Refinement — 2026-05-24 (Cycle 8)
+### Gap identified: RTO cost-per-stage quantification missing verified data and Hader-specific modeling
+
+**Why this matters**: The pain point research presents "$6,300+/month" savings at 100 enrollments/month, but these are modeled estimates, not verified from actual Hader data. Without verified numbers, the ROI story to prospects lacks specificity. Every "$6,300/month" claim needs to be traceable to actual cost-per-hour, actual call volumes, and actual staff allocation.
+
+**What the pain point research currently states**:
+- Lead capture: $6,400/month staff time
+- Qualification calls: ~$1,155/week
+- Orientation calls: $2,625/month
+- Enrollment paperwork: $1,150/month
+- Student support (month 1): $1,150/month
+
+**All of these are estimated, not verified from Hader's actual data.**
+
+**What needs to come from Hader (Marcus/Jesse)** to turn estimates into verified numbers:
+
+| Data Point | Why It's Needed | How to Get It | Priority |
+|-----------|----------------|---------------|----------|
+| Enrollment staff hourly rate | Calculate $/hour for time savings | Ask Jesse or check payroll | P0 |
+| Weekly call volume (inquiry calls) | Calculate total call time | Aircall report (last 30 days) | P0 |
+| Average call duration (minutes) | Calculate time per call | Aircall report (last 30 days) | P0 |
+| Staff hours per week on enrollment calls | Verify "60+ hrs/week" claim | Timesheet audit or staff interview | P0 |
+| Missed call rate | Calculate lost revenue | Aircall report | P1 |
+| Duplicate lead rate | Calculate attribution value | Zoho dedup report | P1 |
+| Monthly enrollment volume | Calculate AI opportunity scale | Marcus provides (any rough number) | P0 |
+| Dropout rate (day 30/60/90) | Calculate dropout recovery opportunity | Zoho enrollment data | P2 |
+
+**Estimated vs. verified: Why this distinction matters**:
+
+| Claim Type | Example | Credibility | Sales Use |
+|-----------|---------|------------|-----------|
+| Estimated | "RTOs spend $6,300/month on enrollment labor" | Medium (modeled, not verified) | Good for early-stage positioning |
+| Verified | "Hader Institute spends $5,200/month on enrollment labor (based on 45 hrs/week × $38/hr + overhead)" | High (traceable, auditable) | Required for case study |
+| Verified with benchmark | "Hader's $5,200/month is [X]% above industry average of $3,800/month" | Very High | Positions Optimizer AI as expert |
+
+**The difference in sales effectiveness**:
+- "Our AI saves you $6,300/month" → Skeptical prospect asks "how do you know?"
+- "At Hader, we reduced enrollment call time from 45 hours/week to 18 hours/week, saving $5,200/month. We can show you the same results." → Confident prospect says "tell me more."
+
+**Cost-per-stage modeling with placeholder assumptions** (for day 60 presentation, until verified data arrives):
+
+| Stage | Calculation | Estimated Cost/Month | Notes |
+|-------|-----------|---------------------|-------|
+| **Lead capture** | 200 leads × 5 min = 16.7 hrs × $38/hr | $635/month | Based on Hader assumption (not confirmed) |
+| **Qualification calls** | 150 calls × 12 min = 30 hrs × $38/hr | $1,140/month | Needs Aircall verification |
+| **Orientation calls** | 80 calls × 18 min = 24 hrs × $38/hr | $912/month | Needs Aircall verification |
+| **Enrollment paperwork** | 50 enrollments × 20 min = 16.7 hrs × $38/hr | $635/month | Based on staff interview |
+| **Student support (month 1)** | 50 students × 30 min = 25 hrs × $38/hr | $950/month | Estimated, needs tracking |
+| **TOTAL** | | **$4,272/month** | Lower than original $6,300 — needs verification |
+
+**Key discrepancy**: Original research stated $6,300+/month. Revised calculation shows $4,272/month. The gap is likely in assumed call volumes. Until Marcus provides actual data, the safe approach is to present a range: $4,000-6,300/month, with the actual number to be confirmed after Hader baseline is captured.
+
+**What to present at day 60 for ROI story**:
+
+> "Based on Hader's operations, we estimate enrollment-related labor costs at $[X]/month. Our orientation call robot reduces this by [Y]% through AI automation. Here's the breakdown: [table of stages and savings]. These numbers are based on Hader's data and can be validated with any new customer in their first 30 days."
+
+**Short-term workaround** (until Marcus provides data):
+- Use industry estimates with clear caveat: "Industry benchmark suggests RTOs spend $4,000-6,000/month on enrollment labor"
+- Build sensitivity analysis: "If your volume is 50% of Hader's, your savings would be $2,000-3,000/month"
+- Offer free "enrollment cost audit" at demo: calculate their actual number from their data
+
+**Framing for sales conversations** (using ranges until verified):
+- "Most RTOs we talk to spend $4,000-6,000/month on enrollment calls — that's about 1-2 FTE of staff time" (vague but accurate)
+- "At Hader, we reduced that by 60% — from [X] hours to [Y] hours per week" (specific, requires Marcus data)
+- "We can do the same for you — but first we need to understand your current call volume to give you an accurate savings estimate" (closes with audit offer)
+
+**Cost-per-stage calculator for use in sales** (build this as tool):
+
+| Input | Default | Customer Fills |
+|-------|---------|----------------|
+| Inquiry calls/month | 150 | [slider: 20-500] |
+| Avg call duration (minutes) | 12 | [slider: 5-30] |
+| Staff hourly rate ($) | $38 | [input: default $38] |
+| Duplicate lead rate (%) | 25% | [slider: 10-40] |
+| Missed call rate (%) | 20% | [slider: 5-40] |
+
+| Output | Calculation | Value |
+|--------|-----------|-------|
+| Time spent on calls/month | calls × duration / 60 | X hrs |
+| Staff cost for calls/month | X hrs × $38/hr | $Y |
+| Cost of missed calls (est.) | missed% × calls × avg enrollment value ($3,000) | $Z |
+| Total enrollment labor cost | $Y + $Z | $[A] |
+| AI savings at 60% containment | 60% × $[A] | $[B] |
+| Optimizer AI cost | Based on tier | $[C] |
+| Net monthly savings | $[B] - $[C] | $[D] |
+
+**What this means for the day 60 deliverable**:
+
+The ROI story at day 60 should present a "conservative estimate" based on industry benchmarks, with explicit caveats:
+- "Estimated savings: $4,000-6,000/month based on industry data + Hader's preliminary numbers"
+- "Verified savings: To be confirmed in first 30 days of POC at any new customer"
+- "The orientation call robot pays for itself in 3-6 months based on conservative estimates"
+
+This approach is honest, defensible, and creates urgency for the customer audit (which becomes the sales close mechanism).
+
+**Actions added**:
+- [ADDED] Get actual data from Marcus: staff hourly rate, weekly call volume, call duration — by June 7, 2026
+- [ADDED] Run Aircall report (last 30 days) to verify call volume and duration — by June 14, 2026
+- [ADDED] Run Zoho dedup report to verify duplicate rate — by June 14, 2026
+- [ADDED] Build enrollment cost calculator (Google Sheets) for use at demos — by June 21, 2026
+- [ADDED] Update "$6,300/month savings" claim to "$4,000-6,000/month (estimated)" until verified — by day 60
+- [ADDED] Offer "free enrollment cost audit" at every demo — calculate their actual number from their data — by June 28, 2026
+- [ADDED] Track actual savings from Hader POC to validate estimates — ongoing post-day 60
+
+**Sources**:
+- Hader baseline data: Pending from Marcus/Jesse
+- Industry benchmarks: Australian VET sector estimates
+- Cost calculator framework: B2B SaaS ROI tools (Gong, Chorus)
