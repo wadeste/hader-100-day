@@ -7331,3 +7331,241 @@ Marcus will likely ask 5 questions every update. Have answers ready:
 
 *End of Cycle 59 refinement. Gap filled: Community services qualification expansion research — market size, competitors, AI opportunity.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 60)
+### Gap identified: Day 60 and Day 100 deliverable structure missing consolidated checklist and presentation outline
+
+**Original finding**: Multiple refinements outline day 60 deliverable structure (9 sections) and day 100 plan requirements (market positioning, product roadmap, GTM strategy, financial model, KPIs). Missing: consolidated checklist for what must be in each deliverable, specific slide structure for presentation, and what "done" looks like for each deliverable.
+
+**Why this matters**: Steven is preparing for two major deliverables — day 60 (12-24 month strategy) and day 100 (100-day plan). Without a consolidated checklist and presentation outline, it's unclear what goes in each, what order to present it, and when each is due. The current research has 59 refinement cycles of content, but no single place that says "here's exactly what your day 60 and day 100 deliverables should contain."
+
+### Consolidated Deliverable Timeline
+
+| Deliverable | Due date | Audience | Format | Confidence target |
+|-------------|----------|----------|--------|-------------------|
+| **Day 60: 12-24 Month Strategy** | June 28, 2026 (35 days from today) | Marcus + Kham | Presentation (9 slides, 45-60 min) | Medium-High |
+| **Day 100: 100-Day Plan** | August 7, 2026 (75 days from today) | Marcus + Kham | Full strategic document (20+ pages) | High |
+
+### Day 60 Presentation — 9-Slide Structure
+
+**Slide 1: Executive Summary (1 page)**
+- Problem: RTOs lose 40-60% of inquiries due to missed calls and manual processes
+- Solution: AI-powered enrollment automation (orientation call robot, TAZ tool, attribution)
+- Market: TAM $50-100M, SAM $21M, no verified voice AI competitors (May 2026)
+- Traction: Building at Hader, Marcus's warm leads identified
+- Ask: Approve technical architecture (VAPI), resource commitment (Kham hours), timeline
+
+**Slide 2: Market Sizing with Confidence Levels**
+| Metric | Estimate | Confidence | Validation needed |
+|--------|----------|------------|-------------------|
+| TAM | $50-100M/year | Low-Medium | Requires market survey |
+| SAM | $21M/year | Medium | ICP validation |
+| SOM (Year 5) | $2-4M/year | Low | First customer data |
+
+- Bear case: $2M EBITDA by Year 5 (slow adoption)
+- Base case: $3M EBITDA by Year 5 (moderate adoption)
+- Bull case: $5M EBITDA by Year 5 (fast adoption + enterprise pricing)
+- $10M EBITDA: Year 7-8, not Year 5
+
+**Slide 3: Product Roadmap (4 products)**
+| Product | Build priority | Timeline | Pricing |
+|---------|---------------|----------|---------|
+| Orientation call robot | P0 | Start June 7, go-live July 21 | $499-1,999/mo |
+| TAZ review tool | P1 | Start Sept 2026 | $199-799/mo |
+| Attribution dashboard | P2 | Start Oct 2026 | $299-1,199/mo |
+| Student retention AI | Future | Start Month 6-9 | $199-399/mo |
+
+- Orientation robot: 7-8 weeks to go-live, VAPI + GPT-4o + Zoho
+- TAZ tool: 6-7 weeks after orientation robot
+- Attribution: 10-12 weeks (more complex integration)
+- Retention AI: Month 6-9 (post-orientation robot validation)
+
+**Slide 4: Pricing and Unit Economics**
+- Tiers: Starter ($499), Growth ($999), Scale ($1,999)
+- Annual discount: 20%
+- COGS: $25-55/mo (negligible)
+- Gross margin: 89-99%
+- LTV:CAC: 5-7x
+- Payback period: 3-4 months
+- Churn target: <3%/month
+
+**Slide 5: GTM Strategy (4 channels, phased)**
+| Phase | Channel | Timeline | Target |
+|-------|---------|----------|--------|
+| Phase 1 (Days 1-60) | Marcus's network | Start June 1 | 5-10 warm leads, 2-3 customers |
+| Phase 2 (Days 31-90) | RTO consultant referrals | Start July 1 | 3-5 consultants, 2-4 referrals |
+| Phase 3 (Days 61-120) | LinkedIn outbound | Start Aug 1 | 50-100 messages/week, 2-3 customers |
+| Phase 4 (Month 4+) | Content/SEO + conferences | Start Sept 1 | 20% organic leads by month 12 |
+
+- Conference target: RTO Connect Forum (June/July 2026)
+- Partner strategy: Zoho marketplace certification (6 months)
+
+**Slide 6: Financial Model (Realistic Path)**
+| Year | Customers | Revenue | EBITDA |
+|------|-----------|---------|--------|
+| Year 1 | 30-45 | $324K-540K | -$50K |
+| Year 2 | 60-80 | $648K-864K | +$100K |
+| Year 3 | 100-120 | $1.08M-1.44M | +$400K |
+| Year 5 | 200-320 | $2.4M-3.8M | +$2M |
+| Year 7-8 | 400-500 | $5M-6M | +$10M |
+
+- Break-even: Month 7-10
+- Customer acquisition: 2-3/month Year 1, scaling to 15/month Year 5
+- Cash runway needed: $50-60K for 6 months
+
+**Slide 7: Implementation Timeline (7-8 weeks to go-live)**
+| Week | Focus | Milestone | Owner |
+|------|-------|-----------|-------|
+| Week 1 (June 7-14) | Script design, VAPI setup | Hader course list received | Steven + Kham |
+| Week 2-3 (June 14-28) | Platform testing, Zoho integration | First test call (June 21) | Kham |
+| Week 4-5 (June 28-July 5) | Parallel run with human | Zoho sync working | Kham |
+| Week 6-7 (July 5-19) | QA, ASQA compliance check | Go-live July 21 | Steven + Kham |
+| Week 8 (July 21-28) | Full AI handling | First metrics August 11 | Steven |
+
+- Critical path: Zoho integration (weeks 3-5)
+- Blockers: Hader course list (June 7), VAPI vs. Twilio decision (June 7), Kham hours available (June 7)
+
+**Slide 8: Team and KPIs**
+| Role | Owner | Key metrics |
+|------|-------|-------------|
+| Marketing Manager | Steven | MRR, leads, content, pipeline |
+| Technical lead | Kham | Product milestones, build timeline |
+| CEO (sales) | Marcus | Warm leads, decision-maker access |
+
+- Primary KPIs: MRR, new MRR, churn MRR, customers, CAC
+- Secondary KPIs: Leads, discovery calls, demo rate, close rate
+- Operational KPIs: Content published, email list, website traffic
+
+**Slide 9: Key Risks and Mitigations**
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Kham unavailable | Medium | High | Confirm hours by June 7, have fallback plan |
+| Competitor enters | Medium | Medium | First-mover advantage, build switching costs |
+| Cash runway | Medium | High | $50-60K needed, Marcus's network first |
+| ASQA compliance | Low | Very High | Build compliance from day 1, audit-ready |
+| AI quality issues | Medium | Medium | 10% sample QA, human escalation available |
+
+### Day 100 Plan — Full Document Structure (20+ pages)
+
+**Section 1: Executive Summary (1 page)**
+- Where we are today
+- Where we're going (12-24 month vision)
+- What we accomplished in first 60 days
+- What we need to execute next 100 days
+
+**Section 2: Market Analysis (2-3 pages)**
+- TAM/SAM/SOM with confidence levels
+- Competitive landscape (no verified voice AI competitors)
+- Market trends (AI adoption in RTOs accelerating)
+- Regulatory environment (ASQA enforcement, APP compliance)
+
+**Section 3: Product Strategy (3-4 pages)**
+- Orientation call robot: Build, test, launch
+- TAZ review tool: Build timeline
+- Attribution dashboard: Build timeline
+- Student retention AI: Future plans
+- Technical architecture: VAPI + GPT-4o + Zoho
+
+**Section 4: Go-To-Market Strategy (3-4 pages)**
+- Channel strategy (4 channels phased)
+- First-customer playbook (ICP, deal stages, demo script, proposal)
+- Partner strategy (Zoho, consultants, associations)
+- Content and SEO plan (90-day calendar, keywords)
+
+**Section 5: Financial Model (2-3 pages)**
+- Revenue model (pricing tiers, unit economics)
+- Path to $10M EBITDA (realistic, Year 7-8)
+- Cash flow model (18 months)
+- Customer acquisition targets by year
+
+**Section 6: Team and Operations (2-3 pages)**
+- Roles and responsibilities
+- Reporting cadence (weekly, monthly, quarterly)
+- Internal tools and systems
+- Critical path and blockers
+
+**Section 7: 100-Day Execution Plan (3-4 pages)**
+- Week-by-week milestones
+- Day 1-30: Foundation
+- Day 31-60: Build momentum
+- Day 61-100: Scale and validate
+- KPIs and success metrics
+
+**Section 8: Appendix (2-3 pages)**
+- Full research log summary (key findings)
+- Source documentation
+- Detailed financial model
+- Competitive analysis
+- Legal and compliance notes
+
+### What "Done" Looks Like
+
+**Day 60 deliverable (presentation) — "Done" means:**
+- [ ] 9 slides completed (executive summary, market, product, pricing, GTM, financial, timeline, team, risks)
+- [ ] All numbers have confidence levels (not point estimates)
+- [ ] $10M EBITDA framed as Year 7-8, not Year 5
+- [ ] No verified voice AI competitors mentioned (Study Buddy exited)
+- [ ] Technical architecture approved (VAPI confirmed with Kham)
+- [ ] Implementation timeline realistic (7-8 weeks to go-live)
+- [ ] Marcus's warm leads list received and action plan in place
+- [ ] Key decisions needed from Marcus/Kham are explicit
+
+**Day 100 plan (full document) — "Done" means:**
+- [ ] All 8 sections complete
+- [ ] 20+ pages of structured content
+- [ ] Specific timelines and milestones
+- [ ] KPIs with targets and measurement cadence
+- [ ] First-customer playbook with templates
+- [ ] Financial model with assumptions documented
+- [ ] Approved by Marcus and Kham
+
+### Key Decisions Needed at Day 60
+
+1. **Approve VAPI + GPT-4o architecture** — Kham confirms, meets APP compliance
+2. **Commit Kham hours** — How many hours/week for orientation robot build?
+3. **Approve financial model** — Marcus/Kham understand $10M is Year 7-8, not Year 5
+4. **Confirm warm lead list** — Marcus provides 5-10 warm leads by June 7
+5. **Approve RTO consultant referral program** — 20% commission, Steven to build
+
+### Day 60 Presentation Timing
+
+- Start: June 28, 2026 (Day 60)
+- Duration: 45-60 minutes
+- Attendees: Steven + Marcus + Kham
+- Format: 9 slides, discussion after each section
+- Output: Decisions made, actions confirmed, 100-day plan kickoff
+
+### Day 100 Plan Timing
+
+- Draft complete: July 28, 2026 (Day 90)
+- Review with Marcus: July 31-August 4, 2026
+- Final delivery: August 7, 2026 (Day 100)
+- Format: 20+ page document + presentation
+- Output: Approved plan with milestones, KPIs, resource requirements
+
+### Actions for Steven
+
+- [ADDED] Build day 60 presentation (9 slides as outlined above) — by June 28, 2026
+- [ADDED] Confirm VAPI decision with Kham before building slides — by June 7, 2026
+- [ADDED] Get Marcus's warm lead list before building slides — by June 7, 2026
+- [ADDED] Update $10M EBITDA framing (Year 7-8, not Year 5) — by June 28, 2026
+- [ADDED] Add competitor slide: "No verified voice AI competitors (May 2026)" — by June 28, 2026
+- [ADDED] Create day 100 plan outline (8 sections, 20+ pages) — by July 7, 2026
+- [ADDED] Draft day 100 plan sections 1-4 (exec summary, market, product, GTM) — by July 14, 2026
+- [ADDED] Draft day 100 plan sections 5-8 (financial, team, 100-day execution, appendix) — by July 21, 2026
+- [ADDED] Review day 100 plan with Marcus (30-min session) — by July 31, 2026
+- [ADDED] Finalize day 100 plan based on feedback — by August 5, 2026
+- [ADDED] Deliver day 100 plan — August 7, 2026
+
+**Sources**:
+- Day 60 deliverable structure: Consolidated from 59 refinement cycles
+- Day 100 plan structure: Industry best practices for strategic plans
+- Financial model: Cycle 31 and Cycle 39 refinements
+- Competitor verification: Live check May 24, 2026
+
+---
+
+*End of Cycle 60 refinement. Gap filled: Consolidated day 60 and day 100 deliverable checklists with presentation outlines, timing, and "done" criteria.*
+
