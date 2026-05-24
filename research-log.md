@@ -4504,3 +4504,179 @@ Use when: Decision maker needs internal approval.
 ---
 
 *End of Cycle 167 refinement. Gap filled: Objection handling scripts (8 common objections with responses), demo script (60-minute flow with problem validation, product demo, ROI calculation, close), proposal template (full proposal with pricing, ROI, next steps), close techniques (6 techniques with when to use), follow-up sequences (2 sequences, 5+ touch points each), recommended actions for execution.*
+
+## Refinement — 2026-05-24 (Cycle 168): Product Roadmap Deep Dive — Feature Prioritization Framework, Build vs. Buy Decisions, and Technical Debt Management
+
+### Gap identified: Research has product recommendations (Enrollment AI, TAZ AI, Attribution) but lacks feature prioritization framework, build vs. buy decisions, and technical debt management approach
+
+**Original finding**: "Proof of concept design" covers POC metrics and pilot structure. "AI skill packages" covers product lines. But neither provides the prioritization framework for which features to build when, how to decide build vs. buy, and how to manage technical debt.
+
+**Why this matters**: Steven's $100k base + 1% equity means he's incentivized to help Kham prioritize efficiently. A clear roadmap prevents wasted engineering time on low-impact features while missing high-impact ones. Build vs. buy decisions affect time-to-market and cost. Technical debt compounds and slows future development.
+
+### Feature Prioritization Framework
+
+**Prioritization criteria (score each feature):**
+
+| Criterion | Weight | Score (1-5) | Notes |
+|-----------|--------|-------------|-------|
+| Revenue impact | 30% | How much does this increase ACV or reduce churn? |
+| Customer demand | 20% | How many customers asked for this? |
+| Competitive necessity | 20% | Will we lose deals without this? |
+| Implementation effort | 15% | How many engineer-weeks? |
+| Technical debt risk | 15% | Does this add debt or reduce it? |
+
+**Score = (Revenue × 0.3) + (Demand × 0.2) + (Competition × 0.2) + (Effort inverted × 0.15) + (Debt inverted × 0.15)**
+
+### Prioritized Feature Roadmap
+
+**Q3 2026 (Now - September):**
+
+| Feature | Score | Revenue Impact | Effort | Priority | Rationale |
+|---------|-------|----------------|--------|----------|-----------|
+| Orientation booking | 4.8 | High (+$500/mo per customer) | 2 weeks | P0 | Highest ROI, clear demand |
+| USI collection | 4.5 | Medium (required for compliance) | 1 week | P0 | ASQA requirement |
+| SMS confirmations | 4.2 | Medium (reduces no-shows) | 1 week | P0 | Quick win, high impact |
+| Zoho dedup | 4.0 | High (data quality) | 2 weeks | P1 | Prevents downstream issues |
+| After-hours coverage | 3.8 | High (missed calls) | 2 weeks | P1 | Core value prop |
+
+**Q4 2026 (October - December):**
+
+| Feature | Score | Revenue Impact | Effort | Priority | Rationale |
+|---------|-------|----------------|--------|----------|-----------|
+| Attribution dashboard | 4.3 | Add-on ($199/mo) | 6 weeks | P1 | New revenue stream |
+| Call analytics | 3.9 | Retention (insights) | 3 weeks | P2 | Stickiness |
+| Multi-call routing | 3.7 | Enterprise deals | 4 weeks | P2 | Scale tier differentiator |
+| Compliance logging | 3.5 | ASQA audit support | 2 weeks | P1 | Moat building |
+
+**Q1 2027 (January - March):**
+
+| Feature | Score | Revenue Impact | Effort | Priority | Rationale |
+|---------|-------|----------------|--------|----------|-----------|
+| TAZ AI (draft generation) | 4.6 | New product line | 8 weeks | P1 | Major revenue expansion |
+| Cross-RTO benchmarking | 3.8 | Retention + sales | 4 weeks | P2 | Data flywheel |
+| Policy monitoring | 3.5 | Add-on demand | 3 weeks | P2 | Stickiness |
+| API access (for partners) | 3.3 | Partner channel enable | 6 weeks | P2 | Partner scaling |
+
+### Build vs. Buy Decision Framework
+
+**Decision matrix:**
+
+| Factor | Build | Buy/Integrate | Notes |
+|--------|-------|---------------|-------|
+| **Core to value prop** | Yes (build) | No | If it IS your product, build it |
+| **Differentiating** | Yes (build) | No | If it creates moat, build it |
+| **Commodity/non-core** | No (buy) | Yes | Don't reinvent wheel |
+| **Time to market** | Slow (build) | Fast (buy) | If urgent, buy |
+| **Customization needs** | High (build) | Low (buy) | If you need deep control, build |
+| **Engineering capacity** | Limited (buy) | Available (build) | Opportunity cost |
+
+**Build decisions:**
+- Enrollment call handling (core product, differentiating)
+- USI collection (compliance, must be accurate)
+- ASQA documentation (moat, competitors can't copy quickly)
+- Orientation booking logic (domain expertise)
+
+**Buy/Integrate decisions:**
+- SMS delivery (Twilio, MessageBird — commodity)
+- Analytics/reporting (Metabase, Looker — existing tools)
+- Phone infrastructure (VAPI, Twilio — already using)
+- Email delivery (SendGrid, Postmark — commodity)
+
+**Hybrid decisions:**
+- Zoho integration: Build custom hooks, buy base CRM
+- Call recording storage: Buy S3, build retrieval UI
+- AI model: Buy API (VAPI), build RTO-specific prompts
+
+### Build vs. Buy by Feature
+
+| Feature | Decision | Rationale | Timeline |
+|---------|----------|-----------|----------|
+| Orientation booking | BUILD | Core to RTO enrollment AI | Q3 2026 |
+| USI collection | BUILD | Compliance, must be accurate | Q3 2026 |
+| SMS confirmations | BUY (Twilio) | Commodity, easy integration | Q3 2026 |
+| Zoho integration | BUILD + BUY | Build hooks, buy base CRM | Q3 2026 |
+| Attribution dashboard | BUILD | Differentiator, custom to RTO | Q4 2026 |
+| Call analytics | BUY (Metabase) | Non-core, commodity reporting | Q4 2026 |
+| TAZ AI | BUILD | Core to TAZ product line | Q1 2027 |
+| Policy monitoring | BUY + BUILD | Buy RSS feed, build alerts | Q1 2027 |
+| Voice AI (core) | BUY (VAPI) | Infrastructure, not differentiating | Already |
+
+### Technical Debt Management
+
+**Technical debt definition:**
+Quick fixes that work now but slow future development (hardcoded values, missing tests, outdated dependencies, manual processes that should be automated).
+
+**Debt categories:**
+
+| Category | Example | Cost | Priority |
+|----------|---------|------|----------|
+| **Critical** | Security vulnerabilities | System failure | P0 — fix immediately |
+| **High** | Missing test coverage | Slow deployment | P1 — fix before new features |
+| **Medium** | Hardcoded config | Not scalable | P2 — fix during related work |
+| **Low** | Outdated documentation | Confusion | P3 — fix during refactors |
+
+**Debt tracking approach:**
+1. **Debt log** (shared doc or Notion)
+   - Description, impact, estimated fix time
+   - Updated weekly during sprint planning
+   - Reviewed monthly
+
+2. **"Boy scout rule"** (Kham's approach)
+   - Leave code cleaner than you found it
+   - During any feature work, fix related debt
+   - No intentional debt accumulation
+
+3. **Dedicated debt sprints** (if needed)
+   - Every 2-3 months, 1 week sprint dedicated to debt
+   - Focus on P1 issues slowing deployment
+   - Not P2/P3 (those fix during normal work)
+
+**Current debt assessment:**
+
+| Debt Item | Category | Impact | Fix Effort | Priority |
+|-----------|----------|--------|-------------|----------|
+| No automated tests | High | Slow deployment | 2 weeks | P1 |
+| Hardcoded pricing | Medium | Can't A/B test | 1 day | P2 |
+| Manual deploys | High | Risk + slow | 2 days | P1 |
+| Missing error logging | High | Hard to debug | 3 days | P1 |
+| Outdated API docs | Low | Confusion | 1 day | P3 |
+
+### Sprint Planning Framework
+
+**2-week sprint structure:**
+- Week 1: Feature development
+- Week 2: Testing, deployment, debt work
+
+**Sprint planning rules:**
+1. Max 2 P0 features per sprint (critical fixes only)
+2. Include 1-2 P1 debt items in every sprint
+3. Leave 20% capacity for unplanned (bug fixes, customer issues)
+4. Review velocity weekly
+
+**Sprint review (end of sprint):**
+- What shipped?
+- What didn't ship? (and why)
+- What's the debt created?
+- What should we prioritize next sprint?
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Score all pending features using framework (above) — by Week 2
+- [ADDED] Create debt log (shared doc) — by Week 1
+- [ADDED] Fix P1 debt (automated tests, manual deploys, error logging) — by Month 2
+- [ADDED] Set build vs. buy criteria for each new feature request — ongoing
+- [ADDED] Review sprint velocity weekly — ongoing
+- [ADDED] Include debt work in every sprint planning — ongoing
+- [ADDED] Schedule dedicated debt sprint Q4 2026 (if P2/P3 debt accumulates) — by Month 9
+- [ADDED] Review roadmap quarterly with Steven (align with GTM) — ongoing
+
+### Sources
+
+- Feature prioritization: "Inspired" by Marty Cagan (PM product discovery)
+- Build vs. buy: Gartner technology decisions framework (2025)
+- Technical debt: "Working Effectively with Legacy Code" by Michael Feathers
+- Sprint planning: Scrum methodology (scrumguides.org)
+
+---
+
+*End of Cycle 168 refinement. Gap filled: Feature prioritization framework (5 criteria with weights), prioritized roadmap (Q3 2026 - Q1 2027), build vs. buy decision matrix (5 factors), specific decisions for each product feature, technical debt categories and management approach, current debt assessment (5 items), sprint planning framework, recommended actions for Steven/Kham.*
