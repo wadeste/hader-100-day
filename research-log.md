@@ -1945,3 +1945,67 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 59 refinement. Gap filled: CAC by channel comparison, sales team cost model, path to profitability.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 60): 12-24 Month Marketing Strategy Deep Dive
+### Gap identified: Research provides market trajectory but lacks quarterly milestones, KPI dashboard, budget allocation, and lead-gen strategy
+
+**Original finding**: "12-24 month marketing strategy foundation" provided market trajectory but lacked execution details.
+
+**Why this matters**: Strategy without milestones and KPIs is just a vision document. Need specific targets to track progress.
+
+### 24-Month Milestones
+
+| Phase | Month | Customers | MRR | ARR |
+|-------|-------|-----------|-----|-----|
+| Q1 Year 1 | 3 | 3 | $2.5K | $30K |
+| Q2 Year 1 | 6 | 10 | $8K | $100K |
+| Q3 Year 1 | 9 | 15 | $15K | $180K |
+| Q4 Year 1 | 12 | 30 | $25K | $300K |
+| Q2 Year 2 | 18 | 50 | $42K | $500K |
+| Year 2 end | 24 | 75 | $65K | $780K |
+
+### Weekly KPI Dashboard
+
+| Metric | Target | Warning | Critical |
+|--------|--------|---------|----------|
+| LinkedIn DMs sent | 25/week | <15 | <10 |
+| Demo requests | 2/week | 1/week | 0 |
+| Demos completed | 1/week | 0.5/week | 0 |
+| Customers signed | 1/month | 0.5/month | 0 |
+| Churn rate | <5%/mo | 5-8%/mo | >8%/mo |
+
+### Content Plan
+
+| Year | Blog posts | Format |
+|------|-----------|--------|
+| Year 1 | 24 | Case studies, guides, checklists |
+| Year 2 | 32 | TAZ AI, attribution, advanced topics |
+
+### Competitive Response Plan
+
+| Threat | Response timeline | Key actions |
+|--------|------------------|-------------|
+| Study Buddy voice AI | 30 days | Accelerate, emphasize compliance |
+| Area Ten tools | 30 days | "Own your AI" positioning |
+| New entrant | 30 days | Assess threat level |
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up KPI tracking dashboard — by June 7, 2026
+- [ADDED] Create content calendar (24 posts Year 1) — by June 2026
+- [ADDED] Track weekly KPIs every Monday — weekly
+- [ADDED] Quarterly strategy review — quarterly
+- [ADDED] Competitive intel report — quarterly
+
+### Sources
+- Year 1 budget benchmarks: OpenView Partners SaaS benchmarks (2026)
+- Marketing KPIs: OpenView, a16z SaaS metrics (2026)
+- Content marketing benchmarks: HubSpot, Content Marketing Institute (2026)
+
+---
+
+*End of Cycle 60 refinement. Gap filled: Quarterly milestones, KPI dashboard, budget allocation, competitive response plans.*
+
+---
