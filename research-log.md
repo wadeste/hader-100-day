@@ -3624,3 +3624,169 @@ Based on B2B SaaS benchmarks and education vertical:
 - Government funding: qld.gov.au/skills-training, nsw.gov.au/smartandskilled, vic.gov.au/freetafe (2026)
 - AI course market data: LinkedIn Learning, Google Trends (2026)
 - Competitor AI courses: chisholm.edu.au, tafensw.edu.au, upskilled.edu.au (2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 42)
+### Gap identified: Early customer discovery missing interview framework with ASQA-specific questions, decision-maker mapping, and discovery synthesis process
+
+**Original finding**: "Early customer discovery interviews — Research the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers). Design interview questions around their biggest pain points and willingness to adopt AI." Previous research created discovery questions but missing ASQA-specific questions, decision-maker hierarchy, and synthesis process.
+
+**Why this matters**: Discovery interviews are the first real customer feedback loop. Need specific ASQA questions to qualify compliance pain, decision-maker map to identify buying committee, and synthesis process to convert interviews into actionable product/sales insights.
+
+### ASQA-Specific Discovery Questions
+
+**Compliance pain questions (qualifies TAZ tool interest)**:
+1. "When was your last ASQA audit? What did they look at?"
+2. "What's your biggest compliance challenge — TAZ reviews, assessment validation, or something else?"
+3. "How long does a TAZ review take your team? Who does it?"
+4. "Have you ever failed an ASQA audit or received a non-compliance finding? What was it about?"
+5. "How do you currently track when TAZs need to be updated?"
+
+**Data and reporting questions (qualifies attribution interest)**:
+1. "Do you know which marketing channel drives your best enrollments?"
+2. "How do you currently track leads from first touch to enrollment?"
+3. "If Google Ads drove 30 enrollments last month, how confident are you in that number?"
+4. "What's your current marketing attribution tool? What does it miss?"
+
+**Call volume questions (qualifies orientation robot interest)**:
+1. "How many inquiry calls do you get per week? What's the average call length?"
+2. "Who answers calls now — is it your enrollment team, admin, or do you use voicemail?"
+3. "What happens to calls outside business hours — after 5pm or on weekends?"
+4. "If you could answer every call without adding staff, would that help? What's stopping that now?"
+
+**AI readiness questions (qualifies overall fit)**:
+1. "Have you tried any AI tools before? What worked, what didn't?"
+2. "What's your team's attitude toward AI — excited, skeptical, or neutral?"
+3. "Who would be the champion for AI adoption? Who would push back?"
+4. "What's your timeline for making a decision on new tools — this month, this quarter, or later?"
+
+### Decision-Maker Mapping for RTO Sales
+
+**Buying committee by RTO size**:
+
+| Role | Small RTO (20-50 students) | Mid-market (50-200) | Enterprise (200+) |
+|------|----------------------------|---------------------|-------------------|
+| **Decision-maker** | CEO/Owner | CEO or Marketing Director | CEO + CFO + Compliance |
+| **Champion** | Owner (often does sales) | Enrollment Manager | Operations Manager |
+| **Influencer** | Partner/spouse | Admin team lead | IT/Tech lead |
+| **User** | Owner (answers calls) | Enrollment staff | Call center team |
+| **Approver** | Owner | CEO | Committee/Board |
+
+**How to identify decision-maker**:
+- "Who makes the final decision on technology purchases over $500/month?"
+- "Is this something you can approve yourself, or do you need to check with someone else?"
+- "Who else would be affected by this decision?"
+
+**Objection from non-decision-maker**:
+- "I love the product but need to run it by [CEO/board] first"
+- Mitigation: Ask upfront, qualify decision-maker before demo
+
+### Discovery Interview Synthesis Process
+
+**Post-interview documentation (within 24 hours)**:
+1. **Pain intensity score** (1-10): How bad is the problem?
+2. **Budget confirmed**: Do they have $500-2,000/mo for AI tools?
+3. **Timeline**: When do they want to start?
+4. **Champion strength**: Will they actively sell internally?
+5. **Competitive mentions**: What tools are they evaluating?
+6. **Red flags**: Price sensitivity, no decision-maker access, anti-AI sentiment
+
+**Synthesis template**:
+
+```
+## Interview Summary: [Company] — [Date]
+### Attendees
+- [Name], [Role] (decision-maker/champion/user)
+
+### Pain Points (prioritized)
+1. [Pain 1] — [Intensity: 9/10] — [Evidence: specific quote]
+2. [Pain 2] — [Intensity: 7/10] — [Evidence: specific quote]
+3. [Pain 3] — [Intensity: 5/10] — [Evidence: specific quote]
+
+### Budget
+- Confirmed: $[amount]/mo
+- Hesitant: $[amount]/mo budget, not sure if AI is priority
+- No budget: "We don't have budget for new tools this year"
+
+### Timeline
+- "ASAP" → Ready to close in 2-4 weeks
+- "Next month" → Ready to close in 4-8 weeks
+- "Later this year" → Nurture, check in quarterly
+- "No timeline" → Low priority, remove from active pipeline
+
+### Champion Strength
+- Strong (will actively promote internally): High confidence close
+- Medium (likes it but won't push): Follow-up with decision-maker directly
+- Weak (no internal buy-in): Push to get decision-maker in next call
+
+### Competitive Landscape
+- Mentioned: [Competitor] — [What they said]
+- Mentioned: [Competitor] — [What they said]
+- "Not looking at anything else" → Green field
+
+### Red Flags
+- "We tried AI before and it failed"
+- "My boss is skeptical of AI"
+- "Budget is $199/mo max"
+- "We have a committee decision process"
+
+### Next Steps
+- [ ] Action item 1
+- [ ] Action item 2
+- [ ] Schedule [follow-up call/demo/proposal] — [date]
+```
+
+### Discovery-to-Sales Pipeline Flow
+
+1. **Discovery interview completed** → Score leads (see below)
+2. **High-score lead** (pain 8+, budget confirmed, timeline <90 days) → Schedule demo
+3. **Medium-score lead** (pain 6+, timeline 90+ days) → Nurture sequence
+4. **Low-score lead** (pain <6, no budget, no timeline) → Reclaim and move on
+
+**Lead scoring rubric**:
+
+| Score | Pain | Budget | Timeline | Champion | Action |
+|-------|------|--------|----------|----------|--------|
+| 9-10 | 8+ | $1K+/mo | <30 days | Strong | Demo now |
+| 7-8 | 7+ | $500+/mo | <90 days | Medium-strong | Demo within 2 weeks |
+| 5-6 | 5+ | $300+ | 3-6 months | Weak-medium | Nurture, content |
+| 3-4 | <5 | <$300 | >6 months | None | Reclaim |
+| 1-2 | None | None | None | None | Remove from pipeline |
+
+### Discovery Interview Best Practices (2026)
+
+**Before the call**:
+- Research company (LinkedIn, website, ASQA listing)
+- Find mutual connection (LinkedIn 2nd degree)
+- Prepare personalized opening ("I noticed you're running [course type]...")
+- Send calendar invite with 3 pre-read questions
+
+**During the call**:
+- Record (with permission) for later review
+- Take notes in real-time
+- Ask "tell me more about that" when pain mentioned
+- Don't pitch until pain is fully qualified
+- Close with: "Based on what you've told me, I think we can help with [specific pain]. Next step?"
+
+**After the call**:
+- Send summary email within 24 hours
+- Confirm next steps and timeline
+- Add to CRM with all scores and notes
+- Schedule follow-up at end of call, not later
+
+### Actions for Steven
+
+- [ADDED] Prepare ASQA-specific discovery questions (5 questions per pain area) — by June 7, 2026
+- [ADDED] Create decision-maker map template (by RTO size) — by June 7, 2026
+- [ADDED] Build post-interview synthesis template (6 sections) — by June 7, 2026
+- [ADDED] Score all discovery leads (9-10 = demo now, 5-6 = nurture, 1-2 = remove) — ongoing
+- [ADDED] Record discovery calls (with permission) for training and QA — by June 14, 2026
+- [ADDED] Send follow-up email within 24 hours of every discovery call — ongoing
+- [ADDED] Track discovery-to-close rate (target: 40% of demos from 8+ scored leads) — ongoing
+- [ADDED] Share discovery insights with Kham (product feedback loop) — by June 28, 2026
+
+**Sources**:
+- Discovery interview best practices: hubspot.com/sales/discovery-questions (2026)
+- Lead scoring frameworks: salesforce.com/blog/lead-scoring (2026)
+- RTO decision-maker mapping: industry knowledge and LinkedIn research
