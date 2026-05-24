@@ -6348,3 +6348,149 @@ Events don't work for category creation when:
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 16)
+### Gap identified: AI courses missing specific tool recommendations, student retention tactics, and delivery platform comparison
+
+**Original finding**: AI courses research identifies "AI Tools for RTO Enrollment" as the primary course, with generic "ChatGPT, Claude, Canva" as tools. No specific tool recommendations, no student retention strategy for non-accredited courses, and no delivery platform comparison for course hosting.
+
+**Why this matters**: For a non-accredited course at $299-399, the student experience (tool quality, delivery platform, retention) matters as much as the content. If the platform is clunky or the tools are outdated, students won't complete the course or recommend it.
+
+**What the research currently states**:
+- "Must-have: ChatGPT (free), Claude (free), Canva AI (free tier)"
+- "Avoid: Midjourney prompt engineering (too technical)"
+- No mention of course platform, student retention, or completion rate strategy
+
+**Specific tool recommendations for each course module**:
+
+| Module | Tool | Version | Why | Cost |
+|--------|------|---------|-----|------|
+| **1. AI Fundamentals** | ChatGPT | Free tier | Most recognizable, students already have accounts | Free |
+| **1. AI Fundamentals** | Claude | Free tier | Best for analysis, better for RTO use cases | Free |
+| **2. ChatGPT for Admin** | ChatGPT | Plus ($20/mo) | GPT-4, better outputs, advanced features | $20/mo |
+| **2. ChatGPT for Admin** | Custom GPTs | Create free | Tailored to RTO workflows, reusable prompts | Free |
+| **3. Voice AI** | VAPI (concept) | Conceptual only | No hands-on — too technical for non-technical staff | N/A |
+| **3. Voice AI** | Retell AI | Demo only | Show real voice AI, don't build — students can't integrate | Free demo |
+| **4. AI for Marketing** | Canva AI | Pro tier | AI features built into existing tool | $15/mo student |
+| **4. AI for Marketing** | Jasper | Teams ($49/mo) | Marketing copy AI, built-in templates | $49/mo |
+| **5. AI for Compliance** | Google Docs + AI | Free | Accessible, familiar, no new tool to learn | Free |
+| **5. AI for Compliance** | ChatGPT | For document review | Prompt templates for compliance review | Free |
+
+**Practical implementation note**: Don't require paid tools in a $299 course. If a module needs a paid tool, provide a free alternative or make the paid upgrade optional. Students should be able to complete the course with free tools only.
+
+**Course delivery platform comparison** (for hosting the course):
+
+| Platform | Cost | Pros | Cons | Recommendation |
+|----------|------|------|------|----------------|
+| **Teachable** | Free to $119/mo | Easy setup, student dashboard, email capture built-in | Takes 5% transaction fee on free plan | Best for first course |
+| **Thinkific** | Free to $99/mo | Same as Teachable, better course-building UX | Less brand recognition | Good alternative |
+| **Hotmart** | Free to $49/mo | Popular in Australia/LATAM, built-in marketplace | Higher fees, different audience | Not recommended |
+| **Kajabi** | $149/mo | Full platform (courses + email + CRM) | Expensive for first course | Overkill |
+| **Gumroad** | Free to $10/mo | Simple, low friction, one-course focus | No course structure, limited analytics | Not for ongoing |
+| **Custom (Webflow)** | $15/mo + build | Full control, branded experience | Requires design, no student features | Only if branding critical |
+
+**Recommendation for Optimizer AI**: Start with Teachable (free plan) for first course. Cost: 5% transaction fee on $299 = $15/customer. When course revenue exceeds $500/month, upgrade to $119/month paid plan (eliminates transaction fee).
+
+**Course completion rate strategy** (non-accredited courses have 10-30% completion rates):
+
+| Tactic | Why it works | Implementation |
+|--------|-------------|----------------|
+| **Chunk content** | 5-10 minute modules complete at higher rates | Break each module into 3-5 videos, each <10 min |
+| **Progress tracking** | Students who see progress keep going | Teachable has built-in progress bars |
+| **Email reminders** | Non-accredited courses have no deadline — people forget | Send "where you left off" email at day 3, 7, 14 |
+| **Actionable outcomes** | Students complete courses that produce visible results | "By end of Module 2, you'll have your first AI prompt for enrollment" |
+| **Community** | Accountability drives completion | Private Slack/Discord for course students |
+| **Certificate** | Completion incentive | Generate PDF certificate on course completion |
+| **Direct access to instructor** | High-touch drives completion | Steven available for 1 office hour/week |
+
+**Completion rate math**:
+- 100 students enrolled at $299
+- 30% completion rate = 30 completions
+- 30 completions × 10% SaaS conversion = 3 SaaS customers
+- 3 customers × $24,000 ARR = $72,000 ARR pipeline
+
+If completion rate improves to 50%:
+- 50 completions × 10% = 5 SaaS customers = $120,000 ARR pipeline
+
+**Student retention tactics for AI courses** (reducing drop-off):
+
+| Stage | Drop-off point | Retention tactic |
+|-------|---------------|------------------|
+| **Enrolled** | Never starts | "Welcome" email day 0, "Start here" video, day 3 reminder |
+| **Module 1** | Too overwhelming | "Start with just 10 minutes" framing, simple first task |
+| **Module 2** | Too technical | Simplify prompts, provide copy-paste templates |
+| **Module 3** | Sees no value | Show real AI output vs. manual output comparison |
+| **Module 4** | Loses interest | "AI for Marketing" is most immediately useful — move up in curriculum |
+| **Module 5-6** | Mid-course dropout | This is highest drop-off — add live Q&A, community check-in |
+| **Complete** | No follow-up | "What's next" email, invite to SaaS demo, referral ask |
+
+**Specific student onboarding sequence** (for AI course):
+
+| Day | Email/Action | Purpose |
+|-----|-------------|---------|
+| Day 0 | Welcome email + "Start here" video link | Orientation |
+| Day 0 | Access to Module 1 unlocked | Immediate action |
+| Day 3 | "How to get the most from this course" email | Engagement |
+| Day 7 | "Most students stall here" email (if no progress) | Re-engagement |
+| Day 14 | "Module 3 is where it clicks" email | Motivation |
+| Day 21 | "You're halfway — here's what's next" email | Progress check |
+| Day 30 | "Final stretch — complete and claim your certificate" | Completion push |
+| Day 45 | "Complete by [date] or access expires" | Urgency |
+| Day 60 | "Course access expired — but you're welcome back anytime" | Optional re-enroll |
+
+**Course revenue model with completion rate optimization**:
+
+| Metric | Conservative | Target | With retention tactics |
+|--------|-------------|--------|-----------------------|
+| Students enrolled/month | 5 | 10 | 10 |
+| Price | $299 | $399 | $399 |
+| Gross revenue | $1,495 | $3,990 | $3,990 |
+| Completion rate | 20% | 40% | 60% |
+| Completions | 1 | 4 | 6 |
+| SaaS conversion rate | 10% | 10% | 10% |
+| SaaS customers | 0.1 | 0.4 | 0.6 |
+| SaaS ARR pipeline | $2,400 | $9,600 | $14,400 |
+| **Total pipeline value** | **$3,895** | **$13,590** | **$18,390** |
+
+**Key insight**: Course revenue ($3,990/month) is nice, but the SaaS pipeline ($14,400/month at target with retention) is the real value. Invest in completion rate improvement (emails, community, support) because every completion = potential SaaS customer.
+
+**Platform setup checklist for AI course**:
+
+| Item | Teachable | Notes |
+|------|----------|-------|
+| Course landing page | Course sales page with video preview | Must have social proof (even 1 review) |
+| Pricing | $299 one-time OR $99/month subscription | One-time preferred for non-accredited |
+| Checkout | Stripe integration | Teachable handles this |
+| Email capture | Built-in | Export to Mailchimp for nurture |
+| Student dashboard | Teachable provides | Progress tracking built-in |
+| Video hosting | YouTube embed OR Teachable video | YouTube = free, Teachable = $25/mo |
+| Mobile | Teachable mobile app | Students can watch on mobile |
+| Analytics | Teachable analytics | Completion rates, revenue, student data |
+
+**What to tell Marcus/Kham at day 60**:
+
+> "The AI course is a pipeline generator, not a revenue product. Here's the math:
+> - Target: 10 students/month at $399 = $3,990/month course revenue
+> - With 40% completion rate and 10% SaaS conversion: 4 completions → 0.4 customers → $9,600 ARR pipeline
+> - With 60% completion rate (using retention tactics): 6 completions → 0.6 customers → $14,400 ARR pipeline
+> - That's 3.6x the course revenue in SaaS pipeline value
+> 
+> We'll invest in completion rate (emails, community, support) because every completion = potential customer. The course platform is Teachable — minimal setup cost, we can launch in 4 weeks."
+
+**Actions added**:
+- [ADDED] Use Teachable (free plan) for course platform — launch in 4 weeks
+- [ADDED] Provide free-tool-only alternative for each module (no paid tools required)
+- [ADDED] Implement 9-email student onboarding sequence (day 0-60)
+- [ADDED] Track completion rate as primary course metric (target: 40%+)
+- [ADDED] Test completion rate improvement: community vs. email reminders vs. direct support
+- [ADDED] Report course completion + SaaS conversion at monthly review
+
+**Sources**:
+- Course platforms: Teachable (teachable.com), Thinkific (thinkific.com)
+- Completion rate research: Todoist, Kajabi course completion data
+- Student retention: "The Course Formula" (Joe CZU), Course Creation Academy
+
+---
+
