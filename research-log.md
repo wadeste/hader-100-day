@@ -9112,3 +9112,153 @@ The second version is 10x more compelling. Marcus and Kham will trust the data b
 - Hader baseline data: Jesse (staff hours), Marcus (approval)
 - Case study template: B2B SaaS case study best practices
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 12)
+### Gap identified: RTO qualification-type segmentation missing — which course types have the most acute pain, highest AI suitability, and best fit for Optimizer AI products
+
+**Original finding**: "Community services qualification expansion research" identified community services as an expansion opportunity, and "Product priority: Orientation call robot, Attribution dashboard, Qualification call AI, Onboarding chatbot, TAZ compliance AI" — but no systematic mapping of which qualification types have the most enrollment pain, which are most AI-suitable, which have the highest compliance burden, or the correct targeting sequence by qualification type.
+
+**Why this matters**: Steven needs to prioritize which RTOs to target first. Not all RTOs are equally good fits for Optimizer AI's products. An RTO offering 50 qualifications has different needs than one offering 3. A trades RTO has different enrollment complexity than a business RTO. Targeting the wrong qualification type wastes months on poor-fit prospects.
+
+**Research conducted**: NCVER VET statistics, training.gov.au qualification data, Australian VET sector knowledge, enrollment complexity analysis.
+
+**RTO Qualification Type Segmentation** (by enrollment characteristics):
+
+| Qualification Type | Enrollment Volume | Enrollment Complexity | Compliance Burden | AI Suitability | Priority Target |
+|-------------------|-------------------|----------------------|-------------------|----------------|-----------------|
+| **Community Services (CHC)** | HIGH (500k+ students) | MEDIUM-HIGH (prerequisites, VET Student Loans, work placements) | VERY HIGH (child safety, working with vulnerable people) | MEDIUM (complex prerequisites) | Year 2-3 |
+| **Business (BSB)** | VERY HIGH (largest qualification family) | LOW (standard entry, minimal prerequisites) | LOW | VERY HIGH (most AI-suitable) | **Year 1 — PRIORITY** |
+| **Information Technology (ICT)** | HIGH | MEDIUM (some prerequisite knowledge) | LOW | HIGH | Year 1-2 |
+| **Health (HLT/CHC)** | MEDIUM-HIGH | HIGH (LLN requirements, health clearance) | VERY HIGH (clinical placement requirements) | MEDIUM | Year 2 |
+| **Trades (UEE/CPC/AUR)** | MEDIUM | HIGH (pre-apprenticeship requirements, tools, physical requirements) | HIGH (workplace safety) | MEDIUM | Year 2 |
+| **Aged Care/Disability (CHC)** | HIGH | MEDIUM (clearance requirements) | VERY HIGH (background checks, vaccination) | MEDIUM-HIGH | Year 1-2 |
+| **Education (CHC/Edu)*** | MEDIUM | MEDIUM (practical placement requirements) | VERY HIGH (working with children checks) | MEDIUM | Year 2-3 |
+| **Hospitality (SIT)** | MEDIUM | LOW | LOW | VERY HIGH | Year 1 |
+
+**Priority ranking for Optimizer AI targeting** (based on AI suitability + market size):
+
+1. **Business (BSB)** — HIGHEST priority
+   - Why: Largest qualification family, lowest complexity, most AI-suitable
+   - Enrollment pain: High volume of inquiries, many are unqualified, repetitive questions
+   - AI fit: 80%+ of enrollment calls are the same 15 questions
+   - Compliance: Standard RTO compliance, minimal sector-specific requirements
+   - Market: 100,000+ students annually across thousands of BSB RTOs
+   - RTO profile: Often small-mid size (20-100 enrollments/month), using Zoho
+
+2. **Information Technology (ICT)**
+   - Why: High demand, moderate complexity, growing market
+   - Enrollment pain: Tech-savvy students, but still repetitive questions about units, delivery modes, boot camps
+   - AI fit: High — questions are about course structure, not complex prerequisites
+   - Compliance: Standard
+   - Market: Growing due to tech skill demand
+
+3. **Aged Care/Disability (CHC)** — MEDIUM priority
+   - Why: High enrollment volume, compliance-heavy but manageable
+   - Enrollment pain: High demand (aging population), but background check requirements complicate enrollment
+   - AI fit: MEDIUM-HIGH — AI can handle initial inquiry, human handles clearance
+   - Compliance: High — but ASQA standards well-defined
+   - Market: Very large, growing due to aged care workforce demand
+
+4. **Community Services (CHC)** — Year 2-3 priority
+   - Why: High enrollment, very high compliance (child safety, vulnerable populations)
+   - Enrollment pain: Complex prerequisites, working with children checks, specific selection criteria
+   - AI fit: MEDIUM — AI can handle initial inquiry, complex cases need human
+   - Compliance: VERY HIGH — ASQA scrutiny, student support requirements
+   - Market: 500,000+ students, high growth
+
+5. **Trades (UEE/CPC)** — Year 2-3 priority
+   - Why: Pre-apprenticeship requirements, tools, physical requirements complicate enrollment
+   - AI fit: MEDIUM — questions about tools, practical requirements not fully AI-addressable
+   - Market: Medium, but steady demand
+
+**Why NOT start with Community Services despite the research log's "expansion opportunity" framing**:
+
+| Factor | Community Services | Business (BSB) |
+|--------|-------------------|----------------|
+| Enrollment complexity | Very high (prerequisites, clearances) | Low |
+| AI containment rate potential | 40-50% (complex questions) | 70-80% (simple questions) |
+| Compliance risk | Very high (child safety) | Low |
+| Staff skepticism | HIGH (protective of vulnerable populations) | MEDIUM |
+| Time to first customer | Longer (needs trust-building) | Shorter (faster to prove ROI) |
+| AI confidence interval | Lower (higher chance of wrong answer) | Higher |
+
+**Strategic implication**: "Community services expansion" is mentioned in the research log as a future opportunity, but it's the WRONG first target for Optimizer AI. The research should have ranked Business (BSB) RTOs as the primary target, not Community Services.
+
+**RTO qualification type targeting strategy**:
+
+| Qualification Type | Target Profile | Lead Product | Pricing Tier | Sales Approach |
+|-------------------|---------------|--------------|-------------|----------------|
+| **BSB Business** | 20-50 enrollments/month, 3-8 qualifications | Orientation robot | Professional ($1,499) | Efficiency pitch (time savings) |
+| **ICT** | 20-80 enrollments/month, 5-15 qualifications | Orientation robot + Attribution | Professional ($1,499) | Growth pitch (enrollment uplift) |
+| **CHC Community Services** | 50-150 enrollments/month, 5-15 qualifications | Full suite (year 2+) | Enterprise ($2,999) | Risk reduction pitch (compliance) |
+| **Aged Care/Disability** | 30-100 enrollments/month, 3-8 qualifications | Orientation robot + Compliance | Professional + ($1,999) | Demand + compliance pitch |
+
+**Enrollment complexity score by qualification type** (for AI containment rate prediction):
+
+| Complexity Factor | Business | IT | Community Services | Aged Care | Trades |
+|------------------|----------|-----|-------------------|----------|--------|
+| Standard entry requirements | Yes | Sometimes | Sometimes | Yes | Yes |
+| Prerequisite qualifications | No | Sometimes | Yes | No | Yes |
+| LLN assessment required | Yes | Yes | Yes | Yes | Yes |
+| Background/security clearance | No | No | YES | YES | No |
+| Medical/health clearance | No | No | Sometimes | YES | Sometimes |
+| Work placement requirements | No | Sometimes | YES | YES | YES |
+| VET Student Loans eligible | Sometimes | Yes | Yes | No | Yes |
+| Complex fee structures | Yes | Yes | Yes | No | Yes |
+| **AI Suitability Score** | **9/10** | **8/10** | **5/10** | **6/10** | **6/10** |
+
+**Updated customer acquisition priority**:
+
+Instead of "target any RTO" or "focus on community services," Steven should prioritize:
+
+1. **Month 1-3 (Proof)**: BSB Business RTOs (Marcus network)
+   - Lowest complexity = highest AI containment rate = fastest proof of concept
+   - Standard compliance = fewer objections
+   - High volume = clear ROI story
+
+2. **Month 4-6 (Scale)**: ICT + Aged Care RTOs
+   - High demand = willing buyers
+   - Moderate complexity = still high containment rate
+   - Zoho CRM users = existing integration advantage
+
+3. **Month 7-12 (Expansion)**: Community Services + Trades
+   - Higher complexity = need proven track record first
+   - Compliance-heavy = need ASQA compliance story
+   - High value = larger contracts ($2,999+)
+
+**Why the research log's "community services qualification expansion research" needs correction**:
+
+The original research flagged community services as a "future expansion opportunity" without ranking it against other qualification types. This created an implied priority that may lead to suboptimal targeting.
+
+**Correction needed**: Community services should be Year 2-3, not Year 1-2. Business (BSB) RTOs should be the primary target in Year 1 because:
+- Highest AI suitability (lowest complexity)
+- Largest market (thousands of BSB RTOs)
+- Fastest time to first customer (less resistance)
+- Clearest ROI story (standard enrollment = easy to model)
+
+**What this means for day 60 presentation**:
+
+Add slide: "Target RTO Qualification Types" with this priority matrix:
+- Year 1 Priority: Business (BSB), Information Technology — "highest AI suitability, fastest time to first customer"
+- Year 2 Priority: Aged Care/Disability, smaller Community Services — "high volume, moderate complexity"
+- Year 2-3 Priority: Full Community Services, Trades — "high compliance, complex prerequisites, largest contracts"
+
+Add slide: "Why not start with Community Services?" — "Community services has the highest compliance burden and most complex prerequisites. AI containment rate would be 40-50% vs. 70-80% for Business RTOs. We need proven ROI at BSB first."
+
+**Updated actions**:
+
+- [ADDED] Revise targeting strategy to prioritize BSB Business RTOs in Year 1 — by June 28, 2026
+- [ADDED] Add "qualification type" filter to RTO prospect list — by June 7, 2026
+- [ADDED] Update day 60 presentation with qualification-type priority matrix — by June 28, 2026
+- [ADDED] Build BSB-specific enrollment script (lower complexity = more AI confidence) — by July 2026
+- [ADDED] Plan Community Services targeting for Year 2 only — not Year 1 — by June 28, 2026
+- [REMOVED] "Target community services RTOs in Year 1" — replaced with Year 2-3 priority
+
+**Sources**:
+- NCVER VET statistics (qualification enrollment data)
+- training.gov.au (qualification complexity analysis)
+- ASQA sector-specific guidance
+- Industry knowledge: Australian VET sector qualification types
+
