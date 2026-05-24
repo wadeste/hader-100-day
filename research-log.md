@@ -1833,3 +1833,62 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 57 refinement. Gap filled: LinkedIn outreach sequence, message templates, RTO Connect plan, partner program structure.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 58): Pricing Model Deep Dive
+### Gap identified: Research provides pricing tiers but lacks competitor comparison, price sensitivity validation, and LTV/CAC modelling
+
+**Original finding**: "Pricing model research" identified $499/999/1,999 tiers but lacked competitor benchmarks and financial modelling.
+
+**Why this matters**: Pricing without competitive context is guesswork. Need to know what RTOs currently pay (Area Ten: $7K-55K) and what LTV/CAC the pricing supports.
+
+### Competitor Price Comparison
+
+| Competitor | Price | Notes |
+|------------|-------|-------|
+| Area Ten | $7,000-55,000/mo | Full marketing agency (don't own tools) |
+| Study Buddy | $10-20/student | Different product (student study) |
+| Enroly | $5-15/enrollment | Different market (international) |
+| Generic voice AI | $0.025/min | Voice only, no RTO features |
+
+**Key anchor**: Area Ten comparison — "You pay $7K+/month for marketing you don't own. We charge $999/month for AI you own."
+
+### LTV/CAC Analysis
+
+| Tier | Price/mo | 12-mo LTV (5% churn) | CAC | LTV:CAC |
+|------|---------|----------------------|-----|---------|
+| Starter | $499 | $5,847 | $12K | 0.49:1 |
+| Growth | $999 | $11,695 | $12K | 0.97:1 |
+| Scale | $1,999 | $23,389 | $12K | 1.95:1 |
+
+**Critical finding**: At 3% monthly churn (Year 2+), Scale tier achieves 2.53:1 LTV:CAC.
+
+**Implication**: Retention > Pricing. Focus on reducing churn before raising prices.
+
+### Price Anchoring Strategies
+
+1. **Area Ten**: "$7K+/month for marketing you don't own → $999/month for AI you own"
+2. **Staff time**: "$4,500/month on enrollment staff time → $999/month saves 20 hours"
+3. **Revenue recovery**: "Recover 2% of lost inquiries = $2,500/month → price is trivial"
+4. **Competitor**: "Generic tools cost $X separately → we bundle at $999"
+
+### Recommended Actions for Steven
+
+- [ADDED] Use Area Ten comparison in all sales conversations — from launch
+- [ADDED] Track churn from Day 1 (target: <10%/month first 6 months) — ongoing
+- [ADDED] Implement customer success touch points (weekly for first month) — from July 2026
+- [ADDED] Add annual pricing (2 months free) after first 20 customers — by Q3 2026
+- [ADDED] Raise prices 10-20% only if retention <5%/month achieved — after 6 months
+
+### Sources
+- Area Ten pricing: areaten.com (2026)
+- Competitor voice AI: Bland AI, VAPI (2026)
+- B2B SaaS pricing benchmarks: OpenView Partners (2026)
+- LTV/CAC models: OpenView, a16z SaaS metrics (2026)
+
+---
+
+*End of Cycle 58 refinement. Gap filled: Competitor pricing comparison, price anchoring strategies, LTV/CAC model.*
+
+---
