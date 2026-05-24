@@ -72,4 +72,5 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 210: Customer Success — Lifecycle Stages, Health Scoring, Churn Prevention
 - [x] Cycle 211: Legal Framework — MSA, DPA, SLA, AI Liability, Privacy Act
 - [x] Cycle 212: International Expansion — NZ, UK, US Market, Multi-Region Architecture
-- [ ] Cycle 213: (next topic — revisit any remaining thin areas)
+- [x] Cycle 213: Investor Strategy — AU EdTech Investors, Pitch Deck, Exit Options
+- [ ] Cycle 214: (next topic — revisit any remaining thin areas)
