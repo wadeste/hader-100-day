@@ -9769,3 +9769,113 @@ optimizer.ai | [Phone]
 - Change management: Prosci ADKAR framework, Kotter 8-step change model
 - Staff adoption: McKinsey 70-20-10 framework for AI adoption
 - Staff resistance: Change management research (Harvard Business Review)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 25)
+### Gap identified: Orientation call robot technical implementation missing — provider comparison, integration requirements, and realistic containment targets
+
+**Original finding**: "Build MVP orientation call robot at Hader — answer calls 24/7, capture lead info, schedule orientation, populate Zoho" and "Voice AI pricing: $0.002-0.05/minute (APIs), $500-2,000/month (platforms)" — no specific provider recommendation, no integration requirements, no realistic containment targets by month.
+
+**Refined findings**:
+
+**Voice AI provider comparison**:
+
+| Provider | Cost | Australian-hosted | APP Compliance | Zoho Integration | Time to Build | Recommendation |
+|----------|------|-------------------|---------------|-------------------|---------------|----------------|
+| **Twilio + Claude** | $0.021-0.045/min | Yes (Sydney) | ✅ Clear | Native API, 2-4 weeks | 4-6 weeks | **Recommended** |
+| Bland AI | $0.03-0.05/min + platform | No (US) | ❌ Risk | Via Zapier, 2-3 weeks | 2-4 weeks | Not recommended |
+| Retell AI | $0.03-0.06/min + platform | No (US) | ❌ Risk | Via webhook, 2-3 weeks | 2-4 weeks | Not recommended |
+| VAPI | $0-0.02/min (DIY) | Configurable | ✅ Possible | DIY, 8-12 weeks | 8-12 weeks | Too complex for MVP |
+
+**Recommendation**: Twilio + Claude (Australian-hosted)
+- APP compliant (data stays in Australia)
+- Full control over prompts and integration
+- Kham has technical skills to build this
+- Cost-effective at scale ($0.021-0.045/minute)
+- Faster time-to-market than VAPI
+
+**Implementation timeline** (5-6 weeks):
+
+| Week | Focus | Deliverables |
+|------|-------|--------------|
+| **Week 1** | Discovery + Scripting | Interview staff, map call flow, write 20-30 node script |
+| **Week 2** | Twilio + Claude Setup | Account, Australian number, Claude prompts, 10 test calls |
+| **Week 3** | Integration Build | Zoho lead creation, calendar scheduling, SMS confirmations |
+| **Week 4** | Compliance + Testing | USI/LLN prompts, recording, 50 test calls |
+| **Week 5** | Go/No-Go | Containment rate, quality score, Marcus sign-off |
+| **Week 6** | POC Launch | Go live, parallel testing, daily check-ins |
+
+**Call flow decision tree** (9 nodes):
+
+1. **Call Start**: Greeting, name capture
+2. **Course Interest**: Qualification question
+3. **Qualification Check**: New vs. returning (Zoho lookup)
+4. **Eligibility Screening**: Entry requirements
+5. **Fee Discussion**: ACL compliance (reference only, not quotes)
+6. **Compliance Disclosures**: USI, LLN, privacy, refund policy
+7. **Scheduling**: Orientation booking, SMS confirmation
+8. **Escalation Triggers**: Complex/sensitive calls → transfer to human
+9. **Call End**: Summary, next steps
+
+**Integration requirements**:
+
+| Component | Provider | Cost | Notes |
+|-----------|----------|------|-------|
+| Voice AI | Twilio + Claude | $0.021-0.045/min | Australian-hosted |
+| Telephony | Twilio | $0.005/call | Australian phone number |
+| CRM | Zoho | Existing | Lead creation, custom fields |
+| Calendar | Google Calendar | Free | Orientation scheduling |
+| SMS | MessageMedia | $0.08-0.12/SMS | Confirmations |
+| Hosting | AWS (Kham) | $10-20/mo | Dashboard |
+| **Monthly cost at 100 calls/day** | | **$400-600** | Negligible vs. $1,499 price |
+
+**Containment targets by month** (realistic, not optimistic):
+
+| Month | Target | Notes |
+|-------|--------|-------|
+| Month 1 | 40-50% | AI learning, more escalations, scripts being refined |
+| Month 2 | 50-60% | AI improving, staff getting comfortable |
+| Month 3 | 60-70% | AI optimized, scripts refined, staff trust high |
+| Month 6 | 70-80% | Full optimization, all common calls handled |
+
+**How to improve containment over time**:
+- Add common questions to AI script (QA review weekly)
+- Update prompts based on escalation patterns (every 2 weeks)
+- Track which calls escalate → build AI responses (monthly)
+- Add FAQ responses to AI (quarterly update)
+
+**Escalation triggers** (calls that must transfer to human):
+- "I want to complain" → Transfer immediately
+- "I'm on a student visa" → Flag for international team
+- Caller upset/distressed → Transfer immediately
+- AI confidence < 70% → Transfer mid-call
+- AI reaches 5 minutes without resolution → End call, schedule human follow-up
+
+**What this means for day 60 presentation**:
+- Technical recommendation: Twilio + Claude (Australian-hosted)
+- Implementation timeline: 5-6 weeks to POC
+- Cost to serve: $400-600/month for 100 calls/day
+- Containment targets: 40% month 1, 60% month 3 (not 60% at launch)
+- Integration: Zoho API, Google Calendar, SMS — all buildable in 2-3 weeks
+
+**What to tell Marcus/Kham**:
+> "Our technical recommendation is Twilio + Claude (Australian-hosted). APP compliant — data stays in Australia. Implementation takes 5-6 weeks. Cost is $400-600/month for 100 calls/day. Realistic containment starts at 40% in month 1 and improves to 60%+ by month 3 as we optimize the AI scripts. Let's get Kham's commitment this week."
+
+**Actions added**:
+- [ADDED] Set up Twilio account with Australian number — by Week 2 (June 14, 2026)
+- [ADDED] Configure Claude integration for voice AI — by Week 2 (June 14, 2026)
+- [ADDED] Build Zoho lead creation API integration — by Week 3 (June 21, 2026)
+- [ADDED] Build calendar + SMS integration — by Week 3 (June 21, 2026)
+- [ADDED] Run 50 test calls before POC launch — by Week 4 (June 28, 2026)
+- [ADDED] Measure actual call volume at Hader (Aircall report) — by Week 1 (June 7, 2026)
+- [ADDED] Get Kham's timeline commitment (4-6 weeks full-time or 8-12 weeks part-time?) — by June 7, 2026
+- [ADDED] Set containment targets by month: Month 1 (40-50%), Month 2 (50-60%), Month 3 (60-70%)
+
+**Sources**:
+- Twilio pricing: twilio.com/pricing (Australian hosted)
+- Claude pricing: anthropic.com/api (pricing page)
+- Zoho CRM API: zoho.com/developer (API documentation)
+- Google Calendar API: developers.google.com/calendar
+- MessageMedia pricing: messagemedia.com/pricing
+- Voice AI comparison: bland.ai, retellai.com, vapi.ai
