@@ -4,7 +4,7 @@
 
 ## Phase 1: Foundation & Market Positioning (Days 1–30)
 
-- [ ] **Optimizer AI market positioning research** — Define the category: is it AI for RTO marketing, AI for student enrollment, AI for RTO operations? Research competitors in AI-powered education tech (Study Buddy, Area Ten, EdTech AI platforms). Build a positioning matrix with clear differentiation.
+- [x] **Optimizer AI market positioning research** — Define the category: is it AI for RTO marketing, AI for student enrollment, AI for RTO operations? Research competitors in AI-powered education tech (Study Buddy, Area Ten, EdTech AI platforms). Build a positioning matrix with clear differentiation. — researched 2026-05-24
 - [ ] **RTO pain point deep-dive** — Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage (current: 60+ hrs/week on enrollment calls alone).
 - [ ] **Orientation call robot — product-market fit research** — Study existing solutions (voice AI, chatbots, call automation) in the education sector. Research compliance requirements for AI handling student enrollment conversations (ASQA, RTO standards). Size the TAM: how many Australian RTOs could use this?
 - [ ] **AI skill packages for RTO staff — use case validation** — Research: TAZ (Training and Assessment Strategy) reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's the willingness to pay?
