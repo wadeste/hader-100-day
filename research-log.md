@@ -10446,3 +10446,155 @@ Beyond the standard discovery questions, ask BSB-specific questions:
 - Voice AI comparison: bland.ai, retellai.com, vapi.ai
 
 ---
+
+## Refinement — 2026-05-24 (Cycle 28)
+### Gap identified: Discovery interview process missing — no systematic approach to gathering RTO insights, qualifying prospects, and validating research
+
+**Original finding**: "Early customer discovery interviews — Research the best framework for customer discovery with RTO decision-makers" in queue.md — discovery framework was identified as needed but no practical interview guide existed. Research covered buyer psychology, decision-making chains, and objection handling, but these findings were not synthesized into a practical tool Steven could use on sales calls.
+
+
+**Why this matters**: Steven needs a systematic discovery process to gather RTO insights, validate or correct research findings, and qualify prospects. Without a standard guide, each discovery call is inconsistent, key questions get missed, and data isn't captured in a way that feeds back into messaging and strategy. The research is only as valuable as its practical application.
+
+**Research conducted**: Discovery methodology review (MEDDIC, Challenger Sale, BANT framework), RTO sales context analysis, synthesis of 27 refinement cycles of research into practical tool.
+
+
+**Refined findings**:
+
+**Discovery Interview Guide — Structure and Content**
+
+The guide contains 22 questions organized into 5 sections:
+
+| Section | Questions | Duration | Purpose |
+|---------|-----------|---------|---------|
+| 1. Company Context | Q1-Q6 | 10 min | Firmographics, qualification type, ASQA status, marketing channels |
+| 2. Enrollment Pain | Q7-Q13 | 15 min | Call volume, staff time, call types, after-hours, current tools, trigger |
+| 3. Objections & Concerns | Q14-Q20 | 10 min | AI experience, fears, competitor awareness, timing, budget, decision process |
+| 4. Competitive Validation | Q21-Q22 | 5 min | Reference preference, evaluation criteria |
+| 5. Close & Follow-up | Summary + next step | 5 min | Confirm understanding, set next action, permission to follow up |
+
+
+**Most Critical Questions**:
+
+| Question | Why Critical | What to Listen For |
+|---------|-------------|-------------------|
+| Q13: "What prompted you to look at this?" | Separates hot from warm — identifies trigger | Capacity crisis, compliance anxiety, staff burnout, growth ceiling |
+| Q1: "How many students per month?" | Qualifies segment — determines tier to pitch | <20 = Starter ($499), 20-100 = Professional ($1,499), 100+ = Enterprise ($2,999+) |
+| Q2: "What qualifications do you offer?" | Identifies BSB vs. CHC vs. ICT | BSB = Year 1 target, CHC = Year 2-3, ICT = Year 1-2 |
+| Q4: "When was your last ASQA audit?" | Surfaces compliance anxiety | Green/Yellow/Red status — determines demo focus |
+| Q14: "Have you tried AI before?" | Identifies skepticism level | None = easy sell, generic = needs differentiation, self-built = high skepticism |
+| Q17: "When would you want to move forward?" | Sets realistic close date | Immediate/3 months/6 months/year+ |
+| Q19: "Who's involved in this decision?" | Identifies sales cycle complexity | Solo/shared/committee |
+
+**Trigger Question Validation** (Q13):
+
+| Trigger Response | Signal | Priority | Demo Focus |
+|-----------------|--------|----------|----------|
+| "We just hired a new enrollment manager, they're overwhelmed" | Capacity crisis | Hot | ROI: hours saved |
+| "Missed calls = lost revenue" | Revenue pain | Hot | Recovered revenue math |
+| "ASQA audit is in 3 months" | Compliance anxiety | Hot | ASQA compliance features |
+| "We can't grow beyond 100 enrollments" | Growth ceiling | Medium-hot | Scale math |
+| "Just curious about AI" | No trigger | Nurture | Education only |
+
+**Qualification Type by Segment** (from Q2):
+
+
+| Type | AI Suitability | Year Priority | Notes |
+|------|---------------|--------------|-------|
+| BSB Business | 9/10 | Year 1 | Lowest complexity, highest volume, best AI fit |
+| ICT | 8/10 | Year 1-2 | Moderate complexity, growing market |
+| CHC Community Services | 5/10 | Year 2-3 | High compliance burden, complex prerequisites |
+| Trades | 6/10 | Year 2-3 | Pre-apprenticeship requirements, physical prerequisites |
+
+
+**ASQA Status Response Guide** (Q4-5):
+
+
+| Status | Response | Sales Approach | Demo Priority |
+|--------|----------|----------------|--------------|
+| Green | "Clean audit, no findings" | Efficiency pitch | ROI calculator, time savings |
+| Yellow | "Minor findings, we addressed them" | Compliance pitch | Audit trail features, call recording |
+| Red | "Major findings, we nearly lost registration" | Risk reduction | ASQA compliance first, full audit log |
+
+
+**Post-Interview Analysis Template Fields**:
+
+- BANT: Budget, Authority, Need, Timeline
+- Confidence: Hot / Warm / Nurture
+- Top pain + top objection
+- Next step + close date
+- Key quote for follow-up
+
+**Confidence Action Rules**:
+| Rating | Action | Timeframe |
+|--------|--------|----------|
+| Hot | Schedule demo | Within 48 hours |
+| Warm | Send case study + follow-up | 2 weeks |
+| Nurture | Add to follow-up sequence | Check in Q3 |
+
+
+**Data Aggregation** (Weekly/Monthly Review):
+- Top 3 pains across all interviews → messaging priority
+- Top 3 objections → objection script priority
+- % of interviews mentioning specific pain → content topic priority
+- Competitor mentions → competitive watch
+- Hot/warm/nurture ratio → pipeline health
+
+**Discovery Data Spreadsheet** (Columns A-N):
+| Date | Company | Contact | Role | Enrollments/mo | Qualification type | Zoho? | Top pain | Trigger | Timeline | Budget signal | Decision process | Confidence | Next step |
+
+
+**Interview Analysis Validates 27 Refinement Cycles**:
+
+| Research Topic | Question(s) | Validation Method |
+|---------------|-------------|-----------------|
+| Buyer psychology (Cycle 8) | Q13, Q14-15, Q17-20 | Are triggers as predicted? Objections as expected? |
+| Segment targeting (Cycle 9) | Q1-2 | Is BSB really the best target? |
+| ASQA compliance (Cycle 2) | Q4-5 | Is compliance really the #1 objection? |
+| Staff resistance (Cycle 24) | Q15 | What are the real AI fears? |
+| Competitor check (Cycle 2) | Q16, Q22 | Who else is in the market? |
+| Pricing negotiation (Cycle 12) | Q18 | What are budget signals? |
+| BSB targeting (Cycle 27) | Q2 | What % are BSB vs. CHC vs. ICT? |
+
+
+**What this means for day 60 presentation**:
+
+The discovery interview guide is a day 60 deliverable — a practical tool that synthesizes all research into actionable form. Marcus and Kham should see this as evidence that research has been operationalized.
+
+**What to tell Marcus/Kham at day 60**:
+> "The research isn't just in a log — it's in a tool. I've built a discovery interview guide with 22 questions that incorporates everything we've learned about RTO buyers. This guide: (1) qualifies prospects before demo, (2) surfaces objections before they kill deals, (3) validates or corrects our research findings, (4) creates data that feeds back into messaging. Steven uses this on every sales call starting week 1."
+
+**Strategic implications**:
+1. **Discovery is not just for research** — it's an ongoing sales qualification process. Every call should follow the guide.
+2. **Data aggregation turns interviews into insights** — weekly reviews surface patterns that refine messaging and targeting.
+3. **Q13 trigger question is the most important** — separates hot prospects (actionable) from warm (educate + nurture).
+4. **Interview data validates or corrects research** — if 80% of interviews don't mention compliance, the research needs correction.
+5. **Discovery guides RTO product roadmap** — top 3 pains across 20 interviews = product feature priority.
+
+**What to do with the guide**:
+- Steven uses on every discovery call starting June 7, 2026
+- Post-interview template completed within 24 hours
+- Weekly data aggregation (every Friday)
+- Top 3 pains identified after 10 interviews → messaging update
+- Interview findings shared with Marcus at weekly check-ins
+- Guide refined after 20 interviews based on what's working
+
+**Key insight**: The guide transforms Steven from "someone doing outreach" to "someone with a systematic discovery process." The difference is: with data from 20+ interviews, Steven knows what RTOs actually care about — not what we think they care about.
+
+**Actions added**:
+- [ADDED] Steven to use discovery guide on every discovery call — starting June 7, 2026
+- [ADDED] Complete post-interview template within 24 hours of each interview — ongoing
+- [ADDED] Aggregate interview data every Friday — starting June 14, 2026
+- [ADDED] Identify top 3 pains and objections after 10 interviews — by July 2026
+- [ADDED] Validate or correct research log claims based on interview data — by August 2026
+- [ADDED] Share interview findings with Marcus at weekly check-ins — ongoing
+- [ADDED] Use top quotes from interviews in LinkedIn content and sales materials — starting June 2026
+- [ADDED] Test trigger question effectiveness: Hot prospects close at higher rate? — track by Q3 2026
+- [ADDED] Refine guide after 20 interviews based on what's working/not working — by September 2026
+- [ADDED] Add RTO consultants and Zoho partners to interview list (additional sources) — by July 2026
+
+**Sources**:
+- Discovery methodology: MEDDIC sales methodology (fundamental.io)
+- BANT qualification: Oracle/SAP sales frameworks
+- Challenger Sale: Dixon, Ton, Christensen (question-based selling)
+- B2B sales qualification: Sandler Sales Methodology
+- Interview framework inspiration: Airtable sales playbooks, Gong call analysis frameworks
