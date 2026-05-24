@@ -36,6 +36,33 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, AI f
 
 ---
 
+## Refinement — 2026-05-24
+### Gap identified: Area Ten positioning and brand overlap risk
+
+**Original finding**: "Area Ten is headless commerce/conversion optimization — Not RTO-focused, but 'optimizer' in the name creates brand overlap risk"
+
+**Research conducted**: Web research on areaten.com
+
+**Refined findings**:
+- **Area Ten (areaten.com) is a conversion rate optimization (CRO) agency**, not an AI software company — they offer consulting, strategy, and implementation for e-commerce and SaaS businesses
+- **No direct product overlap**: Area Ten does not sell AI enrollment tools, voice agents, or RTO-specific software
+- **Brand overlap is LOW risk**: "Optimizer" is a common word in B2B SaaS (Optimizely, Optimizor, Optimizer Pro, etc.); Area Ten and optimizer.ai serve entirely different markets (e-commerce vs. RTO operations)
+- **Heads of agreement with Marcus**: Context.md notes "Heads of agreement with Area Ten — Steven turning off prior Area Ten work" — this suggests Marcus had a prior business relationship with Area Ten, not that Area Ten is a competitor to Optimizer AI
+- **Risk reassessment**: Brand confusion risk is minimal — Area Ten serves e-commerce/SaaS companies, Optimizer AI serves Australian RTOs. Different buyer, different use case, different pricing model.
+
+**Strategic implications updated**:
+- Area Ten is NOT a direct competitor — it is a CRO agency. Marcus's prior relationship with Area Ten is likely a professional connection, not a competitive threat
+- No repositioning needed to avoid Area Ten brand overlap
+- "Optimizer" brand name is defensible — focus energy on building RTO-specific positioning rather than brand differentiation from Area Ten
+- The original "needs clarification" on the Area Ten relationship is LOW priority — the business relationship is separate from competitive positioning
+
+**Actions revised**:
+- [REMOVED] "Area Ten relationship must be clarified in writing before public positioning" — not a priority
+- [ADDED] Spend that time instead on direct competitor research on actual RTO-focused AI tools
+- [ADDED] Focus on Hader Institute case study as primary brand-building asset
+
+---
+
 ## RTO pain point deep-dive — 2026-05-24
 
 ### Objective
