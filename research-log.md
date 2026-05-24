@@ -5106,3 +5106,102 @@ This works without specific metrics. The proof point is "we built it" not "we me
 **Sources**:
 - Hader baseline data: Pending from Marcus
 - Case study templates: Orbit Media, HubSpot
+
+## Refinement — 2026-05-24 (Cycle 6)
+### Gap identified: SEO tracking missing lead-to-conversion funnel from organic to paid
+
+**Original finding**: "Set up Google Analytics 4 or alternative for traffic tracking" and "Target: 20% of total leads from organic with 25% conversion rate" — no specific tracking for the full funnel from organic visit → lead capture → demo → POC → paid customer.
+
+**Why this matters**: If organic traffic is tracked but not tied to revenue, it's impossible to know if SEO investment is working. Need end-to-end attribution.
+
+**Full organic-to-revenue tracking implementation**:
+
+| Stage | Metric | Tool | Tracking Method |
+|-------|--------|------|----------------|
+| Visitor | Sessions, pageviews, time on site | GA4 | Auto-track |
+| Lead | Email signup, guide download | Optimizer.ai + GA4 | Event + UTM |
+| MQL | Demo request | Calendly + GA4 | Goal conversion |
+| SQL | Qualified, budget confirmed | Zoho | Manual + AI scoring |
+| Demo | Demo completed | Calendly + Zoho | Meeting completed |
+| POC | Pilot started | Zoho | Deal created |
+| Customer | Paid subscription | Zoho + Stripe | Payment received |
+
+**GA4 setup for optimizer.ai**:
+- Set up property in GA4 (ga4.google.com)
+- Connect to Google Search Console (organic keyword data)
+- Enable enhanced measurements: scroll, outbound click, site search
+- Set up conversions: form submissions, Calendly clicks, demo bookings
+- Link to Google Ads (if running ads) for paid + organic comparison
+
+**Key events to track in GA4**:
+```
+event: "lead_magnet_download"
+  event_label: "asqa-compliance-guide"
+  value: 1
+
+event: "demo_request"
+  event_category: "conversion"
+  event_label: Calendly link clicked
+  value: 50
+
+event: "content_view"
+  event_category: "engagement"
+  event_label: "pillar-page-rto-enrollment-ai"
+  value: 10
+```
+
+**Organic traffic goals by month**:
+
+| Month | Organic Sessions | Lead Captures | Demo Requests | Customers |
+|-------|-----------------|---------------|---------------|-----------|
+| M1 | 50 | 2 | 0 | 0 |
+| M3 | 200 | 8 | 1 | 0 |
+| M6 | 500 | 20 | 3 | 0 |
+| M9 | 1,000 | 50 | 8 | 1 |
+| M12 | 2,000 | 100 | 15 | 3 |
+
+Note: First organic customers likely at month 9-12 given 12-month SEO ramp.
+
+**Organic lead-to-customer math**:
+- 2,000 sessions/month at month 12
+- 5% lead capture rate = 100 leads/month
+- 15% demo request rate = 15 demos/month
+- 20% POC rate = 3 POCs/month
+- 50% paid conversion = 1.5 customers/month from organic
+- Annual organic customers: ~18 (at month 12 run rate)
+
+**Attribution model for organic leads**:
+- Use GA4's data-driven attribution (default)
+- Cross-check with last-touch for sales reporting
+- UTM parameters distinguish organic from paid
+- Source/medium report shows: google / organic, linkedin / referral, etc.
+
+**Dashboard to build**:
+```
+Organic Performance Dashboard (Google Sheets + GA4 API)
+- Weekly: Sessions, leads, demo requests
+- Monthly: Conversion funnel rates by stage
+- Quarterly: Revenue from organic channel
+- Goal: Organic = 20% of leads, 25% conversion = 5% of sessions become customers
+```
+
+**What this means for budget allocation**:
+- Months 1-6: SEO is investment, not ROI channel — expect 0-1 organic customers
+- Months 6-12: First organic leads appear, 1-2 organic customers possible
+- Month 12+: Organic becomes meaningful channel, 15-20% of pipeline
+
+**Key insight**: SEO is a long-term play that compounds. The content built in month 1-3 creates the foundation for organic traffic in month 9-12. Don't cut SEO budget when it shows no immediate ROI — the ROI is delayed but significant.
+
+**Actions added**:
+- [ADDED] Set up GA4 property for optimizer.ai — by June 7, 2026
+- [ADDED] Connect GA4 to Google Search Console — by June 7, 2026
+- [ADDED] Define key events in GA4: lead captures, demo requests, content views — by June 14, 2026
+- [ADDED] Build organic performance dashboard (weekly updated) — by June 14, 2026
+- [ADDED] Set monthly organic goals: 50 sessions (M1), 200 (M3), 500 (M6), 1,000 (M9), 2,000 (M12) — track monthly
+- [ADDED] Don't expect organic revenue until month 9-12 — plan budget accordingly
+- [ADDED] Report organic channel separately in monthly KPIs — don't mix with outbound
+
+**Sources**:
+- GA4 setup: support.google.com/analytics
+- Organic-to-revenue tracking: Moz, Ahrefs content marketing guides
+- B2B SaaS SEO benchmarks: First Page Sage
