@@ -401,6 +401,93 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, or A
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 83): Brand Monitoring & Social Listening Deep Dive
+### Gap identified: Research covers brand positioning but lacks brand monitoring strategy, competitive intelligence tracking, and RTO community sentiment analysis
+
+**Original finding**: "Optimizer AI market positioning research" established positioning statements and competitive matrix but lacked ongoing brand monitoring and social listening methodology.
+**Why this matters**: Brand positioning without monitoring is reactive, not proactive. Steven needs to track brand mentions, competitor mentions, and RTO community sentiment in real-time.
+
+
+### Brand Monitoring Stack (2026)
+
+| Tool | Purpose | Cost | Priority |
+|------|---------|------|----------|
+| Google Alerts | Brand + competitor mentions | Free | Immediate |
+| Mention.com | Real-time social mentions | $99/mo | Month 1 |
+| LinkedIn Sales Navigator | Competitor employee tracking | $80/mo | Immediate |
+| Brand24 | Australian RTO community | $89/mo | Month 2 |
+
+
+### Google Alerts Setup (Day 1)
+
+**Alerts to create**:
+1. "Optimizer AI"
+2. "Study Buddy AI"
+3. "Area Ten marketing"
+4. "RTO automation"
+5. "enrollment call AI"
+6. "voice AI RTO"
+7. "ASQA AI compliance"
+8. "Marcus Hader"
+
+### Competitive Intelligence Tracker
+
+| Date | Competitor | Mention | Source | Action |
+|------|------------|---------|--------|--------|
+| Weekly | Study Buddy | Product updates | LinkedIn | Monitor |
+| Weekly | Area Ten | Client wins | Press | Monitor |
+| Monthly | New entrants | Market entry | Google Alerts | Assess |
+
+**Key signals**: Study Buddy voice AI launch, Area Ten tool building, ASQA guidance updates.
+
+
+### RTO Community Sentiment
+
+**Communities to track**:
+1. RTO Connect Forum — Industry pulse
+2. LinkedIn RTO groups — Decision-maker sentiment
+3. Facebook: RTO Managers — Operational sentiment
+
+
+**Sentiment response**:
+| Type | Response time | Action |
+|------|--------------|--------|
+| Positive testimonial | 2 hours | Like + request review |
+| Negative complaint | 2 hours | DM to resolve |
+| Neutral question | 24 hours | Answer with value |
+
+### Brand Health Scorecard
+
+| Metric | Target | Warning | Critical |
+|-------|--------|---------|----------|
+| Mentions/week | 5+ | 2-4 | <2 |
+| Sentiment ratio | >80% positive | 60-80% | <60% |
+| Share of voice | >50% | 30-50% | <30% |
+
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Google Alerts (10 keywords) — by June 7, 2026
+- [ADDED] Create competitive tracker (Google Sheet) — by June 7, 2026
+- [ADDED] Subscribe to RTO Connect newsletter — by June 7, 2026
+- [ADDED] Set up Mention.com — by June 14, 2026
+- [ADDED] Review mentions 2x/week — ongoing
+- [ADDED] Target >50% share of voice by Month 6 — by December 2026
+
+### Sources
+- Brand monitoring: Mention.com, Brand24, Google Alerts (2026)
+- RTO communities: RTO Connect, Training.com.au (2026)
+
+
+---
+
+
+*End of Cycle 83 refinement. Gap filled: Brand monitoring stack, competitive intelligence tracking, RTO community sentiment, brand health metrics.*
+
+---
+
+---
+
 ## Refinement — 2026-07-24 (Cycle 76): Competitor Intelligence Update & Objection-Response Messaging
 ### Gap identified: Original research provided competitive positioning matrix but lacked recent competitor status checks, RTO decision-maker priority data, and specific objection-handling responses
 
