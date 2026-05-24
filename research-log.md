@@ -11567,3 +11567,178 @@ Does that sound useful?"
 
 *End of Cycle 196 refinement. Gap filled: 30-day LinkedIn content calendar (4 weeks, 20 posts), 5 post templates (intro, educational, proof, thought leadership, engagement), 4 engagement scripts (comment, competitor, DM, cold), content repurposing system (1→7, 1→10), LinkedIn measurement framework (weekly/monthly KPIs), 8 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 197): Week 1 Execution Checklist — The First 5 Days Done Right
+
+### Gap identified: Research has individual components (Calendly setup, LinkedIn page, content calendar) but lacks integrated 5-day execution checklist for Steven's first week
+
+**Original finding**: Multiple sections list "Week 1" actions (Cycle 156 immediate actions, Cycle 178 website checklist, Cycle 196 LinkedIn setup) but:
+- No consolidated week 1 checklist
+- No prioritization of what to do first
+- No time estimates per task
+- No "done" criteria for each item
+
+**Why this matters**: Week 1 sets the tone. If Steven spends the first week doing the wrong things (perfecting website instead of outreach), momentum is lost. The first week should prioritize activities that generate first customer conversations, not polish that doesn't affect revenue.
+
+### Day-by-Day Week 1 Execution Checklist
+
+**Day 1 (Monday): Foundation + Internal Alignment**
+
+| Time | Task | Done Criteria | Duration |
+|------|------|--------------|----------|
+| 9-10am | Read this research-log.md (relevant sections) | Understand context | 1 hr |
+| 10-11am | Meet with Marcus/Kham: align on Week 1 priorities | Agreed priorities | 1 hr |
+| 11-12pm | Set up Optimizer AI email (steven@optimizer.ai) | Email working | 30 min |
+| 11-12pm | Set up Calendly with 15 and 30-min meeting types | Calendly link ready | 30 min |
+| 12-1pm | Lunch break | — | 1 hr |
+| 1-2pm | Set up LinkedIn company page (Optimizer AI) | Page live | 1 hr |
+| 2-4pm | Draft "warm intro" email for Marcus/Kham | Template ready for review | 2 hrs |
+| 4-5pm | Ask Marcus for 10 warm RTO contacts | List of 10 names + context | 1 hr |
+
+**Day 1 Done Criteria:**
+- [ ] Optimizer AI email configured
+- [ ] Calendly link ready to share
+- [ ] LinkedIn company page live
+- [ ] Warm intro email drafted
+- [ ] List of 10 warm contacts from Marcus
+
+**Day 2 (Tuesday): LinkedIn Foundation**
+
+| Time | Task | Done Criteria | Duration |
+|------|------|--------------|----------|
+| 9-10am | Create Steven's personal LinkedIn profile (optimize bio) | Bio updated | 1 hr |
+| 10-12pm | Draft personal intro post (Template 1 from Cycle 196) | Post in Drafts | 2 hrs |
+| 12-1pm | Lunch break | — | 1 hr |
+| 1-2pm | Draft educational post (Template 2 from Cycle 196) | Post in Drafts | 1 hr |
+| 2-3pm | Schedule posts for Days 3-5 | Queue full | 1 hr |
+| 3-5pm | Research 5 warm contacts (LinkedIn, company info) | Notes ready | 2 hrs |
+
+**Day 2 Done Criteria:**
+- [ ] Personal LinkedIn optimized
+- [ ] 3 posts drafted and scheduled
+- [ ] Research on 5 warm contacts complete
+
+**Day 3 (Wednesday): Outreach Preparation**
+
+| Time | Task | Done Criteria | Duration |
+|------|------|--------------|----------|
+| 9-11am | Create one-pager draft (ROI calculator, value prop) | Draft PDF | 2 hrs |
+| 11-12pm | Review demo script (Cycle 167) | Familiarity | 1 hr |
+| 12-1pm | Lunch break | — | 1 hr |
+| 1-2pm | Create Zoho pipeline (Lead → Demo → Proposal → Won/Lost) | Pipeline ready | 1 hr |
+| 2-4pm | Draft 3 personalized messages for warm contacts | Messages ready | 2 hrs |
+| 4-5pm | Review objection handling scripts (Cycle 167) | Familiarity | 1 hr |
+
+**Day 3 Done Criteria:**
+- [ ] One-pager draft complete
+- [ ] Demo script reviewed
+- [ ] Zoho pipeline configured
+- [ ] 3 warm outreach messages drafted
+
+**Day 4 (Thursday): First Outreach**
+
+| Time | Task | Done Criteria | Duration |
+|------|------|--------------|----------|
+| 9-11am | Send warm intro email to 5 contacts (via Marcus) | 5 emails sent | 2 hrs |
+| 11-12pm | Send LinkedIn connection to 10 more RTO contacts | 10 requests sent | 1 hr |
+| 12-1pm | Lunch break | — | 1 hr |
+| 1-2pm | Post Day 3 scheduled content (personal intro) | Post live | 15 min |
+| 2-4pm | Follow up on any Day 1-3 responses | Active follow-up | 2 hrs |
+| 4-5pm | Update Zoho with all outreach activity | CRM updated | 1 hr |
+
+**Day 4 Done Criteria:**
+- [ ] 5 warm emails sent via Marcus
+- [ ] 10 LinkedIn connections sent
+- [ ] First content post live
+- [ ] All activity in Zoho
+
+**Day 5 (Friday): Reflection + Planning Week 2**
+
+| Time | Task | Done Criteria | Duration |
+|------|------|--------------|----------|
+| 9-10am | Review outreach response rate | Document metrics | 1 hr |
+| 10-11am | Review content engagement (Day 3-4 posts) | Document metrics | 1 hr |
+| 11-12pm | Meet with Marcus/Kham: Week 1 learnings | Meeting notes | 1 hr |
+| 12-1pm | Lunch break | — | 1 hr |
+| 1-3pm | Plan Week 2 content calendar (build on Week 1) | Calendar ready | 2 hrs |
+| 3-4pm | Draft Week 2 outreach targets (10 more contacts) | List ready | 1 hr |
+| 4-5pm | Set up weekly tracking dashboard (Cycle 193 funnel) | Dashboard ready | 1 hr |
+
+**Day 5 Done Criteria:**
+- [ ] Week 1 metrics documented
+- [ ] Week 2 content calendar drafted
+- [ ] Week 2 outreach list prepared
+- [ ] Tracking dashboard configured
+
+### Week 1 Success Metrics
+
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Warm emails sent | 5 | ___ |
+| LinkedIn connections | 20 | ___ |
+| LinkedIn posts | 3 | ___ |
+| Calendly demo requests | 1 | ___ |
+| Pipeline value | $0+ | ___ |
+| Follow-up activities | 3+ | ___ |
+
+### What to Do If Behind Schedule
+
+**If behind on Day 1-2:**
+- Skip website polish (can do later)
+- Focus: Calendly + email + LinkedIn page
+- Push outreach to Day 3-4
+
+**If behind on Day 3-4:**
+- Skip perfect one-pager (use simple version)
+- Focus: Warm outreach (highest value)
+- Skip some content (schedule simpler posts)
+
+**If Day 4-5 with no responses yet:**
+- Normal (cold outreach takes 3-5 days)
+- Continue Week 2 outreach
+- Double down on warm (Marcus network)
+
+### What to NOT Do in Week 1
+
+**Avoid:**
+- Building perfect website (not revenue-generating)
+- Perfecting demo script for 4 hours
+- Writing 5 blog posts
+- Creating elaborate sales collateral
+- Waiting for perfect response rate before Week 2
+
+**Prioritize:**
+- Conversations (outreach, demos, meetings)
+- Content (1-3 posts, not 10)
+- Tracking (CRM, metrics)
+
+### Week 1 → Week 2 Transition
+
+**At end of Week 1, you should have:**
+- 5+ warm conversations started
+- 10+ LinkedIn connections in pipeline
+- 3-5 content posts live
+- 1+ demo request or meeting booked
+- Tracking system in place
+
+**If you have these:** You're ahead. Continue Week 2 plan.
+
+**If you don't:** Don't panic. Week 2 is about acceleration, not perfection.
+
+### Recommended Actions for Steven
+
+- [ADDED] Execute Day 1 checklist (above) — Monday of Week 1
+- [ADDED] Execute Day 2 checklist (above) — Tuesday of Week 1
+- [ADDED] Execute Day 3 checklist (above) — Wednesday of Week 1
+- [ADDED] Execute Day 4 checklist (above) — Thursday of Week 1
+- [ADDED] Execute Day 5 checklist (above) — Friday of Week 1
+- [ADDED] Track Week 1 success metrics (above) — Friday afternoon
+- [ADDED] Plan Week 2 based on Week 1 learnings — Friday afternoon
+- [ADDED] If behind schedule, use "What to NOT Do" list to prioritize — any day
+
+---
+
+*End of Cycle 197 refinement. Gap filled: Day-by-day Week 1 execution checklist (5 days with time blocks), Day 1-5 done criteria (20+ items), Week 1 success metrics (6 KPIs), "what to do if behind" guide, what NOT to do list, Week 1 → Week 2 transition guidance, 8 recommended actions for Steven.*
+
