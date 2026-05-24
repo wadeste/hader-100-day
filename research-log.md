@@ -1782,7 +1782,7 @@ Rationale:
 
 2. **Partner channel:**
    - Identify Zoho partners with RTO clients
-   - Approach Area Ten (unlikely, but worth asking)
+   - Approach RTO software partners (not Area Ten — they're marketing, not enrollment)
    - Find RTO industry consultants (training, compliance)
    - Offer 20% revenue share for referrals
 
