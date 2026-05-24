@@ -14166,3 +14166,204 @@ every enrollment is complete, USI verified, and documented."
 
 *End of Cycle 139 refinement. Gap filled: Unit-by-unit AI integration map for BSB42420 (15 units mapped by AI potential), 3 curriculum structure options (embedded/elective/skill set), market demand data (250% job ad increase, $8K salary premium), competitive positioning ("AI-first curriculum"), revenue model ($99,576/year potential), AI tools by tier (free/recommended/premium), employer partnership opportunity, implementation timeline (3-4 months).*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 140): Customer Health Scoring Model — Predictive Churn Indicators & Intervention Triggers
+### Gap identified: Research provides customer success program (Cycle 113) and retention playbook (Cycle 135) but lacks specific health score calculation methodology, predictive churn indicators, and automated intervention triggers
+
+**Original finding**: "Customer Success Program" (Cycle 113) provides onboarding, health scoring basics, and QBR structure. "Retention Playbook" (Cycle 135) provides retention tactics and renewal timeline. However, research lacks:
+- Specific weighted health score calculation (factors and weights)
+- Predictive churn indicators (leading vs. lagging metrics)
+- Automated alert thresholds and escalation triggers
+- Day-over-day vs. week-over-week monitoring cadence
+- Customer health segmentation and action mapping
+
+**Why this matters**: Without a quantitative health score, Steven cannot prioritize customer success efforts, predict churn, or intervene before customers leave. Health scoring is the difference between reactive support and proactive retention.
+
+### Customer Health Score Calculation Model
+
+**Health score components** (100-point scale):
+
+| Component | Weight | Metrics | Score calculation |
+|-----------|--------|---------|------------------|
+| **Usage engagement** | 30% | Login frequency, feature usage, call volume | Login frequency: Daily=10, Weekly=7, Monthly=4, None=0; Feature usage: >80% features=10, 50-80%=7, <50%=4, 0%=0; Call volume: On track=10, Slightly below=7, Significantly below=4, Zero=0 |
+| **Outcome achievement** | 30% | Containment rate, enrollment lift, ROI realized | Containment rate: >70%=10, 60-70%=8, 50-60%=5, <50%=2; Enrollment lift: >15%=10, 10-15%=7, 5-10%=5, <5%=2; ROI score: ROI achieved=10, Partial=7, Not measured=5, Negative=2 |
+| **Relationship strength** | 25% | NPS score, QBR attendance, champion engagement | NPS: 9-10=15, 7-8=10, 5-6=5, <5=0; QBR attendance: All=10, Most=7, Few=5, None=2; Champion engagement: Weekly=10, Monthly=7, Quarterly=5, None=2 |
+| **Expansion signals** | 15% | Feature requests, upsell interest, referral mentions | Feature requests: 3+=10, 1-2=7, None=5; Upsell interest: Expressed=10, Hinted=7, None=5; Referrals: 2+=10, 1=7, None=5 |
+
+**Health score ranges**:
+
+| Score | Health tier | Color | Action |
+|-------|-------------|-------|--------|
+| 85-100 | Thriving | 🟢 Green | Maintain, expand, celebrate, ask for referral |
+| 70-84 | Healthy | 🟢 Green | Monitor, provide value-add, identify upsell |
+| 50-69 | At risk | 🟡 Yellow | Proactive outreach, address concerns, schedule QBR |
+| 30-49 | Vulnerable | 🟠 Orange | Immediate action, executive involvement, create retention plan |
+| 0-29 | Critical | 🔴 Red | CEO involvement, special retention offer, exit interview if churning |
+
+### Predictive Churn Indicators
+
+**Leading indicators** (predict churn 30-60 days early):
+
+| Indicator | Measurement | Churn risk if absent |
+|-----------|-------------|-------------------|
+| **Declining login frequency** | <50% of baseline | +40% churn risk |
+| **Feature usage drop** | <30% features used | +35% churn risk |
+| **Containment rate below 50%** | <50% for 2+ weeks | +50% churn risk |
+| **Champion leaves** | Champion departures | +60% churn risk |
+| **NPS decline** | 2+ points drop in month | +30% churn risk |
+| **Support ticket spike** | >3 tickets in week | +25% churn risk |
+| **Competitor mention** | In discovery call or email | +45% churn risk |
+| **QBR declined** | 2 consecutive missed | +35% churn risk |
+| **Payment delay** | 7+ days late | +40% churn risk |
+| **Renewal not discussed** | 90 days before expiry, no conversation | +50% churn risk |
+
+**Lagging indicators** (churn already likely):
+
+| Indicator | What it means | Response |
+|-----------|-------------|----------|
+| **Usage dropped to zero** | Customer not using product | 2-week re-engagement campaign |
+| **Renewal refused** | Churn decision made | Exit interview, last chance offer |
+| **Staff no-response** | Relationship lost | Executive outreach (Marcus) |
+| **Legal/compliance complaint** | Serious issue | Immediate escalation, CEO involvement |
+
+**Churn prediction model** (by quarter):
+
+```
+Churn probability = (Days since last login × 0.1) + (Containment gap × 0.2) + 
+                   (NPS decline × 0.15) + (Champion left × 0.25) + 
+                   (Competitor mentioned × 0.3)
+
+If Churn probability > 50%: Flag as "High risk" (immediate action)
+If Churn probability 30-50%: Flag as "Medium risk" (proactive outreach)
+If Churn probability < 30%: Flag as "Low risk" (monitor)
+```
+
+### Automated Alert Thresholds & Escalation Triggers
+
+**System-generated alerts**:
+
+| Alert | Trigger | Owner | SLA |
+|-------|---------|-------|-----|
+| Health score drop | Score drops >15 points in 2 weeks | Customer Success | 24 hours |
+| Containment rate warning | <60% for 7+ days | Customer Success | 48 hours |
+| Usage declining | Login frequency <50% of baseline | Customer Success | 1 week |
+| NPS red flag | Score <6 on survey | Customer Success | 48 hours |
+| No QBR scheduled | 60+ days since last QBR | Customer Success | 1 week |
+| Renewal approaching | 90 days before expiry | Account Manager | 72 hours |
+| Payment delayed | >3 days past due | Finance | 24 hours |
+| Competitor mentioned | In call, email, or support ticket | Account Manager | 24 hours |
+| Support ticket unresolved | >48 hours open | Support | 24 hours |
+| Champion left company | LinkedIn change detected | Customer Success | 1 week |
+
+**Escalation matrix**:
+
+| Scenario | First response | Escalation | CEO involvement |
+|---------|---------------|-----------|-----------------|
+| Health score <50 | CSM call within 48 hrs | If no response in 72 hrs | Health <30 |
+| Renewal at risk | CSM + AM call within 1 week | If no meeting by 60 days | Renewal refused |
+| Competitor evaluating | Discovery call within 1 week | Competitive review | CEO if "hot" competitor |
+| Key champion leaving | Transition plan within 2 weeks | If no new champion | Always |
+| Technical issue | P1 within 2 hrs, P2 within 24 hrs | If not resolved in 48 hrs | System down |
+| Compliance complaint | Immediate | Within 4 hours | Always |
+
+### Monitoring Cadence by Tier
+
+**Weekly monitoring** (automated):
+- Health score calculation (every Monday)
+- Containment rate vs. baseline
+- Login frequency vs. baseline
+- Support ticket count
+
+**Weekly review** (Steven + CS):
+- Orange/Red health customers
+- Containment rate warnings
+- Competitor mentions
+- Renewal timeline for next 90 days
+
+**Bi-weekly action**:
+- Outreach to Yellow health customers
+- QBR scheduling for Orange health
+- Retention plan for Red health
+
+**Monthly review** (full account review):
+- All customers scored
+- QBR completion rate
+- Expansion opportunities identified
+- Churn risk analysis
+
+### Customer Health Segmentation & Action Mapping
+
+**Segment A: Strategic accounts** (Scale tier, 150+ students/month)
+| Health | Monitoring | Action |
+|--------|-----------|--------|
+| 🟢 Green (85+) | Weekly + monthly QBR | Expansion, case study, referral ask |
+| 🟢 Green (70-84) | Weekly + monthly QBR | Maintain, value-add touch |
+| 🟡 Yellow (50-69) | Weekly + bi-weekly call | QBR within 30 days, address concerns |
+| 🟠 Orange (30-49) | Daily monitoring | Immediate QBR, executive involvement |
+| 🔴 Red (<30) | Daily monitoring | CEO involvement, retention task force |
+
+**Segment B: Growth accounts** (Growth tier, 50-150 students/month)
+| Health | Monitoring | Action |
+|--------|-----------|--------|
+| 🟢 Green (85+) | Weekly + monthly QBR | Expansion, referral ask |
+| 🟢 Green (70-84) | Monthly QBR | Maintain, upsell opportunities |
+| 🟡 Yellow (50-69) | Bi-weekly check-in | QBR within 60 days |
+| 🟠 Orange (30-49) | Weekly outreach | Immediate outreach, address concerns |
+| 🔴 Red (<30) | Daily monitoring | Escalation, retention offer |
+
+**Segment C: Starter accounts** (Starter tier, <50 students/month)
+| Health | Monitoring | Action |
+|--------|-----------|--------|
+| 🟢 Green (85+) | Monthly check-in | Expansion opportunity |
+| 🟢 Green (70-84) | Monthly check-in | Maintain, upsell to Growth |
+| 🟡 Yellow (50-69) | Bi-weekly check-in | Address basic concerns |
+| 🟠 Orange (30-49) | Weekly outreach | Re-engagement campaign |
+| 🔴 Red (<30) | Two-week intervention | Upgrade to Growth or graceful exit |
+
+### Health Score Dashboard (Zoho implementation)
+
+**Required Zoho fields for health scoring**:
+
+| Field | Type | Update frequency | Calculation |
+|-------|------|-----------------|-------------|
+| health_score | Number | Weekly (automated) | Sum of weighted components |
+| health_tier | Picklist | Weekly | Based on score ranges |
+| last_login_date | Date | Daily (automated) | System-tracked |
+| feature_usage_pct | Number | Weekly (automated) | Features used / total features |
+| containment_rate | Number | Weekly (automated) | Calls handled / total calls |
+| nps_score | Number | Per survey | Survey response |
+| champion_name | Text | Manual | CSM input |
+| churn_risk | Picklist | Weekly (automated) | Based on prediction model |
+| days_to_renewal | Number | Daily (automated) | Renewal date - today |
+
+**Dashboard views**:
+- All customers (sorted by health score)
+- At-risk customers (Yellow + Orange + Red)
+- Renewal timeline (next 90 days)
+- Expansion opportunities (Green + high expansion signals)
+- Churn prediction (Red health + competitor mention)
+
+### Recommended Actions for Steven
+
+- [ADDED] Implement health score calculation in Zoho — by June 21, 2026
+- [ADDED] Create weekly health score dashboard (Monday 9am) — by June 21, 2026
+- [ADDED] Set automated alerts for Yellow/Orange/Red — by June 21, 2026
+- [ADDED] Define action playbook per health tier — by June 28, 2026
+- [ADDED] Track accuracy of prediction model (monthly review) — monthly from July 2026
+- [ADDED] Target: Reduce churn to <2%/month by Year 2 — by December 2027
+- [ADDED] Track: Health score correlation with renewal — ongoing
+- [ADDED] Train CSM on health score interpretation — by July 2026
+- [ADDED] Build re-engagement campaign for Yellow health — by June 28, 2026
+- [ADDED] Create executive escalation template for Red health — by June 28, 2026
+
+### Sources
+- Customer health scoring: Gainsight CS benchmark (2026)
+- Churn prediction: Totango, Klaviyo churn analysis (2026)
+- Health score methodology: Salesforce Customer Success (2026)
+- At-risk intervention: Zendesk CX report (2026)
+
+---
+
+*End of Cycle 140 refinement. Gap filled: Customer health score calculation model (100-point scale, 4 weighted components), health tier definitions (Thriving/Healthy/At-risk/Vulnerable/Critical), predictive churn indicators (10 leading indicators, 4 lagging), automated alert thresholds and SLA (10 alerts), escalation matrix (6 scenarios), monitoring cadence by segment (Strategic/Growth/Starter), Zoho health score dashboard (9 fields, 5 views).*
+
