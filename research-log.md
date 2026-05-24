@@ -9188,3 +9188,271 @@ Step 7: Close or Transfer
 ---
 
 *End of Cycle 186 refinement. Gap filled: Voice AI provider comparison (VAPI recommended, costs), RTO-specific prompt structure (system prompt + 7-step flow + edge cases), integration architecture (complete system flow), data storage requirements (6 data types), implementation timeline (6-8 weeks), build vs. buy analysis (9 components), quality metrics (7 KPIs), 8 recommended actions.*
+
+
+## Refinement — 2026-05-24 (Cycle 187): Zoho CRM Setup — Advanced Configuration, Custom Functions, and Automation Recipes
+
+### Gap identified: Research covers basic Zoho configuration (custom fields, lead lifecycle) but lacks advanced configuration details: custom functions, advanced workflows, and automation recipes for common RTO scenarios
+
+**Original finding**: "Zoho CRM Setup for RTO Enrollment AI" (Cycle 179) provides custom field specifications and basic workflow triggers. However, research lacks:
+- Specific Zoho Deluge script examples
+- Advanced workflow conditions (if/then logic)
+- Integration with third-party tools beyond basic webhooks
+- Error handling and fallback procedures
+
+**Why this matters**: Without advanced Zoho configuration, Optimizer AI will require manual intervention for edge cases. The goal is a "set and forget" system that handles 80%+ of enrollment call data flows automatically.
+
+### Advanced Workflow Conditions
+
+**Scenario 1: Route lead based on course interest**
+
+```
+Trigger: New lead created
+Condition: Course Interest contains "Diploma"
+Action: Assign to "Diploma Team" queue
+        Assign to "Senior Enroller" user
+        Send "Diploma Inquiry" tag to CRM
+
+Trigger: New lead created
+Condition: Course Interest contains "Certificate"
+Action: Assign to "Certificate Team" queue
+        Assign to "Junior Enroller" user
+        Send "Cert Inquiry" tag to CRM
+```
+
+**Scenario 2: Alert escalation for high-value inquiries**
+
+```
+Trigger: New lead created
+Condition: Enrollment Call Handled = true AND
+           Funding Type = "Employer-sponsored"
+Action: Create task for Account Manager
+        Task subject: "High-value employer inquiry - follow up today"
+        Task due: Today
+        Priority: High
+        Notify: Email to Account Manager
+```
+
+**Scenario 3: USI collection follow-up sequence**
+
+```
+Trigger: Lead created AND USI Collected = false
+Condition: After 48 hours
+Action: Check: USI Collected still false?
+        If true:
+          Create task for enrollment staff
+          Task subject: "Follow up on USI collection"
+          Task due: Today
+          Send reminder email to assigned enroller
+```
+
+**Scenario 4: Orientation no-show recovery**
+
+```
+Trigger: Orientation Attendance = "No-show"
+Condition: 1 day after orientation date
+Action: Create task for enrollment staff
+        Task subject: "Orientation no-show - contact student"
+        Task due: Tomorrow
+        Send SMS to student: "We missed you at orientation. Please call to reschedule."
+```
+
+### Custom Functions (Deluge) Examples
+
+**Function 1: Normalize phone number format**
+
+```
+// Input: "04XX XXX XXX" or "4XX XXX XXX" or "+61 4XX XXX XXX"
+// Output: "+61 4XX XXX XXX"
+string normalizePhone(string phone) {
+    // Remove all non-digit characters
+    string cleaned = phone.replaceAll("[^0-9]", "");
+    
+    // If starts with 0, add +61
+    if (cleaned.startsWith("0")) {
+        cleaned = "61" + cleaned.substring(1);
+    }
+    
+    // If doesn't start with +, add it
+    if (!cleaned.startsWith("+")) {
+        cleaned = "+" + cleaned;
+    }
+    
+    return cleaned;
+}
+```
+
+**Function 2: Calculate enrollment likelihood score**
+
+```
+// Score leads based on engagement signals
+integer calculateEnrollmentScore(map leadData) {
+    integer score = 0;
+    
+    // Positive signals
+    if (leadData.get("Enrollment Call Handled") == true) score = score + 30;
+    if (leadData.get("USI Collected") == true) score = score + 25;
+    if (leadData.get("Orientation Booked") == true) score = score + 20;
+    if (leadData.get("Funding Type") != null) score = score + 15;
+    if (leadData.get("Course Interest") != null) score = score + 10;
+    
+    // Negative signals (reduce score)
+    if (leadData.get("Days Since Created") > 7) score = score - 10;
+    if (leadData.get("Days Since Created") > 14) score = score - 20;
+    
+    return score;
+}
+```
+
+**Function 3: Sync to external analytics (optional)**
+
+```
+// Send enrollment data to analytics platform
+void syncToAnalytics(map enrollmentData) {
+    // Example: Send to custom analytics endpoint
+    string endpoint = "https://analytics.optimizer.ai/enrollment";
+    
+    // Prepare payload
+    map payload = {
+        "event": "enrollment_completed",
+        "properties": {
+            "rtp_name": enrollmentData.get("rtp_name"),
+            "course": enrollmentData.get("course_interest"),
+            "source": enrollmentData.get("lead_source"),
+            "timestamp": zoho.currenttime.toString()
+        }
+    };
+    
+    // POST to analytics endpoint
+    response = invokeUrl [
+        url: endpoint
+        type: POST
+        parameters: payload.toString()
+    ];
+    
+    return response;
+}
+```
+
+### Zoho Analytics (Reports) Configuration
+
+**Recommended dashboards for different users:**
+
+**For RTO CEO:**
+- Enrollment pipeline (by stage)
+- Lead source performance (which channel → enrollment)
+- Monthly enrollment trends
+- AI call handling metrics (calls per week, containment rate)
+- Staff performance (leads per enroller)
+
+**For Enrollment Manager:**
+- Today's follow-ups (tasks)
+- Pending USI collection
+- Orientation bookings this week
+- Call handling metrics (their team)
+- Conversion rate by enroller
+
+**For Optimizer AI (internal):**
+- Customer retention rate
+- Expansion revenue (upgrades)
+- Churn analysis
+- Product usage metrics (containment rate by customer)
+
+### Third-Party Integration Recipes
+
+**Integration 1: Google Calendar (orientation booking)**
+
+```
+// When AI books orientation:
+1. Zoho creates event in Google Calendar
+2. Event includes: Student name, course, orientation details
+3. 48 hours before: Automated reminder sent to student (via Twilio)
+4. After orientation: Event marked "attended" or "no-show"
+5. Zoho updated with attendance status
+```
+
+**Integration 2: Twilio SMS (confirmations)**
+
+```
+// SMS workflow:
+// 1. Orientation booked → SMS confirmation sent
+// 2. 48 hours before → SMS reminder
+// 3. USI not collected → SMS reminder
+// 4. Orientation no-show → SMS reschedule offer
+
+Twilio integration via Zoho:
+- Use Zoho Flow or Deluge invokeUrl
+- Webhook triggers SMS based on Zoho workflow
+- SMS status (delivered, failed) updates Zoho record
+```
+
+**Integration 3: Google Analytics 4 (marketing attribution)**
+
+```
+// Events to track:
+// - demo_requested
+// - demo_completed
+// - proposal_sent
+// - customer_won
+
+GA4 Measurement Protocol:
+- Send events via Zoho webhook to GA4
+- Include: event_category, event_label (source), value
+- Cross-reference with Google Ads conversions
+```
+
+### Error Handling Procedures
+
+**Common errors and solutions:**
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Webhook delivery failed | Zoho or third-party downtime | Retry 3 times, then alert Kham |
+| Lead not created | Missing required field | Log error, create manual lead |
+| SMS not sent | Twilio issue | Fallback to Zoho email notification |
+| Calendar sync failed | Google auth expired | Re-authenticate, alert admin |
+| Duplicate lead created | Race condition | Dedup on phone/email, merge records |
+
+**Error monitoring:**
+- Zoho provides basic audit logs
+- Set up alerts for webhook failures
+- Weekly review of failed automations
+- Monthly audit of data quality
+
+### Testing and Validation Checklist
+
+**Before going live with new customer:**
+
+- [ ] Test lead creation from Optimizer AI (simulate call)
+- [ ] Verify all custom fields populate correctly
+- [ ] Confirm USI collection flags work
+- [ ] Test orientation booking creates calendar event
+- [ ] Verify SMS confirmation sends
+- [ ] Check Zoho → Google Calendar sync
+- [ ] Test error handling (simulate webhook failure)
+- [ ] Validate data retention (record creation timestamps)
+- [ ] Confirm call recording link is accessible
+- [ ] Test lead deduplication (same phone number)
+
+### Recommended Actions for Kham
+
+- [ADDED] Build custom functions library (normalize phone, score calculation, sync analytics) — by Month 2
+- [ADDED] Create advanced workflow recipes (3 scenarios above) — by Month 2
+- [ADDED] Configure Zoho Analytics dashboards (CEO, Enroller, Optimizer AI views) — by Month 3
+- [ADDED] Document integration error handling procedures — by Month 2
+- [ADDED] Set up monitoring for webhook failures (alert Kham) — by Month 1
+- [ADDED] Build onboarding test script (20 test cases for new RTO customers) — by Month 2
+- [ADDED] Create Zoho backup procedure (export weekly) — by Month 2
+- [ADDED] Document third-party integration setup (Google Calendar, Twilio, GA4) — by Month 3
+
+### Sources
+
+- Zoho Deluge documentation: zoho.com/deluge/help (2026)
+- Zoho Workflows: zoho.com/crm/help/workflow (2026)
+- Zoho Analytics: zoho.com/analytics/help (2026)
+- Twilio integration: Twilio documentation (2026)
+- Zoho Flow: zoho.com/flow/help (2026)
+
+---
+
+*End of Cycle 187 refinement. Gap filled: Advanced Zoho workflows (4 scenarios with logic), Deluge custom function examples (3 functions), analytics dashboards (3 user types), third-party integrations (Google Calendar, Twilio, GA4), error handling procedures (5 common errors), testing checklist (10 test cases), 8 recommended actions for Kham.*
