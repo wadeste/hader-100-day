@@ -7325,3 +7325,310 @@ Before migration, Steven needs to:
 ---
 
 *End of Cycle 178 refinement. Gap filled: optimizer.ai website architecture (8 pages, priority order), homepage CRO structure (H1, CTAs, sections), pricing page design (comparison table), demo request optimization (5 fields, Calendly embed), lead magnet strategy, SEO foundation (keywords, technical requirements), website tools stack (Framer, Cloudflare, GA4, Hotjar), migration checklist, CRO metrics (6 KPIs), 10 recommended actions for Steven.*
+
+## Refinement — 2026-05-24 (Cycle 179): Zoho CRM Setup for RTO Enrollment AI — Configuration Guide, Custom Fields, and Integration Workflow
+
+### Gap identified: Research mentions "Zoho integration" and "Zoho CRM" throughout but lacks specific Zoho configuration guide for RTO enrollment AI, including custom fields, lead lifecycle, and integration with Optimizer AI
+
+**Original finding**: Multiple sections reference "Zoho integration" (P0 integration, lead sync, CRM connection) but there's no dedicated Zoho setup guide. Kham needs to configure Zoho for each new RTO customer. Steven needs to understand what's possible to sell accurately. Without a Zoho configuration guide, each customer gets a different setup, creating technical debt and inconsistent product experience.
+
+**Why this matters**: Zoho is the system of record for RTO customer data. Every call handled by Optimizer AI creates a lead. Every lead converted creates an enrollment. If Zoho isn't configured correctly, data flows break, reports are wrong, and customers can't measure ROI. A standardized Zoho configuration is the foundation for the attribution dashboard and customer success metrics.
+
+### Zoho Products in Use
+
+**Current stack (from CONTEXT.md):**
+- Zoho CRM (lead management, enrollment tracking)
+- Already in use at Hader Institute
+- Shared by Marcus's team
+
+**Optimizer AI integration needs:**
+- Inbound lead creation (from AI calls)
+- Lead deduplication
+- Enrollment status update
+- Activity logging (calls handled, SMS sent)
+- Custom fields for RTO-specific data
+
+### Recommended Zoho Configuration
+
+**Module structure:**
+
+| Module | Purpose | Key Fields |
+|--------|---------|------------|
+| Leads | Initial inquiry from AI | Name, phone, email, course interest, source |
+| Contacts | Enrolled students | USI, enrollment date, course, funding type |
+| Deals | Enrollment pipeline | Stage, value, close date, owner |
+| Tasks | Follow-ups, orientations | Due date, assigned to, related contact |
+
+**Lead source values (for attribution):**
+- AI Call (from Optimizer AI)
+- Google Ads (form submission)
+- Facebook (messenger)
+- Website (contact form)
+- Referral (word of mouth)
+- Partner (Zoho partner referral)
+- Phone (direct call)
+- Other
+
+### Custom Fields for RTO Enrollment
+
+**Required custom fields (Leads module):**
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| Course Interest | Picklist | Cert IV Business, Diploma of Marketing, etc. |
+| Funding Type | Picklist | Full fee, Concession, Apprenticeship, Employer-sponsored |
+| Student Stage | Picklist | Inquiry, Qualified, Enrolled, Completed, Withdrawn |
+| Enrollment Call Handled | Checkbox | Did AI handle the inquiry call? |
+| USI Collected | Checkbox | Was USI collected by AI? |
+| Orientation Booked | Checkbox | Was orientation booked via AI? |
+| Orientation Date | Date | When is orientation? |
+| SMS Confirmation Sent | Checkbox | Was SMS sent? |
+| Call Recording Link | URL | Link to call recording (ASQA) |
+| Call Duration | Number | Minutes of AI call |
+| AI Containment | Picklist | Handled, Transferred, Failed |
+
+**Custom fields (Contacts module):**
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| USI Number | Text | Student USI |
+| USI Verified | Checkbox | USI verified or exemption claimed |
+| Exemption Reason | Picklist | Medical, Religious, under 16, etc. |
+| Enrollment Date | Date | When enrolled |
+| Expected Completion | Date | Course end date |
+| Funding Source | Picklist | VET Student Loans, State funding, etc. |
+| Orientation Attendance | Picklist | Attended, No-show, Rescheduled |
+
+### Lead Lifecycle for RTO Enrollment
+
+**Stage 1: New Lead (from AI or inbound)**
+- Source tagged (AI Call, Google Ads, etc.)
+- Basic info collected (name, phone, email, course interest)
+- AI response logged (call recording link, duration)
+
+**Stage 2: Qualified (by AI or staff)**
+- Course confirmed
+- Funding eligibility discussed
+- Orientation date offered
+- USI collection attempted
+
+**Stage 3: Enrollment In Progress**
+- USI collected or exemption claimed
+- Enrollment form sent
+- Documentation pending
+- Staff assigned to finalize
+
+**Stage 4: Enrolled**
+- Student record created in Contacts
+- Deal closed in Deals module
+- Orientation confirmed
+- SMS sent with details
+
+**Stage 5: Completed / Withdrawn**
+- Course completion recorded
+- Or: withdrawal reason captured
+- Feedback collected
+
+### Zoho Workflow Automation
+
+**Automations to build (Zoho Workflows):**
+
+| Trigger | Action | Purpose |
+|---------|--------|---------|
+| New lead from AI | Assign to queue, send welcome email | Immediate response |
+| Lead not contacted in 24 hours | Alert assigned staff | Prevent lead drop |
+| USI not collected after 48 hours | Task for staff to follow up | Compliance |
+| Orientation no-show | Alert staff, send reschedule SMS | Reduce no-show rate |
+| Enrollment stalled (7+ days) | Escalate to manager | Recovery |
+
+**Email automation templates:**
+1. Welcome email (immediate)
+2. Orientation confirmation (on booking)
+3. Orientation reminder (48 hours before)
+4. USI collection request (day 1)
+5. Enrollment reminder (if stalled)
+6. Post-enrollment check-in (week 1)
+
+### Lead Deduplication Rules
+
+**Deduplication criteria (in order):**
+1. Email (exact match)
+2. Phone (exact match, normalize format)
+3. Name + Postcode (fuzzy match)
+
+**Deduplication action:**
+- If duplicate found → merge or flag for manual review
+- Preserve most recent activity
+- Keep all call recordings (don't lose data)
+
+**Normalization:**
+- Phone: +61 4XX XXX XXX format
+- Email: lowercase
+- Name: Title case
+
+### Zoho Integration with Optimizer AI
+
+**Data flow diagram:**
+
+```
+[Optimizer AI Call] → [Webhook to Zoho] → [Create/Update Lead]
+                    ↓
+            [Call Recording] → [Zoho Record]
+                    ↓
+            [SMS Confirmation] → [Activity Log]
+                    ↓
+            [Orientation Booking] → [Zoho Calendar]
+                    ↓
+            [Enrollment] → [Zoho Deal]
+                    ↓
+            [Attribution Report] ← [Zoho Data]
+```
+
+**Integration requirements:**
+1. **Inbound webhook** (Optimizer AI → Zoho)
+   - POST to Zoho CRM API when call completes
+   - Create or update lead based on phone/email
+
+2. **Call recording URL**
+   - Optimizer AI stores recording
+   - Link pushed to Zoho custom field
+   - ASQA compliance (3-year retention)
+
+3. **SMS status updates**
+   - Zoho receives SMS confirmation status
+   - Updates lead/contact record
+   - Triggers workflow if SMS failed
+
+4. **Orientation calendar sync**
+   - Zoho calendar event created when booked
+   - Reminder sent 48 hours before
+   - No-show flagged
+
+5. **Enrollment data return**
+   - When lead becomes enrolled, update deal stage
+   - Revenue recorded (course value)
+   - Attribution data captured (which channel)
+
+### Zoho Reports for Optimizer AI Customers
+
+**Standard reports to configure:**
+
+1. **Lead source performance**
+   - Leads by source (AI, Google, Facebook, etc.)
+   - Conversion rate by source
+   - Cost per lead by source
+   - Revenue by source
+
+2. **AI call performance**
+   - Calls handled by AI
+   - Containment rate
+   - USI collection rate
+   - Orientation booking rate
+
+3. **Enrollment pipeline**
+   - Pipeline by stage
+   - Average time in stage
+   - Conversion rate stage-to-stage
+   - Deals closing this month
+
+4. **Staff activity**
+   - Leads assigned per staff
+   - Response time
+   - Conversion rate by staff
+   - Tasks completed
+
+### Zoho Setup Checklist for New RTO Customer
+
+**Before onboarding:**
+- [ ] Access Zoho account (read/write for lead creation)
+- [ ] Identify admin contact (who can configure)
+- [ ] Confirm existing modules (Leads, Contacts, Deals)
+- [ ] Export current data (leads, contacts)
+
+**Week 1: Configuration**
+- [ ] Add custom fields to Leads module (10 fields above)
+- [ ] Add custom fields to Contacts module (8 fields above)
+- [ ] Configure lead source picklist
+- [ ] Set up workflow for new lead from AI
+- [ ] Test webhook integration (Optimizer AI → Zoho)
+
+**Week 2: Automation**
+- [ ] Build 5 email templates (welcome, orientation, etc.)
+- [ ] Set up workflow for lead not contacted
+- [ ] Set up workflow for USI not collected
+- [ ] Configure lead deduplication rules
+- [ ] Test SMS integration
+
+**Week 3: Testing**
+- [ ] Run 20+ test calls through AI
+- [ ] Verify lead creation in Zoho
+- [ ] Verify call recording link populated
+- [ ] Verify SMS sent and logged
+- [ ] Fix any data flow issues
+
+**Week 4: Go-live**
+- [ ] Train staff on Zoho changes
+- [ ] Confirm reporting views are accessible
+- [ ] Document any non-standard configurations
+- [ ] Customer sign-off on setup
+
+### Zoho API Integration (For Kham)
+
+**Key Zoho API endpoints:**
+
+| Endpoint | Method | Purpose |
+|----------|--------|---------|
+| /crm/v2/leads | POST | Create new lead |
+| /crm/v2/leads/{id} | PUT | Update existing lead |
+| /crm/v2/contacts | POST | Create enrolled student |
+| /crm/v2/layouts | GET | Get field IDs |
+| /crm/v2/settings/fields | GET | List all fields |
+
+**Webhook setup:**
+1. Zoho receives POST from Optimizer AI
+2. Zoho API creates or updates lead
+3. Custom fields populated
+4. Workflow triggered
+5. Activity logged
+
+**Error handling:**
+- Log all API calls
+- Retry failed calls (3 attempts, 5 min apart)
+- Alert Kham if continuous failures
+- Manual lead creation fallback
+
+### Zoho Performance Optimization
+
+**Tips for large RTOs (500+ leads/month):**
+- Regular data cleanup (archive old leads)
+- Index custom fields (faster searches)
+- Limit automations (not too many workflows)
+- Use Zoho analytics (built-in, not external)
+
+**Data retention:**
+- Leads: 2 years (then archive or delete)
+- Contacts: 7 years (enrollment records)
+- Deals: 3 years (audit trail)
+- Call recordings: 3 years (ASQA requirement)
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Create Zoho configuration guide (this document) — by Month 1
+- [ADDED] Build custom fields template (importable into new Zoho accounts) — by Month 1
+- [ADDED] Document API integration requirements (for Kham) — by Week 2
+- [ADDED] Create onboarding checklist for new RTO customers — by Month 2
+- [ADDED] Test webhook integration with first pilot customer — Month 2-3
+- [ADDED] Build standard reports template (for customers) — by Month 3
+- [ADDED] Train Steven on Zoho basics (can explain to prospects) — by Month 2
+- [ADDED] Document error handling and fallback procedures — by Month 2
+
+### Sources
+
+- Zoho CRM documentation: zoho.com/crm/help (2026)
+- Zoho API reference: zoho.com/crm/developer/docs (2026)
+- Zoho workflows: Zoho Creator workflow guides (2026)
+- RTO data requirements: AVETMISS data standards (2025)
+
+---
+
+*End of Cycle 179 refinement. Gap filled: Zoho configuration guide for RTO enrollment AI (10 custom fields for Leads, 8 for Contacts), lead lifecycle (5 stages), workflow automation (5 triggers, 6 email templates), lead deduplication rules, Optimizer AI → Zoho integration flow (5 data flows), API requirements for Kham, onboarding checklist (4 weeks), performance optimization tips, 8 recommended actions for Steven/Kham.*
