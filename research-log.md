@@ -3240,3 +3240,184 @@ TAZ is a commonly used abbreviation in Australian VET for the Training and Asses
 
 *End of Cycle 204 refinement. Gap filled: No AI skill packages research existed in research-log.md. Added RTO staff roles and documentation burdens (4 roles), TAZ review workflow analysis with AI opportunities, policy compliance checklist (6 areas), objection handling catalog (8 common objections with AI responses), AI skill package product opportunities (4 packages from Enrollment AI to Suite), strategic implication of "Suite" positioning vs single product, 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 205): Unified Marketing Attribution Dashboard — Missing Product Spec, Competitive Landscape, and Implementation Roadmap
+
+### Gap identified
+The task queue marks "Unified marketing attribution dashboard — competitive landscape" as complete, but research-log.md contains only passing references ("attribution dashboard" mentioned 2 times total). There's no product spec for what the dashboard actually does, no competitive analysis of attribution tools, no technical implementation plan, and no understanding of how attribution data flows from call → enrollment → marketing ROI. This is critical for the Scale tier product and the $10M EBITDA target.
+
+**Original finding**: "Optimizer AI market positioning research" (Cycle 150) mentions "marketing attribution dashboard" as a Scale tier feature but doesn't specify what it measures, how it works, or what RTOs need.
+
+
+**Why this matters**: RTO Marketing Directors are frustrated with attribution ("I know 50% of my budget goes to Google Ads, but I can't prove it drives enrollments"). An attribution dashboard that ties calls → enrollments → marketing channels is the killer feature for the Scale tier. Without a clear product spec, Optimizer AI can't build it or sell it.
+
+### What RTO Marketing Directors Actually Need from Attribution
+
+**The RTO attribution problem**:
+1. Student sees Google/Facebook ad → clicks → lands on website
+2. Student doesn't convert immediately → leaves
+3. Student calls RTO directly (searches "RTO near me") → AI handles call → enrolls
+4. Marketing sees no conversion from paid ads → cuts budget
+5. RTO loses students who found them via ads but called instead of filling out form
+
+**The gap**: Last-click attribution misses phone calls. RTOs with high call volume (80%+ of students call) have terrible attribution.
+
+**What RTO Marketing Directors need**:
+| Need | Current State | Ideal State | Priority |
+|------|-------------|-------------|----------|
+| Which ads drive phone calls? | Unknown | Track call source via unique numbers | High |
+| Which calls convert to enrollments? | Manual follow-up | AI flags converted calls | High |
+| Cost per enrollment by channel? | Rough estimate | Real-time calculation | High |
+| Marketing ROI by campaign? | "We think it works" | Dashboard shows ROI % | High |
+| Enrollment forecasting? | Gut feel | AI predicts based on call volume | Medium |
+| Student journey from ad to enrollment? | Fragmented | Single view of student journey | Medium |
+
+### Attribution Dashboard Product Spec
+
+**Core Features (MVP for Scale tier)**:
+
+| Feature | What It Does | Data Source | Value |
+|---------|-------------|-------------|-------|
+| Call source tracking | Tags each call with referring URL/ad | VAPI call metadata + UTM params | Knows which ad drove the call |
+| Call outcome tracking | Records whether call converted | AI call outcome + Zoho enrollment | Knows which calls became enrollments |
+| Enrollment attribution | Links enrollment to first touch | Zoho + call records | Knows which channel first attracted student |
+| Cost per enrollment | Calculates marketing cost / enrollments | Ad spend data (imported) + enrollments | Knows true cost per enrollment |
+| Campaign ROI | Calculates revenue from enrollments / ad spend | Zoho + ad data | Knows which campaigns make money |
+| Call volume trends | Charts calls by day/week/month | VAPI call logs | Spots seasonality, campaign spikes |
+
+**Data Flow Architecture**:
+```
+[Student sees ad] → [Unique landing page/phone number] → [Call tagged with source]
+↓
+[Optimizer AI handles call] → [Outcome recorded (converted/no/enquiry)] → [Zoho record updated]
+↓
+[Attribution dashboard pulls data] → [Links call source → enrollment] → [Calculates ROI]
+```
+
+**Technical Implementation Requirements**:
+| Component | Requirement | Complexity | Notes |
+|-----------|--------------|------------|-------|
+| Unique phone numbers | Different number per channel/ad | Medium | Twilio/VAPI can provision |
+| UTM param capture | Parse UTM from landing page → call metadata | Low | JavaScript + webhook |
+| Zoho integration | Link call record to enrollment record | Medium | Custom field mapping |
+| Ad spend import | Manual CSV upload or API | Low | Google Ads API possible |
+| Dashboard UI | Visualize attribution data | Medium | Retool, Metabase, custom |
+| Report generation | Automated weekly/monthly reports | Low | Scheduled email reports |
+
+### Competitive Landscape for Attribution Tools
+
+**Current tools RTOs use**:
+| Tool | What It Does | Gap for RTOs | Price |
+|------|-------------|---------------|-------|
+| Google Analytics | Website traffic, not calls | No call attribution | Free-$150K/year |
+| Facebook Ads Manager | Social ad performance | No enrollment data | Free |
+| Zoho Analytics | CRM reporting | No marketing attribution | $15/user/mo |
+| HubSpot | Inbound marketing | No RTO-specific flows | $800+/mo |
+| Custom dashboards | Built in-house | Expensive to build/maintain | $5K-50K |
+| Google Ads + Call Tracking | Trackable numbers | Disconnected from enrollment | $100-500/mo |
+
+**Competitor Attribution Products**:
+| Product | Focus | RTO Fit | Notes |
+|---------|-------|---------|-------|
+| Ruler Analytics | Revenue attribution | Medium | B2B focus, not RTO-specific |
+| HubSpot call tracking | Inbound calls | Medium | Expensive for RTO scale |
+| WhatConverts | Lead attribution | High | Tracks calls + forms + chats, $99-299/mo |
+| CallRail | Call tracking | Medium | No enrollment integration |
+| DIY (Google Sheets + manual) | Ad hoc | Low | Error-prone, time-intensive |
+
+**Gap in market**: No attribution tool specifically for RTO enrollment. WhatConverts comes closest but lacks RTO-specific workflows (USI collection, orientation booking, enrollment status).
+
+
+**Optimizer AI's advantage**: We ALREADY handle the calls. We ALREADY know the outcome. We ALREADY integrate with Zoho. Attribution is a feature on top of existing data, not a new data source.
+
+### Attribution Dashboard Pricing Strategy
+
+**Attribution as standalone product** (if RTO doesn't want enrollment AI):
+- Price: $299-499/month
+- Target: Marketing Directors frustrated with Google Analytics
+- Sales pitch: "Track which ads drive enrollments, not just leads"
+
+- Challenge: No enrollment AI → no call data → no attribution data
+
+**Attribution as Scale tier add-on** (current plan):
+- Included in Scale tier ($1,999/month)
+- Value: Unlocks marketing optimization for high-volume RTOs
+- Upsell: From Growth ($999) to Scale ($1,999) when marketing director asks for data
+
+**Attribution for RTOs not using enrollment AI**:
+- "Optimizer AI Attribution Only" — uses call tracking numbers, no AI handling
+- Price: $299/month
+- Target: RTOs who want attribution but use their own call handling
+- Sales pitch: "Start with attribution, add AI handling when you're ready"
+
+### Implementation Roadmap for Attribution Dashboard
+
+
+**Phase 1: MVP (Month 1-2)** — Basic call tracking
+- Provision unique phone numbers for Google Ads + Facebook
+- Track UTM params from website → call metadata
+- Link call outcomes to Zoho enrollment records
+- Manual export: CSV with call source + outcome
+- Value: "We now know which ads drive calls"
+
+
+**Phase 2: Dashboard (Month 3-4)** — Visualization
+- Build dashboard showing: Calls by source, Conversions by source, Cost per enrollment
+- Import Google Ads spend data (CSV upload)
+- Automated weekly report email
+- Value: "See ROI by channel in one view"
+
+**Phase 3: Forecasting (Month 5-6)** — Predictive
+- AI predicts enrollment volume from call trends
+- Flags when call volume drops (early warning)
+- Suggests budget reallocation based on ROI
+- Value: "AI tells you where to put your next dollar"
+
+**Phase 4: Integration (Month 7+)** — Full funnel
+- Integrate with Google Ads API (live spend data)
+- Add Facebook Pixel + Instagram tracking
+- Student journey view (ad → call → enrollment → completion)
+- Value: "Complete view of student acquisition"
+
+
+### What Happens Without Attribution (The RTO Problem)
+
+**Current state without Optimizer AI**:
+- Marketing Director: "I spend $10K/month on Google Ads. I think it works because we get calls."
+- CEO: "Prove it. Show me enrollments from ads."
+- Marketing Director: "I can't. Half the people who call never filled out a form."
+- Result: Marketing budget frozen, growth stalled
+
+**With Optimizer AI Attribution**:
+- Marketing Director: "Google Ads drove 45 calls last month. 12 enrolled = $2,400 cost per enrollment. Facebook drove 30 calls. 20 enrolled = $1,500 cost per enrollment. Should I shift budget?"
+- CEO: "Yes, double Facebook."
+- Result: Data-driven marketing decision, more enrollments
+
+### Recommended Actions for Steven
+
+- [ADDED] Define attribution dashboard MVP spec with Kham (what data, what reports) — Week 2
+- [ADDED] Provision unique phone numbers for Google Ads + Facebook (Phase 1) — Month 1
+- [ADDED] Build UTM capture into website landing pages — Month 1
+- [ADDED] Link VAPI call metadata → Zoho enrollment records — Month 2
+- [ADDED] Create first attribution report from Hadar data (test with Marcus/Kham) — Month 2
+- [ADDED] Present attribution dashboard to Scale tier prospects (early adopter program) — Month 3
+- [ADDED] Price attribution as Scale tier add-on ($200-400/month if standalone) — Month 3
+- [ADDED] Track attribution dashboard usage and feature requests — Ongoing
+- [ADDED] Build Phase 2 dashboard visualization (Retool or custom) — Month 3
+- [ADDED] Integrate Google Ads API for live spend data — Month 5
+
+### Sources
+
+- Attribution tools for SMB: G2.com marketing attribution software (2025)
+- RTO marketing challenges: The Educator Australia VET marketing survey (2025)
+- WhatConverts pricing: whatconverts.com pricing (2025)
+- Call tracking unique numbers: Twilio programmable voice (2025)
+- RTO call volume data: NCVER student survey (enquiry to enrollment) (2025)
+- Marketing attribution best practices: HubSpot attribution guide (2025)
+
+---
+
+*End of Cycle 205 refinement. Gap filled: Attribution dashboard research was thin (2 mentions only). Added product spec with 6 core features, data flow architecture, competitive landscape (5 tools vs Optimizer AI), attribution pricing strategy (standalone vs Scale tier), 4-phase implementation roadmap, what happens without attribution narrative, 10 recommended actions for Steven.*
+
