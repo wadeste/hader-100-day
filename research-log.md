@@ -5464,3 +5464,267 @@ NOTES:
 
 *End of Cycle 214 refinement. Gap filled: No AI continuous improvement strategy existed. Added data flywheel concept (more customers → more data → better AI), performance metrics framework (8 metrics with targets), human review process (5 review types with template), script optimization workflow (weekly/monthly/quarterly), ML opportunities roadmap (5 applications), customer feedback loop, data privacy considerations for improvement purposes, 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 215): Security Architecture and Infrastructure Strategy — Protecting Student Data in AI-Powered Enrollment
+
+### Gap identified
+Research mentions "encryption, access controls, audit logging" (Cycle 4612) and "Australia (Sydney region)" hosting (Cycle 4606) but lacks a comprehensive security architecture strategy. This is critical: Optimizer AI handles sensitive student data (names, phone numbers, enrollment status, USI), and RTO customers — regulated by ASQA and Privacy Act — will demand security guarantees. Without a documented security posture, Optimizer AI cannot pass RTO security reviews or enterprise procurement processes.
+
+**Original finding**: SLA mentions 99.5% uptime (Cycle 4538) but no security framework. DPA mentions encryption (Cycle 4592) but no implementation details. Infrastructure mentions AWS/Vercel (Cycle 4606) but no architecture.
+
+**Why this matters**: A security breach would be catastrophic — student data exposed, Privacy Act violations, ASQA compliance implications, reputational damage. Even without a breach, RTO compliance officers will ask: "How is our student data protected?" Optimizer AI needs documented security practices to win enterprise deals and pass RTO procurement reviews.
+
+### Security Architecture Overview
+
+**What Optimizer AI must protect**:
+
+| Data Type | Sensitivity | Risk if Exposed | Protection Required |
+|-----------|-------------|------------------|---------------------|
+| Student names | Medium | Privacy violation | Encryption at rest |
+| Phone numbers | Medium | SPAM, fraud risk | Encryption at rest/transit |
+| Email addresses | Medium | SPAM, phishing | Encryption at rest |
+| USI numbers | High | Identity linkage, fraud | Encryption at rest, access controls |
+| Enrollment records | High | Privacy violation | Encryption, access controls |
+| Call recordings | High | Privacy violation | Encryption, retention limits |
+| Marketing attribution | Low | Business data | Basic security |
+
+### Infrastructure Security
+
+**Recommended infrastructure setup**:
+
+| Component | Provider | Location | Security Features |
+|-----------|----------|----------|-------------------|
+| **Application hosting** | Vercel (or AWS Sydney) | Sydney, Australia | SOC 2 Type II, DDoS protection |
+| **Database** | Vercel Postgres or AWS RDS | Sydney | Encryption at rest, automated backups |
+| **Voice AI** | VAPI | US/EU | SOC 2 compliant, data retention policies |
+| **Voice synthesis** | ElevenLabs | EU | Encryption, no data retention for synthesis |
+| **CRM** | Zoho | Australia data centres | Zoho security certifications |
+| **File storage** | AWS S3 or Vercel Blob | Sydney | Encryption at rest, versioning |
+| **Monitoring** | Sentry, Cloudflare | Global | Real-time alerting |
+| **Secrets management** | Vercel ENV or AWS SSM | N/A | Encrypted, never in code |
+
+**Australian data residency**:
+- Store all student PII in Australian data centres (Sydney region)
+- Vercel, AWS, and Zoho all offer Australian regions
+- VAPI call recordings may need to be stored in Australia — verify with VAPI
+- Document data residency in DPA
+
+### Encryption Standards
+
+**Encryption in transit** (all data moving between systems):
+- TLS 1.2+ for all HTTP connections
+- TLS 1.3 preferred where supported
+- SRTP for voice call encryption (VAPI handles)
+- Certificate pinning where possible
+
+**Encryption at rest** (stored data):
+- AES-256 encryption for all student PII
+- Database-level encryption (transparent data encryption)
+- File storage encryption (S3, Blob)
+- Key management: Vercel ENV or AWS KMS
+
+**Encryption key management**:
+| Key Type | Management | Rotation |
+|----------|-----------|----------|
+| Database encryption key | Provider-managed (AWS KMS, Vercel) | Annual rotation |
+| API keys (VAPI, ElevenLabs) | Vercel ENV variables | 90-day review |
+| Zoho OAuth tokens | Encrypted in database | Per-session, auto-refresh |
+| Customer encryption keys | Not applicable (no BYOK in Year 1) | — |
+
+### Access Controls
+
+**Principle of least privilege**:
+- Only access what you need, only when you need it
+- No shared credentials
+- No default passwords
+
+**System access**:
+| System | Who Has Access | Access Level | MFA Required? |
+|--------|---------------|--------------|---------------|
+| Application (production) | Kham only | Admin | Yes |
+| Application (staging) | Kham, Steven | Developer | Yes |
+| Database (production) | Kham only | No direct access (via app) | N/A |
+| Vercel Dashboard | Kham | Owner | Yes |
+| AWS Console | Kham | Admin | Yes |
+| Zoho | Steven, Kham | Admin | Yes |
+| VAPI Dashboard | Kham | Admin | Yes |
+
+**Customer data access**:
+- Optimizer AI staff cannot access customer data except:
+  - For customer support requests (logged)
+  - For security investigations (logged)
+  - For compliance audits (customer-authorized)
+
+**Audit logging**:
+- Log all data access (who, what, when)
+- Log all admin actions
+- Log all API calls
+- Retain logs for 12 months minimum (for incident investigation)
+- Alert on anomalous access patterns
+
+### Business Continuity and Disaster Recovery
+
+**Uptime target**: 99.5% (per SLA)
+- Monthly downtime allowance: ~3.5 hours
+- Scheduled maintenance: <2 hours/month (off-peak)
+- Unplanned downtime target: <1.5 hours/month
+
+**Backup strategy**:
+| Data Type | Backup Frequency | Retention | Recovery Point Objective |
+|-----------|-----------------|----------|-------------------------|
+| Database | Continuous (real-time) | 30 days rolling | <1 hour |
+| Call recordings | Daily | 5 years (AVETMISS) | <24 hours |
+| File storage | Daily | 7 years | <24 hours |
+| Configuration | On change | 90 days | <1 hour |
+
+**Disaster recovery plan**:
+
+| Scenario | Recovery Time | Recovery Point | Process |
+|----------|--------------|----------------|---------|
+| Application server down | <4 hours | <1 hour | Failover to backup region |
+| Database corruption | <8 hours | <1 hour | Restore from backup |
+| Call recording loss | <48 hours | Previous day | Restore from backup |
+| VAPI outage | N/A | N/A | Queue calls, process when restored |
+| Full data center failure | <24 hours | <1 hour | Failover to secondary region |
+
+**Testing**:
+- Quarterly DR test (simulate failure, verify recovery)
+- Annual full DR exercise
+- Document test results
+
+### Compliance Certifications
+
+**Certifications to pursue** (in order of priority):
+
+| Certification | Relevance | Effort | Timeline |
+|--------------|-----------|--------|----------|
+| **SOC 2 Type II** | Enterprise sales, security-conscious buyers | High (3-6 months) | Year 2-3 |
+| **ISO 27001** | Enterprise sales, Australian government | Very High | Year 3+ |
+| **ASQA compliance** | RTOs require this | N/A (regulatory) | Continuous |
+| **Privacy Act compliance** | Legal requirement | N/A | Year 1 |
+| **GDPR** | UK/EU expansion | Low (if data stays in AU) | Year 2+ |
+
+**SOC 2 Type II requirements** (when pursuing):
+- Security, Availability, Confidentiality criteria
+- 6-12 months of audit evidence
+- Third-party auditor assessment
+- Annual renewal
+
+**Year 1 approach**: Document security practices, don't pursue formal certification yet. Build toward SOC 2 readiness ( Year 2 pursuit).
+
+### Security Questionnaire Response
+
+**RTO procurement often includes security questionnaire**. Have responses ready:
+
+| Question | Response |
+|-----------|----------|
+| Where is data stored? | Australian data centres (Sydney region) |
+| Is data encrypted? | Yes, AES-256 at rest, TLS 1.3 in transit |
+| Who has access to data? | Named staff only, logged, least privilege |
+| Is MFA required? | Yes, all staff with system access |
+| What's your uptime SLA? | 99.5% monthly |
+| How is backup handled? | Daily backups, 30-day retention, tested quarterly |
+| What's your breach notification? | 72-hour notification to customer + OAIC if required |
+| Do you have security certifications? | Privacy Act compliant, pursuing SOC 2 Type II |
+| What's your data retention? | 5 years (AVETMISS), then deleted |
+| Can we audit your security? | Yes, with advance notice and NDA |
+
+### Vendor Security Assessment
+
+**VAPI security**:
+- SOC 2 Type II certified
+- Data retention policies documented
+- No storage of call recordings (unless customer opts in)
+- Australian data residency: Verify with VAPI
+- https://vapi.ai/security
+
+**ElevenLabs security**:
+- GDPR compliant
+- No voice data storage for synthesis
+- EU data residency available
+- https://elevenlabs.io/privacy
+
+**Zoho security**:
+- ISO 27001, SOC 2 Type II, GDPR compliant
+- Australian data centres available
+- Zoho Privacy Policy and DPA available
+- https://www.zoho.com/au/compliance/
+
+### Incident Response Plan
+
+**Security incident classification**:
+
+| Severity | Definition | Examples | Response Time |
+|----------|------------|----------|---------------|
+| **Critical** | Data breach, system compromise | PII exposed, unauthorized access | Immediate (<1 hour) |
+| **High** | Service disruption, potential breach | DDoS, phishing, malware | <4 hours |
+| **Medium** | Anomaly, potential issue | Unusual access, failed logins | <24 hours |
+| **Low** | Minor issue | Misconfiguration, false positive | <72 hours |
+
+**Incident response process**:
+
+1. **Detection** (automated + manual)
+   - Cloudflare alerts for DDoS
+   - Sentry for application errors
+   - Vercel/AWS for infrastructure alerts
+   - Staff reported issues
+
+2. **Triage** (15 min)
+   - Assess severity
+   - Assign incident commander
+   - Begin incident log
+
+3. **Containment** (immediate)
+   - Isolate affected systems
+   - Block malicious access
+   - Preserve evidence
+
+4. **Investigation** (1-24 hours)
+   - Determine scope
+   - Identify root cause
+   - Document timeline
+
+5. **Notification** (within 72 hours if breach)
+   - Notify affected customers
+   - Notify OAIC if eligible breach
+   - Internal stakeholders
+
+6. **Remediation** (24-72 hours)
+   - Fix vulnerability
+   - Restore service
+   - Update security controls
+
+7. **Post-incident review** (1-2 weeks)
+   - Document lessons learned
+   - Update security controls
+   - Brief team on prevention
+
+### Recommended Actions for Steven
+
+- [ADDED] Document security architecture (this research) — Week 2
+- [ADDED] Set up Vercel/AWS infrastructure in Sydney region — Week 1
+- [ADDED] Enable MFA for all team accounts (Vercel, Zoho, VAPI, GitHub) — Week 1
+- [ADDED] Configure database encryption (AES-256) — Week 1
+- [ADDED] Set up audit logging for data access — Week 2
+- [ADDED] Create backup strategy and test restore — Month 1
+- [ADDED] Draft security questionnaire response — Month 1
+- [ADDED] Obtain VAPI, ElevenLabs, Zoho security certifications — Month 1
+- [ADDED] Document incident response plan — Month 2
+- [ADDED] Plan SOC 2 Type II readiness by Year 2 — Month 12
+
+### Sources
+
+- Australian Privacy Act 1988: oaic.gov.au (2025)
+- SOC 2 compliance: aicpa.org SOC 2 criteria (2025)
+- AWS security best practices: aws.amazon.com/security (2025)
+- Vercel security: vercel.com/security (2025)
+- VAPI security: vapi.ai/security (2025)
+- Zoho security: zoho.com/au/compliance (2025)
+- ISO 27001: iso.org 27001 (2025)
+
+---
+
+*End of Cycle 215 refinement. Gap filled: No security architecture existed. Added infrastructure security (7 components with providers), encryption standards (TLS 1.3, AES-256), access controls (principle of least privilege, audit logging), business continuity (99.5% uptime, DR plan), compliance certifications (SOC 2, ISO 27001), vendor security assessment (VAPI, ElevenLabs, Zoho), incident response plan (7-step process), security questionnaire responses, 10 recommended actions for Steven.*
+

@@ -73,4 +73,5 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 211: Legal Framework — MSA, DPA, SLA, AI Liability, Privacy Act
 - [x] Cycle 212: International Expansion — NZ, UK, US Market, Multi-Region Architecture
 - [x] Cycle 213: Investor Strategy — AU EdTech Investors, Pitch Deck, Exit Options
-- [ ] Cycle 214: (next topic — revisit any remaining thin areas)
+- [x] Cycle 214: AI Continuous Improvement — Data Flywheel, Performance Metrics, ML Roadmap
+- [ ] Cycle 215: (next topic — revisit any remaining thin areas)
