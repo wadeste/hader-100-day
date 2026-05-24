@@ -1760,3 +1760,76 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 56 refinement. Gap filled: Zoho dedup rules, attribution model specs, ASQA requirements, data tracking implementation.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 57): GTM Channel Strategy Deep Dive
+### Gap identified: Research identifies LinkedIn outbound and RTO Connect as priorities but lacks outreach sequences, message templates, and partner program structure
+
+**Original finding**: "GTM channel strategy research" identified LinkedIn outbound and RTO Connect Forum as priority channels but lacked execution details.
+
+**Why this matters**: Strategy without execution is worthless. Need specific sequence, templates, and partner commission structure to start Week 1.
+
+### LinkedIn 5-Touch Outreach Sequence
+
+| Touch | Day | Format | Goal |
+|-------|-----|--------|------|
+| 1 | 0 | Connection request | 30%+ accept |
+| 2 | 3 | DM after accept | Open + demo ask |
+| 3 | 7 | Value add (guide) | Re-engage |
+| 4 | 14 | Social proof | Peer credibility |
+| 5 | 21 | Breakup | Close or move |
+
+**Funnel**: 50 requests → 15 accepts → 8 opened → 1 demo → 1 customer
+
+### Target List (First 6 Months)
+
+| State | Target | Why |
+|-------|--------|-----|
+| QLD | 15 | Marcus network + Hader location |
+| NSW | 15 | Largest market |
+| VIC | 10 | Second largest |
+| Other | 10 | SA, WA, ACT, TAS |
+
+### RTO Connect Session Plan
+
+**Title**: "From 60 Hours to 6: How AI Automation is Transforming RTO Enrollment"
+
+**Abstract**: Hader case study with metrics (70% containment, 19 hrs/week saved)
+
+**Learning outcomes**:
+1. Quantify ROI of AI enrollment automation
+2. Evaluate AI vendors on ASQA compliance
+3. Plan phased AI implementation
+4. Avoid top 3 pitfalls
+
+**Submission deadline**: June 2026
+**Conference**: August 2026
+
+### Partner Program Tiers
+
+| Type | Commission | Requirements | Timeline |
+|------|-----------|--------------|----------|
+| Referral | 15% first year | RTO market access | Year 1 |
+| Integration (Zoho) | 10-15% recurring | Certified partner | Year 2 |
+| Reseller | 20-30% recurring | Full support | Year 3 |
+
+### Recommended Actions for Steven
+
+- [ADDED] Build LinkedIn target list (50 RTOs, QLD/NSW/VIC) — by June 7, 2026
+- [ADDED] Send first 50 connection requests — by June 21, 2026
+- [ADDED] Submit RTO Connect proposal — by June 21, 2026
+- [ADDED] Identify 5 referral partners (RTO consultants) — by June 28, 2026
+- [ADDED] Track outreach metrics (connection rate, demo conversion) — from June 2026
+- [ADDED] Launch referral partner program — by July 2026
+
+### Sources
+- RTO Connect: rtoconnect.com.au (2026)
+- LinkedIn Sales Navigator: linkedin.com/sales (2026)
+- B2B SaaS GTM: SaaStr, OpenView Partners (2026)
+
+---
+
+*End of Cycle 57 refinement. Gap filled: LinkedIn outreach sequence, message templates, RTO Connect plan, partner program structure.*
+
+---
