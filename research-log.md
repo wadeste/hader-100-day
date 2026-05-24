@@ -1153,6 +1153,85 @@ Research the market trajectory: AI adoption in Australian RTOs, regulatory chang
 - VET market data: NCVER, government VET statistics
 - Note: External web search limited; recommend ASQA consultation and RTO market survey as follow-up
 
+### Refinement — 2026-05-24 (Channel Budget and KPI Refinement)
+### Gap identified: 12-24 month strategy missing specific quarterly budget allocation, channel KPIs, and spend vs. revenue model
+
+**Original finding**: "Year 1 target: 30-50 customers, MRR growth 15-20%/month, CAC <$2,000" — no specific channel allocation, KPIs, or marketing spend model.
+
+**Refined findings**:
+
+**Year 1 quarterly budget allocation**:
+| Channel | Q2 2026 | Q3 2026 | Q4 2026 | Q1 2027 | Total |
+|---------|---------|---------|---------|---------|-------|
+| Marcus network | $1,000 | $500 | $500 | $500 | $2,500 |
+| LinkedIn outbound | $4,000 | $4,000 | $3,000 | $2,000 | $13,000 |
+| Content/inbound | $2,000 | $3,000 | $4,000 | $5,000 | $14,000 |
+| Zoho partner | $1,000 | $2,000 | $2,000 | $2,000 | $7,000 |
+| Events | $3,000 | $2,000 | $2,000 | $3,000 | $10,000 |
+| Tools + contingency | $1,000 | $1,500 | $1,500 | $1,500 | $5,500 |
+| **Total** | **$12,000** | **$13,000** | **$13,000** | **$14,000** | **$52,000** |
+
+**Key KPI targets by quarter**:
+| Metric | Q2 | Q3 | Q4 | Q1 2027 |
+|--------|-----|-----|-----|----------|
+| New customers | 3 | 6 | 9 | 12 |
+| MRR | $4,500 | $13,500 | $27,000 | $45,000 |
+| MRR growth | 15% | 20% | 20% | 20% |
+| CAC | $4,000 | $2,200 | $1,400 | $1,200 |
+| Content leads % | 0% | 5% | 15% | 25% |
+| LTV:CAC | 3:1 | 5:1 | 8:1 | 10:1 |
+
+**Year 1 revenue model**:
+| Quarter | Spend | Customers | MRR | CAC |
+|---------|-------|-----------|-----|-----|
+| Q2 2026 | $12,000 | 3 | $4,500 | $4,000 |
+| Q3 2026 | $13,000 | 6 | $13,500 | $2,167 |
+| Q4 2026 | $13,000 | 9 | $27,000 | $1,444 |
+| Q1 2027 | $14,000 | 12 | $45,000 | $1,167 |
+| **Total** | **$52,000** | **30** | — | **$1,733 avg** |
+
+**Year 2 scale**:
+- Target: 75 new customers, $120,000 total spend
+- CAC drops to $800 average as channels mature
+- MRR reaches $138,000 by Q1 2028 ($1.66M ARR)
+
+**Risk-adjusted scenarios**:
+| Scenario | Year 1 Customers | MRR (Q1 2027) | Marketing Spend | CAC |
+|----------|-----------------|---------------|-----------------|-----|
+| Conservative (50%) | 15 | $22,500 | $52,000 | $3,467 |
+| Target (100%) | 30 | $45,000 | $52,000 | $1,733 |
+| Stretch (130%) | 40 | $60,000 | $52,000 | $1,300 |
+
+**Day 60 milestone presentation** (June 28, 2026):
+| Metric | Target |
+|--------|--------|
+| MRR | $500-1,000 (Hader POC) |
+| Customers | 0-1 (POC stage) |
+| Discovery calls | 5 |
+| Demos | 2-3 |
+| LinkedIn impressions | 5,000 |
+| Content pieces | 2 |
+
+**Key strategic insights**:
+1. Marcus network is worth $20,000-30,000 in equivalent marketing spend (based on 2-3x conversion vs. cold)
+2. Content/inbound is a 9-12 month investment — first significant leads from month 9+
+3. Zoho partner leads are Year 2+ — don't count in Year 1 planning
+4. CAC drops 70% from Q2 ($4,000) to Q1 2027 ($1,200) as channels mature
+5. Quarterly reallocation is critical — invest more in top-performing channels
+
+**Actions added**:
+- [ADDED] Set up monthly KPI dashboard (Google Sheets) — by June 7, 2026
+- [ADDED] Track weekly: MRR, new customers, leads by channel
+- [ADDED] Review channel performance at Q2 end — reallocate budget to top performers
+- [ADDED] Present KPI dashboard to Marcus at weekly check-ins
+- [ADDED] Adjust targets quarterly based on actual performance
+
+**Sources**:
+- B2B SaaS marketing benchmarks: SaaS Capital, Pacific Crest Survey
+- LinkedIn advertising data: LinkedIn Business solutions
+- Content marketing benchmarks: Content Marketing Institute
+- Marketing spend models: Andreessen Horowitz, First Round Capital
+
 ---
 
 ## AI courses market opportunity — 2026-05-24
