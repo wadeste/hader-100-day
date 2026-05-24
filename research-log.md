@@ -6494,3 +6494,141 @@ If completion rate improves to 50%:
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 17)
+### Gap identified: Discovery interview troubleshooting — how to handle objections that won't resolve, disengaged prospects, and "no decision" outcomes
+
+**Original finding**: Discovery interview script includes objection handling scripts and commitment ask sequence, but no guidance for when the interview isn't going well, objections won't resolve, or the prospect goes silent.
+
+**Why this matters**: First discovery calls are high-stakes. If the interview goes sideways (prospect is hostile, disengaged, or raises an unresolvable objection), Steven might waste 45 minutes and get nothing useful. Better to have troubleshooting tactics that either recover the interview or gracefully exit early.
+
+**What the research currently states**:
+- "Objection handling scripts for ASQA compliance" — responses to objections
+- "Commitment ask sequence" — how to end the call
+- No recovery tactics for when things go wrong
+
+**Five common discovery call failure modes and how to recover**:
+
+| Failure Mode | Symptoms | Root Cause | Recovery Tactic |
+|-------------|---------|-----------|-----------------|
+| **Hostile prospect** | "I don't have time for this," cutting you off, aggressive tone | Not warm intro, no buy-in | Shift to "I'm not here to sell — just 3 quick questions" |
+| **Disengaged** | One-word answers, checking phone, "this is interesting" without depth | Low pain, no urgency | Ask: "What would make this worth your time?" |
+| **Technical override** | "How does your AI work?" asked every 5 minutes | Expecting product demo | Redirect: "I'll show you that — but first I want to understand your current process" |
+| **Budget blocker** | "We don't have budget for this" (often an excuse) | No commitment, no budget OR real constraint | Probe: "If budget weren't an issue, would this solve a problem?" |
+| **Champion only** | "I love this, but I need to bring in my boss" | No decision authority on call | Schedule follow-up with decision-maker as condition of continuing |
+
+**Recovery tactics for each failure mode**:
+
+**1. Hostile prospect recovery**:
+> "I hear you — this probably feels like a sales call. It's not. I'm just trying to understand how RTOs handle enrollment calls. Three quick questions, then I'll let you go. Okay?"
+
+If still hostile: "I appreciate your time regardless. Here's my card — reach out when you're interested in AI for enrollment."
+
+**2. Disengaged prospect recovery**:
+> "I want to make sure this is valuable for you. What's the one thing you hoped to get from this conversation?"
+
+If they can't answer: "Sounds like now isn't a great time. Can I follow up in a month when you're thinking about enrollment automation?"
+
+**3. Technical override recovery**:
+> "Great question — I'll walk through that in detail at the demo. For now, I need to understand how things work today so I can show you the right part of our solution."
+
+If they persist: "I can send you a technical overview now — let's focus on your situation first."
+
+**4. Budget blocker recovery**:
+> "Totally understand — before we close out, can I ask: if budget wasn't a constraint, would this solve a problem you're having?"
+
+If yes: "What would it take to get budget? Is it a matter of proving ROI first?"
+If no: "What would need to be true for you to care about this?"
+
+**5. Champion-only recovery**:
+> "I completely understand — this is a bigger decision. Would it be useful to bring your boss into the next conversation? I can prep a quick overview so we're not starting from scratch."
+
+If they agree: "Great — what does your boss care most about? I'll make sure the next conversation addresses that."
+
+**"No decision" handling** — when the prospect is interested but won't commit:
+
+| Response | When to use | Script |
+|----------|------------|--------|
+| **Offer a different commitment** | They like it but won't commit to demo | "Would it help if I sent you a 2-minute video of the orientation robot instead? Then you can decide if a demo makes sense." |
+| **Create artificial urgency** | They keep saying "I'll think about it" | "We're actually limiting our pilot to 3 RTOs in Q2 — I'd like to hold a spot for you if you're interested." |
+| **Reduce the ask** | Too big a commitment | "What if we did a 15-minute call instead? No demo, just me showing you one thing." |
+| **Nurture path** | Not ready now, maybe later | "No problem — I'll send you our ASQA compliance guide. When you're ready to think about AI, I'm here." |
+
+**"What would it take?" framework** (for uncommitted prospects):
+
+This is the single best question for prospects who won't commit:
+
+> "I hear you — you're not sure if this is worth your time. Before we close out, can I ask: what would it take for you to be interested in AI for enrollment calls?"
+
+Their answer tells you:
+- If they can't answer: They're not the right person (find the decision-maker)
+- If they mention a problem: You've found a pain point to address
+- If they mention budget: Probe on budget process
+- If they mention timing: Get the actual timeline
+
+**Interview exit strategy** (when to wrap up early):
+
+Sometimes the right call is to end the interview early:
+
+| Signal | Meaning | Action |
+|--------|---------|--------|
+| 3+ objections, none resolving | Not a fit | "I don't think this is the right fit for where you're at. Good luck with enrollment." |
+| One-word answers after 10 minutes | Low pain | "I appreciate your time. I'll send you our guide if you want to learn more." |
+| Callback requested (avoiding now) | Not urgent | "I can send you some info — when should I follow up?" |
+| Prospect says "this is a bad time" | Calendar conflict | "Let's reschedule — what's a better time?" |
+
+**Discovery call health check** (mid-interview assessment):
+
+After 15 minutes, assess:
+- [ ] Do they have specific pain points? (If no, low probability of conversion)
+- [ ] Are they engaged in the conversation? (If no, salvage or exit)
+- [ ] Do they have budget authority or know who does? (If no, this is a discovery call, not a sales call)
+- [ ] Is the timeline realistic? (If 6+ months out, nurture, not sell)
+
+**What to ask after every discovery call** (post-call assessment):
+
+| Question | Why it matters |
+|----------|---------------|
+| "Would I want to do a demo with this person?" | If no, reconsider the lead |
+| "Did they have specific pain that we solve?" | If no, not a good fit |
+| "Did they have budget or know how to get it?" | If no, champion or lost cause |
+| "Did they have a realistic timeline?" | If >6 months, nurture path |
+| "Would I feel confident pitching them?" | Confidence check before demo |
+
+**Key insight**: Not every discovery call needs to result in a demo. Some calls exist to gather intelligence, build relationship, or disqualify. The goal is to not waste time on the wrong calls — recognize early and either recover or exit.
+
+**What to do with disqualified prospects** (they might become customers later):
+
+| Disqualification reason | Future action |
+|------------------------|---------------|
+| No pain (not interested in AI) | Nurture with content, follow up in 6 months |
+| No budget (real constraint) | Keep in mind, watch for budget cycle |
+| Wrong person (no authority) | Build relationship, ask for intro to decision-maker |
+| Bad timing (seasonal, organizational) | Set calendar reminder for 3-6 months |
+| Not a fit (wrong industry, size) | Thank and close — they're not the market |
+
+**Post-interview actions** (for all calls, qualified or not):
+
+1. Score in 30 minutes (while call is fresh)
+2. Log in Zoho: notes, score, next steps
+3. Send personalized follow-up within 24 hours
+4. If qualified: schedule demo
+5. If unqualified: add to nurture sequence or close out
+
+**Actions added**:
+- [ADDED] Add "interview health check" at 15-minute mark — assess engagement before continuing
+- [ADDED] Use "What would it take?" question for uncommitted prospects
+- [ADDED] Practice recovery tactics for 5 failure modes before first discovery call
+- [ADDED] Know when to exit early — don't waste time on hostile/disengaged prospects
+- [ADDED] Log all calls in Zoho with score and next steps within 30 minutes
+- [ADDED] Follow up within 24 hours regardless of outcome (qualified or not)
+
+**Sources**:
+- Discovery call best practices: The Mom Test (Rob Fitzpatrick), Salescalls.ai
+- Objection handling: "The Sales Bible" (Jeffrey Gitomer)
+- Discovery call troubleshooting: Winning By Design, MEDDIC framework
+
+---
+
