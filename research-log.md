@@ -240,6 +240,67 @@ Study existing solutions (voice AI, chatbots, call automation) in the education 
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Specific ASQA compliance requirements for AI enrollment calls
+
+**Original finding**: "ASQA compliance requirements identified: USI verification, LLN assessment, enrollment documentation, data privacy (APPs), records management"
+
+**Research conducted**: ASQA Standards analysis, Australian Privacy Principles review
+
+**Refined findings**:
+**Specific ASQA Standard clauses relevant to enrollment calls**:
+- **Standard 5.1-5.3** (Clause 5): RTO must determine learner needs before enrollment — AI must capture this data
+- **Standard 8.1-8.6** (Clause 8): Learner records must be current, accurate, and secure — AI must create auditable records
+- **Standard 3.1** (Clause 3): Required pre-enrollment information (refund policy, complaints process, etc.) — AI must deliver verbally or reference documentation
+
+**USI verification requirements**:
+- Every student MUST have a Unique Student Identifier (USI) before enrollment completion
+- AI must verify USI exists and is linked to correct student name/DOB
+- Verification via USI website or API (usi.gov.au)
+- AI cannot complete enrollment without valid USI or documented exemption
+
+**LLN assessment requirements**:
+- RTOs must conduct LLN assessment BEFORE enrollment in courses at AQF level 3 or above
+- AI must ask LLN screening questions OR document that LLN assessment is scheduled
+- Cannot enroll student without LLN assessment on file
+- ASQA expects documentation of LLN assessment results in student file
+
+**AI-specific compliance risk points**:
+| Risk | ASQA Implication | Mitigation |
+|------|-----------------|------------|
+| AI provides incorrect course information | Misleading conduct, Clause 7.1 | Script approval process, human review of AI outputs |
+| AI fails to deliver pre-enrollment info | Clause 5.4, consumer protection | Verbal delivery + SMS/email follow-up with written info |
+| No record of AI conversation | Standard 8, audit evidence | Full call recording + transcript + AI decision log |
+| AI enrolls without USI | Regulatory breach | Hard stop on enrollment until USI verified |
+| AI mishandles LLN results | Learner support failure | AI escalates to human for LLN concerns |
+
+**Australian Privacy Principles (APP) compliance for AI**:
+- **APP 3**: Collection of personal information must be necessary — AI collecting student contact info is necessary
+- **APP 5**: Notify individuals of collection — AI must disclose it's automated at call start
+- **APP 6**: Use/disclosure limitations — AI data cannot be used for other purposes without consent
+- **APP 11**: Security of personal information — US-based AI APIs (Bland, Retell) may store data overseas, breach notification requirements differ
+- **Critical**: Student inquiries via AI = personal information collection = must have privacy notice
+
+**Compliance as product moat — updated**:
+- RTOs fear AI failing audits more than they want AI efficiency gains
+- "Built for ASQA compliance" differentiates from generic AI vendors
+- Audit trail features (call recording, transcript, decision log) become selling points
+- Partner with ASQA consultant to create "AI compliance checklist" — free lead-gen tool
+
+**Strategic implications updated**:
+- Orientation call robot MVP must include: USI verification prompt, LLN screening, pre-enrollment info disclosure, call recording
+- Privacy notice at call start is legally required, not optional
+- Compliance documentation should be a dashboard feature (export for audit)
+- First RTO AI product with built-in ASQA compliance = marketing advantage ("The only AI that passes ASQA audits")
+
+**Actions added**:
+- [ADDED] Add ASQA compliance checklist to orientation call robot MVP requirements
+- [ADDED] Prepare "AI for RTOs: ASQA Compliance Guide" as free content asset (lead gen)
+- [ADDED] Get legal opinion on APP compliance for US-based voice AI APIs (priority: before POC launch)
+- [ADDED] Contact ASQA directly to ask about guidance on AI use in enrollment (proactive positioning)
+
+---
+
 ## AI skill packages for RTO staff — use case validation — 2026-05-24
 
 ### Objective
