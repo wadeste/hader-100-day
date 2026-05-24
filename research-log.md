@@ -5238,3 +5238,243 @@ Questions? Drop them below 👇
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 85): Attribution Dashboard Product Deep Dive
+### Gap identified: Research provides attribution dashboard spec and Zoho dedup rules but lacks specific dashboard visualizations, Looker Studio implementation, competitor product comparison, and data pipeline architecture
+
+**Original finding**: "Unified marketing attribution dashboard" (original + Cycle 56 refinement) identified Zoho dedup rules, position-based attribution model, and ASQA requirements. However, research lacks:
+- Dashboard visualization specs (charts, KPIs, filters)
+- Looker Studio implementation details (connectors, data model)
+- Competitor product comparison (Attributely, Rockerbox, etc.)
+- Data pipeline architecture (UTM → Zoho → Looker Studio)
+- RTO-specific reporting requirements (ASQA audit format)
+
+**Why this matters**: The attribution dashboard is Phase 2 product. Without specific dashboard specs and implementation plan, it remains abstract. RTOs need concrete reports they can use immediately, not a dashboard they have to build themselves.
+
+### Dashboard Visualization Specs
+
+**Core KPIs to display**:
+
+| KPI | Calculation | Source | Update frequency |
+|-----|-------------|--------|------------------|
+| Total leads | Count of new Zoho leads | Zoho | Real-time |
+| Leads by channel | Group by utm_source | Zoho + UTM | Daily |
+| Conversion rate | Enrollments / leads | Zoho | Weekly |
+| Cost per lead | Ad spend / leads by channel | GAds + Zoho | Daily |
+| Cost per enrollment | Ad spend / enrollments | GAds + Zoho | Weekly |
+| First-touch channel | utm_source (first touch) | Zoho | Real-time |
+| Last-touch channel | utm_source (last touch) | Zoho | Real-time |
+| Attribution weight | Position-based (40/40/20) | Calculated | Weekly |
+
+**Dashboard sections (5 pages)**:
+
+**Page 1: Executive Summary**
+- Total leads (MTD, YTD)
+- Total enrollments (MTD, YTD)
+- Overall conversion rate
+- Overall CPA (cost per acquisition)
+- Trend chart (leads + enrollments over 12 weeks)
+
+**Page 2: Channel Performance**
+- Bar chart: Leads by channel (Google Ads, Meta, LinkedIn, organic, referral)
+- Bar chart: Enrollments by channel
+- Table: Channel metrics (leads, conversions, CPA, ROAS)
+- Filter: Date range, RTO location
+
+**Page 3: Attribution Breakdown**
+- Sankey diagram: First-touch → conversion path (if available)
+- Pie chart: Revenue attribution by channel (position-based)
+- Table: Channel contribution to revenue
+- Filter: Campaign, channel, date
+
+**Page 4: Marketing Efficiency**
+- Line chart: Cost per lead trend (12 weeks)
+- Line chart: Cost per enrollment trend (12 weeks)
+- Bar chart: Spend by channel
+- ROAS by channel (revenue / ad spend)
+
+**Page 5: ASQA Audit Report**
+- Lead source summary (3-year retention)
+- Ad spend by channel (3-year retention)
+- Enrollment source by channel (3-year retention)
+- Marketing consent records (per student)
+- Export to PDF for audit
+
+### Looker Studio Implementation
+
+**Data connectors**:
+| Source | Connector | Data synced |
+|--------|----------|-------------|
+| Zoho CRM | Zoho Analytics connector | Leads, enrollments, utm fields |
+| Google Ads | Google Ads connector (built-in) | Spend, clicks, conversions |
+| Meta Ads | Manual CSV upload | Spend, conversions |
+| Google Analytics | GA4 connector | Sessions, goals |
+
+**Data model**:
+```
+Leads table (Zoho):
+- lead_id (PK)
+- created_date
+- first_name, last_name, email, phone
+- utm_source (first touch)
+- utm_medium (first touch)
+- utm_campaign (first touch)
+- utm_source_last (last touch)
+- utm_medium_last (last touch)
+- channel_first (derived from utm_source)
+- channel_last (derived from utm_source_last)
+- enrollment_date (if converted)
+- enrollment_source (channel)
+
+Ad spend table (Google Ads + Meta):
+- date
+- channel
+- campaign
+- spend
+- clicks
+- conversions (form submissions)
+- cost_per_conversion
+```
+
+**Blend data** (Looker Studio blend):
+- Left join: Leads × Ad spend on date + channel
+- Calculated fields: CPL, CPA, ROAS, attribution weight
+
+**Implementation steps**:
+| Step | Task | Time |
+|------|------|------|
+| 1 | Connect Zoho to Looker Studio | 2 hrs |
+| 2 | Connect Google Ads to Looker Studio | 1 hr |
+| 3 | Set up Meta Ads manual upload (CSV) | 2 hrs |
+| 4 | Create blend for leads + spend | 3 hrs |
+| 5 | Build Page 1 (Executive Summary) | 4 hrs |
+| 6 | Build Page 2 (Channel Performance) | 4 hrs |
+| 7 | Build Page 3 (Attribution) | 4 hrs |
+| 8 | Build Page 4 (Marketing Efficiency) | 3 hrs |
+| 9 | Build Page 5 (ASQA Audit) | 4 hrs |
+| 10 | Add filters and date picker | 2 hrs |
+| 11 | Share with stakeholders | 1 hr |
+| **Total** | | **30 hrs** |
+
+### Competitor Product Comparison
+
+**Attribution tools in Australian RTO market**:
+
+| Tool | What it does | Price | Weaknesses for RTOs |
+|------|--------------|-------|---------------------|
+| Rockerbox | Multi-touch attribution | $2K-10K/mo | Not CRM-integrated, complex, US-focused |
+| Attributely | Shopify/ecommerce attribution | $500-2K/mo | Not for education, no Zoho |
+| Hyro | AI call attribution | $1K-5K/mo | US-focused, no ASQA compliance |
+| CallRail | Call tracking + attribution | $150-500/mo | Limited multi-touch, not education-specific |
+| DIY (Looker Studio + Zoho) | Manual attribution | $0-50/mo | Time-intensive, requires analyst |
+
+**Optimizer AI advantage**:
+- Native Zoho integration (no manual export)
+- ASQA-compliant reports (built-in)
+- Education-specific (RTO context)
+- Bundled with call automation (data completeness)
+
+**Positioning vs. DIY**:
+- "DIY takes 10+ hours/month. We give you dashboards in 10 hours of setup — then automatic."
+- "DIY misses phone call attribution. We track calls from first touch to enrollment."
+
+### Data Pipeline Architecture
+
+**Complete data flow**:
+```
+[Google Ads] ──────→ [UTM params] ──────→ [Landing page]
+                                              │
+[Meta Ads] ────────→ [UTM params] ──────→ [Form submit]
+                                              │
+                                              ▼
+                                    [Zoho CRM] ← [Lead form]
+                                              │
+                                              ▼
+                               [Zoho dedup rules]
+                               (email + phone merge)
+                                              │
+                                              ▼
+                           [UTM fields preserved]
+                           (first + last touch)
+                                              │
+                                              ▼
+                        [Looker Studio blend]
+                        (leads + ad spend join)
+                                              │
+                                              ▼
+                        [Attribution dashboard]
+                        (5 pages, auto-refresh)
+```
+
+**UTM enforcement rules**:
+1. All paid campaign URLs must have utm_source, utm_medium, utm_campaign
+2. UTM parameters stored in Zoho lead custom fields (not lost on dedup)
+3. Hidden UTM fields in web forms capture organic + direct
+4. UTM values preserved through Zoho dedup (append, don't overwrite)
+
+**Zoho dedup priority**:
+1. Email match → merge (preserve all UTM history)
+2. Phone match → merge (append UTM)
+3. Name + email domain → flag for manual review
+
+### RTO-Specific Reporting Requirements
+
+**ASQA audit requirements for marketing** (from Cycle 56):
+
+| Requirement | Report | Retention |
+|-------------|--------|-----------|
+| Lead source | All leads with channel attribution | 3 years |
+| Ad spend by channel | Monthly spend breakdown | 3 years |
+| Enrollment source | Which channel → enrollment | 3 years |
+| Marketing spend ROI | CPA, ROAS per channel | 3 years |
+| Student consent | Marketing consent records | As long as contact |
+
+**Dashboard export for ASQA audit**:
+- Page 5 (ASQA Audit Report) exports to PDF
+- Filter by date range (audit period)
+- Filter by enrollment date (3-year window)
+- Include: lead count, channel breakdown, spend, conversions
+
+### Pricing Impact
+
+**Attribution dashboard pricing** (bundled vs. standalone):
+
+| Scenario | Attribution price | Notes |
+|----------|-------------------|-------|
+| Bundled (Growth tier) | Included | Zoho sync + basic attribution |
+| Bundled (Scale tier) | Included | Full attribution dashboard |
+| Standalone | $200-500/mo | For RTOs not using call automation |
+
+**Standalone pricing rationale**:
+- DIY cost (analyst time): 10 hrs/month × $50/hr = $500/month
+- Optimizer AI price: $300/month
+- Value: Same result, 0 hrs/month (fully automated)
+
+**Upsell path**:
+1. Starter → Growth: "Add attribution dashboard for $200/mo"
+2. Growth → Scale: "Add TAZ AI + attribution for $500/mo"
+3. Standalone → Bundled: "Add call automation and get attribution free"
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Looker Studio account (free tier) — by July 2026
+- [ADDED] Connect Zoho to Looker Studio (Zoho Analytics connector) — by July 2026
+- [ADDED] Build Page 1 (Executive Summary) — by July 14, 2026
+- [ADDED] Build Page 2 (Channel Performance) — by July 21, 2026
+- [ADDED] Build Page 5 (ASQA Audit Report) — by July 28, 2026
+- [ADDED] Test with Hader (beta user) — by August 2026
+- [ADDED] Create user guide (5 pages) — by August 2026
+- [ADDED] Document ASQA compliance reporting — by August 2026
+
+### Sources
+- Looker Studio: lookerstudio.google.com (2026)
+- Zoho Analytics connector: zoho.com/analytics (2026)
+- Multi-touch attribution: Rockerbox, Attribution (2026)
+- ASQA marketing requirements: asqa.gov.au/standards (2026)
+- Attribution pricing: Rockerbox, Hyro, CallRail (2026)
+
+---
+
+*End of Cycle 85 refinement. Gap filled: Dashboard visualization specs (5 pages), Looker Studio implementation (30 hrs), competitor comparison, data pipeline architecture, RTO-specific ASQA reporting, pricing impact.*
+
+---
+
