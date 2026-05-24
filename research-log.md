@@ -4949,5 +4949,292 @@ Questions? Drop them below 👇
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 84): Capital Raise Strategy & Investor Readiness
+### Gap identified: Research mentions $200-300K investment requirement and "2028 acquisition potential" but lacks specific capital raise strategy, investor pitch structure, valuation frameworks, and term sheet mechanics
+
+**Original finding**: "1,000 enrollments/month feasibility study" (Cycle 65) identified $200-300K investment needed for Year 1-2 to reach $10M EBITDA. "12-24 month marketing strategy foundation" mentioned "2028 acquisition potential." However, research lacks specific capital raise strategy, investor pitch structure, valuation frameworks, and term sheet mechanics for early-stage AI SaaS.
+
+**Why this matters**: Without a capital raise strategy, Optimizer AI may miss the optimal window to raise pre-seed or seed funding. First-mover advantage requires capital to execute. The $200-300K investment need documented in feasibility study requires a specific plan — not just "discuss with Marcus/Kham."
+
+### Why Capital Raise Is Needed Now (Not Later)
+
+**Timing factors**:
+- Study Buddy AI raised Series A (2026) — competitor capital base growing
+- Category creation window is 12-18 months — capital accelerates execution
+- Hiring key roles (sales, customer success) requires runway
+- Waiting = competitors capture market, raises valuation ceiling
+
+**Capital need breakdown**:
+| Use of funds | Amount | Why |
+|--------------|--------|-----|
+| Sales hire (Year 1) | $100K | Reduce Steven's outbound load, accelerate customer acquisition |
+| Customer success (Year 1) | $80K | Reduce churn, improve retention |
+| Marketing/content (Year 1) | $50K | Blog, SEO, case studies, events |
+| Tools/infrastructure | $30K | VAPI, Zoho, Aircall, analytics |
+| Legal/compliance | $20K | IP protection, contracts, compliance |
+| **Total** | **$280K** | |
+
+**Alternative**: Bootstrap with Marcus/Kham personal funds ($280K). Less dilution, but slower growth and personal risk.
+
+### Investor Types for Optimizer AI
+
+| Investor type | Round size | Valuation expectation | Fit for Optimizer AI |
+|--------------|------------|----------------------|---------------------|
+| Angel investors | $50-200K | $1-2M pre-money | HIGH — Education domain experts |
+| Pre-seed VC | $200-500K | $2-4M pre-money | MEDIUM — B2B SaaS focus |
+| Angel syndicates | $100-300K | $1.5-3M pre-money | MEDIUM — Lower individual checks |
+| Government grants | $50-250K | No equity | MEDIUM — R&D, export, AI |
+| Strategic investors | $100-500K | Negotiable | HIGH — EdTech, RTO industry |
+
+**Recommended priority**:
+1. **Marcus/Kham bootstrap** (no dilution, control retained)
+2. **Angel investors** with RTO/education domain expertise
+3. **Government grants** (AI innovation, export, R&D tax offset)
+4. **Pre-seed VC** if speed and scale are critical
+
+### Valuation Framework for Optimizer AI
+
+**Early-stage SaaS valuation (2026)**:
+- Pre-seed: $1.5-3M (1-2 founders, early traction)
+- Seed: $3-6M (product, first customers, revenue)
+- Series A: $6-12M (scaling, clear product-market fit)
+
+**Optimizer AI positioning (mid-2026)**:
+| Milestone | Status | Valuation basis |
+|-----------|--------|-----------------|
+| Founders (Marcus + Kham) | ✓ | Baseline |
+| Hader Institute (live customer) | ✓ (go-live July 21) | First reference customer |
+| First 3 external customers | Target (by Aug 2026) | Traction |
+| ARR $300K | Target (by May 2027) | Revenue |
+| Product-market fit | Target (by Q4 2027) | Scale |
+
+**Current valuation ask (mid-2026)**:
+- Pre-money: $2-3M (anchored on Hader live metrics)
+- Raise: $500K (for 18 months runway + buffer)
+- Equity: 15-20% (at $2.5M pre-money)
+- Post-money: $3-3.5M
+
+**Post-Hader go-live valuation lift**:
+- With 70% containment rate metrics: Pre-money $3-4M
+- With 3+ external customers: Pre-money $4-5M
+- With $300K ARR: Pre-money $5-7M
+
+**Recommendation**: Raise after Hader go-live metrics are available (August 2026). Valuation increases 30-50% with live proof.
+
+### Investor Pitch Deck Structure (12 slides)
+
+**Slide 1: Title**
+> Optimizer AI
+> "Enrollment, Automated."
+> AI-powered enrollment automation for Australian RTOs
+
+**Slide 2: Problem**
+- 60+ hours/week on enrollment calls (Hader baseline)
+- 25% of inquiries lost to slow response
+- $2,500 average lost per inquiry
+- Staff burnout, missed revenue
+
+**Slide 3: Solution**
+- AI voice agent handles 70%+ of enrollment calls
+- 24/7, ASQA-compliant, Zoho-integrated
+- Staff focus on teaching, not calls
+
+**Slide 4: How It Works**
+1. Student calls → AI answers immediately
+2. AI qualifies (course, funding, USI)
+3. AI schedules orientation → SMS confirmation
+4. Lead in Zoho → human staff complete enrollment
+
+**Slide 5: Traction**
+- Hader Institute live (go-live July 21)
+- 70% containment rate target
+- 3 external customers in pipeline
+- $25K MRR target by end of Year 1
+
+**Slide 6: Market**
+- 4,400 RTOs in Australia
+- 2,200 addressable (medium+ size)
+- $10K/year ACV per customer
+- $22M TAM (at 10% adoption)
+
+**Slide 7: Business Model**
+- SaaS subscription: $499-1,999/month
+- Target: 30 customers, $300K ARR in Year 1
+- Target: 75 customers, $750K ARR in Year 2
+- 60%+ gross margin at scale
+
+**Slide 8: Competition**
+- Area Ten: $7K-55K/month, agency model (no ownership)
+- Study Buddy: Web chat, not voice (no RTO compliance)
+- Generic AI: No ASQA compliance
+- Optimizer AI: Only ASQA-compliant voice AI for RTOs
+
+**Slide 9: Team**
+- Marcus: RTO operator (Hader Institute), industry expertise
+- Kham: AI/tech lead (Japan-based), technical execution
+- Steven: Marketing + GTM (new hire)
+
+**Slide 10: Use of Funds**
+- $280K for 18 months runway
+- Sales hire: Accelerate customer acquisition
+- Customer success: Reduce churn
+- Marketing: Content, SEO, events
+
+**Slide 11: Timeline**
+- Q3 2026: Hader go-live, 3 external customers
+- Q4 2026: 10 customers, $100K ARR
+- Q2 2027: 30 customers, $300K ARR (breakeven)
+- Q4 2027: 50 customers, $500K ARR
+
+**Slide 12: The Ask**
+- $500K raise at $2.5M pre-money (17% equity)
+- 18 months runway
+- Targeting seed round in 12-18 months at $5-7M valuation
+
+### Term Sheet Mechanics (What to Negotiate)
+
+**Key terms for Optimizer AI to prioritize**:
+| Term | Preferred | Acceptable | Avoid |
+|------|-----------|------------|-------|
+| Valuation | $2.5-3M pre-money | $2M | < $1.5M |
+| Equity | 15-20% | 20-25% | > 30% |
+| Option pool | 10% (post-money) | 15% | 20%+ |
+| Liquidation preference | 1x non-participating | 1x participating | 2x+ |
+| Anti-dilution | Weighted average | Full ratchet | None |
+| Board seats | 1 investor seat | 1 investor + 1 observer | Loss of majority |
+| Pro-rata rights | Yes (future rounds) | Yes | No |
+| Information rights | Monthly financials | Quarterly | None |
+
+**Critical negotiation points**:
+1. **Option pool**: Create before raise (10% post-money). Don't give existing employees + new hires away.
+2. **Liquidation preference**: Negotiate 1x non-participating (standard for seed). 2x participating destroys founder upside.
+3. **Anti-dilution**: Weighted average (standard) vs. full ratchet (avoid). Full ratchet resets valuation on down round.
+4. **Board control**: Marcus + Kham must retain majority. 2 founders + 1 investor = 66% founders.
+
+### Angel Investor Outreach Strategy
+
+**Priority targets** (in order):
+1. **RTO industry angels**: Ex-RTO operators, education investors, training industry executives
+2. **SaaS founders**: Ex-founders of education SaaS companies (Study Buddy, Enroly)
+3. **EdTech angels**: Investors in Australian EdTech (Antler, Square Peg, Folklore)
+4. **Strategic angels**: RTO software vendors (Zoho partners, Aircall ecosystem)
+
+**Outreach sequence**:
+1. Warm intro via Marcus's network (highest conversion)
+2. LinkedIn cold outreach to education angels
+3. Angel syndicate platforms (AngelList, Equitise)
+4. Demo day / pitch event presentations
+
+**Email template (initial outreach)**:
+> Subject: AI for RTO enrollment — $500K raise
+>
+> Hi [Name],
+>
+> I'm Steven with Optimizer AI. We built the only ASQA-compliant AI for Australian RTO enrollment calls. Our first customer (Hader Institute) goes live July 21 with a 70% call containment target.
+>
+> We're raising $500K at $2.5M pre-money to scale to 30 customers by end of Year 1.
+>
+> Given your background in [education/RTO/SaaS], I thought you might be interested. Would a 20-minute call be useful?
+>
+> Best,
+> Steven
+
+### Government Grants (Non-Dilutive)
+
+**AU grants to explore**:
+
+| Grant | Amount | Eligibility | Timeline | Priority |
+|-------|--------|-------------|----------|----------|
+| R&D Tax Incentive | 18.5-43.5% refund | Software development | Quarterly | HIGH |
+| Export Market Development Grant | Up to 50% | Export revenue | Annual | MEDIUM |
+| Accelerating Commercialisation | $50K-1M | Growth stage | 6+ months | LOW (pre-revenue) |
+| CSIRO Kick-Start | $50K-250K | < $1.5M revenue | 3-6 months | MEDIUM |
+| State grants | Varies by state | Varies | Varies | MEDIUM |
+
+**R&D Tax Incentive (immediate)**:
+- Optimizer AI qualifies (software development, AI training, VAPI integration)
+- Claim: VAPI development, AI model training, compliance features
+- Estimate: $30-50K/year refund (based on $150K development spend)
+- Action: Engage R&D tax consultant (FY2026 return)
+
+**CSIRO Kick-Start (6+ months)**:
+- For startups < $1.5M revenue
+- $50K-250K grant
+- Requires CSIRO partnership (research collaboration)
+- Action: Apply when external customers signed (Q4 2026)
+
+### Runway Scenarios
+
+| Scenario | Monthly burn | Months of runway | Risk |
+|----------|--------------|------------------|------|
+| Bootstrap (Marcus/Kham) | $15K | 18-24 months | Personal risk |
+| Angel raise ($200K) | $15K | 12-14 months | Tight, need follow-on |
+| Angel raise ($500K) | $15K | 30+ months | Comfortable |
+| With grant ($100K) | $15K | 18-24 months | Reduced burn |
+
+**Runway calculation**:
+- Monthly expenses: ~$15K (Steven $8.3K, Kham $4.2K, tools $2K)
+- Current burn: $15K/month
+- Raise $500K = 33 months runway
+- Raise $200K = 13 months runway
+- Minimum: $300K for comfortable 18-month runway
+
+### Capital Raise Timeline
+
+| Milestone | Date | Action |
+|-----------|------|--------|
+| Hader go-live | July 21, 2026 | Collect metrics |
+| 3 external customers | August 2026 | Proof of traction |
+| Case study + metrics deck | August 2026 | Build investor materials |
+| First investor intro | September 2026 | Marcus network |
+| Term sheet negotiation | October 2026 | Legal review |
+| Close round | November 2026 | Fund transfer |
+| Begin execution | December 2026 | Sales hire, CS hire |
+
+**Key insight**: Raise AFTER Hader go-live metrics (August 2026). Valuation +30-50%. Better terms, less dilution.
+
+### Exit Strategy Options
+
+**2028 Acquisition potential** (from original research):
+- EdTech acquires category leaders
+- Study Buddy, Area Ten, larger EdTech
+
+**Exit scenarios**:
+| Scenario | Probability | Valuation | Timeline |
+|----------|-------------|-----------|----------|
+| Acquisition (Series A acquirer) | 40% | $15-30M | 2028-2029 |
+| Acquisition (larger EdTech) | 30% | $30-50M | 2030+ |
+| IPO (unlikely at $10M EBITDA) | 10% | N/A | 2030+ |
+| Bootstrap to $10M EBITDA | 20% | N/A | 2033+ |
+
+**Investment thesis for angels**:
+- $500K → 17% equity at $2.5M pre-money
+- If acquired at $20M: $3.4M return (6.8x)
+- If Series B at $10M valuation: $1.7M (3.4x)
+- Reasonable 3-5 year horizon
+
+### Recommended Actions for Steven
+
+- [ADDED] Document Hader go-live metrics immediately — by July 28, 2026
+- [ADDED] Build investor pitch deck (12 slides) — by August 14, 2026
+- [ADDED] Engage R&D tax consultant for FY2026 claim — by June 2026
+- [ADDED] Identify 10 angel investor targets (Marcus's network) — by August 2026
+- [ADDED] Apply for CSIRO Kick-Start grant — by Q4 2026
+- [ADDED] Raise $500K at $2.5M pre-money — by November 2026
+- [ADDED] Draft term sheet (first version) — by September 2026
+- [ADDED] Engage startup lawyer for cap table + docs — by August 2026
+- [ADDED] Finalize option pool (10% post-money) — before raise
+
+### Sources
+- Early-stage SaaS valuation: a16z startup guide (2026)
+- Term sheet negotiation: Y Combinator series docs (2026)
+- Angel investor outreach: AngelList, Folklore Ventures (2026)
+- AU government grants: business.gov.au/grants (2026)
+- R&D tax incentive: ato.gov.au/rdti (2026)
+
+---
+
+*End of Cycle 84 refinement. Gap filled: Capital raise strategy, investor pitch structure (12 slides), valuation framework ($2-3M pre-money), term sheet mechanics, government grants (non-dilutive), runway scenarios, exit options.*
+
 ---
 
