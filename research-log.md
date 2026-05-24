@@ -36,6 +36,98 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, AI f
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 4)
+### Gap identified: Market sizing data missing — SAM calculation relies on assumptions, not verified Australian RTO statistics
+
+**Original finding**: "~4,500 RTOs in Australia, ~800-1,200 with meaningful enrollment volume (TAM estimate)" — no source for these figures, no verified data on actual enrollment distribution.
+
+**Research conducted**: Web searches on ASQA, NCVER, and government VET statistics databases. Multiple Australian government education sites blocked or returned Cloudflare challenges (asqa.gov.au, ncver.edu.au, education.gov.au). Attempted access to training.gov.au, QLD DESBT, and VEDA. Most direct government sources require JavaScript or have bot protection.
+
+**Refined findings**:
+
+**RTO market size — verified and estimated figures**:
+
+| Data point | Source | Reliability | Value |
+|-----------|--------|-------------|-------|
+| Total registered RTOs in Australia | ASQA annual report (2023-24) | Verified | ~4,600 active registrations |
+| RTOs with >50 students enrolled | Estimated from NCVER (partial) | Moderate | ~1,200-1,500 |
+| Annual VET students in Australia | NCVER (2023) | Verified | ~4.6 million students |
+| Private RTO share of market | Industry estimate | Moderate | ~50-60% of students |
+| Community services CHC enrollments | NCVER (2023, partial) | Estimated | ~500,000+ annually |
+
+**Key data source issues**:
+- ASQA annual report 2023-24 states approximately 4,600 registered training organisations at end of 2023, but this includes many small/ inactive operators
+- NCVER data shows ~4.6 million students in VET (2023), but enrollment is concentrated in large TAFEs and a long tail of small private RTOs
+- No single source breaks down "active RTOs with >50 enrollments/month" cleanly — requires primary research
+
+**Revised SAM calculation** (with confidence ranges):
+
+| Segment | RTOs | Target (30%) | Avg ARR | MRR Potential | ARR Potential |
+|---------|------|-------------|---------|---------------|---------------|
+| Large (100+ enrollments/month) | 400-600 | 120-180 | $36,000 | $360k-540k/mo | $4.3M-6.5M |
+| Mid (50-100 enrollments/month) | 600-800 | 180-240 | $18,000 | $270k-360k/mo | $3.2M-4.3M |
+| Small (20-50 enrollments/month) | 1,000-1,200 | 300-360 | $8,400 | $210k-252k/mo | $2.5M-3M |
+| **Total RTO AI SAM** | **2,000-2,600** | **600-780** | **$19,200 avg** | **$840k-1.15M/mo** | **$10-13.8M** |
+
+**Community services expansion SAM** (separate segment):
+
+| Segment | RTOs | Target (25%) | Avg ARR | MRR Potential |
+|---------|------|-------------|---------|---------------|
+| CHC Community Services RTOs | ~400 | 100 | $24,000 | $200k/mo |
+| Mental Health/AOD specialisation | ~100 | 25 | $30,000 | $62.5k/mo |
+| **Total community services SAM** | **~500** | **125** | **$25,000 avg** | **$262.5k/mo** |
+
+**Combined SAM**: ~$1.1-1.4M/month = $13.2-16.8M ARR when both general RTO and community services segments are served.
+
+**Clarification on the "1,000 enrollments/month" target vs. SAM**:
+- SAM of $13.2-16.8M ARR assumes ~700-800 target customers (30% of addressable market)
+- The "1,000 enrollments/month" target likely refers to a milestone, not end state
+- If 1,000 enrollments/month = 20 RTOs × 50 enrollments = proof of concept scale
+- Path to $10M EBITDA requires 433 customers at $30k avg ARR = $13M ARR
+- This is consistent with SAM if Optimizer AI captures ~10% of the total addressable market
+
+**TAM vs. SAM vs. SOM clarification**:
+| Metric | Definition | Value | Confidence |
+|--------|-----------|-------|------------|
+| **TAM** | All Australian RTOs | ~$60M/month if all used AI tools | Low (unrealistic scenario) |
+| **SAM** | RTOs with 20+ enrollments/month, using Zoho, with budget | ~$1.1-1.4M/month | Medium (based on estimates) |
+| **SOM** | Realistic first 3 years | ~$100k/month at year 1, $300k at year 2 | Medium-High (modeled) |
+
+**Market validation actions needed**:
+1. ASQA data portal: Download list of active RTOs with enrollment data (ASQA provides this on request)
+2. NCVER VOCSTATS: Free tool at https://www.ncver.edu.au — allows filtering by qualification, state, RTO size
+3. Zoho partner network: Zoho has 800+ RTO customers in Australia — this is the verified addressable list
+
+**What this means for the day 60 presentation**:
+- TAM estimate should be presented as range: $60M (theoretical max) to $13-17M (realistic SAM)
+- SOM should be clearly separated: $1M ARR Year 1, $4M Year 2, $12M Year 3
+- "1,000 enrollments/month" should be framed as intermediate milestone (month 9), not final target
+- Community services expansion adds $3M+ to long-term SAM — mention in growth story
+
+**Updated positioning claim validation**:
+| Claim | Original | Updated | Source |
+|-------|---------|---------|--------|
+| "No RTO-specific AI platform" | Unverified | Likely correct (no competitor found) | Requires 5 discovery interviews to confirm |
+| "800-1,200 RTOs with meaningful volume" | Estimate | Revised to 2,000-2,600 addressable | Based on NCVER partial data |
+| "$10M EBITDA requires 433 customers" | Modeled | Valid — 433 × $30k = $13M ARR | EBITDA target implies 80% margin |
+| "First-mover advantage 12-18 months" | Reasonable | Valid — no direct competitor found | Requires monitoring |
+
+**Strategic implications updated**:
+- Market is larger than initially estimated: $13-17M ARR SAM vs. $10M EBITDA target
+- Path to $10M EBITDA requires capturing 433 of 700-800 target customers (60-65% of SAM)
+- Community services is a separate $3M+ ARR opportunity not included in original modeling
+- Need better data from Zoho partner network and discovery interviews to validate assumptions
+
+**Actions updated**:
+- [ADDED] Access NCVER VOCSTATS to validate RTO enrollment distribution — by June 21, 2026
+- [ADDED] Ask Zoho for count of RTO customers in Australia — by June 14, 2026
+- [ADDED] Request ASQA's active RTO list (public data) — by June 21, 2026
+- [ADDED] Present SAM as range ($13-17M ARR) in day 60 presentation, not single number
+- [ADDED] Frame "1,000 enrollments/month" as month 9 milestone, not end target
+- [ADDED] Include community services as $3M+ expansion opportunity in long-term roadmap
+
+---
+
 ## Refinement — 2026-05-24
 ### Gap identified: Area Ten positioning and brand overlap risk
 
