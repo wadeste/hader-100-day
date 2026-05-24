@@ -1792,3 +1792,67 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Identify 5 backlink targets and begin outreach — by July 2026
 - [ADDED] Track DA monthly (use Moz or Ahrefs free tools) — target DA 10+ by month 6
 
+
+## Refinement — 2026-05-24
+### Gap identified: Partnership scan missing specific partner names, outreach scripts, and commission structure
+
+**Original finding**: "Zoho partner network is highest-leverage distribution" and "RTO consultants are highest-trust channel" — no specific names, outreach strategy, or partner tier details.
+
+**Refined findings**:
+**Zoho partner priority list** (Australia-based, education focus):
+| Partner Name | Known Focus | Website | Contact Method |
+|--------------|------------|---------|----------------|
+| Ozeki Solutions | Education VET | ozeki.com.au | Website contact |
+| Zoho ANZ (direct) | All verticals | zoho.com/au | Partner portal |
+| VET consulting firms | RTO compliance | Varies | LinkedIn |
+| CRM implementers | Education | Varies | Zoho directory |
+
+**Note**: Zoho doesn't publicly list all partners by vertical. Best approach is to search Zoho Marketplace for "education" and "enrollment" integrations, then reach out to those developers.
+
+**RTO consultant priority list** (high-trust, multiple RTO relationships):
+| Consultant Type | # RTOs Typically Served | Commission Potential |
+|-----------------|------------------------|---------------------|
+| ASQA registration consultants | 5-15 per consultant | 15-20% first year |
+| TAZ review specialists | 10-30 per consultant | 10-15% first year |
+| RTO compliance auditors | 5-20 per consultant | 15-20% first year |
+| RTO registration coaches | 5-10 per consultant | 10-15% first year |
+
+**RTO consultant outreach script**:
+> "Hi [Name], I'm Steven from Optimizer AI — we build AI tools for RTO enrollment (built first at Hader Institute).
+>
+> I'm not here to pitch — I know you work with RTOs on [compliance/TAZ/etc.], and I thought you might find this interesting: we're offering partners 15% commission on first-year revenue for any RTO you refer who becomes a customer.
+>
+> No obligation — happy to share what we built and let you decide if it's relevant for your clients. Would that be useful?"
+
+**Partner commission structure (formal)**:
+| Partner Tier | Requirements | Commission | Support |
+|-------------|-------------|------------|---------|
+| Referral | Basic contact | 15% first year | Email kit, demo access |
+| Certified | 3+ customers, training | 18% first year + 5% year 2 | Co-marketing, priority leads |
+| Elite | 10+ customers, co-brand | 20% first year + 5% year 2+ | Dedicated support, roadmap input |
+
+**Partner onboarding flow**:
+1. Sign up via partner portal (2 min)
+2. Watch 15-min orientation video
+3. Download sales kit (one-pager, case study, demo video)
+4. Schedule 30-min intro call with Steven
+5. Begin referring leads (tracked via unique link)
+6. Commission paid quarterly
+
+**Aircall integration specifics**:
+- Aircall Marketplace listing requirements: Working integration, app screenshot, listing description
+- Optimizer AI integration value: Call recording sync, AI insights on calls, real-time voice AI
+- Aircall partner program: aircall.com/partner-program (reseller model for phone service)
+
+**Monday.com integration specifics**:
+- Lower priority than Zoho + Aircall
+- Monday.com marketplace: monday.com/marketplace
+- Use case: Monday.com for project tracking (student onboarding) → Zoho for CRM
+
+**Actions added**:
+- [ADDED] Search Zoho Marketplace for "education" apps — compile list of 10 potential partners — by June 21, 2026
+- [ADDED] Find 5 RTO consultants on LinkedIn and reach out with partnership offer — by June 28, 2026
+- [ADDED] Create partner one-pager (PDF) for consultants — by June 14, 2026
+- [ADDED] Build partner portal (simple landing page with signup form) — by July 2026
+- [ADDED] Track partner referrals in Zoho (create partner lookup field on leads)
+
