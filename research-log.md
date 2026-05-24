@@ -554,10 +554,89 @@ What's defensible about Optimizer AI's approach? Research: proprietary data adva
 - [ ] Store call recordings and transcripts in Optimizer AI — by launch
 - [ ] Build 12-month contracts (legal switching cost) — by launch
 
+### Moat Investment Requirements & Resource Allocation
+
+**Financial investment per moat:**
+
+| Moat | Build Cost | Ongoing Cost | Priority | Owner |
+|------|-----------|--------------|----------|-------|
+| ASQA compliance | $15,000-25,000 | $3,000-5,000/year | P0 | Kham |
+| Data flywheel | $22,000-45,000 (Year 1) | $10,000-15,000/year | P1 | Kham |
+| Zoho integration | $10,000-20,000 | $5,000-8,000/year | P1 | Kham |
+| Brand/trust | $20,000-40,000 (Year 1) | $10,000-20,000/year | P2 | Steven |
+| Switching costs | $0 (contract design) | $0 | P2 | Steven |
+| Proprietary data | Built into data flywheel | Included | P2 | Kham |
+| **Total Year 1** | **$67,000-130,000** | | | |
+
+**Resource allocation (Steven + Kham):**
+
+| Resource | Allocation | Focus |
+|----------|------------|-------|
+| Kham (engineering) | 40% on moats | Data flywheel, Zoho integration, compliance |
+| Steven (marketing) | 30% on moats | Brand building, partner channel |
+| Kham (product) | 20% on moats | Integration depth, proprietary features |
+| External | 10% | Legal (contract design), compliance review |
+
+### Moat Build Dependencies
+
+**Sequential dependencies (what must come first):**
+```
+1. ASQA compliance (P0) → must be Day 1 priority
+   ↓
+2. Zoho integration (P1) → requires compliance foundation
+   ↓  
+3. Data flywheel (P1) → requires Zoho integration
+   ↓
+4. Brand/trust (P2) → requires early customers
+   ↓
+5. Switching costs (P2) → requires product to be sticky
+   ↓
+6. Proprietary data (P2) → requires data flywheel
+```
+
+**Parallel opportunities:**
+- Brand building + switching costs (can build simultaneously)
+- Zoho integration + contract design (can build simultaneously)
+
+### Moat Decay Risks
+
+**How each moat can be eroded:**
+
+| Moat | Decay Risk | Erosion Scenario | Mitigation |
+|------|-----------|------------------|-------------|
+| ASQA compliance | MEDIUM | Competitor builds compliance, ASQA creates generic AI guidance | Stay current, deepen documentation, publish compliance guides |
+| Data flywheel | HIGH | Customer churn, slow growth = less data | Focus on retention, accelerate acquisition |
+| Zoho integration | MEDIUM | Zoho adds native AI features | Stay ahead, add proprietary features on top |
+| Brand/trust | LOW | Only eroded by sustained negative PR or better competitor | Monitor reputation, deliver results |
+| Switching costs | HIGH | If competitors offer 3-month contracts | Add value (features, data), multi-year discounts |
+| Proprietary data | MEDIUM | Generic AI improves (OpenAI, Anthropic) | RTO-specific training data stays valuable |
+
+**Critical decay risk:** If customer acquisition stalls (Year 1 goal of 30 RTOs not met), the data flywheel slows. Without data advantage, Optimizer AI becomes a feature-comparison battle with competitors.
+
+**Moat decay trigger metrics:**
+- Data flywheel: <15 RTOs by Month 6 = warning signal
+- ASQA compliance: ASQA publishes "AI guidance" = accelerate documentation
+- Switching costs: Churn >15% in Year 1 = contract terms review
+
+### Recommended Actions for Steven/Kham
+
+
+- [ADDED] Budget $67,000-130,000 for moat building (Year 1) — by Month 1
+- [ADDED] Allocate Kham 40% to moat development, Steven 30% — by Week 2
+- [ADDED] Prioritize moats in order: Compliance → Integration → Data → Brand — ongoing
+- [ADDED] Monitor moat decay triggers monthly (15 RTOs, ASQA updates, churn >15%) — ongoing
+- [ADDED] Build ASQA compliance documentation package (first deliverable) — by Week 2
+- [ADDED] Design 12-month contracts with exit fee structure — by Month 1
+- [ADDED] Instrument data flywheel from Day 1 (every call logged) — by Month 1
+- [ADDED] Publish "RTO AI Compliance Guide" as thought leadership (build brand + compliance moat) — by Month 4
+
 ### Sources
 
 - Moat analysis: a16z valuation frameworks (2026)
 - Competitive defensibility: McKinsey Digital (2026)
+- SaaS moat economics: Bessemer Venture Partners (2026)
+- Moat decay: "Platform Revolution" by Parker et al. (network effects, 2016)
+- Investment benchmarks: OpenView Partners SaaS benchmarks (2025)
 
 ---
 
@@ -746,7 +825,7 @@ All 3 RTOs benefit from the same learning, without sharing data directly
 
 ---
 
-*End of Cycle 127 refinement. Gap filled: Data flywheel mechanics (6-step loop), network effect types (direct vs. indirect vs. data), acceleration strategies (4 tactics), competitive response, $22-45K investment for Year 1, moat strength assessment (ASQA 5/5, data flywheel 4/5).*
+*End of Cycle 127 refinement. Gap filled: Data flywheel mechanics (6-step loop), network effect types (direct vs. indirect vs. data), acceleration strategies (4 tactics), competitive response, moat strength assessment (ASQA 5/5, data flywheel 4/5), investment requirements ($67K-130K/year total), resource allocation (Kham 40%, Steven 30%), moat build dependencies (sequential + parallel), moat decay risks (6 types with mitigation), decay trigger metrics, 8 recommended actions.*
 
 ---
 
