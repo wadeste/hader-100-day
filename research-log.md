@@ -1584,4 +1584,337 @@ Based on B2B SaaS benchmarks and education vertical:
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 33)
+### Gap identified: First-customer playbook missing — no ICP definitions, deal stages, demo script, or proposal template
+
+**Original finding**: "GTM channel strategy" and "early customer discovery interviews" — but no specific ICP definition for RTO decision-makers, no deal stage breakdown with steps, no product demo script, no proposal template, and no pricing negotiation guide. The strategy exists but the tactical execution tools don't.
+
+**Why this matters**: Steven needs to close the first 5-10 customers from Marcus's network and RTO consultant referrals. Without specific ICP criteria, deal stages, demo scripts, and proposal templates, each sales conversation will be inconsistent and unprofessional. The first customer experience sets the template for all future customers — if it's unstructured, future customers will also be unstructured.
+
+**What the research currently states**: CAC benchmarks ($500-4,000), funnel conversion rates (20% leads to calls, 40% calls to proposals, 25-35% proposals to close), discovery interview questions, LinkedIn outreach scripts — but no sales playbook with deal stages and step-by-step execution.
+
+### Ideal Customer Profile (ICP) Definition
+
+**Primary ICP: Mid-market RTO (150-500 students/month)**
+
+| Criterion | Target | Red flag |
+|-----------|--------|----------|
+| Student volume | 150-500 enrollments/month | <100 (too small), >500 (too complex) |
+| Marketing spend | $5,000-20,000/month | <$2K (no budget), >$50K (enterprise path) |
+| Decision-maker | CEO or Marketing Director | Trainer/assessor (no budget authority) |
+| Pain fit | "Enrollment calls take too much time" | Already has AI solution |
+| Compliance burden | Active ASQA audits or recent sanctions | No compliance concerns |
+| Tech stack | Zoho CRM, Aircall, Google Ads | Salesforce-only (harder integration) |
+| Geography | QLD, NSW, VIC (highest RTO concentration) | TAS, NT, WA (small markets) |
+
+
+**Secondary ICP: Small RTO (50-150 students/month)**
+
+- Starter tier only ($499/mo)
+- Owner-operator (CEO who does everything)
+- Price-sensitive, needs payment plan
+- High churn risk — not first-customer target
+
+
+**Tertiary ICP: Enterprise RTO (500+ students/month)**
+
+- Scale tier ($1,999/mo) or custom pricing ($3,000-5,000/mo)
+- Longer sales cycle (3-6 months)
+- Needs multiple stakeholders (CEO, Marketing, Compliance, IT)
+- Not first-customer target (too complex)
+
+**Best first-customer profile**: Marcus's network or RTO consultant referral. Mid-market RTO, CEO is decision-maker, 150-300 students/month, already using Zoho, spending $5-10K/month on marketing, complaining about enrollment call volume.
+
+### Deal Stages and Step-by-Step Process
+
+**Stage 1: Lead Qualification (Day 0-1)**
+- Source: Marcus intro or consultant referral
+- Action: Send personalized intro email within 24 hours
+- Goal: Confirm ICP fit and pain point
+- Step: Reply to Marcus's intro with "Thanks, will reach out today"
+- Step: Send email: "Hi [Name], Marcus suggested I connect. [Specific pain point from Marcus's intro]. 15 min this week?"
+
+- Expected response: 60%+ positive (warm lead)
+- Gate to Stage 2: Responds positively, confirms pain exists
+
+**Stage 2: Discovery Call (Day 1-7)**
+- Format: 20-30 min video call (Zoom/Google Meet)
+- Attendees: Steven + RTO decision-maker (CEO or Marketing Director)
+- Goal: Qualify pain, confirm budget, identify timeline
+- Step: Send calendar link immediately after positive response
+- Step: Send pre-call brief: "3 questions to think about before our call"
+- Step: Conduct call (see discovery guide below)
+- Gate to Stage 3: Pain confirmed, budget exists ($500-2,000/mo), timeline <90 days
+
+**Stage 3: Demo (Day 7-14)**
+- Format: 45-60 min video call with screen share
+- Attendees: Steven + Kham (technical) + RTO decision-maker
+- Goal: Show product working, quantify ROI
+- Step: Send demo agenda 24 hrs before
+- Step: Prepare mock data (Hader's real data if available)
+- Step: Conduct demo (see demo script below)
+- Step: Send follow-up: "Summary of what we showed + ROI calculation"
+- Gate to Stage 4: Decision-maker wants to proceed, understands pricing
+
+
+**Stage 4: Proposal (Day 14-21)**
+- Format: Written proposal via email
+- Action: Send proposal within 48 hours of demo
+- Goal: Formalize pricing, terms, timeline
+- Step: Draft proposal (see template below)
+- Step: Schedule 15-min proposal review call
+- Step: Send proposal + calendar link
+- Gate to Stage 5: Proposal accepted, contract signed
+
+**Stage 5: Close (Day 21-30)**
+- Format: Contract signing + onboarding kickoff
+- Action: Send contract via DocuSign or PDF
+- Goal: Get signature, start implementation
+- Step: Celebrate (first customer!)
+- Step: Schedule kickoff with Kham
+- Step: Start onboarding checklist (see onboarding template)
+
+
+### Discovery Call Guide (20-30 min)
+
+
+**Opening (2 min)**
+- "Thanks for making time, [Name]. Quick context: I work with RTOs to automate enrollment calls with AI. Marcus mentioned you were dealing with high inquiry volume. Before we go anywhere — is that still true, or has that changed?"
+- Confirm pain is active, not historical
+
+**Qualifying questions (15 min)**
+
+1. **Volume**: "How many inquiry calls are you getting per week?"
+   - Acceptable: 10+/week
+   - Red flag: <5/week (not enough pain)
+
+
+2. **Time burden**: "How much time does your team spend on enrollment calls per week?"
+   - Acceptable: 10+ hrs/week
+   - Red flag: "We just email people" (not using phone)
+
+3. **Current process**: "What happens when someone calls? Walk me through it."
+   - Acceptable: Human answers, qualifies, schedules orientation
+   - Red flag: "We don't answer calls" (not a fit)
+
+4. **Pain priority**: "If you could wave a magic wand and fix one thing about enrollment, what would it be?"
+   - Acceptable: "Answer more calls" / "Qualify faster" / "Free up staff time"
+   - Red flag: "Get more enrollments" (wrong problem)
+
+5. **Budget**: "What do you currently spend on enrollment-related costs? Staff time, tools, etc.?"
+   - Acceptable: $3,000+/month in staff time
+   - Red flag: "We don't have budget" (not qualified)
+
+6. **Timeline**: "If we could solve [pain point], when would you want to start?"
+   - Acceptable: "ASAP" / "Next month"
+   - Red flag: "We're not in a rush" / "Maybe next year"
+
+7. **Decision-making**: "Who else would be involved in a decision like this?"
+   - Acceptable: "Just me" / "Me and one other"
+   - Red flag: "We have a board" / "Need committee approval" (enterprise path)
+
+**Closing (3 min)**
+- "Based on what you've told me, I think we can help. [Specific pain] is exactly what our orientation call robot handles. Want to see how it would work for [Company]?"
+- Offer demo slot (within 7-10 days)
+- Send summary email within 24 hours
+
+### Demo Script for Orientation Call Robot
+
+**Demo structure (45-60 min)**:
+
+**Part 1: Problem recap (5 min)**
+- "As we discussed, you're getting [X] calls/week, and [Name] is spending [Y] hours on them. That adds up to [Z] hours/month. Sound right?"
+- Confirm problem and cost estimate
+
+**Part 2: How it works (15 min)**
+- Show architecture diagram (simple: Phone → VAPI → Zoho)
+- Walk through call flow: "Caller dials your number → AI answers → qualifies → schedules → logs to Zoho"
+- Show test call if possible (use Kham's sandbox)
+
+**Part 3: Live demo (20 min)**
+- Scenario: "New caller interested in [course type]"
+- Show AI answering (pre-recorded or live)
+- Show qualification questions
+- Show Zoho lead creation
+- Show SMS confirmation sent
+
+**Part 4: ROI calculation (10 min)**
+- "At [X] calls/week at [Y] minutes each, you spend [Z] minutes/month on calls"
+- "At $35/hr for [Name]'s time, that's $[amount]/month in staff time"
+- "Our tool costs $[price]/month"
+- "Net benefit: $[amount] + more calls handled + consistent 24/7 coverage"
+- "ROI: [X]x in month 1"
+
+**Part 5: Pricing (5 min)**
+- "We have three tiers: [Starter $499], [Growth $999], [Scale $1,999]"
+- "For your size, I'd recommend [Growth] — it includes everything you need"
+- "Annual pricing gets you 20% off, so [amount]/month instead of [amount]"
+- "What questions do you have about pricing?"
+
+**Demo objection prep**:
+- "Will it work for our specific courses?" → "Yes — we customize the script for your course list"
+- "What if AI gives wrong information?" → "Human-in-the-loop for any uncertain calls, full audit log"
+- "How long to implement?" → "4-6 weeks with your team, we handle the tech"
+- "What about ASQA compliance?" → "Built in from day 1 — call logging, disclosures, data retention"
+
+### Proposal Template
+
+**Subject**: Optimizer AI — Enrollment Automation Proposal for [Company Name]
+
+**Sections**:
+
+1. **Executive summary** (1 paragraph)
+   - "[Company] is spending [X] hours/month on enrollment calls. Optimizer AI automates the qualification and scheduling process, freeing [Name] to focus on higher-value work."
+
+2. **Solution overview** (bullet points)
+   - Orientation call robot: 24/7 AI phone answering
+   - Lead qualification and enrollment scheduling
+   - Zoho CRM integration (lead creation + outcome logging)
+   - ASQA-compliant call recording and disclosure
+   - SMS confirmation and human transfer as needed
+
+
+3. **Pricing** (table)
+   | Tier | Monthly | Annual (20% off) | Features included |
+   |------|---------|-----------------|------------------|
+   | Starter | $499 | $399/mo | 100 calls, 1 course, email support |
+   | Growth | $999 | $799/mo | 300 calls, 3 courses, Zoho + SMS, priority support |
+   | Scale | $1,999 | $1,599/mo | Unlimited calls, all courses, API, dedicated support |
+
+4. **ROI summary** (table)
+   - Current staff time cost: $[X]/month
+   - AI tool cost: $[Y]/month
+   - Net benefit: $[X-Y]/month
+   - ROI: [X-Y]/Y = [X]x
+
+5. **Implementation timeline**
+   - Week 1-2: Discovery + script design
+   - Week 3-4: Technical build (VAPI + Zoho)
+   - Week 5-6: QA + testing
+   - Week 7: Go-live (parallel with human staff)
+   - Week 8+: Measure, iterate, optimize
+
+6. **Terms**
+   - Minimum term: 12 months (annual) or month-to-month
+   - 30-day trial: Full refund if not satisfied
+   - Implementation included: No setup fee
+
+7. **Next steps**
+   - Schedule onboarding kickoff
+   - Collect course information and call flow
+   - Begin technical setup
+
+### Objection Handling Scripts
+
+**"It's too expensive"**
+> "I understand cost is a factor. Let's break it down. You're paying [Name] $35/hr, and she's spending 15 hours/week on calls — that's $[X]/month in staff time. Our tool is $[Y]/month. So you're actually saving $[X-Y]/month, plus you can handle 3x more calls without adding staff. What's the actual budget you're working with?"
+
+
+**"We need to think about it"**
+> "Of course — this is a decision worth thinking through. What's the specific thing you want to think about? Is it the pricing, the technology, or whether AI is the right solution? I want to make sure I'm addressing the right concern."
+
+**"Can we start with just one product?"**
+> "Absolutely. Most customers start with the orientation call robot and add the attribution dashboard or skill packages once they see results. Want me to put together a Starter proposal for just the call robot?"
+
+**"Our situation is different"**
+> "I'd love to understand what makes it different. Walk me through your specific situation and I'll tell you whether we can adapt. We've worked with RTOs doing 50 students/month and 500 students/month — the core problem (too many calls, not enough time) tends to be the same."
+
+**"We're happy with our current process"**
+> "That's great — and if it's not broken, don't fix it. But if [Name] is spending 15 hours/week on calls and that time could go toward higher-value work (better training, more enrollments, strategic projects), is that something worth exploring? Or is there a specific reason enrollment calls need to be her priority?"
+
+**"We tried AI before and it didn't work"**
+> "I hear that a lot. Most AI tools fail because they're generic — they don't understand RTO enrollment specifically. We built our tool for the exact workflow: qualification, USI collection, ASQA disclosures, Zoho logging. What AI did you try before, and what went wrong?"
+
+### Pricing Negotiation Playbook
+
+**Never discount without getting something in return**:
+- Discount for annual payment (standard)
+- Discount for case study/referral (negotiated)
+- Never discount on the first call
+
+**Tier negotiation**:
+- If they want Starter but need Growth features: "I can see why you'd want the lower price point. The [Growth] tier includes [specific feature] which you'd need for [specific use case]. I can move you to Growth if you commit to annual — that'll be $[X]/month instead of $[Y]. Worth it?"
+- If they want Growth but can't afford it: "What if we start with Growth for 3 months, then reassess? If you're not seeing results, we can move to Starter. But I think you'll want to stay once you see the ROI."
+
+
+**Authority limits**:
+- Steven can offer 20% annual discount (already built in)
+- Steven can offer 1-month free (first customer only)
+- Steven cannot discount below $399/mo without Kham's approval
+- Steven cannot offer custom pricing without Kham's approval
+
+### First-Customer Special Terms
+
+**Justification**: First customer sets the reference case for all future customers. Worth offering terms to ensure success.
+
+| Offer | Standard | First customer |
+|-------|----------|---------------|
+| Trial period | None | 30-day money-back guarantee |
+| Setup fee | $0 | $0 (standard) |
+| Implementation | Included | Included (standard) |
+| Payment terms | Monthly | First month free (if annual commit) |
+| Case study | Not required | Requested but optional |
+
+### Onboarding Checklist for First Customer
+
+**Week 1: Setup**
+- [ ] Collect course list and enrollment process from customer
+- [ ] Design orientation call script (customized)
+- [ ] Set up VAPI account and test number
+- [ ] Configure Zoho integration (lead fields, custom fields)
+- [ ] Configure SMS provider
+
+**Week 2-4: Build**
+- [ ] Upload script to VAPI
+- [ ] Connect Zoho API
+- [ ] Test with internal team (5-10 test calls)
+- [ ] QA call recordings against ASQA checklist
+- [ ] Fix any issues
+
+**Week 5-6: Go-live**
+- [ ] Parallel run (AI + human for 1 week)
+- [ ] Monitor call quality daily
+- [ ] Adjust script based on real caller interactions
+- [ ] Transfer 100% to AI (if quality acceptable)
+
+**Week 7-8: Measure**
+- [ ] Review containment rate (target: 60%+)
+- [ ] Review lead quality (target: Same or better than human)
+- [ ] Collect customer feedback
+- [ ] Calculate ROI (time saved, leads generated)
+- [ ] Document for case study (if customer agrees)
+
+**Week 9-12: Expand**
+- [ ] Review for upsell opportunity (add attribution dashboard)
+- [ ] Ask for referral (RTO consultant connection)
+- [ ] Schedule 90-day check-in
+
+### What to Get from Marcus Before Day 60 (First-Customer Prep)
+
+1. **List of 5-10 warm leads** — Names, companies, contact info, pain point summary
+2. **Intro email or text** — Marcus's personal introduction to each lead
+3. **RTO consultant introductions** — Names of consultants willing to refer
+4. **Hader data** — Call volume, call duration, enrollment conversion rate (for demo)
+5. **Case study approval** — Can we use Hader as a named reference?
+
+### Actions for Steven
+
+- [ADDED] Define ICP for first customer (mid-market RTO, 150-300 students/month, Marcus's network) — by June 7, 2026
+- [ADDED] Create deal stage template (5 stages with gates and actions) — by June 7, 2026
+- [ADDED] Build discovery call guide (7 qualifying questions, closing script) — by June 7, 2026
+- [ADDED] Write demo script for orientation call robot (5 parts, 45-60 min) — by June 14, 2026
+- [ADDED] Create proposal template (7 sections) — by June 14, 2026
+- [ADDED] Write objection handling scripts (6 common objections) — by June 7, 2026
+- [ADDED] Define pricing negotiation authority limits (what Steven can offer without Kham approval) — by June 7, 2026
+- [ADDED] Build onboarding checklist (12-week implementation) — by June 14, 2026
+- [ADDED] Get list of 5-10 warm leads from Marcus — by June 7, 2026
+- [ADDED] Practice demo with Kham (dry run before first customer demo) — by June 14, 2026
+
+**Sources**:
+- B2B sales playbook templates: hubspot.com/sales/sales-playbooks
+- Demo script best practices: outreach.io/blog/product-demo-script
+- SaaS proposal templates: qwilr.com/blog/sales-proposal-template
+- Objection handling: salesforce.com/blog/objection-handling-scripts
+- ICP definition framework: medium.com/sales/how-to-define-your-ideal-customer-profile
+
 ---
