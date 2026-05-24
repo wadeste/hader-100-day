@@ -6750,3 +6750,184 @@ This becomes the "POC playbook" for future customers with similar issues. If 50%
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 19)
+### Gap identified: Customer success and retention missing — how to keep 433 customers past year 1 with 10-15% annual churn?
+
+**Original finding**: Research covers CAC (customer acquisition cost) in detail but not CS (customer success) or retention. With 433 customers needed for $10M EBITDA and 10-15% annual churn target, losing 40-65 customers/year means needing to acquire 50-76 new customers just to stand still. No customer success strategy = no $10M EBITDA.
+
+**Why this matters**: SaaS retention is often more important than acquisition. A customer at $30k ARR who stays 4 years = $120k LTV. A customer who churns at month 8 = $20k LTV. The difference is customer success execution.
+
+**What the research currently states**:
+
+| Topic | Coverage |
+|-------|----------|
+| CAC (customer acquisition) | Extensive (multiple refinements) |
+| LTV (customer lifetime value) | Modeled ($360k over 3 years) |
+| Churn rate target | 10-15% annual (assumed) |
+| Customer success strategy | None specified |
+| Retention tactics | Not covered |
+| CS metrics | Not defined |
+
+**Retention math for $10M EBITDA**:
+
+| Metric | Value | Notes |
+|-------|-------|-------|
+| Year 4 customer target | 433 | For $10M EBITDA |
+| Churn rate | 10% | Target |
+| Customers lost/year | 43 | 433 × 10% |
+| Customer replacement needed | 43 | Just to maintain |
+| New customers needed for growth | 10-11/month | Total target |
+| New customers for growth + replacement | 14-15/month | At year 4 |
+| **Implication**: Year 4 requires 14-15 new customers/month, not 10-11. Churn adds 30-40% to acquisition burden. |
+
+**Churn rate sensitivity analysis**:
+
+| Churn Rate | Year 4 Customers (no growth) | New Customers Needed (to reach 433) |
+|------------|-----------------------------|-----------------------------------|
+| 5% | 346 | 26/month (vs 10-11 target) |
+| 10% | 260 | 43/month (vs 10-11 target) |
+| 15% | 195 | 57/month (vs 10-11 target) |
+| 20% | 147 | 72/month (vs 10-11 target) |
+
+**Key insight**: At 15% churn, you need 57 new customers/month (5x the current target) just to reach 433 by year 4. At 10% churn, you need 43/month (4x the target). Retention is not optional — it's a multiplier on acquisition requirements.
+
+**Three tiers of customer success for Optimizer AI**:
+
+| Tier | Customer Size | CS Touch | Frequency | Owner |
+|------|-------------|----------|-----------|-------|
+| **Starter** (Entry) | $499/mo | Email only | Monthly newsletter | Automated |
+| **Professional** (Core) | $1,499/mo | Check-in call | Monthly | Steven → CS at 20 customers |
+| **Enterprise** (Key) | $2,999/mo | Strategic review | Monthly + QBR | Dedicated CS |
+
+**CS activities by tier**:
+
+| Activity | Starter | Professional | Enterprise |
+|----------|---------|--------------|------------|
+| Monthly newsletter | ✓ | ✓ | ✓ |
+| Quarterly business review | — | — | ✓ |
+| Usage monitoring | — | ✓ | ✓ |
+| Proactive outreach | — | Monthly | Weekly |
+| Slack/phone support | — | Business hours | 24/7 |
+| Custom integrations | — | — | ✓ |
+| Strategic planning | — | — | ✓ |
+
+**Early warning signs of churn** (what to monitor):
+
+| Signal | What it means | Action |
+|--------|--------------|--------|
+| Usage drop >30% month-over-month | Customer not getting value | Outreach within 1 week |
+| No login for 14+ days | Customer not using product | Re-engagement sequence |
+| "Can we pause billing?" | Financial or value issue | Immediate call with CEO |
+| Staff turnover at customer | New person may not know value | Onboard new contact |
+| Competitor mention | At risk of switching | Deep dive on their needs |
+| No response to quarterly check-in | Disengaged | Escalate to Marcus intro |
+
+**Churn prevention playbook** (when signal is detected):
+
+| Signal | Timeline | Action | Script |
+|--------|----------|--------|--------|
+| Usage drop 30%+ | 1 week | Proactive outreach | "I noticed your call volume dropped — anything we can help with?" |
+| No login 14+ days | 1 week | Re-engagement email | "Haven't seen you in a while — everything okay? Happy to schedule a check-in." |
+| "Can we pause?" | Immediate | Call with CEO | "Let's understand what's not working — we'll do whatever it takes." |
+| Staff turnover | 2 weeks | New contact onboarding | "Welcome — here's what we built for your team and how to get started." |
+| Competitor mentioned | 1 week | Value reaffirmation | "What are they offering that we're not? Let's make sure you're getting everything you need." |
+
+**Customer health score** (track monthly):
+
+| Metric | Target | Warning | Critical |
+|--------|--------|---------|----------|
+| Usage vs. baseline | 100%+ | 70-99% | <70% |
+| Login frequency | Weekly | Bi-weekly | Monthly |
+| Call containment rate | 60%+ | 50-59% | <50% |
+| Lead quality vs. baseline | 90%+ | 80-89% | <80% |
+| Support tickets | <5/month | 5-10 | 10+ |
+| NPS score | 40+ | 20-39 | <20 |
+
+**Net Promoter Score (NPS) tracking**:
+
+| Score | Category | Action |
+|-------|----------|--------|
+| 9-10 | Promoter | Ask for referral: "Who else in your network might benefit?" |
+| 7-8 | Passive | Ask for feedback: "What would make you a 9 or 10?" |
+| 0-6 | Detractor | Immediate outreach: "What can we fix?" |
+
+NPS survey: Send every quarter via email (2 questions: "How likely to recommend?" + "Why?"). Target: 40+ NPS by month 12.
+
+**Customer success metrics to track**:
+
+| Metric | Formula | Target |
+|--------|---------|--------|
+| Monthly churn | Customers lost / Total customers | <1% per month (<12% annually) |
+| Net revenue retention (NRR) | (Revenue - churn + expansion) / Revenue | >110% |
+| Time to value (TTV) | Days from signup to first success metric | <30 days |
+| Health score | Composite of usage + login + NPS | >70% healthy |
+| CS cost per customer | CS time cost / # customers | Track for efficiency |
+
+**What happens when a customer is at risk** (escalation protocol):
+
+| Stage | Symptoms | Action | Owner | Timeline |
+|-------|---------|--------|-------|----------|
+| **Watch** | Usage down 20%, NPS 30-39 | Proactive email, offer check-in | Steven | Week 1 |
+| **Concern** | Usage down 30%, NPS <30 | Call within 48 hours | Steven | Week 2 |
+| **Critical** | "Can we pause," usage down 50% | Marcus outreach + CEO call | Marcus | Week 1 |
+| **Lost** | Customer says they're leaving | Exit interview + win-back offer | Steven | Immediate |
+
+**Exit interview protocol** (when customer churns):
+
+Ask every departing customer:
+1. "What could we have done differently to keep you?"
+2. "What did you like most about Optimizer AI?"
+3. "What would make you come back?"
+4. "Who should we talk to about replacing us?"
+
+Document findings. If 3+ customers leave for the same reason, fix it in the product.
+
+**Win-back campaign** (for lost customers):
+
+| Month | Action | Offer |
+|-------|--------|-------|
+| Month 1 (post-churn) | Exit interview | Understand why they left |
+| Month 3 | Re-engagement | "We've added [new feature] since you left — want to see?" |
+| Month 6 | Final attempt | "We'd love to have you back — here's a 3-month discount." |
+
+**Customer success roadmap by customer count**:
+
+| Customers | CS Model | Owner |
+|-----------|---------|-------|
+| 1-10 | Direct (Steven) | Steven |
+| 10-20 | Direct + templates | Steven |
+| 20-50 | Part-time CS hire | CS (first hire) |
+| 50-100 | Dedicated CS team | CS Manager |
+| 100+ | CS + Support + Success | VP of CS |
+
+**Hiring trigger**: At 20 customers, hire first CS person ($70-90k base). CS can handle 30-40 accounts at startup stage. At 50 customers, hire second CS.
+
+**What to tell Marcus/Kham at day 60**:
+
+> "To hit $10M EBITDA with 433 customers, we need to keep churn below 10% annually. That's 43 customers lost per year — which means we need 43 replacement customers on top of growth.
+>
+> At 10% churn, year 4 needs 43 new customers/month (vs. 10-11 for growth alone). At 5% churn, we only need 26/month.
+>
+> The difference: $30k+ in annual marketing spend, or investing in customer success that keeps churn at 5%.
+>
+> Our plan: Track NPS monthly, monitor usage weekly, escalate at-risk customers immediately, and hire CS at 20 customers."
+
+**Actions added**:
+- [ADDED] Set NPS survey (2 questions) to send quarterly — by month 6
+- [ADDED] Build customer health score dashboard (usage + login + NPS) — by month 3
+- [ADDED] Define churn warning signals and escalation protocol — by month 3
+- [ADDED] Create CS playbook for at-risk customers — by month 4
+- [ADDED] Track monthly churn rate (target: <1%/month) — ongoing
+- [ADDED] Hire first CS person at 20 customers (month 6-9) — by month 9
+- [ADDED] Run exit interviews on all churned customers — capture learnings
+
+**Sources**:
+- Customer success best practices: Gainsight, Totango, ClientSuccess
+- SaaS retention benchmarks: ProfitWell, OpenView Partners
+- NPS methodology: SurveyMonkey, Delighted
+
+---
+
