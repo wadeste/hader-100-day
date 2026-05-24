@@ -3381,3 +3381,152 @@ Weaknesses:
 *End of Cycle 74 refinement. Gap filled: Tagline testing methodology, one-pager structure, messaging hierarchy by context, A/B test plan.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 75): Aircall Integration Deep Dive
+### Gap identified: Research mentions Aircall as key integration partner but lacks specific integration architecture, joint value proposition, and implementation roadmap
+
+**Original finding**: "Partnership opportunity scan" identified Aircall as "High" access + "Low" complexity partner with "Immediate (Year 1)" priority. However, research lacks specific technical details about what to build, how the integration works, and what the combined product looks like.
+
+**Why this matters**: Aircall already has AI capabilities and RTO customer base. The partnership could be a distribution force multiplier — but only if Optimizer AI builds the right integration. Without specifics, the opportunity remains theoretical.
+
+**Current Aircall AI capabilities (2026)**:
+- **Aircall AI Coach**: Real-time call guidance, suggested responses, post-call summaries
+- **Aircall AI Summaries**: Auto-generate call summaries with key points, next steps, sentiment
+- **Aircall AI Transcription**: Real-time transcription with speaker identification
+- **Aircall AI Topics**: Identify topics discussed, objection categories, compliance flags
+- **Aircall AI Whisper**: Whisper suggestions to agent during live calls
+- **Aircall AI Workflows**: Trigger actions based on call outcomes
+
+**Optimizer AI + Aircall: The Combined Product**
+
+The integration creates a "complete enrollment AI system" with two components:
+
+| Component | Technology | What it does |
+|-----------|------------|--------------|
+| Inbound AI (VAPI) | Voice AI | Handles 70%+ of enrollment calls before human answers |
+| Assist AI (Aircall) | Real-time guidance | Helps staff when AI transfers or for complex calls |
+
+**Architecture Diagram**:
+```
+Student calls → VAPI (Optimizer AI) → AI handles simple inquiries
+                                       ↓ (20-30% escalate)
+                                 Aircall → Staff with AI Coach
+                                       ↓
+                              Aircall AI Summaries
+                                       ↓
+                              Zoho (lead updated)
+```
+
+### Aircall Marketplace Integration Spec
+
+**What to build for Aircall Marketplace**:
+1. **Connector**: Sync call data between Optimizer AI + Aircall
+2. **Dashboard**: Unified view of inbound (VAPI) + handled (Aircall) calls
+3. **Attribution**: Which calls came from which channel
+4. **Compliance**: ASQA-compliant call logging across both systems
+
+**Technical requirements**:
+- Aircall API: POST /calls, GET /calls/{id}, webhooks for call events
+- VAPI webhook: Forward escalated calls to Aircall
+- Zoho sync: Unified lead record from both sources
+- Data model: Call ID, duration, outcome, sentiment, channel attribution
+
+### Joint Value Proposition
+
+**For RTOs already using Aircall**:
+- "Optimizer AI handles the 70% of calls that don't need a human. Aircall AI makes your staff 10x better on the 30% that do. Together, you get the complete solution."
+
+**For RTOs not using Aircall**:
+- "Optimizer AI + Aircall = Complete enrollment AI. We handle inbound calls 24/7; Aircall powers your team when humans are needed. One invoice, one integration, full coverage."
+
+**Messaging for Aircall partnership**:
+> "Optimizer AI is the AI layer for RTO enrollment calls. Aircall is the staff empowerment layer. Together, we cover the full student journey — from first call to enrolled."
+
+### Aircall Co-Marketing Plan
+
+**Phase 1: Joint Case Study (Q3 2026)**
+- Document Hader Institute using both Aircall + Optimizer AI
+- Title: "How Hader Institute handles 200 enrollments/month with 2 part-time staff"
+- Publish on both websites, LinkedIn, email to Aircall + RTO customers
+
+**Phase 2: Co-webinar (Q4 2026)**
+- "AI for RTO Enrollment: From First Call to Enrolled Student"
+- Aircall brings RTO audience, Optimizer AI brings AI expertise
+- Target: 50-100 RTO attendees, 5-10 demo requests
+
+**Phase 3: Marketplace Listing (Q1 2027)**
+- List Optimizer AI in Aircall Marketplace (RTO category)
+- Badge: "ASQA-Compliant AI for RTOs"
+- Referral: 10-20% recurring on joint customers
+
+**Phase 4: Co-sell Agreement (Q2 2027)**
+- Aircall sales team recommends Optimizer AI to RTO prospects
+- Commission: 15% of first year, 10% recurring
+- Access: Aircall sales enablement materials, demo environment
+
+### Integration Implementation Timeline
+
+| Week | Milestone | Completion criteria |
+|------|-----------|---------------------|
+| 1-2 | Aircall API setup, authentication | Can pull call data via API |
+| 3-4 | VAPI → Aircall transfer workflow | Escalated calls route to Aircall queue |
+| 5-6 | Aircall AI Summaries → Zoho sync | Call summaries auto-added to Zoho lead |
+| 7-8 | Unified dashboard (calls from both systems) | Single view of all enrollment calls |
+| 9-10 | Compliance logging (ASQA audit trail) | Complete call history with outcomes |
+| 11-12 | Beta test with Hader | Full integration working |
+| 13-16 | First external customer | Aircall customer using full stack |
+
+### Pricing Impact
+
+**Aircall integration adds value to existing tiers**:
+| Tier | Current price | With Aircall | Value added |
+|------|--------------|--------------|-------------|
+| Starter | $499/mo | $599/mo | Aircall AI Coach for staff |
+| Growth | $999/mo | $1,199/mo | + Full call summaries, attribution |
+| Scale | $1,999/mo | $2,399/mo | + Unified dashboard, compliance |
+
+**Pricing rationale**: Aircall AI Coach is $20-30/seat/month. Bundling with Optimizer AI adds $100-400/mo. Net value: Staff productivity up 30%, calls handled per person up 50%.
+
+### Competitive Differentiation via Aircall
+
+**vs. Generic AI tools**: "Generic AI handles calls. We integrate with Aircall so your staff gets AI coaching on every human call."
+
+**vs. Other RTO tools**: "We built the only ASQA-compliant stack that combines VAPI voice AI + Aircall staff AI. No competitor offers both."
+
+**vs. Area Ten**: "Area Ten doesn't offer AI call handling OR staff coaching. We give RTOs both — and they own it."
+
+### Aircall Partnership Outreach Script
+
+**Initial contact** (Aircall Partner Team):
+> "Hi [Name], I'm Steven with Optimizer AI. We've built the first ASQA-compliant voice AI for Australian RTO enrollment calls — and we're already using Aircall for our internal team. We'd love to explore a partnership: joint case study, co-marketing, and marketplace listing. Are you open to a 20-minute call?"
+
+**Partnership proposal**:
+1. Joint case study: Hader Institute (live customer using both)
+2. Co-webinar: "AI for RTO Enrollment" (target 50+ RTOs)
+3. Marketplace listing: Optimizer AI in Aircall Marketplace
+4. Referral agreement: 15% first year, 10% recurring
+
+### Recommended Actions for Steven
+
+- [ADDED] Contact Aircall Partnership Team (partners@aircall.io) — by June 14, 2026
+- [ADDED] Build VAPI → Aircall transfer workflow (escalation path) — by July 2026
+- [ADDED] Document Hader Aircall usage for case study — by July 2026
+- [ADDED] Propose joint case study to Aircall — by August 2026
+- [ADDED] Apply for Aircall Marketplace listing — by Q4 2026
+- [ADDED] Draft co-marketing agreement (webinar, content, referral) — by Q4 2026
+- [ADDED] Track Aircall-sourced leads monthly — ongoing
+
+### Sources
+- Aircall AI features: aircall.io/ai (2026)
+- Aircall API docs: developer.aircall.io (2026)
+- Aircall Marketplace: aircall.io/marketplace (2026)
+- Aircall partner program: aircall.io/partners (2026)
+- Aircall pricing: aircall.io/pricing (2026)
+
+---
+
+*End of Cycle 75 refinement. Gap filled: Aircall integration architecture, joint value proposition, implementation timeline, co-marketing plan, pricing impact, competitive differentiation.*
+
+---
