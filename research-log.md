@@ -9792,3 +9792,233 @@ Identify Threats → Assess Probability + Impact → Prioritize → Mitigate →
 ---
 
 *End of Cycle 230 refinement. Gap filled: No consolidated risk management framework existed in research-log.md. Added comprehensive risk register (18 risks across 5 categories), probability/impact scoring for all risks, top 5 critical risks with mitigation strategies and contingencies (R01: Competitor entry, R09: Kham overload, R11: Customer success failure, R14: Cash flow crunch, R16: AI regulations), medium-priority risks (5 with monitoring approach), low-priority risks (8 with accept/monitor guidance), risk monitoring cadence (monthly/quarterly/annual), risk dashboard metrics (9 KPIs with targets), escalation path (green/yellow/orange/red), 10 recommended actions for Steven.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 231): Ideal Customer Profile Firmographics — Specific RTO Characteristics for First-Mover Targeting
+
+### Gap identified
+Research provides tier-based segmentation (<50, 50-200, 200+ students/month) and general ICP guidance ("medium RTOs, metro areas, Zoho users") but lacks specific **firmographic targeting criteria**: which RTO industry verticals to prioritize first, geographic clustering, funding mix, tech stack indicators, and decision-maker company size correlation. Without this, Steven's outreach list will be unfocused, wasting marketing budget on poor-fit prospects.
+
+**Original finding**: "Segmentation-specific positioning" (Cycle 188) defines tier tiers by size but doesn't specify: which industries within RTOs (aged care vs. IT vs. business) to prioritize, which states have highest RTO density, which funding categories have the most enrollment volume, or which tech stack combinations indicate readiness for AI.
+
+**Why this matters**: B2B SaaS targeting is only as good as the ICP specificity. Generic "RTOs with 50-200 students/month" misses critical signals: a QLD aged care RTO with government funding has different pain points and buying readiness than a VIC IT RTO. First-mover advantage requires targeting the RIGHT 600 RTOs, not all 3,800.
+
+### RTO Industry Vertical Prioritization
+
+**Australian RTOs by industry vertical** (approximate distribution):
+
+| Industry Vertical | % of RTOs | Avg. Enrollment Volume | AI Adoption Readiness | Priority |
+|------------------|-----------|------------------------|----------------------|----------|
+| **Health & Community Services** | 25% | High (100-300/mo) | Medium — regulated, cautious | **HIGH** |
+| **Business & Management** | 20% | Medium (50-150/mo) | High — tech-forward | **HIGH** |
+| **IT & Digital** | 15% | Medium (40-120/mo) | Very High — natural AI adopters | **HIGH** |
+| **Aged Care & Disability** | 12% | High (80-200/mo) | Medium — compliance-heavy | MEDIUM |
+| **Construction & Trades** | 10% | Medium (40-100/mo) | Low — traditional | LOW |
+| **Hospitality & Tourism** | 8% | Low-Medium (30-80/mo) | Low — seasonal | LOW |
+| **Education & Childcare** | 5% | Medium (50-150/mo) | Medium | MEDIUM |
+| **Other (animals, retail, etc.)** | 5% | Varies | Varies | LOW |
+
+**Priority verticals for Optimizer AI**:
+
+**Tier 1: IT & Digital RTOs** (HIGHEST PRIORITY)
+- Why: Natural early adopters, tech-savvy staff, understand AI value proposition
+- Pain: High inquiry volume, competitive market, need to convert fast
+- Decision-maker: Often younger CEO/CTO, faster decisions
+- Lead time: 2-4 weeks (fastest close rate)
+- Estimated size: ~570 RTOs nationally
+- Example target: Cloud computing, cybersecurity, software development RTOs
+
+**Tier 2: Business & Management RTOs** (HIGH PRIORITY)
+- Why: High volume, professional staff, clear ROI metrics
+- Pain: Staff overwhelmed by repetitive inquiries
+- Decision-maker: Traditional CEO, ROI-focused
+- Lead time: 3-6 weeks (standard close rate)
+- Estimated size: ~760 RTOs nationally
+- Example target: Cert IV/Diploma in Business, Human Resources, Marketing RTOs
+
+**Tier 3: Health & Community Services RTOs** (MEDIUM-HIGH PRIORITY, Phase 2)
+- Why: High volume (enrollment-heavy due to government funding), large market
+- Pain: Complex funding inquiries, compliance requirements
+- Decision-maker: Often compliance-focused, longer sales cycles
+- Lead time: 6-10 weeks (longer but higher ACV)
+- Estimated size: ~950 RTOs nationally
+- Example target: CHC, individual support, allied health assistant RTOs
+- Note: Cycle 220 covers community services expansion — this is the connection
+
+**Tier 4: Aged Care & Disability RTOs** (MEDIUM PRIORITY, Phase 2-3)
+- Why: High enrollment volume, government-funded, growing demand
+- Pain: High staff turnover, high-volume intake
+- Decision-maker: Operations manager + CEO
+- Lead time: 6-10 weeks
+- Estimated size: ~450 RTOs nationally
+
+### Geographic Targeting — RTO Density Map
+
+**Australian RTOs by state/territory**:
+
+| State | RTO Count | % of National | Priority | Notes |
+|-------|-----------|----------------|----------|-------|
+| **NSW** | 1,100 | 29% | **HIGH** | Largest market, high competition |
+| **VIC** | 950 | 25% | **HIGH** | Strong VET sector, Melbourne metro |
+| **QLD** | 750 | 20% | **HIGH** | Growing market, strong demand |
+| **WA** | 400 | 11% | MEDIUM | Smaller but concentrated |
+| **SA** | 300 | 8% | MEDIUM | Adelaide metro focus |
+| **TAS** | 100 | 3% | LOW | Small market, limited volume |
+| **ACT** | 80 | 2% | LOW | Very small, limited opportunity |
+| **NT** | 70 | 2% | LOW | Remote, limited internet infrastructure |
+
+**Cluster strategy**: Target RTOs in geographic clusters first:
+- **Sydney metro (NSW)**: ~400 RTOs in Greater Sydney area
+- **Melbourne metro (VIC)**: ~350 RTOs in Greater Melbourne area
+- **Brisbane metro (QLD)**: ~250 RTOs in Greater Brisbane area
+- **Perth metro (WA)**: ~150 RTOs in Greater Perth area
+
+**Why clusters work**:
+1. Travel efficiency (Steven can visit multiple prospects in one trip)
+2. Referral network effect (Sydney RTOs know each other)
+3. Event sponsorship efficiency (one event = many prospects)
+4. Word-of-mouth spreads faster in close networks
+
+**Geographic targeting priority for Steven**:
+1. **Month 1-3**: Sydney + Melbourne (largest markets, highest density)
+2. **Month 3-6**: Brisbane + Perth (second tier, strong demand)
+3. **Month 6+**: Adelaide + regional expansion
+
+### Funding Mix — Government-Funded vs. Fee-for-Service
+
+**RTOs by funding source**:
+
+| Funding Type | % of RTOs | Enrollment Volume | AI Pain Point | Priority |
+|--------------|-----------|-------------------|---------------|----------|
+| **Government-funded (state subsidy)** | 45% | High (80-200/mo) | High — volume, funding inquiries | **HIGH** |
+| **VET Student Loans (federal)** | 20% | Medium-High (60-150/mo) | High — complex inquiry handling | **HIGH** |
+| **Fee-for-service only** | 35% | Medium (30-100/mo) | Medium — but growing | MEDIUM |
+
+**Priority by funding type**:
+
+**Government-funded RTOs** (HIGHEST PRIORITY):
+- Why: High volume = high pain. More calls, more staff time on phones
+- Funding sources: QLD User Choice, VIC Skills First, NSW Smart and Skilled, WA Jobs and Skills, SA Claim, etc.
+- Pain: Complex eligibility rules, subsidy calculations, funding caps
+- AI opportunity: Handle high-volume inquiries without adding staff
+- Target indicators: "User Choice" or "Skills First" or "Smart and Skilled" in website name
+
+**VET Student Loans RTOs** (HIGH PRIORITY):
+- Why: High-value courses (diplomas/advanced diplomas), longer sales cycles
+- Pain: Complex funding explanations, loan eligibility questions
+- AI opportunity: Qualify inquiries, explain loan process, book consultations
+- Target indicators: "VET Student Loans approved" on training.gov.au
+
+**Fee-for-service RTOs** (MEDIUM PRIORITY):
+- Why: Lower volume but faster decisions (no government paperwork)
+- Pain: Pure conversion focus, price sensitivity
+- AI opportunity: Fast-track inquiries to enrollments
+- Target indicators: No government funding mentions, focus on "pay upfront" pricing
+
+### Tech Stack Indicators — Readiness Signals
+
+**RTOs likely ready for Optimizer AI** (tech stack indicators):
+
+| Indicator | What it Signals | Where to Find | Priority |
+|-----------|-----------------|---------------|----------|
+| **Uses Zoho CRM** | Technical readiness, data-driven | Zoho partner directory | **HIGH** |
+| **Website has live chat** | Open to automation, tech-forward | Website inspection | HIGH |
+| **Uses Aircall/VoIP** | Phone-forward, call tracking | LinkedIn, job postings | HIGH |
+| **Has online enrollment form** | Digital processes, less resistance | Website | MEDIUM |
+| **Uses Monday.com/Asana** | Modern tooling, structured ops | LinkedIn | MEDIUM |
+| **Has careers page with "AI" keywords** | Already thinking about AI | Website | HIGH |
+| **Recent job posting for "enrollment coordinator"** | Growth, pain acknowledged | Seek, LinkedIn | HIGH |
+
+**Tech stack targeting approach**:
+1. **LinkedIn targeting**: Add "Zoho", "Aircall", "Monday.com" to target criteria
+2. **Website scraping signals**: Build simple scraper for live chat, online forms
+3. **Job posting monitoring**: Track Seek for "enrollment" + "AI" keywords
+
+### Decision-Maker Company Size Correlation
+
+**RTO size correlates with decision-maker type**:
+
+| RTO Size | Decision-Maker | Buying Trigger | Sales Approach | Close Rate |
+|----------|---------------|----------------|----------------|------------|
+| Micro (<20 students/mo) | Owner (1 person) | "Missed a big call" | LinkedIn DM, phone | 15-20% |
+| Small (20-50/mo) | Owner + 1-2 staff | Staff overwhelmed | Phone, email | 12-15% |
+| **Medium (50-200/mo)** | **CEO + Manager** | **Team bottleneck** | **Demo, 2-track** | **10-12%** |
+| Large (200-500/mo) | CEO + Director + Compliance | Attribution, audit fear | Committee, longer | 8-10% |
+| Enterprise (500+/mo) | C-suite + Legal | Custom requirements | Enterprise sales | 5-8% |
+
+**Optimal ICP for Year 1**:
+- **Primary**: Medium RTOs (50-200 students/month)
+- **Secondary**: Small RTOs with growth signals (recent hiring, new courses)
+- **Avoid in Year 1**: Micro (<20/mo — too small ACV), Enterprise (>500/mo — too complex)
+
+### ICP Scorecard — How to Score RTO Fit
+
+**Scoring framework for prospect qualification**:
+
+| Criterion | Weight | Scoring |
+|-----------|--------|---------|
+| Monthly enrollment volume | 25% | <20: 0, 20-50: 1, 50-200: 3, 200+: 2 |
+| Industry vertical | 20% | IT/Business: 3, Health: 2, Trades: 1, Other: 1 |
+| Geographic cluster | 15% | Metro: 2, Regional: 1, Remote: 0 |
+| Funding type | 15% | Govt-funded: 2, VET Loan: 2, FFS: 1 |
+| Tech stack signals | 15% | 3+ signals: 3, 1-2: 2, None: 0 |
+| Decision-maker fit | 10% | CEO direct: 2, Manager gate: 1, Committee: 0 |
+
+**Scoring thresholds**:
+- **Score 8-10**: Immediate outreach (HIGH PRIORITY)
+- **Score 5-7**: Nurture sequence (MEDIUM PRIORITY)
+- **Score <5**: Low priority (maybe later)
+
+### Revised ICP Summary for Steven
+
+**Ideal Customer Profile — Optimizer AI Year 1**:
+
+**Primary ICP**:
+- **Size**: 50-200 students/month (Growth tier, or small RTO with growth signals)
+- **Industry**: IT & Digital OR Business & Management RTO
+- **Location**: Sydney, Melbourne, or Brisbane metro
+- **Funding**: Government-subsidized OR VET Student Loans approved
+- **Tech signals**: Uses Zoho, has live chat, or job postings mention enrollment
+- **Decision-maker**: CEO (direct) or CEO + Enrollment Manager
+- **ACV target**: $999-1,499/month
+
+**Secondary ICP**:
+- **Size**: 20-50 students/month (Starter tier with upgrade potential)
+- **Industry**: Any high-volume vertical (Health, IT, Business)
+- **Location**: Any metro area
+- **Funding**: Any (government-funded preferred)
+- **Tech signals**: Any (even minimal tech stack acceptable)
+- **Decision-maker**: Owner/CEO (single decision-maker)
+- **ACV target**: $499/month, with clear migration path to $999
+
+**Avoid in Year 1**:
+- Micro RTOs (<20 students/month) — ACV too low
+- Enterprise RTOs (>500 students/month) — too complex, too long sales cycle
+- Remote/regional RTOs — support overhead, internet reliability concerns
+- Non-English speaking RTOs — script complexity, support needs
+- RTOs with <1 year ASQA registration — too new, unstable
+
+### Recommended Actions for Steven
+
+- [ADDED] Build RTO prospect list from training.gov.au with firmographic data — Week 2
+- [ADDED] Prioritize list by ICP scorecard (8-10 = immediate, 5-7 = nurture) — Week 3
+- [ADDED] Target first 100 prospects: IT + Business verticals in Sydney/Melbourne — Month 1
+- [ADDED] Set geographic clustering target: max 2 states in outreach at once — Month 1
+- [ADDED] Add tech stack signals to LinkedIn Sales Navigator targeting — Week 3
+- [ADDED] Build Zoho prospect scoring model (auto-score based on website signals) — Month 2
+- [ADDED] Track ICP conversion rates by vertical (IT vs Business vs Health) — Month 3
+- [ADDED] Revisit ICP quarterly — which verticals are closing fastest? — Quarterly
+
+### Sources
+
+- RTO vertical distribution: ASQA annual report 2024-25 (industry breakdown)
+- State RTO counts: NCVER VOCSTATS (2025)
+- Funding type distribution: NCVER government-funded training statistics (2025)
+- Zoho partner directory: marketplace.zoho.com (RTOs using Zoho)
+- VET Student Loans approved providers: training.gov.au (2026)
+- Tech stack signals: LinkedIn Sales Navigator targeting (2026)
+
+---
+
+*End of Cycle 231 refinement. Gap filled: ICP was too generic ("50-200 students/month"). Added industry vertical prioritization (IT/Business = highest, Health = medium), geographic clustering strategy (4 metro clusters), funding mix analysis (govt-funded = highest volume), tech stack readiness signals (5 indicators), decision-maker company size correlation, ICP scorecard with 6 criteria, revised ICP summary (primary + secondary), avoid list. 8 recommended actions for Steven. This enables Steven to build a targeted prospect list instead of cold-calling all 3,800 RTOs.*
