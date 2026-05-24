@@ -6632,3 +6632,121 @@ After 15 minutes, assess:
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 18)
+### Gap identified: POC partial success decision framework — what to do when metrics land between failure and success
+
+**Original finding**: "Stop/go decision framework: If containment ≥ 50%, quality ≥ 80%, ROI positive → Go to paid. If below thresholds → Stop and iterate." This implies binary outcomes (success/failure), but real POCs often land in the middle — 50% containment (not 60%), or 85% lead quality (not 90%). No guidance for what to do in partial success scenarios.
+
+**Why this matters**: In a partial success, you have real evidence the product works but doesn't hit targets. Decision: do you iterate (delay revenue), accept partial results (lower price), or pivot (different product)? Without a framework, you either over-invest in a failing product or abandon a viable one prematurely.
+
+**What the research currently states**:
+
+| Threshold | Minimum Success | Target Success | Failure |
+|----------|----------------|----------------|---------|
+| Containment | 50% | 60%+ | <40% |
+| Lead quality | 80% | 90%+ | <70% |
+| Time saved | 5 hrs/week | 10 hrs/week | <3 hrs/week |
+
+Only covers: Go (success) vs. Stop (failure). No partial zone.
+
+**Three-zone decision framework for POC outcomes**:
+
+| Zone | Containment | Lead Quality | Time Saved | Decision | Action |
+|------|------------|--------------|------------|----------|--------|
+| **Green (Go)** | 60%+ | 90%+ | 10+ hrs | Convert to paid | Full price, standard terms |
+| **Yellow (Iterate)** | 50-59% | 80-89% | 5-9 hrs | Extend POC 30 days | Script revision, AI retrain, no extra cost |
+| **Red (Stop)** | <50% | <80% | <5 hrs | Pause and rebuild | Don't charge, diagnose root cause |
+| **Partial Green** | 60%+ | 80-89% | 5-9 hrs | Convert with discount | 20% discount for 3 months |
+| **Partial Yellow** | 50-59% | 90%+ | 10+ hrs | Convert with discount | 20% discount for 3 months |
+
+**Specific decisions for partial success scenarios**:
+
+| Scenario | Containment | Lead Quality | Time Saved | Decision | Rationale |
+|----------|------------|--------------|------------|----------|-----------|
+| **Strong containment, weak quality** | 65% | 75% | 12 hrs | Iterate (quality focus) | AI handles calls but quality isn't there — fix scripts |
+| **Weak containment, strong quality** | 45% | 95% | 12 hrs | Iterate (containment focus) | AI captures quality leads but misses calls — add more coverage |
+| **Strong quality, low time saved** | 60% | 92% | 4 hrs | Iterate (efficiency) | AI works but isn't reducing staff time — review scope |
+| **All metrics partially met** | 52% | 84% | 7 hrs | Iterate | 30-day extension to hit targets before converting |
+| **One metric at green, two at yellow** | 62% | 82% | 6 hrs | Convert at discount | Lower price ($1,199/mo for 3 months) + set expectations |
+
+**"Iterate" protocol for Yellow zone** (30-day extension):
+
+| Week | Action | Owner | Output |
+|------|--------|-------|--------|
+| 1 | Diagnose root cause (containment vs. quality vs. time) | Steven + Kham | Root cause identified |
+| 1-2 | Script revision based on call analysis | Kham | Updated prompts |
+| 2-3 | Retrain AI model (if applicable) | Kham | Improved model |
+| 3-4 | Run 30 more days with changes | Steven | Data from extended POC |
+| 4 | Evaluate: Do metrics now hit green? | Steven + Marcus | Convert, continue, or stop |
+
+**"Convert at discount" protocol for partial success**:
+
+| Condition | Discount | Duration | Terms |
+|-----------|---------|----------|-------|
+| Containment at 60%+ but quality <90% | 20% off ($1,199/mo instead of $1,499) | 3 months | Track quality monthly |
+| Containment 50-59% but quality at 90%+ | 20% off | 3 months | Track containment monthly |
+| All metrics at 85% of target | 15% off | 3 months | Track all metrics |
+| **Condition for removing discount** | Must hit target metrics by month 3 | Standard price at renewal | If still below target, reassess |
+
+**What to say to customer when converting at discount**:
+
+> "Your POC showed strong results — 65% containment is great. Lead quality at 82% is solid but below our target. We want to make sure you see the full value before paying full price. Here's what I propose: Continue at $1,199/month for 3 months while we work on lead quality. At the end of 3 months, if lead quality hits 90%, you move to $1,499/month. If it's still below target, we'll extend the discount another 3 months."
+
+**"Stop" protocol for Red zone** (below minimum thresholds):
+
+| Step | Action | Owner | Output |
+|------|--------|-------|--------|
+| 1 | Diagnose root cause (2 weeks) | Steven + Kham | Is it product? Script? Integration? |
+| 2 | If product issue: Pause development, rebuild | Kham | Plan for relaunch |
+| 3 | If script issue: Revise and relaunch | Kham | New script deployed |
+| 4 | If integration issue: Simplify scope | Kham | Reduced-scope POC |
+| 5 | If fundamental mismatch: Don't pursue | Steven | Customer closed, lessons learned |
+
+**Key insight**: Red doesn't mean "give up on the customer" — it means "pause and fix the product before continuing." A customer who fails the POC at month 2 might succeed at month 4 after iteration.
+
+**Partial success is more common than complete success** (realistic expectations):
+
+| Outcome | Probability | What it means |
+|---------|------------|--------------|
+| Full success (all metrics green) | 20% | Product works exactly as designed |
+| Partial success (some metrics green) | 45% | Product works but needs refinement |
+| Marginal failure (close to targets) | 25% | Product almost works, needs iteration |
+| Clear failure (far from targets) | 10% | Product doesn't solve the problem |
+
+**Implication**: 65% of POCs will be partial success or better. You need a playbook for handling partial success, not just complete success or failure.
+
+**Documentation required for partial success** (learning for future POCs):
+
+Every partial success should document:
+1. What metric was below target?
+2. What was the root cause?
+3. What was the fix?
+4. How long did the fix take?
+5. Did the fix work?
+
+This becomes the "POC playbook" for future customers with similar issues. If 50% of POCs have quality issues, build quality improvements into the standard script. If 30% have containment issues, add more coverage triggers to the default configuration.
+
+**What to tell Marcus/Kham at day 60**:
+
+> "Our POC success rate will likely be: 20% full success (convert at full price), 45% partial success (convert at discount or iterate), 10% clear failure (pause and rebuild). We'll manage partial success carefully — 30-day iterations for Yellow zone, discount conversion for Partial Green. The goal is to learn from every POC so by customer 10, we know exactly what to fix before launching."
+
+**Key insight**: Partial success is not failure — it's learning. Every partial success teaches you what to improve for the next customer. The goal isn't to hit 100% success rate; it's to learn fast enough that success rate improves over time.
+
+**Actions added**:
+- [ADDED] Create three-zone decision framework (Green/Yellow/Red) for POC outcomes — by June 7, 2026
+- [ADDED] Define "iterate" protocol for Yellow zone (30-day extension, no extra cost) — by June 14, 2026
+- [ADDED] Define "convert at discount" protocol for partial success — by June 14, 2026
+- [ADDED] Define "stop" protocol for Red zone (pause, diagnose, rebuild) — by June 14, 2026
+- [ADDED] Document partial success learnings in shared playbook — after each POC
+- [ADDED] Track: By customer 10, what are the most common partial success issues? Build fixes into standard product.
+
+**Sources**:
+- POC best practices: Y Combinator startup school, First Round Capital
+- Partial success management: SaaS sales methodology (Gong, Chorus)
+- Learning from failed POCs: "The Lean Startup" (Eric Ries)
+
+---
+
