@@ -4532,3 +4532,184 @@ The research log identifies gaps that need **live web research**, not inference:
 
 *End of Cycle 47 refinement. Gap filled: RTO pain variation by size segment and geography quantified. Mid-market RTOs confirmed as primary target (P0), regional as expansion (P1).*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 48)
+### Gap identified: Funding/cash runway model missing — no clarity on how Optimizer AI is funded, what cash reserves exist, and whether external investment is needed
+
+**Original finding**: Cycle 39 CAC model includes cash flow projections (break-even at month 7, $70K positive cash flow at month 18) and Cycle 31 financial model projects EBITDA targets. Missing: Is Optimizer AI bootstrapped (Marcus/Kham funded)? Is external investment needed? How much cash is available to fund growth before break-even? What's the burn rate before revenue covers costs?
+
+**Why this matters**: The cash flow model shows $50-60K needed for 6 months to break-even, but there's no clarity on:
+1. Where does that $50-60K come from? Marcus/Kham personal funds? External investment?
+2. Is the company pre-revenue or is there existing cash flow from Hader?
+3. What's the risk if break-even takes longer than 7 months?
+4. Does Steven's $100K salary get paid from Optimizer AI revenue or Hader?
+
+**What the research currently states**:
+- Cash flow model: Break-even at month 7 with $50-60K runway
+- Steven salary: $100K base + 20% bonus + 1% equity
+- EBITDA target: $10M (but path is 7-8 years)
+- Unit economics: Healthy (3.4 month payback)
+- **No mention of funding source or cash reserves**
+
+### Funding Scenario Analysis
+
+**Scenario A: Bootstrapped (Marcus/Kham funded)**
+
+| Question | Answer | Notes |
+|----------|--------|-------|
+| Is bootstrapping realistic? | Yes, if $50-60K cash available | Fast payback enables reinvestment |
+| Cash needed for 7 months | $50-60K operating + $50K Steven salary = $100K | Steven salary must come from somewhere |
+| Marcus/Kham investment | Depends on their capital availability | Not disclosed in current research |
+| Risk | If break-even delayed, may need more cash | Model break-even at month 7 is optimistic |
+
+**Scenario B: External Investment (VC/Angel)**
+
+| Question | Answer | Notes |
+|----------|--------|-------|
+| Is external investment needed? | No — unit economics support bootstrapping | 3.4 month payback is fast |
+| Could accelerate growth? | Yes — $500K investment = hire sales team month 1 | Faster customer acquisition |
+| Equity dilution | Would dilute Marcus/Kham 10-20% | Equity is precious |
+| Recommended? | **No external investment until proven PMF** | First get 10-20 customers, then raise |
+
+**Scenario C: Hader-funded (cash from existing business)**
+
+| Question | Answer | Notes |
+|----------|--------|-------|
+| Does Hader have cash to fund Optimizer AI? | Unknown — need to ask Marcus | Hader is revenue-generating |
+| Cross-subsidy risk | Could blur lines between Hader and Optimizer AI | Need separate P&L |
+| Staff allocation | Is Kham 100% on Optimizer AI or split with Hader? | Critical question |
+
+### Critical Unknowns for Marcus/Kham
+
+**Must be answered before Day 60**:
+
+| Question | Why it matters | Who to ask |
+|----------|---------------|------------|
+| How is Optimizer AI funded? | Determines cash runway and growth pace | Marcus/Kham |
+| What's the cash available for Year 1? | $100K minimum needed, more if conservative | Marcus |
+| Is Steven's salary from Optimizer AI or Hader? | Changes operating cost model | Marcus |
+| Is Kham 100% on Optimizer AI or split with Hader? | Changes build timeline | Kham |
+| What's the burn rate expectation? | Determines pace of spending | Marcus/Kham |
+| Is external investment an option if needed? | Backup plan if growth is slower | Marcus/Kham |
+
+### Revised Cash Flow Model (Conservative)
+
+**Conservative assumption: $150K cash available for Year 1**
+
+| Item | Monthly | Year 1 |
+|------|---------|--------|
+| Steven salary | $8,333 | $100,000 |
+| Steven payroll tax (10%) | $833 | $10,000 |
+| Marketing spend | $5,000 | $60,000 |
+| Tools/software | $500 | $6,000 |
+| Legal/finance/admin | $500 | $6,000 |
+| Kham technical time (opportunity cost) | $0 | $0 (in-kind) |
+| **Total monthly burn** | **$15,166** | **$182,000** |
+
+**Revenue model (conservative)**:
+- Month 1: 2 customers × $900 = $1,800
+- Month 6: 12 customers × $900 = $10,800
+- Month 12: 30 customers × $900 = $27,000
+
+**Cash position by month**:
+
+| Month | Cash in | Cash out | Revenue | Cash balance |
+|-------|---------|----------|---------|-------------|
+| Start | $150,000 | — | — | $150,000 |
+| Month 1 | — | $15,166 | $1,800 | $136,634 |
+| Month 3 | — | $15,166 | $5,400 | $111,702 |
+| Month 6 | — | $15,166 | $10,800 | $83,496 |
+| Month 9 | — | $15,166 | $18,000 | $57,930 |
+| Month 12 | — | $15,166 | $27,000 | $30,234 |
+| Month 14 | — | $15,166 | $36,000 | **Break-even** |
+
+**Key insight**: With $150K cash and conservative revenue model, break-even is month 14, not month 7. This is 7 months later than the optimistic model. Need $150K minimum, or accelerate revenue growth.
+
+### Revised Cash Flow Model (Optimistic)
+
+**Optimistic assumption: $100K cash available, faster growth**
+
+| Item | Monthly | Notes |
+|------|---------|-------|
+| Steven salary | $8,333 | May come from Hader initially |
+| Reduced marketing | $2,000 | Minimum viable marketing |
+| Reduced admin | $500 | Lean operations |
+| **Total monthly burn** | **$10,833** | |
+
+**Revenue model (optimistic)**:
+- Month 1: 3 customers × $900 = $2,700
+- Month 6: 18 customers × $900 = $16,200
+- Month 12: 40 customers × $900 = $36,000
+
+**Cash position by month (optimistic)**:
+
+| Month | Cash out | Revenue | Cash balance |
+|-------|----------|---------|-------------|
+| Start | — | — | $100,000 |
+| Month 3 | $32,500 | $8,100 | $75,600 |
+| Month 6 | $32,500 | $16,200 | $51,300 |
+| Month 8 | $32,500 | $23,400 | **$38,200** |
+| Month 9 | $32,500 | $27,000 | **$32,700** |
+| Month 10 | $32,500 | $31,500 | Break-even |
+
+**Key insight**: Optimistic model reaches break-even at month 10 with $100K cash. Requires:
+- Marcus's network delivers 5+ customers fast (2-3/month for first 3 months)
+- Aggressive LinkedIn outbound starting month 4
+- Minimal marketing spend ($2K/month instead of $5K)
+
+### Critical Questions for Marcus/Kham
+
+**Must be answered before day 60**:
+
+1. **"How much cash is available to fund Optimizer AI for the first 12 months?"**
+   - This determines whether the optimistic or conservative model is realistic
+   - If <$100K, must either raise external investment or slow growth
+
+2. **"Is Steven's $100K salary coming from Optimizer AI or Hader?"**
+   - If from Hader, Optimizer AI burn is lower ($10K/month instead of $15K)
+   - Changes break-even from month 14 to month 8
+
+3. **"Is Kham 100% on Optimizer AI or splitting time with Hader?"**
+   - If 100%, build is faster but Kham not earning from Hader
+   - If split, orientation robot build timeline extends
+
+4. **"What happens if break-even takes longer than 12 months?"**
+   - Is there more cash available?
+   - Is external investment an option?
+   - Does Optimizer AI stop, or does Hader absorb costs?
+
+### Recommendation for Day 60 Presentation
+
+**Present three funding scenarios**:
+
+| Scenario | Cash needed | Break-even | Risk level |
+|----------|-------------|-------------|------------|
+| **Lean (bootstrapped)** | $80K | Month 8 | Medium — depends on fast customer acquisition |
+| **Moderate (recommended)** | $150K | Month 10 | Low — buffer for delays |
+| **Aggressive (with investment)** | $300K | Month 6 | Medium — requires external investment |
+
+**Recommended**: Moderate scenario ($150K cash) with conservative revenue model. Provides buffer for delays while not requiring external investment.
+
+**Ask Marcus at day 60**:
+> "To build the financial model, I need to know: (1) How much cash is available to fund Optimizer AI for Year 1? (2) Is my salary coming from Optimizer AI or Hader? (3) Is Kham 100% on Optimizer AI or split with Hader? This determines how fast we can grow."
+
+### Actions for Steven
+
+- [ADDED] Ask Marcus: Cash available for Year 1 funding — by June 28, 2026 (day 60)
+- [ADDED] Ask Marcus: Source of Steven salary (Optimizer AI vs. Hader) — by June 28, 2026
+- [ADDED] Ask Kham: % time allocated to Optimizer AI — by June 28, 2026
+- [ADDED] Build three funding scenario models for day 60 presentation — by June 28, 2026
+- [ADDED] Present break-even analysis with "what we need" and "what we have" — by June 28, 2026
+- [ADDED] If cash <$100K, recommend raising investment or slowing growth — decision point
+
+**Sources**:
+- Cash flow model: Based on CAC/financial model from Cycles 31 and 39
+- Conservative estimates: Industry benchmarks for B2B SaaS burn rates
+- Steven salary: From project context ($100K base + 20% bonus)
+
+---
+
+*End of Cycle 48 refinement. Gap filled: Funding/cash runway model added. Three scenarios (lean/moderate/aggressive), break-even months, critical questions for Marcus/Kham identified.*
+
