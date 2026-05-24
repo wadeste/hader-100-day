@@ -4753,3 +4753,210 @@ Is customer committing to 12 months?
 
 *End of Cycle 211 refinement. Gap filled: No legal/contract framework existed for AI enrollment SaaS. Added SaaS agreement structure (12 sections), SLA framework (5 metrics with remedies), AI liability limitations (cap, consequential damages, 4 disclaimers), data processing agreement (8 APP elements, subprocessor list), Australian Consumer Law considerations, 3 scenario analyses (VET Loans, USI, orientation), contract duration structure, Terms/Privacy policy requirements, 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 212): International Expansion Strategy — NZ Market Opportunity and Multi-Region Roadmap
+
+### Gap identified
+Research covers Australian RTO market extensively (TAM, SAM, ASQA compliance, pricing) but contains no strategy for international expansion. This is a gap: once Optimizer AI establishes market dominance in Australia, where does it go next? New Zealand has an identical VET system structure, the UK has a similar regulatory framework, and other English-speaking markets could follow. Understanding the international opportunity now informs product architecture decisions (i18n, multi-region support) and prevents costly pivots later.
+
+**Original finding**: ESOS documentation export mentioned (Cycle 327) for international student compliance, but no strategy for expanding outside Australia.
+
+**Why this matters**: "Australia-only" is a defensible market, but investors and acquirers want to see expansion potential. The $67M Australian TAM becomes $300M+ in the UK VET market alone. Starting the international conversation now — even if execution is 3-5 years out — ensures the product architecture supports it.
+
+### The Case for International Expansion
+
+**Why RTO-specific AI has global appeal**:
+- Every country with vocational education has equivalent problems (enrollment calls, compliance, student management)
+- English-speaking markets (UK, NZ, US) share language → faster to adapt
+- Regulatory complexity creates barrier to DIY → AI value proposition is higher
+- VET is a $50B+ global market (Australia ~$10B, UK ~$15B, US ~$25B)
+
+**The risk of not planning**:
+- Product built for Australian-specific features (USI, AVETMISS) won't work elsewhere
+- Data model assumes Australian compliance requirements
+- Multi-tenant architecture may not support regional variations
+- Localization (i18n) not built into voice AI scripts
+
+**What to build now for international later**:
+- Abstract country-specific logic (compliance rules, ID numbers) into configurable modules
+- Build multi-tenant architecture that supports multiple "regions" in one system
+- Use generic field names (not "USI" everywhere)
+
+### New Zealand — The Logical First Expansion
+
+**Why NZ makes sense**:
+1. **Near-identical VET system**: NZ has NZQA (New Zealand Qualifications Authority), similar to ASQA
+2. **Same language**: English, no translation needed
+3. **Same time zone**: No coordination overhead
+4. **Small market**: ~400-500 private training establishments (PTEs) in NZ
+5. **Similar compliance**: NZQA standards for registered providers
+6. **Existing relationships**: Marcus/Kham may have NZ connections
+
+**NZ regulatory framework comparison**:
+
+| Factor | Australia (ASQA) | New Zealand (NZQA) | Implication |
+|--------|------------------|---------------------|-------------|
+| Regulator | Australian Skills Quality Authority | NZ Qualifications Authority | Different standards |
+| Student ID | USI (Unique Student Identifier) | NSI (National Student Number) | Different ID system |
+| Data retention | 5 years (AVETMISS) | 7 years (NZQA) | Longer retention |
+| Compliance audit | ASQA audits RTOs | NZQA audits PTEs | Different audit process |
+| Funding | VET Student Loans, state subsidies | Youth Guarantee, Fees Free | Different funding |
+| Qualification framework | Australian Qualifications Framework | NZ Qualifications Framework | Different qualifications |
+
+**NZ PTE landscape**:
+- ~400-500 registered PTEs in NZ
+- Average enrollment: 50-150 students/program
+- Market opportunity: 20% of NZ PTEs = 80-100 potential customers
+- NZ pricing potential: $800-1,500 USD/month (slight premium vs Australia)
+- NZ market size: ~$8-12M annually (NZD)
+
+**What would need to change for NZ**:
+1. **NSI collection** instead of USI (similar concept, different API)
+2. **NZQA compliance** scripts and reporting (replace ASQA-specific content)
+3. **NZ phone number** with local dialling (0800 numbers for inbound)
+4. **NZ bank account** for billing (Stripe with NZ support handles this)
+5. **NZ-specific training packages** (NZ qualifications vs Australian)
+
+**Timeline for NZ expansion**: Year 2-3 if Australia is successful
+- Month 18: Decision point (is Australia working? Is NZ next?)
+- Month 20-24: NZ-specific development (NSI API, NZQA scripts)
+- Month 24: NZ pilot with 3-5 PTEs
+- Month 30: NZ officially launched
+
+### UK Market — The Big Prize
+
+**UK VET market size**:
+- FE (Further Education) colleges: ~300 in England
+- Independent training providers: ~2,500+ (Ofsted-registered)
+- Apprenticeship training providers: ~1,500+
+- Total addressable: ~3,000+ providers
+- UK market value: £2-4B annually
+
+**UK regulatory framework**:
+
+| Factor | Australia (ASQA) | UK (Ofsted/ESFA) | Implication |
+|--------|------------------|------------------|-------------|
+| Regulator | ASQA | Ofsted + ESFA | Different standards |
+| Student ID | USI | ULN (Unique Learner Number) | Similar concept |
+| Funding | Government subsidies | Apprenticeship Levy, AEB | Different funding |
+| Compliance | ASQA audits | Ofsted inspections | Different process |
+| Training | Training packages | Apprenticeship standards | Different structure |
+
+**UK-specific challenges**:
+1. **Accent and voice**: UK English voice required (not Australian)
+2. **Regulatory complexity**: Ofsted framework is complex, varies by region
+3. **Funding intricacy**: Apprenticeship Levy system is complex
+4. **Market maturity**: UK already has some AI tools (not a greenfield)
+5. **Competition**: UK EdTech is more mature than Australian
+
+**UK expansion timeline**: Year 3-4 if Australia and NZ work
+- Requires UK-specific product development
+- Requires UK sales/marketing presence (or UK-based partner)
+- Requires understanding of UK FE sector deeply
+
+### US Market — The Largest Opportunity
+
+**US VET/EdTech market**:
+- Total US EdTech market: $100B+ (2025)
+- Post-secondary vocational education: $30B+
+- Community colleges: 1,000+ institutions
+- Trade schools and vocational colleges: 3,000+
+
+**US market characteristics**:
+- Very fragmented (many small schools)
+- Heavy state-level regulation (no federal VET standard)
+- Strong competition from existing players
+- High cost of sales (US requires local presence)
+
+**US-specific challenges**:
+1. **Regulatory nightmare**: 50 states, 50 different sets of rules
+2. **Voice AI quality**: ElevenLabs Rachel has US accent, but UK/AU variants
+3. **HIPAA**: If dealing with healthcare training, adds complexity
+4. **Competition**: US AI voice market is crowded
+5. **Sales cost**: US B2B sales require US-based team
+
+**US expansion timeline**: Year 4+ if international expansion proceeding
+
+### Product Architecture for International
+
+**What to build NOW to support international later**:
+
+| Architecture Decision | Why It Matters | Implementation |
+|----------------------|----------------|----------------|
+| **Abstract country-specific fields** | USI, NSI, ULN are all "student ID" | Create `student_id_type` + `student_id` fields |
+| **Configurable compliance rules** | ASQA vs NZQA vs Ofsted | Rule engine with country profiles |
+| **Multi-region support** | Different phone numbers per country | VAPI supports multiple countries |
+| **Multi-currency billing** | AUD vs NZD vs GBP | Stripe Multi-Currency |
+| **Localization (i18n)** | Script templates for different English | Voice scripts in separate files per locale |
+| **Timezone handling** | Different business hours per region | Store in customer settings |
+
+**Technical requirements for NZ by Year 2**:
+
+```python
+# Example: Abstracted student ID
+class Student:
+    student_id: str  # e.g., "USI123" or "NSI456"
+    student_id_type: str  # "USI" or "NSI"
+    student_id_verified: bool
+
+# Configurable compliance rules
+COMPLIANCE_PROFILES = {
+    "AU": {
+        "id_type": "USI",
+        "retention_years": 5,
+        "regulator": "ASQA",
+        "required_fields": ["usi", "funding_type"],
+    },
+    "NZ": {
+        "id_type": "NSI", 
+        "retention_years": 7,
+        "regulator": "NZQA",
+        "required_fields": ["nsi", "citizenship_status"],
+    },
+}
+```
+
+### International Pricing Strategy
+
+**Currency and pricing considerations**:
+
+| Market | Pricing (local currency) | Pricing (AUD equivalent) | Notes |
+|--------|-------------------------|-------------------------|-------|
+| Australia | $499-1,999/month | $499-1,999 | Baseline |
+| New Zealand | $550-2,200/month NZD | $520-2,070 | 5-10% premium |
+| UK | £350-1,400/month | $700-2,800 | Currency varies |
+| US | $450-1,800/month USD | $700-2,800 | Premium for US market |
+
+**Why premium pricing internationally**:
+- Higher cost of sales (travel, time zones)
+- Regulatory complexity requires more support
+- Market is less price-sensitive
+
+### Recommended Actions for Steven
+
+- [ADDED] Design product architecture with abstract country fields (student_id_type, compliance_profile) — Month 3
+- [ADDED] Research NZQA requirements (NSI, PTE standards) if NZ expansion considered — Month 12
+- [ADDED] Build configurable compliance rules engine (supports AU, NZ, UK profiles) — Year 2
+- [ADDED] Plan NZ pilot in Year 2 if Australia hits 30+ customers — Month 18
+- [ADDED] Set up Stripe with multi-currency support (NZD, GBP, USD) — Year 2
+- [ADDED] Build NZ-specific voice scripts (NSI collection, NZQA disclosure) — Year 2
+- [ADDED] Research UK Ofsted/ESFA requirements if UK considered — Year 3
+- [ADDED] Evaluate international opportunity in investor presentations ("$300M+ global market") — Year 2
+- [ADDED] Track international inquiries (UK, NZ, Singapore RTOs reaching out) — Ongoing
+- [ADDED] Budget for NZ expansion: $50-100K (development + travel + legal) — Year 2
+
+### Sources
+
+- NZ PTE market: NZQA registered providers list (2025)
+- NZ VET system: NZQA website, studyinnewzealand.govt.nz (2025)
+- UK FE market: Ofsted FE education data (2025)
+- UK training providers: ESFA register of training organisations (2025)
+- US EdTech market: HolonIQ Global Education Outlook (2025)
+- International VET comparison: European Centre for the Development of Vocational Training (Cedefop) reports (2025)
+
+---
+
+*End of Cycle 212 refinement. Gap filled: No international expansion strategy existed. Added NZ as logical first expansion (400-500 PTEs, NZQA framework, NSI vs USI), UK market analysis ($2-4B opportunity, Ofsted/ESFA), US market analysis ($30B+, 50-state complexity), product architecture requirements for international (5 decisions), NZ pricing strategy, technical requirements for Year 2 NZ expansion, 10 recommended actions for Steven.*
+
