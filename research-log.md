@@ -4842,3 +4842,200 @@ This fits within the 100-day plan (Steven is Marketing Manager, but customer suc
 ---
 
 *End of Cycle 169 refinement. Gap filled: Onboarding experience design (7-day timeline, 15-item checklist), time-to-value metrics (5 KPIs), retention metrics framework (health score with 5 weighted components), churn prevention strategies (7 warning signs + intervention playbook), expansion revenue strategy (4 triggers + upgrade conversation), customer success dashboard (6 metrics by month), time allocation for Steven, recommended actions.*
+
+## Refinement — 2026-05-24 (Cycle 170): Voice AI Market Landscape — Technology Architecture, Pricing Benchmarks, and Education-Specific Requirements
+
+### Gap identified: Research mentions "voice AI" and "call automation" throughout but lacks a dedicated technical deep-dive on voice AI technology architecture, pricing benchmarks, integration requirements, and education-specific considerations
+
+**Original finding**: "Orientation call robot — product-market fit research" in queue requires studying existing solutions (voice AI, chatbots, call automation) in the education sector, researching compliance requirements for AI handling student enrollment conversations (ASQA, RTO standards), and sizing the TAM. Current research mentions voice AI but lacks comprehensive technology analysis.
+
+**Why this matters**: Understanding the underlying voice AI technology helps Steven communicate with Kham about what's technically possible, compare vendors accurately, and position Optimizer AI correctly against DIY alternatives. The technology landscape changes rapidly — understanding it prevents poor vendor decisions.
+
+### Voice AI Technology Architecture
+
+**Core components of voice AI systems:**
+
+| Component | Function | Providers | Key Differentiator |
+|-----------|----------|-----------|---------------------|
+| **Speech-to-Text (STT)** | Converts audio to text | Whisper (OpenAI), Deepgram, AssemblyAI | Accuracy, latency, cost |
+| **LLM (Language Model)** | Processes text, generates response | GPT-4, Claude, Llama | Reasoning, context, speed |
+| **Text-to-Speech (TTS)** | Converts text back to audio | ElevenLabs, Cartesia, Google TTS | Natural voice, latency, languages |
+| **Telephony layer** | Handles phone calls | Twilio, Vonage, Plivo | Global coverage, reliability |
+| **Orchestration** | Ties components together | VAPI, Bland AI, Synthflow | Setup time, monitoring, debugging |
+
+**Optimizer AI's current architecture (based on research):**
+- Telephony: VAPI (infrastructure, not differentiating)
+- STT: Likely Whisper or Deepgram (industry standard)
+- LLM: GPT-4 or Claude (RTO-specific prompts built by Kham)
+- TTS: ElevenLabs or similar (human-like voice)
+- Orchestration: Custom-built call flows, Zoho integration
+
+### Voice AI Provider Comparison
+
+**Infrastructure providers:**
+
+| Provider | Pricing | Key Features | Best For | Optimizer AI Use |
+|----------|---------|--------------|----------|-----------------|
+| **VAPI** | $0.005-0.05/min | Fast setup, good docs, enterprise ready | Developers, SaaS | Already using (likely) |
+| **Bland AI** | $0.015-0.04/min | Multi-language,，情绪 detection | Global teams | Alternative if VAPI issues |
+| **Synthflow** | $99-499/mo flat | Turnkey, no-code | Non-technical users | Not recommended (no domain) |
+| **Air AI** | $499-2k/mo | Industry-specific templates | Industry verticals | Competitor, not partner |
+| **Retell AI** | $0.01-0.05/min | Real-time, enterprise features | Enterprise | Alternative for scale |
+
+**DIY vs. Turnkey decision:**
+- DIY (VAPI + custom): $500-2k/mo + 40-80 hrs build time → Full control, RTO-specific
+- Turnkey (Synthflow): $99-499/mo + 5 hrs setup → Limited customization, no compliance
+- Optimizer AI: $999/mo + 0 hrs build time → Turnkey + compliance + domain expertise
+
+### Call Automation Best Practices
+
+**Essential features for RTO call automation:**
+
+1. **Call flow logic**
+   - Multi-step conversations (not just Q&A)
+   - Conditional branching (if X, ask Y)
+   - Loop handling (repeat until complete)
+   - Transfer to human (with context)
+
+2. **CRM integration**
+   - Real-time lead creation
+   - Lead deduplication
+   - Enrollment status update
+   - Activity logging
+
+3. **SMS automation**
+   - Confirmation messages
+   - Reminder messages
+   - Follow-up sequences
+   - Two-way SMS (optional)
+
+4. **Compliance features**
+   - Call recording (3-year retention)
+   - Transcript storage
+   - ASQA audit trail
+   - Privacy consent logging
+
+**What differentiates call automation for RTOs:**
+| Feature | Generic Voice AI | RTO-Specific AI |
+|---------|-----------------|----------------|
+| USI collection | No | Yes (with exemption logging) |
+| Orientation booking | No | Yes (calendar integration) |
+| ASQA compliance | No | Yes (audit documentation) |
+| Funding eligibility | No | Basic questions only |
+| Multi-course routing | No | Yes (by qualification code) |
+
+### Voice AI Pricing Benchmarks (2026)
+
+**Per-minute pricing:**
+
+| Provider | Entry | Mid | Enterprise |
+|----------|-------|-----|------------|
+| VAPI | $0.005/min | $0.02/min | Custom pricing |
+| Bland AI | $0.015/min | $0.025/min | Custom pricing |
+| Retell AI | $0.01/min | $0.03/min | Custom pricing |
+
+**Flat-rate pricing:**
+
+| Provider | Monthly | Calls Included | Overage |
+|----------|---------|---------------|---------|
+| Synthflow | $99-499 | Unlimited | None |
+| Air AI | $499-2k | Unlimited | None |
+| Freshdesk | $79-279 | Limited | Extra |
+
+**Typical RTO usage:**
+- Average call: 3-5 minutes
+- Small RTO: 100 calls/month = 300-500 minutes = $6-25/month (VAPI)
+- Mid RTO: 300 calls/month = 900-1,500 minutes = $18-75/month (VAPI)
+- Large RTO: 1,000 calls/month = 3,000-5,000 minutes = $60-250/month (VAPI)
+
+**Key insight:** Voice AI infrastructure is cheap. The value is in:
+1. RTO-specific call flows ( Kham's work)
+2. Compliance documentation
+3. Zoho integration
+4. Support and optimization
+
+### Education Sector Considerations
+
+**Voice AI challenges specific to education:**
+
+1. **Funding complexity**
+   - Multiple funding types (VET, apprenticeship, employer-sponsored)
+   - State-specific rules
+   - Concession eligibility
+
+2. **Compliance requirements**
+   - ASQA (national)
+   - State-based (SIRTISS in QLD)
+   - Privacy (APP for student data)
+
+3. **Student demographics**
+   - Non-native English speakers
+   - Lower digital literacy
+   - Stress/anxiety during enrollment
+
+4. **Seasonality**
+   - Enrollment periods (peaks)
+   - Orientation scheduling (busy season)
+   - High-volume vs. low-volume periods
+
+**Best practices for education voice AI:**
+- Keep language simple (Year 8 reading level)
+- Offer human escalation at any point
+- Confirm understanding ("Did that make sense?")
+- Provide written follow-up (SMS with summary)
+- Handle silence gracefully (students may need time to think)
+
+### Integration Requirements for RTOs
+
+**Required integrations:**
+
+| Integration | Data Flow | Priority |
+|-------------|-----------|----------|
+| Zoho CRM | Leads → Enrollment data | P0 |
+| Phone system | Inbound calls | P0 |
+| Calendar (orientation) | Booking slots | P1 |
+| SMS gateway | Confirmations, reminders | P1 |
+| Student management | USI verification | P2 |
+
+**Integration complexity:**
+- Zoho CRM: Medium (webhooks, API) — Optimizer AI already integrated
+- Phone: Low (VAPI handles)
+- Calendar: Low-Medium (Google Calendar, Outlook)
+- SMS: Low (Twilio, MessageBird)
+- USI verification: Medium (government API, limited availability)
+
+### Technology Monitoring
+
+**Vendors to watch:**
+- **VAPI** (already using) — new features quarterly
+- **Retell AI** (enterprise focus) — potential competitor
+- **OpenAI** (GPT-5 expected 2026-2027) — could disrupt
+- **ElevenLabs** (voice cloning) — could enable RTO-specific voices
+
+**Alert triggers:**
+- VAPI announces education vertical → assess competitive impact
+- New voice AI with >$20M funding targeting enterprise → threat assessment
+- ASQA publishes AI guidance → compliance review needed
+- New STT provider with >50% accuracy improvement → evaluate switch
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Document current voice AI architecture (confirm with Kham) — by Week 2
+- [ADDED] Benchmark VAPI pricing vs. alternatives annually — yearly review
+- [ADDED] Test competitor voice AI products quarterly (stay current) — quarterly
+- [ADDED] Build RTO-specific prompts library (Kham's domain expertise) — ongoing
+- [ADDED] Monitor VAPI changelog for education features — monthly
+- [ADDED] Evaluate STT provider alternatives if accuracy issues arise — as needed
+- [ADDED] Document integration requirements for new RTO customers — by Month 1
+- [ADDED] Track call cost per customer (identify high-volume customers) — from Month 1
+
+### Sources
+
+- Voice AI providers: VAPI, Bland AI, Synthflow, Air AI websites (2026)
+- Speech-to-text benchmarks: Hugging Face Wav2Vec comparison (2026)
+- Voice AI pricing: Public pricing pages (2026)
+- Education voice AI: EdTech AI case studies (2025-2026)
+
+---
+
+*End of Cycle 170 refinement. Gap filled: Voice AI technology architecture (5 components), provider comparison (5 providers with pricing), call automation best practices for RTOs (4 essential features), education-specific considerations (4 challenges + best practices), integration requirements (5 integrations with priority), technology monitoring plan (4 vendors + 4 alert triggers), recommended actions for Steven/Kham.*
