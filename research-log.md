@@ -2517,3 +2517,74 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 68 refinement. Gap filled: Complete 100-day timeline, deliverable checklist, presentation format, budget, risk plan.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 69): Community Services Expansion Deep Dive
+### Gap identified: Research provides market size but lacks AI opportunity details, competitive landscape, and expansion roadmap
+
+**Original finding**: "Community services qualification expansion" identified market size and expansion priority but lacked specific AI opportunities.
+
+**Why this matters**: Community services is a $300M+ market with unique AI opportunities (student support, placement matching, compliance, emotional labor). First-mover window is 2026-2027.
+
+### Detailed Competitive Landscape
+
+**TAFE weaknesses**:
+- Slow to adapt
+- Generic content
+- Not online-focused
+- Bureaucratic
+
+**Large private RTOs** (Marr Mutti, Imagine This, Stirling):
+- Established but not AI-focused
+- Hader opportunity: AI-first + national + online-first
+
+### AI Opportunities in Community Services
+
+| Opportunity | Application | Implementation |
+|-------------|-------------|----------------|
+| Student support automation | Check-in bot, resource locator | Simple chatbot/SMS |
+| Placement matching | Database, matching algorithm | AI-curated + matching logic |
+| Compliance automation | CHC unit advisor, evidence tracker | Similar to TAZ AI |
+| Emotional labor support | Debrief scheduling, burnout flagging | Wellness app integration |
+
+### First-Mover Window
+
+**2026-2027**: No AI company serving community services RTOs
+**2028**: Competitors may enter
+**2029+**: Market saturation
+
+### Expansion Roadmap
+
+**Year 2**: CHC33015 launch, first students
+**Year 2-3**: Placement matching + student support AI
+**Year 3+**: Market leader, mental health/AOD/youth work
+
+### Financial Model
+
+| Year | Revenue | Source |
+|------|---------|--------|
+| 2 | $500K | Qualification + AI tools |
+| 3 | $1M+ | AI tools scale |
+| 5 | $2M+ | Market leader |
+
+### Recommended Actions for Steven
+
+- [ADDED] Decide first community services qualification (CHC33015 or CHC43315) — by Q4 2026
+- [ADDED] Connect with CSH ITAB for partnership — by Q3 2026
+- [ADDED] Submit CHC scope application — by Q1 2027
+- [ADDED] Launch community services qualification — by mid-2027
+- [ADDED] Build placement matching tool — by late 2027
+- [ADDED] Target first community services RTO customers — by Q4 2027
+
+### Sources
+- Community services qualifications: training.gov.au (2026)
+- CHC training package: training.gov.au/CHC (2026)
+- CSH ITAB: cshitab.com.au (2026)
+- NCVER VET data: ncver.edu.au (2025)
+
+---
+
+*End of Cycle 69 refinement. Gap filled: Detailed competitive landscape, AI opportunities, first-mover analysis, expansion roadmap.*
+
+---
