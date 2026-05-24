@@ -2063,4 +2063,96 @@ Based on B2B SaaS benchmarks and education vertical:
 - RTO dropout cost analysis: industry interviews and RTO advisor consultation
 - AI student retention tools: driffle.ai, quora.com/education-software (student engagement platforms)
 
+
+---
+
+## Summary: What Marcus and Kham Must Provide Before Day 60 (June 28, 2026)
+
+**Context**: The research is complete. The strategy, product roadmap, pricing, and GTM plan are documented. But the orientation call robot cannot be built without specific information from Marcus, Kham, and Jesse. This summary organizes everything that needs to be collected before day 60.
+
+### Critical Path: Information Blockers
+
+**Without these, the orientation call robot build cannot start:**
+
+| Item | Owner to provide | Received by |
+|------|------------------|------------|
+| Hader course list (full names, codes) | Marcus/Jesse | June 7 |
+| Course duration for each | Marcus/Jesse | June 7 |
+| Delivery mode (online/in-person/blended) | Marcus/Jesse | June 7 |
+| Next 3 intake start dates | Jesse | June 7 |
+| Total fee per course | Marcus/Jesse | June 7 |
+| Payment plan options | Marcus/Jesse | June 7 |
+| Human transfer phone number | Marcus | June 14 |
+| Refund policy (exact wording) | Jesse | June 7 |
+| LLN support details (what support is available?) | Jesse | June 14 |
+| Complaints and appeals contact | Jesse | June 14 |
+| Documents required for enrollment | Jesse | June 14 |
+
+### Day 60 Presentation Requirements
+
+**Steven needs from Marcus before building the presentation:**
+
+| Item | Why needed | Priority |
+|------|-----------|----------|
+| List of 5-10 warm leads | Marcus's network is the #1 GTM channel | P0 — Day 1 |
+| Marcus's intro to each lead | Without intro, leads are cold | P0 — Day 1 |
+| Hader call volume data (weekly/monthly) | Demo proof point | P1 — Week 1 |
+| Hader enrollment conversion rate | Demo ROI calculation | P1 — Week 1 |
+| Current staff time spent on calls | Demo ROI calculation | P1 — Week 1 |
+| Case study permission | Social proof for pitch | P2 — Week 2 |
+| Competitor RTO names to target | ICP validation | P2 — Week 2 |
+| RTO consultant referrals | Partner channel build | P2 — Week 2 |
+
+### Kham Technical Decisions
+
+**Steven must confirm with Kham before day 60:**
+
+| Question | Why needed | Decision deadline |
+|----------|-----------|------------------|
+| VAPI or Twilio for voice AI? | Technical architecture | June 7 |
+| Hours/week available for build? | Timeline calculation | June 7 |
+| Zoho API experience level? | Integration complexity | June 7 |
+| 7-8 weeks to go-live realistic? | Day 60 timeline | June 7 |
+| First test call achievable by June 21? | Milestone tracking | June 14 |
+### Day 60 Deliverable Checklist
+
+**What the presentation must include:**
+- [ ] Executive summary (1 page)
+- [ ] Market sizing (TAM/SAM/SOM with updated numbers)
+- [ ] Product roadmap (3 product lines with timelines)
+- [ ] Pricing tiers (Starter/Growth/Scale with annual option)
+- [ ] GTM strategy (channels prioritized by phase)
+- [ ] Financial model (path to $10M EBITDA, realistic scenario)
+- [ ] Customer acquisition targets (2-3/month Year 1)
+- [ ] Implementation timeline (7-8 weeks to go-live)
+- [ ] Team roles and resource requirements
+- [ ] Key risks and mitigation
+- [ ] KPIs and success metrics
+
+### Post-Day-60 Actions
+
+**After June 28, Steven must execute:**
+| Action | Owner | Deadline |
+|--------|-------|----------|
+| Build orientation call robot MVP | Kham | July 21 |
+| Start Marcus's network outreach | Steven | June 7 |
+| Create LinkedIn content (3-5 posts/week) | Steven | Ongoing |
+| Build RTO consultant referral program | Steven | June 14 |
+| Warm up email domain for cold outreach | Steven | June 28 |
+| Attend RTO Connect Forum planning | Steven | July 31 |
+| Build TAZ Review Tool MVP (after orientation robot) | Kham | Sept 2026 |
+| Pilot student retention AI at Hader | Steven + Kham | Sept 2026 |
+
+
+**Key dates to remember:**
+- June 7: First information deadline (Marcus/Jesse)
+- June 14: Script placeholder fill-in deadline (Steven)
+- June 21: First test call milestone (Kham)
+- June 28: Day 60 presentation to Marcus and Kham
+- July 21: Go-live at Hader (orientation call robot)
+- August 11: First metrics reviewed (containment rate, lead quality)
+- September 2026: Present first ROI report (orientation call robot)
+- September 2026: TAZ Review Tool MVP complete
+- September 2026: Student retention AI pilot start
+
 ---
