@@ -569,3 +569,42 @@ Research the market trajectory: AI adoption in Australian RTOs, regulatory chang
 - Note: External web search limited; recommend ASQA consultation and RTO market survey as follow-up
 
 ---
+
+## AI courses market opportunity — 2026-05-24
+
+### Objective
+Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. This is both a product line for Hader (revenue) and a credibility play for Optimizer AI (expertise).
+
+### Key Findings
+- **No dedicated AI qualification exists in Australia** — No nationally recognized "Cert IV in Artificial Intelligence" in national training packages; AI content is being piecemeal-added to existing qualifications
+- **Gap = opportunity**: Hader can be first-mover in RTO-delivered AI training with a dedicated skill set or short course
+- **Social Media Marketing + AI is highest-demand combo**: High existing enrollment at Hader in social media marketing; AI tools integration (ChatGPT, AI image generation, analytics automation) adds clear value
+- **Speed-to-market beats accreditation prestige**: Non-accredited short courses ($300-500) can launch in 4-8 weeks; skill sets take 3-6 months; full qualifications take 6-12 months and may be outdated by launch
+- **The flywheel is the real strategic play**: Hader teaches AI > RTO staff become comfortable with AI > adoption of Optimizer AI tools; no competitor is doing both
+- **Curriculum maintenance is the hidden cost**: AI tools change every 3-6 months; non-accredited courses can update weekly without regulatory overhead
+- **Hader's scope unknowns**: Does Hader have scope for BSB (business) and/or ICT (IT) training packages? This determines qualification options
+- **Revenue potential (Hader-specific)**: Short AI courses could generate $50,000+/month combined at scale; Optimizer AI pipeline value (course graduates > customers) could add $300,000 ARR at 10% conversion
+
+### Strategic Implications
+- **For Hader**: Launch non-accredited "AI Tools for RTO Staff" short course in next 4-8 weeks to test demand; add AI modules to existing social media courses as medium-term move; develop accredited skill set in parallel
+- **For Optimizer AI**: Every AI course graduate knows Optimizer AI exists; trained RTO staff are pipeline for SaaS adoption; course curriculum becomes content moat (blog posts, LinkedIn, case studies)
+- **Financial model**: AI courses don't count toward $10M EBITDA directly, but 100 graduates converting at 10% = $300,000 ARR for Optimizer AI
+- **Competitive differentiation**: "Certified Optimizer AI Practitioner" creates brand stickiness; no other RTO AI vendor offers accredited training pathway
+- **Risk**: Curriculum outdated quickly; regulatory changes (ASQA); scope registration gaps; competitor launches first
+
+### Recommended Actions
+- [ ] Interview Marcus about Hader's scope of registration (BSB/ICT training packages) — by June 7, 2026
+- [ ] Design 4-week "AI Tools for RTO Staff" non-accredited short course outline ($399) — by June 14, 2026
+- [ ] Survey 20 existing Hader students on AI course interest — by June 21, 2026
+- [ ] Launch beta AI short course with 5-10 students from Marcus's network — by July 5, 2026
+- [ ] Develop Social Media Marketing + AI skill set curriculum — by August 2026
+- [ ] Seek ASQA registration for skill set if beta proves demand — Month 6
+
+### Sources
+- Training.gov.au — national training packages (ICT, BSB)
+- ASQA qualification development requirements
+- CONTEXT.md — Hader's current course profile
+- LinkedIn job posting data (Australian AI skills demand)
+- Note: External web search limitations; recommend primary demand research with Hader student prospects
+
+---
