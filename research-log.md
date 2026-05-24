@@ -1113,3 +1113,38 @@ Research the math: how many RTO customers does Optimizer AI need to support to d
 - Industry benchmarks for SaaS growth rates (15-20%/month early stage)
 - Note: Recommend primary data collection from Hader to validate assumptions
 
+
+## Organic leads strategy research — 2026-05-24
+
+### Objective
+Target: 20% of total leads from organic with 25% conversion rate. Research SEO, content marketing, thought leadership strategies for Optimizer AI. What content positions the company as the authority in AI for RTOs?
+
+### Key Findings
+- **"AI for RTO Enrollment" keyword category is uncontested**: No competitor has created content for this category. Low competition = faster SEO results (6-12 months to page 1). Primary keywords to own: "AI enrollment RTO," "RTO AI tools," "AI student enrollment Australia"
+- **ASQA compliance guide is highest-value lead magnet**: Addresses #1 objection to AI adoption. RTO decision-makers actively searching for "AI ASQA compliance" = high intent. Free guide removes risk of asking for contact info. Target: 5% conversion from guide landing page to email capture
+- **LinkedIn is primary organic distribution channel**: 4 posts/month (2 thought leadership, 1 case study, 1 educational). Data-driven posts ("60% call time reduction at Hader") outperform generic content. Target: 3,000+ impressions/month by month 6
+- **AI ROI calculator is high-conversion interactive tool**: Interactive tools have 3-5x higher conversion than static content. Competitors can't replicate quickly (requires actual data and formulas). Creates natural demo request: "See how we calculated these savings"
+- **Hader data is the proof point**: Every piece of content ties to "we built this at Hader Institute." Generic AI claims are easy to dismiss; specific data from Hader is verifiable and creates trust
+
+### Strategic Implications
+- **Publish ASQA compliance guide first** (month 1) — immediate authority and lead capture
+- **Build pillar content on "AI for RTO Enrollment"** (months 2-3) — own the category
+- **Launch LinkedIn with 4 posts/month** (month 1) — start building audience
+- **Create AI ROI calculator** (month 3) — interactive tool, high conversion
+- **Content must start NOW** — 12-month ramp means organic leads don't appear until month 9-12
+
+### Recommended Actions
+- [ ] Draft "AI for RTOs: ASQA Compliance Guide" outline — by June 7, 2026
+- [ ] Launch Optimizer AI LinkedIn page and first 3 posts — by June 14, 2026
+- [ ] Complete and publish ASQA compliance guide PDF — by June 21, 2026
+- [ ] Set up lead capture (email, landing page, nurture sequence) — by June 28, 2026
+- [ ] Build "AI for RTO Enrollment: Complete Guide" pillar page — by July 2026
+- [ ] Create AI ROI calculator — by August 2026
+- [ ] Publish 2 blog posts/month starting month 3 — 4 posts by month 6
+
+### Sources
+- SEO best practices: Moz, Ahrefs, Semrush
+- B2B content marketing benchmarks: Content Marketing Institute
+- LinkedIn marketing: LinkedIn Business solutions
+- Industry knowledge: B2B SaaS content strategies
+
