@@ -9262,3 +9262,167 @@ Add slide: "Why not start with Community Services?" — "Community services has 
 - ASQA sector-specific guidance
 - Industry knowledge: Australian VET sector qualification types
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 21)
+### Gap identified: POC implementation readiness checklist missing — what must be true before Hader can go live with orientation call robot
+
+**Original finding**: "5-6 week implementation timeline" and "Go live with parallel testing — Week 5-6" — but no specific readiness checklist defining what must be true before the POC can launch, no pre-launch verification steps, and no go/no-go criteria.
+
+**Why this matters**: Research covers the implementation plan (weeks 1-6) but doesn't define what "done" looks like for each phase or what the go/no-go criteria are for moving from development to live testing. Without clear readiness criteria, the team may launch before foundations are solid (risking ASQA compliance) or delay unnecessarily (missing day 60 milestones).
+
+---
+
+### POC Implementation Readiness Checklist
+
+**By Week 1 (Discovery & Scripting)**:
+
+| # | Task | Owner | Definition of Done | Status |
+|---|------|-------|-------------------|--------|
+| 1 | Interview enrollment staff (Jesse + team) | Steven | Captured: call volume, duration, common questions, compliance checkpoints | ☐ |
+| 2 | Map call flow (decision tree) | Steven | Documented: 20+ nodes, escalation triggers, compliance touchpoints | ☐ |
+| 3 | Draft orientation call script | Steven | Written: 15-20 questions, ASQA disclosures, objection handling | ☐ |
+| 4 | Get Marcus approval on script | Steven → Marcus | Marcus + compliance manager have reviewed and approved | ☐ |
+| 5 | Identify AI training data sources | Steven + Kham | List: existing call recordings (with consent), Zoho data, approved scripts | ☐ |
+
+**By Week 2 (Voice AI Setup)**:
+
+| # | Task | Owner | Definition of Done | Status |
+|---|------|-------|-------------------|--------|
+| 1 | Set up Twilio Australia (or alternative) | Kham | Account created, Australian phone number routed, test calls working | ☐ |
+| 2 | Configure voice AI (Claude/Twilio) | Kham | Script uploaded, natural language understanding working, test responses | ☐ |
+| 3 | Record voice prompts | Steven | Professional recording or TTS configured with Australian accent | ☐ |
+| 4 | Test 10 internal calls | Steven | AI handles calls without crashing, responses are accurate | ☐ |
+| 5 | Identify technical issues | Kham | Logged: any errors, latency, audio quality issues | ☐ |
+| 6 | Verify data privacy compliance | Steven | Confirmed: voice data stays in Australia or DPA is in place | ☐ |
+
+**By Week 3 (Integration)**:
+
+| # | Task | Owner | Definition of Done | Status |
+|---|------|-------|-------------------|--------|
+| 1 | Create Zoho lead creation workflow | Kham | AI call → Zoho lead created with: name, phone, course, source, timestamp | ☐ |
+| 2 | Configure calendar integration | Kham | AI schedules orientation → Google Calendar event created | ☐ |
+| 3 | Set up SMS confirmation | Kham | Post-call SMS sent to caller with orientation details | ☐ |
+| 4 | Test end-to-end flow | Steven | Complete call → lead in Zoho → calendar event → SMS — all working | ☐ |
+| 5 | Verify data mapping accuracy | Steven | Check: correct fields populated, no data loss, correct formatting | ☐ |
+
+**By Week 4 (Compliance & Testing)**:
+
+| # | Task | Owner | Definition of Done | Status |
+|---|------|-------|-------------------|--------|
+| 1 | Add USI verification prompt | Kham | AI asks: "Do you have a USI? If not, here's how to get one" | ☐ |
+| 2 | Add LLN screening question | Kham | AI asks: "Have you completed Year 12 or equivalent?" | ☐ |
+| 3 | Add pre-enrollment disclosures | Kham | AI delivers: refund policy, complaints process, USI collection notice | ☐ |
+| 4 | Enable call recording | Kham | All calls recorded and stored (with consent prompt at call start) | ☐ |
+| 5 | Enable transcript generation | Kham | Every call generates text transcript for compliance audit | ☐ |
+| 6 | Create audit log export | Kham | Compliance dashboard: export call records, transcripts, decisions | ☐ |
+| 7 | Run 50 test calls (internal) | Steven | Containment rate measured, escalation logic verified, quality scored | ☐ |
+
+**By Week 5 (Go/No-Go Checkpoint)**:
+
+| # | Criteria | Target | Actual | Go/No-Go |
+|---|----------|--------|--------|----------|
+| 1 | Containment rate (internal test) | 60%+ | __% | ☐ |
+| 2 | Lead quality (field check) | 90%+ of manual | __% | ☐ |
+| 3 | Compliance score | 4.5+/5 | __/5 | ☐ |
+| 4 | Zoho integration accuracy | 100% | __% | ☐ |
+| 5 | SMS delivery rate | 95%+ | __% | ☐ |
+| 6 | Average call duration | 5-8 min | __ min | ☐ |
+| 7 | Escalation accuracy | 90%+ correct | __% | ☐ |
+| 8 | No critical technical issues | 0 critical | __ critical | ☐ |
+| 9 | Marcus sign-off | Approved | Pending | ☐ |
+
+**Go/No-Go decision rules**:
+- **GO if**: 5+ criteria met, no critical issues, Marcus approves
+- **NO-GO if**: <5 criteria met, any critical compliance gap, Marcus rejects
+- **CONDITIONAL GO if**: 5+ criteria met but 1-2 areas need fixes — fix within 3 days
+
+**By Week 5-6 (Parallel Testing — AI + Human)**:
+
+| # | Task | Owner | Definition of Done | Status |
+|---|------|-------|-------------------|--------|
+| 1 | Go live with AI (pilot group) | Kham | Real calls routed to AI during test hours | ☐ |
+| 2 | Run parallel (human + AI) | Jesse | Human handles same call types as AI, both capture data | ☐ |
+| 3 | Daily check-in (week 5) | Steven | Daily review of call logs, issues, and AI performance | ☐ |
+| 4 | Weekly report to Marcus | Steven | Friday: containment, quality, issues, next week focus | ☐ |
+| 5 | Capture baseline metrics | Steven | Before/after comparison: call volume, staff time, missed calls | ☐ |
+| 6 | Document edge cases | Steven | Any unusual caller situations, escalation failures, AI errors | ☐ |
+
+---
+
+### Critical Pre-Launch Verification (Non-Negotiable)
+
+**These must be complete before any live call touches AI**:
+
+| # | Verification | Owner | Evidence Required |
+|---|-------------|-------|------------------|
+| 1 | **ASQA compliance reviewed** | Compliance manager | Signed checklist: all required disclosures present |
+| 2 | **Data privacy compliance confirmed** | Steven + legal | DPA in place OR Australian-hosted AI confirmed |
+| 3 | **Call recording consent** | Compliance manager | Disclosure script approved, consent capture mechanism in place |
+| 4 | **Escalation path confirmed** | Jesse | Human fallback tested: what happens if AI fails mid-call |
+| 5 | **Emergency stop mechanism** | Kham | One-click disable if AI behaves unexpectedly |
+| 6 | **Marcus approval** | Marcus | Written sign-off on go/no-go checklist |
+| 7 | **Staff notification** | Jesse | Team knows AI is live, knows escalation process |
+| 8 | **Customer notification (if applicable)** | Steven | If callers are informed AI is handling calls |
+
+---
+
+### What "Emergency Stop" Means in Practice
+
+**If AI does any of the following, immediately disable**:
+- Provides incorrect course information (not just unclear — factually wrong)
+- Fails to mention USI requirement when asked about enrollment
+- Provides enrollment advice beyond qualification questions
+- Caller reports feeling misled about AI nature of call
+- Any ASQA compliance concern raised
+
+**Disable procedure**:
+1. Kham logs into Twilio dashboard → disable routing immediately (<2 min)
+2. All calls revert to human staff (Aircall fallback)
+3. Steven notifies Marcus within 1 hour
+4. Incident documented in shared log
+5. Root cause analysis within 24 hours
+6. AI re-enabled only after fix verified
+
+---
+
+### Week-by-Week Owner Assignments
+
+| Week | Steven | Kham | Marcus | Jesse |
+|------|--------|------|--------|-------|
+| W1 | Script, interviews, call flow | Account setup | Script approval | Staff interviews |
+| W2 | Voice prompts, test calls | AI configuration | — | — |
+| W3 | End-to-end testing | Zoho/SMS/Calendar | — | Staff briefing |
+| W4 | 50 test calls, QA | Compliance features | — | — |
+| W5 | Daily reports, metrics | Monitoring, fixes | Go/no-go approval | Parallel ops |
+| W6 | Weekly report, documentation | Monitoring, fixes | — | Parallel ops |
+
+---
+
+### What This Means for Day 60 Presentation
+
+The day 60 presentation should show:
+1. **Timeline**: Implementation started [date], go-live [date], parallel testing [date]
+2. **Metrics**: Containment rate, lead quality, staff time saved — all with numbers
+3. **Evidence**: Screenshots of Zoho leads, call transcripts, audit logs
+4. **Conversion recommendation**: "Based on these results, we recommend converting to paid at $[X]/month"
+
+If the POC metrics aren't ready by day 60:
+- Present trajectory (weeks 1-4 of data)
+- Show confidence in hitting targets (based on ramp curve)
+- Propose extending POC to day 90 if needed
+
+**Actions added**:
+- [ADDED] Create go/no-go checklist (9 criteria) — by Week 5 of implementation
+- [ADDED] Define emergency stop procedure — by Week 2
+- [ADDED] Schedule weekly POC review with Marcus (every Friday during implementation) — by Week 1
+- [ADDED] Get compliance manager sign-off on all ASQA-required disclosures — by Week 4
+- [ADDED] Prepare day 60 ROI report with verified metrics — by June 28, 2026
+- [ADDED] If metrics not ready: present trajectory with confidence assessment — by day 60
+
+**Sources**:
+- SaaS POC best practices: Gainsight, Totango POC frameworks
+- ASQA compliance requirements: asqa.gov.au
+- Implementation planning: Agile/scrum methodology adapted for startup
+
