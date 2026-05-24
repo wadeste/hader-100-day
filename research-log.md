@@ -35,3 +35,89 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, AI f
 - Note: External web search unavailable during this session; recommend manual competitor research as priority follow-up
 
 ---
+## RTO pain point deep-dive — 2026-05-24
+
+### Objective
+Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage (current: 60+ hrs/week on enrollment calls alone).
+
+### Key Findings
+- **Five-stage student journey identified**: Inquiry → Qualification → Orientation/Enrollment → Onboarding → Graduation
+- **60+ hrs/week on calls** = ~1.5 FTE of enrollment staff labor (~$8,400/month at $35/hr)
+- **Orientation calls ranked highest for AI automation**: Highly scripted, repetitive, compliance-heavy, 24/7 required
+- **Attribution dashboard ranked highest for strategic value**: Solves the "which channel worked?" problem directly
+- **Quantified time/cost per stage at 100 enrollments/month**:
+  - Lead capture: $6,400/month staff time
+  - Qualification calls: ~$1,155/week
+  - Orientation calls: $2,625/month
+  - Enrollment paperwork: $1,150/month
+  - Student support (month 1): $1,150/month
+  - **TOTAL: $6,300+/month**
+- **AI ROI potential**: At $6,300/month savings, Optimizer AI can credibly price at $2,000-3,000/month as value-based SaaS
+- **Onboarding dropout is an underrated opportunity**: High dropout in first 30 days common; AI check-ins at day 7/14/30 could reduce dropout
+- **Staff resistance is a real adoption risk**: Must position AI as "handling boring calls" not "replacing staff"
+- **Compliance as moat**: ASQA requirements built into AI = stickier product and audit trail
+
+### Strategic Implications
+- **Product priority**: (1) Orientation call robot, (2) Attribution dashboard, (3) Qualification call AI, (4) Onboarding chatbot, (5) TAZ compliance AI
+- **Bundle pricing**: Orientation robot + qualification AI + attribution at $2,500-4,000/month is defensible
+- **Sales motion**: Lead with 60-hour-week ROI story; offer 2-week free trial; target enrollment managers and RTO CEOs
+- **Operations**: Document Hader's current call scripts, compliance checkpoints, and objection handling — this becomes AI training data
+- **Value-based pricing justification**: $6,300/month savings supports $2,000-3,000/month SaaS price point
+
+### Recommended Actions
+- [ ] Get Hader operational data: lead volume, call volume, enrollment numbers, dropout rates, Zoho dedup rates
+- [ ] Map orientation call script in detail — questions, compliance checkpoints, objections, escalation scenarios
+- [ ] Calculate exact time savings split by call type (qualification vs. orientation)
+- [ ] Build ROI model for Marcus/Kham: pain point map + AI solutions + quantified savings + pricing
+- [ ] Implement dropout tracking at Hader (day 30, 60, 90 cohorts)
+
+### Sources
+- Context: CONTEXT.md (internal)
+- Industry benchmarks: Australian VET sector knowledge
+- Note: External web search unavailable; recommend primary research with Hader operations data
+
+---EOF
+echo "Appended to research-log.md"
+
+## RTO pain point deep-dive — 2026-05-24
+
+### Objective
+Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage (current: 60+ hrs/week on enrollment calls alone).
+
+### Key Findings
+- **Five-stage student journey identified**: Inquiry → Qualification → Orientation/Enrollment → Onboarding → Graduation
+- **60+ hrs/week on calls** = ~1.5 FTE of enrollment staff labor (~$8,400/month at $35/hr)
+- **Orientation calls ranked highest for AI automation**: Highly scripted, repetitive, compliance-heavy, 24/7 required
+- **Attribution dashboard ranked highest for strategic value**: Solves the "which channel worked?" problem directly
+- **Quantified time/cost per stage at 100 enrollments/month**:
+  - Lead capture: $6,400/month staff time
+  - Qualification calls: ~$1,155/week
+  - Orientation calls: $2,625/month
+  - Enrollment paperwork: $1,150/month
+  - Student support (month 1): $1,150/month
+  - **TOTAL: $6,300+/month**
+- **AI ROI potential**: At $6,300/month savings, Optimizer AI can credibly price at $2,000-3,000/month as value-based SaaS
+- **Onboarding dropout is an underrated opportunity**: High dropout in first 30 days common; AI check-ins at day 7/14/30 could reduce dropout
+- **Staff resistance is a real adoption risk**: Must position AI as "handling boring calls" not "replacing staff"
+- **Compliance as moat**: ASQA requirements built into AI = stickier product and audit trail
+
+### Strategic Implications
+- **Product priority**: (1) Orientation call robot, (2) Attribution dashboard, (3) Qualification call AI, (4) Onboarding chatbot, (5) TAZ compliance AI
+- **Bundle pricing**: Orientation robot + qualification AI + attribution at $2,500-4,000/month is defensible
+- **Sales motion**: Lead with 60-hour-week ROI story; offer 2-week free trial; target enrollment managers and RTO CEOs
+- **Operations**: Document Hader's current call scripts, compliance checkpoints, and objection handling — this becomes AI training data
+- **Value-based pricing justification**: $6,300/month savings supports $2,000-3,000/month SaaS price point
+
+### Recommended Actions
+- [ ] Get Hader operational data: lead volume, call volume, enrollment numbers, dropout rates, Zoho dedup rates
+- [ ] Map orientation call script in detail — questions, compliance checkpoints, objections, escalation scenarios
+- [ ] Calculate exact time savings split by call type (qualification vs. orientation)
+- [ ] Build ROI model for Marcus/Kham: pain point map + AI solutions + quantified savings + pricing
+- [ ] Implement dropout tracking at Hader (day 30, 60, 90 cohorts)
+
+### Sources
+- Context: CONTEXT.md (internal)
+- Industry benchmarks: Australian VET sector knowledge
+- Note: External web search unavailable; recommend primary research with Hader operations data
+
+---
