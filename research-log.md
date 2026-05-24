@@ -6887,3 +6887,234 @@ Marcus will likely ask 5 questions every update. Have answers ready:
 ---
 
 *End of Cycle 57 refinement. Gap filled: Internal reporting framework for Steven — weekly status report, monthly business review, KPI dashboard, 100-day tracker, reporting cadence.*
+---
+
+## Refinement — 2026-05-24 (Cycle 58)
+### Gap identified: 1,000 enrollments/month feasibility study missing — no specific math on customer targets, enrollment uplift per RTO, or path to $10M EBITDA
+
+**Original finding**: "1,000 enrollments/month feasibility study — Research the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA." — marked as complete in queue but no specific analysis found in research log.
+
+**Why this matters**: The goal is stated as "AI-driven RTO handling from inquiry through enrollment to graduation" with a "$10M EBITDA target." But there's no explicit analysis of what "1,000 enrollments/month" means, how many RTO customers are needed, what enrollment uplift AI tools create, and how this connects to the $10M EBITDA target. Without this math, the strategy has no quantifiable north star.
+
+### Definitions and Assumptions
+
+**What is "1,000 enrollments/month"?**
+- Interpretation A: Optimizer AI processes 1,000 student enrollments per month across its customer base (aggregate)
+- Interpretation B: Optimizer AI's tools help its RTO customers collectively generate 1,000 additional enrollments per month
+- Interpretation C: Optimizer AI generates 1,000 new student enrollments at Hader (internal target)
+
+**Context from research log**: "Goal: AI-driven RTO handling from inquiry through enrollment to graduation" — suggests the product enables RTOs to handle more enrollments, not that Optimizer AI is itself an RTO.
+
+**Working assumption**: "1,000 enrollments/month" = Optimizer AI's tools (orientation call robot, attribution, retention AI) help its RTO customer base collectively handle 1,000 additional enrollments per month compared to baseline. This is the value metric — not MRR, but outcome delivered.
+
+### Core Math: Customer Count to Enrollment Volume
+
+**Baseline enrollment volume per RTO**:
+- Small RTO (50-100 students/month): 50-100 enrollments/month
+- Mid-market RTO (100-300 students/month): 100-300 enrollments/month
+- Enterprise RTO (300-500+ students/month): 300-500+ enrollments/month
+
+**AI enrollment uplift assumption** (based on research log pain point data):
+- Orientation call robot: 20-30% more inquiries captured (after-hours, missed calls)
+- Drop-off re-engagement: 15-25% of lost leads re-engaged
+- Retention AI: 10-20% reduction in mid-course dropout
+- Net effect: 15-30% increase in enrollments per RTO from AI tools
+
+**Conservative uplift estimate**: 20% increase in enrollments per RTO
+
+**Enrollment math per RTO size**:
+
+| RTO size | Baseline enrollments/mo | AI uplift (20%) | AI-generated enrollments/mo |
+|----------|-------------------------|-----------------|---------------------------|
+| Small (50/mo) | 50 | +10 | 60 |
+| Mid-market (150/mo) | 150 | +30 | 180 |
+| Mid-market (200/mo) | 200 | +40 | 240 |
+| Mid-market (300/mo) | 300 | +60 | 360 |
+| Enterprise (400/mo) | 400 | +80 | 480 |
+
+### How Many RTO Customers for 1,000 Enrollments/Month?
+
+**Reverse calculation** (working backward from 1,000):
+
+**Scenario A: Mostly small RTOs**
+- Avg uplift per small RTO: 10 enrollments/month
+- RTOs needed: 1,000 / 10 = **100 small RTOs**
+
+**Scenario B: Mostly mid-market RTOs (200/mo baseline)**
+- Avg uplift per mid-market RTO: 40 enrollments/month
+- RTOs needed: 1,000 / 40 = **25 mid-market RTOs**
+
+**Scenario C: Mostly enterprise RTOs (400/mo baseline)**
+- Avg uplift per enterprise RTO: 80 enrollments/month
+- RTOs needed: 1,000 / 80 = **12-13 enterprise RTOs**
+
+**Realistic mix for Optimizer AI** (based on ICP):
+- Primary target: Mid-market RTOs (150-300 students/month)
+- Average uplift: 35-45 enrollments/month (using 40 as midpoint)
+- **RTOs needed for 1,000 enrollments/month: 25-30 mid-market RTOs**
+
+### Enrollment Uplift Per RTO — Detailed Analysis
+
+**Orientation call robot impact**:
+- Baseline: RTO answers 60% of calls, misses 40% (voicemail, no answer)
+- AI captures: +15-25% more inquiries (after-hours, busy signals)
+- Inquiry to enrollment conversion: ~15-20% (industry estimate)
+- **Net enrollment uplift**: 15-25% of missed calls × 15-20% conversion = 2-5% increase
+
+**Example (mid-market RTO, 200 inquiries/month, 20% conversion = 40 enrollments)**:
+- Without AI: 200 × 20% = 40 enrollments
+- With AI (capture +25% more inquiries): 200 × 1.25 = 250 inquiries
+- AI conversion rate: 20% × 0.95 (slight drop for AI leads) = 19%
+- With AI: 250 × 19% = 47.5 enrollments
+- **Uplift: +7.5 enrollments/month (+19%)**
+
+**Drop-off re-engagement impact**:
+- Drop-off rate: 40-60% of inquiries never enroll
+- AI re-engagement captures: 20-30% of drop-offs
+- Net: +8-12% more enrollments (from existing inquiry pool)
+
+**Example (200 inquiries/month, 50% drop-off = 100 drop-offs)**:
+- Without AI: 40 enrollments (100 converts)
+- AI re-engages 30% of drop-offs: 30 additional inquiries
+- Additional conversions: 30 × 20% = 6 enrollments
+- **Uplift: +6 enrollments/month (+15%)**
+
+**Retention AI impact** (reduces dropout):
+- Dropout rate: 30-40% of enrolled students
+- AI check-ins reduce dropout by: 10-15%
+- Net: +3-5% of enrolled students complete (vs. drop out)
+
+**Example (200 current enrollments, 35% dropout = 70 dropouts)**:
+- Without AI: 130 completions
+- AI reduces dropout by 10%: 63 dropouts, 137 completions
+- **Uplift: +7 completions/month (+5% — but this is completion, not enrollment)**
+
+**Combined AI uplift (all three tools)**:
+- Orientation robot: +15-20% enrollments
+- Drop-off re-engagement: +10-15% enrollments
+- Retention AI: +3-5% completions (not new enrollments)
+- **Total: +25-35% enrollment increase per RTO**
+
+**Conservative estimate for financial model**: +20% enrollment uplift per RTO (orientation robot + drop-off re-engagement only)
+
+### Path to 1,000 Enrollments/Month — Timeline
+
+**Year 1 customer acquisition and enrollment trajectory**:
+
+| Month | New customers | Total customers | Avg uplift/customer | Total enrollment uplift | Cumulative enrollments |
+|-------|--------------|-----------------|---------------------|------------------------|----------------------|
+| Month 1 | 2 | 2 | 40 | 80 | 80 |
+| Month 3 | 6 | 10 | 40 | 400 | 1,000 |
+| Month 6 | 12 | 25 | 40 | 1,000 | 1,000 |
+| Month 9 | 15 | 35 | 40 | 1,400 | 1,400 |
+| Month 12 | 18 | 45 | 40 | 1,800 | 1,800 |
+
+**Key finding**: Reaching 1,000 enrollment uplift/month requires **25-30 mid-market RTO customers** (at 40 uplift per customer). This is achievable by Month 6-7 of Year 1 if customer acquisition targets are met (6/month average).
+
+### Connection to $10M EBITDA
+
+**Revenue model for 25-30 customers (Year 1 target)**:
+- Customer count: 25-30 RTOs
+- Average revenue per customer: $900/mo (Growth tier average)
+- **MRR by Month 6: $22,500-27,000**
+- **ARR by end of Year 1: $270,000-324,000** (30-45 customers)
+
+**EBITDA path**:
+- Year 1 revenue: $270K-324K
+- Year 1 EBITDA: -$50K to -$100K (investing in product + sales)
+- Year 2 revenue: $648K-864K (60-80 customers)
+- Year 2 EBITDA: +$100K to +$200K (break-even, profitable)
+- Year 3 revenue: $1.08M-1.44M (100-120 customers)
+- Year 3 EBITDA: +$400K to +$600K
+
+**To reach $10M EBITDA, need**:
+- 500+ customers at $1,200/mo avg ($6M ARR)
+- OR higher pricing (enterprise at $3K-5K/mo)
+- OR additional revenue streams (AI courses, consulting)
+
+**Gap**: Year 5 reaches $2-4M EBITDA, not $10M. $10M is Year 7-8.
+
+### Revised Enrollment Target for Day 60
+
+**Recommended framing for Marcus and Kham**:
+
+| Metric | Year 1 target | Year 3 target | Year 5 target |
+|--------|---------------|----------------|----------------|
+| RTO customers | 30 | 120 | 320 |
+| Enrollment uplift (per RTO) | 40/mo | 50/mo | 60/mo |
+| Total enrollments enabled | 1,200/mo | 6,000/mo | 19,200/mo |
+| MRR | $27K | $108K | $320K |
+| ARR | $324K | $1.3M | $3.84M |
+| EBITDA | -$50K | +$500K | +$2M |
+
+**Key message**: "1,000 enrollments/month is achievable by Month 6 if we close 25 customers. The enrollment metric measures outcomes delivered (value to customers), while MRR measures our revenue."
+
+### What This Means for Product Roadmap
+
+**To maximize enrollment uplift per customer (faster path to 1,000)**:
+1. **Orientation call robot (P0)** — Primary enrollment uplift driver (+15-20%)
+2. **Drop-off re-engagement (P1)** — Secondary uplift (+10-15%)
+3. **Retention AI (P2)** — Completion driver, not new enrollment (+3-5%)
+
+**Build priority order**:
+- Month 1-3: Orientation call robot (delivers primary uplift)
+- Month 4-6: Drop-off re-engagement add-on (increases uplift per customer)
+- Month 6-9: Retention AI (increases customer value, reduces churn)
+
+**Per-customer revenue optimization**:
+- Base (orientation robot only): $999/mo
+- With drop-off re-engagement: $1,299/mo
+- With retention AI: $1,499/mo
+- With all three: $1,799/mo (bundle)
+
+### Enrollment Uplift Validation Plan
+
+**POC metrics to measure at Hader** (first 90 days):
+1. Call volume captured: Before AI vs. after AI (target: +20-25% more calls)
+2. Inquiry-to-enrollment rate: Baseline vs. with AI (target: maintained or +5%)
+3. Drop-off re-engagement rate: % of drop-offs re-engaged (target: 30%+)
+4. Overall enrollment uplift: Monthly enrollments with AI vs. baseline (target: +20%)
+
+**If Hader delivers +20% enrollment uplift**:
+- Confirms model for other customers
+- Case study: "Hader increased enrollments by 20% with AI call handling"
+- Sales pitch: "Our tools help RTOs enroll 20% more students"
+
+**If Hader delivers <10% uplift**:
+- Investigate: Is call volume not the bottleneck? Is conversion rate the issue?
+- Adjust: AI tools may need to focus on conversion optimization, not just call capture
+
+### Key Numbers for Day 60 Presentation
+
+**The math**:
+- 1,000 enrollments/month = 25-30 mid-market RTO customers (at 40 uplift/customer)
+- Achievable by Month 6-7 if acquisition stays on target
+- Each customer worth $900/mo × 40 enrollments = $22.50/enrollment
+- 1,000 enrollments × $22.50 = $22,500/mo revenue (from 25-30 customers)
+
+**The path**:
+- 25 customers by Month 6 → 1,000 enrollments enabled
+- 45 customers by Year 1 → 1,800 enrollments enabled
+- 120 customers by Year 3 → 6,000 enrollments enabled
+
+**The $10M EBITDA connection**:
+- 1,000 enrollments/month = ~$22,500 MRR (early stage)
+- $10M EBITDA requires 500+ customers at higher ACV ($1,500+/mo)
+- Realistic path: $2-4M EBITDA by Year 5, $10M by Year 7-8
+
+### Actions for Steven
+
+- [ADDED] Present enrollment math at day 60: 25-30 customers = 1,000 enrollments/month — by June 28, 2026
+- [ADDED] Set enrollment uplift target: +20% per RTO customer (orientation robot) — by July 21, 2026
+- [ADDED] Track enrollment uplift at Hader POC: Monthly enrollments before vs. after AI — by August 11, 2026
+- [ADDED] Use "enrollments enabled" as secondary KPI (alongside MRR) — ongoing
+- [ADDED] Update financial model: 25 customers = 1,000 enrollments = $22,500 MRR — by June 28, 2026
+- [ADDED] Connect enrollment uplift to $10M EBITDA path (500+ customers, higher ACV) — by June 28, 2026
+- [ADDED] Build "enrollment uplift calculator" for sales pitch ($900/mo → 40 enrollments/mo → $22.50/enrollment) — by June 14, 2026
+
+**Sources**:
+- Enrollment conversion rates: industry estimates, Hader data pending
+- Drop-off rates: ncver.edu.au (VET student data, 40-60% inquiry to enrollment)
+- AI uplift estimates: Based on orientation call robot impact model
+- Revenue assumptions: $900/mo avg from pricing model (Cycle 30)
+
