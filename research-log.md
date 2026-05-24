@@ -3565,6 +3565,213 @@ Research what a compelling POC looks like for each product line. For orientation
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 136): Proof of Concept Design Deep Dive — Success Criteria, POC Structure, and Pilot-to-Paid Conversion
+### Gap identified: Research provides basic POC timelines and metrics but lacks specific success thresholds, structure (free vs. paid pilot), documentation requirements, and failure handling
+
+**Original finding**: "Proof of Concept Design" provides high-level POC timelines (8 weeks, 4 weeks) and metrics (60%+ containment, <10% escalation) but lacks:
+- Specific success criteria thresholds (what triggers "success" and conversion to annual)
+- POC structure (free trial vs. paid pilot vs. full contract)
+- What data to collect during POC (for case study and ROI documentation)
+- Failure handling (what to do when POC doesn't meet thresholds)
+- Pilot-to-paid conversion tactics
+- Risk mitigation for failed POC scenarios
+
+**Why this matters**: A POC is a high-stakes moment. Without specific success criteria, Steven can't know when to push for a sale or when to cut losses. Without proper documentation, failed POCs don't generate learnings. Without conversion tactics, good POCs don't close.
+
+### POC Structure (3-Phase Model)
+
+**Phase 1: Free Discovery (Weeks 1-2)**
+| Element | Details |
+|---------|---------|
+| Duration | 2 weeks |
+| Cost | Free |
+| Goal | Evaluate fit, collect data, build relationship |
+| Deliverables | RTO needs assessment, AI configuration preview |
+| Success criteria | RTO engaged, data collected, decision-maker involved |
+| Next step | Proceed to paid pilot or end gracefully |
+
+**Phase 2: Paid Pilot (Weeks 3-8)**
+| Element | Details |
+|---------|---------|
+| Duration | 4-6 weeks |
+| Cost | $299/month (founding customer pricing) |
+| Goal | Demonstrate value, measure ROI, build case study |
+| Deliverables | Live AI handling calls, weekly metrics report, ROI documentation |
+| Success criteria | 60%+ containment, <10% escalation, >70% staff satisfaction |
+| Next step | Convert to annual contract or end gracefully |
+
+**Phase 3: Annual Contract (Month 3+)**
+| Element | Details |
+|---------|---------|
+| Duration | 12 months |
+| Cost | $499-1,999/month (tier-based) |
+| Goal | Generate revenue, expand usage, create case study |
+| Deliverables | Full AI operations, monthly reporting, expansion conversation |
+| Success criteria | Renewal at 12 months, expansion to higher tier |
+
+### Success Criteria Thresholds (Measurable)
+
+**For Orientation Call Robot POC**:
+
+| Metric | Threshold | What "success" means | What "failure" means |
+|--------|---------|---------------------|--------------------|
+| Containment rate | >60% | AI handles majority of calls | AI can't handle call types |
+| Escalation rate | <10% | AI knows when to transfer | AI transfers too often |
+| Completion rate | >80% | Calls end with action taken | Calls end without resolution |
+| Staff time saved | >15 hrs/week | Meaningful ROI | Marginal time savings |
+| Call satisfaction | >70% | Callers not frustrated | Callers hang up frustrated |
+| Zoho sync success | >90% | Leads create properly | Data loss, manual entry |
+
+**For Attribution Dashboard POC**:
+
+| Metric | Threshold | What "success" means | What "failure" means |
+|--------|---------|---------------------|--------------------|
+| Channel coverage | >80% | Most channels tracked | Significant gaps |
+| Attribution accuracy | >85% | Leads mapped correctly | Multiple touchpoints ignored |
+| CPA by channel | Visible | Clear channel ranking | No clear signal |
+| Time to insight | <1 week | Data usable immediately | Data takes too long |
+| ASQA audit report | Available | Audit-ready report exists | Report not compliant |
+| Zoho integration | >90% | Data flows automatically | Manual data entry required |
+
+**Composite success score** (must score >70/100 to convert):
+```
+Composite Score = (Containment × 30%) + (Escalation × 20%) + (Completion × 20%) + (Staff Satisfaction × 15%) + (ROI × 15%)
+```
+
+### Pilot-to-Paid Conversion Tactics
+
+**Week 6: Mid-Pilot Review (Proactive)**
+> "Hi [Name], we're halfway through the pilot. I wanted to share what we've seen so far: [metrics]. The AI is handling [X]% of calls automatically. How's this matching your expectations?"
+
+**Week 7: ROI Documentation (Evidence)**
+- Calculate: Staff time saved × hourly rate = monthly savings
+- Calculate: Missed calls recovered × conversion rate × enrollment value = revenue impact
+- Document: "In 6 weeks, this pilot has generated $[X] in value against a cost of $[Y]"
+
+**Week 8: Conversion Conversation (The Ask)**
+> "Based on the pilot data, the AI is generating $[X]/month in value for your team. At $[Y]/month for annual, that's a [Z]x ROI. Would you like to lock in annual pricing and keep this running? We can also expand to include [feature]."
+
+**If not ready to close (Week 8)**:
+> "No worries. The pilot has shown clear value. Would a 30-day extension help you see more data? Or would you prefer to pause and revisit when you're ready?"
+
+**Annual contract offer structure**:
+| Element | Offer |
+|---------|-------|
+| Price | Tier pricing minus 20% (annual discount) |
+| Commitment | 12 months |
+| Payment | Monthly (easier budget approval) |
+| Upsell | Attribution dashboard at $199/mo add-on |
+| Protection | 30-day satisfaction guarantee |
+
+### POC Documentation Requirements
+
+**Week 1: Baseline data collection**:
+- Current call volume (calls/week)
+- Current staff time on calls (hours/week)
+- Current missed call rate (%)
+- Current inquiry-to-enrollment rate (%)
+- Current lead response time (hours)
+
+**Week 4: Mid-point metrics**:
+- AI containment rate (%)
+- AI escalation rate (%)
+- Call completion rate (%)
+- Staff time saved (hours/week)
+- Lead response time (hours)
+- Inquiry-to-enrollment rate (%)
+- Zoho lead creation success rate (%)
+
+**Week 8: Final metrics**:
+- All Week 4 metrics (final values)
+- Staff satisfaction score (1-10 survey)
+- Caller satisfaction (if measurable)
+- ROI calculation (staff savings + revenue impact)
+- Quote from RTO contact (for case study)
+
+**Case study documentation**:
+```
+Title: [RTO Name]: [Key Result]
+
+Before:
+- Call volume: X calls/week
+- Staff time on calls: X hours/week
+- Missed call rate: X%
+
+After (8 weeks):
+- AI containment: X%
+- Staff time saved: X hours/week
+- Missed calls reduced: X%
+- Inquiry-to-enrollment: improved by X%
+
+ROI:
+- Monthly savings: $[X]
+- Revenue impact: $[X]
+- Total monthly value: $[X]
+- Cost: $[X]/month
+- ROI: [X]x
+
+Quote: "[Exact quote from RTO contact]"
+```
+
+### If POC Fails — Risk Mitigation
+
+**Scenario 1: Containment rate below 50%**
+| Action | Timing | Owner |
+|--------|--------|-------|
+| Diagnose failure root cause | Week 4 | Kham |
+| Adjust call flow/script | Week 4-5 | Kham |
+| Re-test with adjusted script | Week 6 | Kham |
+| If still failing: Transparent conversation | Week 8 | Steven |
+| Offer: Partial refund, pause, or pivot scope | Week 8 | Steven |
+| End gracefully, stay in touch | Week 8 | Steven |
+
+**Scenario 2: RTO not engaged (low usage)**
+| Action | Timing | Owner |
+|--------|--------|-------|
+| Identify engagement gap (call? Email?) | Week 3 | Steven |
+| Schedule check-in call | Week 3-4 | Steven |
+| Offer training/onboarding support | Week 4 | Kham |
+| If still disengaged: Direct conversation | Week 6 | Steven |
+| Offer: Pause pilot, revisit later | Week 6 | Steven |
+
+**Scenario 3: Decision-maker leaves or priority shifts**
+| Action | Timing | Owner |
+|--------|--------|-------|
+| Maintain relationship with champion | Ongoing | Steven |
+| Identify new decision-maker | Week 4-5 | Steven |
+| Re-present to new decision-maker | Week 6 | Steven |
+| If no new champion: Pause gracefully | Week 6-8 | Steven |
+| Keep in CRM for future outreach | Ongoing | Steven |
+
+**Learning capture from failed POC**:
+- Document: What failed and why
+- Update: AI configuration, scripts, or approach
+- Share: Learnings with Marcus/Kham
+- Track: RTO in CRM for 6-month follow-up
+
+### Recommended Actions for Steven
+
+- [ADDED] Define 3-phase POC structure (free discovery → paid pilot → annual) — by June 7, 2026
+- [ADDED] Build POC metrics tracker (spreadsheet or dashboard) — by June 14, 2026
+- [ADDED] Create mid-pilot review template (Week 4 check-in) — by June 21, 2026
+- [ADDED] Document ROI calculation methodology for pilot review — by June 21, 2026
+- [ADDED] Prepare conversion conversation script (Week 8 ask) — by June 28, 2026
+- [ADDED] Build failure handling playbooks (3 scenarios) — by June 28, 2026
+- [ADDED] Create case study template for pilot customers — by July 2026
+- [ADDED] Offer founding customer pricing ($299/mo pilot, 20% annual discount) — by launch
+
+### Sources
+- POC design: Y Combinator startup school (2026)
+- Trial-to-paid: OpenView Partners (2026)
+- SaaS pilot best practices: Gainsight, Totango (2026)
+- B2B pilot frameworks: SaaStr (2026)
+
+---
+
+*End of Cycle 136 refinement. Gap filled: 3-phase POC structure (free discovery → paid pilot → annual), specific success criteria thresholds (60% containment, <10% escalation), composite success score calculation, pilot-to-paid conversion tactics (Week 6 review, Week 8 ask), documentation requirements (baseline, mid, final metrics), failure handling playbooks (3 scenarios), case study template.*
+
+---
+
 ## Partnership Opportunity Scan — 2026-05-24
 ### Objective
 Research potential channel partners: RTO software providers, education associations, training peak bodies. Who already has access to RTO decision-makers?
