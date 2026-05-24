@@ -628,6 +628,48 @@ Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs 
 
 ---
 
+### Gap identified: Funnel conversion tactics and failure modes
+
+**Original finding**: Sales funnel breakdown with percentages — no tactics for improving each stage
+
+**Research conducted**: SaaS sales funnel optimization best practices, B2B buyer journey research
+
+**Refined findings**:
+**Why prospects drop at each funnel stage**:
+
+| Stage | Typical Drop-off | Root Cause | Fix |
+|-------|-----------------|------------|-----|
+| Outreach → Reply | 85-95% | Message not relevant to RTO context | Reference their qualification, use RTO-specific language |
+| Reply → Demo booked | 70-80% | No urgency, no clear value proposition in reply | Send ROI calculator with reply, offer specific time slot |
+| Demo booked → Showed | 20-30% | Calendar forget, no perceived urgency | Send video preview pre-demo, reminder 1hr before |
+| Demo → POC started | 50-70% | "Need to think about it" | Offer free orientation call audit ($500 value), create urgency with limited POC spots |
+| POC → Paid | 30-40% | No clear success metric, no executive sponsor | Set explicit success criteria at POC start, involve CEO day 1 |
+
+**Tactics to improve each stage**:
+- **Reply rate**: Reference specific RTO pain ("We're helping RTOs reduce enrollment calls by 60%") not generic AI pitch. 5-15% → target 10%+.
+- **Demo show rate**: Send 2-min video walkthrough before demo = 20% lift in show rate (industry benchmark). 70-80% → target 85%+.
+- **Demo-to-POC rate**: Offer free "orientation call audit" at demo = $500 value, low commitment ask. 30-50% → target 50%+.
+- **POC-to-paid**: Define success metric at start ("Handle 50 calls in 30 days, contain 60%, save 10 hours"). 60-70% → target 75%+.
+
+**Funnel velocity metrics to track**:
+- Average days between each stage (identify bottlenecks)
+- Primary drop-off stage = priority to fix
+- Cohort analysis: which marketing channel converts fastest?
+
+**Updated EBITDA model with improved funnel**:
+If demo-to-POC improves to 50% and POC-to-paid to 75%:
+- Fewer demos needed to close → lower CAC
+- 100 outreach → 10 replies → 5 demos → 2.5 POC → 1.9 paid = 1.9% conversion
+- Still needs 10-11/month paid customers = 580 outreach/month (vs. 833 previously)
+
+**Actions added**:
+- [ADDED] Create video walkthrough for demos (2-3 min, shows Hader orientation call in action)
+- [ADDED] Build ROI calculator PDF to send with initial outreach (pre-qualify + create urgency)
+- [ADDED] Define explicit POC success criteria before starting (signed by both parties)
+- [ADDED] Track funnel metrics weekly: reply rate, show rate, POC conversion, paid conversion
+
+---
+
 ## 12-24 month marketing strategy foundation — 2026-05-24
 
 ### Objective
