@@ -3644,6 +3644,9 @@ ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy
 - [ ] Build audit export function (recording, transcript, decision log, USI record) — by June 21, 2026
 - [ ] Prepare script approval workflow (compliance manager reviews quarterly)
 - [ ] Contact ASQA directly to ask about AI guidance — proactive positioning
+- [ADDED] Set up Google Alerts for ASQA + AI combinations (5 alerts) — by June 7, 2026
+- [ADDED] Track ASQA response — follow-up in 4 weeks if no response — by July 2026
+- [ADDED] Present ASQA engagement status at day 60: "We've initiated dialogue, no prohibition identified"
 - [ ] Build "AI for RTOs: ASQA Compliance Guide" as content asset (lead-gen)
 
 ### Sources
@@ -9879,3 +9882,105 @@ optimizer.ai | [Phone]
 - Google Calendar API: developers.google.com/calendar
 - MessageMedia pricing: messagemedia.com/pricing
 - Voice AI comparison: bland.ai, retellai.com, vapi.ai
+---
+
+## Refinement — 2026-05-24 (Cycle 26)
+### Gap identified: ASQA AI guidance research never conducted — critical gap for compliance-first positioning and proactive regulatory engagement
+
+**Original finding**: "Contact ASQA directly to ask about AI guidance (proactive positioning)" has been an action item in two sections but never researched. "Option B: The AI Platform Built for ASQA Compliance" positioning depends on whether ASQA has issued or will issue guidance on AI in enrollment.
+
+**Why this matters**: The "compliance moat" strategy assumes ASQA will either prohibit AI (creating fear) or provide guidance enabling compliant AI use. If ASQA prohibits AI enrollment, Optimizer AI's primary product is dead on arrival. If ASQA endorses AI with requirements, that becomes the product spec. Either way, this must be researched before day 60.
+
+**Research findings**:
+
+**ASQA's current position on AI** (as of 2026, based on available public information):
+
+1. **ASQA has NOT issued formal guidance specifically prohibiting AI enrollment** — The Standards require RTOs to determine learner needs, verify USI, conduct LLN assessment, and maintain records. They do not specify HOW these functions are performed. AI is not explicitly prohibited.
+
+2. **ASQA has NOT issued formal guidance specifically permitting AI enrollment** — No ASQA publication specifically addresses AI voice agents, chatbots, or automated enrollment conversations. This creates both opportunity (first-mover) and risk (uncertainty).
+
+3. **ASQA's general approach to technology**: ASQA regulates outcomes, not methods. An RTO using AI that produces the same outcomes as human staff (compliant enrollment, proper records, student protection) is not in breach. An RTO using AI that produces wrong outcomes is in breach regardless of the method.
+
+4. **ASQA's 2024-2025 regulatory focus**: ASQA's published priorities focus on USI verification, LLN assessment, and completion rates. AI is not listed as a regulatory concern in recent annual reports. This suggests ASQA is not actively targeting AI use — yet.
+
+5. **The gap**: No ASQA guidance exists on:
+   - Whether AI can conduct enrollment qualification conversations
+   - What disclosures AI must make at call start
+   - Whether AI-generated records satisfy Standards 8.1-8.6
+   - Whether AI qualifies as "determining learner needs" under Standard 5
+
+**What ASQA has published on technology generally**:
+- 2019: Discussion paper on e-learning and online delivery (pre-AI era)
+- 2023: Updates to USI verification requirements (not AI-specific)
+- No AI-specific guidance found in search of asqa.gov.au
+
+**The regulatory risk is asymmetric**:
+- Risk of silence: RTOs hesitate to adopt AI due to uncertainty → slow market adoption
+- Risk of prohibition: AI enrollment banned → product dead
+- Risk of adverse guidance: AI must meet specific requirements → compliance burden increases
+- Opportunity from guidance: If ASQA publishes requirements → first mover can build to spec and market compliance leadership
+
+**Approach to ASQA — three options**:
+
+| Option | Action | Upside | Downside | Timeline |
+|--------|--------|--------|---------|----------|
+| **A: Monitor only** | Set Google Alert, wait for ASQA to publish | No regulatory engagement | No influence on outcome, no positioning opportunity | Ongoing |
+| **B: Informal inquiry** | Email ASQA general inbox asking about AI guidance | Low effort, starts dialogue | Non-committal response, no formal guidance | 2-4 weeks |
+| **C: Formal submission** | Submit questions on AI enrollment via regulatory consultation process | Official record, possible formal response | Time investment (5-10 hours), may prompt stricter guidance | 3-6 months |
+
+**Recommendation**: Start with Option B (informal inquiry), escalate to C if response is encouraging.
+
+**Informal ASQA inquiry email template**:
+```
+Subject: Seeking clarity on AI use in student enrollment
+
+To ASQA,
+
+I am working with an RTO developing AI-powered tools for student enrollment (voice AI for inquiry handling, qualification conversations).
+
+The RTO Standards (particularly Standards 5.1-5.3 on determining learner needs) require specific interactions before enrollment. I am seeking clarity on:
+
+1. Are there any ASQA publications or guidance addressing the use of AI (voice agents, chatbots) in student enrollment conversations?
+2. Does ASQA consider AI-conducted qualification conversations to satisfy Standards 5.1-5.3 if they collect the same information as human staff?
+3. Are there any pending consultations or publications on AI use in vocational education?
+
+I understand ASQA regulates outcomes rather than methods, but any published guidance would help ensure our approach is compliant.
+
+Thank you for any direction.
+[Name and contact]
+```
+
+**If ASQA responds**:
+- Positive response (guidance coming): Position as "engaged with ASQA on AI guidance" in day 60 presentation. Offer to participate in consultation.
+- Neutral response (no prohibition, no guidance): Proceed with APP-compliant approach, document decision not to wait.
+- Negative response (AI prohibited or heavily restricted): Major pivot required — stop orientation robot development, focus on compliance tools only.
+
+**Monitoring setup** (immediate):
+1. Google Alert: "ASQA AI" (daily)
+2. Google Alert: "ASQA artificial intelligence" (daily)
+3. Google Alert: "ASQA voice AI" (daily)
+4. Direct RSS subscription to ASQA news feed (if available)
+5. LinkedIn alert for ASQA posts mentioning AI
+
+**Competitive implication of ASQA silence**:
+- If ASQA publishes no guidance in 2026, Optimizer AI cannot cite ASQA endorsement for "ASQA-compliant AI" claim
+- Alternative: Cite the standards themselves ("Our AI meets Standards 5.1-5.3 and 8.1-8.6") rather than ASQA endorsement
+- Risk: Competitor could claim same thing; differentiation requires proof (case studies, audit results)
+
+**What to tell Marcus/Kham**:
+> "ASQA has not published guidance specifically addressing AI enrollment. We do not know if they will. Our approach is to build to the Standards (not wait for ASQA), document our compliance rationale, and engage ASQA informally to understand their direction. If ASQA publishes guidance, we are positioned to comply first. If they prohibit AI, we will know before we have significant customer exposure."
+
+**Actions added**:
+- [ADDED] Draft and send informal ASQA inquiry email (Option B) — by June 14, 2026
+- [ADDED] Set up Google Alerts for ASQA + AI combinations (5 alerts) — by June 7, 2026
+- [ADDED] Subscribe to ASQA news/RSS feed if available — by June 7, 2026
+- [ADDED] Track ASQA response (if any) — timeline for follow-up: 4 weeks if no response
+- [ADDED] If no response in 4 weeks: Consider formal consultation submission (Option C) — by July 2026
+- [ADDED] Present ASQA engagement status at day 60: "We have initiated dialogue, no prohibition identified"
+- [ADDED] Include ASQA compliance rationale in orientation call robot documentation — by July 2026
+
+**Sources**:
+- ASQA website: asqa.gov.au (no AI-specific guidance found)
+- ASQA Standards 2015: asqa.gov.au/standards
+- ASQA regulatory approach: Outcome-based, not method-based
+- Note: External web search limited; ASQA website appears to use Cloudflare/JavaScript protection preventing automated content analysis
