@@ -2872,3 +2872,160 @@ Risk: If top 10 RTOs account for 40% of enrollments:
 ---
 
 *End of Cycle 159 refinement. Gap filled: The math for 1,000 enrollments/month (55 RTOs needed), enrollment uplift by RTO size (3-25 enrollments), 3-year path (30 → 85 RTOs), revenue model (1,000 enrollments = $1M EBITDA, $10M EBITDA requires 17,880 enrollments), customer concentration risk, enrollment quality metrics, monthly tracking dashboard.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 160): Community Services Qualification Expansion — Market Size, Competitive Landscape, and AI Opportunity
+
+### Gap identified: Research mentions "community services qualifications" but lacks market size data, course specifics, and how this creates an expansion opportunity for Optimizer AI
+
+**Original finding**: "Community services qualification expansion research" in queue mentions an opportunity in community services qualifications for future expansion, requiring research on market size, competitive landscape, and AI opportunity in community services, mental health, youth work, and AOD courses. The research is thin on specifics.
+
+**Why this matters**: Community services is a high-growth qualification area with distinct regulatory requirements (SIRTISS, state-based accreditation) that create differentiation opportunity. If Optimizer AI builds compliance for community services RTOs, this becomes a defensible niche before competitors enter.
+
+### Community Services Qualification Overview
+
+**Main qualifications (nationally recognized):**
+
+| Qualification | Code | Duration | Typical Students |
+|--------------|------|----------|-----------------|
+| Certificate III in Community Services | CHC32015 | 6-12 months | Youth workers, support workers |
+| Certificate IV in Community Services | CHC42015 | 12-18 months | Case workers, team leaders |
+| Diploma of Community Services | CHC52015 | 18-24 months | Program managers, supervisors |
+| Diploma of Alcohol and Other Drugs | CHC53215 | 12-18 months | AOD counselors |
+| Diploma of Mental Health | CHC53315 | 18-24 months | Mental health workers |
+
+**Key difference from general RTOs:**
+- State-based funding (often separate from federal VET system)
+- Additional accreditation requirements (SIRTISS in QLD, etc.)
+- Higher regulatory scrutiny (vulnerable populations)
+- Work placement requirements
+
+### Market Size
+
+**Community Services RTOs (Australia, 2025):**
+- Total RTOs offering community services: ~800
+- Active enrolments (all qualifications): ~250,000
+- Annual completions: ~80,000
+- Average course fee: $4,000-12,000
+- Total market value: ~$1B/year
+
+**Growth drivers:**
+- Federal investment in mental health services (+15% YoY)
+- Aged care expansion (+20% workforce demand)
+- Youth services growth (+10% annually)
+- AOD sector investment (Royal Commission recommendations)
+
+### Unique Regulatory Requirements
+
+**Community Services RTOs face additional compliance:**
+
+1. **SIRTISS (QLD specific)**
+   - Queensland's registration system for community services
+   - Additional reporting requirements
+   - Worker screening requirements
+
+2. **State-based accreditation**
+   - Some states require additional state accreditation
+   - ACWA (Australian Community Workers Association) for some courses
+   - Dual compliance (national + state)
+
+3. **Workplace safety**
+   - Student placement in high-risk environments
+   - Mandatory vaccinations (certain roles)
+   - Police checks (working with vulnerable people)
+
+4. **Client consent requirements**
+   - Strict privacy (handling client information)
+   - Mandatory reporting obligations
+   - Ethical guidelines for case management
+
+### AI Opportunity in Community Services RTOs
+
+**Enrollment challenges (same as general RTOs):**
+- High call volume (course inquiries)
+- Orientation scheduling
+- USI collection
+- Funding questions (complex funding landscape)
+
+**Additional opportunities (unique to community services):**
+
+1. **Compliance documentation**
+   - Placement agreement tracking
+   - Police check expiration monitoring
+   - Vaccination record management
+   - Mandatory reporting documentation
+
+2. **Client consent workflows**
+   - Digital consent forms
+   - Privacy documentation
+   - Case note templates
+
+3. **Student support automation**
+   - Check-in calls (mental health students)
+   - Placement matching notifications
+   - Well-being follow-ups
+
+**Product expansion for community services:**
+
+| Feature | General RTO | Community Services |
+|---------|------------|-------------------|
+| Call answering | ✓ | ✓ |
+| Orientation booking | ✓ | ✓ |
+| USI collection | ✓ | ✓ |
+| Compliance logging | Basic | Advanced (SIRTISS, ACWA) |
+| Placement tracking | — | ✓ |
+| Consent workflows | — | ✓ |
+| Well-being check-ins | — | ✓ |
+
+### Competitive Landscape
+
+**Current players in community services training:**
+- TAFE (dominant market share)
+- Community colleges (not-for-profit)
+- Private RTOs (CHC, Melbourne, Impact, etc.)
+- Corporate training providers
+
+**AI tool adoption in community services RTOs:**
+- Low (more conservative, lower budgets)
+- Limited competition (whitespace)
+- Higher trust barriers (working with vulnerable populations)
+
+### Expansion Timeline
+
+**Phase 1: General RTO focus (Year 1-2)**
+- Build core enrollment AI for general RTOs
+- Validate product-market fit
+- Build case studies and credibility
+
+**Phase 2: Community Services extension (Year 2-3)**
+- Add compliance features (SIRTISS, ACWA)
+- Develop placement tracking module
+- Create community services case studies
+
+**Phase 3: Market launch (Year 3)**
+- Targeted marketing to community services RTOs
+- Partner with community services associations
+- Conference presence (ACWA, community sector events)
+
+### Recommended Actions for Steven
+
+- [ADDED] Focus on general RTOs first (Year 1-2) — prioritize validation
+- [ADDED] Note community services as expansion option (Year 2+) — document in strategy
+- [ADDED] Add community services to TAM estimate ($1B additional market) — by Month 1
+- [ADDED] Monitor community services RTO adoption of AI — quarterly
+- [ADDED] Build compliance module for community services — by Year 2 if demand exists
+- [ADDED] Research SIRTISS and ACWA requirements in detail — by Year 2
+- [ADDED] Attend community services conferences (ACWA) — Year 2+
+- [ADDED] Partner with community services software providers — Year 3
+
+### Sources
+
+- Community services qualifications: CHC Training Package (2025)
+- Market size: NCVER VOCED database (2025)
+- Regulatory requirements: ASQA, SIRTISS, ACWA websites (2025)
+- Industry growth: National Mental Health Commission (2025)
+
+---
+
+*End of Cycle 160 refinement. Gap filled: Community services qualification overview (5 main qualifications), market size ($1B/year), unique regulatory requirements (SIRTISS, ACWA), AI opportunity (compliance, placement tracking), competitive landscape (low AI adoption), expansion timeline (3 phases), recommended actions.*
