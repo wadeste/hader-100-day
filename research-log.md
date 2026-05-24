@@ -5850,3 +5850,109 @@ This is lower than the $13-17M ARR SAM previously estimated (which included all 
 - AI adoption data: Not available — primary research required (discovery interviews, RTO surveys)
 - Note: External web search blocked; recommend manual research via LinkedIn, industry contacts, ASQA publications
 - Recommended verification: NCVER VET provider surveys, ASQA RTO technology readiness reports (if available)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 12)
+### Gap identified: Staff resistance and change management missing specific tactics, scripts, and adoption metrics
+
+**Original finding**: "Staff resistance is a real adoption risk: Must position AI as 'handling boring calls' not 'replacing staff'"
+
+**Why this matters**: Staff resistance is the #2 objection to AI adoption (after ASQA compliance), but the research only gives high-level guidance ("position AI as handling boring calls"). Without specific tactics, scripts, and measurable adoption metrics, the resistance risk is underestimated. Real-world AI deployments fail not because of technology, but because of people — staff who feel threatened, slow adoption, or actively sabotage the AI.
+
+**What the research currently states**:
+- "Staff resistance is a real adoption risk"
+- "Must position AI as 'handling boring calls' not 'replacing staff'"
+- No specific messaging scripts, no adoption timeline, no metrics for measuring resistance
+
+**Specific staff objection types and response scripts**:
+
+| Objection Type | Example Statement | Root Fear | Response Script |
+|---------------|-------------------|-----------|----------------|
+| **Job security fear** | "AI is going to replace us" | Being made redundant | "The AI handles the repetitive calls so you can focus on the students who need you. We don't want robots talking to every student — just the routine ones." |
+| **Loss of control** | "I don't trust AI to represent our RTO" | Quality/brand risk | "You're the one who reviews and approves the scripts. The AI only says what you write. Think of it as your assistant, not your replacement." |
+| **Skill obsolescence** | "Why learn the course content if AI knows it?" | Job devaluation | "The AI handles information delivery. You're still the expert on assessment, placement, and student support. Those are the skills that matter." |
+| **Workload fear** | "This just means more work for us" | More work, not less | "The goal is to reduce your call volume by 60%. You'll spend less time on the phone and more time on the work you enjoy." |
+| **Learning curve** | "I don't have time to learn new systems" | Technology fear | "The AI works alongside your existing tools. We're not replacing your systems — we're adding AI to handle the repetitive parts." |
+
+**Key framing principles for staff communication**:
+
+1. **Lead with the 60% number**: "This reduces your call volume by 60%" — not "AI will handle calls."
+2. **Position staff as "AI overseers"**: Staff review AI outputs, handle escalations, manage exceptions. They're still in control.
+3. **Use the "boring calls" framing literally**: Share specific call examples that staff will enjoy NOT doing (same 10 questions 50 times/week).
+4. **Don't hide the AI**: Be transparent — "You're going to be talking to students about courses, not typing information into forms."
+5. **Involve staff in AI setup**: Ask for their input on scripts, escalation triggers, and call handling. This creates ownership.
+
+**Staff adoption timeline and milestones**:
+
+| Week | Milestone | What to Measure | Success Criteria |
+|------|-----------|-----------------|-------------------|
+| 1 | Announce AI initiative | Staff sentiment (survey) | 70%+ neutral or positive |
+| 2 | Script review with staff | Staff input captured | 50%+ staff provide feedback |
+| 3 | Training on AI oversight | Training completion | 100% trained |
+| 4 | AI goes live (parallel) | Staff call load | 20% reduction in routine calls |
+| 6 | AI handles full volume | Containment rate | 60%+ containment |
+| 8 | Staff survey post-AI | Job satisfaction | Improvement or neutral (not decline) |
+| 12 | Review and iterate | Staff feedback + metrics | Staff advocates for AI (not just tolerates) |
+
+**Staff adoption survey questions** (measure at weeks 1, 4, 8, 12):
+
+1. "How do you feel about the AI handling enrollment calls?" (1-5 scale: 1=concerned, 5=enthusiastic)
+2. "Do you feel the AI helps you do your job better?" (1-5 scale)
+3. "Do you feel adequately trained to work with the AI?" (1-5 scale)
+4. "What concerns do you have about the AI?" (open text)
+5. "What would make you feel better about the AI?" (open text)
+
+**Staff champions program**:
+
+Identify 1-2 "AI champions" per RTO who:
+- Are positive about technology (not the most tech-savvy, but the most open)
+- Have influence with peers
+- Get extra training and visibility
+- Act as the bridge between AI team and staff
+
+Champions get:
+- Early access to new AI features
+- Direct line to Steven/Kham with feedback
+- Recognition (public thank-you, small incentive)
+- Ownership of AI adoption metrics
+
+**Integration with enrollment manager persona**:
+
+Enrollment managers are staff too — they need adoption support:
+- Weekly check-ins during first month (Steven calls)
+- FAQ document for common staff questions
+- Escalation path when AI causes problems (staff know who to call)
+- Success stories to share: "Maria's call volume dropped from 45 to 18 hours/week"
+
+**What to include in the orientation robot onboarding** (for new customers):
+
+| Item | Description | When |
+|------|-------------|------|
+| Staff briefing document | 1-page explainer: what AI does, what staff do | Week 1 |
+| Script review session | 1-hour workshop with enrollment staff | Week 2 |
+| Training video | 10-min video on AI oversight, escalation | Week 3 |
+| Go-live communication | Email to staff: what's changing, when | Week 4 |
+| Week 1 check-in | Steven calls enrollment manager | Week 5 |
+| Week 4 staff survey | Anonymous adoption survey | Week 8 |
+| Month 3 review | Metrics + staff feedback presentation | Month 3 |
+
+**Key insight**: Staff resistance is a solvable problem — but only if you plan for it. The AI that fails to involve staff in the process will fail, even if the technology works. Budget time and resources for staff adoption, not just technical implementation.
+
+**What to tell Marcus/Kham at day 60**:
+
+> "We've designed the orientation robot to work with enrollment staff, not replace them. Here's our staff adoption plan: (1) We involve staff in script design from day one. (2) Staff are positioned as 'AI overseers' who handle exceptions. (3) We measure staff sentiment weekly for the first month. (4) We identify AI champions who become internal advocates. The goal: staff who tolerate AI → staff who advocate for AI."
+
+**Actions added**:
+- [ADDED] Create staff briefing document template (1-page explainer) — by June 21, 2026
+- [ADDED] Build staff adoption survey (5 questions, 5-point scale) — by June 14, 2026
+- [ADDED] Develop AI champion identification criteria — by June 21, 2026
+- [ADDED] Create staff objection response scripts (5 objection types above) — by June 14, 2026
+- [ADDED] Include staff adoption timeline in customer onboarding checklist — by June 21, 2026
+- [ADDED] Schedule week 1 check-in call with enrollment manager in onboarding — by June 28, 2026
+- [ADDED] Track staff sentiment as a KPI (not just technical metrics) — ongoing
+
+**Sources**:
+- Change management: Kotter's 8-step model, Prosci ADKAR framework
+- Staff adoption: McKinsey 7S framework, AI implementation case studies
+- Staff resistance: Psychology of change, Gartner AI adoption research
