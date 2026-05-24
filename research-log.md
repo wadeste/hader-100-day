@@ -2915,6 +2915,237 @@ Period: [Start] to [End]
 
 *End of Cycle 110 refinement. Gap filled: Attribution dashboard features (5 core metrics, 7 reports), data sources (Google Ads, Meta, Zoho, Aircall), attribution models (position-based recommended), Zoho dedup logic (email + phone + name), technical implementation (BigQuery, 6-10 days), ASQA audit reporting, standalone vs. bundled pricing.*
 
+
+## Refinement — 2026-05-24 (Cycle 110b): Attribution Dashboard — Reporting Automation, Integration Complexity Analysis, and Rollout Strategy
+### Gap identified: Research provides dashboard features and data sources but lacks specific reporting automation workflows, integration complexity analysis, and rollout strategy for Phase 2 launch
+
+**Original finding**: "Attribution Dashboard Deep Dive" (Cycle 110) provides dashboard features (5 core metrics, 7 reports), data sources (Google Ads, Meta, Zoho, Aircall), and attribution models. Missing:
+- Specific reporting automation workflows (how reports generate, distribute, alert)
+- Integration complexity analysis (time, cost, dependencies per integration)
+- Rollout strategy (which integrations to build first, customer selection)
+- ASQA compliance validation process for attribution data
+- Data freshness requirements (real-time vs. daily vs. weekly)
+- Customer onboarding requirements for attribution dashboard
+
+**Why this matters**: Attribution dashboard is Phase 2 product (after call automation is established). Without understanding integration complexity, Optimizer AI cannot estimate build time or cost. Without rollout strategy, cannot plan Phase 2 launch. This is the gap between "feature specs complete" and "feature ready to build."
+
+### Reporting Automation Workflows
+
+**Report generation triggers**:
+
+| Trigger type | Frequency | Report generated | Recipients |
+|--------------|-----------|-------------------|------------|
+| Scheduled (daily) | 6:00 AM daily | Overnight performance summary | Marketing Manager |
+| Scheduled (weekly) | Monday 8:00 AM | Weekly channel performance | Marketing Manager, CEO |
+| Scheduled (monthly) | 1st of month | Monthly attribution audit report | Marketing Manager, Compliance |
+| Alert (threshold) | Real-time | CPA exceeds $X, conversion drops Y% | Marketing Manager |
+| On-demand | As requested | Custom date range report | Marketing Manager |
+| ASQA audit | Triggered | Complete audit trail | Compliance Officer |
+
+**Report distribution workflow**:
+```
+1. Report generates (scheduled or triggered)
+2. AI validates data completeness (checks for gaps)
+3. If complete: Generate PDF/email
+4. If incomplete: Flag anomalies, alert Marketing Manager
+5. Email to recipients with summary + link to dashboard
+6. Zoho log: Report sent, timestamp, recipients
+7. ASQA archive: Report stored in compliance archive
+```
+
+**Alert threshold configuration**:
+| Metric | Warning threshold | Critical threshold | Alert action |
+|--------|------------------|-------------------|---------------|
+| CPA | >$50 (baseline: $35) | >$75 | Email + Slack |
+| Conversion rate | <20% (baseline: 30%) | <15% | Email + Slack |
+| Channel drop-off | Any channel stops converting | Any channel drops 50%+ | Slack only |
+| Data gap | >5% missing data | >10% missing data | Email Marketing Manager |
+| Spend vs. budget | >110% of budget | >125% of budget | Email + Slack |
+
+**Automated insight generation**:
+| Insight type | Trigger | Message format |
+|--------------|---------|----------------|
+| Budget reallocation | Channel A CPA > Channel B | "Channel B delivers 40% lower CPA. Shift $X from A to B?" |
+| Anomaly detection | Unusual pattern | "Wednesday conversions dropped 30% vs. average" |
+| Seasonal adjustment | Seasonal pattern detected | "Based on Q1 historical data, expect 25% volume increase" |
+| Opportunity flag | New channel performing | "LinkedIn organic leads up 50% this week" |
+
+### Integration Complexity Analysis
+
+**Time and cost estimate per integration**:
+
+| Integration | Technical complexity | Build time | API cost/month | Dependencies |
+|-------------|---------------------|-----------|---------------|--------------|
+| Google Ads | LOW | 2-3 days | $0 | Google account, MCC access |
+| Meta Ads | LOW | 2-3 days | $0 | Facebook Business account |
+| LinkedIn Ads | MEDIUM | 3-4 days | $0 | LinkedIn Campaign Manager |
+| Google Analytics 4 | LOW | 1-2 days | $0 | GA4 property, measurement ID |
+| Zoho CRM | MEDIUM | 3-5 days | $50-100 | Zoho account, API access |
+| Aircall | MEDIUM | 3-4 days | $50-100 | Aircall account, API access |
+| Phone tracking (local number) | HIGH | 5-7 days | $30-50/number | Telstra/Optus account |
+| **Minimum viable** | | **7-10 days** | | **$0-100** | GA4, one Ads platform, Zoho |
+| **Full stack** | | **3-4 weeks** | | **$130-350** | All integrations |
+
+**Integration build priority**:
+| Phase | Integrations | Build time | Customer value | Target launch |
+|-------|-------------|-----------|----------------|---------------|
+| MVP | GA4 + Google Ads + Zoho | 1 week | 60% of value | Month 4 |
+| Phase 2 | + Meta Ads + Aircall | +1 week | 80% of value | Month 5 |
+| Phase 3 | + LinkedIn Ads + Phone tracking | +2 weeks | 95% of value | Month 6 |
+| Phase 4 | All integrations + data warehouse | +3 weeks | 100% of value | Month 7+ |
+
+**API rate limits and considerations**:
+| Platform | Rate limit | Refresh frequency | Notes |
+|----------|-----------|------------------|-------|
+| Google Ads API | 10,000 requests/day | Daily sync | Requires Google developer account |
+| Meta Marketing API | 200 calls/hour | Daily sync | Facebook app review required |
+| LinkedIn Ads API | 50,000 calls/month | Daily sync | Requires LinkedIn developer access |
+| Zoho Analytics API | 1,000 calls/day | Real-time (webhook) + daily batch | Zoho One subscription required |
+| Aircall API | 100 calls/minute | Real-time (webhook) | Aircall Standard+ required |
+
+**Data freshness by integration**:
+| Integration | Data freshness | Implication |
+|-------------|----------------|-------------|
+| Google Ads | 4-6 hour delay | Same-day reporting not possible |
+| Meta Ads | 3-6 hour delay | Same-day reporting not possible |
+| LinkedIn Ads | 24 hour delay | Daily reporting sufficient |
+| GA4 | Real-time | Can see intraday trends |
+| Zoho CRM | Real-time (leads), daily (enrollments) | Marketing data delayed 1 day |
+| Aircall | Real-time | Can track call attribution intraday |
+
+### Rollout Strategy for Attribution Dashboard
+
+**Customer selection for Phase 2 pilot**:
+| Criteria | Target pilot customer | Rationale |
+|----------|---------------------|-----------|
+| Size | Medium (50-150 enrollments/month) | Enough data for meaningful attribution |
+| Marketing spend | $5K+/month | Attribution most valuable with spend |
+| Tech comfort | Marketing Manager exists | Someone to use and champion the tool |
+| Zoho maturity | Using Zoho for 6+ months | Data structure in place |
+| Willingness | Explicit interest during discovery | Committed to implementation |
+
+**Pilot customer count**: 3-5 customers for Phase 2 (vs. Hader as internal test)
+
+**Rollout sequence**:
+| Step | Timing | Action | Owner |
+|------|--------|--------|-------|
+| 1. Integration audit | Week 1 | Review customer's existing integrations | Steven |
+| 2. Data quality check | Week 1-2 | Verify UTM tagging, Zoho fields | Steven |
+| 3. Integration setup | Week 2-3 | Connect platforms (technical) | Kham |
+| 4. UTM training | Week 2 | Train Marketing Manager on UTM tagging | Steven |
+| 5. Dashboard configuration | Week 3 | Customize metrics and thresholds | Steven |
+| 6. Test period | Week 4 | 2-week shadow period, no decisions | Both |
+| 7. Go-live | Week 6 | Active use, weekly review | Marketing Manager |
+| 8. First insights | Week 8 | AI-generated insights shared | Steven |
+
+**Minimum viable dashboard (MVP)**:
+| Feature | Included in MVP | Notes |
+|---------|----------------|-------|
+| Channel performance | Yes | Google Ads, Meta, Organic |
+| Cost per enrollment | Yes | By channel |
+| Lead-to-enrollment rate | Yes | Conversion funnel |
+| ASQA audit report | Yes | Simplified version |
+| Data freshness | Daily | Sufficient for weekly decisions |
+| Alert thresholds | Yes | CPA + conversion rate |
+| Custom date ranges | No | Phase 2 |
+| Attribution waterfall | No | Phase 3 |
+| Data warehouse | No | Phase 4 |
+
+### ASQA Compliance Validation Process
+
+**Attribution data compliance checklist**:
+| Requirement | Implementation | Validation method |
+|-------------|----------------|-------------------|
+| 3-year data retention | Stored in compliance archive | Annual audit |
+| Source documentation | UTM parameters + Zoho source field | Spot-check |
+| Campaign documentation | Link to ad platform record | Automated |
+| Spend verification | Monthly reconciliation with ad platforms | Manual (monthly) |
+| Audit trail | Immutable log of all data changes | System-generated |
+| Methodology disclosure | Document explains attribution model | Provided to ASQA |
+
+**ASQA audit response template**:
+```
+Marketing Attribution Audit Response
+RTO: [Name]
+Period: [Start] to [End]
+
+1. DATA SOURCES
+   - Google Ads: [Spend] - Confirmed via API
+   - Meta Ads: [Spend] - Confirmed via API
+   - Organic: [Attributed enrollments] - Confirmed via Zoho
+
+2. ATTRIBUTION METHODOLOGY
+   - Model: Position-based (40% first-touch, 40% last-touch, 20% middle)
+   - Justification: Appropriate for RTO enrollment journey (2-6 weeks)
+   - Changes from prior period: None
+
+3. DATA QUALITY
+   - Data completeness: [X]%
+   - Anomalies flagged: [List]
+   - Remediation: [Actions taken]
+
+4. COMPLIANCE STATEMENT
+   All marketing spend and enrollment attribution is traceable
+   to documented source data. Methodology is consistent with
+   ASQA requirements for audit-ready records.
+```
+
+### Customer Onboarding Requirements
+
+**Pre-onboarding checklist**:
+| Requirement | Status | Notes |
+|-------------|--------|-------|
+| UTM tagging in place | Required | If not, 1-hour training session |
+| Zoho source field populated | Required | Existing leads retrofitted |
+| Marketing Manager identified | Required | Primary user |
+| Marketing spend documented | Required | Monthly budget by channel |
+| Google/Meta/LinkedIn access | Required | API connection permission |
+| Aircall integrated (if using) | Required | Phone attribution |
+
+**Onboarding timeline**:
+| Day | Activity | Duration | Deliverable |
+|-----|----------|----------|-------------|
+| Day 1 | Kick-off call | 30 min | Timeline agreed, access shared |
+| Day 2-3 | Integration setup | Technical | All platforms connected |
+| Day 4 | UTM training | 1 hour | Marketing Manager trained |
+| Day 5-7 | Data validation | 2 hours | Anomalies identified, resolved |
+| Day 8 | Dashboard walkthrough | 1 hour | Training for end users |
+| Day 9-14 | Shadow period | 1 week | No decisions, learning only |
+| Day 15 | Go-live | Ongoing | Active use begins |
+| Day 30 | First review | 30 min | ROI assessment |
+
+**Required training for Marketing Manager**:
+| Topic | Duration | Format | Materials |
+|-------|----------|--------|------------|
+| UTM tagging | 30 min | Live demo | UTM cheat sheet |
+| Dashboard navigation | 30 min | Live demo | Dashboard guide |
+| Report interpretation | 30 min | Live demo | Report samples |
+| Alert management | 15 min | Video | Alert guide |
+| **Total** | **1.5 hours** | | **4 materials** |
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Define attribution MVP features (5 integrations, daily data) — by Month 3
+- [ADDED] Build integration complexity guide (time/cost per integration) — by Month 3
+- [ADDED] Create report automation templates (daily, weekly, monthly) — by Month 4
+- [ADDED] Develop ASQA audit response template — by Month 4
+- [ADDED] Identify 3-5 pilot customers for Phase 2 attribution — by Month 4
+- [ADDED] Create UTM training materials (cheat sheet, video) — by Month 4
+- [ADDED] Build alert threshold configuration defaults — by Month 4
+- [ADDED] Plan Phase 2 launch: MVP in Month 4, full in Month 6 — by Month 3
+- [ADDED] Set attribution dashboard pricing: $199/month standalone — by launch
+- [ADDED] Track attribution customer activation rate (target: >80% at Day 30) — ongoing
+
+### Sources
+- Attribution automation: Rockerbox, Attribution (2026)
+- API integration: Google Ads API, Meta Marketing API docs (2026)
+- ASQA compliance: asqa.gov.au (2026)
+- Data freshness: Platform API documentation (2026)
+
+---
+
+*End of Cycle 110b refinement. Gap filled: Reporting automation workflows (5 trigger types, distribution, alerts), integration complexity analysis (7 integrations, time/cost/dependencies), rollout strategy (3-phase, 3-5 pilot customers), ASQA compliance validation checklist, data freshness requirements, customer onboarding checklist (8 requirements, 8-day timeline).*
+
 ---
 
 
