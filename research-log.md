@@ -2376,6 +2376,306 @@ Research potential channel partners: RTO software providers, education associati
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 105): Partnership Program Deep Dive — Partner Identification, Recruitment, and Onboarding
+### Gap identified: Research provides partnership priorities but lacks specific partner identification strategy, recruitment funnel, onboarding process, and commission economics
+
+**Original finding**: "Partnership Opportunity Scan" identifies Zoho partners, RTO consultants, Aircall, and ICT ITAB as priority partners with 15% first-year commission. However, research lacks:
+- Specific partner identification strategy (where to find partners with RTO clients)
+- Partner recruitment funnel (cold outreach vs. inbound)
+- Partner onboarding process (what to give new partners)
+- Commission structure details (recurring vs. one-time)
+- Partner support requirements (what Optimizer AI must provide)
+
+**Why this matters**: Without specific partner recruitment and onboarding, Steven cannot execute on the "identify top 10 Zoho partners" action item. Partnership is a high-value, low-CAC channel — but only if executed properly.
+
+### Partner Identification Strategy by Type
+
+**1. Zoho Partners (Primary)**:
+
+**Where to find them**:
+| Source | URL | Notes |
+|--------|-----|-------|
+| Zoho Partner Directory | zoho.com/partners | Filter by "Australia", "Education" |
+| Zoho Community forums | community.zoho.com | Partner discussions |
+| LinkedIn search | "Zoho partner" + RTO keywords | "Zoho consultant", "Zoho for RTOs" |
+| RTO Connect mentions | "we use [Partner Name] for Zoho" | Monitor forum for partner names |
+| Trade shows | Zoho user groups, VET conferences | Face-to-face partner discovery |
+
+**Filtering criteria for RTO-focused Zoho partners**:
+| Criterion | Weight | How to check |
+|----------|--------|-------------|
+| RTO client portfolio | High | LinkedIn, case studies, website |
+| Education vertical | High | "Education", "RTO", "VET" on website |
+| CRM specialization | Medium | Zoho partner tier, certifications |
+| Geographic (QLD/NSW) | Medium | Address, client list |
+| Integrations built | Medium | App marketplace, GitHub |
+| Active in community | Low | RTO Connect, forums, social |
+
+**Target partner profile**:
+- Zoho partner (any tier) serving 5+ RTO clients
+- Located in QLD, NSW, or VIC (Hader geographic focus)
+- Building custom Zoho workflows for RTOs
+- Active in RTO community (RTO Connect, state networks)
+- Currently NOT offering AI tools (differentiator)
+
+**Search template for LinkedIn**:
+```
+Site:linkedin.com/in "Zoho" AND "RTO" AND "partner"
+Site:linkedin.com/in "Zoho consultant" AND "Australia"
+```
+
+**Estimated Zoho partners with RTO clients** (Australia):
+- Total Zoho partners in AU: 300-500
+- Partners serving RTOs: 50-80
+- Partners actively building for RTOs: 20-30
+- Partners to target initially: 10-15
+
+**2. RTO Consultants (Secondary)**:
+
+**Where to find them**:
+| Source | Notes |
+|--------|-------|
+| RTO Connect forum | "Consultant" tag on posts |
+| ASQA website | Listed consultants (some overlap) |
+| LinkedIn | "RTO consultant", "VET consultant" |
+| ACPET directory | Association members, some are consultants |
+| Word of mouth | Marcus + Kham's network |
+
+**Target consultant profile**:
+- Former RTO manager or compliance officer
+- Consulting to 10+ RTOs (independent or firm)
+- Specializes in: Compliance, accreditation, TAZ development
+- Has existing client relationships (trusted advisor)
+- Looking for additional revenue (referral commission)
+
+**Estimated RTO consultants with client access**:
+- Total RTO consultants in AU: 100-150
+- Consulting to 10+ RTOs: 30-50
+- With trust to refer vendors: 15-25
+- Target initially: 5-10
+
+**3. Aircall (Integration Partner)**:
+
+**Strategy**:
+- Not a referral partner (Aircall doesn't do partner referrals)
+- Integration partner (joint case study, co-marketing)
+- Aircall has existing RTO customers (via their sales)
+- Could feature in Aircall's education vertical marketing
+
+**Approach**:
+- Contact Aircall Australia team via partner page
+- Propose: "We're building voice AI for RTOs, using Aircall for internal calls. Interested in co-marketing?"
+- Benefit to Aircall: Education vertical case study
+- Benefit to Optimizer AI: Credibility, access to Aircall's RTO customers
+
+**4. ICT ITAB (Endorsement Partner)**:
+
+**What is ITAB**:
+- Industry Reference Panel for ICT
+- Oversees training package development
+- Has connections to RTOs in ICT space
+
+**Strategy**:
+- Long-term play (Year 1-2)
+- Attend ITAB meetings, contribute to training packages
+- Build credibility before asking for endorsement
+- Endorsement is "earned" not "bought"
+
+### Partner Recruitment Funnel
+
+**Phase 1: Identify (Month 1-2)**:
+
+| Step | Action | Output |
+|------|--------|--------|
+| 1 | Search Zoho partner directory for education vertical | List of 20-30 potential partners |
+| 2 | Cross-reference with RTO Connect mentions | Filter to 15-20 with RTO clients |
+| 3 | LinkedIn search for "Zoho + RTO" | Add 5-10 more discovered |
+| 4 | Compile target list | 20-25 partners to contact |
+
+**Phase 2: Outreach (Month 2-3)**:
+
+| Step | Action | Tool |
+|------|--------|------|
+| 1 | LinkedIn connection (personalized) | LinkedIn Sales Navigator |
+| 2 | Email follow-up | Mail merge (Apollo or Lemlist) |
+| 3 | Value-add content (RTO AI guide) | Share as trust-building |
+| 4 | Discovery call (20 min) | Calendly |
+
+**Outreach template for Zoho partners**:
+```
+Subject: AI for RTOs — partnership opportunity
+
+Hi [Name],
+
+I noticed you're a Zoho partner working with RTO clients. I'm Steven with Optimizer AI — we build AI enrollment automation specifically for Australian RTOs.
+
+We're looking for partners who want to offer AI tools to their RTO clients. Commission: 15% of first year's revenue on any referral.
+
+Would a 20-minute call be useful to explore?
+
+Best,
+Steven
+
+P.S. Happy to share our ROI calculator for RTOs if useful.
+```
+
+**Phase 3: Qualify (Month 2-3)**:
+
+| Question | Purpose |
+|----------|---------|
+| "How many RTO clients do you work with?" | Qualify volume |
+| "What do they struggle with most?" | Validate pain point |
+| "Are you offering AI tools today?" | Avoid competition |
+| "Would they trust a referral from you?" | Qualify influence |
+| "How do you prefer to receive referrals?" | Agree on process |
+
+**Phase 4: Enroll (Month 3-4)**:
+
+| Step | Action |
+|------|--------|
+| 1 | Send partnership agreement (template) |
+| 2 | Onboard on partner portal (simple) |
+| 3 | Provide marketing materials |
+| 4 | Schedule check-in call (bi-weekly initially) |
+
+### Partner Onboarding Process
+
+**Week 1: Setup**
+| Day | Action |
+|-----|--------|
+| 1 | Partner agreement signed, access to portal |
+| 2 | Send welcome email with materials |
+| 3 | Overview call (30 min) — product, positioning, FAQs |
+| 5 | Send first referral instructions |
+
+**Week 2-4: Activation**
+| Week | Action |
+|------|--------|
+| 2 | Identify 2-3 RTOs to introduce |
+| 3 | First intro call (Steven joins) |
+| 4 | Review first referral, provide feedback |
+
+**Ongoing: Support**
+| Frequency | Action |
+|-----------|--------|
+| Bi-weekly | Check-in call (any issues?) |
+| Monthly | Share new case studies, materials |
+| Quarterly | Business review (how's partnership going?) |
+| Per referral | Commission paid within 30 days |
+
+**Partner materials to provide**:
+| Material | Purpose |
+|----------|---------|
+| One-pager (1 page) | Quick overview for their clients |
+| ROI calculator (spreadsheet) | Help clients justify cost |
+| Case study (Hader) | Social proof |
+| FAQ document | Common objections answered |
+| Email template (their intro) | Copy-paste for referrals |
+| Demo video (5 min) | They can share directly |
+
+### Commission Structure Details
+
+**Current structure** (from research):
+- 15% first year on referrals
+
+**Recommended expanded structure**:
+
+| Type | Commission | When paid |
+|------|------------|------------|
+| Referral (one-time) | 15% of first year contract | Net 30 after client pays |
+| Referral (annual) | 5% of each annual renewal | Annually |
+| Integration (Zoho partner) | 10% recurring | Monthly |
+| White-label (Scale tier) | 10% recurring + setup fee | Monthly + upfront |
+
+**Example commission calculation**:
+```
+Referral: Growth tier ($999/mo × 12 months = $11,988)
+- First year commission: $11,988 × 15% = $1,798
+- Annual renewal (Year 2+): $999/mo × 12 × 5% = $599/year
+
+Integration: Partner refers 5 RTOs in Year 1
+- 5 × $999/mo × 12 × 10% = $5,994/year
+```
+
+**Commission tracking**:
+- Zoho CRM: Track referral source, commission due, commission paid
+- Partner portal: Self-service view of referrals and commission
+- Monthly: Send commission statement to partners
+
+### Partner Portal Requirements (MVP)
+
+**What partners need**:
+| Feature | Priority | Description |
+|---------|----------|-------------|
+| Login/access | Must | Simple email + password |
+| Referral form | Must | Submit RTO name, contact, date |
+| Commission tracker | Must | View referrals, status, earnings |
+| Marketing materials | Should | Download one-pagers, case studies |
+| Demo request | Could | Submit demo request on behalf of client |
+
+**MVP portal options**:
+| Option | Cost | Effort |
+|--------|------|--------|
+| Google Sheets (shared) | Free | Low (manual) |
+| Softr + Airtable | $49/mo | Medium (no-code) |
+| Zoho CRM (custom module) | Low ($50/mo) | Medium (build in Zoho) |
+
+**Recommendation**: Start with Google Sheets (free, low effort) → Upgrade to Softr when needed (~$50/mo)
+
+### Partner Success Metrics
+
+**Track per partner**:
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Referrals submitted | Number of RTOs referred | 2+ per quarter |
+| Conversion rate | Referrals → Customers | >30% |
+| Time to convert | Referral → Close | <45 days |
+| Commission earned | $ earned | Growing |
+| Engagement | Portal login, materials downloaded | Active |
+
+**Track overall program**:
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Partners active | Referrals in last 90 days | 5+ by Dec 2026 |
+| Revenue from partners | Customers via partner | 20% by Dec 2026 |
+| CAC via partners | Cost per partner-sourced customer | <$5,000 |
+| Partner satisfaction | NPS score | >50 |
+
+### Risk Mitigation
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| Partner refers but doesn't close | Medium | Low | Provide sales support, co-demos |
+| Partner competes (builds own) | Low | Medium | Exclusive terms, ongoing value |
+| Partner sends low-quality leads | Medium | Medium | Qualify in discovery call |
+| Partner churn (inactive) | Medium | Low | Regular check-ins, reactivation campaigns |
+| Commission disputes | Low | Medium | Clear agreement, documented process |
+
+### Recommended Actions for Steven
+
+- [ADDED] Build Zoho partner target list (20-25) — by June 14, 2026
+- [ADDED] Create partner one-pager (1 page) — by June 14, 2026
+- [ADDED] Draft partnership agreement template — by June 21, 2026
+- [ADDED] Launch LinkedIn outreach to top 10 Zoho partners — by July 2026
+- [ADDED] Set up Google Sheets partner tracking — by July 2026
+- [ADDED] Onboard first 3 partners — by August 2026
+- [ADDED] Track partner referrals and commission monthly — from August 2026
+- [ADDED] Build Softr partner portal (if needed) — by Q4 2026
+- [ADDED] Target 5 active partners by Dec 2026 — by December 2026
+- [ADDED] Partner-sourced revenue: 20% of total — by December 2026
+
+### Sources
+- Zoho partner directory: zoho.com/partners (2026)
+- Partner program best practices: PartnerStack, Cloud SaaS Partners (2026)
+- Partner commission benchmarks: PartnerHub (2026)
+- RTO consultants: RTO Connect, ASQA (2026)
+
+---
+
+*End of Cycle 105 refinement. Gap filled: Partner identification strategy (Zoho directory, LinkedIn search), partner recruitment funnel (4 phases, outreach templates), partner onboarding process (4-week), commission structure details (15% first year, 5% renewal), partner portal MVP (Google Sheets → Softr), success metrics (5+ active partners, 20% revenue by Dec 2026).*
+
+---
+
 ## Regulatory and Compliance Research — 2026-05-24
 ### Objective
 ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers. Any licensing constraints for AI agents in education?
