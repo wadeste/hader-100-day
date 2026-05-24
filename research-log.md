@@ -3771,3 +3771,195 @@ The research-log.md contains scattered KPIs and milestones across multiple cycle
 
 *End of Cycle 207 refinement. Gap filled: Scattered KPIs existed but no consolidated implementation framework. Added Month 1-12 timeline with weekly milestones, consolidated KPI dashboard (financial/operational/product/marketing), review cadence (weekly/monthly/quarterly/annual), accountability framework (who owns what), early warning system (yellow/red flags), 10 recommended actions for Steven.*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 208): Zoho Integration Deep-Dive — Technical Architecture, Data Model, and Rollout Plan for Optimizer AI
+
+### Gap identified
+Research mentions "Zoho integration" and "Zoho partner" multiple times (Cycles 191, 192, 197, 202, 205), but there's no detailed technical implementation spec: which Zoho modules to use, how to structure the data model for RTO enrollment, what API calls are needed, and how to roll out the integration for different customer sizes. This is critical — Zoho integration is the core data flow for Optimizer AI.
+
+
+**Original finding**: "Zoho integration built for RTO enrollment data model" mentioned in Cycle 192 (competitive moat) but no technical details. "Zoho Marketplace" mentioned in Cycle 202 (partnerships) but no implementation plan.
+
+
+**Why this matters**: Without a clear Zoho integration architecture, Optimizer AI risks: data inconsistencies, compliance gaps (wrong student records), difficult onboarding for new customers, and inability to scale the integration. A solid Zoho integration is the foundation for all downstream features (attribution, compliance reporting, enrollment forecasting).
+
+### Zoho Modules for RTO Enrollment
+
+**Core Zoho modules Optimizer AI will use**:
+
+| Module | Purpose in Optimizer AI | Key Fields | Notes |
+|--------|------------------------|------------|-------|
+| **Contacts/Leads** | Prospective students who inquiry | Name, phone, email, source, course interest | Primary capture from AI calls |
+| **Accounts** | RTO organizations (for B2B context) | Organization name, type, size | Used when RTO is the customer |
+| **Deals** | Enrollment "deals" tracking | Deal name, stage, amount, close date | Enrollment pipeline stages |
+| **Tasks** | Action items from calls | Subject, due date, status, related contact | Follow-ups, orientation bookings |
+| **Calls** | Call log (synced from VAPI) | Duration, recording, outcome, contact | AI call records |
+| **Custom: Enrollment Record** | Student enrollment data | USI, course, orientation date, status | Core enrollment data |
+| **Custom: USI Record** | USI collection tracking | USI number, verified, exemption reason | Compliance tracking |
+| **Custom: AI Call Outcome** | AI call result | Call ID, outcome type, conversion, UTM source | Attribution tracking |
+
+### Zoho Data Model for RTO Enrollment
+
+**Standard enrollment flow in Zoho**:
+```
+[Contact created from AI call]
+↓ Name, phone, email, course interest
+[Lead qualified] → [Convert to Deal + Contact]
+↓
+[Deal created: "Enrollment - [Student Name]"]
+↓ Stage: Inquiry → Qualified → Orientation Booked → Enrolled → Completed
+[Contact updated with enrollment data]
+↓ USI, course, orientation date, payment status
+[Task created: "Orientation - [Date]"]
+↓ Assigned to student + enrollment staff
+[Deal closed won: "Enrolled"]
+```
+
+**Custom fields needed in Contact module**:
+| Field | Type | Purpose |
+|------|------|---------|
+| ai_call_outcome | Picklist | Converted, Enquiry Only, No Interest, Callback Requested |
+| ai_call_id | Text | VAPI call ID for recording link |
+| utm_source | Text | Marketing channel attribution |
+| utm_campaign | Text | Campaign name |
+| course_interested | Picklist | Course name from call |
+| orientation_date | Date | Booked orientation date |
+| usi_collected | Checkbox | USI verified |
+| funding_inquiry | Checkbox | Student asked about funding |
+
+**Custom fields needed in Deal module**:
+| Field | Type | Purpose |
+|------|------|---------|
+| student_name | Text | Student's full name |
+| usi_number | Text | Unique Student Identifier |
+| course_name | Picklist | Enrolled qualification |
+| enrollment_status | Picklist | Inquiry, Enrolled, Withdrawn, Completed |
+| enrollment_date | Date | Date of enrollment |
+| payment_status | Picklist | Paid, Pending, VET Loan, Concession |
+| orientation_status | Picklist | Not Booked, Booked, Attended, Rescheduled |
+
+### Zoho API Integration Points
+
+**Required API integrations**:
+
+| API | Purpose | Zoho Endpoint | Frequency |
+|-----|---------|---------------|-----------|
+| Create/Update Contact | Sync student from AI call | POST /crm/v2/contacts | Real-time |
+| Create Deal | Create enrollment deal | POST /crm/v2/deals | Real-time (on enrollment) |
+| Update Deal Stage | Track enrollment pipeline | PUT /crm/v2/deals/{id} | Real-time |
+| Create Task | Schedule orientation | POST /crm/v2/tasks | Real-time |
+| Search Contacts | Match existing students | GET /crm/v2/contacts/search | Real-time |
+| Get Contact | Fetch enrollment data | GET /crm/v2/contacts/{id} | On-demand |
+| Attach Recording | Link call recording | POST /crm/v2/notes | Real-time |
+| Webhook | Zoho to VAPI events | Zoho webhook | Event-based |
+
+### VAPI-to-Zoho Data Flow
+
+**Architecture for real-time sync**:
+```
+[Prospective student calls Optimizer AI]
+↓ VAPI handles call, generates transcript, outcome
+↓ VAPI webhook → Optimizer AI backend
+↓ Extract: name, phone, email, course, outcome, UTM source
+↓ Transform: Map to Zoho field names
+↓ Load: POST to Zoho CRM API (create/update Contact)
+↓ If enrollment confirmed → Create Deal + Task
+```
+
+**Key data mappings**:
+| VAPI Data | Zoho Field | Transformation |
+|-----------|------------|----------------|
+| caller_phone | Phone | Standardize to +61 format |
+| caller_name | Contact Name | Parse from speech → "FirstName LastName" |
+| caller_email | Email | Extract from DTMF or speech |
+| course_interest | course_interested | Map to Zoho picklist values |
+| call_outcome | ai_call_outcome | Map to Zoho picklist |
+| call_id | ai_call_id | Store for recording link |
+| utm_source (from URL) | utm_source | Pass through |
+
+### Zoho Integration Rollout Phases
+
+**Phase 1: Hader Institute (Month 1)** — Internal testing
+- Connect Hadar Institute's Zoho account to Optimizer AI
+- Test data flow: Call → Contact → Deal → Task
+- Validate custom fields populated correctly
+- Test USI collection and verification flow
+- Verify call recordings attached to contacts
+- **Milestone**: 50+ enrollments tracked in Zoho without errors
+
+**Phase 2: Zoho Marketplace App (Month 2-3)** — Standardized integration
+- Package Zoho integration as installable app
+- Apply for Zoho Marketplace listing (requires review)
+- Create configuration wizard for new customers
+- **Milestone**: 3 external customers on-boarded via Marketplace
+
+**Phase 3: Multi-RTO Support (Month 4+)** — Scalable architecture
+- Multi-tenant architecture (one Optimizer AI → many Zoho orgs)
+- Per-customer configuration (custom fields, picklists)
+- Automated field mapping for common Zoho setups
+- **Milestone**: 10+ RTOs using Zoho integration
+
+### Zoho Integration Technical Requirements
+
+**For Kham to implement**:
+
+| Requirement | Details | Priority |
+|------------|---------|----------|
+| Zoho OAuth connection | API authentication for each customer | Critical |
+| REST API integration | CRUD operations on Contacts, Deals, Tasks | Critical |
+| Custom field creation | API to create custom fields in customer Zoho | High |
+| Webhook handling | Receive events from Zoho (record updates) | Medium |
+| Error handling | Retry logic, error logging, alerts | High |
+| Data validation | Sanitize phone numbers, email formats | High |
+| Rate limiting | Respect Zoho API limits (100 calls/min) | Medium |
+
+
+**Dependencies**:
+- VAPI webhook → Optimizer AI backend (Kham builds)
+- Optimizer AI backend → Zoho API (Kham builds)
+- Zoho OAuth flow (Kham builds)
+- Customer Zoho admin approves app installation (Steven coordinates)
+
+
+### Customer Onboarding: Zoho Setup Checklist
+
+**For each new RTO customer**:
+1. **Pre-onboarding**: Share Zoho setup requirements document
+   - Required modules: Contacts, Deals, Tasks
+   - Custom fields needed (Optimizer AI will create)
+   - Zoho admin account needed to approve app
+2. **Day 1**: Customer installs Optimizer AI from Zoho Marketplace
+3. **Day 1**: OAuth connection established
+4. **Day 1-2**: Test call with known contact (verify data flow)
+5. **Day 2**: Go live — first real calls sync to Zoho
+6. **Day 7**: Check-in call — verify all enrollments tracking correctly
+
+**Onboarding time per customer**: 1-2 hours (Steven handles coordination, Kham handles technical issues)
+
+### Recommended Actions for Steven
+
+- [ADDED] Create Zoho setup requirements document for new customers — Week 2
+- [ADDED] Build Zoho OAuth integration for Hadar (test with Marcus/Kham) — Month 1
+- [ADDED] Document Zoho custom fields for RTO enrollment — Week 2
+- [ADDED] Create customer onboarding checklist (Zoho setup steps) — Month 1
+- [ADDED] Apply for Zoho Marketplace listing (early, before external customers) — Month 2
+- [ADDED] Train on Zoho API (Kham) for error handling and retries — Month 2
+- [ADDED] Build multi-tenant architecture for Phase 3 scalability — Month 4
+- [ADDED] Create support documentation: "Zoho Integration Troubleshooting" — Month 3
+- [ADDED] Test with 3 external RTOs before scaling (Phase 2) — Month 3
+- [ADDED] Track Zoho integration errors monthly (system health) — Ongoing
+
+### Sources
+
+- Zoho CRM API documentation: zoho.com/crm/developer/docs/api/v2 (2025)
+- Zoho Marketplace app publishing: marketplace.zoho.com/publisher-guide (2025)
+- Zoho OAuth 2.0: zoho.com/crm/developer/docs/oauth (2025)
+- RTO enrollment data model: Zoho education industry template (2025)
+- API rate limits: Zoho API consumption policy (2025)
+
+
+---
+
+*End of Cycle 208 refinement. Gap filled: Zoho integration mentioned throughout but no technical spec. Added 8-module architecture, data model for RTO enrollment, API integration points, VAPI-to-Zoho data flow, rollout phases (3 stages), technical requirements for Kham, customer onboarding checklist, 10 recommended actions for Steven.*
+
