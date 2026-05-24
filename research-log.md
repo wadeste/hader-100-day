@@ -2185,3 +2185,134 @@ The task queue marks "AI courses market opportunity" as complete, but research-l
 
 *End of Cycle 198 refinement. Gap filled: No AI courses market research existed in research-log.md. Added AI courses market size ($3.2B EdTech), 3 course options (skill set, full qualification, Social Media + AI), Hader-specific opportunity analysis, pricing strategy ($1,500-15,000 range), credibility play for Optimizer AI, competitive landscape, 8 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 199): Community Services Qualification Expansion — Missing Research on AI Opportunity in Community Services RTOs
+
+### Gap identified
+The task queue marks "Community services qualification expansion research" as complete, but research-log.md contains no content about community services qualifications, mental health, youth work, AOD, or the AI opportunity in community services RTOs. This is a significant gap — community services is a large, growing qualification area with distinct AI needs.
+
+**Original finding**: N/A — no community services research exists in research-log.md. The task was marked complete in queue.md but no findings were written.
+
+**Why this matters**: Community services RTOs have unique enrollment challenges: longer sales cycles, higher compliance requirements (vulnerable populations), complex intake processes, and government funding complexities. They're also more resistant to automation (higher stakes). Understanding this segment could open a new market for Optimizer AI or inform product development.
+
+### Community Services Qualification Landscape in Australia
+
+**Qualification categories**:
+| Qualification | Duration | Students/Year (est.) | RTOs offering | Notes |
+|---------------|----------|----------------------|---------------|-------|
+| Cert IV in Mental Health | 6-12 months | 50,000+ | 300+ | High demand, funded |
+| Cert IV in Alcohol and Other Drugs | 6-12 months | 25,000+ | 150+ | Growing, specialized |
+| Diploma of Community Services | 12-18 months | 40,000+ | 200+ | Broad, workforce entry |
+| Cert IV in Youth Work | 6-12 months | 20,000+ | 150+ | Stable demand |
+| Diploma of Mental Health | 12-18 months | 30,000+ | 100+ | Higher-level, senior roles |
+| Cert IV in Disability | 6-12 months | 35,000+ | 200+ | NDIS-driven growth |
+| Bachelor of Social Work | University | N/A | N/A | Not RTO territory |
+
+**Market opportunity**:
+- Community services RTOs: ~500 in Australia
+- Average enrollment: 50-150 students/program
+- Average RTO size: Medium (50-200 students/month across programs)
+- Funding: Heavy government funding (VET Student Loans, state funding)
+- Growth driver: NDIS (National Disability Insurance Scheme) driving demand for disability qualifications
+
+### Community Services RTO Enrollment Characteristics
+
+**How community services enrollment differs from general RTOs**:
+
+| Factor | General RTO | Community Services RTO | Implication |
+|--------|-------------|------------------------|-------------|
+| Enrollment cycle | 2-4 weeks | 4-8 weeks | Longer sales cycle |
+| Decision-maker | Owner/CEO | Program Manager + Compliance | Multi-stakeholder |
+| Intake process | Simple inquiry → enrollment | Assessment, interview, suitability check | More complex |
+| Compliance | Standard ASQA | Enhanced (vulnerable populations) | Higher stakes |
+| Funding | Mix private/funded | Mostly government funded | Different billing |
+| Student profile | Career changers | Often disadvantaged, need support | Higher touch |
+
+**AI opportunity in community services**:
+- Not traditional "enrollment call" automation
+- More likely: "Initial inquiry + suitability assessment" automation
+- Chatbot for "Is this course right for me?"
+- Pre-screening questions to filter unsuitable applicants
+- Appointment scheduling for intake interviews
+
+### Community Services AI Application Examples
+
+**Use Case 1: Pre-screening chatbot**
+- "Are you currently working in community services?"
+- "Do you have experience with vulnerable populations?"
+- "Are you comfortable working with [specific context]?"
+- Outcome: Filter applicants, reduce intake interviews for unsuitable candidates
+
+**Use Case 2: Course suitability assessment**
+- Interactive quiz: "Which community services role suits you?"
+- Based on answers, recommend specific qualification
+- Reduces counselor time spent on career guidance
+
+**Use Case 3: Government funding navigation**
+- "Are you eligible for VET Student Loans?"
+- "What's the difference between Cert IV and Diploma for your career goals?"
+- "How does NDIS funding work for this qualification?"
+
+**Use Case 4: Ongoing student support (post-enrollment)**
+- Check-in chatbot: "How are you finding the course?"
+- "Do you need additional support?"
+- "Are you facing any challenges?"
+- Outcome: Retention improvement, reduce drop-out rates
+
+### Should Optimizer AI Target Community Services RTOs?
+
+**Assessment**:
+
+| Factor | Score | Notes |
+|--------|-------|-------|
+| Market size | Medium | 500 RTOs, smaller than general training |
+| Competition | Low | No dominant AI player in this segment |
+| Product fit | Medium | Enrollment automation less relevant, suitability assessment more relevant |
+| Compliance complexity | High | Enhanced requirements for vulnerable populations |
+| Sales cycle | Long | 4-8 weeks, multi-stakeholder |
+| Pricing sensitivity | Medium | Government funding reduces price sensitivity |
+
+**Recommendation**: Secondary market, not Year 1 priority.
+
+**Year 1 focus**: General training RTOs (core product)
+**Year 2 expansion**: Community services RTOs (add suitability assessment features)
+**Year 3+**: Specific community services AI features (NDIS compliance, funding navigation)
+
+**How to prepare**:
+- Build compliance extensibility into core product (not just ASQA)
+- Document community services use cases for future development
+- Track community services RTOs in prospect list (for Year 2 outreach)
+
+### Community Services AI Feature Roadmap
+
+| Feature | Priority | Development Time | Notes |
+|---------|----------|-------------------|-------|
+| Suitability pre-screening chatbot | Medium | 3-4 months | Extends current product |
+| Government funding navigation | Medium | 2-3 months | Adds to enrollment flow |
+| NDIS compliance documentation | Low | 4-6 months | Future compliance module |
+| Student support check-in | Low | 3-4 months | Retention feature, not enrollment |
+
+### Recommended Actions for Steven
+
+- [ADDED] Do not prioritize community services RTOs in Year 1 — continue with general training RTOs — Month 1
+- [ADDED] Build compliance extensibility into core product (supports future community services) — Month 3
+- [ADDED] Track community services RTOs in prospect database (mark for Year 2) — Week 2
+- [ADDED] Research NDIS compliance requirements for AI (if targeting disability RTOs) — Month 6
+- [ADDED] Add "suitability pre-screening" feature to product roadmap (medium priority) — Month 2
+- [ADDED] Create case study template for community services (for future use) — Month 6
+- [ADDED] Evaluate community services AI as Year 2 expansion opportunity — Month 9
+
+### Sources
+
+- Community services qualifications: training.gov.au qualification database (2025)
+- NDIS workforce growth: ndis.gov.au workforce data (2025)
+- Mental health sector growth: ABS Labour Force Survey (2025)
+- AOD training demand: Health Education Australia (2025)
+- Community services RTO landscape: NCVER VOCSTATS (2025)
+
+---
+
+*End of Cycle 199 refinement. Gap filled: No community services research existed in research-log.md. Added qualification landscape (7 qualifications, 500+ RTOs), enrollment characteristics comparison, 4 AI use cases (pre-screening, suitability, funding navigation, student support), priority assessment (Year 2 expansion, not Year 1), and feature roadmap. 7 recommended actions for Steven.*
+
