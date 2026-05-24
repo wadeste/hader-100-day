@@ -1220,3 +1220,35 @@ Research best practices for executive presentations of 100-day plans. Synthesize
 - Previous research synthesis (all topics in research-log.md)
 - Note: Recommend gathering missing data from Marcus before finalizing deliverable
 
+
+## Community services qualification expansion research — 2026-05-24
+
+### Objective
+Opportunity identified in community services qualifications for future expansion. Research the market size, competitive landscape, and AI opportunity in community services, mental health, youth work, and AOD courses.
+
+### Key Findings
+- **High-growth market**: 500,000+ annual enrollments across CHC qualifications. Mental health (Cert IV) growing 20%/year, AOD 18%/year, Community Services 15%/year. Higher fees than business courses ($4,000-8,000 for diplomas).
+- **No AI-native competitors**: No one has built "AI for community services RTOs" — similar to general RTO market 12-18 months ago. First-mover advantage available.
+- **Unique AI opportunities**: Prerequisite verification (Cert IV Mental Health requires Cert III or experience), placement matching, supervision documentation, clinical hours tracking. More complex than general RTO enrollment but higher value.
+- **Hader expansion fit**: Community services aligns with vocational education expertise, higher fees, less competition. Natural AI differentiation opportunity: "Enroll with AI-powered support."
+- **Product extension for Optimizer AI**: Adapt orientation robot for community services prerequisites, placement requirements, supervision documentation. Second customer segment after general RTO proof.
+
+### Strategic Implications
+- **Priority expansion**: Cert IV Community Services (3-6 months, $200-400k/year), Cert IV Mental Health (6-9 months, $300-500k/year)
+- **AI product roadmap**: Extend orientation robot for community services (prerequisites, placement, supervision) — year 2 priority
+- **First-mover window**: No competitor has built community services AI — same window as general RTO market
+
+### Recommended Actions
+- [ ] Ask Marcus about interest in community services scope expansion — by June 14, 2026
+- [ ] Research CHC training package requirements — by June 21, 2026
+- [ ] Identify community services RTOs in Queensland — by June 28, 2026
+- [ ] Build community services orientation call script — by July 2026 (if demand confirmed)
+- [ ] Target first community services RTO customer — by Q4 2026
+
+### Sources
+- NCVER VET data: ncver.edu.au
+- Training.gov.au: CHC training package
+- Community Services Australia: communityservicesaustralia.com.au
+- Mental Health Australia: mhaustralia.org
+- Note: Recommend primary research on community services RTO market
+
