@@ -7743,3 +7743,261 @@ Before the day 60 presentation, Steven must confirm with Marcus:
 ---
 
 *End of Cycle 61 refinement. Gap filled: Marcus/Kham pushback prep, three-number summary, risk-adjusted model, stakeholder-specific messaging.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 62)
+### Gap identified: Day 60 presentation execution missing — presenter prep, room setup, materials checklist, Q&A management, and follow-up protocol
+
+**Original finding**: Cycle 60 outlines day 60 presentation structure (9 slides, timing, "done" criteria) and Cycle 61 covers financial model stakeholder prep. Missing: What to do the day before, the morning of, the first 5 minutes, how to manage Q&A, how to handle dead air or difficult questions, and what to send immediately after.
+
+**Why this matters**: The presentation content is ready, but the execution is where most people fail. Without presenter prep, the best slides look rushed. Without room setup, technology fails. Without Q&A management, you lose control. Without a follow-up protocol, decisions don't happen.
+
+**What the research currently states**: "Day 60 presentation structure: 9 slides, 45-60 minutes, attendees Steven + Marcus + Kham." No guidance on execution, room setup, or day-of logistics.
+
+### Day 60 Presentation — Complete Execution Playbook
+
+### 7 Days Before (June 21)
+
+**Content prep**:
+- [ ] Slides complete and reviewed
+- [ ] Print slides 2-up (2 slides per page) for Marcus/Kham to take notes
+- [ ] Prepare digital backup on USB + cloud (not just laptop)
+- [ ] Practice out loud 2-3 times (not just reading in head)
+
+**Pre-brief Marcus and Kham**:
+- [ ] Send agenda 1 week before: "Day 60 Update — June 28, 45 min"
+- [ ] Send 1-page summary 2 days before (not full deck)
+- [ ] Confirm: Will Marcus's warm leads list be available?
+- [ ] Confirm: Will Kham's technical questions be answered?
+
+**Pre-brief question**:
+> "Marcus, just confirming the day 60 agenda. 45 minutes, 9 slides covering market, product, financial model, and GTM. I'll send a 1-page summary tomorrow. Any specific questions you want answered that I should prioritize?"
+
+### Day 60 Presentation — Day Before (June 27)
+
+**Travel and logistics**:
+- [ ] Confirm room booking (if in-person)
+- [ ] If Zoom: test Zoom link, screen sharing, recording
+- [ ] If in-person: confirm projector/TV, adapters, power
+
+**Presenter prep**:
+- [ ] Do one full run-through out loud (not reading)
+- [ ] Time yourself: 35-40 min presentation + 10-20 min Q&A
+- [ ] Identify 3 key decisions you need from Marcus (write them down)
+- [ ] Identify 3 things Marcus will likely push back on (prepare responses)
+
+**Key decisions needed** (must get answers at day 60):
+1. Approve VAPI + GPT-4o technical architecture (Kham's commitment)
+2. Confirm Marcus's warm leads list (5-10 leads, action plan)
+3. Confirm $10M EBITDA is Year 7-8, not Year 5 (aligned expectations)
+
+**Key approvals needed**:
+1. Financial model assumptions (realistic targets)
+2. GTM channel strategy (Marcus network first, consultant referrals next)
+3. Product roadmap (orientation robot first, TAZ tool next)
+
+### Day 60 Presentation — Morning Of (June 28)
+
+**1 hour before**:
+- [ ] Open presentation file, confirm it opens correctly
+- [ ] Check all hyperlinks work (if using click-through)
+- [ ] Set up recording (if using Zoom)
+- [ ] Have water and notes ready
+- [ ] Silence phone
+
+**15 minutes before**:
+- [ ] Join Zoom or arrive at room early
+- [ ] Test audio (if Zoom): "Can everyone hear me clearly?"
+- [ ] Share screen preview (confirm slides look right)
+- [ ] Take 3 deep breaths
+
+### The First 5 Minutes (Critical — Sets the Tone)
+
+**Opening script**:
+> "Marcus, Kham — thanks for making time. Today is day 60, which means 60 days to build the foundation before the 100-day plan is due in August.
+>
+> I'll walk through 9 slides in 35-40 minutes, then open it up for questions. At the end, I need three decisions from you: (1) Technical architecture approval, (2) Your warm leads list, (3) Alignment on the financial model timeline.
+>
+> The goal today is not to have all the answers — it's to have a clear plan we can execute. Ready to start?"
+
+**Why this opener works**:
+- Sets context (day 60, not day 100)
+- Promises clear structure (9 slides, 35-40 min)
+- States what you need (3 decisions)
+- Signals confidence ("ready to start?")
+
+### Slide-By-Slide Timing and Talking Points
+
+**Slide 1: Executive Summary (3 min)**
+- Read slide, don't re-read. Point to key number: "TAM $50-100M. No verified competitors."
+- Transition: "Let's go deeper on market sizing."
+
+**Slide 2: Market Sizing (5 min)**
+- Key number: "SAM $21M, our addressable slice."
+- Confidence caveat: "These are estimates — we'll validate with first customers."
+- Transition: "The opportunity is big. Here's the product to capture it."
+
+**Slide 3: Product Roadmap (5 min)**
+- Orientation robot is P0. Show timeline: "June 7 start, July 21 go-live."
+- Kham question: "Kham, is 7-8 weeks realistic given your schedule?"
+- Transition: "Great. Here's how we'll price it."
+
+**Slide 4: Pricing (4 min)**
+- Key numbers: "$499-1,999/mo, 97% gross margin, 3.4 month payback."
+- Transition: "Unit economics work. Here's how we'll sell it."
+
+**Slide 5: GTM Strategy (5 min)**
+- Marcus's network first. "Marcus, this is where I need your help first."
+- Show timeline: Phase 1 = Marcus network (now), Phase 2 = consultant referrals (month 2)
+- Transition: "Sales is one thing. Let's talk financials."
+
+**Slide 6: Financial Model (7 min)**
+- Three numbers: "35 customers break-even, $900/mo revenue, $10M by Year 7-8."
+- Show table: Year 1: 30 customers, Year 3: 120, Year 5: 320
+- Marcus pushback prep: "Marcus, I know $10M by Year 7-8 seems slow. Here's what gets us there faster."
+- Transition: "Here's what we need to execute."
+
+**Slide 7: Timeline (3 min)**
+- Orientation robot timeline: "Start June 7. Go-live July 21. Week 1-2 is script design."
+- Blockers: "Two blockers before I can start: course list from you, VAPI decision from Kham."
+- Transition: "The execution is clear. Let me show you the team."
+
+**Slide 8: Team and KPIs (3 min)**
+- Current: Steven (marketing + sales), Kham (technical)
+- Growth plan: "Year 1: Steven + Kham. Year 2: Add fractional CSM at 30+ customers."
+- KPIs: "Weekly pipeline, monthly retention, quarterly reviews."
+- Transition: "The risks are real. Here's what could go wrong."
+
+**Slide 9: Key Risks (3 min)**
+- Kham availability (technical blocker)
+- Customer acquisition slower than modeled (market risk)
+- Competitor enters (competitive risk)
+
+**Slide 10: What I Need From You (2 min)**
+- State the 3 decisions clearly:
+  1. "Marcus: Can you provide the 5-10 warm leads list by June 7?"
+  2. "Kham: Can you confirm VAPI + GPT-4o architecture and your weekly hours?"
+  3. "Both: Can you agree that $10M EBITDA is a Year 7-8 target, not Year 5?"
+
+### Q&A Management
+
+**The rule**: Answer the question asked, then bridge to your key message. Never ramble.
+
+**If Marcus asks a question you don't know**:
+> "That's a great question I don't have a specific answer to yet. Here's what I do know: [related fact]. I'll research that and send you an answer within 48 hours."
+
+**If Marcus pushes back on the financial model**:
+> "I hear you — $10M by Year 7-8 seems slow. The model shows we could accelerate with enterprise pricing or new revenue streams. Here's what I'd recommend: [your recommendation]. Want me to model that scenario?"
+
+**If Kham asks a technical question that reveals a gap**:
+> "Kham, you're right — we haven't fully spec'd that yet. My assumption is [your assumption]. Does that sound right to you, or should we adjust?"
+
+**If the conversation goes off-track**:
+> "Good point — let's table that and come back to it. I want to make sure we cover [your key topic] before we run out of time."
+
+**If there's dead air** (no questions):
+> "Let me open it up — what questions do you have? Even if it's not about the slides, I want to make sure I'm addressing the right things."
+
+### Closing Script
+
+**When Q&A winds down**:
+> "Alright — I think we covered the key points. To summarize what we agreed on:
+>
+> 1. [Decision 1] — Marcus to provide warm leads list by June 7
+> 2. [Decision 2] — Kham to confirm technical architecture this week
+> 3. [Decision 3] — Alignment on $10M EBITDA as Year 7-8 target
+>
+> Next steps: I'll send the one-page summary and slide deck by end of day. My 100-day plan is due August 7 — I'll keep you updated weekly.
+>
+> Anything else before we wrap?"
+
+### Day 60 Follow-Up (Same Day + 48 Hours)
+
+**Same day (June 28)**:
+- [ ] Send slide deck to Marcus and Kham (PDF, not editable)
+- [ ] Send 1-page summary (the three numbers, the three decisions, the next steps)
+- [ ] Add calendar holds for weekly updates (every Monday, 9am)
+
+**48 hours later (June 30)**:
+- [ ] Send warm leads list request to Marcus (specific format: Name, Company, Contact, Pain Point Summary)
+- [ ] Confirm Kham's technical architecture decision (email follow-up)
+- [ ] Confirm Marcus's alignment on financial model (email follow-up)
+- [ ] If any decisions were tabled, schedule a 15-min follow-up to resolve
+
+**Follow-up email to Marcus**:
+> "Marcus — thanks for making time today. As discussed:
+>
+> [Decision 1]: Can you send me the 5-10 warm leads list by June 7? Format: Name, Company, Your relationship to them, Their biggest enrollment challenge.
+>
+> [Decision 2]: I've attached the 1-page financial summary. Please confirm you're aligned with $10M EBITDA as a Year 7-8 target.
+>
+> Slide deck and 1-pager attached.
+>
+> Weekly updates will go out every Monday morning. Looking forward to getting started."
+
+### Day 60 Presenter Mistakes to Avoid
+
+**Mistake 1: Reading the slides**
+- Don't: Read every bullet point
+- Do: Hit the key number, then add context ("The SAM is $21M — that's three times what Area Ten captures annually.")
+
+**Mistake 2: No clear ask**
+- Don't: End with "any questions?"
+- do: State exactly what you need ("Marcus, I need your warm leads list by June 7.")
+
+**Mistake 3: Defensive when challenged**
+- Don't: "That's a fair point, but..." (sounds like you're arguing)
+- Do: "Great point — here's how I'd adjust..." (sounds like you're solving)
+
+**Mistake 4: No backup plan**
+- Don't: Hope the laptop works
+- Do: Have PDF on phone, USB in pocket, cloud link ready
+
+**Mistake 5: Talking too long**
+- Don't: 60 minutes of presentation, 5 minutes of Q&A
+- do: 35-40 minutes of presentation, 15-20 minutes of Q&A
+
+### Day 60 Materials Checklist
+
+**Before the presentation**:
+- [ ] Slide deck (PowerPoint or Google Slides)
+- [ ] 1-page summary (PDF, for pre-brief)
+- [ ] Printout of slides 2-up (for Marcus/Kham)
+- [ ] USB backup of slides
+- [ ] Cloud backup of slides (Google Drive or Dropbox)
+- [ ] This execution playbook printed for Steven
+
+**During the presentation**:
+- [ ] Laptop + charger
+- [ ] Phone (recording if in-person)
+- [ ] Water
+- [ ] Pen and paper for notes
+
+**After the presentation**:
+- [ ] Slide deck (PDF) sent same day
+- [ ] 1-page summary sent same day
+- [ ] Follow-up email sent within 48 hours
+- [ ] Calendar holds set for weekly updates
+- [ ] Decisions tracked (who committed to what, by when)
+
+### Actions for Steven
+
+- [ADDED] Print slides 2-up for Marcus/Kham (take notes) — by June 28, 2026
+- [ADDED] Prepare 1-page summary for pre-brief (3 decisions, 3 numbers) — by June 27, 2026
+- [ADDED] Test Zoom/in-person setup (audio, screen share, recording) — by June 28, 2026
+- [ADDED] Practice presentation out loud 2-3 times before day 60 — by June 27, 2026
+- [ADDED] Prepare PDF backup + USB of slides — by June 28, 2026
+- [ADDED] Send 1-page summary to Marcus 2 days before day 60 — by June 26, 2026
+- [ADDED] Send follow-up email with slide deck + 1-page summary — same day as day 60
+- [ADDED] Schedule weekly update calendar holds (every Monday 9am) — June 28, 2026
+
+**Sources**:
+- Presenter prep: presentlive.com/presenter-tips (2026)
+- Q&A management: Garr Reynolds (Presentation Zen), (2026)
+- Business presentation structure: Harvard Business Review, (2026)
+- Day 60 context: This is the first major milestone presentation to Marcus and Kham
+
+---
+
+*End of Cycle 62 refinement. Gap filled: Day 60 presentation execution playbook — day-before prep, morning-of checklist, first 5 minutes script, slide timing, Q&A management, closing script, follow-up protocol, presenter mistakes to avoid.*
