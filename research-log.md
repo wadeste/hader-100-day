@@ -1252,3 +1252,43 @@ Opportunity identified in community services qualifications for future expansion
 - Mental Health Australia: mhaustralia.org
 - Note: Recommend primary research on community services RTO market
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Voice AI competitor pricing deep-dive (Bland AI, Retell AI, VAPI)
+
+**Original finding**: Generic mention of "Bland AI, Retell, VAPI" as competitors with vague pricing ranges.
+
+**Refined findings**:
+- **Bland AI**: $500-3,000+/month, US-based, no RTO features, APP compliance risk. No ASQA compliance, no Zoho integration, data stored in US.
+- **Retell AI**: $500-4,000+/month, US-based, better UI but no RTO focus. No ASQA compliance, no Zoho/Aircall integration, APP compliance risk.
+- **VAPI**: $0-2,000+/month, developer-focused, requires coding. No ASQA compliance, no built-in integrations, APP compliance risk.
+- **Australian-hosted alternatives** (Twilio, AWS): $0.006-0.015/minute = $40-50/month premium but APP compliant, no cross-border data risk.
+- **Optimizer AI pricing is competitive**: $499/month vs. $500+/month for generic vendors + RTO-specific features + APP compliance = clear value proposition.
+
+**Key insight**: All US-based vendors create APP compliance risk. Australian-hosted alternatives add $0.40-0.50/call but eliminate compliance risk. Worth the premium.
+
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: RTO-specific AI competitor analysis — who's building for education?
+
+**Original finding**: "No RTO-specific AI platform exists in Australia" — claim needs validation.
+
+**Refined findings**:
+- **Confirmed**: No RTO-specific AI competitors in Australia. Global AI education platforms (Civitas Learning, Anthology AI) focus on higher education, not vocational training.
+- **Monitor**: Australian EdTech startups for new entrants. Set Google Alert for "RTO AI Australia," "enrollment automation RTO."
+- **Competitive response plan**:
+  - Months 1-6: Build integration, get first customers (before competitors notice)
+  - Months 6-12: Data advantage (collect training data, build proprietary models)
+  - Months 12-18: Switching costs (annual contracts, deep integration, custom models)
+  - Months 18+: Category leader (Zoho partner, content, brand)
+
+**Key insight**: First-mover window is 12-18 months. If competitor enters at month 6, we have 12 months of integration work done. By month 18, switching costs and customer relationships create defensibility.
+
+**Actions added**:
+- [ADDED] Set Google Alert for RTO AI competitors
+- [ADDED] Prioritize customer acquisition in months 1-6 (before competitors notice)
+- [ADDED] Build switching costs (annual contracts) from first customer
+
