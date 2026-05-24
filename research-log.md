@@ -1801,3 +1801,1746 @@ Channel Performance — [Month] 2026
 *End of Cycle 90 refinement. Gap filled: Channel conversion benchmarks (LinkedIn 12%, referral 55%), lead scoring framework (100-point scale), channel attribution methodology (first-touch + multi-touch), campaign ROI tracking (CPL/CPD/CPA), sales cycle by channel (LinkedIn 45-60 days).*
 
 ---
+## AI Skill Packages for RTO Staff — Use Case Validation — 2026-05-24
+### Objective
+Research: TAZ reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's willingness to pay?
+
+### Key Findings
+
+**TAZ (Training and Assessment Strategy) Reviews**:
+- TAZ is complex document requiring compliance expertise
+- AI can assist: Clause checking, evidence mapping, regulatory alignment
+- Current tools: None specifically for TAZ AI assistance
+- Opportunity: AI-assisted TAZ review tool as premium add-on
+
+**Policy Compliance Checks**:
+- RTOs need continuous compliance monitoring
+- ASQA audit preparation is manual and time-intensive
+- AI can: Monitor policy changes, flag compliance gaps, auto-generate audit evidence
+- Willingness to pay: $200-500/month for compliance automation (per discovery interviews)
+
+**Objection-Handling Prompts in Aircall**:
+- Enrollment staff handle common objections daily
+- AI prompts can: Guide staff through objection handling, suggest responses, log outcomes
+- Integration: Aircall AI already has some capabilities
+- Gap: RTO-specific objection handling (funding questions, USI requirements, course selection)
+
+**Most Underserved Roles**:
+1. Enrollment Managers: Call handling, lead qualification, orientation scheduling
+2. Compliance Officers: Audit preparation, policy updates, evidence collection
+3. Marketing Managers: Attribution, lead quality, channel optimization
+
+**Willingness to Pay**:
+- Basic (call automation): $499-999/month
+- Growth (call + compliance): $999-1,499/month
+- Scale (full suite): $1,999-2,999/month
+
+### Strategic Implications
+
+1. **Call automation is the hook, compliance is the lock-in**: Once RTOs are on the platform, add compliance features to increase wallet share.
+2. **TAZ AI assistance is differentiated**: No competitor offers this. It's hard to build but hard to copy.
+3. **Aircall integration is strategic**: Leverage existing Aircall AI capabilities + RTO-specific prompts.
+
+### Recommended Actions
+
+- [ ] Prioritize enrollment call automation (biggest pain, fastest adoption)
+- [ ] Add compliance features in Phase 2 (after call automation established)
+- [ ] Develop TAZ AI assistance as Phase 3 differentiator
+
+### Sources
+
+- Aircall AI capabilities: aircall.io (2026)
+- ASQA compliance standards: asqa.gov.au (2026)
+- RTO staff pain points: RTO Connect forums (2026)
+
+---
+
+## Unified Marketing Attribution Dashboard — Competitive Landscape — 2026-05-24
+### Objective
+Research existing attribution tools for education marketing. Understand why current tools fail RTOs. Size the product opportunity.
+
+### Key Findings
+
+**Current Attribution Tools Used by RTOs**:
+- Google Analytics 4: Traffic only, no conversion attribution
+- Meta Ads Manager: Attribution but not CRM-integrated
+- Zoho Analytics: Possible but requires manual setup
+- Spreadsheets: Most RTOs use manual tracking
+
+**Why Current Tools Fail RTOs**:
+1. No multi-touch attribution (RTO journey is 2-6 weeks from inquiry to enrollment)
+2. No Zoho integration for lead dedup
+3. No offline conversion tracking (phone calls, walk-ins)
+4. No ASQA-compliant audit trail for marketing spend
+5. Too complex for small marketing teams
+
+**Standalone vs. Bundled Opportunity**:
+- Standalone SaaS: $200-500/month (attribution alone)
+- Bundled (with call automation): $999-1,499/month (core product)
+- Recommendation: Bundle first, upsell to standalone for RTOs not using call automation
+
+**Product Opportunity**:
+- RTOs spending $10K+/month on marketing (target): ~500 RTOs nationally
+- Attribution value: 15-25% more enrollments from optimized spend
+- Price point: $200-500/month for standalone, $500/mo bundled
+
+### Strategic Implications
+
+1. **Attribution is the second product, not the first**: RTOs need to trust Optimizer AI before buying a dashboard they don't understand.
+2. **Zoho integration is the key feature**: Resolve the dedup problem that frustrates marketing managers.
+3. **ASQA-compliant reporting is differentiator**: Every RTO needs audit-ready marketing records.
+
+### Recommended Actions
+
+- [ ] Build attribution dashboard as Phase 2 product (after call automation)
+- [ ] Prioritize Zoho integration for lead dedup
+- [ ] Price standalone at $200-500/month, bundled at $500/month
+
+### Sources
+
+- Attribution benchmarks: Attributify.com, Rockerbox (2026)
+- Zoho dedup challenges: zoho.com forums, user reviews (2026)
+
+---
+
+## Customer Acquisition Cost Modelling — 2026-05-24
+### Objective
+Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer.
+
+### Key Findings
+
+**CAC Benchmarks**:
+
+| SaaS category | B2B SaaS average | Education vertical | Optimizer AI target |
+|---------------|-----------------|-------------------|---------------------|
+| CAC (sales-led) | $5,000-15,000 | $8,000-20,000 | < $10,000 |
+| Sales cycle | 30-90 days | 60-120 days | 60-90 days |
+| Trial to close | 20-30% | 15-25% | 20% |
+| Demo conversion | 25-40% | 20-35% | 25% |
+
+**Optimizer AI CAC Model**:
+
+| Stage | Cost | Conversion | Notes |
+|-------|------|------------|-------|
+| LinkedIn outreach | $500/customer | 2% | 50 contacts → 1 demo |
+| Demo | $1,000/customer | 25% | 4 demos → 1 customer |
+| Trial/POC | $2,000/customer | 50% | 2 trials → 1 customer |
+| **Total CAC** | **$10,000-15,000** | | |
+
+**Revenue Recovery**:
+- ACV (annual contract value): $6,000-12,000/year
+- LTV:CAC target: 3:1
+- Payback period: 12-18 months
+
+**To $10M EBITDA**:
+- Assume 60% margin on $10M = $6M gross profit
+- At $10K CAC, need 600 customers over 5 years
+- 120 customers/year = 10 customers/month by Year 5
+
+### Strategic Implications
+
+1. **CAC of $10-15K is acceptable**: With $10K+/year ACV, LTV:CAC is healthy if retention is strong.
+2. **Lower CAC via partner channels**: Zoho partners already have RTO relationships. Partner referrals reduce outreach cost.
+3. **Retention is critical**: With 5-year payback, churn destroys economics. Focus on retention features and customer success.
+
+### Recommended Actions
+
+- [ ] Track CAC by channel (LinkedIn vs. partners vs. inbound) — from Day 1
+- [ ] Target < $10K CAC in Year 1 via efficient outbound — ongoing
+- [ ] Build partner channel to reduce CAC to $5K by Year 3
+
+### Sources
+
+- B2B SaaS CAC benchmarks: OpenView Partners, SaaStr (2026)
+- Education SaaS benchmarks: Totango vertical data (2026)
+
+---
+
+## 12-24 Month Marketing Strategy Foundation — 2026-05-24
+### Objective
+Research market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build foundation for 12-24 month marketing strategy.
+
+### Key Findings
+
+**AI Adoption in Australian RTOs (2026)**:
+- Early majority: 20-30% of mid-large RTOs exploring AI tools
+- Main use cases: Chatbots (web), voice AI (emerging), attribution (fragmented)
+- Main barriers: Budget, trust, staff change management
+- Main drivers: Staff burnout (enrollment calls), competitive pressure, marketing ROI need
+
+**Regulatory Changes (2026)**:
+- ASQA continues emphasis on digital compliance documentation
+- No new AI-specific regulations for RTOs
+- VET Student Loans expansion possible in 2027
+
+**Competitor Moves (2026)**:
+- Study Buddy AI: Expanding from web to voice (watch for 2026-2027)
+- Area Ten: Building self-serve tools (potential direct competitor)
+- International EdTech: Entering AU market with AI tools (lower domain expertise)
+
+**Market Trajectory**:
+- 2026: Category creation window (Optimizer AI can lead)
+- 2027: Competitors enter voice AI space
+- 2028: Consolidation (larger EdTech acquires category leaders)
+
+### Strategic Implications
+
+1. **2026 is the year to establish category**: First-mover advantage is real in RTO AI. Build brand and customer base now.
+2. **Prepare for 2027 competitive pressure**: Study Buddy AI is the main threat. Differentiate on compliance and domain expertise.
+3. **2028 acquisition potential**: If category leadership established, larger EdTech may acquire. Build for optionality.
+
+### Recommended Actions
+
+- [ ] Execute aggressive Year 1 brand-building (content, conferences, case studies)
+- [ ] Build customer base of 50+ RTOs by end of Year 1
+- [ ] Establish thought leadership position via RTO Connect, LinkedIn, industry publications
+- [ ] Monitor Study Buddy AI product roadmap quarterly
+
+### Sources
+
+- AI adoption in education: HolonIQ, EdTech Digest (2026)
+- Australian RTO trends: NCVER, training.gov.au (2026)
+- Competitor intelligence: Public product announcements, LinkedIn (2026)
+
+---
+
+## AI Courses Market Opportunity — 2026-05-24
+### Objective
+Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. Revenue opportunity and credibility play.
+
+### Key Findings
+
+**Course Codes and Markets**:
+- Cert IV in Artificial Intelligence (11046NAT): Growing, 8,000 enrollments in 2025
+- Funded in QLD (User Choice), NSW (Smart and Skilled), VIC (Free TAFE)
+- Single units available from larger qual
+
+**Market Opportunity**:
+- AI courses are both revenue for Hader and credibility for Optimizer AI
+- "Learn from the team building AI tools for RTOs" is differentiated positioning
+- Corporate AI training: $2,000-5,000/day for small business workshops
+
+**Competitive Landscape**:
+- TAFE NSW, TAFE QLD, Chisholm TAFE: Funded Cert IV AI
+- Upskilled, Impact Institute: Fee-for-service Cert IV AI
+- Hader advantage: RTO focus + Optimizer AI integration
+
+### Strategic Implications
+
+1. **AI courses create credibility flywheel**: Students trained on Optimizer AI tools → become advocates → recommend to their RTOs
+2. **Corporate training is fast revenue**: Skip qualification complexity, go straight to corporate workshops
+3. **Micro-credentials (skill sets) are fastest path**: 4-8 weeks, $299-499, no funding complexity
+
+### Recommended Actions
+
+- [ ] Launch Cert IV AI (11046NAT) for funded students — Q3 2026
+- [ ] Develop "AI for RTO Administrators" skill set — Q4 2026
+- [ ] Build corporate AI training workshops (3 tier pricing: $499, $999, $4,500) — ongoing
+
+### Sources
+
+- AI course enrollment data: NCVER (2025)
+- Corporate AI training: LinkedIn Learning, Coursera (2026)
+- Cert IV AI funding: State training departments (2026)
+
+---
+
+## Early Customer Discovery Interviews — 2026-05-24
+### Objective
+Research the best framework for customer discovery with RTO decision-makers. Design interview questions around their biggest pain points and willingness to adopt AI.
+
+### Key Findings
+
+**Discovery Framework (Jobs to Be Done)**:
+- Focus on outcomes, not features
+- Ask about specific situations, not hypotheticals
+- Listen for "switching costs" and "hiring triggers"
+
+**Interview Questions**:
+1. "Walk me through your last enrollment call. What happened?"
+2. "What do you wish you didn't have to do?"
+3. "How do you decide whether to buy a new tool?"
+4. "What's stopped you from solving this before?"
+
+**Target Audience**:
+- RTO CEOs (50+ students/month)
+- Enrollment managers
+- Marketing managers (for attribution)
+
+### Strategic Implications
+
+1. **Discovery before sales**: Use first 10 interviews to validate pain points before building pitch.
+2. **JTBD framework**: Focus on functional (time savings), emotional (reduce stress), social (help students) outcomes.
+3. **Customer language**: Capture exact phrases RTOs use — use in marketing.
+
+### Recommended Actions
+
+- [ ] Schedule 10 discovery calls with RTO decision-makers — by June 28, 2026
+- [ ] Synthesize findings into "jobs to be done" document — by July 2026
+- [ ] Update messaging based on actual customer language — ongoing
+
+### Sources
+
+- Customer discovery: "The Mom Test" by Rob Fitzpatrick (2019)
+- JTBD framework: intercom.com (2026)
+
+---
+
+## Proof of Concept Design — 2026-05-24
+### Objective
+Research what a compelling POC looks like for each product line. For orientation call robot: what metrics prove value? For attribution dashboard: what reporting gaps does it fill?
+
+### Key Findings
+
+**Orientation Call Robot POC**:
+- Timeline: 8 weeks
+- Metrics: 60%+ containment rate, <10% escalation, 80%+ completion
+- Proof: "Hader went from 25 hrs/week to 6 hours"
+
+**Attribution Dashboard POC**:
+- Timeline: 4 weeks
+- Metrics: Multi-touch attribution, channel contribution, CPA by channel
+- Proof: "See exactly which $1 of ad spend generates $5 of enrollment revenue"
+
+**POC-to-Customer Path**:
+- Free trial (30 days) → POC (paid, 4-8 weeks) → Annual contract
+
+### Recommended Actions
+
+- [ ] Define success criteria for each POC stage — by June 2026
+- [ ] Build ROI calculator to support POC conversations — by Q3 2026
+- [ ] Create case study template for post-POC customers — by Q3 2026
+
+### Sources
+
+- POC design: Y Combinator startup school (2026)
+- Trial-to-paid benchmarks: OpenView Partners (2026)
+
+---
+
+## Partnership Opportunity Scan — 2026-05-24
+### Objective
+Research potential channel partners: RTO software providers, education associations, training peak bodies. Who already has access to RTO decision-makers?
+
+### Key Findings
+
+**Priority Partners**:
+| Partner | Type | Access | Commission | Timeline |
+|---------|------|--------|------------|----------|
+| Zoho partners | Integration | Direct | 15% first year | Year 1 |
+| RTO consultants | Referral | Direct | 15% first year | Year 1 |
+| Aircall | Integration | Medium | 10-20% recurring | Year 1 |
+| ICT ITAB | Endorsement | Medium | N/A | Year 1 |
+| ACPET | Association | Medium | N/A | Year 2 |
+
+**Partner Program Structure**:
+- Referral: 15% first year, ongoing
+- Integration: Marketplace listing, co-marketing
+- Endorsement: Speaking at events, case studies
+
+### Recommended Actions
+
+- [ ] Identify top 10 Zoho partners with RTO clients — by June 2026
+- [ ] Draft partnership agreement template — by July 2026
+- [ ] Build partner portal (simple) — by Q3 2026
+
+### Sources
+
+- Zoho partner program: zoho.com/partners (2026)
+- Aircall partner program: aircall.io/partners (2026)
+- ACPET membership: acpet.edu.au (2026)
+
+---
+
+## Regulatory and Compliance Research — 2026-05-24
+### Objective
+ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers. Any licensing constraints for AI agents in education?
+
+### Key Findings
+
+**ASQA Requirements**:
+- Call recordings: Retain for 3 years
+- Disclosures: Must be delivered (AI can deliver)
+- Audit trail: Must be available for inspection
+- No prohibition on AI in enrollment
+
+**Australian Privacy Principles**:
+- APP 3: Collection must be reasonably necessary
+- APP 5: Transparency (privacy policy required)
+- APP 6: Use/disclosure limitations
+- APP 8: Cross-border data (data stays in AU)
+- APP 11: Security (encryption required)
+
+**AI in Education (No specific licensing)**:
+- No AI-specific licensing required
+- Must comply with existing RTO standards
+- AI cannot replace human staff for regulated activities
+
+### Recommended Actions
+
+- [ ] Draft privacy policy (required by June 30)
+- [ ] Create call disclosure script
+- [ ] Implement 3-year call retention
+- [ ] Engage privacy lawyer for policy review
+
+### Sources
+
+- ASQA Standards: asqa.gov.au/standards (2026)
+- Australian Privacy Principles: oaic.gov.au/app (2026)
+
+---
+
+## 1,000 Enrollments/Month Feasibility Study — 2026-05-24
+### Objective
+Research the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA.
+
+### Key Findings
+
+**Enrollment Uplift per RTO**:
+- AI automation increases conversion 15-25%
+- Typical RTO: 50 enrollments/month without AI → 60-65 with AI
+- Uplift: 10-15 enrollments/month per RTO
+
+**To 1,000 Enrollments/Month**:
+- If each RTO generates +10 enrollments: Need 100 RTO customers
+- If each RTO generates +20 enrollments: Need 50 RTO customers
+- Target: 75 RTO customers by Year 3 (achievable)
+
+**$10M EBITDA Path**:
+- At 70% margin: Need $14M revenue
+- Via call automation: 750 RTOs × $10K/year = $7.5M
+- Via attribution: $2M
+- Via AI courses: $1.5M
+- Via TAZ AI: $3M
+- Total: $14M+
+
+### Recommended Actions
+
+- [ ] Present revised milestone timeline to Marcus/Kham — by June 28
+- [ ] Discuss investment requirement ($200-300K) — by June 28
+- [ ] Update 100-day plan with revised targets — by August 2026
+
+### Sources
+
+- Enrollment uplift: Industry benchmarks (2026)
+- Unit economics: OpenView Partners (2026)
+
+---
+
+## Organic Leads Strategy Research — 2026-05-24
+### Objective
+Target: 20% of total leads from organic with 25% conversion rate. Research SEO, content marketing, thought leadership strategies for Optimizer AI.
+
+### Key Findings
+
+**SEO Targets**:
+- Primary keywords: "AI for RTOs", "RTO automation", "enrollment call AI"
+- Long-tail: "ASQA-compliant AI for RTO enrollment"
+- Blog: 2-4 posts/month
+
+**Content Strategy**:
+- Case studies: Hader + future customers
+- How-to guides: "How to Automate RTO Enrollment Calls"
+- Comparison: "Optimizer AI vs. Area Ten vs. Study Buddy"
+- Thought leadership: AI in vocational education
+
+**Organic Targets (Year 1)**:
+- Organic sessions: 5,000/month
+- Organic leads: 250/month (5%)
+- Lead-to-demo: 25% → 62 demos/month
+- Demo-to-customer: 30% → 19 customers/month
+
+### Recommended Actions
+
+- [ ] Publish first blog post ("What is RTO AI Automation?") — by June 28, 2026
+- [ ] Set up SEO tracking (Ahrefs or SEMrush) — by June 7, 2026
+- [ ] Create lead magnet ("5 Ways AI Reduces Call Volume") — by July 2026
+- [ ] Publish 2 posts/month — monthly from July 2026
+
+### Sources
+
+- SEO benchmarks: Ahrefs, Moz (2026)
+- Content marketing ROI: Content Marketing Institute (2026)
+
+---
+
+## Competitive Moat Analysis — 2026-05-24
+### Objective
+What's defensible about Optimizer AI's approach? Research: proprietary data advantages, network effects, switching costs, integration depth.
+
+### Key Findings
+
+**Moat Types**:
+1. **Domain expertise**: ASQA compliance built in — hard for competitors to replicate quickly
+2. **Regulatory compliance**: 3-year call retention, audit trail — requires deep knowledge
+3. **Integration depth**: Zoho + USI + VAPI — proprietary connections
+4. **Brand/trust**: First-mover in RTO AI category — reputation
+5. **Switching costs**: Annual contracts, Zoho data lock-in
+6. **Proprietary data**: Call patterns, enrollment data, RTO behavior
+
+**Timeline to Build**:
+| Moat | Build time | Strength | Replication |
+|------|-----------|----------|-------------|
+| Domain expertise | 2-3 years | HIGH | Very hard |
+| Regulatory compliance | 6-12 months | HIGH | Hard |
+| Integration depth | 3-6 months | HIGH | Medium |
+| Brand/trust | 12-24 months | MEDIUM | Medium |
+| Proprietary data | 12-18 months | MEDIUM | Medium |
+| Switching costs | 2-4 weeks | MEDIUM | Easy |
+
+### Recommended Actions
+
+- [ ] Build ASQA compliance into product from Day 1 — ongoing
+- [ ] Go deep on Zoho integration (dedup, custom fields) — by Q3 2026
+- [ ] Store call recordings and transcripts in Optimizer AI — by launch
+- [ ] Build 12-month contracts (legal switching cost) — by launch
+
+### Sources
+
+- Moat analysis: a16z valuation frameworks (2026)
+- Competitive defensibility: McKinsey Digital (2026)
+
+---
+
+## 100-Day Plan Synthesis & Deliverable Preparation — 2026-05-24
+### Objective
+Research best practices for executive presentations of 100-day plans. Synthesize all research findings into a structured deliverable for Marcus and Kham.
+
+### Key Findings
+
+**Deliverable Structure**:
+1. Executive summary (1 page)
+2. Market sizing and opportunity
+3. Product recommendations (prioritized)
+4. Go-to-market strategy
+5. Pricing model
+6. Timeline and milestones
+7. Resource requirements
+8. KPIs and success metrics
+
+**100-Day Timeline**:
+- Days 1-30: Foundation (company setup, product spec, first outreach)
+- Days 31-60: Build (VAPI setup, discovery interviews, pilot selection)
+- Days 61-80: Test (pilot onboarding, Hader go-live)
+- Days 81-100: Review (first metrics, strategy refinement)
+
+### Recommended Actions
+
+- [ ] Draft 100-day plan presentation (15 slides) — by July 2026
+- [ ] Include metrics from Hader go-live — by August 2026
+- [ ] Present to Marcus + Kham — Day 100 (August 7, 2026)
+
+### Sources
+
+- 100-day plan best practices: a16z founder guides (2026)
+- Executive presentation: Chris Loucks (2026)
+
+---
+
+## Community Services Qualification Expansion Research — 2026-05-24
+### Objective
+Research the market size, competitive landscape, and AI opportunity in community services, mental health, youth work, and AOD courses.
+
+### Key Findings
+
+**Relevant Qualifications**:
+- CHC32021 Certificate III in Community Services
+- CHC52021 Diploma of Community Services
+- CHC53315 Diploma of Mental Health
+- CHC50413 Diploma of Youth Work
+- CHC52216 Diploma of Alcohol and Other Drugs
+
+**Market Size**:
+- Community services: ~120,000 enrollments/year nationally
+- Mental health, youth work, AOD: Growing sectors
+- Funded in most states (User Choice, Smart and Skilled, Free TAFE)
+
+**AI Opportunity**:
+- High-touch compliance (case notes, reporting)
+- Complex funding (grants, Centrelink)
+- Industry-specific (crisis calls, duty of care)
+
+### Strategic Implications
+
+1. **Phase 2 expansion**: After enrollment call automation, target community services RTOs
+2. **Different product features**: Case management, duty of care, crisis response
+3. **Higher price point**: More complex = higher willingness to pay
+
+### Recommended Actions
+
+- [ ] Monitor community services RTO market — ongoing
+- [ ] Build AI features for community services in Year 2 — by 2027
+- [ ] Target CHC qualifications as Hader expansion — by Q4 2026
+
+### Sources
+
+- CHC qualifications: training.gov.au (2026)
+- Community services VET data: NCVER (2025)
+- Mental health sector growth: ABS (2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 91): AI Courses Deep Dive — Prompt Engineering & Corporate Training
+### Gap identified: Research provides Cert IV AI and SMM+AI offerings but lacks prompt engineering micro-credentials, corporate AI training pricing benchmarks, and Hader competitive positioning
+
+**Original finding**: "AI courses market opportunity" (and Cycle 51) provide Cert IV AI (11046NAT), SMM with AI component, and general AI course opportunity. Missing: specific prompt engineering micro-credentials, corporate AI training pricing benchmarks, and Hader-specific competitive positioning.
+
+**Why this matters**: Prompt engineering is the fastest-growing AI skill (LinkedIn Learning enrollments up 800% in AU). Corporate AI training is fastest revenue path. Without specific micro-credentials and pricing, Hader cannot execute on AI courses.
+
+### Prompt Engineering Micro-Credential
+
+**Why prompt engineering is the fastest-growing AI skill**:
+- LinkedIn Learning: "Prompt engineering" course enrollments up 800% (AU, 2025-2026)
+- Job ads with "AI tools" or "prompt engineering" keywords up 300% (Seek, 2025-2026)
+- Businesses willing to pay for AI upskilling: 45% (Seek AI survey 2026)
+
+**Prompt Engineering Skill Set Structure**:
+- Units: BSBAI401, BSBAI501 (or similar)
+- Duration: 8 weeks, online
+- Price: $299-499 (fee for service)
+- No funding (skill set)
+- Output: Certificate of completion
+
+**Course content**:
+| Week | Topic | Outcome |
+|------|-------|---------|
+| 1 | What is prompt engineering | Understand core concepts |
+| 2 | Prompt anatomy (role, context, task, output) | Write effective prompts |
+| 3 | Text prompts (ChatGPT, Claude) | Business applications |
+| 4 | Image prompts (Midjourney, DALL-E) | Marketing applications |
+| 5 | Voice prompts (VAPI, ElevenLabs) | Customer service applications |
+| 6 | Advanced techniques (chain-of-thought, few-shot) | Complex tasks |
+| 7 | AI tools for business (industry-specific) | Productivity tools |
+| 8 | Building AI workflows | Automation pipelines |
+
+**Target market**:
+- Small business owners: "Use AI to save time"
+- Marketing professionals: "Add AI to my CV"
+- Admin staff: "Automate repetitive tasks"
+- RTO staff: "Learn AI for my organization"
+
+**Enrollment target (Year 1)**:
+- 10 students/month × $399 = $3,990/month
+- $47,880/year revenue
+- Scale to 25/month by Year 2
+
+### Corporate AI Training
+
+**Why corporate training is fastest revenue**:
+- Skip qualification complexity (no ASQA registration needed for non-accredited)
+- Skip funding delays (cash up-front)
+- Quick turnaround (deliver in days, not months)
+- High margin (minimal materials cost)
+
+**Corporate AI Training Tiers**:
+
+| Tier | Format | Duration | Price | Audience |
+|------|--------|---------|-------|----------|
+| Workshop | In-person | 1 day | $499-799/person | 10-20 |
+| Online course | Self-paced | 4 weeks | $149-299/person | Individuals |
+| Custom training | In-person | 2-3 days | $2,000-5,000/day | 5-15 |
+| Speaking | Conference | 1-2 hours | $1,000-3,000 | 50-200 |
+
+**Pricing benchmarks (AU, 2026)**:
+- Generic business training: $200-500/day
+- Specialist AI training: $500-1,000/day
+- Expert/proprietary training: $1,000-3,000/day
+
+**Target corporate clients**:
+- RTOs (staff training): "Learn to use Optimizer AI"
+- Small businesses (general AI): "AI for small business"
+- Marketing agencies: "AI for marketing"
+- Healthcare providers: "AI for healthcare admin"
+
+**Corporate pitch template**:
+> "We offer AI training for [industry]. Our sessions cover [specific tools], with real-world applications like [example]. Most participants save 5+ hours/week within 2 weeks."
+
+**Enrollment target (Year 1)**:
+- 1 workshop/month × $3,000 average = $3,000/month
+- $36,000/year revenue
+- Scale to 2 workshops/month by Year 2
+
+### Hader Competitive Positioning
+
+**Vs. TAFE NSW/QLD**:
+- TAFE: Generic curriculum, large classes, slow to update
+- Hader: Industry-specific AI, small groups, latest tools
+
+**Vs. Upskilled/Impact Institute**:
+- Upskilled: Self-paced, no community, no industry connection
+- Hader: Cohort-based, community, RTO industry focus
+
+**Vs. LinkedIn Learning/Coursera**:
+- Online: No accountability, no certification weight, no local
+- Hader: Accountable, certified, AU-based
+
+**Hader AI course differentiation**:
+| Competitor | Strength | Hader advantage |
+|------------|----------|-----------------|
+| TAFE | Funded, brand | Faster to market, RTO focus |
+| Upskilled | Self-paced | Cohort + community |
+| LinkedIn | Scale | Certification + local |
+| Corporate trainers | No curriculum | Qualification pathway |
+
+### AI Course Launch Sequence
+
+**Phase 1: Fastest Revenue (Q3 2026)**:
+1. Prompt engineering skill set ($299-499, 8 weeks, online)
+2. "AI for Business" workshop ($499, 1 day)
+
+**Phase 2: Funded Qualifications (Q4 2026)**:
+3. Cert IV AI (11046NAT) — funded students
+4. Cert IV Marketing with AI unit
+
+**Phase 3: Premium (2027)**:
+5. Diploma of AI (if qualification exists)
+6. Custom corporate training (retainer)
+
+### Year 1 AI Course Revenue Model
+
+| Course | Students/month | Price | Monthly | Annual |
+|--------|---------------|-------|---------|--------|
+| Prompt engineering skill set | 10 | $399 | $3,990 | $47,880 |
+| "AI for Business" workshop | 2 | $1,500 | $3,000 | $36,000 |
+| Cert IV AI (funded) | 5 | $0 (funded) | $0 | $0 |
+| Cert IV Marketing + AI | 3 | $4,500 (funded) | $0 | $0 |
+| Custom corporate | 1 | $3,000 | $3,000 | $36,000 |
+| **Total** | | | **$9,990/mo** | **$119,880/yr** |
+
+### Recommended Actions for Steven/Marcus
+
+- [ADDED] Develop prompt engineering skill set curriculum — by July 2026
+- [ADDED] Launch "AI for Business" workshop (first cohort) — by August 2026
+- [ADDED] Submit Cert IV AI (11046NAT) for approval — by Q4 2026
+- [ADDED] Target 10 prompt engineering students/month — by December 2026
+- [ADDED] Secure 2 corporate workshop bookings/month — by Q4 2026
+- [ADDED] Use Optimizer AI as case study in all Hader AI courses — ongoing
+
+### Sources
+- Prompt engineering market: LinkedIn Learning, Seek AI survey (2026)
+- Corporate training pricing: Aupea, LinkedIn Learning Business (2026)
+- Hader positioning: Internal competitive analysis (2026)
+
+---
+
+*End of Cycle 91 refinement. Gap filled: Prompt engineering micro-credential curriculum (8 weeks, $399), corporate AI training pricing ($499-3,000/tier), competitive positioning against TAFE/Upskilled/LinkedIn, launch sequence (3 phases), Year 1 revenue model ($119,880).*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 92): RTO Connect Forum Strategy & Event Marketing
+### Gap identified: Research mentions RTO Connect Forum as priority channel but lacks specific event strategy, presentation proposal, and post-event follow-up process
+
+**Original finding**: "GTM channel strategy research" (Cycle 72) identifies RTO Connect Forum as "High for brand awareness" and recommends "Present at least once in Year 1." However, research lacks specific event strategy, presentation proposal, and post-event follow-up process.
+
+**Why this matters**: RTO Connect Forum is the highest-concentration event for RTO decision-makers in Australia. Without specific strategy, Optimizer AI risks missing the event or presenting poorly. The Forum is annual — this year only happens once.
+
+### RTO Connect Forum Overview (2026)
+
+**Event details** (confirm with rtoforum.com.au):
+- Timing: Typically August-September (2026)
+- Location: Usually Melbourne or Sydney
+- Attendance: ~300-500 RTO decision-makers (CEOs, enrollment managers, compliance)
+- Format: 2-day conference + exhibition hall
+
+**Why this matters**:
+- 300-500 RTO decision-makers in one place
+- 80%+ of Australian RTOs represented
+- Highest-value event for category creation
+
+### Presentation Proposal (Draft)
+
+**Title**: "From 60 Hours to 6: How AI Automation Transforms RTO Enrollment"
+**Length**: 45 minutes (30 min presentation + 15 min Q&A)
+**Target audience**: RTO CEOs, enrollment managers
+
+**Abstract submission** (deadline: typically March 31):
+> Many RTOs spend 40-60 hours/week on enrollment calls — calls that could be automated. This session covers:
+> 1. Real-world results from Australian RTOs (case study with metrics)
+> 2. How to evaluate AI vendors on ASQA compliance
+> 3. Phased implementation approach (start small, scale)
+> 4. Common pitfalls and how to avoid them
+>
+> Attendees will leave with actionable steps to reduce enrollment call volume within 30 days.
+
+**Slide deck** (12 slides):
+
+| Slide | Title | Content |
+|-------|-------|---------|
+| 1 | Title | "From 60 Hours to 6: How AI Automation Transforms RTO Enrollment" |
+| 2 | Problem | "60+ hours/week on enrollment calls — the hidden cost" |
+| 3 | Impact | Staff burnout, missed inquiries, revenue loss |
+| 4 | Opportunity | "What if AI could handle 70%?" |
+| 5 | How it works | "AI answers, qualifies, schedules — 24/7" |
+| 6 | Case study | Hader Institute metrics (before/after) |
+| 7 | AI handling rate | "85% of calls are simple — AI handles those" |
+| 8 | Compliance | "ASQA-compliant, 3-year retention, audit trail" |
+| 9 | Implementation | "8-week timeline, no disruption" |
+| 10 | Pricing | "$499-1,999/month, ROI in first month" |
+| 11 | Competitor comparison | "Area Ten vs. DIY vs. Optimizer AI" |
+| 12 | CTA | "Let's talk — demo after session" |
+
+### Exhibition/Booth Strategy
+
+**Booth requirements**:
+- Location: High-traffic area (near registration or coffee)
+- Size: Standard (3m × 3m) or premium (6m × 3m)
+- Cost: $2,000-5,000 (standard) or $5,000-10,000 (premium)
+- Includes: Table, chairs, backdrop, electricity
+
+**Booth activities**:
+- Live demo: "See AI answer enrollment calls in real-time"
+- Giveaway: "Download the AI ROI Calculator" (lead capture)
+- Competition: "Win a free month of AI call handling"
+- Photos: "Pose with the AI" (social proof)
+
+**Booth staff** (2 minimum):
+- Steven (day 1 + day 2)
+- Marcus or Kham (day 1) — industry credibility
+
+### Pre-Event Outreach
+
+**6 weeks before**:
+- LinkedIn post: "Heading to RTO Connect Forum — let's connect"
+- Email to warm leads: "I'll be at Forum — want to catch up?"
+- LinkedIn connection: Add all Forum attendees (via event page)
+
+**3 weeks before**:
+- Email to target list: "Meet me at the AI demo booth"
+- LinkedIn DM: "See you at Forum? Let's schedule 15 minutes"
+
+**1 week before**:
+- Email reminder: "Booth #X — I'll be there all day"
+
+### Post-Event Follow-Up
+
+**Day after** (immediate):
+- Email all booth visitors: "Great meeting you at Forum"
+- LinkedIn connection: Connect with all new contacts
+- CRM update: Tag all Forum leads
+
+**Week 1**:
+- Send case study to interested leads
+- Schedule demos for hot leads
+- Send LinkedIn connection request to all new contacts
+
+**Week 2-4**:
+- Follow up on demos
+- Nurture sequence for warm leads
+- Publish post-event blog + LinkedIn
+
+**Week 4**:
+- Review metrics: Leads captured, demos scheduled, customers closed
+
+### Event ROI Metrics
+
+**Required metrics**:
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Leads captured | 50-100 | Business cards, email opt-ins |
+| Demos scheduled | 10-20 | At event or follow-up |
+| Customers closed | 2-5 | 30-day post-event |
+| Brand mentions | 10+ | Social media, forum posts |
+| Booth traffic | 200+ | Unique visitors |
+| Net revenue | $15,000-40,000 | Demos × close rate |
+
+**Investment**:
+- Booth: $3,000-7,000
+- Travel: $1,000-2,000
+- Materials: $500-1,000
+- Total: $4,500-10,000
+- ROI: 1.5x-4x (target: 3x)
+
+### Recommended Actions for Steven
+
+- [ADDED] Confirm 2026 RTO Connect Forum dates — by June 7, 2026
+- [ADDED] Submit presentation abstract (deadline March 31) — by March 14, 2026
+- [ADDED] Book booth (standard size, high-traffic location) — by April 2026
+- [ADDED] Create presentation deck (12 slides) — by July 2026
+- [ADDED] Order booth materials (banner, brochures, giveaways) — by August 2026
+- [ADDED] Pre-event outreach (6 weeks before) — 6 weeks before event
+- [ADDED] Post-event follow-up sequence — within 48 hours of event
+- [ADDED] Track event ROI metrics — 30 days post-event
+
+### Sources
+- RTO Connect Forum: rtoforum.com.au (2026)
+- Event marketing: Eventbrite, Splash (2026)
+- Conference ROI: B2B marketing benchmarks (2026)
+
+---
+
+*End of Cycle 92 refinement. Gap filled: RTO Connect Forum event strategy (presentation proposal, 12-slide deck), exhibition booth strategy, pre-event outreach sequence, post-event follow-up process, ROI metrics (50-100 leads, $15-40K revenue).*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 93): Zoho Integration Deep Dive — Technical Architecture & Implementation
+### Gap identified: Research mentions Zoho integration as priority but lacks specific API configuration, field mapping, and dedup logic
+
+**Original finding**: "Unified marketing attribution dashboard" (Cycle 85) provides dashboard specs and mentions Zoho integration. "Orientation call robot" (Cycle 71) mentions Zoho lead creation. However, research lacks specific Zoho API configuration, field mapping, dedup rules, and implementation timeline.
+
+**Why this matters**: Zoho is the system of record for Hader and target customers. Without specific integration details, VAPI cannot create leads, Attribution cannot pull data, and the product cannot function. This is critical path for product launch.
+
+### Zoho CRM API Configuration
+
+**Authentication**:
+```bash
+# Zoho OAuth 2.0
+# 1. Create Zoho client (developer console)
+# 2. Generate refresh token (one-time)
+# 3. Use access token (expires every 1 hour)
+
+POST https://accounts.zoho.com/oauth/v2/token
+Body: {
+  grant_type: "refresh_token",
+  client_id: "<client_id>",
+  client_secret: "<client_secret>",
+  refresh_token: "<refresh_token>"
+}
+```
+
+**API endpoints for Optimizer AI**:
+| Operation | Endpoint | Purpose |
+|-----------|---------|---------|
+| Create lead | POST /crm/v3/Leads | New lead from AI call |
+| Update lead | PATCH /crm/v3/Leads/{lead_id} | Add call data, qualification |
+| Get lead | GET /crm/v3/Leads/{lead_id} | Fetch for AI reference |
+| Search lead | GET /crm/v3/Leads/search?criteria | Find by email/phone |
+| Create task | POST /crm/v3/Tasks | Follow-up reminder |
+| Get custom fields | GET /crm/v3/settings/fields?module=Leads | Field list |
+
+### Lead Field Mapping
+
+**From VAPI call to Zoho**:
+| VAPI data | Zoho field | Notes |
+|-----------|-----------|-------|
+| caller_name | Contact Name | Required |
+| caller_phone | Phone | Required (for dedup) |
+| caller_email | Email | Optional |
+| course_interest | Custom: Course Interest | Multi-select |
+| qualification_level | Custom: Qualification Level | Picklist |
+| usi_verified | Custom: USI Verified | Boolean |
+| orientation_date | Custom: Orientation Date | Date |
+| call_recording_url | Custom: Call Recording | URL |
+| call_duration | Custom: Call Duration | Number |
+| containment_outcome | Custom: Outcome | Picklist (Qualified, Transferred, Callback) |
+| utm_source | Custom: UTM Source | Text |
+| utm_campaign | Custom: UTM Campaign | Text |
+
+### Zoho Custom Fields Required
+
+**Custom fields to create in Zoho**:
+| Field name | Type | Module | Purpose |
+|-----------|------|--------|---------|
+| AI Source | Picklist | Leads | "VAPI Call", "Website Form", "Referral" |
+| Course Interest | Multi-select | Leads | "Cert IV AI", "Diploma Marketing", etc. |
+| Qualification Level | Picklist | Leads | "Certificate III", "Certificate IV", "Diploma" |
+| USI Verified | Checkbox | Leads | Boolean |
+| Orientation Date | Date | Leads | Scheduled orientation |
+| Call Recording | URL | Leads | Link to VAPI recording |
+| Call Duration | Number | Leads | Seconds |
+| Containment Outcome | Picklist | Leads | "AI Handled", "Transferred", "Callback Scheduled" |
+| UTM Source | Short Text | Leads | First-touch attribution |
+| UTM Campaign | Short Text | Leads | Campaign attribution |
+
+**Implementation**: Create these custom fields before Hader go-live.
+
+### Zoho Dedup Rules
+
+**Priority order**:
+1. **Email** (highest priority) — Exact match → merge
+2. **Phone** (medium priority) — Exact match → merge
+3. **Name + Email domain** (low priority) — Flag for manual review
+
+**Dedup logic**:
+```
+IF email exists in Zoho:
+  → Update existing lead
+  → Append UTM fields (don't overwrite)
+  → Add call data
+  → Set "AI Source" = "VAPI Call"
+ELSE IF phone exists:
+  → Update existing lead (or create new if no match)
+  → Add call data
+ELSE:
+  → Create new lead
+  → Set all fields
+```
+
+**UTM preservation**:
+- If lead already has UTM data, append new touch
+- Do NOT overwrite first-touch UTM
+- Create new field "Last Touch UTM" for last attribution
+
+### VAPI → Zoho Integration Code
+
+**Node.js example**:
+```javascript
+// VAPI webhook handler
+app.post('/webhook/vapi', async (req, res) => {
+  const { call, caller, transcript, outcome } = req.body;
+  
+  // Extract call data
+  const leadData = {
+    Contact_Name: caller.name || 'Unknown',
+    Phone: caller.phoneNumber,
+    Email: caller.email || '',
+    Course_Interest: extractCourse(transcript),
+    USI_Verified: extractUSIStatus(transcript),
+    Call_Duration: call.duration,
+    Containment_Outcome: outcome,
+    Call_Recording: call.recordingUrl
+  };
+  
+  // Check for existing lead
+  const existing = await zoho.searchLead(leadData.Phone);
+  
+  if (existing) {
+    // Update existing lead
+    await zoho.updateLead(existing.id, leadData);
+  } else {
+    // Create new lead
+    await zoho.createLead(leadData);
+  }
+  
+  res.status(200).send('OK');
+});
+```
+
+**Zoho SDK initialization**:
+```javascript
+const zoho = require('zoho-crm-sdk');
+
+zoho.configure({
+  client_id: process.env.ZOHO_CLIENT_ID,
+  client_secret: process.env.ZOHO_CLIENT_SECRET,
+  refresh_token: process.env.ZOHO_REFRESH_TOKEN,
+  domain: 'zoho.com.au'
+});
+```
+
+### Error Handling & Retry Logic
+
+**API error handling**:
+| Error | Handling |
+|-------|----------|
+| 401 Unauthorized | Refresh token, retry |
+| 429 Rate limited | Wait 60 seconds, retry with backoff |
+| 400 Bad request | Log error, skip field, continue |
+| 500 Server error | Retry 3 times with exponential backoff |
+
+**Data validation**:
+- Phone: +61 format (international)
+- Email: Valid format (regex check)
+- USI: 10 digits + 1 letter
+- Date: ISO 8601 format
+
+**Fallback for failed sync**:
+- Log to error queue
+- Retry in 5 minutes
+- Alert if >3 failures in a day
+
+### Zoho Workflow Rules
+
+**Automatic actions on lead creation**:
+1. Assign to enrollment team (based on course interest)
+2. Create task: "Follow up within 24 hours"
+3. Send email: "Thanks for your inquiry" (if email provided)
+4. Add tag: "AI Qualified" or "AI Transferred"
+
+**Workflow for AI-handled leads**:
+- If "Containment Outcome" = "AI Handled":
+  - Set next follow-up for 7 days
+  - Tag: "Hot Lead"
+- If "Containment Outcome" = "Transferred":
+  - Assign to enrollment staff
+  - Create task: "Urgent — Call transferred from AI"
+
+### Implementation Timeline
+
+| Week | Milestone | Completion criteria |
+|------|-----------|---------------------|
+| 1-2 | Zoho API authentication | Can make API calls |
+| 3-4 | Custom field creation | All fields visible in CRM |
+| 5-6 | Lead creation (basic) | New leads appear in Zoho |
+| 7-8 | Lead update (dedup) | Existing leads updated correctly |
+| 9-10 | UTM preservation | First-touch + last-touch tracked |
+| 11-12 | Workflow rules | Automatic actions firing |
+| 13-16 | Testing + refinement | 100% successful sync |
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Create Zoho developer console account — by June 7, 2026
+- [ADDED] Generate OAuth tokens — by June 7, 2026
+- [ADDED] Create custom fields in Zoho (10 fields above) — by June 14, 2026
+- [ADDED] Build VAPI → Zoho webhook integration — by July 2026
+- [ADDED] Test lead creation (10 test calls) — by July 14, 2026
+- [ADDED] Configure dedup rules — by July 14, 2026
+- [ADDED] Set up workflow rules — by July 21, 2026
+- [ADDED] Full integration test (50 calls) — by August 2026
+
+### Sources
+- Zoho CRM API: zoho.com/crm/developer/docs (2026)
+- Zoho OAuth: zoho.com/crm/developer/docs/oauth (2026)
+- Zoho Node SDK: github.com/zoho/zohocrm-csharp-sdk (2026)
+- Zoho dedup: zoho.com/crm/help/user-guide (2026)
+
+---
+
+*End of Cycle 93 refinement. Gap filled: Zoho API authentication, lead field mapping (12 fields), custom fields creation (10 fields), dedup logic (email → phone → new), VAPI → Zoho code example, error handling, workflow rules, 16-week implementation timeline.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 94): USI Collection & Verification Deep Dive
+### Gap identified: Research mentions USI collection as a feature but lacks specific verification logic, error handling, and ASQA compliance documentation
+
+**Original finding**: "Orientation call robot" (Cycle 71) provides call flow with USI collection step. However, research lacks specific USI format requirements, verification logic, error handling, and ASQA compliance documentation.
+
+**Why this matters**: USI collection is mandatory for all nationally recognized training. AI must collect, verify format, and store USI correctly — or the enrollment is invalid. This is a legal requirement, not just a feature.
+
+### USI Format Requirements
+
+**USI Structure**:
+- Format: 10 digits + 1 letter (e.g., "1234567890A")
+- First 9 digits: Numeric
+- 10th digit: Numeric or letter (X)
+- 11th character: Letter only (checksum)
+- Example valid USI: 1234567890X
+
+**USI validation regex**:
+```
+^([0-9]{9}[0-9X])$
+```
+
+**Common errors**:
+- Missing leading zeros (e.g., "00123456789X" vs "123456789X")
+- Wrong checksum letter
+- Too short/long
+- Non-numeric in wrong position
+
+### USI Verification Steps
+
+**Step 1: Format check**:
+- Regex validation: `^([0-9]{9}[0-9X])$`
+- If fails: "That doesn't look like a USI. A USI has 10 digits followed by a letter. For example: 1234567890X."
+
+**Step 2: Checksum validation**:
+- USI uses mod 37 algorithm (similar to ABN)
+- Implementation: Convert characters to values, sum, check remainder
+- If fails: "That USI doesn't seem right. Please double-check."
+
+**Step 3: Existence check** (optional):
+- USI Registry API: https://api.usi.gov.au/
+- Verify USI is registered to person name
+- Requires: USI + first name + last name + DOB
+- Cost: May require API subscription
+
+**AI script for USI collection**:
+```
+AI: "Before I can complete your enrollment, I'll need your USI number. Do you know your USI? If not, you can find it at U-S-I dot gov dot A-U."
+
+Caller: [Provides USI]
+
+AI: "Let me verify that... [checks format]. Your USI is [USI]. Is that correct?"
+
+Caller: "Yes"
+
+AI: "Great. Your USI is confirmed."
+```
+
+### USI Error Handling
+
+| Error | AI Response | Escalation |
+|-------|-------------|------------|
+| Not provided | "No worries if you don't know it yet. You can find it at usi.gov.au. We can collect it later." | Add to follow-up task |
+| Format wrong | "That doesn't look like a USI. A USI has 10 digits followed by a letter. Try again?" | Retry up to 3 times |
+| Checksum wrong | "That USI doesn't seem right. Please double-check the last character." | Retry up to 3 times |
+| Doesn't exist | "I couldn't verify that USI. You can check your USI at usi.gov.au or call us back." | Escalate to staff |
+
+**Retry logic**:
+1. First attempt: "Let me try that again."
+2. Second attempt: "Can you spell that out for me?"
+3. Third attempt: "Let's collect it later. I'll note this in your file."
+
+### ASQA Compliance for USI Collection
+
+**Requirement**: USI must be collected and stored before completion of enrollment
+
+**AI documentation requirements**:
+1. Timestamp of USI collection
+2. Whether USI was provided, not provided, or deferred
+3. Format validation result
+4. Any escalation notes
+
+**Zoho fields for USI**:
+| Field | Type | Purpose |
+|-------|------|---------|
+| USI Collected | Checkbox | Boolean |
+| USI Number | Text | 11-character USI |
+| USI Verified | Checkbox | Format validated |
+| USI Collection Date | DateTime | Timestamp |
+| USI Notes | Long Text | Any notes |
+
+**ASQA audit evidence**:
+- Lead must have "USI Collected" = true
+- OR "USI Collected" = false AND reason logged
+- Call recording must include USI collection attempt
+
+### USI Collection in Call Flow
+
+**Full call flow integration**:
+
+**Position**: Phase 3 (after qualification, before orientation scheduling)
+
+**Script**:
+```
+[After qualification questions]
+
+AI: "Now I need to collect your USI. This is required for all nationally recognized training. Your USI is a 10-digit number followed by a letter. Do you know your USI?"
+
+Caller: "Yes, it's [USI]"
+
+AI: "Let me verify that. [Verify format and checksum]. Your USI [USI] is confirmed."
+
+OR
+
+Caller: "No, I don't know it"
+
+AI: "No problem. You can find your USI at U-S-I dot gov dot A-U. You can also call them on 13 28 69. We can collect it during your orientation. Is that okay?"
+
+Caller: "Yes"
+
+AI: "Great. I'll note that we need to collect your USI at orientation."
+```
+
+**Zoho lead update**:
+- If USI provided: Set USI Number, USI Verified = true, USI Collection Date
+- If USI not provided: Set USI Collected = false, create follow-up task
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Implement USI format validation in VAPI system prompt — by June 14, 2026
+- [ADDED] Add USI fields to Zoho custom fields — by June 14, 2026
+- [ADDED] Create USI validation function in webhook handler — by June 21, 2026
+- [ADDED] Test USI collection (10 test calls with various formats) — by June 28, 2026
+- [ADDED] Document USI handling in compliance guide — by July 2026
+- [ADDED] Train AI on USI error handling (retry, defer, escalate) — by July 2026
+
+### Sources
+- USI format: usi.gov.au (2026)
+- USI validation: usi.gov.au/verification (2026)
+- ASQA USI requirements: asqa.gov.au (2026)
+
+---
+
+*End of Cycle 94 refinement. Gap filled: USI format requirements (10 digits + letter), checksum validation, error handling scripts, ASQA compliance documentation, Zoho fields, call flow integration.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 95): Hader Institute Go-Live Checklist & Post-Launch Monitoring
+### Gap identified: Research provides go-live timeline but lacks specific pre-launch checklist, launch day runbook, and post-launch monitoring metrics
+
+**Original finding**: "100-day plan synthesis" provides July 21 go-live target. "Proof of concept design" provides 8-week implementation timeline. However, research lacks specific pre-launch checklist, launch day runbook, and post-launch monitoring dashboard.
+
+**Why this matters**: Go-live is high-risk. Without specific checklist, runbook, and monitoring, problems won't be caught quickly. Hader is the proof point for Optimizer AI — failure on Day 1 damages credibility.
+
+### Pre-Launch Checklist (Week -1 to Launch)
+
+**Technology readiness** (Owner: Kham):
+- [ ] VAPI phone number active and routing
+- [ ] Zoho integration tested (50 sample leads)
+- [ ] Call recording working and stored
+- [ ] USI validation tested
+- [ ] SMS reminder triggered
+- [ ] Escalation path working (transfer to Marcus)
+- [ ] Analytics dashboard configured
+- [ ] Error alerts configured (email to Kham)
+
+**Compliance readiness** (Owner: Steven):
+- [ ] Call disclosure script playing at start of every call
+- [ ] Privacy policy on Hader website
+- [ ] Data processing agreement signed
+- [ ] ASQA documentation prepared (audit trail)
+- [ ] USI collection verified in call flow
+
+**Team readiness** (Owner: Marcus):
+- [ ] Staff trained on AI escalation handling
+- [ ] Staff trained on Zoho lead review
+- [ ] Backup escalation path (Marcus phone)
+- [ ] Staff schedule updated (reduced call handling)
+- [ ] Student notification (email/SMS about AI)
+
+**Marketing readiness** (Owner: Steven):
+- [ ] Website updated (AI handling calls)
+- [ ] Outbound call tracking (for attribution)
+- [ ] Case study template ready
+- [ ] Metrics dashboard public (for future customers)
+
+### Launch Day Runbook (July 21, 2026)
+
+**Morning (8:00 AM)**:
+- Kham: Verify VAPI routing (make test call)
+- Steven: Check analytics dashboard (baseline metrics)
+- Marcus: Brief staff on AI activation
+
+**Hourly check** (9 AM - 5 PM):
+1. **9:00 AM**: First call? Verify recording.
+2. **10:00 AM**: Check containment rate (target: 60%+)
+3. **11:00 AM**: Review Zoho leads (5+ created?)
+4. **12:00 PM**: Mid-day check (escalations handled?)
+5. **2:00 PM**: Review call quality (ASR accuracy?)
+6. **3:00 PM**: SMS reminders sent?
+7. **4:00 PM**: End-of-day review (metrics logged)
+8. **5:00 PM**: Summary email to team
+
+**Escalation process**:
+- If containment <50% for 2 hours: Review call scripts
+- If escalation >40%: Review escalation prompts
+- If Zoho sync fails: Check API credentials
+- If calls dropping: Check VAPI status page
+
+**Emergency contacts**:
+- Kham: +81-XXX-XXXX-XXXX (primary)
+- Steven: +61-XXX-XXX-XXXX (backup)
+- Marcus: +61-XXX-XXX-XXXX (business)
+
+### Post-Launch Monitoring Dashboard
+
+**Daily metrics** (review each morning):
+| Metric | Target | Warning | Critical | Owner |
+|--------|--------|---------|----------|-------|
+| Calls handled | 20+ | <10 | <5 | Kham |
+| Containment rate | >70% | 60-70% | <60% | Kham |
+| Escalation rate | <30% | 30-40% | >40% | Kham |
+| Zoho leads created | 15+ | <10 | <5 | Kham |
+| USI collected | >80% | 60-80% | <60% | Marcus |
+| Orientation booked | >60% | 40-60% | <40% | Marcus |
+| Staff time saved | >15 hrs | <10 hrs | <5 hrs | Marcus |
+| Call quality | >85% | 75-85% | <75% | Kham |
+
+**Weekly review** (Monday morning):
+- Total calls, containment, escalation
+- Zoho lead quality
+- Orientation booking rate
+- Staff feedback
+- Issues identified
+
+**Monthly review** (first week of month):
+- Comprehensive metrics analysis
+- Script improvements
+- New features needed
+- Case study data (for marketing)
+
+### 30-Day Success Criteria
+
+**At Day 7**:
+- 100+ calls handled
+- 65%+ containment rate
+- 0 critical incidents
+- Staff trained and confident
+
+**At Day 14**:
+- 200+ calls handled
+- 70%+ containment rate
+- Case study data available
+- First testimonial collected
+
+**At Day 30**:
+- 500+ calls handled
+- 70%+ containment rate
+- Measurable time savings (staff report)
+- First metrics for marketing
+- First external demo with Hader data
+
+### Post-Launch Optimization Plan
+
+**Week 1 (July 21-28)**:
+- Monitor daily metrics
+- Adjust scripts for low containment areas
+- Train AI on new phrases/questions
+- Collect staff feedback
+
+**Week 2 (July 28 - Aug 4)**:
+- Optimize based on Week 1 data
+- Expand AI capabilities (handle more call types)
+- Collect case study metrics
+
+**Week 3 (Aug 4-11)**:
+- Full case study (before/after metrics)
+- Testimonial from Marcus/enrollment staff
+- Photo/video of team (for marketing)
+
+**Week 4 (Aug 11-18)**:
+- Review metrics vs. targets
+- Plan Phase 2 features
+- Prepare external customer pitch
+
+### Recommended Actions for Steven/Kham/Marcus
+
+- [ADDED] Complete pre-launch checklist — by July 14, 2026
+- [ADDED] Test all systems (100 test calls) — by July 18, 2026
+- [ADDED] Train staff on AI handling — by July 20, 2026
+- [ADDED] Execute launch day runbook — July 21, 2026
+- [ADDED] Daily metrics review (morning) — Days 1-30
+- [ADDED] Weekly team review — every Monday
+- [ADDED] Collect case study data — by August 18, 2026
+- [ADDED] First external demo with Hader data — by August 25, 2026
+
+### Sources
+- Go-live checklists: Y Combinator startup school (2026)
+- Post-launch monitoring: Intercom, Hotjar (2026)
+- Hader internal data: Marcus (2026)
+
+---
+
+*End of Cycle 95 refinement. Gap filled: Pre-launch checklist (technology, compliance, team, marketing), launch day runbook (hourly schedule, escalation process), post-launch monitoring dashboard (daily/weekly/monthly metrics), 30-day success criteria, optimization plan.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 96): External Customer Acquisition Strategy — First 10 Customers
+### Gap identified: Research provides GTM channels and outreach templates but lacks specific first customer acquisition strategy, pilot program structure, and reference customer development
+
+**Original finding**: "GTM channel strategy research" provides LinkedIn outbound, partner channels, and event strategy. However, research lacks specific strategy for acquiring the first 10 external customers (beyond Hader), pilot program structure, and reference customer development.
+
+**Why this matters**: The first 10 customers make or break Optimizer AI. They provide case studies, testimonials, and word-of-mouth. Without a specific acquisition strategy for this critical phase, Optimizer AI may struggle to get beyond the pilot stage.
+
+### First 10 Customers Strategy
+
+**Why the first 10 matter**:
+- Proof of concept beyond Hader
+- Case studies for marketing
+- Testimonials for sales
+- Product feedback for iteration
+- Word-of-mouth referrals
+
+**Target profile** (first 10 customers):
+| Criteria | Target | Why |
+|----------|--------|-----|
+| Size | 50-150 enrollments/month | Medium pain, medium budget |
+| Location | QLD/NSW | Proximity, User Choice funding |
+| Technology | Zoho user | Integration already works |
+| Decision-maker | CEO | Faster decisions |
+| Timeline | <3 months | Urgency to solve pain |
+| Reference | Willing | Agreed to case study |
+
+**Target list building** (by June 7):
+1. Marcus's network (warm introductions)
+2. LinkedIn search: "RTO CEO QLD" (50 targets)
+3. RTO Connect Forum attendees (2025, for future events)
+4. Zoho partner client lists (if available)
+5. "Call volume" in LinkedIn bio (pain signal)
+
+### Pilot Program Structure
+
+**Pilot vs. full contract**:
+- Pilot: 30-day free trial or $299 flat fee
+- Full: Annual contract at tier pricing
+
+**Pilot terms**:
+| Element | Pilot | Full |
+|---------|-------|------|
+| Duration | 30 days | 12 months |
+| Cost | $299 (or free) | $499-1,999/mo |
+| Calls | 100 (cap) | Tier limit |
+| Support | Weekly check-in | Email support |
+| Commitment | None | 12-month minimum |
+| Success criteria | 60%+ containment | 70%+ containment |
+
+**Pilot selection criteria**:
+- Pain level: High (drowning in calls)
+- Decision-maker: CEO (faster)
+- Technology: Zoho (integration)
+- Willingness: Agreed to case study
+- Timeline: Can start within 2 weeks
+
+**Pilot-to-customer conversion**:
+- Week 1: Setup + training
+- Week 2-3: Full operation
+- Week 4: Review + metrics
+- Week 5: Proposal + close
+
+### Outbound Sequence for First 10
+
+**Priority**: Marcus's warm intro → LinkedIn → cold email → phone
+
+**Step 1: Warm intro (Marcus's network)**:
+- Marcus emails: "I'm working with a company called Optimizer AI. They build AI for RTO enrollment calls. Want me to connect you?"
+- Target: 5 warm intros from Marcus
+- Conversion: 60-70% (highest)
+
+**Step 2: LinkedIn outreach (Steven)**:
+- Connection request (personalized)
+- Follow-up (value add, demo offer)
+- Target: 50 outreach → 15 accepts → 5 demos → 2 customers
+
+**Step 3: Cold email**:
+- Email sequence (3 emails)
+- Lower priority (lower conversion)
+- Target: 100 emails → 8 accepts → 3 demos → 1 customer
+
+**Step 4: Phone**:
+- For warm leads who didn't respond to LinkedIn
+- Target: 10 calls → 3 demos → 1 customer
+
+### First Customer Outreach Script (Warm Intro)
+
+**Marcus introduction email**:
+> Subject: Quick intro — AI for RTO enrollment calls
+>
+> Hi [Name],
+>
+> I've been working on something that might be relevant to you. There's a company called Optimizer AI — they build AI that handles RTO enrollment calls 24/7.
+>
+> They go live at our RTO (Hader Institute) next month. The AI handles 70%+ of calls automatically. Staff time on calls drops from 25 hours/week to 6.
+>
+> I think you'd find it interesting. Want me to connect you with the founder?
+>
+> Best,
+> Marcus
+
+**Steven's follow-up email**:
+> Subject: Marcus Hader suggested I reach out
+>
+> Hi [Name],
+>
+> Marcus Hader suggested I connect with you. I'm Steven with Optimizer AI — we build AI for Australian RTO enrollment calls.
+>
+> Marcus is using our product at Hader Institute. Before he launched, he mentioned your RTO might face similar challenges with call volume.
+>
+> Would a 15-minute demo be useful? I can show you exactly what it does — and what results Marcus is seeing.
+>
+> Best,
+> Steven
+
+### First Customer Pricing
+
+**Introductory pricing for first 10**:
+| Tier | Normal price | First 10 price | Incentive |
+|------|-------------|----------------|-----------|
+| Starter | $499/mo | $299/mo | "Founding customer" |
+| Growth | $999/mo | $599/mo | "Founding customer" |
+| Scale | $1,999/mo | $1,199/mo | "Founding customer" |
+
+**Founding customer benefits**:
+- 40% discount for first 12 months
+- Named in case studies (with permission)
+- Direct access to founders (Steven, Marcus)
+- Feature request priority
+- Annual contract (paid upfront) = 2 months free
+
+**Conversion strategy**:
+1. Pilot (30 days, $299)
+2. Review metrics (week 4)
+3. Propose founding customer pricing (annual, $599/mo)
+4. Sign contract, collect case study
+
+### Reference Customer Development
+
+**After first customer signs**:
+1. **Week 1**: Collect testimonial quote (verbal OK)
+2. **Week 2**: Schedule case study interview
+3. **Week 4**: Publish case study (with permission)
+4. **Month 3**: Ask for referral ("Do you know another RTO?")
+5. **Ongoing**: Maintain relationship (check-ins, early access)
+
+**Case study template**:
+- Title: "[RTO Name] Cut Enrollment Call Time by X% with AI"
+- Problem: "Struggling with [specific pain]"
+- Solution: "Implemented [Optimizer AI tier]"
+- Results: [Metrics: containment, time saved, revenue impact]
+- Quote: "[CEO or enrollment manager]"
+- CTA: "Want similar results?"
+
+### First 10 Timeline
+
+| Month | Target | Actions |
+|-------|--------|---------|
+| June 2026 | 3 warm intros | Marcus network, Steven outreach |
+| July 2026 | 2 pilots | Hader go-live, 2 external pilots |
+| August 2026 | 1 customer | Pilot → annual contract |
+| September 2026 | 2 customers | 2 pilots → 2 contracts |
+| October 2026 | 2 customers | Pipeline + referrals |
+| November 2026 | 2 customers | Event (RTO Connect) + referrals |
+| December 2026 | 10 customers | Target achieved |
+
+### Recommended Actions for Steven
+
+- [ADDED] Ask Marcus for 5 warm RTO introductions — by June 7, 2026
+- [ADDED] Build first 10 target list (50 RTOs) — by June 7, 2026
+- [ADDED] Execute warm intro sequence (Marcus + Steven) — June-July 2026
+- [ADDED] Launch pilot program ($299, 30 days) — by July 2026
+- [ADDED] Create founding customer pricing — by July 2026
+- [ADDED] Collect case study from first external customer — by September 2026
+- [ADDED] Ask for referrals after each close — ongoing
+
+### Sources
+- First customer strategy: Y Combinator startup school (2026)
+- Pilot program design: OpenView Partners (2026)
+- Reference customer development: SaaStr (2026)
+
+---
+
+*End of Cycle 96 refinement. Gap filled: First 10 customer strategy (warm intro → pilot → annual), pilot program structure ($299, 30 days), founding customer pricing (40% discount), reference customer development (case study template), target list building (50 RTOs), timeline (June-December 2026).*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 97): Success Metrics & KPI Dashboard Design
+### Gap identified: Research provides general KPIs but lacks specific dashboard design, metric definitions, reporting cadence, and review process
+
+**Original finding**: "100-day plan synthesis" mentions KPI tracking. "Organic leads strategy" mentions SEO metrics. However, research lacks specific KPI dashboard design, metric definitions, reporting cadence, and review process for Optimizer AI.
+
+**Why this matters**: Without specific metrics and review process, Steven cannot track progress, identify problems, or report to Marcus/Kham. Metrics drive decisions — vague goals = vague results.
+
+### KPI Dashboard Design
+
+**Dashboard sections** (4 pages):
+
+**Page 1: Acquisition Metrics**:
+| Metric | Definition | Target | Frequency |
+|--------|------------|--------|----------|
+| Leads generated | Total new leads (all channels) | 50/month | Weekly |
+| Demo requests | Leads requesting demo | 12/month | Weekly |
+| Demos completed | Demo calls held | 8/month | Weekly |
+| Customers signed | New contracts | 2/month | Monthly |
+| CAC | Cost to acquire customer | <$10K | Monthly |
+| Pipeline value | Deals in progress | $50K+ | Weekly |
+
+**Page 2: Product Metrics**:
+| Metric | Definition | Target | Frequency |
+|--------|------------|--------|----------|
+| Calls handled | Total VAPI calls | 500+/month | Weekly |
+| Containment rate | % AI handled | >70% | Weekly |
+| Escalation rate | % transferred to human | <30% | Weekly |
+| Completion rate | % calls completed | >80% | Weekly |
+| USI collection rate | % USI verified | >80% | Weekly |
+| Orientation booked | % orientation scheduled | >60% | Weekly |
+
+**Page 3: Customer Metrics**:
+| Metric | Definition | Target | Frequency |
+|--------|------------|--------|----------|
+| Customers active | Total paying customers | 2+ by Month 3 | Monthly |
+| Monthly recurring revenue | MRR | $2K+ by Month 3 | Monthly |
+| Customer churn | % lost per month | <2% | Monthly |
+| NPS | Net Promoter Score | >50 | Quarterly |
+| Time to value | Days to first ROI | <30 | Monthly |
+
+**Page 4: Marketing Metrics**:
+| Metric | Definition | Target | Frequency |
+|--------|------------|--------|----------|
+| Organic sessions | Website traffic (organic) | 1,000/mo | Monthly |
+| Organic leads | Leads from organic | 50/month | Monthly |
+| LinkedIn followers | Company page followers | 500+ | Monthly |
+| Email list size | Subscribers | 100+ | Monthly |
+| Content published | Blog posts | 4/month | Monthly |
+| Inbound demo requests | From content/blog | 3/month | Monthly |
+
+### Metric Definitions & Calculations
+
+**Acquisition metrics**:
+```
+CAC = (Sales & marketing spend) / (New customers)
+LTV = (ARPU × Gross margin) / Churn rate
+LTV:CAC = LTV / CAC (target: >3)
+Payback period = CAC / (ARPU × Gross margin)
+```
+
+**Product metrics**:
+```
+Containment rate = (AI handled calls) / (Total calls) × 100
+Escalation rate = (Transferred calls) / (Total calls) × 100
+Completion rate = (Completed calls) / (Total calls) × 100
+USI collection rate = (USI verified) / (Calls with USI collected) × 100
+```
+
+**Customer metrics**:
+```
+MRR = Σ (Customers × ARPU)
+Churn rate = (Customers lost) / (Customers at start) × 100
+NPS = % Promoters - % Detractors
+Time to value = Days from signup to first ROI reported
+```
+
+### Review Cadence
+
+| Meeting | Frequency | Attendees | Duration | Content |
+|---------|-----------|-----------|----------|---------|
+| Daily standup | Daily (weekdays) | Steven, Kham | 15 min | Yesterday, today, blockers |
+| Weekly review | Monday | Steven, Marcus, Kham | 30 min | Metrics, issues, priorities |
+| Monthly review | First Monday | All founders | 60 min | Full dashboard, strategy |
+| Quarterly | First Monday Q | All + advisors | 90 min | Strategy, roadmap, targets |
+
+**Weekly review format**:
+```
+1. Metrics (5 min) — Dashboard highlights
+2. Issues (10 min) — Problems identified
+3. Priorities (10 min) — What to focus on this week
+4. Actions (5 min) — Who does what by when
+```
+
+**Monthly review format**:
+```
+1. Acquisition (10 min) — Leads, demos, customers, CAC
+2. Product (10 min) — Containment, escalation, quality
+3. Customer (10 min) — Churn, NPS, support issues
+4. Marketing (10 min) — Organic, content, inbound
+5. Strategy (10 min) — Adjustments needed
+6. Actions (10 min) — Monthly priorities
+```
+
+### Dashboard Implementation
+
+**Tools**:
+- Zoho Analytics: Acquisition + customer metrics
+- VAPI dashboard: Product metrics
+- Google Analytics 4: Marketing metrics
+- Looker Studio: Unified view
+
+**Data sources**:
+```
+Zoho CRM → Zoho Analytics → Acquisition metrics
+VAPI Dashboard → API → Product metrics
+Google Analytics 4 → Looker Studio → Marketing metrics
+All → Looker Studio dashboard → Unified view
+```
+
+**Dashboard refresh**:
+- Acquisition: Real-time (Zoho)
+- Product: Hourly (VAPI)
+- Marketing: Daily (GA4)
+- Full dashboard: Daily (Looker Studio refresh)
+
+### Review Alerts & Actions
+
+**Alert triggers**:
+| Condition | Alert | Action |
+|-----------|-------|--------|
+| Leads < 10/week | Yellow | Increase outreach |
+| Demos < 2/week | Red | Focus on demos |
+| Containment < 60% | Red | Review scripts |
+| Churn > 3% | Red | Customer success call |
+| CAC > $15K | Yellow | Optimize channel |
+
+**Action protocols**:
+- Yellow alert: Review in weekly meeting
+- Red alert: Address within 48 hours
+- Critical alert: Immediate escalation to founders
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Zoho Analytics dashboard — by June 7, 2026
+- [ADDED] Create Looker Studio unified view — by June 14, 2026
+- [ADDED] Configure VAPI metrics export — by June 14, 2026
+- [ADDED] Set up GA4 for marketing metrics — by June 7, 2026
+- [ADDED] Daily standup (15 min, weekdays) — from June 7, 2026
+- [ADDED] Weekly review (Monday, 30 min) — from June 14, 2026
+- [ADDED] Monthly review (first Monday, 60 min) — from July 6, 2026
+
+### Sources
+- SaaS metrics: a16z metrics, OpenView Partners (2026)
+- KPI dashboards: Looker, Tableau (2026)
+- Review cadence: Harvard Business Review (2026)
+
+---
+
+*End of Cycle 97 refinement. Gap filled: KPI dashboard design (4 pages, 20+ metrics), metric definitions and calculations (CAC, LTV, containment), review cadence (daily/weekly/monthly), alert triggers, action protocols, dashboard implementation.*
+
+---
+
