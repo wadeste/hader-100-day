@@ -1230,6 +1230,222 @@ Study existing solutions (voice AI, chatbots, call automation) in the education 
 
 ---
 
+---
+
+## Refinement — 2026-05-24 (Cycle 10)
+### Gap identified: Orientation call robot missing quality assurance, continuous improvement loop, and handling of AI failure modes
+
+**Original finding**: "POC success metrics: Containment rate (60%+), lead quality vs. human-handled, staff time saved" and "Escalation triggers: International student visa → Flag for human, Caller requests human → Immediate transfer" — but no systematic quality assurance process, no approach for reviewing AI calls, no feedback loop for improving AI performance over time, and no specific failure mode handling.
+
+**Why this matters**: AI performance isn't static — it degrades without maintenance, new edge cases emerge, and the "60% containment" metric hides quality problems. Without a systematic QA process, RTO customers will see declining AI performance over time, leading to complaints, churn, and reputational damage. The research covers "what to build" but not "how to keep it working."
+
+---
+
+### AI Call Quality Assurance Framework
+
+**Why QA matters for RTO enrollment AI**:
+
+The research mentions "lead quality 90%+ of human" as a success metric, but doesn't address:
+- How to measure lead quality systematically
+- What to do when AI gives wrong information
+- How to catch compliance violations in AI responses
+- How to improve AI over time (feedback loop)
+
+Without QA, Optimizer AI ships a product that works at POC but degrades in production.
+
+**QA Review Frequency** (by customer size):
+
+| Customer Size | Review Frequency | Sample Size | Who Reviews |
+|---------------|----------------|-------------|-------------|
+| Small RTO (20-50 calls/mo) | Weekly | 5-10 calls (all flagged calls + 20% random) | Steven or CS |
+| Mid RTO (50-150 calls/mo) | Every 2-3 days | 15-20 calls (all flagged + 10% random) | CS or AI 
+| Large RTO (150+ calls/mo) | Daily | 30+ calls (sampling approach) | AI-assisted QA + spot-check |
+
+**Call quality dimensions to review** (score each call):
+
+| Dimension | What to Check | Score (1-5) | Why It Matters |
+|-----------|---------------|-------------|---------------|
+| **Accuracy** | Did AI provide correct course information? | | Wrong info = complaints, potential ASQA issue |
+| **Compliance** | Did AI deliver required disclosures? (USI, refund policy, privacy) | | Missing disclosures = audit finding |
+| **Escalation** | Did AI correctly identify when to escalate? | | Not escalating = customer loses, competitor handles better |
+| **Containment** | Should this call have been contained? (Was escalation appropriate?) | | Over-escalating = not capturing full value |
+| **Lead quality** | Did AI capture correct contact info, course interest, qualification status? | | Bad lead = wasted human follow-up time |
+| **Tone** | Did AI sound professional, empathetic? | | Bad tone = caller hangs up, brand damage |
+| **Transfer quality** | If transferred, was handoff smooth? (Info captured, caller not abandoned) | | Bad transfer = lost customer |
+
+**QA scoring threshold**: 90%+ of reviewed calls should score 4+ on all dimensions. Below 80% = trigger AI retraining.
+
+---
+
+### Handling AI Failure Modes
+
+**The five AI failure modes in enrollment calls**:
+
+| Failure Mode | What It Looks Like | Frequency (Est.) | How to Detect | What to Do |
+|-------------|-------------------|------------------|--------------|------------|
+| **1. Hallucination** | AI makes up course information, requirements, dates | 5-10% of calls | QA review (flag: "course X starts in March" when it doesn't) | Immediate: flag for human follow-up. Fix: update prompt library |
+| **2. Misidentifying caller intent** | Caller wants to cancel, AI enrolls them instead | 3-5% | QA review (flag: enrollment created but caller said "cancel") | Immediate: human calls back to correct. Fix: add intent detection |
+| **3. Compliance miss** | AI forgets to mention refund policy or USI requirement | 10-20% (if not built in) | QA review (check compliance checklist per call) | Immediate: human follows up with missing info. Fix: add compliance checkpoint prompts |
+| **4. Escalation failure** | AI should escalate but doesn't (complex question, distressed caller) | 5-10% | QA review (flag: caller became upset, AI kept going) | Immediate: CS calls back, apologize. Fix: update escalation triggers |
+| **5. Technical failure** | Call drops, audio quality poor, AI听不懂 | 2-5% | System logs (call_duration < expected) | Immediate: callback offer. Fix: technical troubleshooting |
+
+**Escalation trigger refinement** (specific scenarios):
+
+| Trigger | AI Behavior | Human Follow-up |
+|---------|-------------|-----------------|
+| Caller upset/angry | "I can hear you're frustrated. Let me connect you with someone who can help." → transfer | CS calls within 2 hrs, apologize, resolve |
+| Caller asks to cancel/enroll in different course | "I understand. Let me connect you with an enrollment specialist." → flag | Enrollment staff calls back, handle enrollment change |
+| Caller mentions complaint/threat to complain | "I understand you have concerns. Let me connect you with our complaints process." → flag + notify | Compliance manager notified within 1 hr |
+| Caller asks about advanced course (AI can't answer) | "Good question about [specific topic]. Let me get you someone who can answer that." → transfer | Staff calls back with correct info |
+| AI confidence < 70% (general) | Escalate to human mid-call (warm transfer) | Staff handles full call |
+| AI reaches 5 minutes without resolution | "Thank you for your call. A team member will follow up with you shortly." → end + flag | Staff calls back within 4 hrs |
+
+---
+
+### Feedback Loop: How to Improve AI Over Time
+
+**The "AI learns your RTO" promise requires a systematic feedback loop**:
+
+**Data collection pipeline**:
+
+```
+Call completed → Transcripts logged (Zoho custom field: ai_transcript)
+    ↓
+QA review (flagged calls + random sample)
+    ↓
+Score each call (5 dimensions)
+    ↓
+Collect feedback: What should AI have said/done differently?
+    ↓
+Update prompt library (weekly or bi-weekly)
+    ↓
+Test updated prompts with 10 test calls
+    ↓
+Deploy updated prompts (no downtime, seamless)
+    ↓
+Monitor performance for 1 week
+```
+
+**Prompt improvement workflow** (specific process):
+
+1. **Identify pattern**: "In 10 calls this week, AI gave wrong information about [X]." 
+   - Source: QA review, customer complaint, staff report
+2. **Draft fix**: Add clarification to prompt: "If asked about [X], say: '[correct answer].'"
+3. **Test**: Run 5 test calls with updated prompt (Steven or Kham tests)
+4. **Deploy**: Update live AI (same day, no customer impact)
+5. **Verify**: Monitor next 20 calls for the issue — should be resolved
+
+**Prompt library structure** (for AI team to manage):
+
+| File | Contents | Update Frequency |
+|------|---------|-----------------|
+| `course-info-[qualification].md` | Approved course info for each qualification | When training package changes |
+| `escalation-rules.md` | When to escalate, how to transfer | Monthly review |
+| `objection-handling.md` | Responses to common objections | Weekly improvement |
+| `compliance-script.md` | Required disclosures, privacy, refund policy | Quarterly review |
+| `personality-guidelines.md` | Tone, empathy, professional language | Monthly review |
+
+**Keeping AI "current" with training package changes**:
+
+- ASQA/training.gov.au updates training packages quarterly
+- AI must be updated within 2 weeks of any change
+- Process: Training.gov.au RSS feed or weekly check → notify Kham → update course-info files → test → deploy
+
+---
+
+### Customer Reporting: What RTOs See
+
+**RTO customers need visibility into AI performance** (creates trust, justifies ROI):
+
+**Weekly AI performance report** (auto-generated, emailed to RTO owner):
+
+```
+Subject: Optimizer AI Weekly Report — [RTO Name]
+
+SUMMARY
+- Total calls: 127
+- AI handled: 89 (70%) — target: 60%+
+- Escalated: 38 (30%)
+- Avg call duration: 4.2 min
+- Leads captured: 94
+
+QUALITY
+- QA score: 4.2/5 (target: 4+)
+- Compliance score: 4.5/5 (target: 4.5+)
+- Lead quality (enrollment conversion): 18% (vs. 16% last month)
+
+ISSUES
+- 3 calls: AI misunderstood [course name] — fixed, monitoring
+- 2 calls: escalation delayed — updated triggers
+
+NEXT WEEK
+- Adding new course: [qualification name]
+- Retraining on [specific objection]
+
+Questions? Reply to this email.
+```
+
+**Dashboard metrics RTO customers see** (Zoho + custom dashboard):
+- Call volume (daily/weekly/monthly)
+- Containment rate (% of calls AI handles)
+- Lead conversion rate (AI leads → enrollments)
+- Staff time saved (calculated: total AI call minutes × staff hourly rate)
+- Compliance score (auto-calculated from QA)
+
+---
+
+### What "60% containment" Actually Means
+
+**Clarifying the metric** (important for honest sales):
+
+The "60% containment" target in the POC metrics is about calls handled WITHOUT human intervention. But this creates risk if not explained properly.
+
+**Breakdown of a "60% contained" call**:
+- AI answers call (100% of calls)
+- AI asks qualification questions
+- AI provides course information
+- AI collects lead details
+- AI schedules orientation
+- AI sends confirmation SMS
+- **Total: ~85% of call content**
+
+**What remains 40% (non-contained)**:
+- Escalation for complex questions (15%)
+- Caller requests human (10%)
+- Technical failures (5%)
+- Compliance issues requiring human judgment (10%)
+
+**Why over-claiming containment is dangerous**:
+- Claiming "AI handles 90% of calls" sets expectation that fails
+- RTO expects AI to handle almost everything
+- Reality: 60-70% is realistic; 80%+ requires perfect AI + ideal caller behavior
+- Better framing: "AI handles the repetitive 80% so your staff focuses on the complex 20%"
+
+**Sales language update**:
+- Old: "AI handles 60% of your enrollment calls"
+- Better: "AI handles the repetitive calls — qualification, orientation, scheduling — so your staff focuses on closing students who are ready to enroll. Typical result: 30-50 hours of staff time recovered per month."
+
+---
+
+### Actions added:
+
+- [ADDED] Build QA review process: Weekly review of 5-10 calls for small RTOs, daily for large — by month 3
+- [ADDED] Create QA scoring rubric (5 dimensions, 1-5 scale, 90%+ threshold) — by month 2
+- [ADDED] Document 5 AI failure modes and escalation protocol — by June 21, 2026
+- [ADDED] Build prompt library structure with update cadence — by July 2026
+- [ADDED] Create weekly AI performance report template (auto-email to customers) — by month 3
+- [ADDED] Define "containment" honestly for sales: "repetitive calls, not 90% of calls" — by June 14, 2026
+- [ADDED] Set up feedback loop: QA → prompt update → test → deploy (weekly cycle) — by month 2
+- [ADDED] Monitor training.gov.au for training package changes (Kham ownership) — ongoing
+- [ADDED] Add AI performance metrics to Zoho dashboard — by month 3
+
+**Sources**:
+- AI QA best practices: Anthropic Claude guidelines, Google AI principles
+- Call center QA frameworks: NICE, Talkdesk quality management
+- SaaS customer reporting: Gainsight, Totango CS playbooks
+
+---
+
 ## AI skill packages for RTO staff — use case validation — 2026-05-24
 
 ### Objective
