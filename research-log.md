@@ -5645,3 +5645,255 @@ Email body:
 ---
 
 *End of Cycle 172 refinement. Gap filled: Email outbound strategy (5-touch sequence, 28 days), email templates (5 templates with subject lines), segment-specific variations (4 personas), email deliverability best practices (spam triggers, open rates), email tools stack (Apollo.io + Lemlist), analytics and optimization framework, Australian compliance requirements (Spam Act 2003), 8 recommended actions for Steven.*
+
+
+## Refinement — 2026-05-24 (Cycle 173): Partner Success Program — Onboarding, Enablement, and Revenue Acceleration
+
+### Gap identified: Research covers partner identification and outreach but lacks partner success program details: onboarding, enablement, and revenue acceleration
+
+**Original finding:** Partnership opportunity scan (Cycle 163) identifies partner categories (Zoho, software, associations, peak bodies), outreach sequence, and Year 1 targets (20 active partners). Missing: how to make partners successful once signed up, partner enablement materials, and revenue acceleration strategies.
+
+**Why this matters:** Signing partners is the first step. Keeping them active, engaged, and driving referrals requires a structured success program. Without partner enablement, partners will refer few leads and lose interest. With a strong partner program, each partner becomes a compounding revenue channel.
+
+### Partner Success Framework
+
+**The partner success journey:**
+
+| Stage | Timeline | Goal | Owner |
+|-------|----------|------|-------|
+| **Recruit** | Week 1-2 | Sign partner agreement | Steven |
+| **Onboard** | Week 3-4 | Complete enablement, generate first referral | Steven |
+| **Enable** | Month 2-3 | Provide tools, training, support | Steven |
+| **Accelerate** | Month 4+ | Revenue growth, deeper relationship | Steven |
+| **Expand** | Year 2+ | Co-develop, co-market, strategic | Marcus |
+
+### Partner Onboarding Program
+
+**Week 1: Welcome and Setup**
+
+Day 1-2:
+- Welcome email with program overview
+- Send partner welcome kit (PDF)
+- Schedule onboarding call
+
+Day 3-5:
+- Onboarding call (30 min): Explain program, answer questions, set expectations
+- Provide partner portal access (or shared doc initially)
+- Send first marketing materials (one-pager, case studies)
+- Assign partner success manager (Steven)
+
+**Week 2: Product Training**
+
+Day 1-3:
+- Send product demo video (5 min)
+- Provide feature overview document
+- Schedule live product walkthrough (30 min)
+
+Day 4-5:
+- Live walkthrough with Q&A
+- Confirm partner's target clients
+- Identify first referral opportunity
+
+**Week 3: First Referral**
+
+Day 1-2:
+- Partner identifies first referral opportunity
+- Steven provides discovery call prep (questions to ask)
+- Partner makes warm introduction
+
+Day 3-5:
+- Steven handles discovery and close
+- Partner receives status updates
+- Both parties document learnings
+
+**Week 4: First Commission**
+
+- First referral converts to customer
+- Partner receives commission confirmation
+- Commission paid within 30 days
+- Success story documented (with permission)
+
+### Partner Enablement Materials
+
+**Required materials:**
+
+| Material | Purpose | Format | Created |
+|---------|---------|--------|---------|
+| Partner one-pager | Explains value prop and commission | PDF | Week 2 |
+| Product demo video | Partner learns the product | Video (5 min) | Week 2 |
+| Sales playbook | How to position and sell | PDF | Week 3 |
+| Battle cards | Competitive positioning | PDF | Week 3 |
+| Case studies | Social proof by segment | PDF | Week 4 |
+| Email templates | Partner outreach scripts | Doc | Week 4 |
+| FAQ document | Common questions answered | PDF | Week 4 |
+| Training videos | Ongoing enablement | Video (3-5 min each) | Month 2+ |
+
+**Sample sales playbook outline:**
+1. Target客户 profile (which RTOs to target)
+2. Discovery questions (uncover pain)
+3. Common objections (and responses)
+4. Demo script (what to show)
+5. ROI calculator (how to position value)
+6. Closing techniques (when to refer)
+7. Next steps (how to make warm intro)
+
+### Partner Portal (MVP vs. Full)
+
+**MVP (Month 1-3):**
+- Shared Google Drive folder with materials
+- Slack/email channel for questions
+- Weekly status email
+
+**Full portal (Month 4+):**
+- Dedicated partner portal website
+- Self-service resource library
+- Referral tracking dashboard
+- Commission reporting
+- Training videos section
+- Partner community forum
+
+### Partner Incentive Program
+
+**Commission structure (per Cycle 163):**
+- Referral (Tier 1): 20% of first year revenue
+- Integration (Tier 2): 10% ongoing revenue share
+- Strategic (Tier 3): Custom arrangements
+
+**Additional incentives:**
+
+| Incentive | Trigger | Value | Purpose |
+|-----------|---------|-------|---------|
+| Quarterly bonus | 3+ referrals in quarter | 00 | Accelerate activity |
+| President's Club | Top 5 partners per year | Trip to conference | Recognition |
+| Co-marketing fund | Joint webinar/content | 00-1k | Joint growth |
+| Early renewal bonus | Partner refers renewal | 1 month free | Retention |
+
+**Tier advancement:**
+- Silver: 5+ referrals, k+ commission → Enhanced support
+- Gold: 15+ referrals, 5k+ commission → Dedicated CSM
+- Platinum: 30+ referrals, 0k+ commission → Strategic account
+
+### Partner Marketing Support
+
+**Joint marketing activities:**
+
+1. **Co-branded content**
+   - Blog post featuring partner (on Optimizer AI site)
+   - Partner features Optimizer AI on their site
+   - Case study with both logos
+
+2. **Joint webinars**
+   - Co-present to partner's audience
+   - Partner promotes via email
+   - Recordings shared
+
+3. **Email campaigns**
+   - Partner sends referral email to list (co-branded)
+   - Optimizer AI sends partner intro to relevant prospects
+
+4. **Conference presence**
+   - Co-exhibit at industry events
+   - Joint speaking slot at conference
+
+**Budget allocation:**
+- Co-marketing fund: 00-1k per active partner
+- Conference sponsorship: -5k per year (shared)
+- Content creation: 00-500 per piece
+
+### Partner Performance Tracking
+
+**Monthly metrics by partner:**
+
+| Metric | Target | At Risk | Critical |
+|--------|--------|----------|----------|
+| Referrals generated | 2+ | 1 | 0 |
+| Demos attended | 1+ | 0 | — |
+| Conversions | 1+ | 0 | — |
+| Active engagement | Monthly touch | Quarterly | 6+ months no contact |
+
+**Partner health score:**
+
+| Component | Weight | Good | OK | At Risk |
+|-----------|--------|------|-----|---------|
+| Referral frequency | 30% | 2+/mo | 1/mo | 0 |
+| Conversion rate | 25% | >20% | 10-20% | <10% |
+| Engagement | 25% | Weekly | Monthly | Quarterly+ |
+| Revenue generated | 20% | 00+/mo | 00-500/mo | <00/mo |
+
+**At-risk partner intervention:**
+1. Executive call (Steven + Marcus)
+2. Address specific blockers
+3. Consider tier reduction (if not meeting minimums)
+4. Offer additional support (training, materials)
+5. 90-day improvement plan with check-ins
+
+### Partner Communication Cadence
+
+**Per partner (monthly):**
+
+| Week | Activity | Format | Owner |
+|------|----------|--------|-------|
+| Week 1 | Status update (commission, leads) | Email | Steven |
+| Week 2 | Opportunity check-in | Call | Steven |
+| Week 3 | Content/resources sharing | Email | Steven |
+| Week 4 | Monthly review | Call | Steven |
+
+**Quarterly:**
+- Business review (what's working, what's not)
+- Goal setting for next quarter
+- New materials and tools preview
+- Partner networking (connect top partners)
+
+**Annual:**
+- Partner summit (virtual or in-person)
+- Year in review (successes, growth)
+- Awards and recognition
+- Next year planning
+
+### Partner Success Stories (Documentation)
+
+**Why document:**
+- Proof of concept for other partners
+- Marketing asset for recruitment
+- Motivation for partner
+- Learning for product team
+
+**What to capture:**
+- Partner background (who, what, where)
+- Challenge (what problem did they face)
+- Solution (how did they use Optimizer AI)
+- Results (specific numbers)
+- Quote (in their words)
+- Photo (if available)
+
+**Story format:**
+> **Partner:** [Name], [Company], [Location]
+> **Background:** [What they do, who they serve]
+> **Challenge:** [What problem they faced]
+> **Solution:** [How they used Optimizer AI with clients]
+> **Results:** [Specific metrics]
+> **Quote:** "[Partner quote]"
+> **Photo:** [Partner headshot]
+
+### Recommended Actions for Steven
+
+- [ADDED] Create partner onboarding checklist (Week 1-4 structure) — by Week 2
+- [ADDED] Build partner enablement kit (8 materials above) — by Month 2
+- [ADDED] Set up shared drive for partner resources — by Week 1
+- [ADDED] Schedule 30-min onboarding calls for first 3 partners — by Week 2
+- [ADDED] Track partner metrics monthly (referrals, conversions, revenue) — from Month 1
+- [ADDED] Create partner success story template — by Month 2
+- [ADDED] Design partner tier structure (Silver, Gold, Platinum) — by Month 3
+- [ADDED] Plan quarterly partner communications (monthly cadence) — ongoing
+- [ADDED] Budget -5k for partner co-marketing (Year 1) — by Month 1
+
+### Sources
+
+- Partner success programs: PartnerStack resources (2025)
+- Partner enablement: Crossbeam partner best practices (2026)
+- Partner incentives: Partner sales compensation benchmarks (2025)
+- Partner portals: Zinrelo partner loyalty (2026)
+
+---
+
+*End of Cycle 173 refinement. Gap filled: Partner success framework (5 stages, recruit → expand), onboarding program (4-week structure), enablement materials (8 required), partner portal MVP vs full, incentive program (4 tiers, bonuses, President's Club), marketing support (co-marketing activities), performance tracking (metrics, health score, intervention), communication cadence (weekly + quarterly + annual), success story documentation, 9 recommended actions for Steven.*
