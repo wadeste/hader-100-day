@@ -1576,3 +1576,76 @@ There are three types of model training relevant to Optimizer AI:
 - [ADDED] At month 6: evaluate whether to fine-tune or continue RAG approach
 - [ADDED] Include call data contribution in POC terms ("Optimizer AI uses anonymized calls to improve AI model")
 
+
+## Refinement — 2026-05-24
+### Gap identified: 12-24 month strategy missing specific quarterly KPIs, channel allocation percentages, and budget breakdown
+
+**Original finding**: "Year 1 target: 30-50 customers, MRR growth 15-20%/month, CAC <$2,000. Year 2 target: 150-200 customers, MRR $2-3M, content generating 30%+ of leads."
+
+**Refined findings**:
+**Quarterly KPIs and milestones**:
+| Metric | Q1 | Q2 | Q3 | Q4 | Year 1 Total |
+|--------|-----|-----|-----|-----|--------------|
+| New customers | 5 | 10 | 15 | 20 | 50 |
+| MRR | $7,500 | $22,500 | $45,000 | $75,000 | — |
+| MRR growth % | — | 200% | 100% | 67% | — |
+| CAC | $1,500 | $2,000 | $2,000 | $2,000 | $1,875 avg |
+| Leads/month | 30 | 60 | 100 | 150 | — |
+| Content leads % | 0% | 5% | 15% | 20% | — |
+
+**Channel allocation by quarter** (based on $12-14k/month marketing budget):
+| Channel | Q1 Budget | Q2 Budget | Q3 Budget | Q4 Budget | Rationale |
+|---------|-----------|-----------|-----------|-----------|-----------|
+| Marcus network | $1,000 | $500 | $500 | $500 | Warm intros, highest conversion |
+| LinkedIn outbound | $4,000 | $4,000 | $3,000 | $2,000 | Primary acquisition, taper as content grows |
+| Content/inbound | $2,000 | $3,000 | $4,000 | $5,000 | Invest early for long-term pipeline |
+| Zoho partner | $1,000 | $2,000 | $2,000 | $2,000 | Growing channel, passive leads |
+| Events/conferences | $3,000 | $2,000 | $2,000 | $3,000 | Speaking slots, brand building |
+| Tools/software | $500 | $500 | $500 | $500 | CRM, email, analytics |
+| Contingency | $500 | $1,000 | $1,000 | $1,000 | Unexpected opportunities |
+| **Total** | **$12,000** | **$13,000** | **$13,000** | **$14,000** | **$52,000** |
+
+**Year 2 channel mix** (scaling what works):
+| Channel | % of budget | Monthly spend | Expected leads |
+|---------|-------------|---------------|---------------|
+| Marcus + referrals | 20% | $2,000 | 8-10 |
+| LinkedIn outbound | 25% | $2,500 | 20-30 |
+| Content/inbound | 30% | $3,000 | 30-40 |
+| Zoho partners | 15% | $1,500 | 15-20 |
+| Events/speaking | 10% | $1,000 | 10-15 |
+| **Total** | **100%** | **$10,000** | **83-115** |
+
+**Year 2 leads → customers**:
+- 83-115 leads/month × 5% conversion = 4-6 new customers/month
+- 4-6 × 12 = 48-72 new customers/year
+- Combined with 50 existing = 100-120 customers by end of year 2
+- ARR: 120 × $25,000 = $3M (slightly above target)
+
+**Specific KPIs by marketing channel**:
+| Channel | KPI | Target |
+|---------|-----|--------|
+| LinkedIn outbound | Response rate | 10%+ |
+| LinkedIn outbound | Demo booking rate | 30%+ of replies |
+| LinkedIn outbound | Demo show rate | 80%+ |
+| Marcus network | Introduction acceptance | 70%+ |
+| Marcus network | Close rate | 50%+ |
+| Content | Blog views/month | 500 by Q3, 1,500 by Q4 |
+| Content | Email subscribers | 200 by Q4 |
+| Content | Guide downloads | 50 by Q4 |
+| Zoho partner | Partner referrals | 5 by Q4 |
+| Events | Speaking slots booked | 2 by Q4 |
+| Events | Leads from events | 20 |
+
+**Marketing spend vs. revenue ratio**:
+- Year 1: $52k spend → $450k ARR at year end = 8.6x ROI
+- Year 2: $120k spend → $1.5M ARR at year end = 12.5x ROI
+- Industry benchmark: healthy is 5-10x in year 1, 10-15x in year 2
+
+**Key insight**: Don't spread budget thin across all channels in year 1. Concentrate on Marcus network + LinkedIn outbound (70% of budget) in Q1-Q2, then shift to content/inbound (30%) by Q4 as it starts generating leads.
+
+**Actions added**:
+- [ADDED] Build quarterly KPI dashboard — track monthly, report to Marcus/Kham quarterly
+- [ADDED] Set 15% MRR growth as floor target (stretch: 20%)
+- [ADDED] Review channel performance at Q2 — reallocate budget to top 2 channels
+- [ADDED] Track LTV:CAC ratio monthly — target 10:1 minimum
+
