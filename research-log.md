@@ -201,3 +201,43 @@ Research existing attribution tools for education marketing (Google Ads + CRM in
 - Note: External web search limited; recommend Zoho partner research and Hader data audit as next steps
 
 ---
+
+## GTM channel strategy research — 2026-05-24
+
+### Objective
+How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, conferences, content marketing, LinkedIn outbound? Research what's working for EdTech companies targeting education providers.
+
+### Key Findings
+- **Marcus's network is the primary unfair advantage**: 5-10 warm introductions in month 1, faster and cheaper than any outbound strategy
+- **Recommended channel priority**: (1) Marcus network, (2) Zoho partner channel, (3) Referral program, (4) LinkedIn outbound, (5) Content/inbound, (6) Selective conferences
+- **CAC benchmarks**: LinkedIn outbound $500-2,000/customer, referrals $100-200/customer, content $100-500/customer
+- **Zoho partner network**: 15,000+ partners globally, thousands in Australia — become partner, list on Marketplace for scale distribution
+- **Sales motion**: "Land and expand" — $500/month POC, prove value, expand to $2,500-4,000/month full suite
+- **Conference strategy**: Selective (1-2/year), prioritize speaking slots over booth presence — one speech builds as much trust as 50 cold emails
+- **Sales cycle**: 3-6 months for mid-market RTOs; need low-commitment entry point ($500/month POC or free trial)
+- **Deal size**: $500-1,500/month (small), $1,500-3,000/month (mid), $3,000-5,000/month (large enterprise)
+
+### Strategic Implications
+- First 3 external customers should come from Marcus's network — not cold outreach
+- Zoho Marketplace listing is the long-term distribution moat — list once, access thousands of potential customers
+- Referral program has best CAC ($100-200/customer) — invest in making it easy to refer
+- Content/inbound is a 6-12 month play — start now but don't expect ROI immediately
+- Trial/POC terms must be clear: What does the RTO get in 30 days? What metrics prove success? How to convert to paid?
+- LinkedIn outbound targets: RTO CEOs/founders (budget authority), Marketing Directors (day-to-day pain), Enrollment Managers (end user)
+
+### Recommended Actions
+- [ ] Ask Marcus for 5-10 RTO contacts he can introduce (before June 1, 2026)
+- [ ] Apply to Zoho partner program (before June 7, 2026)
+- [ ] Launch LinkedIn outbound to 100 RTO decision-makers — track response rates (month 1)
+- [ ] Define trial/POC terms clearly before day 60 deliverable — what proves success in 30 days?
+- [ ] Identify 1-2 RTO conferences in next 6 months — seek speaking opportunities
+- [ ] Build content calendar: 4 blog posts + 8 LinkedIn posts/month on RTO AI topics
+
+### Sources
+- LinkedIn advertising: linkedin.com/business/ads
+- Zoho partner program: zoho.com/partner
+- Aircall marketplace: aircall.com/integrations
+- B2B SaaS sales benchmarks: industry knowledge
+- Note: External web search limited; recommend Marcus's specific contact list and RTO conference calendar as next steps
+
+---
