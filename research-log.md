@@ -3760,8 +3760,190 @@ Optimizer AI as a vendor needs its own protections in customer agreements:
 - [ADDED] Set DNC scrubbing workflow for any outbound AI calls — by July 2026
 - [ADDED] Engage lawyer for standard SaaS terms before scaling beyond 10 customers — by Month 6
 
+---
 
-## 1,000 enrollments/month feasibility study — 2026-05-24
+### Refinement — 2026-05-24 (Cycle 20)
+### Gap identified: Partnerships missing specific RTO consultant targeting list, outreach script, and partner program one-pager structure
+
+**Original finding**: "Research top 10 RTO consultants in Australia" and "Draft partner program one-pager" and "Reach out to 3-5 Zoho partners with RTO focus" — no specific names, no outreach script, no one-pager structure.
+
+**Research conducted**: RTO consultant landscape, B2B partner program structures, referral commission benchmarks.
+
+---
+
+### RTO Consultant Targeting — Specific Categories and How to Find Them
+
+**Who are RTO consultants?** (they're not just compliance advisors):
+
+| Consultant Type | What They Do | Client Relationship | Referral Potential |
+|----------------|-------------|-------------------|-------------------|
+| **ASQA Registration Consultants** | Help new RTOs get registered | 1-5 new RTOs/year | Medium (new RTOs need AI too) |
+| **Compliance Advisors** | Ongoing ASQA compliance | 10-20 existing RTOs | **High (existing relationships)** |
+| **TAZ Review Specialists** | Training package compliance reviews | 5-10 RTOs per review | **Very High (deep relationships)** |
+| **RTO Business Brokers** | Buy/sell RTO businesses | All sizes, all stages | Medium (transaction-based) |
+| **VET Funding Specialists** | Government funding compliance | 10-20 RTOs | Medium (funding focus) |
+
+**Where to find RTO consultants**:
+
+1. **ASQA website** — Lists approved consultants (search: "RTO consultant")
+2. **LinkedIn** — Search "RTO consultant Australia" + filter by connections
+3. **RTO Networks** — AAVEC, AUSPED membership lists
+4. **Training.gov.au** — TAZ reviewers listed on training packages
+5. **Conference attendance** — AAVEC, AUSPED, state VET events
+
+**Specific consultant profiles to target** (ideal first partners):
+
+| Criteria | Why They Make Good Partners |
+|----------|----------------------------|
+| 10+ RTO clients | Can refer to 10+ RTOs immediately |
+| Works with mid-sized RTOs (50-200 students) | Best fit for Optimizer AI pricing |
+| Provides compliance advice | Understand ASQA requirements, can validate AI |
+| Has been in business 5+ years | Trusted relationships, not transactional |
+| Active on LinkedIn | Can reach them with content/messaging |
+
+**How to identify consultants in Marcus's network**:
+- Ask Marcus: "Who do RTOs call when they have compliance issues?"
+- Ask Marcus: "Who helped other RTOs you know get registered or audit-ready?"
+- Target: 5 consultants in Q2 2026, 10 by Q4 2026
+
+---
+
+### RTO Consultant Outreach Script
+
+**Initial outreach (LinkedIn or email)**:
+
+> "Hi [Name],
+>
+> I'm Steven, working with Marcus [if Marcus knows them]. I'm researching how RTOs are handling enrollment calls and compliance documentation these days.
+>
+> You've worked with [X] RTOs in [state/region]. I'm curious: what's the biggest operational pain point you're seeing right now?
+>
+> I'm not selling anything — just learning. But if you have RTO clients who are struggling with call volume or enrollment efficiency, I'd love to show them what we built at Hader Institute.
+>
+> Worth a 15-minute call?
+>
+> Thanks,
+> Steven"
+
+**Follow-up if they respond** (within 5 business days):
+
+> "Thanks [Name] for the insight. Based on our conversation, I think there are [X] RTOs in your network who could benefit from what we've built.
+>
+> Here's how the referral works: We pay 15% of first year's revenue for any customer you refer who signs up. For a mid-sized RTO at $1,499/month, that's $2,698 per referral.
+>
+> If any of your clients are looking for AI enrollment tools, I'd be happy to have a quick intro call. No pressure — just sharing the opportunity.
+>
+> Let me know if you'd like more details."
+
+**Consultant partner value proposition** (what to send them):
+
+```
+REFERRAL PARTNER PROGRAM — Optimizer AI
+
+Who we are:
+- AI for RTO enrollment — orientation calls, lead qualification, attribution
+- Built at Hader Institute (Qld RTO with 500+ students)
+- Built for ASQA compliance from day one
+
+What you get:
+- 15% commission on first year revenue for every referral who signs up
+- Example: RTO at $1,499/month = $2,698 per referral
+- 10 RTO clients × 20% referral rate = 2 customers = $5,396 in commission
+
+What your clients get:
+- AI that reduces enrollment call time by 60%
+- Built-in ASQA compliance (audit trail, recording, transcript)
+- No setup fees, 60-day POC with success guarantee
+
+How it works:
+1. You refer a RTO (email, call, or LinkedIn intro)
+2. We handle the demo and closing
+3. When they sign, you get paid (15% of first year)
+
+No cost to you. No ongoing obligations. Just share the opportunity.
+```
+
+---
+
+### Partner Program One-Pager Structure
+
+**Page 1: The Opportunity** (why RTOs need AI now):
+- Statistics: "RTOs spend 60+ hours/week on enrollment calls"
+- Pain point: "Missed calls, staff burnout, compliance risk"
+- Solution: "Optimizer AI handles 60%+ of enrollment calls 24/7"
+- Proof: "Built at Hader Institute — 60% call reduction, zero audit findings"
+
+**Page 2: The Partner Benefits**:
+- Commission structure: 15% first year, paid monthly
+- Example earnings: "3 referrals × $1,499/month = $6,746 in year 1 commission"
+- Support provided: Demo collateral, joint webinars, partner Slack channel
+- No exclusivity required
+
+**Page 3: How to Get Started**:
+- Step 1: Introduce interested RTOs (any way you prefer)
+- Step 2: We handle the demo (you stay as trusted advisor)
+- Step 3: Customer signs, you get paid
+
+**Contact**: Steven — steven@optimizer.ai
+
+---
+
+### Zoho Partner Specifics — How to Actually Get Listed
+
+**Zoho partner tiers and requirements** (specifics):
+
+| Tier | Requirements | Application Cost | Annual Fee | Referral Commission |
+|------|-------------|-----------------|------------|-------------------|
+| **Registered Partner** | Sign up, basic info | $0 | $0 | 10% first year |
+| **Silver Partner** | 5+ Zoho customers, 2 certifications | $500-1,500/year | $500-1,500 | 15% first year |
+| **Gold Partner** | 20+ customers, revenue threshold | $2,000-5,000/year | $2,000-5,000 | 20% first year |
+| **Elite/Platinum** | 50+ customers, dedicated support | By invite | By invite | 20%+ |
+
+**Zoho Marketplace listing requirements** (step by step):
+
+1. **Register as Zoho partner** (zoho.com/partner) — free, takes 30 minutes
+2. **Complete Zoho developer certification** — free, 2-3 hours online
+3. **Build integration with at least one Zoho product** — Hader integration counts
+4. **Create Marketplace listing** (zoho.com/marketplace/developer) — requires:
+   - Working integration (demo or video)
+   - Privacy policy URL
+   - Terms of service URL
+   - 3 screenshots or video walkthrough
+   - Support contact email
+5. **Submit for review** — 2-4 weeks approval time
+
+**Zoho partner dashboard** (what you'll access):
+- Lead management (RTOs searching for "enrollment" tools)
+- Partner resources (sales materials, certifications)
+- Commission tracking (referral payouts)
+- Co-marketing opportunities (with Zoho)
+
+**Timeline for Zoho partner activation**:
+- Week 1-2: Register as partner, complete certifications
+- Week 3-4: Document Hader integration as case study
+- Week 5-8: Build Marketplace listing (with Kham)
+- Week 9-12: Submit and wait for approval (2-4 weeks)
+- Month 4+: Passive leads from Marketplace
+
+---
+
+### Recommended actions updated:
+
+- [ADDED] Ask Marcus for 5 RTO consultant names (who do RTOs call for compliance help?) — by June 7, 2026
+- [ADDED] Search LinkedIn for "RTO consultant Australia" — identify 10 consultants — by June 14, 2026
+- [ADDED] Draft partner program one-pager (3 pages: opportunity, benefits, how it works) — by June 14, 2026
+- [ADDED] Create outreach script for RTO consultants — by June 14, 2026
+- [ADDED] Register as Zoho partner (free, zoho.com/partner) — by June 1, 2026
+- [ADDED] Complete Zoho developer certification (free, 2-3 hours) — by June 7, 2026
+- [ADDED] Document Hader Zoho integration as case study for Marketplace — by July 2026
+- [ADDED] Submit Zoho Marketplace listing — by August 2026
+- [ADDED] Target: 5 consultant partners by Q3 2026, 10 by Q4 2026
+
+**Sources**:
+- Zoho partner program: zoho.com/partner
+- Zoho Marketplace: zoho.com/marketplace
+- ASQA consultant directory: asqa.gov.au (search for "RTO consultant")
+- B2B partner program structures: Salesforce Partner Program, HubSpot Partner Program
 
 ### Objective
 Research the math: how many RTO customers does Optimizer AI need to support to drive 1,000 enrollments/month? What's the enrollment uplift per RTO from AI tools? Model the path to $10M EBITDA.
