@@ -2509,3 +2509,197 @@ Start with non-accredited short courses (low barrier, fast launch, quick revenue
 ---
 
 *End of Cycle 157 refinement. Gap filled: AI course demand data (67% businesses exploring AI), course structure options (short, Cert IV, Diploma), specific course ideas (3 short courses + Cert IV), revenue model ($63k Year 1, $235k Year 2), credibility flywheel (Hader students → Optimizer AI customers), competitor analysis, launch strategy (3 phases), recommended actions.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 158): Early Customer Discovery Interviews — Framework, Questions, and Interview Execution
+
+### Gap identified: Research mentions "customer discovery interviews with RTO decision-makers" but lacks the actual interview framework, question templates, and execution plan
+
+**Original finding**: "Early customer discovery interviews" in queue requires researching the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers), designing interview questions around their biggest pain points and willingness to adopt AI. The research lacks the actual framework and questions.
+
+**Why this matters**: Customer discovery is the foundation of product-market fit. Without real RTO feedback, Optimizer AI risks building something no one wants. The interview framework ensures Steven asks the right questions, avoids bias, and extracts actionable insights.
+
+### Customer Discovery Framework
+
+**Best approach: "Mom Test" + "Lean Customer Development"**
+
+Principles:
+- Ask about specific past behavior (not future intentions)
+- Ask about problems, not solutions
+- Get out of the building (actual conversations, not surveys)
+- Look for patterns across 10-15 interviews
+
+**Target interviewees:**
+- RTO CEOs (budget authority, pain point validation)
+- Enrollment managers (user perspective, daily frustrations)
+- Marketing directors (tech adoption, attribution pain points)
+- Compliance officers (regulatory concerns, audit prep)
+
+**Interview format:**
+- 30-45 minutes (respect their time)
+- Video call (preferred) or phone
+- Take notes during call (don't trust memory)
+- Record (with permission) for later analysis
+
+### Interview Script: RTO CEO
+
+**Opening (2 min):**
+> "Hi [Name], thanks for making time. I'm Steven from Optimizer AI — we help Australian RTOs automate enrollment calls. I'm doing some research to understand how RTOs handle enrollment today. Would you be open to a quick conversation about your experience?"
+
+**Section 1: Business context (5 min)**
+- "Can you tell me about your RTO? How many students, what courses?"
+- "Walk me through your enrollment process from inquiry to enrollment."
+- "What's your team structure for enrollment?"
+
+**Section 2: Pain points (10 min)**
+- "Where do you spend most of your time on enrollment?"
+- "What's the biggest frustration with your current process?"
+- "Tell me about a time enrollment went wrong. What happened?"
+- "How many calls does your team handle per week?"
+
+**Section 3: Current solutions (5 min)**
+- "What tools do you use for enrollment? What works, what doesn't?"
+- "Have you tried any AI or automation tools? What happened?"
+- "If you could wave a magic wand, what would you change about enrollment?"
+
+**Section 4: AI adoption (5 min)**
+- "Have you heard of voice AI for enrollment calls?"
+- "What would make you trust an AI to handle enrollment calls?"
+- "What concerns do you have about AI in your RTO?"
+
+**Section 5: Decision-making (5 min)**
+- "What would need to be true for you to try a new enrollment tool?"
+- "Who else would be involved in that decision?"
+- "What's your budget range for enrollment tools?"
+
+**Closing (2 min):**
+> "This is really helpful. Would you be open to a follow-up in a few weeks? And do you know other RTOs I should talk to?"
+
+### Interview Script: Enrollment Manager
+
+**Opening (2 min):**
+> "Hi [Name], thanks for talking. I'm researching how RTOs handle enrollment calls. I'm hoping to understand the day-to-day experience of enrollment staff."
+
+**Section 1: Daily work (5 min)**
+- "Walk me through a typical day. What calls do you handle?"
+- "What questions do students ask most often?"
+- "What percentage of calls are the same questions repeated?"
+
+**Section 2: Pain points (10 min)**
+- "What's the most frustrating part of your job?"
+- "Tell me about a time you missed an important call."
+- "How do you handle calls outside business hours?"
+- "How do you collect USI? What challenges do you face?"
+
+**Section 3: Current tools (5 min)**
+- "What tools do you use? Phone system, CRM, calendar?"
+- "What do you wish you had that you don't have today?"
+- "How do you track enrollment data? Is it accurate?"
+
+**Section 4: AI perspective (5 min)**
+- "How would you feel about an AI answering calls?"
+- "What would you need to trust an AI?"
+- "What calls would you NOT want an AI to handle?"
+
+**Section 5: Workflow (5 min)**
+- "Show me how you book an orientation. Walk me through the steps."
+- "How long does it take? Where are the bottlenecks?"
+- "What happens when a student doesn't show up to orientation?"
+
+**Closing (2 min):**
+> "This is really helpful. Would you be open to a demo of what we're building?"
+
+### Interview Questions by Pain Point
+
+**Call volume pain:**
+- "On average, how many calls do you get per week about enrollment?"
+- "What percentage happen outside business hours?"
+- "How many of those calls are voicemail? What happens to those?"
+- "What's the cost of missing a call? (An estimate is fine)"
+
+**Orientation booking pain:**
+- "Walk me through how you book orientations today."
+- "How long does it take to find a time that works?"
+- "What percentage of booked students don't show up? Why?"
+- "How do you handle rescheduling?"
+
+**USI collection pain:**
+- "What percentage of students have their USI ready when they call?"
+- "How long does it take to collect USI from students who don't have it?"
+- "What happens to enrollment if USI is missing?"
+
+**Compliance pain:**
+- "Walk me through ASQA audit prep. What takes the most time?"
+- "How do you track that calls were handled correctly?"
+- "What documentation do you need to keep?"
+
+### Interview Analysis Framework
+
+**After each interview, answer these questions:**
+
+1. **Problem validation:** Is this a real, painful problem?
+   - 1-5 scale (1 = mild, 5 = critical)
+   - Notes on specific examples
+
+2. **Willingness to pay:** Would they pay to solve this?
+   - Budget mentioned: $____/month
+   - Priority: H/M/L
+
+3. **Decision-making:** Who decides, who influences?
+   - Decider: CEO/Marketing/Enrollment
+   - Timeline: 1 mo / 3 mo / 6 mo+
+
+4. **AI readiness:** Are they open to AI?
+   - Skeptic / Neutral / Enthusiast
+   - Key concerns: ___
+
+5. **Next steps:** Can we demo this person?
+   - Demo: Yes/No
+   - Referral: Yes (who?)
+
+### Interview Schedule (Month 1)
+
+**Week 1-2: First 5 interviews**
+- Target: Marcus/Kham's network (warm leads)
+- 5 interviews × 45 min = 3.75 hrs
+- Goal: Establish baseline pain points
+
+**Week 3: Analyze and adjust**
+- Review notes, identify patterns
+- Adjust questions based on insights
+- Identify top 3 pain points validated
+
+**Week 4: Second round (5 more interviews)**
+- Target: Cold outreach (LinkedIn)
+- Validate patterns from first round
+- Refine value proposition based on feedback
+
+### Target Interview Metrics
+
+- **5-10 interviews** (Month 1)
+- **3+ pain points validated** (real, painful, willing to pay)
+- **2-3 demo targets** (interested in seeing product)
+- **1-2 referrals** (recommend others to talk to)
+
+### Recommended Actions for Steven
+
+- [ADDED] Create interview script (CEO, Enrollment Manager, Marketing Director) — by Week 1
+- [ADDED] Identify 15 RTO contacts (use Marcus/Kham network first) — by Week 1
+- [ADDED] Schedule 10 interviews in Month 1 (5 warm, 5 cold) — by Week 2
+- [ADDED] Create interview tracking sheet (notes, scores, next steps) — by Week 1
+- [ADDED] Analyze interviews weekly (identify patterns) — Weeks 2, 3, 4
+- [ADDED] Refine value prop based on real feedback — by Week 4
+- [ADDED] Identify 2-3 pilot customers from interview pool — by Month 2
+- [ADDED] Build case study from first pilot customer — by Month 3
+
+### Sources
+
+- Customer discovery: "The Mom Test" by Rob Fitzpatrick
+- Lean startup: "Lean Customer Development" by Cindy Alvarez
+- Interview frameworks: "Customer Development Labs" by Steve Blank
+- RTO decision-makers: LinkedIn Sales Navigator (2026)
+
+---
+
+*End of Cycle 158 refinement. Gap filled: Customer discovery framework (Mom Test + Lean), interview scripts (CEO + Enrollment Manager), pain point questions (5 categories), interview analysis framework (5 questions), Month 1 schedule (10 interviews), target metrics, recommended actions.*
