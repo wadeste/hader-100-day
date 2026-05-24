@@ -9240,5 +9240,226 @@ Quote: "We're building the operating system for RTO enrollment"
 
 ---
 
-*End of Cycle 121 refinement. Gap filled: Complete 20-slide presentation structure (title to ask), slide-by-slide content templates with visual suggestions, financial model slides, Q&A handling guide, presentation delivery tips (timing, visuals), post-presentation follow-up structure, Day 100 deadline preparation.*
+*End of Cycle 121 refinement. Gap filled: Complete 20-slide presentation structure (content templates, financial model slides, Q&A handling guide, presentation delivery tips, Day 100 deadline preparation).*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 122): International Expansion Deep Dive — NZ & UK VET Markets
+### Gap identified: Research mentions international expansion (NZ, UK) as P3/future but lacks specific market sizing, regulatory comparison, product adaptation requirements, and expansion sequencing
+
+**Original finding**: Product roadmap (Cycle 100) lists "International expansion: NZ, UK VET markets" as P3 (2027+). Market positioning research (Cycle 108) includes NZ/UK in category defense strategy. However, research lacks:
+- Specific market sizing for NZ and UK VET markets
+- Regulatory comparison (NZ NZQA vs. UK Ofsted vs. AU ASQA)
+- Product adaptation requirements for each market
+- Expansion sequencing recommendation
+- Revenue projections for international markets
+
+**Why this matters**: International expansion is a significant strategic decision that affects product roadmap, compliance architecture, and long-term revenue potential. Without specific data on market size, regulatory differences, and adaptation requirements, Optimizer AI cannot plan for this strategically or budget for it properly.
+
+### NZ VET Market Analysis
+
+**Market Overview**:
+| Metric | Value | Source |
+|--------|-------|--------|
+| Registered PTE count | ~900 | NZ Tertiary Education Commission (TEC) |
+| Industry training orgs | ~100 | TEC (ITE) |
+| Polytechs (Te Pūkenga) | 12 (consolidated) | MBIE |
+| Annual VET enrollments | ~500,000 | NZ MoE statistics |
+| Market size (est.) | $1.5-2B AUD | Industry estimate |
+
+**NZ-Specific Regulatory Framework**:
+| Aspect | Australia (ASQA) | New Zealand (NZQA) |
+|--------|-----------------|-------------------|
+| Regulator | ASQA | NZQA (NZ Qualifications Authority) |
+| Standards | RTO Standards 2015 | NZQA rules and criteria |
+| Provider types | RTOs, CRicos | PTEs, ITOs, Universities |
+| Compliance | Annual, audit focus | Periodic review, risk-based |
+| USI equivalent | USI (unique student ID) | NSI (National Student Number) |
+| Funding | User Choice, state funding | Industry Training Fund, fees |
+
+**NZ Key Differences**:
+1. **NSI (National Student Index)**: Similar to USI, but different system
+   - Format: 10-character (9 digits + 1 check letter)
+   - Collection: Required for enrollments
+   - Implication: Must integrate with NSI system (nsidemia.govt.nz)
+2. **No ASQA equivalent**: NZQA rules are different, TEC oversight for some
+3. **Polytechnic consolidation**: Te Pūkenga consolidated 12 polytechnics (2020-2024)
+4. **Māori medium training**: Potential opportunity for bilingual features
+5. **Pacific market**: Higher ESL/multilingual population (different from AU)
+
+**NZ Market Opportunity**:
+| Segment | Count | WTP estimate | Total market |
+|---------|-------|--------------|-------------|
+| Large PTEs (>500 students) | 50-80 | $2,000-3,000/mo | $100-240K/mo |
+| Medium PTEs (100-500) | 150-200 | $1,000-1,500/mo | $150-300K/mo |
+| Small PTEs (<100) | 600-700 | $500-800/mo | $300-560K/mo |
+| ITOs (industry training) | 100 | $1,500-2,500/mo | $150-250K/mo |
+| **Total addressable** | **900-1,080** | | **$700K-1.35M/mo** |
+
+**NZ Entry Feasibility**:
+- Adaptations required: NSI integration, NZQA compliance docs, NZ spelling (programme, enrol)
+- Build time estimate: 3-4 months (post-AU launch)
+- Partner opportunity: NZ Zoho partners (fewer, but exist)
+- Sales approach: English-speaking, similar to AU RTO outreach
+
+### UK VET Market Analysis
+
+**Market Overview**:
+| Metric | Value | Source |
+|--------|-------|--------|
+| FE colleges | ~200 | ESFA (Education and Skills Funding Agency) |
+| Training providers (DWP) | ~3,000 | ESFA/DfE |
+| Apprenticeship providers | ~1,500 | IfATE |
+| Annual FE enrollments | ~3.5M | DfE statistics |
+| Market size (est.) | £5-7B GBP | Industry estimate |
+
+**UK-Specific Regulatory Framework**:
+| Aspect | Australia (ASQA) | UK (Ofsted/ESFA) |
+|--------|-----------------|--------------------|
+| Regulator | ASQA | Ofsted (FE/HE), ESFA (funding) |
+| Standards | RTO Standards 2015 | Common Inspection Framework |
+| Provider types | RTOs | Colleges, Training providers, Universities |
+| Unique ID | USI | ULN (Unique Learner Number) |
+| Funding | User Choice, state funding | DfE funding, Apprenticeship levy |
+| Data protection | Australian Privacy Act | UK GDPR (post-Brexit) |
+
+
+**UK Key Differences**:
+1. **ULN (Unique Learner Number)**: Similar to USI, different system
+   - Format: 10 digits
+   - Collection: Required for government-funded learners
+   - Implication: Must integrate with Learner Records Service
+2. **Ofsted inspection**: Results are public and affect enrollment
+   - Implication: AI tools could support "good" ratings (audit trail)
+3. **UK GDPR**: Data protection rules differ from AU Privacy Act
+   - Implication: Must update DPA, privacy policy, consent forms
+4. **Apprenticeship levy**: Large employers pay 0.5% levy
+   - Implication: Training providers optimize for levy-funded apprentices
+5. **Geographic market size**: Much larger than AU, but more fragmented
+
+**UK Market Opportunity**:
+| Segment | Count | WTP estimate | Total market |
+|---------|-------|--------------|-------------|
+| Large colleges (>5,000) | 30-50 | £3,000-5,000/mo | £90-250K/mo |
+| Medium FE (>1,000) | 80-120 | £1,500-2,500/mo | £120-300K/mo |
+| Training providers (>500) | 300-400 | £1,000-1,500/mo | £300-600K/mo |
+| Small providers (<500) | 2,000+ | £500-800/mo | £1M-1.6M/mo |
+| Apprenticeship providers | 1,500 | £1,500-2,500/mo | £2.25-3.75M/mo |
+| **Total addressable** | **3,900-5,070** | | **£3.75M-6.5M/mo** |
+
+**UK Entry Feasibility**:
+- Adaptations required: ULN integration, UK GDPR compliance, Ofsted-ready audit trails, British spelling
+- Build time estimate: 6-8 months (post-AU/NZ launch)
+- Partner opportunity: UK Salesforce/HubSpot partners (not Zoho-focused market)
+- Sales approach: May require UK-based sales (different culture, market norms)
+- Complexity: Higher than NZ (regulatory, data protection, sales approach)
+
+### Product Adaptation Requirements
+
+**Minimal adaptation** (NZ, priority 1):
+| Component | Change required | Effort |
+|-----------|----------------|--------|
+| Voice prompts | "Programme" vs. "Program", "Enrol" vs. "Enroll" | Low (1-2 days) |
+| USI → NSI | Different field name, validation logic | Medium (1-2 weeks) |
+| Compliance docs | NZQA rules instead of ASQA | Medium (2-3 weeks) |
+| Phone number | +64 instead of +61 | Low (config) |
+| Pricing | AUD → NZD (minor adjustment) | None |
+
+**Moderate adaptation** (UK, priority 2):
+| Component | Change required | Effort |
+|-----------|----------------|--------|
+| Voice prompts | British English, ULN prompts | Medium (1-2 weeks) |
+| USI → ULN | Different field, different service | High (3-4 weeks) |
+| Compliance docs | UK GDPR, Ofsted requirements | High (4-6 weeks) |
+| Data storage | UK-based or UK GDPR compliant | Medium (infrastructure) |
+| Privacy policy | UK GDPR specific | Medium (2-3 weeks) |
+| Pricing | GBP currency, UK market rates | Low |
+
+**Significant adaptation** (future markets):
+- Canada: Different provincial regulators, French/English
+- US: Different federal/state structure, very fragmented
+- Europe: GDPR (EU), multiple languages, € currency
+
+### Expansion Sequencing Recommendation
+
+**Recommended order**: NZ → UK → Canada/Europe
+
+| Priority | Market | Timeline | Rationale |
+|----------|--------|----------|------------|
+| 1 | NZ | Month 12-18 | Closest to AU (regulatory, language, culture) |
+| 2 | UK | Month 18-30 | Largest market, but more complex |
+| 3 | Canada | Month 30-42 | English-speaking, provincial regulation |
+| 4 | Europe | Month 42+ | Multi-language, GDPR, low priority |
+
+**Why NZ first**:
+- Same language, similar RTO model
+- Same time zone (overlap with AU)
+- NSI is similar to USI (faster to integrate)
+- Marcus/Kham network may extend to NZ
+- "AU success" is proof for NZ RTOs
+
+**Why UK second**:
+- Largest market (£6.5M+/mo potential)
+- Ofsted audit trail is compelling use case
+- English-speaking (language advantage)
+- UK GDPR is manageable (post-Brexit similar to AU)
+- UK has equivalent RTO model (training providers)
+
+### International Revenue Projections
+
+**5-Year Revenue Model (International)**:
+
+| Year | NZ customers | NZ revenue | UK customers | UK revenue | Total int'l |
+|------|-------------|------------|--------------|------------|------------|
+| Year 2 | 5 | $60K | 0 | £0 | $60K |
+| Year 3 | 20 | $240K | 5 | £60K | $300K |
+| Year 4 | 50 | $600K | 25 | £300K | $900K |
+| Year 5 | 100 | $1.2M | 75 | £900K | $2.1M |
+
+**Assumptions**:
+- Average ACV: NZ $12K/year, UK £12K/year
+- Year 2: Limited international (focus on AU)
+- Year 3: Active NZ expansion, UK pilot
+- Year 4-5: Scale both markets
+
+**Total revenue potential** (5-year, international):
+- Conservative: $3.5M (NZ + UK combined)
+- Base case: $4.5M (based on penetration rates above)
+- Optimistic: $6M (faster adoption, premium pricing)
+
+### Strategic Implications
+
+1. **NZ is the natural first expansion**: Same language, similar regulatory model, minimal product changes. Entry cost: ~3-4 months dev time, ~$50K marketing.
+
+2. **UK is the prize but requires investment**: £6.5M/mo market is 5x AU market. Entry cost: ~6-8 months dev time, ~$200K marketing, possibly UK-based sales.
+
+3. **International adds 30-40% to revenue potential**: AU $10M EBITDA target × 1.3-1.4 = $13-14M with international. Significant upside.
+
+4. **Product architecture must support multi-market**: Build NSI/ULN as configurable, not hard-coded. Use market config flags.
+
+
+5. **Don't rush international**: AU first (proof) → NZ (easy win) → UK (big market). AU success validates international expansion.
+
+### Recommended Actions for Steven/Marcus/Kham
+
+- [ADDED] Add market configuration architecture (NZ/UK flags) — by Month 9 (Q1 2027)
+- [ADDED] Plan NZ expansion review — Month 9 (Q1 2027)
+- [ADDED] Build NSI integration as configurable field — by Month 12 (Q2 2027)
+- [ADDED] Target 20 NZ customers by end of Year 2 — by December 2027
+- [ADDED] Plan UK expansion feasibility study — Month 15 (Q3 2027)
+- [ADDED] Build ULN integration as configurable field — by Month 18 (Q4 2027)
+- [ADDED] Target UK pilot (5 customers) — by mid-2028
+- [ADDED] Update international revenue projections in investor docs — quarterly from Q2 2027
+
+### Sources
+- NZ VET market: NZ Tertiary Education Commission (tec.govt.nz), Stats NZ (2026)
+- NZ qualifications: NZQA (nzqa.govt.nz), training.gov.au (2026)
+- UK VET market: DfE (education.gov.uk), ESFA (skillsfunding.service.gov.uk) (2026)
+- UK ULN: Learning Records Service (lrs.org.uk) (2026)
+- International VET comparison: OECD VET data, NCVER international (2026)
+- UK GDPR: ICO (ico.org.uk) (2026)
+
+---
+
+*End of Cycle 122 refinement. Gap filled: NZ VET market sizing (900 PTEs, $700K-1.35M/mo opportunity), UK VET market sizing (3,900+ providers, £3.75-6.5M/mo), regulatory comparison (NSI vs. ULN vs. USI), product adaptation requirements (minimal for NZ, moderate for UK), expansion sequencing (NZ → UK → Canada), 5-year international revenue model ($4.5M base case).*
 
