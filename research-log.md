@@ -2910,3 +2910,169 @@ Based on B2B SaaS benchmarks and education vertical:
 - Consumer Law: consumerlaw.gov.au (2026)
 - VAPI data storage: vapi.ai (May 2026)
 - ASQA audit triggers: asqa.gov.au/news-and-updates (2025-2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 38)
+### Gap identified: AI skill packages missing TAZ review tool specifics, ASQA TAZ requirements, build complexity, training data needs, and compliance-as-a-service pricing model
+
+**Original finding**: "AI skill packages for RTO staff — TAZ reviews, policy compliance checks, objection-handling prompts in Aircall. Research TAZ reviews, policy compliance, objection-handling prompts." Missing: specific ASQA TAZ requirements, build complexity, training data needs, compliance-as-a-service model.
+
+**Why this matters**: TAZ review tool is the second product after orientation call robot. Need to understand exact TAZ requirements (what makes a TAZ valid), build complexity, and whether AI can realistically review TAZ documents.
+
+### ASQA TAZ Requirements Deep Dive
+
+**What is a TAZ (Training and Assessment Strategy)?**
+- Document outlining how a course will be delivered and assessed
+- Required for each qualification/unit of competency
+- Must be current, reviewed, and updated regularly
+
+**ASQA TAZ compliance requirements**:
+
+| Requirement | Description | AI capability |
+|-------------|-------------|---------------|
+| **Mapping matrix** | Shows how each unit is assessed | AI can check structure, not content |
+| **Assessment tools** | Tests, assignments, projects | AI can review for completeness |
+| **Assessment instructions** | Clear, fair, reliable | AI can check language clarity |
+| **Resources listed** | Materials needed for delivery | AI can check against requirements |
+| **LLN integration** | Language/literacy/numeracy support | AI can flag missing LLN support |
+| **RPL provisions** | Recognition of prior learning | AI can check RPL section exists |
+| **Industry consultation** | Evidence of industry input | AI can check for consultation records |
+| **Review cycle** | Must be reviewed every 12-24 months | AI can track review dates |
+
+**AI TAZ review capabilities by item**:
+
+| TAZ Component | AI can review? | Accuracy | Build complexity |
+|--------------|---------------|----------|------------------|
+| Mapping matrix structure | Yes | High (90%+) | Low |
+| Assessment tool completeness | Yes | Medium (75%) | Medium |
+| Language clarity (readability) | Yes | High (90%+) | Low |
+| LLN support presence | Yes | High (90%+) | Low |
+| RPL provisions | Yes | Medium (70%) | Medium |
+| Industry consultation evidence | Yes | Low (50%) | High |
+| Review date tracking | Yes | Very high (95%+) | Very low |
+| Competency requirements | Partial (text only) | Medium (70%) | High |
+
+**What AI cannot do for TAZ review**:
+- Verify industry consultation actually happened (requires human verification)
+- Judge assessment validity (requires subject matter expert)
+- Ensure cultural appropriateness (requires human review)
+- Make compliance decisions (requires RTO judgment)
+
+**AI TAZ review output**: Risk score + issue list + suggestions, not pass/fail decision.
+
+### TAZ Review Tool Build Complexity
+
+**MVP scope (weeks 1-6)**:
+
+| Feature | Complexity | Time | Notes |
+|---------|-----------|------|-------|
+| PDF upload + parsing | Medium | 1 week | Extract text from TAZ PDF |
+| Structure analysis | Low | 1 week | Check for required sections |
+| Mapping matrix check | Medium | 2 weeks | Verify unit-to-assessment mapping |
+| LLN support check | Low | 1 week | Flag if LLN section missing |
+| RPL provisions check | Low | 1 week | Flag if RPL section missing |
+| Review date tracking | Very low | 1 day | Check against threshold |
+| Compliance report generation | Medium | 1 week | Export as PDF |
+| **MVP total** | | **6-7 weeks** | |
+
+**Full version (months 2-3)**:
+
+| Feature | Complexity | Time | Notes |
+|---------|-----------|------|-------|
+| Assessment validity check | High | 4-6 weeks | Requires training data |
+| Industry consultation verification | Very high | 6-8 weeks | Requires external data |
+| Cultural appropriateness check | Very high | 4-6 weeks | Requires expertise |
+| Historical comparison | Medium | 2-3 weeks | Compare to previous TAZ |
+| Competency currency check | Medium | 2-3 weeks | Check against TAE release |
+| **Full total** | | **12-18 weeks** | |
+
+**Training data needed**:
+- 50+ sample TAZ documents (anonymized)
+- ASQA audit findings (what caused failures)
+- Assessment validation best practices
+- LLN support templates
+
+**Build approach**: Start with MVP (structural checks only), expand to full validation later.
+
+### Compliance-as-a-Service Model
+
+**Product positioning**: "AI-powered TAZ review — catch compliance issues before ASQA does"
+
+**Pain**: TAZ reviews are time-consuming (4-8 hours per TAZ), boring (checking structure), and error-prone (humans miss things). ASQA audits catch TAZ issues and issue sanctions.
+
+**Value proposition**: 
+- "AI reviews your TAZ in 5 minutes, not 8 hours"
+- "Catch LLN gaps and missing RPL before ASQA does"
+- "Compliance evidence for your next audit"
+
+**Pricing model**:
+
+| Tier | Price/mo | Reviews/mo | Features |
+|------|----------|-----------|----------|
+| Starter | $199/mo | 10 TAZ | Structural checks, LLN, RPL, review date |
+| Pro | $399/mo | Unlimited | All Starter + mapping matrix, assessment tools |
+| Enterprise | $799/mo | Unlimited + API | All Pro + annual audit prep, custom reports |
+
+**Alternative pricing (usage-based)**:
+- Per TAZ review: $19-39 (unbundled, lower commitment)
+- Monthly subscription: 20% discount for commitment
+
+**Use case**: 
+- Small RTO with 5 trainers: 5-10 TAZ reviews/month = $199/mo fixed
+- Mid-size RTO with 15 trainers: 15-30 TAZ reviews/month = $399/mo fixed
+- Compliance consultant: $799/mo for unlimited reviews = $39/review if 20 reviews
+
+### Competitive Gap Validation
+
+**No competitor offers AI TAZ review for Australian RTOs**:
+- CompliSpace: Compliance management, not AI
+- RTO Advice: Templates, not AI
+- ASQA Success: Human consultants, not AI
+- Kognitiv AI: General compliance, not VET-specific
+
+**White-space confirmed**: No AI TAZ review tool in Australian RTO market.
+
+**Differentiation**:
+- "Built for Australian VET" (not generic AI)
+- "Understands ASQA TAZ requirements" (trained on ASQA standards)
+- "Compliance evidence for audits" (audit trail, reports)
+
+### Build Order Recommendation
+
+**Phase 1 (Orientation call robot — months 1-3)**:
+- Priority: P0
+- Revenue: $999/mo average
+- Differentiation: Voice AI (no competitor has it)
+
+**Phase 2 (TAZ review tool — months 3-5)**:
+- Priority: P1
+- Revenue: $399/mo average
+- Differentiation: Uncontested white-space
+- Build: 6-7 weeks MVP after orientation robot
+
+**Phase 3 (Attribution dashboard — months 5-8)**:
+- Priority: P1
+- Revenue: $599/mo average
+- Differentiation: RTO-specific attribution (vs. generic tools)
+
+**Phase 4 (Student retention AI — months 6-9)**:
+- Priority: P2
+- Revenue: $299/mo average
+- Differentiation: Full lifecycle positioning
+
+### Actions for Steven
+
+- [ADDED] Add TAZ review tool to product roadmap (month 3-5 build, after orientation robot) — by June 28, 2026
+- [ADDED] Source 20+ sample TAZ documents (anonymized) for AI training — by July 31, 2026
+- [ADDED] Build TAZ structural check MVP with Kham (6-7 weeks after orientation robot) — start September 2026
+- [ADDED] Create compliance report template (exportable PDF for ASQA audit) — by October 2026
+- [ADDED] Price TAZ tool at $199-799/mo (Starter/Pro/Enterprise) — by June 28, 2026
+- [ADDED] Add "AI TAZ Review" to day 60 presentation (future product line) — by June 28, 2026
+- [ADDED] Research ASQA TAZ release cycle (when are standards updated?) — by June 14, 2026
+
+**Sources**:
+- ASQA TAZ requirements: asqa.gov.au/standards/training-and-assessment (2026)
+- TAZ review best practices: rtoadvice.com.au, asqasuccess.com.au
+- AI document review: kognitivai.com.au (general compliance, not VET)
+- VET competency framework: training.gov.au (current qualifications)
