@@ -2439,3 +2439,81 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 67 refinement. Gap filled: Moat strength ratings, competitor response scenarios, moat-building actions.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 68): 100-Day Plan Synthesis Deep Dive
+### Gap identified: Research provides high-level structure but lacks complete timeline, deliverable checklist, and presentation format
+
+**Original finding**: "100-day plan synthesis" provided executive summary but lacked execution details.
+
+**Why this matters**: The 100-day deliverable is the primary output. Need specific milestones, deliverables, and presentation format.
+
+### Complete 100-Day Timeline
+
+**Days 1-30 (Foundation)**:
+- Company setup, product spec, LinkedIn profile, target list, call script, VAPI setup, privacy policy, first outreach
+
+**Days 31-60 (Product Development)**:
+- Discovery interviews, pilot selection, VAPI + Zoho integration, RTO Connect proposal, first demo, attribution dashboard spec
+
+**Days 61-90 (Launch Prep)**:
+- Pilot onboarding, Hader go-live (July 21), first case study metrics, first external customer, partner program, attribution dashboard beta
+
+**Days 91-100 (Traction)**:
+- 5 external customers, first testimonial, 100-day presentation, Day 100 review
+
+### Deliverable Checklist
+
+**Must Have (Day 100)**:
+- Orientation robot live at Hader (July 21)
+- First 3 external RTO customers signed
+- LinkedIn outreach (50+ targets)
+- RTO Connect proposal submitted
+- Privacy policy + legal docs
+- Discovery interviews (10 complete)
+- Attribution dashboard spec
+
+### Executive Presentation (11 Slides)
+
+1. Title slide
+2. Situation (RTO pain points)
+3. Solution (Optimizer AI + products)
+4. Market opportunity ($2.2M ARR at 10% adoption)
+5. Product + pricing ($499-1,999/mo)
+6. Traction metrics
+7. Go-to-market channels
+8. 100-day timeline
+9. Team + resources
+10. Risks + mitigations
+11. Ask (investment, timeline, success metrics)
+
+### Budget Summary (Year 1)
+
+| Category | Budget |
+|----------|--------|
+| Steven salary | $100K (+ $20K bonus) |
+| Kham (part-time) | $50K |
+| Tools | $5K |
+| Marketing | $15K |
+| Legal | $5K |
+| **Total** | **$175K** |
+
+### Recommended Actions for Steven
+
+- [ADDED] Confirm company setup status with Marcus — by June 7, 2026
+- [ADDED] Set up weekly review cadence — by June 7, 2026
+- [ADDED] Execute foundation milestones (Days 1-30) — by June 23, 2026
+- [ADDED] Draft executive presentation (first version) — by June 21, 2026
+- [ADDED] Build deliverable checklist — by June 14, 2026
+
+### Sources
+- 100-day plan best practices: Harvard Business Review (2026)
+- Executive presentation: a16z founder guides (2026)
+- Milestone planning: Y Combinator startup guide (2026)
+
+---
+
+*End of Cycle 68 refinement. Gap filled: Complete 100-day timeline, deliverable checklist, presentation format, budget, risk plan.*
+
+---
