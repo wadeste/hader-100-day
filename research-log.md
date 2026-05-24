@@ -1008,6 +1008,220 @@ Research best framework for customer discovery with RTO decision-makers. Design 
 
 ---
 
+---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 73): Customer Discovery Interview Implementation Deep Dive
+### Gap identified: Research provides interview framework but lacks complete screening script, scheduling templates, and interview analysis methodology
+
+**Original finding**: "Early customer discovery interviews" provided JTBD framework but lacked implementation-ready interview scripts and analysis tools.
+
+**Why this matters**: Discovery interviews are the foundation of product-market fit. Without a complete implementation kit (screening questions, talking points, analysis template), Steven may miss critical insights or waste time on unqualified leads.
+
+### Discovery Interview Kit
+
+**Phase 1: Outreach & Scheduling**
+
+**Email 1: Introduction (Day 0)**
+> **Subject**: 15 minutes about RTO enrollment challenges?
+>
+> Hi [Name],
+>
+> I'm researching how Australian RTOs handle the volume of enrollment inquiry calls. I'm speaking with enrollment managers, CEOs, and marketing directors to understand what's working and what's not.
+>
+> Would you have 15 minutes for a quick call? I'm not selling anything — just learning.
+>
+> Best,
+> Steven
+
+**Email 2: Follow-up (Day 5)**
+> **Subject**: Re: 15 minutes about RTO enrollment challenges?
+>
+> Hi [Name],
+>
+> Following up on my earlier note. I'd love to understand how your team handles enrollment calls — specifically whether AI could help.
+>
+> If 15 minutes works, here's my calendar: [link]
+>
+> Best,
+> Steven
+
+**Calendly/Scheduling Link**: [Create free Calendly for 15-min discovery calls]
+
+**Screening Questions (Before Booking)**:
+1. "What's your role at [RTO name]?"
+2. "Are you currently handling enrollment calls?"
+3. "Would it be useful to chat about AI enrollment automation?"
+4. "What's your availability this week?"
+
+**Phase 2: Discovery Call Script (20 minutes)**
+
+**Opening (2 minutes)**:
+> "Thanks for making time, [Name]. I'll keep this to 15-20 minutes max. I'm researching how Australian RTOs handle enrollment calls and what challenges exist. Your input will help me understand whether AI could help this market.
+>
+> Quick ground rules: I'm not selling anything. If what I learn helps shape a product that could help you, great. If not, you'll still get useful insights from our conversation.
+>
+> Are you good with me taking notes?"
+
+**Current State Questions (5 minutes)**:
+> "Let's start with the basics. How does enrollment work at [RTO name] today? Walk me through the process from first inquiry to enrolled student."
+
+*[Listen for: Manual steps, time sinks, bottlenecks]*
+
+> "On a typical week, how many enrollment calls does your team handle?"
+
+*[Listen for: Volume, peak times, staffing]*
+
+> "Walk me through a busy day. What does the team spend most time on?"
+
+*[Listen for: Specific pain points, frustration]*
+
+**Pain Exploration Questions (8 minutes)**:
+> "What's the hardest part of the enrollment process? If you could fix one thing, what would it be?"
+
+*[Listen for: Specific pain, not generic "everything"]*
+
+> "What would you do with 20 extra hours per week?"
+
+*[Listen for: Real priorities, not hypothetical]*
+
+> "Tell me about a time when a student fell through the cracks. What happened?"
+
+*[Listen for: Consequences of missed calls]*
+
+> "How many inquiries do you estimate you're losing due to slow response or missed calls?"
+
+*[Listen for: Specific number or estimate]*
+
+**Imagination Questions (3 minutes)**:
+> "If you had a magic wand and could solve one enrollment problem instantly, what would it be?"
+
+*[Listen for: Deepest desire, not surface level]*
+
+> "What would need to be true for you to adopt a new tool like AI enrollment automation?"
+
+*[Listen for: Decision criteria, hesitations]*
+
+**Budget/Decision Questions (2 minutes)**:
+> "When you think about the problem we discussed, what's the cost of not solving it?"
+
+*[Listen for: Money, time, opportunity]*
+
+> "If we could reduce enrollment call time by 50%, what would that be worth to you?"
+
+*[Listen for: Specific budget or vague response]*
+
+> "What would the process look like for approving a new tool like this?"
+
+*[Listen for: Decision-maker, timeline]*
+
+**Closing (2 minutes)**:
+> "This has been really helpful, [Name]. A few things stood out: [Summarize key insight]. Is that accurate?"
+
+> "I'm planning to share what I learn with RTOs in a similar position. Would you be open to staying in touch as this develops?"
+
+> "If you think of anyone else who might benefit from this conversation, I'd appreciate an intro."
+
+> "Thanks again for your time. I'll send a summary of what I learned."
+
+### Interview Analysis Template
+
+**Post-Interview Capture (Within 24 hours)**:
+
+**Company Profile**:
+- Name:
+- Size (students/month):
+- Staff (enrollment team):
+- Current tools:
+- Marketing budget:
+
+**Top 3 Pains** (ranked by severity):
+1.
+2.
+3.
+
+**Quote** (verbatim):
+> "[Exact quote capturing the pain]"
+
+**Budget Indicator**:
+- Mentioned specific budget: Yes/No
+- Budget range mentioned: $
+- Willingness to pay: Low/Medium/High
+
+**Decision Timeline**:
+- Immediate need: Yes/No
+- Timeline: 1-3 months / 3-6 months / 6+ months
+- Decision-maker: [Name]
+
+**Referral Potential**:
+- Would recommend to others: Yes/No
+- Contact mentioned: [Name]
+
+**Next Steps**:
+- Follow-up required: Yes/No
+- Send summary: Yes/No
+- Schedule demo: Yes/No
+
+**Analysis: Jobs to Be Done**:
+- Job 1: [What they're trying to accomplish]
+- Job 2:
+- Job 3:
+
+**Analysis: Segment Fit**:
+- Small/Medium/Large:
+- Primary pain vs. our solution: Strong/Fit/Weak
+- Competitor mention: [Who]
+
+### Discovery Insights Synthesis
+
+**Weekly Review Template** (After 3-5 interviews):
+
+**Themes Identified** (Top 3):
+1. [Theme] — appears in [X] of [Y] interviews
+2.
+3.
+
+**Quotes to Use**:
+> "[Quote 1]"
+> "[Quote 2]"
+
+**Feature Requests** (mentioned 2+ times):
+- [Feature] — [X] mentions
+
+**Objections** (mentioned 2+ times):
+- [Objection] — [X] mentions
+
+**Segment Insights**:
+- Small RTOs (20-50/mo): [Pattern]
+- Medium RTOs (50-150/mo): [Pattern]
+- Large RTOs (150+/mo): [Pattern]
+
+**Recommended Actions**:
+- Adjust messaging based on findings
+- Build/skip features based on demand
+- Prioritize segments by fit
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Calendly for discovery calls — by June 7, 2026
+- [ADDED] Create outreach email sequence (2 emails) — by June 7, 2026
+- [ADDED] Build interview tracking spreadsheet (capture form) — by June 7, 2026
+- [ADDED] Schedule 10 discovery calls (target: 5 small, 3 medium, 2 large) — by June 28, 2026
+- [ADDED] Conduct weekly synthesis review (after every 3-5 calls) — ongoing from June 2026
+- [ADDED] Update messaging based on real pain points discovered — by July 2026
+
+### Sources
+- Discovery interview methodology: "The Mom Test" by Rob Fitzpatrick (2019)
+- Jobs to Be Done framework: jtbd.info (2026)
+- Interview best practices: Superhuman, Lenny Rachitsky (2026)
+
+---
+
+*End of Cycle 73 refinement. Gap filled: Complete discovery interview kit, screening script, call template, analysis methodology.*
+
+---
+
 ## Proof of concept design — 2026-05-24
 ### Objective
 Research what a compelling POC looks like for each product line. Define metrics that prove value.
