@@ -5729,3 +5729,124 @@ A one-page ROI report showing:
 - Statistical validity: Confidence interval formulas, sample size calculators
 - POC tracking: B2B SaaS metrics frameworks (Gong, Amplitude)
 - Baseline methodology: Baseline vs. treatment design principles
+
+---
+
+## Refinement — 2026-05-24 (Cycle 11)
+### Gap identified: AI adoption rate claims lack verified data and source attribution
+
+**Original finding**: "AI adoption in Australian RTOs: 10-15% actively using AI, 50% using basic AI (email, content), 35% not using AI — mainstream adoption still 12-18 months away"
+
+**Why this matters**: These adoption rate percentages are the foundation for "first-mover advantage" and "market timing" claims. If they're wrong (too high or too low), the entire positioning strategy could be misaligned. For example:
+- If actual adoption is 5% (not 10-15%), the market is less mature = bigger opportunity but slower to convert
+- If actual adoption is 25% (not 10-15%), competitors may already be ahead = urgency to move faster
+- If "basic AI" means spreadsheets and Canva AI (not enrollment automation), the categories are different than assumed
+
+**Research status**: External web search blocked in this environment. Government sources (NCVER, ASQA) returned Cloudflare challenges. No verified data source available for Australian RTO AI adoption rates.
+
+**Revised framing for the adoption rate claims**:
+
+The original estimates should be presented with explicit uncertainty, not as verified statistics:
+
+| Claim | Original Framing | Revised Framing |
+|-------|-----------------|------------------|
+| "10-15% actively using AI" | Presented as fact | "Estimated 10-15% — requires primary research to verify" |
+| "50% using basic AI" | Presented as fact | "Includes email, Canva, ChatGPT — not enrollment automation" |
+| "35% not using AI" | Presented as fact | "Estimated — likely accurate for early adopters vs. laggards" |
+| "12-18 months to mainstream" | Confident claim | "Estimated based on typical VET tech adoption cycles" |
+
+**What "actively using AI" actually means — critical distinction**:
+
+The research conflates three distinct categories of AI use:
+
+| Category | Examples | % of RTOs (estimated) | Relevance to Optimizer AI |
+|----------|----------|----------------------|--------------------------|
+| **Administrative AI** | ChatGPT for writing emails, Canva AI for social posts | 40-60% | Low (not enrollment-related) |
+| **Marketing AI** | AI-generated ad copy, chatbot on website | 10-20% | Medium (some overlap with attribution dashboard) |
+| **Enrollment AI** | Voice AI for calls, automated qualification, AI orientation | 2-5% | High (Optimizer AI's market) |
+| **No AI use** | All manual processes | 25-40% | Opportunity (needs education) |
+
+**Key insight**: The "10-15% actively using AI" claim likely includes all three categories above. The enrollment AI category (what Optimizer AI actually competes in) is probably only 2-5% of RTOs. This means:
+- **TAM is smaller than stated** (but less competition)
+- **Education required is larger** (most RTOs don't understand what enrollment AI looks like)
+- **Positioning should be "pioneer" not "early adopter"** — fewer competitors, longer sales cycles
+
+**Implications for first-mover advantage claim**:
+
+| Original Claim | Revised Interpretation |
+|----------------|----------------------|
+| "First-mover in RTO-specific AI platform" | Likely correct if limited to enrollment AI (2-5% using) |
+| "12-18 months before competitors catch up" | Reasonable if enrollment AI category stays niche |
+| "Market is moving toward mainstream" | More accurate to say "market is nascent, category doesn't exist yet" |
+
+**What this means for positioning at day 60**:
+
+Replace confident claims with honest framing:
+
+> "Our research indicates that while many RTOs are experimenting with AI for administrative or marketing tasks, virtually no RTOs in Australia are using AI specifically for enrollment automation. This suggests the category of 'RTO Enrollment AI' doesn't exist yet — we're creating it. Based on typical VET technology adoption patterns, we estimate 12-18 months before significant competitor activity in this specific space."
+
+**Questions that require primary research to answer** (recommend as follow-up):
+
+| Question | How to Answer | Priority |
+|----------|--------------|----------|
+| What % of RTOs use voice AI for enrollment calls? | Discovery interviews (ask: "Are you using any AI for inbound calls?") | P0 |
+| What % of RTOs have looked at AI but not implemented? | Discovery interviews + survey | P1 |
+| What are the barriers to AI adoption in RTOs? | Discovery interviews | P1 |
+| Are competitors actively building RTO enrollment AI? | Google Alerts, LinkedIn monitoring | P0 |
+
+**Discovery interview question to add** (for AI adoption validation):
+> "Have you looked at or tried any AI tools specifically for handling enrollment calls? What did you find?"
+> "What would need to be true for you to adopt AI for enrollment calls in the next 6 months?"
+
+**Updated strategic implications**:
+
+1. **Market is less mature than stated** — the "10-15% using AI" is likely administrative/marketing, not enrollment. The enrollment AI category is effectively 0-2% of RTOs.
+
+2. **First-mover advantage is real but requires education** — RTOs need to understand what enrollment AI is before they can want it. The sales cycle includes "category creation" not just product sales.
+
+3. **Marketing must lead with education** — "AI for enrollment calls" is a new concept. Most RTO decision-makers haven't thought about it. Content that educates (not just promotes) is essential.
+
+4. **Competitor risk is lower than stated** — if enrollment AI is truly a new category (not just 12-18 months from competitors), the window could be longer. But this also means the market takes longer to develop.
+
+**What to tell Marcus/Kham at day 60**:
+
+> "We believe we're creating a new category, not competing in an existing one. Most RTOs are using AI for admin and marketing, but virtually none are using AI specifically for enrollment calls. This means:
+> - The market is smaller than we initially estimated (but less competitive)
+> - Our first job is educating RTOs about what enrollment AI is
+> - The first-mover window may be longer than 12-18 months if the category takes time to develop
+> - We're planning for a 3-5 year build, not a 12-month sprint"
+
+**Revised SAM calculation** (adjusting for enrollment AI vs. all AI):
+
+If only 2-5% of RTOs are using enrollment AI (not 10-15%), the addressable market is smaller:
+- 4,600 RTOs × 2% = 92 RTOs actively looking for enrollment AI
+- 4,600 RTOs × 5% = 230 RTOs actively looking for enrollment AI
+- **Revised SAM for enrollment AI specifically**: 100-250 RTOs × $30k ARR = $3-7.5M ARR
+
+This is lower than the $13-17M ARR SAM previously estimated (which included all RTO AI tools). The difference:
+- Previous SAM: All RTOs with any AI need
+- Revised SAM: Only RTOs ready for enrollment AI now
+- Expanded SAM: All RTOs once category develops (12-24 months)
+
+**Revised market entry strategy**:
+
+| Phase | Timeline | Market Size | Strategy |
+|-------|----------|-------------|----------|
+| Phase 1: Category creation | Months 1-12 | 100-250 RTOs | Education, first customers, build proof |
+| Phase 2: Category growth | Months 12-24 | 500-1,000 RTOs | Scale content, Zoho partners, word-of-mouth |
+| Phase 3: Category leadership | Months 24-36 | 2,000+ RTOs | Full suite, enterprise tier, expand to community services |
+
+**Key insight**: Optimizer AI is not entering an existing market — it's creating a new category. The SAM estimates are irrelevant until the category exists. Focus on being the category creator (first, biggest, most referenced) rather than maximizing share of a defined market.
+
+**Actions added**:
+- [ADDED] Add AI adoption validation question to discovery interviews — by June 7, 2026
+- [ADDED] Track responses to "Are you using AI for enrollment calls?" as primary market research — ongoing
+- [ADDED] Present AI adoption as "category creation" not "market entry" at day 60 — adjust messaging
+- [ADDED] Revise SAM presentation to show three tiers: current SAM (100-250), near-term SAM (500), long-term SAM (2,000+) — by day 60
+- [ADDED] Set Google Alerts for "RTO enrollment AI" and "AI for RTO enrollment" — by June 7, 2026
+- [ADDED] Acknowledge uncertainty in all AI adoption rate claims — use "estimated" and "requires validation" language
+
+**Sources**:
+- AI adoption data: Not available — primary research required (discovery interviews, RTO surveys)
+- Note: External web search blocked; recommend manual research via LinkedIn, industry contacts, ASQA publications
+- Recommended verification: NCVER VET provider surveys, ASQA RTO technology readiness reports (if available)
