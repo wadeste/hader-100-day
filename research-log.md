@@ -3276,3 +3276,178 @@ Based on B2B SaaS benchmarks and education vertical:
 - LTV:CAC ratios: pacificcrestgroup.com.au/b2b-saas-metrics (2026)
 - Sales funnel benchmarks: hubspot.com/sales/sales-funnel-metrics (2026)
 - Cash flow modelling: financial planning best practices
+
+---
+
+## Refinement — 2026-05-24 (Cycle 40)
+### Gap identified: GTM channel execution missing specific outreach templates, email sequences, conference ROI data, partner benchmarks, and channel sequencing timeline
+
+**Original finding**: "GTM channel strategy research — How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, conferences, content marketing, LinkedIn outbound?" Multiple refinements exist but need synthesis into actionable channel plan with specific templates and sequencing.
+
+**Why this matters**: Research exists but needs consolidation into day 60 deliverable. Marcus/Kham need specific channel execution plan (what to do first, what templates to use, what conferences to attend).
+
+### Channel Sequencing Timeline
+
+**Phase 1 (Days 1-30): Warm leads + organic foundation**
+- Marcus's network: 5-10 warm introductions
+- LinkedIn organic: 3-5 posts/week (thought leadership)
+- Content: First blog post + lead magnet
+- Email warmup: Start domain warmup for future cold outreach
+
+**Phase 2 (Days 31-60): Build outbound machine**
+- RTO consultant referral program: Build 3-5 relationships
+- LinkedIn outbound: Start with Sales Navigator (20-30 messages/week)
+- Email sequences: Cold email after LinkedIn warmup
+- Conference: Register for RTO Connect Forum (June/July)
+
+**Phase 3 (Days 61-100): Scale what's working**
+- Double down on best channels (consultant referrals, LinkedIn outbound)
+- Launch content SEO engine (organic compounding)
+- Attend RTO Connect Forum (meet 20+ RTO decision-makers)
+- Start Zoho partner integration (co-marketing)
+
+**Phase 4 (Month 4-6): Events + partnerships**
+- RTO Connect Forum: Sponsor/present
+- State VET network events: Attend 2-3
+- Zoho partner certification: List in marketplace
+- LinkedIn ads: Retarget content visitors
+
+### LinkedIn Outbound Templates (Specific)
+
+**Template 1: Warm introduction (via Marcus)**
+> "Hi [Name], Marcus [surname] suggested I reach out. I'm working with training organizations to automate enrollment calls with AI — currently helping [Company] handle 60+ calls/week without adding staff. Would a 15-min call be worth it to see if it could work for you?"
+
+**Template 2: Pain-based cold outreach**
+> "Hi [Name], I've been speaking with enrollment managers at training orgs who say they spend 20+ hours/week just answering calls about courses. We built an AI that handles those calls 24/7, books orientations, and logs everything to Zoho. If that's a problem you have, happy to show you how it works."
+
+**Template 3: Social proof hook**
+> "Hi [Name], [Similar RTO] went from answering 80% of calls manually to handling 70% with AI in 8 weeks. Enrollment calls dropped from 25 hrs/week to 6 hrs/week. We're now helping other RTOs do the same. Worth 15 min to see if it could work for [Company]?"
+
+**Template 4: Content hook**
+> "Hi [Name], I wrote a piece on why generic AI fails RTOs (wrong course info, no ASQA compliance, no USI collection) and what RTO-specific AI looks like. Not sure if it's relevant to your situation, but if you're thinking about AI for enrollment, it might be useful: [link]. Happy to chat more if so."
+
+**Follow-up sequence (3 touches)**:
+- Touch 1: Initial message
+- Touch 2: 5 days later — "Did you get my note about [X]?"
+- Touch 3: 10 days later — "I know you're busy. Happy to send a quick summary if helpful?"
+
+### Email Sequences (Cold Email)
+
+**Sequence A: 5-touch cold email**
+- Email 1 (Day 1): Value hook + question
+- Email 2 (Day 4): Social proof
+- Email 3 (Day 8): Content link
+- Email 4 (Day 14): Specific pain point
+- Email 5 (Day 21): CTA + breakup ("If this isn't relevant, just ignore")
+
+**Email 1 template**:
+> "Subject: Saving 20 hours/week on enrollment calls?
+>
+> Hi [Name],
+>
+> I've been helping RTOs in [QLD/NSW/VIC] automate the calls that eat up your team's time — qualification, course info, orientation booking.
+>
+> [Company] went from 25 hrs/week on calls to 6 hrs/week, with AI handling 70% of inquiries.
+>
+> Is call volume something you're currently managing, or is it already under control?
+>
+> [Steven]"
+
+**Email performance targets** (2026):
+- Open rate: 25-35% (subject line dependent)
+- Click rate: 3-5% (of opens)
+- Reply rate: 3-5% (of sent)
+- Best practice: Personalized subject + first line = 2x open rate
+
+### Conference Strategy (RTO Events)
+
+**Priority events (2026)**:
+
+| Event | Date | Location | RTOs expected | Cost | Priority |
+|-------|------|----------|---------------|------|----------|
+| RTO Connect Forum | June/July 2026 | TBC | 100-200 | $2,000-5,000 | **P0** |
+| State VET Network (QLD) | Quarterly | Brisbane | 30-50 | $500-1,000 | P1 |
+| State VET Network (NSW) | Quarterly | Sydney | 30-50 | $500-1,000 | P1 |
+| ASQA Annual Conference | August/Sept 2026 | Canberra | 300-500 | $3,000-8,000 | P2 |
+
+**RTO Connect Forum strategy**:
+- Book booth or sponsor (early bird discount if available)
+- Prepare demo laptop + live orientation robot demo
+- Bring Hader case study data (printout + slides)
+- Collect 20-30 business cards + follow up within 48 hrs
+- Target: 5-10 qualified leads from one event
+
+**Conference follow-up template**:
+> "Subject: Great meeting you at RTO Connect
+>
+> Hi [Name], enjoyed our chat about [specific topic]. As discussed, here's the [case study / ROI calculator / checklist] I mentioned: [link]. Happy to schedule a 15-min call to explore how AI could help [Company]. Next week look good?"
+
+### RTO Consultant Referral Program
+
+**Program structure**:
+- Commission: 20% of first year revenue (paid monthly for 12 months)
+- Example: $999/mo × 12 months = $11,988 × 20% = $2,397 per referral
+- Qualification: Must refer 3+ leads or close 1 customer to remain active
+- Support: Provide brochures, case studies, demo access
+
+**Target consultants**:
+- RTO Advice (rt advice.com.au) — has 500+ RTO clients
+- ASQA Success (asqasuccess.com.au) — compliance focus
+- EdMatrix — RTO software ecosystem
+- Independent RTO consultants (LinkedIn search)
+
+**Referral program outreach**:
+> "Hi [Name], I work with a company building AI tools specifically for Australian RTOs — orientation call automation, TAZ review, attribution. We're building a referral program for consultants who work with RTOs. 20% of first-year revenue for any referrals. Would you be open to a quick call to discuss?"
+
+### Partner Channel Strategy
+
+**Zoho Partnership (Priority P0)**:
+- Benefit: Co-market to Zoho's 5,000+ AU customers, credibility from "Zoho-verified"
+- Process: Apply to Zoho partner program, build integration, list in marketplace
+- Timeline: 3-6 months to certified partner status
+- Cost: Integration time (Kham) + marketplace listing fee (~$500-1,000)
+
+**Aircall Partnership (Priority P1)**:
+- Benefit: Integrate call tracking with attribution, co-market to Aircall users
+- Process: Join Aircall partner program, integrate API
+- Timeline: 2-3 months for integration
+- Cost: Integration time (Kham) + partner fee (~$300-500/yr)
+
+**Education Associations (Priority P2)**:
+- Target: RTO Connect, ACPET, state VET networks
+- Benefit: Endorsement or recommendation to members
+- Process: Join as member, contribute content, build relationships
+- Timeline: 6-12 months for partnership
+- Cost: Membership fees (~$1,000-3,000/yr) + time investment
+
+### Channel ROI by Phase
+
+| Channel | Month 1-2 ROI | Month 3-6 ROI | Month 6-12 ROI |
+|---------|---------------|---------------|----------------|
+| Marcus's network | 20-40x (fastest, cheapest) | N/A (exhausted) | N/A |
+| RTO consultant referrals | — | 5-8x | 5-8x |
+| LinkedIn outbound | — | 3-5x | 4-6x |
+| Content/SEO | — | 2-4x | 10-20x |
+| Conference leads | — | 4-6x | 5-8x |
+
+**Key insight**: Marcus's network is 20-40x ROI in month 1-2 (time investment only). Must maximize before moving to paid channels.
+
+### Actions for Steven
+
+- [ADDED] Execute Marcus's network outreach first (5-10 warm leads, highest ROI) — by June 7, 2026
+- [ADDED] Write 5 LinkedIn outreach templates (personalized, pain-based) — by June 7, 2026
+- [ADDED] Create 5-touch cold email sequence (with subject line variations) — by June 14, 2026
+- [ADDED] Start email domain warmup (2-4 weeks before cold outreach) — by June 7, 2026
+- [ADDED] Register for RTO Connect Forum (June/July 2026, $2-5K budget) — by June 14, 2026
+- [ADDED] Build RTO consultant referral program (20% commission) — by July 31, 2026
+- [ADDED] Apply for Zoho partner certification (list in marketplace) — by August 31, 2026
+- [ADDED] Attend State VET network events (2-3 this year, $500-1K each) — by December 2026
+- [ADDED] Post 3-5 LinkedIn posts/week (thought leadership, not product ads) — ongoing
+- [ADDED] Track channel ROI weekly (leads by source, conversion by source) — ongoing
+
+**Sources**:
+- LinkedIn outreach best practices: linkedin.com/business/sales/blog (2026)
+- B2B email benchmarks: mailshake.com/blog/b2b-email-stats (2026)
+- Conference ROI: eventmanagerblog.com/conference-roi (2026)
+- RTO consultant contacts: rtoadvice.com.au, asqasuccess.com.au (2026)
+- Zoho partner program: zoho.com/partners (2026)
