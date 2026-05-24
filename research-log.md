@@ -310,6 +310,78 @@ Optimizer AI is NOT competing with existing tools — it's creating a new catego
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 6)
+### Gap identified: Hader Institute proof points are assumed, not documented
+
+**Original findings**: "Hader case study is strongest proof point", "60% call time reduction at Hader", "$8,400/month savings at 60 hrs/week", "$6,300+/month AI ROI potential" — all stated as facts but none are documented from actual Hader data.
+
+**Why this matters**: "We built this at Hader Institute" is the cornerstone proof point for ALL positioning, messaging, and sales collateral. If the Hader data is unverified, the entire research foundation is weak.
+
+**What needs to be captured from Hader**:
+
+| Data Point | Currently | Needed For | How to Capture |
+|------------|-----------|------------|----------------|
+| Current weekly enrollment call time | Assumed "60+ hrs/week" | ROI calculator, sales pitch | Timesheet audit or staff interview |
+| Enrollment call volume (calls/week) | Not measured | Containment rate calculation | Aircall call report (2 weeks baseline) |
+| Missed call rate | Assumed "20-30%" | Missed call cost calculation | Aircall report or manual count |
+| Lead-to-enrollment conversion rate | CONTEXT says "85%" | AI lead quality baseline | Zoho report on last 90 days |
+| Enrollment staff headcount | Unknown | Time savings calculation | Interview Jesse |
+| Average call duration | Not measured | Time savings calculation | Aircall report |
+| Staff cost per hour | Assumed "$35/hr" | ROI calculation | Interview Jesse or check payroll |
+| Duplicate lead rate | Assumed "30%" | Attribution dashboard value | Zoho dedup report |
+| Current monthly enrollments | Unknown (blocks all planning) | AI uplift modeling | Marcus must provide |
+
+**Critical data needed from Marcus** (blocks entire planning):
+1. Current monthly enrollment volume (any number, even approximate)
+2. Weekly enrollment call volume (calls per week)
+3. Staff time spent on enrollment calls (hours per week)
+
+**What to ask Marcus** (direct script):
+> "To finalize the day 60 presentation with real numbers, I need a few baseline metrics from Hader. Even rough estimates are fine:
+> 1. How many enrollments does Hader process per month? (Ballpark is fine)
+> 2. How many enrollment inquiry calls come in per week?
+> 3. Roughly how many hours does your team spend on enrollment calls per week?
+> 
+> This data turns our projections into verified case study metrics. Without it, all our numbers are estimates."
+
+**Baseline data capture plan** (if Marcus provides numbers):
+
+| Phase | Action | Output | Owner |
+|-------|--------|--------|-------|
+| Week 1 | Ask Marcus for 3 baseline metrics | Numbers (even approximate) | Steven |
+| Week 2 | Run Aircall report (last 30 days) | Call volume, duration, missed rate | Jesse/Kham |
+| Week 2 | Run Zoho report (last 90 days) | Lead volume, conversion rate, dedup rate | Steven |
+| Week 2 | Staff time audit (interview or timesheet) | Weekly hours on calls | Steven |
+| Week 3 | Calculate AI ROI baseline | Verified savings number | Steven |
+| Week 4 | Document Hader baseline metrics | Case study foundation | Steven |
+
+**If Hader baseline is captured, the case study becomes**:"At Hader Institute (QLD RTO with [X] monthly enrollments), we implemented the orientation call robot and achieved:\n- [X]% reduction in enrollment call time\n- $[X]/month in labor cost savings\n- [X]% containment rate\n- $[X] ROI per dollar spent on Optimizer AI"
+
+**What this means for day 60 presentation**:
+- WITHOUT actual data: "Hader Institute achieved 60% call reduction (estimated)"
+- WITH actual data: "Hader Institute achieved [X]% call reduction, from [Y] hours/week to [Z] hours/week, saving $[A]/month"
+
+**The second is 10x more compelling.**
+
+**Key insight**: The Hader case study is the linchpin of all positioning. Every message, every sales deck, every demo leads with "we built this at Hader." Without real numbers, the proof point is hollow. Getting Marcus to provide even rough baseline data transforms the entire research log from theoretical to evidence-based.
+
+**Actions added**:
+- [ADDED] Ask Marcus for 3 baseline metrics (enrollment volume, call volume, staff hours) — by June 7, 2026
+- [ADDED] Run Aircall report for last 30 days to capture call volume, duration, missed rate — by June 14, 2026
+- [ADDED] Run Zoho report for last 90 days to capture lead volume, conversion, dedup rate — by June 14, 2026
+- [ADDED] Conduct staff interview or review timesheets for time-on-calls baseline — by June 14, 2026
+- [ADDED] Calculate verified ROI using actual Hader data — by June 21, 2026
+- [ADDED] Document Hader baseline metrics in case study format — by June 21, 2026
+- [ADDED] Update all research log ROI claims with actual Hader numbers once available — ongoing
+- [ADDED] Present verified case study (not estimates) at day 60 — by June 28, 2026
+
+**Sources**:
+- Aircall reporting: aircall.io/reports
+- Zoho Analytics: zoho.com/analytics
+- Hader baseline data: Marcus (requested)
+
+---
+
 ## RTO pain point deep-dive — 2026-05-24
 
 ### Objective
