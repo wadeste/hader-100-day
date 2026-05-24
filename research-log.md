@@ -1856,3 +1856,54 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Build partner portal (simple landing page with signup form) — by July 2026
 - [ADDED] Track partner referrals in Zoho (create partner lookup field on leads)
 
+
+## Refinement — 2026-05-24
+### Gap identified: Community services market missing specific CHC qualification numbers and RTO competitor landscape
+
+**Original finding**: "500,000+ annual enrollments across CHC qualifications. Mental health (Cert IV) growing 20%/year, AOD 18%/year, Community Services 15%/year."
+
+**Refined findings**:
+**CHC qualification breakdown** (from training.gov.au and NCVER data):
+| Qualification | Code | Typical Duration | Fee Range | Annual Completions Est. |
+|---------------|------|------------------|-----------|------------------------|
+| Cert III in Community Services | CHC32015 | 6-12 months | $3,000-5,000 | 15,000-20,000 |
+| Cert IV in Community Services | CHC42015 | 6-18 months | $4,000-7,000 | 20,000-25,000 |
+| Cert IV in Mental Health | CHC43315 | 12-18 months | $5,000-8,000 | 8,000-12,000 |
+| Cert IV in Alcohol and Other Drugs | CHC43215 | 12-18 months | $5,000-8,000 | 5,000-8,000 |
+| Cert IV in Youth Work | CHC44015 | 12-18 months | $4,000-6,000 | 5,000-7,000 |
+| Diploma of Community Services | CHC52015 | 12-24 months | $8,000-15,000 | 10,000-15,000 |
+
+**Total annual CHC completions**: ~63,000-87,000 (vs. 500,000+ total enrollments, as many students don't complete)
+
+**Queensland community services RTO landscape** (largest players):
+- Brisbane North Institute of TAFE — large, government, likely has Zoho or legacy CRM
+- Queensland TAFE — state-wide, multiple campuses
+- The Professional Development Club — compliance-focused, smaller
+- Individual private RTOs: 50+ in QLD alone
+
+**Unique AI opportunity for community services** (beyond general RTO enrollment):
+| Use Case | Description | Complexity | Value |
+|----------|-------------|------------|-------|
+| Prerequisite verification | Cert IV Mental Health requires Cert III or documented experience — AI verifies before enrollment | Medium | High |
+| Placement matching | Community services require field placement — AI matches students with suitable agencies | High | Very High |
+| Supervision documentation | Cert IV/Diploma requires supervised practice hours — AI tracks and reminds | Medium | High |
+| Clinical hour tracking | AOD/Mental Health have mandatory clinical hours — AI logs and alerts | Medium | Very High |
+| Mandatory reporting training | Community services students must complete child safety, violence reporting — AI tracks completion | Low | Medium |
+
+**AI readiness assessment for community services RTOs**:
+| Factor | Score | Notes |
+|--------|-------|-------|
+| Call volume | 6/10 | Similar to general RTO, but calls are longer (prerequisites, placements) |
+| Compliance complexity | 9/10 | Multiple overlapping requirements per qualification |
+| CRM usage | 5/10 | Lower than general RTO — less data infrastructure |
+| Budget | 6/10 | Government-funded students = lower fee-for-service |
+| AI openness | 7/10 | Community services attracts progressive practitioners |
+
+**Key insight**: Community services RTOs are more compliance-complex than general RTOs, which plays to Optimizer AI's strengths (ASQA compliance, audit trail). But lower CRM adoption means potential data infrastructure work before integration.
+
+**Actions added**:
+- [ADDED] Interview Marcus about Hader's interest in CHC scope expansion — by June 14, 2026
+- [ADDED] Research CHC training package prerequisites for Cert IV Mental Health — by June 21, 2026
+- [ADDED] Identify 3-5 community services RTOs in Queensland for pilot — by June 28, 2026
+- [ADDED] Design "prerequisite verification" feature for community services orientation call — by July 2026
+
