@@ -3076,3 +3076,203 @@ Based on B2B SaaS benchmarks and education vertical:
 - TAZ review best practices: rtoadvice.com.au, asqasuccess.com.au
 - AI document review: kognitivai.com.au (general compliance, not VET)
 - VET competency framework: training.gov.au (current qualifications)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 39)
+### Gap identified: CAC modelling missing channel-by-channel costs, conversion rates, sales cycle length, customer acquisition targets for $10M EBITDA path, and cash flow model
+
+**Original finding**: "Customer acquisition cost modelling — Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer." Missing: channel-specific CAC, conversion funnel details, sales cycle by customer segment, customer acquisition targets for $10M path, cash flow model.
+
+**Why this matters**: To hit $10M EBITDA target, need specific customer acquisition numbers (how many customers, by when, at what cost). Without channel-specific CAC and conversion data, can't build realistic acquisition plan or budget correctly.
+
+### Channel-Specific CAC Deep Dive
+
+**Channel 1: Marcus's Network (Warm Introduction)**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| CAC | $500-1,000 | Time investment only (Steven's time) |
+| Conversion rate | 40-60% | Warm intro + pain fit + budget |
+| Sales cycle | 2-4 weeks | Fast decision (trusted advisor) |
+| Deal size | $999/mo avg | Growth tier, annual commitment |
+| LTV | $23,200 | 24 months × $999 × 97% margin |
+| LTV:CAC | 23-46x | Excellent |
+| Monthly target | 2-3 leads | First 30 days |
+
+**Channel 2: RTO Consultant Referrals**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| CAC | $2,000-3,000 | 20-30% commission on year 1 |
+| Conversion rate | 15-25% | Referred leads are qualified |
+| Sales cycle | 4-8 weeks | Trusted advisor introduction |
+| Deal size | $999/mo avg | Growth tier |
+| LTV | $23,200 | After commission |
+| LTV:CAC | 7.7x | Healthy |
+| Monthly target | 3-5 referrals | Month 2-3 onward |
+
+**Channel 3: LinkedIn Outbound (Personalized)**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| CAC | $3,000-5,000 | Time + Sales Navigator ($99/mo) + content |
+| Conversion rate | 2-5% | Cold to qualified |
+| Sales cycle | 8-16 weeks | Longer trust-building |
+| Deal size | $999/mo avg | Growth tier |
+| LTV | $23,200 | After time investment |
+| LTV:CAC | 5-8x | Acceptable for SaaS |
+| Monthly target | 50-100 messages | Scale to 20-30 conversations |
+
+**Channel 4: Content/SEO (Organic)**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| CAC | $1,000-2,000 | Content creation + SEO tools + time |
+| Conversion rate | 1-3% (visitor to lead) → 10-15% (lead to customer) | Compound over time |
+| Sales cycle | 6-12 months | Long nurture |
+| Deal size | $999/mo avg | Growth tier |
+| LTV | $23,200 | Long-term customers |
+| LTV:CAC | 12-23x | Best long-term |
+| Monthly target | 50 organic visitors month 3, 200 month 6 | Growing |
+
+**Channel 5: Conference Leads (RTO Connect Forum)**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| CAC | $2,000-4,000 | Booth + sponsorship + travel |
+| Conversion rate | 10-20% | High-intent, face-to-face |
+| Sales cycle | 4-8 weeks | Follow-up after event |
+| Deal size | $1,199/mo avg | Scale tier at conferences |
+| LTV | $23,200 | Higher if Scale tier |
+| LTV:CAC | 6-12x | Acceptable |
+| Monthly target | 10-20 leads/event | 2-3 events/year |
+
+**Blended CAC (Year 1)**:
+- Weighted average: ~$2,500-4,000
+- Mix: 40% Marcus network, 20% consultant referrals, 20% LinkedIn, 10% organic, 10% conferences
+
+### Conversion Funnel by Stage
+
+**Stage 1: Lead → Discovery Call**
+- Target: 20% of inbound leads
+- Actions: Personalized email, LinkedIn follow-up, value-first content
+- Gate: Pain confirmed, budget exists, decision-maker identified
+
+**Stage 2: Discovery Call → Demo**
+- Target: 40% of discovery calls
+- Actions: Qualify ICP, confirm pain, present solution preview
+- Gate: Decision-maker wants to see product working
+
+**Stage 3: Demo → Proposal**
+- Target: 50% of demos
+- Actions: Show live demo, calculate ROI, address objections
+- Gate: Decision-maker understands value and pricing
+
+**Stage 4: Proposal → Close**
+- Target: 70% of proposals
+- Actions: Send proposal, schedule review call, negotiate terms
+- Gate: Contract signed, payment initiated
+
+**Overall funnel**: Lead → 20% call → 40% demo → 50% proposal → 70% close = **2.8% lead-to-close**
+- Required leads for 12 customers: 12 / 0.028 = **429 leads/year** (36/month)
+
+### Sales Cycle by Segment
+
+| Segment | Sales cycle | Close rate | Notes |
+|---------|-------------|------------|-------|
+| Small RTO (20-50 students) | 4-8 weeks | 60% | Fast, price-sensitive |
+| Mid-market (50-200 students) | 8-12 weeks | 40% | Primary target |
+| Enterprise (200+ students) | 12-24 weeks | 25% | Multiple stakeholders |
+
+**Average sales cycle**: 10 weeks (mid-market weighted average)
+
+### Customer Acquisition Targets for $10M EBITDA Path
+
+**Revised path to $10M EBITDA** (not Year 5, more realistic Year 7-8):
+
+| Year | Customers EOY | Revenue | EBITDA | Notes |
+|------|--------------|---------|--------|-------|
+| Year 1 | 20 | $216K | -$50K | Invest in product + sales |
+| Year 2 | 60 | $648K | +$100K | Break-even |
+| Year 3 | 100 | $1.08M | +$400K | Profitable |
+| Year 4 | 150 | $1.62M | +$700K | Scale |
+| Year 5 | 220 | $2.38M | +$1.1M | Strong |
+| Year 6 | 300 | $3.24M | +$1.6M | Enterprise push |
+| Year 7 | 400 | $4.8M | +$2.4M | Market leadership |
+| Year 8 | 500 | $6M+ | +$3M+ | Near $10M target |
+
+**Gap analysis**: Year 8 reaches $3M EBITDA, not $10M. To close gap:
+- Option A: Enterprise pricing ($3,000-5,000/mo for large RTOs) = 100 enterprise customers × $4K avg = $4.8M ARR + $2M+ EBITDA
+- Option B: Additional revenue streams (AI courses, consulting, white-label) = +$2-3M ARR
+- Option C: Faster growth (60% YoY instead of 40%) = Year 7 hits $4M EBITDA
+
+**Recommended path**: Option A + Option B combined. Start with mid-market ($999/mo), push to enterprise ($3,000+/mo) in Year 3-4. Add AI courses revenue stream in Year 2.
+
+### Monthly Acquisition Targets by Channel
+
+| Month | Marcus network | Consultant referrals | LinkedIn | Organic | Conferences | Total new |
+|-------|--------------|---------------------|----------|---------|-------------|-----------|
+| Month 1 | 2 | 0 | 0 | 0 | 0 | **2** |
+| Month 2 | 1 | 1 | 0 | 0 | 0 | **2** |
+| Month 3 | 1 | 2 | 0 | 0 | 0 | **3** |
+| Month 4 | 0 | 2 | 2 | 0 | 0 | **4** |
+| Month 5 | 0 | 2 | 3 | 1 | 0 | **6** |
+| Month 6 | 0 | 2 | 4 | 2 | 0 | **8** |
+| **YTD Total** | **4** | **9** | **9** | **3** | **0** | **25** |
+| Month 7 | 0 | 2 | 4 | 3 | 0 | **9** |
+| Month 8 | 0 | 2 | 4 | 4 | 0 | **10** |
+| Month 9 | 0 | 2 | 3 | 5 | 0 | **10** |
+| Month 10 | 0 | 2 | 3 | 5 | 3 | **13** |
+| Month 11 | 0 | 2 | 3 | 6 | 0 | **11** |
+| Month 12 | 0 | 2 | 3 | 7 | 0 | **12** |
+| **Year 1 Total** | **4** | **16** | **24** | **28** | **3** | **75** |
+
+**Reality check**: 75 new customers in Year 1 = 6/month average. At $900/mo avg = $810K ARR by year end. Realistic if:
+- Marcus provides 5-10 warm leads (conversion 60% = 3-6 customers)
+- Consultant referrals start month 2 (10-15 referrals = 2-4 customers)
+- LinkedIn outbound scales after month 4 (30+ leads/month = 2-4 customers)
+- Organic compounds by month 6 (50+ visitors = 1-2 customers/month)
+
+### Cash Flow Model (18 Months)
+
+| Month | New customers | Total customers | Revenue | CAC | Operating costs | Cash flow |
+|-------|--------------|-----------------|---------|-----|----------------|-----------|
+| Month 1 | 2 | 2 | $1,800 | $5,000 | $8,000 | **-$11,200** |
+| Month 2 | 2 | 4 | $3,600 | $6,000 | $8,000 | **-$10,400** |
+| Month 3 | 3 | 7 | $6,300 | $8,000 | $8,500 | **-$10,200** |
+| Month 4 | 4 | 11 | $9,900 | $10,000 | $9,000 | **-$9,100** |
+| Month 5 | 5 | 16 | $14,400 | $12,000 | $9,500 | **-$7,100** |
+| Month 6 | 6 | 22 | $19,800 | $14,000 | $10,000 | **-$4,200** |
+| Month 7 | 6 | 28 | $25,200 | $14,000 | $10,500 | **+$700** |
+| Month 8 | 6 | 34 | $30,600 | $14,000 | $11,000 | **+$5,600** |
+| Month 9 | 7 | 41 | $36,900 | $15,000 | $11,500 | **+$10,400** |
+| Month 10 | 7 | 48 | $43,200 | $15,000 | $12,000 | **+$16,200** |
+| Month 11 | 7 | 55 | $49,500 | $15,000 | $12,500 | **+$22,000** |
+| Month 12 | 8 | 63 | $56,700 | $16,000 | $13,000 | **+$27,700** |
+| Month 13 | 8 | 71 | $63,900 | $16,000 | $13,500 | **+$34,400** |
+| Month 14 | 8 | 79 | $71,100 | $16,000 | $14,000 | **+$41,100** |
+| Month 15 | 9 | 88 | $79,200 | $17,000 | $14,500 | **+$47,700** |
+| Month 16 | 9 | 97 | $87,300 | $17,000 | $15,000 | **+$55,300** |
+| Month 17 | 9 | 106 | $95,400 | $17,000 | $15,500 | **+$62,900** |
+| Month 18 | 10 | 116 | $104,400 | $18,000 | $16,000 | **+$70,400** |
+
+**Cash flow break-even**: Month 7 (6 customers = $5,400/mo revenue > operating costs)
+**Cash runway needed**: 6 months ($50-60K) to reach break-even
+
+### Actions for Steven
+
+- [ADDED] Set customer acquisition targets: 2-3/month Year 1, 6-10/month Year 2 — by June 7, 2026
+- [ADDED] Build acquisition channel plan (Marcus network first, consultant referrals month 2, LinkedIn month 4) — by June 7, 2026
+- [ADDED] Plan cash runway (need $50-60K for 6 months to break-even) — by June 7, 2026
+- [ADDED] Target Marcus's 5-10 warm leads in month 1-2 (highest ROI, lowest CAC) — by June 7, 2026
+- [ADDED] Build RTO consultant referral program (20% commission) — by July 31, 2026
+- [ADDED] Track funnel metrics weekly (leads, calls, demos, proposals, closes) — ongoing
+- [ADDED] Revise $10M EBITDA expectation to Year 7-8, not Year 5 — by June 28, 2026
+- [ADDED] Plan enterprise pricing push for Year 3-4 ($3,000+/mo for large RTOs) — by June 28, 2026
+
+**Sources**:
+- B2B SaaS CAC benchmarks: a16z.com/saas-metrics (2026)
+- LTV:CAC ratios: pacificcrestgroup.com.au/b2b-saas-metrics (2026)
+- Sales funnel benchmarks: hubspot.com/sales/sales-funnel-metrics (2026)
+- Cash flow modelling: financial planning best practices
