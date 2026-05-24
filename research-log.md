@@ -2752,3 +2752,134 @@ The orientation call robot must capture the following disclosures during the cal
 - OAIC APP guidance: oaic.gov.au (APP 5 — collection notice requirements)
 - ESOS Act: education.gov.au/ecos (international student requirements)
 
+---
+
+## Refinement — 2026-05-24
+### Gap identified: POC measurement methodology — how to actually track containment rate, lead quality, and time saved with specific tools and formulas
+
+**Original finding**: "Containment rate is the make-or-break metric: 60% = minimum viable, 70%+ = strong ROI story" and "Lead quality must hit ≥90% of human baseline" — no specific methodology for measuring these metrics in practice, no tracking tools, no statistical considerations for small sample sizes.
+
+**Refined findings**:
+
+**Containment rate measurement — specific formula and tools**:
+
+Containment rate is defined as: `(AI-handled calls that required no human follow-up) / (Total incoming calls) × 100%`
+
+But "no human follow-up" needs precise definition. Three options:
+| Definition | Calculation | Conservative? | Sales Use |
+|-----------|-----------|--------------|----------|
+| **Type A**: Calls resolved entirely by AI | AI-handled / Total × 100% | Most conservative | Hardest to achieve, best ROI story |
+| **Type B**: Calls where AI captured key info and human just closed | (AI + captured) / Total × 100% | Medium | Realistic, shows AI value |
+| **Type C**: Calls where AI scheduled orientation without escalation | (AI + scheduled) / Total × 100% | Most lenient | Easiest to hit 60% target |
+
+**Recommendation**: Report Type A (conservative) internally, Type C (lenient) in sales materials. This creates headroom — if Type A hits 50% and Type C hits 70%, there's room to improve without breaking sales promises.
+
+**Tracking implementation (Zoho + Aircall)**:
+1. Create custom field in Zoho: `ai_handled` (checkbox) and `ai_outcome` (picklist: Resolved/Scheduled/Escalated)
+2. Aircall call disposition tags: Map to Zoho field on call end
+3. Weekly report: Count AI-handled / Total calls × 100%
+
+**Sample size requirements for statistical validity**:
+- At 50 calls/month: ±14% margin of error at 95% confidence (wide — use with caveats)
+- At 100 calls/month: ±10% margin of error (acceptable for internal tracking)
+- At 200 calls/month: ±7% margin of error (publishable to prospects)
+- **Minimum POC sample**: 100 calls (statistically defensible for internal decisions)
+
+**Formula for required sample size**:
+```
+For 95% CI, ±10% margin, estimated 60% containment:
+n = (1.96² × 0.6 × 0.4) / 0.10² = 92.2 → minimum 100 calls
+```
+
+**Lead quality measurement — specific methodology**:
+
+Lead quality is measured by downstream conversion, not call content. Track two cohorts over 30 days:
+
+| Cohort | Description | Metric |
+|--------|-------------|--------|
+| AI leads | Leads captured by AI orientation robot | Enrollment conversion rate at day 30 |
+| Human leads | Leads captured by human enrollment staff | Enrollment conversion rate at day 30 |
+
+**Formula**: `Lead quality = (AI conversion rate) / (Human conversion rate) × 100%`
+
+**Example**: If AI leads convert at 25% and human leads convert at 30%, lead quality = 83% (below 90% threshold — needs improvement).
+
+**Minimum sample for lead quality**: 30 leads per cohort (90-day window to accumulate). 2-3 months of POC data minimum before claiming lead quality stats.
+
+**Time saved measurement — specific methodology**:
+
+
+Three time metrics to track:
+
+| Metric | What to measure | How to measure | Frequency |
+|--------|----------------|----------------|----------|
+| **Call handling time** | Avg minutes per inquiry call | Aircall call duration report (before vs. after AI) | Weekly |
+| **Staff time on calls** | Total enrollment staff hours per week | Timesheet or Zoho activity log | Weekly |
+| **Missed call rate** | % of inquiry calls missed | Aircall: missed calls / total calls | Weekly |
+
+**Baseline setup (before POC)**:
+- Week 0: Record all three metrics for 2 weeks (baseline period)
+- Week 1-8: Continue tracking, compare to baseline
+- Week 9+: Report cumulative savings
+
+**ROI calculation formula**:
+```
+Monthly savings = (Baseline staff cost - POC staff cost) - (AI cost)
+Baseline staff cost = (Calls × Avg duration / 60) × $35/hr
+POC staff cost = (AI-handled × Avg AI duration / 60 + Human-handled × Avg human duration / 60) × $35/hr
+AI cost = $500/month (POC rate)
+```
+
+**POC tracking dashboard (Google Sheets or Zoho Analytics)**:
+
+| Week | Total Calls | AI Handled | Human Handled | Containment % | AI Conv % | Human Conv % | Quality % | Staff Hrs | Savings |
+|------|------------|------------|---------------|---------------|-----------|--------------|----------|----------|---------|
+| Baseline | 45 | 0 | 45 | 0% | 28% | 28% | 100% | 11.25 | $0 |
+| Week 1 | 50 | 25 | 25 | 50% | 25% | 30% | 83% | 8.5 | $97 |
+| Week 2 | 55 | 33 | 22 | 60% | 27% | 31% | 87% | 7.2 | $142 |
+
+**Success/failure criteria — explicit thresholds**:
+
+
+| Metric | Minimum Success | Target Success | Failure Threshold | Action on Failure |
+|--------|----------------|----------------|------------------|-------------------|
+| Containment rate | 50% | 60%+ | <40% after week 4 | Script revision, AI model retrain |
+| Lead quality | 80% | 90%+ | <70% after week 8 | Objection handler revision |
+| Staff time saved | 5 hrs/week | 10 hrs/week | <3 hrs/week after week 6 | Re-evaluate AI scope |
+| Overall ROI | Break-even | 50% ROI | <0 at week 8 | Pause and rebuild |
+
+**Statistical stop/go decision framework**:
+
+At week 4 checkpoint, if ANY of the following:
+- Containment rate < 40% (n=50+ calls)
+- Lead quality < 70% (n=30+ leads)
+- Staff time saved < 3 hrs/week
+
+→ **Stop and iterate**: Pause POC, diagnose issues, revise scripts/AI, relaunch
+
+If ALL of the following by week 8:
+- Containment rate ≥ 50% (n=100+ calls)
+- Lead quality ≥ 80% (n=30+ leads)
+- ROI positive
+
+→ **Go to paid conversion**: Transition to $1,499/month, expand to second customer
+
+**What Marcus/Kham should see at day 60**:
+A one-page ROI report showing:
+1. "We promised: 60%+ containment, 90% lead quality, 10 hrs/week saved"
+2. "We delivered: [actual metrics from 8 weeks of Hader POC]"
+3. "If this holds at other RTOs: $X/month savings at [Y] enrollments = [Z]% ROI"
+
+**Key insight**: The POC is not just a product test — it's a measurement system. Building the measurement system at Hader creates the playbook for all future POC customers. Document every metric, every week, every decision.
+
+
+**Actions added**:
+- [ADDED] Build POC tracking spreadsheet with weekly metrics — by June 7, 2026
+- [ADDED] Set up Zoho custom fields: `ai_handled`, `ai_outcome`, `lead_source_ai` — by June 7, 2026
+- [ADDED] Define containment rate Type A/C split (conservative internal, lenient external) — by June 14, 2026
+- [ADDED] Calculate required sample size for statistical validity (100 calls minimum) — by June 14, 2026
+- [ADDED] Create week 4 stop/go decision criteria — document in POC agreement — by June 14, 2026
+- [ADDED] Build one-page ROI report template for day 60 presentation — by June 21, 2026
+- [ADDED] Track lead quality cohorts: AI vs. human leads over 30-day window — ongoing measurement
+- [ADDED] Document every POC decision in shared log — creates future sales collateral
+
