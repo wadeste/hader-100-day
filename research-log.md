@@ -2315,3 +2315,69 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 65 refinement. Gap filled: Scenario model, revised timeline, cash flow, EBITDA path.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 66): Organic Leads Strategy Deep Dive
+### Gap identified: Research provides strategy but lacks specific keyword targets, content calendar, and SEO technical requirements
+
+**Original finding**: "Organic leads strategy research" provided framework but lacked execution details.
+
+**Why this matters**: SEO is a long-term investment. Need specific keywords, content calendar, and measurement framework to execute.
+
+### Keyword Priorities
+
+**High priority** (low difficulty, commercial intent):
+- "AI for RTOs": 50-100/mo searches
+- "RTO automation": 20-50/mo searches
+- "enrollment call automation": 10-30/mo searches
+- "how to automate RTO enrollment calls": 10-20/mo searches
+
+### Content Calendar (52 weeks)
+
+| Quarter | Posts | Topics |
+|---------|-------|--------|
+| Q2 2026 | 4 | Foundation (What is RTO AI, 5 Ways, Generic vs RTO, How to Automate) |
+| Q3 2026 | 6 | Awareness (ASQA checklist, Hader case study, tool comparison, etc.) |
+| Q4 2026 | 6 | Consideration (comparison, case studies, buyer's guide) |
+| Q1 2027 | 6 | Conversion (ROI calculator, implementation guide, predictions) |
+
+### Lead Magnets
+
+| Lead magnet | Conversion rate | Decision stage |
+|-------------|-----------------|----------------|
+| "5 Ways AI Reduces Call Time" | 2-3% | Awareness |
+| "ASQA Compliance Checklist" | 5-8% | Decision |
+| "ROI Calculator" | 8-12% | Decision |
+| "RTO AI Buyer's Guide" | 5-8% | Decision |
+| "Case Study Pack" | 5-8% | Decision |
+
+### SEO Targets (Month 12)
+
+| Metric | Target |
+|--------|--------|
+| Organic sessions | 5,000/mo |
+| Organic leads | 250/mo (5%) |
+| Lead-to-demo conversion | 25% |
+| Keyword rankings | Top 10 for 10+ keywords |
+| Domain authority | 20+ |
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Google Search Console + analytics tracking — by June 7, 2026
+- [ADDED] Create SEO audit of current website — by June 7, 2026
+- [ADDED] Build first blog post ("What is RTO AI Automation?") — by June 14, 2026
+- [ADDED] Create lead magnet ("5 Ways AI Reduces Call Time") — by July 2026
+- [ADDED] Publish 2-4 SEO blog posts/month — monthly from July 2026
+- [ADDED] Track organic sessions/leads weekly — weekly
+
+### Sources
+- Keyword research: Ahrefs, SEMrush (2026)
+- SEO benchmarks: Search Engine Journal, Moz (2026)
+- Content marketing ROI: Content Marketing Institute (2026)
+
+---
+
+*End of Cycle 66 refinement. Gap filled: Keyword targets, content calendar, lead capture strategy, SEO measurement framework.*
+
+---
