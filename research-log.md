@@ -5897,3 +5897,208 @@ Day 3-5:
 ---
 
 *End of Cycle 173 refinement. Gap filled: Partner success framework (5 stages, recruit → expand), onboarding program (4-week structure), enablement materials (8 required), partner portal MVP vs full, incentive program (4 tiers, bonuses, President's Club), marketing support (co-marketing activities), performance tracking (metrics, health score, intervention), communication cadence (weekly + quarterly + annual), success story documentation, 9 recommended actions for Steven.*
+
+
+## Refinement — 2026-05-24 (Cycle 174): Weekly Reporting Framework — KPIs, Dashboards, and Executive Communication
+
+### Gap identified: Research covers metrics and tracking in individual sections but lacks a unified weekly reporting framework that connects all data sources
+
+**Original finding:** Multiple sections reference tracking metrics (CAC, content performance, partner metrics, customer success) but there's no consolidated weekly reporting structure for Steven to communicate with Marcus + Kham. Without a clear reporting framework, Steven risks missing critical signals or presenting unfocused updates.
+
+**Why this matters:** Marcus and Kham need weekly visibility into Optimizer AI's progress to make decisions. A clear reporting framework ensures Steven presents the right data, highlights the right issues, and requests the right decisions. It also forces Steven to track the right metrics.
+
+### Weekly Reporting Structure
+
+**Report timing:** Every Monday morning (Steven → Marcus + Kham)
+**Report format:** 1-page summary + detailed data in appendix
+**Meeting:** 30-minute weekly sync (Monday 9am)
+
+### Weekly Dashboard Metrics
+
+**Section 1: Pipeline (leading indicators)**
+
+| Metric | This Week | Last Week | Change | Target | Status |
+|--------|-----------|-----------|--------|--------|--------|
+| Qualified leads | X | X | +/- | 10/wk | 🔴/🟡/🟢 |
+| Demos booked | X | X | +/- | 5/wk | 🔴/🟡/🟢 |
+| Demos completed | X | X | +/- | 4/wk | 🔴/🟡/🟢 |
+| Proposals sent | X | X | +/- | 2/wk | 🔴/🟡/🟢 |
+| Customers won | X | X | +/- | 1/wk | 🔴/🟡/🟢 |
+| MRR (monthly) | $X | $X | +/- | $X | 🔴/🟡/🟢 |
+
+**Section 2: Revenue (lagging indicators)**
+
+| Metric | This Week | MTD | YTD | Target | Status |
+|--------|-----------|-----|-----|--------|--------|
+| New MRR | $X | $X | $X | $X | 🔴/🟡/🟢 |
+| Churned MRR | $X | $X | $X | <$X | 🔴/🟡/🟢 |
+| Expansion MRR | $X | $X | $X | $X | 🔴/🟡/🟢 |
+| Total MRR | $X | $X | $X | $X | 🔴/🟡/🟢 |
+| ARPU | $X | — | — | $X | 🔴/🟡/🟢 |
+
+**Section 3: Customer Success (health indicators)**
+
+| Metric | This Week | Trend | Target | Status |
+|--------|-----------|-------|--------|--------|
+| NPS score | X | ↑/↓/→ | >40 | 🔴/🟡/🟢 |
+| At-risk customers | X | ↑/↓/→ | <2 | 🔴/🟡/🟢 |
+| Churned customers | X | ↑/↓/→ | 0 | 🔴/🟡/🟢 |
+| Expansion conversations | X | ↑/↓/→ | 2+/mo | 🔴/🟡/🟢 |
+
+**Section 4: Marketing (growth indicators)**
+
+| Metric | This Week | MTD | Target | Status |
+|--------|-----------|------|--------|--------|
+| Content published | X | X | 2/mo | 🔴/🟡/🟢 |
+| Organic sessions | X | X | +10%/mo | 🔴/🟡/🟢 |
+| Email list growth | X | X | +20/mo | 🔴/🟡/🟢 |
+| LinkedIn engagement | X | X | +5%/mo | 🔴/🟡/🟢 |
+
+**Section 5: Channel Performance**
+
+| Channel | Leads | Demos | Conversions | CAC | Efficiency |
+|---------|-------|-------|-------------|-----|------------|
+| LinkedIn | X | X | X | $X | 🔴/🟡/🟢 |
+| Email | X | X | X | $X | 🔴/🟡/🟢 |
+| Partner | X | X | X | $X | 🔴/🟡/🟢 |
+| Content | X | X | X | $X | 🔴/🟡/🟢 |
+| Other | X | X | X | $X | 🔴/🟡/🟢 |
+
+**Section 6: Partner Channel**
+
+| Metric | This Week | MTD | Target | Status |
+|--------|-----------|------|--------|--------|
+| Active partners | X | X | 5+ by Q2 | 🔴/🟡/🟢 |
+| Referrals from partners | X | X | 2+/mo | 🔴/🟡/🟢 |
+| Partner conversions | X | X | 1+/mo | 🔴/🟡/🟢 |
+| Partner revenue | $X | $X | $X/mo | 🔴/🟡/🟢 |
+
+### Executive Summary (1 paragraph format)
+
+> **Week of [Date]:** 
+> - Pipeline: [X] demos this week, [X] in pipeline, [X] new customers
+> - Revenue: $[X] MRR (+/-$), [X] churn, [X] expansion
+> - Highlights: [2-3 wins]
+> - Challenges: [1-2 issues]
+> - This week: [2-3 priorities]
+> - Decision needed: [1 specific ask]
+
+### Status Indicators
+
+**Color coding:**
+- 🔴 RED: >20% below target, requires immediate attention
+- 🟡 YELLOW: 5-20% below target, monitor closely
+- 🟢 GREEN: On track or above target
+
+**Escalation rules:**
+- RED metric = Immediate action + flag in weekly report
+- 2+ RED metrics = Urgent call with Marcus/Kham
+- GREEN metrics = Celebrate wins (publicly)
+
+### Decision Framework for Weekly Report
+
+**Standard decisions (within Steven's authority):**
+- Adjusting marketing spend between channels (up to $500)
+- Extending pilot period (1 week)
+- Adding minor feature (P2 priority)
+- Partner commission adjustments (within budget)
+
+**Escalated decisions (Marcus/Kham):**
+- Pricing changes
+- New product line investment
+- Major budget reallocation (>$1,000)
+- Partnership agreements (>$5k value)
+- Customer exceptions (>10% discount)
+
+### Monthly Deep Dive Report
+
+**Monthly (sent first Monday of month):**
+
+**1. Performance analysis:**
+- What's working (channel, campaign, offer)
+- What's not working (underperformers)
+- Cohort analysis (customers acquired Month X)
+
+**2. Financial review:**
+- P&L breakdown (revenue, COGS, gross margin)
+- CAC by channel and tier
+- LTV:CAC ratio calculation
+- Cash runway (if relevant)
+
+**3. Competitive landscape:**
+- Any new competitors or threats
+- Competitor pricing changes
+- Market shifts (AI adoption, regulatory)
+
+**4. Strategic updates:**
+- Product roadmap progress
+- Partner performance deep-dive
+- Customer success analysis
+- Content performance analysis
+
+**5. Next month plan:**
+- Key priorities
+- Budget allocation
+- Resource needs
+- Risks and mitigations
+
+### Quarterly Business Review (QBR)
+
+**Format:** 90-minute meeting with Marcus + Kham
+
+**Agenda:**
+1. **Achievements** (15 min): Top 3 wins this quarter
+2. **Metrics** (15 min): Dashboard review, target vs. actual
+3. **Customer deep-dive** (15 min): Successes, churns, NPS
+4. **Product review** (15 min): Roadmap progress, delays
+5. **Partner review** (15 min): Channel performance, top partners
+6. **Strategy session** (15 min): What's working, what to change
+7. **Next quarter** (30 min): Goals, budget, priorities
+
+**QBR outputs:**
+- Updated OKRs for next quarter
+- Budget reallocation (if needed)
+- Product roadmap adjustments
+- Strategic decisions (market expansion, new products)
+
+### KPI Tracking Systems
+
+**Where to track:**
+
+| Metric | Tool | Frequency |
+|--------|------|----------|
+| Leads, demos, pipeline | Zoho CRM | Real-time |
+| Revenue, MRR, churn | Zoho Books + spreadsheet | Weekly |
+| Customer health | Zoho + manual tracking | Weekly |
+| Marketing metrics | Google Analytics + LinkedIn | Weekly |
+| Partner metrics | Shared spreadsheet | Weekly |
+| Content performance | Google Analytics | Monthly |
+
+**Reporting cadence by metric:**
+- Pipeline: Daily (Steven), Weekly (Marcus/Kham)
+- Revenue: Weekly (all)
+- Customer health: Weekly (Steven), Monthly (Marcus/Kham)
+- Marketing: Weekly (Steven), Monthly (Marcus/Kham)
+- Partners: Weekly (Steven), Monthly (Marcus/Kham)
+
+### Recommended Actions for Steven
+
+- [ADDED] Create weekly dashboard template (1-page summary) — by Week 1
+- [ADDED] Set up Zoho CRM pipeline (stages: Lead → Demo → Proposal → Won/Lost) — by Week 1
+- [ADDED] Create monthly deep-dive template — by Month 1
+- [ADDED] Schedule weekly sync (Monday 9am with Marcus/Kham) — by Week 1
+- [ADDED] Define escalation rules (when to escalate, who to contact) — by Week 2
+- [ADDED] Build automated data pulls where possible (Zoho → spreadsheet) — by Month 1
+- [ADDED] Review and refine KPIs quarterly (what's tracked vs. what's valuable) — quarterly
+- [ADDED] Create decision framework document (standard vs. escalated decisions) — by Month 2
+
+### Sources
+
+- SaaS metrics: Bessemer Venture Partners SaaS metrics (2026)
+- Executive reporting: Startup Board Reporting by David S. Kidder
+- KPI frameworks: Measure What Matters by John Doerr (OKRs)
+- Weekly standups: Agile methodology (scrumguides.org)
+
+---
+
+*End of Cycle 174 refinement. Gap filled: Weekly reporting structure (1-page dashboard + detailed data), 6 metric sections (pipeline, revenue, CS, marketing, channels, partners), executive summary format, status indicators (red/yellow/green), decision framework (standard vs. escalated), monthly deep-dive template, quarterly business review agenda, KPI tracking systems, 8 recommended actions for Steven.*
