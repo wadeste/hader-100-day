@@ -1008,3 +1008,38 @@ Research what a compelling POC looks like for each product line. For the orienta
 - AI product metrics frameworks (Gong, Amplitude)
 - Note: External web search limited; recommend primary data collection from Hader's systems
 
+
+## Partnership opportunity scan — 2026-05-24
+
+### Objective
+Research potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers?
+
+### Key Findings
+- **Zoho partner network is highest-leverage distribution**: 15,000+ partners globally, thousands in Australia. RTOs using Zoho are pre-qualified (data infrastructure, budget, CRM understanding). Marketplace listing = passive lead flow. Partner referral commission: 10-20% of first year = $600-1,200 per customer
+- **RTO consultants are highest-trust channel**: Trusted relationships with RTO decision-makers (years of compliance work). 1 consultant × 10 RTO clients = 10+ leads/year. Commission: 15-20% of first year. Target: former ASQA auditors, RTO registration consultants, TAZ review specialists
+- **Aircall marketplace is AI-native positioning play**: Positions Optimizer AI as "AI for RTO calls" not "another Zoho add-on". Real-time call data integration (no middleware). Access to Aircall's 10,000+ global customers
+- **Education associations underperform for direct sales**: Slow decision-making, low commercial focus. Better use: speaking slots (thought leadership), content co-branding (SEO), event sponsorship (brand visibility)
+- **Partner program structure**: Start simple (15-20% referral commission, basic support), scale to tiered structure (Referral/Certified/Elite) when volume justifies
+
+### Strategic Implications
+- **Distribution timeline**: Months 1-3 (Marcus + Zoho registration), months 3-6 (Zoho Marketplace), months 6-9 (consultant resellers + Aircall), months 9-12 (scale partner program)
+- **Build sequence**: Zoho integration first (required for partner), Aircall second (AI-native), Monday.com third (lower priority)
+- **Partner program minimum**: 15-20% first-year commission, sales materials, demo access, Slack support channel
+
+### Recommended Actions
+- [ ] Apply to Zoho Registered Partner program — by June 1, 2026
+- [ ] Complete Zoho developer certification — by June 7, 2026
+- [ ] Research top 10 RTO consultants in Australia — by June 14, 2026
+- [ ] Draft partner program one-pager — by June 14, 2026
+- [ ] Reach out to 3-5 Zoho partners with RTO focus — by June 21, 2026
+- [ ] Build Hader integration as live reference for Marketplace — by July 2026
+- [ ] Apply for Zoho Marketplace listing — by August 2026
+- [ ] Attend AUSPED or AAVEC for consultant recruitment — Q4 2026
+
+### Sources
+- Zoho partner program: zoho.com/partner
+- Aircall marketplace: aircall.com/integrations
+- Monday.com marketplace: monday.com/marketplace
+- Education associations: AUSPED, AAVEC, state VET networks
+- Note: Recommend direct outreach to identified partners
+
