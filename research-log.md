@@ -6544,3 +6544,348 @@ Can we schedule a 10-minute call this week to either get started or close the lo
 
 *End of Cycle 217 refinement. Gap filled: No sales execution scripts existed for LinkedIn/email/objections. Added LinkedIn outreach templates (3 personas: CEO, Enrollment Manager, Marketing Director), cold email sequence (5-step nurture with timing), event follow-up playbook (24-hour rule, 3-touch follow-up), referral ask script (golden moments, thank-you), objection handling (6 objections with full responses), demo-to-close scripts (recap, follow-up, close attempt), 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 218): Onboarding and Implementation Playbook — Closing the Gap Between Sale and Success
+
+### Gap identified
+Research covers customer success (Cycle 210), Zoho integration (Cycle 208), and legal framework (Cycle 211) but lacks a structured **onboarding and implementation playbook** — how to move a customer from signed contract to AI live-in-production as quickly as possible without friction. This is critical: a poor onboarding experience causes churn before the customer ever sees value.
+
+**Original finding**: "Kickoff call" mentioned in Cycle 210 (customer lifecycle), "Technical setup" in Cycle 208 (Zoho integration), "Onboarding checklist" in Cycle 210 (customer success). No structured implementation playbook with timeline, roles, deliverables, and failure prevention.
+
+**Why this matters**: The time between contract signing and first AI call is when most customers get anxious. "When will I see results?" The longer this gap, the more likely they are to second-guess. A tight onboarding playbook gets them live in 1-2 weeks, generates first value in 30 days, and creates the foundation for long-term success.
+
+### Onboarding Framework Overview
+
+**The onboarding gap**: Most SaaS onboarding fails because:
+- No clear timeline (customer doesn't know when to expect what)
+- Too many steps upfront (overwhelms customer)
+- Technical complexity hidden until late (catches them off-guard)
+- No defined success milestones (they don't know if it's working)
+
+**Optimizer AI onboarding principles**:
+1. **Time-boxed**: 1-2 weeks to live, 30 days to value
+2. **Phased**: Not everything at once — each phase has one focus
+3. **Customer-light**: Customer effort minimized, Optimizer AI does the work
+4. **Transparent**: Customer knows exactly where they are in the process
+5. **Celebratory**: Every milestone is acknowledged ("You're live!")
+
+### Onboarding Timeline (14 Days to Live)
+
+**Day 0-1: Contract Signed**
+
+| Activity | Owner | Deliverable | Customer Effort |
+|----------|-------|-------------|-----------------|
+| Contract signed | Steven | Signed in Zoho | Sign + pay deposit |
+| Welcome email sent | Steven | Welcome package | — |
+| Zoho access form sent | Steven | OAuth setup | Submit by Day 2 |
+| Kickoff call scheduled | Steven | Calendar invite (Day 3) | — |
+
+**Welcome email template**:
+```
+Subject: Welcome to Optimizer AI — here's what to expect
+
+Hi [Name],
+
+Welcome! We're excited to have [RTO Name] on board.
+
+Here's what happens next:
+
+1. Kickoff call (Day 3): We'll align on goals, walk through your current enrollment process, and plan the setup.
+
+2. Technical setup (Day 4-7): We'll configure Optimizer AI for your RTO — courses, scripts, Zoho integration.
+
+3. Test calls (Day 7-10): You'll hear the AI handle test calls with your team.
+
+4. Go live (Day 10-14): Real calls route to Optimizer AI.
+
+5. First value review (Day 30): We'll review your first month of results.
+
+Your kickoff call is scheduled for [Day/Time]. Zoom link: [link]
+
+Before then, can you:
+
+- Share your Zoho admin login (for integration setup)
+- Send me a list of your current courses (for AI script)
+- Identify who on your team handles enrollment (for training)
+
+See you [Day/Time]!
+
+[Steven]
+```
+
+**Day 3: Kickoff Call** (45 minutes)
+
+**Agenda**:
+1. Introduction (5 min) — Who we are, roles, what to expect
+2. Current state (15 min) — "Walk me through how a student enrolls today"
+   - What systems do you use?
+   - How many calls per week?
+   - What's working? What's not?
+3. Goals alignment (10 min) — "What does success look like at 30 days?"
+   - Specific metrics (enrollment rate, call answer rate)
+   - Specific pain to solve
+4. Technical setup review (10 min) — "Here's what we need from you"
+   - Zoho access (who grants it)
+   - Call routing (how calls get to us)
+   - Phone number porting (if applicable)
+5. Next steps (5 min) — Confirm timeline, assign responsibilities
+
+**Kickoff call deliverable**: Onboarding checklist confirmed, roles assigned, timeline agreed.
+
+**Day 4-7: Technical Setup** (Kham + Steven)
+
+| Activity | Owner | Deliverable | Customer Role |
+|----------|-------|-------------|---------------|
+| Zoho OAuth connected | Kham | Integration verified | Provide access (15 min) |
+| AI scripts configured | Kham | Scripts for each course | Review and approve |
+| Call routing set up | Kham | Test calls routing correctly | Test with team (30 min) |
+| USI collection flow built | Kham | USI prompts working | — |
+| Orientation booking built | Kham | SMS confirmations sending | — |
+| Compliance docs uploaded | Steven | Disclosure statements ready | — |
+| Dashboard access granted | Steven | Customer sees their dashboard | — |
+
+**Technical setup communication** (Day 4):
+```
+Subject: Technical setup in progress — here's where we are
+
+Hi [Name],
+
+Quick update: Our team has started technical setup for [RTO Name].
+
+Here's where we are:
+
+✅ Zoho connected
+🔄 AI scripts being configured for [Course 1], [Course 2]
+🔄 Call routing being tested
+📋 Awaiting: Your review of draft script (will send tomorrow)
+
+Timeline is on track. I'll update you daily.
+
+[Steven]
+```
+
+**Day 7-10: Testing Phase**
+
+**Day 7: Send test script for review**
+```
+Subject: Draft AI script for review — 15 min read
+
+Hi [Name],
+
+Here's the draft script for [Course 1]. It's what the AI will say when a student calls about this course.
+
+[Attach script or link]
+
+Key things I want your feedback on:
+- Is the course description accurate?
+- Are we missing any common questions?
+- Does the tone sound right for [RTO Name]?
+
+Please review by [Day 9]. If I don't hear back, I'll assume it's good to go.
+
+[Steven]
+```
+
+**Day 8: Internal testing**
+- Kham runs 10 test calls (internal team)
+- Reviews transcripts for errors
+- Fixes issues before customer sees
+
+**Day 9: Customer test call**
+```
+Subject: Test call scheduled for tomorrow — 15 minutes
+
+Hi [Name],
+
+Tomorrow at [Time], we'll do a test call together.
+
+Here's what to expect:
+1. You'll call [Test Phone Number]
+2. AI will answer: "Thank you for calling [RTO Name]..."
+3. You can say anything — test responses, ask questions
+4. I'll be on the call too (muted) to observe
+
+This is your chance to hear how it sounds before we go live.
+
+After the call, we'll do a 15-minute debrief:
+- What worked?
+- What needs adjustment?
+- Are you ready to go live?
+
+See you tomorrow!
+
+[Steven]
+```
+
+**Day 10: Go/No-Go Decision**
+
+| Criteria | Ready | Not Ready |
+|----------|-------|----------|
+| Test call containment rate | >60% | <60% |
+| Script accuracy | Accurate | Errors found |
+| Customer confidence | "Let's go" | "Wait, I want to..." |
+| Technical stability | All calls route | Errors on test |
+| Team readiness | Staff trained | Need more training |
+
+**If Ready**: Go live, route real calls
+**If Not Ready**: Fix issues, schedule re-test
+
+**Day 10-14: Go Live**
+
+**Go-live day email**:
+```
+Subject: 🎉 You're live! First real calls routing to Optimizer AI
+
+Hi [Name],
+
+This is it — [RTO Name] is now live with Optimizer AI!
+
+Enrollment calls are now being handled by our AI 24/7.
+
+What happens next:
+- Calls will come to us first
+- We'll handle [enrollment data collection, orientation booking, USI collection]
+- You'll see everything in your dashboard: [link]
+- I'll send you a weekly summary (calls handled, enrollments, any issues)
+
+First week is the learning period. We'll adjust based on real calls.
+
+I'm here if you need anything. Let's make this a great month!
+
+[Steven]
+```
+
+### Day 30: First Value Review
+
+**Purpose**: Confirm the customer is seeing value, address issues, set up ongoing success.
+
+**30-day review call agenda** (30 minutes):
+
+1. **Results review** (15 min)
+   - Calls handled: [X]
+   - Answer rate: [X]% (target: 95%+)
+   - Containment rate: [X]% (target: 70%+)
+   - Enrollments from AI: [X]
+   - Time saved: [X] hours/week
+
+2. **Customer sentiment** (5 min)
+   - "How are you feeling about it?"
+   - "What do your team members say?"
+   - "What would make this better?"
+
+3. **Optimization opportunities** (5 min)
+   - Common call types not covered
+   - Script adjustments needed
+   - Feature requests
+
+4. **Expansion conversation** (5 min)
+   - "You're seeing great results with [Starter tier]. I know you're approaching [X] calls/month. [Growth tier] would give you..."
+   - Or: "With [Growth tier], you'd get orientation booking and SMS confirmations..."
+
+### Customer Onboarding Checklist
+
+**Pre-onboarding** (Steven completes):
+- [ ] Contract signed in Zoho (stage: Contract Signed)
+- [ ] Welcome email sent (Day 0)
+- [ ] Zoho access form sent (Day 0)
+- [ ] Kickoff call scheduled (Day 1)
+- [ ] Onboarding doc shared (Day 0)
+
+**Kickoff call** (Day 3):
+- [ ] Discovery questions answered
+- [ ] Goals documented
+- [ ] Technical requirements confirmed
+- [ ] Timeline agreed
+- [ ] Roles assigned
+
+**Technical setup** (Day 4-7):
+- [ ] Zoho OAuth connected
+- [ ] Course list confirmed
+- [ ] AI scripts built
+- [ ] Call routing tested
+- [ ] SMS confirmations working
+- [ ] Dashboard accessible
+
+**Testing** (Day 7-10):
+- [ ] Test script sent for review
+- [ ] Customer feedback incorporated
+- [ ] Internal test calls completed
+- [ ] Customer test call successful
+- [ ] Go/No-Go decision made
+
+**Go Live** (Day 10-14):
+- [ ] Real calls routed to Optimizer AI
+- [ ] Confirmation email sent
+- [ ] Customer notified of success
+- [ ] First-week monitoring in place
+
+**30-Day Review**:
+- [ ] Results documented
+- [ ] Satisfaction confirmed
+- [ ] Issues addressed
+- [ ] Expansion opportunity identified
+- [ ] Contract renewed/expanded
+
+### Onboarding Failure Prevention
+
+**Top 5 onboarding failures and how to prevent**:
+
+| Failure | Symptoms | Prevention | Resolution |
+|---------|----------|------------|------------|
+| **1. Technical delays** | Week 1 passes, no integration | Clear technical requirements at kickoff, dedicated Kham support | Daily status updates, escalate blockers |
+| **2. Customer ghosting** | No response after contract | Multiple contact methods, urgency on kickoff call | Phone call, involve Marcus for warm intro |
+| **3. Script mismatch** | AI says wrong course info | Customer review step, specific questions | Fix immediately, re-test |
+| **4. Unrealistic expectations** | Customer expects instant miracles | Set expectations at kickoff: "70% containment, not 100%" | Education call, case study evidence |
+| **5. Call routing failure** | Calls not reaching AI | Technical verification step, test with real numbers | Immediate technical fix |
+
+### Self-Serve Onboarding (Year 2+ Goal)
+
+**The vision**: Customers install from Zoho Marketplace, configure themselves, go live with minimal support.
+
+**Year 1 approach**: White-glove onboarding (Steven + Kham hands-on)
+
+**Year 2 evolution**:
+1. Video tutorial library (setup, configuration, troubleshooting)
+2. Self-serve Zoho setup wizard (guided OAuth flow)
+3. Self-serve script builder (drag-and-drop intent builder)
+4. Community forum (peer help, Q&A)
+
+**Current readiness**: Not ready for self-serve. Build this in Year 2 after 20+ customers.
+
+### Onboarding Metrics
+
+| Metric | Target | Warning | Critical |
+|--------|--------|---------|----------|
+| Time to live (contract to first call) | <10 days | 10-14 days | >14 days |
+| Customer effort hours | <5 hours | 5-8 hours | >8 hours |
+| First value (30-day enrollments from AI) | >3 enrollments | 1-2 enrollments | 0 enrollments |
+| 30-day review completion | >90% | 75-90% | <75% |
+| Customer onboarding NPS | >7/10 | 5-7/10 | <5/10 |
+
+### Recommended Actions for Steven
+
+- [ADDED] Create onboarding doc template (what to send at each step) — Week 1
+- [ADDED] Write welcome email template — Week 1
+- [ADDED] Build kickoff call agenda (45-minute structure with time allocations) — Week 1
+- [ADDED] Create test call script template (for customer review) — Week 2
+- [ADDED] Write go-live confirmation email template — Week 2
+- [ADDED] Build 30-day review call agenda (30-minute structure) — Week 2
+- [ADDED] Set up onboarding tracker in Zoho (stages, deadlines, owner) — Week 1
+- [ADDED] Create customer onboarding checklist (for internal use) — Week 1
+- [ADDED] Track time-to-live and first-value metrics for first 5 customers — Month 1-3
+- [ADDED] Build video tutorial library in Year 2 (self-serve onboarding goal) — Year 2
+
+### Sources
+
+- SaaS onboarding best practices: Gainsight CS onboarding playbook (2024)
+- Customer onboarding metrics: Totango onboarding benchmarks (2025)
+- Onboarding communication: Intercom customer onboarding guide (2025)
+- Technical onboarding: "The DevOps Handbook" (implementation best practices)
+- Onboarding failure prevention: "After the Welcome Kit" by Lincoln Murphy (reference)
+
+---
+
+*End of Cycle 218 refinement. Gap filled: No structured onboarding/implementation playbook existed. Added 14-day onboarding timeline (Day 0-14 with activities per day), kickoff call agenda (45 min structure), technical setup checklist (6 steps), testing phase (Day 7-10 with customer test call), go/no-go decision criteria, 30-day value review structure, customer onboarding checklist (20 items), 5 failure prevention scenarios, onboarding metrics (5 KPIs), 10 recommended actions for Steven.*
+
