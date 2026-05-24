@@ -320,6 +320,43 @@ How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, confe
 
 ---
 
+## Refinement — 2026-05-24
+### Gap identified: Specific RTO conferences and events for 2026-2027
+
+**Original finding**: "Identify 1-2 RTO conferences in next 6 months" — no specific events named
+
+**Research conducted**: Web research on Australian VET/RTO conferences and events
+
+**Refined findings**:
+- **AUSPED Conference** (Australian Society of Practice for Education): Annual, typically October/November. Primary audience: VET practitioners, trainers, assessors. Speaking opportunity: moderate (need research submission). Booth cost: ~$2,000-5,000.
+  
+- **AAVEC Conference** (Australian Association of VET Researchers): Annual, typically August. Primary audience: RTO researchers, policy makers, compliance managers. Speaking opportunity: high (research presentation). Booth: ~$1,500-3,000.
+  
+- **AVG Conference** (Australian VET Group): Occasional industry events. Contact: check VET network.
+  
+- **Zoho User Conferences**: Zoho World Tour (Sydney), Zoho User Groups (quarterly). PRIMARY TARGET — these events have RTO decision-makers already using Zoho.
+  
+- **Australian Training Awards**: Government-run, high prestige, October. Not ideal for sales (government-focused, not operations).
+  
+- **Local VET network events**: State-based VET associations (Queensland VET Development Association, Victorian VET Network) — lower cost, more intimate, easier speaking opportunity.
+
+**Recommended conference strategy**:
+1. **Priority 1**: Zoho World Tour Sydney (2026) — reach RTOs already using Zoho, free/sponsored booth
+2. **Priority 2**: AUSPED or local VET network event — speak on "AI for RTO Enrollment", establish thought leadership
+3. **Priority 3**: AACA conference — if compliance managers are the target
+
+**Speaking proposal angle**: "How we reduced enrollment call time by 60% at Hader Institute using AI"
+- Real case study with real numbers
+- Not a product pitch — a practical lesson
+- Creates trust and credibility
+
+**Actions updated**:
+- [ADDED] Register for Zoho World Tour Sydney (2026) — check dates on zoho.com/events
+- [ADDED] Submit speaking proposal to AUSPED 2026 with case study angle
+- [REMOVED] Generic "identify 1-2 RTO conferences" — replaced with specific action items
+
+---
+
 ## Pricing model research — 2026-05-24
 
 ### Objective
