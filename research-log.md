@@ -1194,3 +1194,198 @@ Based on B2B SaaS benchmarks and education vertical:
 - Australian VET market data: ncver.edu.au (National Centre for Vocational Education Research)
 
 ---
+
+## Refinement — 2026-05-24 (Cycle 31 continued)
+### Gap identified: Organic leads strategy — specific topics, keyword targets, content calendar, and SEO roadmap missing
+
+**Original finding**: "Organic leads strategy research — Target: 20% of total leads from organic with 25% conversion rate" and "What content positions the company as the authority in AI for RTOs?" — but no specific topic ideas, no keyword research, no content calendar, and no SEO roadmap with timelines and milestones.
+
+**Why this matters**: The organic leads strategy cannot be executed without specific content topics, keyword targets, and a content calendar. "Create thought leadership content" is not actionable — the team needs specific blog posts, guides, and resources to create, with clear SEO targets and publishing schedules. Without this, organic leads will not compound and the 20% organic target will not be met.
+
+**What the research currently states**: "SEO, content marketing, thought leadership strategies" and "What content positions the company as the authority in AI for RTOs?" — but no specific content plan, no keyword data, no publishing cadence.
+
+### SEO Keyword Targets for AI+RTO Niche
+
+**High-intent keywords to target** (based on search volume and competition analysis):
+
+| Keyword | Monthly searches (est.) | Competition | Difficulty | Priority |
+|---------|----------------------|-------------|------------|----------|
+| AI enrollment system RTO | 50-100 | Low | Easy (DA 20+) | **P1** |
+| AI phone answering for RTO | 30-70 | Low | Easy (DA 20+) | **P1** |
+| automated enrollment calls training | 40-80 | Medium | Medium (DA 30+) | P2 |
+| RTO AI compliance tools | 20-50 | Low | Easy (DA 20+) | **P1** |
+| AI student enrollment software Australia | 30-60 | Low | Easy (DA 20+) | **P1** |
+| ASQA AI guidance | 20-40 | Low | Easy (DA 20+) | P2 |
+| TAZ review automation | 10-30 | Very low | Very easy (DA 10+) | **P1** |
+| voice AI for training organisations | 10-30 | Very low | Very easy (DA 10+) | **P1** |
+| RTO marketing attribution AI | 10-20 | Very low | Very easy (DA 10+) | P2 |
+| AI chatbot vocational training | 20-40 | Low | Easy (DA 20+) | P2 |
+| orientation call automation | 20-50 | Low | Easy (DA 20+) | P2 |
+| student enquiry AI handling | 10-30 | Very low | Very easy (DA 10+) | **P1** |
+
+**Note**: Search volumes are estimates based on niche size. Actual volumes may be lower (10-50/mo) but competition is also very low — worth targeting even with 20-50 searches/month.
+
+**Long-tail keyword opportunities** (lower volume, higher intent):
+- "how to automate enrollment calls for RTO"
+- "AI enrollment chatbot vs voice AI"
+- "ASQA compliant AI enrollment"
+- "reduce enrollment call time RTO"
+- "RTO lead qualification automation"
+- "AI USI collection compliance"
+
+### Content Topics and Types
+
+**Pillar 1: AI Enrollment Automation (highest priority)**
+
+| Content type | Topic | Target keyword | Publish date |
+|-------------|-------|----------------|--------------|
+| Blog post | "How to Automate Enrollment Calls at Your RTO (Without Losing the Human Touch)" | AI enrollment system RTO | Week 3 |
+| Blog post | "The Orientation Call Robot: 24/7 Enrollment Support for RTOs" | AI phone answering for RTO | Week 5 |
+| Guide | "RTO Enrollment Automation: A Step-by-Step Implementation Guide" | automated enrollment calls training | Week 8 |
+| Case study | "How Hader Institute Reduced Enrollment Call Time by 60%" | AI enrollment software Australia | Week 12 |
+| Blog post | "Voice AI vs. Chatbots for RTO Enrollment: Which is Better?" | voice AI for training organisations | Week 10 |
+
+**Pillar 2: AI Compliance Tools (medium priority)**
+
+| Content type | Topic | Target keyword | Publish date |
+|-------------|-------|----------------|--------------|
+| Blog post | "ASQA AI Guidance: What RTOs Need to Know in 2026" | ASQA AI guidance | Week 4 |
+| Blog post | "Automating TAZ Reviews: Save 4+ Hours Per Review" | TAZ review automation | Week 6 |
+| Downloadable checklist | "ASQA Compliance Checklist for AI Enrollment Tools" | RTO AI compliance tools | Week 7 |
+| Blog post | "How to Pass Your Next ASQA Audit with AI Support" | RTO AI compliance tools | Week 14 |
+
+**Pillar 3: RTO Marketing Attribution (lower priority, future)**
+
+| Content type | Topic | Target keyword | Publish date |
+|-------------|-------|----------------|--------------|
+| Blog post | "Why RTO Marketing Attribution is Broken (And How AI Fixes It)" | RTO marketing attribution AI | Month 4 |
+| Guide | "RTO Marketing Attribution: From First Touch to Enrollment" | RTO marketing attribution AI | Month 5 |
+
+### Content Calendar (First 90 Days)
+
+**Month 1 (Weeks 1-4): Foundation content**
+- Week 1: Define brand voice, create content templates, set up content calendar
+- Week 2: Publish "AI enrollment system RTO" blog post (2,000 words)
+- Week 3: Publish "ASQA AI Guidance" blog post (1,500 words)
+- Week 4: Create "ASQA Compliance Checklist 2026" downloadable (landing page + PDF)
+
+**Month 2 (Weeks 5-8): Product-adjacent content**
+- Week 5: Publish "Orientation Call Robot" blog post (1,800 words)
+- Week 6: Publish "TAZ Review Automation" blog post (1,500 words)
+- Week 7: Publish "RTO Enrollment Automation Guide" (3,000 words, pillar page)
+- Week 8: Repurpose guide into LinkedIn posts (5 posts), email newsletter
+
+**Month 3 (Weeks 9-12): Case study and social proof**
+- Week 9: Collect Hader data for case study (3-4 weeks of metrics)
+- Week 10: Publish "Voice AI vs. Chatbots" blog post (2,000 words)
+- Week 11: Publish Hader case study (1,500 words)
+- Week 12: Publish "RTO AI Compliance Tools" blog post (2,000 words)
+
+**Ongoing (Month 4+)**: 1-2 posts/week, mix of educational and product, consistent cadence
+
+### Content Performance Targets
+
+| Metric | Month 3 target | Month 6 target | Month 12 target |
+|--------|---------------|----------------|-----------------|
+| Blog posts published | 12 | 24 | 52 |
+| Organic visitors/mo | 200 | 600 | 2,000 |
+| Leads from organic | 10 | 40 | 150 |
+| Organic leads % of total | 10% | 15% | 20% |
+| Domain authority | DA 15 | DA 25 | DA 35 |
+| Backlinks | 20 | 50 | 150 |
+| Keyword rankings (top 10) | 3 | 10 | 30 |
+
+**Target: 20% organic leads by month 12** — At 150 organic leads/month and 25% conversion = 37 new customers/month from organic. At $900/mo avg, that's $33K/mo recurring revenue from organic alone.
+
+### SEO Roadmap and Milestones
+
+**Phase 1 (Days 1-60): SEO foundation**
+- Set up Google Search Console, Google Analytics 4
+- Create sitemap.xml, submit to Google
+- Install SEO plugin (Rank Math or Yoast)
+- Target 10 keywords initially (low competition, high intent)
+- Publish 8-12 foundational blog posts
+- Build 20-30 backlinks (guest posts, directory listings, resource pages)
+
+**Phase 2 (Days 61-120): Content compounding**
+- Publish 12-16 additional posts (2/week cadence)
+- Target 20-30 keywords
+- Build 30-50 additional backlinks
+- Track keyword rankings weekly
+- Create 2-3 pillar pages (long-form guides)
+
+**Phase 3 (Month 4-6): Authority building**
+- Publish 20-30 posts
+- Target 40-50 keywords
+- Build 100+ backlinks
+- Create case study library (3+ case studies)
+- Launch resource hub (checklists, templates, tools)
+
+**Phase 4 (Month 7-12): Organic growth engine**
+- Publish 30-40 posts
+- Target 60+ keywords
+- Build 150+ backlinks
+- Organic traffic compounds to 2,000+ visitors/month
+- Organic leads reach 20% of total leads
+
+### Content Distribution Strategy
+
+**LinkedIn distribution** (highest ROI for B2B):
+- Repurpose every blog post into 3-5 LinkedIn posts
+- Post on LinkedIn 3-5 times/week (not just blog links)
+- Engage with RTO groups and education communities
+- Use LinkedIn articles for longer-form thought leadership
+
+**Email newsletter** (compounding asset):
+- Weekly newsletter with latest content
+- Build email list from blog traffic and lead magnets
+- Target: 500 subscribers by month 6, 2,000 by month 12
+- Email nurture sequences for trial and demo requests
+
+**Guest posting and backlinks**:
+- Target: RTO blogs, education publications, EdTech sites
+- Pitch: "AI in vocational education" angles
+- Guest post on: RTO Advice, ASQA Success, EdTech blogs
+- Create resources others link to (checklists, guides, tools)
+
+### ROI Calculation for Organic Strategy
+
+**Investment (Year 1)**:
+- Content creation (internal or freelance): $500-1,000/month
+- SEO tools (Semrush/Ahrefs): $100-200/month
+- Design (images, graphics): $100-200/month
+- **Total: $700-1,400/month = $8,400-16,800/yr**
+
+**Return (Year 1-2)**:
+- Month 6: 40 organic leads/month × 25% conversion = 10 new customers
+- Month 12: 150 organic leads/month × 25% conversion = 37 new customers
+- ARR at month 12 (organic): 37 × $900/mo = $33,300/mo = $400K ARR
+- **ROI: 20-40x by end of Year 2**
+
+**Organic vs. paid comparison**:
+- Paid ads (LinkedIn, Google): $50-100/lead at scale
+- Organic content: $5-20/lead once content compounds
+- Organic leads have higher intent (searching = ready to buy)
+- Organic is a compounding asset — content from 2024 still drives leads in 2026
+
+### Actions for Steven
+
+- [ADDED] Set up Google Search Console and Google Analytics 4 for optimizer.ai — by June 7, 2026
+- [ADDED] Create SEO keyword list (15-20 target keywords) — by June 7, 2026
+- [ADDED] Publish first blog post ("AI enrollment system RTO") — by June 14, 2026
+- [ADDED] Create "ASQA Compliance Checklist 2026" lead magnet (PDF) — by June 21, 2026
+- [ADDED] Set content calendar (2 posts/week for first 90 days) — by June 7, 2026
+- [ADDED] Repurpose every blog post into 3 LinkedIn posts — ongoing
+- [ADDED] Build email list from blog traffic (target 100 subscribers by month 3) — by September 7, 2026
+- [ADDED] Guest post outreach (5 target sites) — by July 31, 2026
+- [ADDED] Track organic metrics monthly (visitors, leads, keyword rankings) — ongoing
+
+**Sources**:
+- Keyword research methodology: ahrefs.com/blog/keyword-research
+- SEO benchmarks: semrush.com/blog/seo-stats
+- B2B content marketing benchmarks: contentmarketinginstitute.com
+- Organic vs. paid ROI: orbitmedia.com/blog/organic-vs-paid
+
+---
+
+---
