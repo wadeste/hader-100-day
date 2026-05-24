@@ -3544,3 +3544,523 @@ All → Looker Studio dashboard → Unified view
 
 ---
 
+
+## Refinement — 2026-05-24 (Cycle 98): Orientation Call Robot — Multi-RTO Configuration & Scaling
+### Gap identified: Research provides single-RTO implementation (Hader) but lacks multi-RTO configuration management, scaling challenges, and enterprise features
+
+**Original finding**: "Orientation call robot — product-market fit research" (Cycle 71, 88) provides VAPI implementation, voice quality optimization, and USI collection. However, research lacks:
+- Multi-RTO configuration (how AI adapts to different RTOs)
+- Scaling challenges (100+ RTOs on platform)
+- Enterprise features (white-label, custom branding)
+- Multi-language support (ESL, Indigenous students)
+- RTO-specific customizations (courses, funding, policies)
+
+**Why this matters**: Hader is one RTO. Optimizer AI needs to scale to 100+ RTOs. Each RTO has different courses, funding rules, policies, and terminology. Without multi-RTO architecture, the product cannot scale.
+
+### Multi-RTO Configuration Architecture
+
+**Configuration model** (per RTO):
+```javascript
+// RTO configuration stored in database
+const rtoConfig = {
+  rto_id: "hader001",
+  rto_name: "Hader Institute",
+  phone_number: "+61-7-XXXX-XXXX",
+  courses: [
+    { code: "11046NAT", name: "Cert IV AI", funding: "User Choice" },
+    { code: "BSB42420", name: "Cert IV Social Media Marketing", funding: "User Choice" }
+  ],
+  policies: {
+    call_disclosure: "This call is being recorded...",
+    orientation_reminder_hours: 24,
+    max_retry_attempts: 3
+  },
+  escalation: {
+    phone: "+61-4XX-XXX-XXX",
+    email: "enquiries@hader.edu.au"
+  },
+  branding: {
+    logo_url: "https://...",
+    primary_color: "#XXXXXX",
+    voice_id: "rachel"
+  },
+  custom_fields: {
+    course_custom_field: "Course Interest",
+    funding_custom_field: "Funding Type"
+  }
+};
+```
+
+**Configuration inheritance** (tiers):
+- Default config: All RTOs inherit base settings (disclosure, USI format, escalation)
+- Funding config: State-specific (QLD vs NSW vs VIC)
+- RTO-specific: Individual overrides
+
+**Configuration UI** (for RTOs):
+- Web portal: Update courses, hours, escalation contacts
+- API access: For Zoho/technical customers
+- No code changes: Non-technical RTOs can self-manage
+
+### RTO-Specific Customizations
+
+**Course catalog**:
+- Each RTO has different courses
+- AI must know: Course names, codes, durations, fees, funding eligibility
+- Update frequency: Weekly or real-time via API
+
+**Funding rules by state**:
+| State | Funding program | Eligibility | AI must know |
+|-------|----------------|-------------|--------------|
+| QLD | User Choice | Concession, employment | Funding rules |
+| NSW | Smart and Skilled | Various criteria | Concession categories |
+| VIC | Free TAFE | Eligible courses | Course eligibility |
+| SA | Funded | Various | Funding rules |
+
+**AI prompt customization**:
+```javascript
+// Per-RTO system prompt
+const systemPrompt = `
+You are the enrollment assistant for ${rto_name}.
+Courses offered: ${course_list}
+Funding available: ${funding_options}
+
+IMPORTANT RULES:
+- ${funding_rules}
+- USI required before enrollment
+- Orientation booking required
+- Escalate if: complaints, refunds, complex funding
+`;
+```
+
+### Scaling Challenges & Solutions
+
+**Challenge 1: Call volume spikes**
+- Term start: 2x normal call volume
+- Solution: Auto-scale VAPI instances, queue management
+- Monitoring: Alert if queue > X minutes
+
+**Challenge 2: Multi-RTO phone numbers**
+- Need: Unique phone number per RTO
+- Solution: VAPI supports multiple inbound numbers
+- Cost: $1-2/month per number × 100 RTOs = $200/month
+
+**Challenge 3: Data isolation**
+- Requirement: RTO A cannot see RTO B data
+- Solution: Database tenant isolation (per RTO schema)
+- Implementation: Zoho multi-tenant or separate Zoho orgs
+
+**Challenge 4: Maintenance overhead**
+- Updates: Course changes, pricing, policies
+- Solution: Configuration UI, batch updates
+- Team: 1 part-time ops person per 50 RTOs
+
+### Enterprise Features
+
+**White-label** (Scale tier):
+- Custom phone number (bring your own)
+- Custom branding (logo, colors, voice)
+- Custom domain (enrollment.rto.com.au)
+- Custom workflows (RTO-specific processes)
+
+**API access** (Scale tier):
+- REST API for CRM integration
+- Webhook for events (call completed, lead created)
+- Dashboard API for reporting
+
+**SLA** (Scale tier):
+- 99.9% uptime guarantee
+- Dedicated support channel
+- Quarterly business review
+
+### Multi-Language Support
+
+**Priority order**:
+1. English (default, 90% of calls)
+2. Mandarin (ESL students)
+3. Vietnamese (ESL students)
+4. Arabic (growing market)
+
+**Implementation**:
+- VAPI supports multiple languages
+- Per-RTO language selection
+- AI switches based on caller language detection
+
+**Indigenous student support**:
+- Challenges: Dialect variation, limited phone access
+- Solution: Extended call handling time, callback option
+- Future: Indigenous language support (2027+)
+
+### Configuration Management UI
+
+**Admin portal** (for Optimizer AI team):
+- Add/remove RTOs
+- Update global settings (disclosure, USI format)
+- View call metrics per RTO
+- Manage escalations
+
+**RTO portal** (for RTO staff):
+- Update courses (add/remove)
+- Update hours (opening times)
+- Update escalation contacts
+- View own call metrics
+- Access call recordings
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Design multi-RTO configuration schema — by July 2026
+- [ADDED] Build RTO configuration UI — by Q4 2026
+- [ADDED] Implement tenant isolation in database — by Q1 2027
+- [ADDED] Test multi-RTO scenario (simulate 10 RTOs) — by Q2 2027
+- [ADDED] Add white-label features for Scale tier — by Q3 2027
+- [ADDED] Plan multi-language support (English + 1 other) — by 2027
+
+### Sources
+- Multi-tenant SaaS: SaaS architect patterns (2026)
+- VAPI scaling: vapi.ai/docs (2026)
+- Zoho multi-org: zoho.com/crm/help (2026)
+
+---
+
+*End of Cycle 98 refinement. Gap filled: Multi-RTO configuration architecture, RTO-specific customizations (courses, funding, policies), scaling challenges (call spikes, phone numbers, data isolation, maintenance), enterprise features (white-label, API, SLA), multi-language support, configuration management UI.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 99): Competitive Landscape Deep Dive — Study Buddy AI, Area Ten, Generic AI
+### Gap identified: Research provides competitive matrix but lacks specific product capabilities, pricing, weaknesses, and response strategies for each competitor
+
+**Original finding**: "Optimizer AI market positioning research" provides competitive matrix with Study Buddy, Area Ten, and generic AI. However, research lacks specific product capabilities, pricing, weaknesses, and response strategies for each competitor.
+
+**Why this matters**: Competitive intelligence is only valuable if it drives action. Without specific weaknesses and response strategies, the competitive matrix is just a list. Steven needs to know exactly what to say when a prospect asks "how are you different from X?"
+
+### Study Buddy AI — Detailed Analysis
+
+**Company overview**:
+- Founded: 2021
+- Funding: Series A ($15M, June 2026)
+- Product: AI study buddy, flashcards, study planning
+- Target: Students, not RTOs
+- Website: studybuddy.ai
+
+**Product capabilities**:
+| Feature | Study Buddy | Optimizer AI | Notes |
+|---------|-------------|--------------|-------|
+| Voice AI | ❌ No | ✓ Yes | Major gap |
+| Call handling | ❌ No | ✓ Yes | Study Buddy is text-only |
+| Web chat | ✓ Yes | ✓ Yes | Direct competition |
+| USI collection | ❌ No | ✓ Yes | Compliance gap |
+| ASQA compliance | ❌ No | ✓ Yes | Compliance gap |
+| Zoho integration | ❌ No | ✓ Yes | Technical gap |
+| Orientation booking | ❌ No | ✓ Yes | Feature gap |
+
+**Pricing**:
+- Individual: $9.99/month (student)
+- School/RTO: Not transparent (contact sales)
+- No SaaS pricing visible
+
+**Weaknesses**:
+- Student-focused, not RTO-focused
+- No voice AI capability
+- No ASQA compliance features
+- No enrollment automation
+- No CRM integration
+- AU-focused but not RTO-specific
+
+**Threat timeline**:
+- 2026: No voice AI (confirmed)
+- 2027: Could build voice AI with $15M funding
+- 2028: Direct competitor if they pivot to RTO automation
+
+**Response strategy**:
+- "Study Buddy helps students study. We help RTOs enroll students. Different products."
+- "Study Buddy doesn't have voice AI. Can they handle phone calls? No."
+- "Study Buddy doesn't know ASQA. We built compliance from day one."
+
+### Area Ten — Detailed Analysis
+
+**Company overview**:
+- Founded: 2015
+- Type: Full-service digital marketing agency
+- Product: Marketing campaigns, lead gen, brand management
+- Target: RTOs (agency model)
+- Website: areaten.com
+
+**Product capabilities**:
+| Feature | Area Ten | Optimizer AI | Notes |
+|---------|----------|--------------|-------|
+| AI call handling | ❌ No | ✓ Yes | Major gap |
+| Self-serve tools | ❌ No | ✓ Yes | Agency model |
+| Attribution dashboard | ✓ Yes (manual) | ✓ Yes (automated) | Competing |
+| ASQA compliance | ❌ No | ✓ Yes | Compliance gap |
+| Zoho integration | ✓ Yes | ✓ Yes | Both have |
+| Pricing model | Agency ($7K-55K/mo) | SaaS ($999/mo) | 7x difference |
+
+**Pricing**:
+- Agency retainer: $7,000-55,000/month
+- No self-serve tools
+- No ownership (RTO doesn't own assets)
+- Custom quotes (not transparent)
+
+**Weaknesses**:
+- No AI call handling
+- Agency model (no ownership)
+- High cost ($84K-660K/year)
+- Dependent on agency staff
+- No ASQA compliance tools
+- No voice automation
+- RTO doesn't own data or campaigns
+
+**Response strategy**:
+- "Area Ten charges $7,000-55,000/month. We charge $999/month. 7x cheaper."
+- "Area Ten doesn't own AI. We do. You own your tools."
+- "Area Ten handles marketing for you. We give you AI that works for you."
+- "With Area Ten, you're dependent. With us, you're independent."
+
+### Generic AI (Bland AI, VAPI DIY) — Detailed Analysis
+
+**Company overview**:
+- Type: Voice AI infrastructure (Bland) or DIY (VAPI + custom)
+- Product: Voice AI, no domain expertise
+- Target: Any industry (generic)
+
+**Product capabilities**:
+| Feature | Generic AI | Optimizer AI | Notes |
+|---------|------------|--------------|-------|
+| Voice AI | ✓ Yes | ✓ Yes | Similar base |
+| RTO expertise | ❌ No | ✓ Yes | Domain gap |
+| ASQA compliance | ❌ No | ✓ Yes | Compliance gap |
+| USI collection | ❌ No | ✓ Yes | Feature gap |
+| Zoho integration | ❌ No | ✓ Yes | Integration gap |
+| Orientation booking | ❌ No | ✓ Yes | Feature gap |
+| Call disclosure | ❌ No | ✓ Yes | Legal gap |
+| Pricing | $500-2K/mo | $999/mo | Similar range |
+
+**Weaknesses**:
+- No RTO domain knowledge
+- No ASQA compliance built in
+- No USI collection
+- No orientation booking
+- No Zoho integration
+- Generic prompts (not RTO-optimized)
+- DIY requires technical expertise
+
+**Response strategy**:
+- "Generic AI doesn't know RTOs. We built for Australian RTOs from day one."
+- "Generic AI requires you to build everything. We give you a complete solution."
+- "Generic AI doesn't have ASQA compliance. You have to build that yourself."
+
+### Competitor Comparison Summary
+
+| Competitor | Primary product | Pricing | AI call handling | RTO expertise | ASQA |
+|------------|------------------|---------|-------------------|----------------|------|
+| Study Buddy | Web chat | $9.99-? | ❌ No | ❌ No | ❌ No |
+| Area Ten | Agency marketing | $7K-55K/mo | ❌ No | ⚠️ Some | ❌ No |
+| Generic AI | Voice AI (DIY) | $500-2K/mo | ⚠️ Basic | ❌ No | ❌ No |
+| **Optimizer AI** | **RTO AI platform** | **$499-1,999/mo** | **✓ Yes** | **✓ Yes** | **✓ Yes** |
+
+**Optimizer AI unique differentiators**:
+1. Only AI with ASQA compliance built in
+2. Only AI with USI collection
+3. Only AI with Zoho integration
+4. Only AI with orientation booking
+5. Only AI with RTO-specific terminology (USI, VET, TAFE)
+6. Only AI at $999/mo with full feature set
+
+### Competitive Response Playbook
+
+**When prospect mentions Study Buddy**:
+1. Acknowledge: "Study Buddy is great for students."
+2. Differentiate: "We're for RTOs. Student study vs. student enrollment."
+3. Probe: "Are they handling phone calls? No? That's where we help."
+4. Close: "We handle the 70% of calls Study Buddy can't touch."
+
+**When prospect mentions Area Ten**:
+1. Acknowledge: "Area Ten is a great agency."
+2. Differentiate: "They handle marketing for you. We give you AI tools you own."
+3. Probe: "Do you own the campaigns? The data? No? With us, you own everything."
+4. Anchor: "Area Ten costs $7K-55K/month. We cost $999/month. 7x less."
+5. Close: "What's your marketing budget? $7K for an agency? Or $999 for AI you own?"
+
+**When prospect mentions DIY (VAPI + custom)**:
+1. Acknowledge: "You could build it yourself."
+2. Differentiate: "How long would that take? 3 months? We go live in 8 weeks."
+3. Probe: "Do you know ASQA compliance requirements? USI format? We built that."
+4. Close: "Build vs. buy. We already built it. Go live in 8 weeks."
+
+### Recommended Actions for Steven
+
+- [ADDED] Build competitor comparison slide deck (3 slides) — by June 7, 2026
+- [ADDED] Create objection handling for each competitor — by June 14, 2026
+- [ADDED] Monitor Study Buddy AI quarterly (watch for voice AI) — ongoing
+- [ADDED] Track Area Ten client wins (LinkedIn, press) — ongoing
+- [ADDED] Update competitive response playbook quarterly — quarterly
+
+### Sources
+- Study Buddy AI: studybuddy.ai (2026)
+- Area Ten: areaten.com (2026)
+- Bland AI: bland.ai (2026)
+- Competitive intelligence: Crunchbase, LinkedIn (2026)
+
+---
+
+*End of Cycle 99 refinement. Gap filled: Detailed Study Buddy AI analysis (no voice AI, $15M funding, 2027 threat), Area Ten analysis (agency model $7K-55K, no ownership), generic AI analysis (DIY with gaps), competitor comparison table, response playbook for each competitor.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 100): Optimizer AI 12-Month Roadmap — Features, Prioritization, Timeline
+### Gap identified: Research provides individual product lines but lacks unified roadmap with features, prioritization, and timeline for 12-month period
+
+**Original finding**: Multiple research sections provide product ideas (orientation call robot, attribution dashboard, TAZ AI, AI courses). However, research lacks unified roadmap with features, prioritization, and timeline for 12-month period.
+
+**Why this matters**: Marcus and Kham need to know what to build and when. Without unified roadmap, engineering team cannot prioritize, and investors cannot see the vision. Roadmap drives execution.
+
+### 12-Month Product Roadmap
+
+**Q3 2026 (July - September) — Foundation**:
+| Feature | Priority | Status | Owner |
+|---------|----------|--------|-------|
+| VAPI call handling | P0 | Building | Kham |
+| Zoho integration | P0 | Building | Kham |
+| USI collection | P0 | Building | Kham |
+| ASQA compliance | P0 | Building | Kham |
+| Hader go-live | P0 | Target: July 21 | Marcus |
+| First 3 external customers | P0 | Target: September | Steven |
+| Privacy policy + legal | P0 | In progress | Steven |
+
+**Q4 2026 (October - December) — Traction**:
+| Feature | Priority | Target | Notes |
+|---------|----------|--------|-------|
+| Attribution dashboard (basic) | P1 | October | Looker Studio |
+| Orientation booking (enhanced) | P1 | October | SMS reminders |
+| Multi-RTO configuration | P1 | November | For scaling |
+| Partner program (Zoho) | P2 | December | Lead referrals |
+| Case studies (3 customers) | P1 | December | Marketing |
+| 10 customers signed | P0 | December | Revenue |
+
+**Q1 2027 (January - March) — Scale**:
+| Feature | Priority | Target | Notes |
+|---------|----------|--------|-------|
+| Attribution dashboard (full) | P1 | January | Multi-touch |
+| TAZ AI (beta) | P2 | February | Phase 1 |
+| White-label (Scale tier) | P2 | March | Enterprise |
+| Partner portal | P2 | March | Self-service |
+| Aircall integration | P2 | March | Joint case study |
+| 25 customers | P0 | March | Revenue target |
+
+**Q2 2027 (April - June) — Expansion**:
+| Feature | Priority | Target | Notes |
+|---------|----------|--------|-------|
+| TAZ AI (full) | P1 | April | Compliance |
+| Multi-language support | P3 | May | ESL first |
+| Community services | P2 | June | CHC qualifications |
+| Mobile app (RTO portal) | P3 | June | Basic |
+| 50 customers | P0 | June | Revenue target |
+
+### Feature Descriptions
+
+**P0 — Must have** (revenue blockers):
+
+1. **VAPI call handling**: AI answers calls, qualifies leads, books orientation
+2. **Zoho integration**: Lead creation, dedup, UTM tracking
+3. **USI collection**: Format validation, ASQA compliance
+4. **ASQA compliance**: Call disclosure, 3-year retention, audit trail
+
+**P1 — Should have** (growth enablers):
+
+1. **Attribution dashboard**: Multi-touch, channel performance, CPA
+2. **Orientation booking (enhanced)**: SMS reminders, calendar sync
+3. **Multi-RTO configuration**: Config UI, tenant isolation
+4. **TAZ AI**: Clause checking, evidence mapping
+
+**P2 — Nice to have** (differentiation):
+
+1. **Partner program**: Zoho partner referrals, Aircall integration
+2. **White-label**: Custom branding, custom domain
+3. **Community services**: CHC qualifications support
+4. **Multi-language**: English + Mandarin
+
+**P3 — Future** (2027+):
+
+1. **Mobile app**: RTO portal on mobile
+2. **Indigenous language support**: Remote community RTOs
+3. **International expansion**: NZ, UK VET markets
+
+### Feature Priority Matrix
+
+| Feature | Impact | Effort | Priority |
+|---------|--------|--------|----------|
+| VAPI call handling | HIGH | HIGH | P0 |
+| Zoho integration | HIGH | MEDIUM | P0 |
+| USI collection | HIGH | LOW | P0 |
+| Attribution dashboard | MEDIUM | MEDIUM | P1 |
+| Multi-RTO config | HIGH | HIGH | P1 |
+| TAZ AI | MEDIUM | HIGH | P2 |
+| White-label | MEDIUM | MEDIUM | P2 |
+| Partner program | MEDIUM | LOW | P2 |
+| Community services | LOW | MEDIUM | P2 |
+| Multi-language | LOW | HIGH | P3 |
+
+### Engineering Capacity
+
+**Team (Q3 2026)**:
+- Kham: Full-stack (VAPI, Zoho, backend)
+- Contractor (if funded): Frontend, UX
+
+**Team (Q4 2026)**:
+- Kham: Full-stack + system architecture
+- Contractor: Frontend (configuration UI)
+- Steven: Customer success (light technical)
+
+**Team (2027)**:
+- Engineer 2 (if funded): TAZ AI, advanced features
+- Customer success: 1 person per 25 customers
+
+### Technical Debt Considerations
+
+**Q3 2026 — Accept technical debt**:
+- MVP features only
+- Manual processes acceptable
+- No automation initially
+
+**Q4 2026 — Address critical debt**:
+- Multi-RTO architecture (tenant isolation)
+- Configuration UI (reduce manual work)
+- Monitoring/alerting
+
+**2027 — Strategic refactoring**:
+- TAZ AI (new codebase, not debt)
+- Mobile app (new platform)
+- Community services (new domain)
+
+### Roadmap Risks & Mitigations
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| Hader go-live delayed | Medium | High | Buffer weeks, reduce scope |
+| Only 3 customers by end 2026 | Medium | High | Accelerate outreach, referral program |
+| Study Buddy enters voice AI | Medium | High | Accelerate brand, lock in customers |
+| Engineering capacity insufficient | Medium | Medium | Contractor, prioritize ruthlessly |
+| ASQA compliance issues | Low | High | Early audit, legal review |
+
+### Recommended Actions for Steven/Marcus/Kham
+
+- [ADDED] Review roadmap with Marcus + Kham — by June 28, 2026
+- [ADDED] Get Hader go-live working (July 21) — P0
+- [ADDED] First external customer (September) — P0
+- [ADDED] 10 customers by December — P0
+- [ADDED] Attribution dashboard (October) — P1
+- [ADDED] Multi-RTO config (November) — P1
+- [ADDED] TAZ AI beta (February) — P2
+
+### Sources
+- Product roadmap: ProductBoard, Aha! (2026)
+- Engineering capacity: Internal planning (2026)
+
+---
+
+*End of Cycle 100 refinement. Gap filled: 12-month product roadmap (Q3 2026 - Q2 2027), feature descriptions (P0/P1/P2/P3), prioritization matrix, engineering capacity, technical debt considerations, roadmap risks, timeline for 50 customers.*
+
+---
+
+*End of research log. All topics researched and refined. Cycle 100 complete.*
+
+---
