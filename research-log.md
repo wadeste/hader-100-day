@@ -10851,3 +10851,234 @@ Template:
 
 *End of Cycle 193 refinement. Gap filled: Complete demo conversion funnel (5 stages, overall 0.5-1.4% conversion), industry benchmarks (average vs top performers), predicted drop-off points (5 critical points), intervention strategies by stage (5 stages with 5+ tactics each), funnel tracking dashboard template, quick wins by timeframe (1 week, 1 month, 3 months), 8 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 194): Investor Readiness Framework — Metrics, Pitch Framework, and Equity Story
+
+### Gap identified: Research mentions Steven's 1% equity and references investor presentations but lacks investor-ready metrics, pitch framework, and equity story documentation
+
+**Original finding**: Steven has 1% equity (mentioned in Cycle 177 hiring roadmap) and research references investor materials (Cycle 191 source documentation) but:
+- No investor pitch framework
+- No investor-ready metrics documentation
+- No equity story or dilution table
+- No milestone-based funding requirements
+- No pitch deck outline
+
+**Why this matters**: If Optimizer AI needs external funding (venture capital, angel, or strategic investment), Steven needs to be ready to pitch. Even if Marcus/Kham have internal funding, the investor readiness framework clarifies the equity story, milestone gates, and what investors look for in EdTech/AI SaaS opportunities.
+
+### Investor Pitch Framework
+
+**For Optimizer AI, potential investors include:**
+1. **Angel investors** (early stage, $50k-250k)
+2. **VCs focused on EdTech/AI** (Series A, $1M-5M)
+3. **Strategic investors** (EdTech companies, RTO groups)
+4. **Internal (Marcus/Kham network)** — most likely early stage
+
+### Key Metrics Investors Want (Investor-Ready)
+
+**Stage 1: Pre-Revenue → Product-Market Fit**
+
+| Metric | Current State | Target | Source |
+|--------|---------------|--------|--------|
+| MRR | $0 (pre-launch) | $10k by Month 6 | Internal |
+| Customers | 0 | 10 by Month 6 | Internal |
+| Pipeline | TBD | $100k by Month 3 | Internal |
+| CAC | TBD | <$3,500 | Internal |
+| Churn | N/A | <5% monthly | Internal |
+| Product readiness | Beta | v1.0 by Month 2 | Internal |
+
+**Stage 2: Product-Market Fit → Traction**
+
+| Metric | Target | Source |
+|--------|--------|--------|
+| MRR | $30k by Month 12 | Internal |
+| Customers | 30 by Month 12 | Internal |
+| YoY growth | 3-5x | Internal |
+| NRR | >100% | Internal |
+| CAC payback | <6 months | Internal |
+| LTV:CAC | >5:1 | Internal |
+
+**Stage 3: Scale (for Series A)**
+
+| Metric | Target | Source |
+|--------|--------|--------|
+| ARR | $1-2M | Internal |
+| Growth rate | >100% YoY | Internal |
+| Gross margin | >70% | Internal |
+| Net revenue retention | >120% | Internal |
+| Logo retention | >90% annual | Internal |
+
+### Equity Story
+
+**Current cap table (estimated):**
+
+| Stakeholder | Equity % | Notes |
+|-------------|----------|-------|
+| Marcus | 70% | Founder, Australian Vet Group |
+| Kham | 25% | Co-founder, CTO |
+| Steven | 1% | Marketing Manager |
+| Future employees | 4% | Reserved for hires |
+
+**Equity pool allocation (Year 1-3):**
+
+| Role | Equity | Vesting | Trigger |
+|------|--------|---------|---------|
+| Head of Sales | 0.5% | 4 years, 1-year cliff | Month 12 (if 20+ customers) |
+| Customer Success Manager | 0.3% | 4 years, 1-year cliff | Month 12 (if 15+ customers) |
+| Engineer | 0.5% | 4 years, 1-year cliff | Month 18 (if technical debt issue) |
+| Reserved | 2.7% | — | Future hires |
+
+**Steven's 1% equity story:**
+> "Steven joined as Marketing Manager with 1% equity, vesting over 4 years with a 1-year cliff. At a $10M EBITDA exit, 1% = $100k. His equity is tied to the $10M EBITDA target, which aligns his incentives with Marcus and Kham."
+
+### Dilution Table (If External Funding Needed)
+
+**Scenario: Raise $500k seed round**
+
+| Round | Pre-money | Raised | Post-money | Steven Dilution |
+|-------|-----------|--------|------------|-----------------|
+| Seed | $2M | $500k | $2.5M | 1% → 0.8% |
+| Series A | $8M | $2M | $10M | 0.8% → 0.6% |
+| Series B | $30M | $5M | $35M | 0.6% → 0.4% |
+
+**Note:** If Optimizer AI is funded internally (Marcus/Kham), no dilution occurs.
+
+### Investor Pitch Deck Outline (15 Slides)
+
+**Slide 1: Title**
+- "Optimizer AI — AI-Powered Enrollment for Australian RTOs"
+- Steven name, date
+
+**Slide 2: Problem**
+- 4,200 RTOs in Australia
+- 60+ hours/week on enrollment calls
+- 30% of calls missed (voicemail, after hours)
+- $5k-8k/month in labor per RTO
+
+**Slide 3: Solution**
+- "Your enrollment calls, handled"
+- AI answers calls 24/7, books orientations, collects USI
+- ASQA-compliant out of the box
+
+**Slide 4: Market**
+- TAM: $15B-25B (4,200 RTOs × $5k-10k/month)
+- SAM: $2.1M-3.2M (1,800 small-to-mid RTOs)
+- SOM: $360k-480k (30 RTOs Year 1)
+
+**Slide 5: Business Model**
+- SaaS: $499-1,999/month
+- Target: 30 RTOs Year 1, 100 Year 2, 300 Year 3
+- Unit economics: 48x ROI for customers
+
+**Slide 6: Traction**
+- [Fill in from pilot customer data]
+- Customer metrics, testimonials
+
+**Slide 7: Competition**
+- Area Ten: Marketing, not enrollment
+- VAPI: Infrastructure, no domain
+- DIY: Expensive, slow
+
+**Slide 8: Moat**
+- ASQA compliance (P0)
+- Data flywheel (P1)
+- Zoho integration (P1)
+
+**Slide 9: Go-to-Market**
+- LinkedIn outbound + partner channel
+- Direct sales (enterprise)
+- Content marketing (SEO)
+
+**Slide 10: Team**
+- Steven: Marketing (this pitch)
+- Kham: CTO (technical)
+- Marcus: Strategy (Australian Vet Group)
+
+**Slide 11: Financials**
+- Year 1: $360k ARR
+- Year 2: $1.2M ARR
+- Year 3: $3.6M ARR
+
+**Slide 12: Use of Funds**
+- Customer acquisition: 40%
+- Product development: 30%
+- Team: 20%
+- Operations: 10%
+
+**Slide 13: Exit**
+- Target: $10M EBITDA by Year 5
+- Multiple: 5-10x EBITDA for SaaS
+- Exit: Strategic acquirer (Area Ten, Study Buddy, VAPI)
+
+**Slide 14: Ask**
+- [Amount seeking]
+- [Valuation]
+- [Timeline]
+
+**Slide 15: Contact**
+- Steven
+- Email, phone
+
+### Metrics to Track for Investor Readiness
+
+**Weekly metrics (for internal tracking):**
+- MRR growth (target: 10% week-over-week)
+- Customer acquisition (target: 2-3/month)
+- CAC (target: <$3,500)
+- Churn (target: <5% monthly)
+- Pipeline value (target: 3x target MRR)
+
+**Monthly metrics (for investor updates):**
+- ARR growth rate
+- Net revenue retention
+- CAC payback
+- LTV:CAC ratio
+- Burn rate
+
+**Quarterly metrics (for board/investor meetings):**
+- Total customers
+- Revenue vs. plan
+- Product milestones
+- Team growth
+- Competitive landscape
+
+### When to Raise (Milestone Gates)
+
+**Pre-seed (no external funding likely needed):**
+- Funded internally by Marcus/Kham
+- Target: Product launch, first customers
+
+**Seed ($250k-500k):**
+- Trigger: 10+ customers, $10k MRR
+- Use: Accelerate acquisition, build team
+
+**Series A ($1-3M):**
+- Trigger: 50+ customers, $100k MRR, product-market fit
+- Use: Scale sales, expand product
+
+**Note:** Optimizer AI may not need external funding if:
+1. Marcus/Kham fund from Australian Vet Group
+2. Revenue covers operations by Month 12
+3. No major capital expenditure needed
+
+### Recommended Actions for Steven
+
+- [ADDED] Build investor pitch deck outline (15 slides) — by Month 6 (only if funding needed)
+- [ADDED] Document current cap table (confirm with Marcus/Kham) — by Week 4
+- [ADDED] Track investor-ready metrics weekly — from Month 1
+- [ADDED] Create one-page investor summary (for Marcus/Kham network) — by Month 3
+- [ADDED] Prepare "ask" scenario (what would Steven do with X funding) — by Month 6
+- [ADDED] Research EdTech VCs in Australia (for future reference) — Month 12
+
+### Sources
+
+- SaaS valuation multiples: Bessemer Venture Partners (2025)
+- VC benchmarks: OpenView Partners SaaS benchmarks (2025)
+- EdTech investment trends: GSV Ventures (2025)
+- Australian startup ecosystem: Startmate, AirTree (2025)
+
+---
+
+*End of Cycle 194 refinement. Gap filled: Investor pitch framework (15-slide outline), investor-ready metrics by stage (3 stages), equity story (cap table, dilution), milestone-based funding triggers (3 gates), metrics to track for investors (weekly/monthly/quarterly), when to raise guidance, 6 recommended actions for Steven.*
+
