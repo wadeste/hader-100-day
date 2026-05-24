@@ -1970,6 +1970,186 @@ How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, confe
 
 ---
 
+---
+
+## Refinement — 2026-05-24 (Cycle 12)
+### Gap identified: Pricing negotiation authority, price objection handling, and value calibration by segment missing
+
+**Original finding**: "3-tier pricing structure: Starter $499, Professional $1,499, Enterprise $2,999" and "Annual discount: 2 months free = 17%" — but no guidance on how much Steven can discount, how to handle "too expensive" objections, or how to calibrate pricing to customer segment.
+
+**Why this matters**: In sales conversations, pricing objections will come immediately. "$1,499/month is too expensive" requires a specific response framework, not just "show ROI." And Steven needs to know his authority level — can he offer 20% discount? 30%? Or does he need Marcus's approval for anything beyond annual prepay?
+
+---
+
+### Discount Authority Levels
+
+**Who can approve what** (critical for sales operations):
+
+| Discount Type | Authority Level | Who Approves | Notes |
+|--------------|----------------|--------------|-------|
+| Standard pricing (3-tier) | Steven (no approval) | — | Use this 80% of the time |
+| Annual prepay (17% discount) | Steven (no approval) | — | Standard offer, included in pricing |
+| POC discount (first month free) | Steven (no approval) | — | First-customer pilots only |
+| Up to 15% off | Steven + Marcus | Marcus must confirm | Rare, only for large enterprise |
+| Up to 25% off | Marcus only | Marcus + Kham | Exception, not standard |
+| Free trial (no skin in game) | Not authorized | Steven must not offer | $500/month POC is minimum |
+
+**What NOT to discount**:
+- Don't discount below Professional tier ($1,499) for standard customers
+- Don't discount for small RTOs "to get them in" — sets wrong precedent
+- Don't match competitor pricing — differentiate on value, not price
+
+**When to offer a discount**:
+- Annual prepay (automatic 17%) — use at every close
+- Multi-product bundle (10% off if buying 2+ products) — use when upselling
+- First-customer pilot (month 1 free) — only for first 3 customers
+- Enterprise deal (15% off) — only if deal is >$2,500/month and multiple stakeholders involved
+
+---
+
+### Price Objection Handling Scripts
+
+**The "$1,499/month is too expensive" objection** (most common):
+
+| Situation | Response |
+|-----------|----------|
+| Small RTO (< 30 enrollments/mo) | "I understand. Let's look at what you're actually spending on enrollment calls. 40 hours at $35/hour = $1,400/week. At that volume, you'd save 20+ hours = $700/week. For $1,499/month, that's a 4.7x ROI. What would you do with 20 extra hours per week?" |
+| Mid RTO (30-80 enrollments/mo) | "At your volume, you're spending 60+ hours on enrollment calls. That's $2,100/week in labor. AI handles 60% of that = $1,260/week savings. $1,499/month is less than one week's savings." |
+| Large RTO (80+ enrollments/mo) | "You're probably spending $80k+/month on enrollment operations. AI at $2,999/month is a rounding error. The question isn't whether you can afford it — it's whether you can afford not to have it." |
+| "We don't have budget" | "What's your budget for enrollment staff?" [listen] "If we could save you [X] hours per week at [Y] rate, would that fit in your budget?" |
+| "We can build this ourselves" | "You could. It would take 12-18 months and cost $30,000-50,000 in development. We built it already. $1,499/month vs. $50k build = break-even in 33 months." |
+| "We tried AI before" | "Generic AI failed because it wasn't built for RTO compliance. Ours is. The question is: do you want to try again with something designed specifically for your industry?" |
+
+**The "we need to think about it" objection**:
+
+| Situation | Response |
+|-----------|----------|
+| "Need to talk to my business partner" | "Completely understand. Can I send over a one-pager you can share with them? And what would you need to see from them to feel confident moving forward?" |
+| "Need to compare other options" | "What other options are you comparing?" [listen] "If I can show you that we're 40% cheaper than building this yourself and significantly more RTO-specific than generic AI, does that help?" |
+| "We'll revisit in Q4" | "What changes between now and Q4?" [listen] "I'd hate for you to miss the window on our first-customer pricing. What's the quickest way we can get this in front of you?" |
+
+**The "your competitor is cheaper" objection**:
+
+| Situation | Response |
+|-----------|----------|
+| "Bland AI is $500/month" | "Bland AI has no ASQA compliance, no RTO-specific scripts, and no Zoho integration. You"d spend $500/month on AI + $30,000 building what we already built. We"re the complete solution." |
+| "Retell is $300/month" | "Retell is generic voice AI. It doesn"t know what a USI is, what LLN assessment means, or what ASQA requires. We built RTO compliance in from day one." |
+| "We can use Zoho + Aircall ourselves" | "You could. 12-18 months of integration work, $30-50k in development costs. We already built it. Month 1 you get full ASQA compliance and Zoho integration." |
+
+---
+
+### Value Calibration by RTO Segment
+
+**How to justify pricing at each segment**:
+
+**Small RTO ($499-999/month range)**:
+
+| Metric | Small RTO (20-30 enrollments/mo) | Calculation |
+|--------|----------------------------------|-------------|
+| Staff cost on calls | 20 hrs/week × $35/hr = $700/week | Baseline |
+| AI time savings | 60% of 20 hrs = 12 hrs/week | AI benefit |
+| Savings per month | 12 hrs × 4 weeks × $35 = $1,680/month | ROI calculation |
+| Price at Professional | $1,499/month | Price |
+| ROI | $1,680 / $1,499 = 1.12x (month 1) | ROI |
+| Annual savings | $20,160 - $17,988 = $2,172/year | Year 1 net |
+
+**Small RTO pitch**: "You're spending $700/week on enrollment calls. AI saves 12 hours/week = $1,680/month. We cost $1,499/month. The math works."
+
+**Better pitch for small RTO**: Start with Attribution Dashboard at $299/month (lower commitment). Prove value. Upsell to Orientation Robot at $999/month when call volume grows.
+
+---
+
+**Mid RTO ($1,499-2,499/month range)**:
+
+| Metric | Mid RTO (50-80 enrollments/mo) | Calculation |
+|--------|--------------------------------|-------------|
+| Staff cost on calls | 50 hrs/week × $35/hr = $1,750/week | Baseline |
+| AI time savings | 60% of 50 hrs = 30 hrs/week | AI benefit |
+| Savings per month | 30 hrs × 4 weeks × $35 = $4,200/month | ROI calculation |
+| Missed calls recovered | 20% missed × 50 calls/week × $1,500 avg enrollment × 4 weeks = $6,000/month | Conservative estimate |
+| Total monthly value | $4,200 + $6,000 = $10,200/month | Full value |
+| Price at Professional | $1,499/month | Price |
+| ROI | $10,200 / $1,499 = 6.8x | ROI |
+
+**Mid RTO pitch**: "You're missing 20% of your calls — that's 10 students per week not getting enrolled. At $1,500 average enrollment value, that's $6,000/month in lost revenue. Plus, your team is spending 50 hours on calls. AI handles 30 of those hours. $1,499/month for $10,000+ in monthly value is a no-brainer."
+
+---
+
+**Large RTO ($2,499-4,999/month range)**:
+
+| Metric | Large RTO (100+ enrollments/mo) | Calculation |
+|--------|---------------------------------|-------------|
+| Staff cost on calls | 80 hrs/week × $35/hr = $2,800/week | Baseline |
+| AI time savings | 60% of 80 hrs = 48 hrs/week | AI benefit |
+| Savings per month | 48 hrs × 4 weeks × $35 = $6,720/month | ROI calculation |
+| Compliance value | 1 audit finding = $10,000-50,000 | Risk mitigation |
+| Full suite value | Attribution + Onboarding + Compliance = $500-1,500/mo additional | Full suite |
+| Price at Full Suite | $2,999-3,999/month | Price |
+| ROI | $7,000-9,000+ / $3,000 = 2.3-3x | ROI |
+
+**Large RTO pitch**: "Your compliance manager is terrified of the next audit. Your enrollment team is drowning in 80 hours of calls. You're managing multiple qualifications and multiple sites. The full suite at $2,999/month is the cost of one staff member who never misses a compliance checkpoint and never burns out. The risk of not having this is an ASQA audit finding — $10,000-50,000."
+
+---
+
+### Pricing Page Elements Required
+
+**For day 60 deliverable — pricing page must include**:
+
+| Element | Purpose | Example |
+|---------|---------|---------|
+| **3-tier pricing table** | Anchor decision | Starter $499, Professional $1,499, Enterprise $2,999 |
+| **ROI calculator** | Show value, not price | "Enter your weekly call hours → see your savings" |
+| **Use case examples** | Make it concrete | "Mid-sized RTO: 50 calls/week, saves 30 hrs/week, $4,200/month value" |
+| **Comparison table** | vs. building it | "Build: 12 months, $50k cost vs. us: $1,499/month" |
+| **Annual discount callout** | Capture annual | "Save 2 months when you prepay annually" |
+| **Social proof** | Trust builder | "Hader Institute: 60% call reduction" |
+| **FAQ on pricing** | Handle objections | "What if I need fewer calls?" "What if I want to cancel?" |
+
+**Pricing page FAQ to include**:
+
+1. **"What if I need fewer than 50 calls?"** → Answer: Starter tier at $499 includes 50 calls. If you're below that, start with Attribution Dashboard at $299.
+
+2. **"What if I go over my call limit?"** → Answer: $8/call overage. We notify you at 80% so you can manage usage.
+
+3. **"Can I cancel anytime?"** → Answer: Monthly: cancel anytime (30-day notice). Annual: locked in but we offer month-to-month at end of term.
+
+4. **"What if it doesn't work for my RTO?"** → Answer: 60-day POC: If we don't hit success metrics, extend 30 days or refund. Your risk is zero.
+
+5. **"What's included in each tier?"** → Answer: Starter = Orientation Robot (50 calls). Professional = Orientation Robot (150 calls) + Attribution. Enterprise = Full Suite + TAZ tool + unlimited.
+
+---
+
+### Pricing Testing Plan
+
+**A/B test to run after first 10 customers**:
+
+| Test | Version A | Version B | Metric |
+|------|-----------|-----------|--------|
+| Price anchoring | Show Starter first ($499) | Show Enterprise first ($2,999) | Average deal size |
+| Pricing frame | "$1,499/month" | "$50/day (less than your coffee budget)" | Conversion rate |
+| ROI display | Show savings in $ | Show ROI multiple (6.8x) | Conversion rate |
+
+**Note**: Don't run price tests until you have 10+ paying customers. Run tests on new prospects only, not existing.
+
+---
+
+### Recommended actions updated:
+
+- [ADDED] Define discount authority levels (Steven can approve up to annual prepay = 17%) — by June 7, 2026
+- [ADDED] Create price objection handling scripts (5 common objections + responses) — by June 14, 2026
+- [ADDED] Build segment-specific value calibration (Small/Mid/Large RTO ROI scripts) — by June 14, 2026
+- [ADDED] Draft pricing page with 3-tier table, ROI calculator, FAQ — by day 60 (June 28, 2026)
+- [ADDED] Prepare annual pricing comparison sheet for sales conversations — by June 14, 2026
+- [ADDED] Set up A/B test plan for pricing (run after 10+ customers) — by month 6
+- [ADDED] Track conversion rate by pricing presentation (with vs. without ROI calculator) — starting month 1
+
+**Sources**:
+- Price Intelligently SaaS pricing benchmarks: priceintelligently.com
+- Sales negotiation: Challenger Sale methodology, MEDDIC framework
+- Value pricing: ValueSelling Associates, Vortex Cloud pricing
+
+---
+
 ## Pricing model research — 2026-05-24
 
 ### Objective
