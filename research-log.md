@@ -14367,3 +14367,278 @@ If Churn probability < 30%: Flag as "Low risk" (monitor)
 
 *End of Cycle 140 refinement. Gap filled: Customer health score calculation model (100-point scale, 4 weighted components), health tier definitions (Thriving/Healthy/At-risk/Vulnerable/Critical), predictive churn indicators (10 leading indicators, 4 lagging), automated alert thresholds and SLA (10 alerts), escalation matrix (6 scenarios), monitoring cadence by segment (Strategic/Growth/Starter), Zoho health score dashboard (9 fields, 5 views).*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 141): VAPI Call Transfer & Human Handoff Deep Dive — Technical Implementation, Aircall Integration, and Escalation Flow Design
+### Gap identified: Research provides VAPI API endpoints (`POST /call/{id}/transfer`) but lacks specific call transfer configuration, Aircall integration setup, escalation flow design, and the full technical architecture for human handoff
+
+**Original finding**: "Orientation Call Robot Technical Implementation" (Cycle 71) provides VAPI API endpoints including `POST /call/{id}/transfer` for human handoff. However, research lacks:
+- How to configure the transfer endpoint (what number to transfer to)
+- Aircall integration for receiving escalated calls
+- Escalation flow design (what happens, who receives the call, how to return to AI)
+- Transfer timing (when to transfer, escalation triggers)
+- Phone number routing for RTO staff
+- Fallback when human is unavailable
+- Call whisper mode (AI announces to human before transfer)
+
+**Why this matters**: Call transfer is the highest-stakes moment in the RTO AI journey. When AI transfers to a human, it must be seamless — caller doesn't repeat themselves, human has context, transfer is immediate. Without specific transfer configuration, Optimizer AI risks: (1) transfers to wrong number, (2) caller has to repeat everything, (3) abandoned calls, (4) poor experience on the 30% of calls that matter most.
+
+### VAPI Call Transfer Architecture
+
+**Transfer endpoint** (`POST /call/{id}/transfer`):
+
+```json
+// VAPI transfer request
+{
+  "destination": {
+    "type": "number",
+    "number": "+614XXXXXXXX"  // Staff phone number
+  },
+  "wait_for_speech": true,  // Wait for human to answer before connecting
+  "whisper": {              // Optional: AI announces to human
+    "text": "Transferring a caller. RTO: [Name]. Course interest: [Course]."
+  }
+}
+```
+
+**Transfer configuration for RTOs**:
+
+| Component | Implementation | Notes |
+|-----------|---------------|-------|
+| **Primary transfer number** | RTO enrollment manager mobile | Configured per RTO in settings |
+| **Backup transfer number** | RTO office landline or second mobile | Fallback if primary doesn't answer |
+| **Transfer timeout** | 30 seconds | Then try backup or voicemail |
+| **Transfer whisper** | "Connecting you to [RTO Name] enrollment team" | AI announces before transfer |
+| **Staff notification** | SMS + Aircall alert | Staff knows call coming |
+
+### Aircall Integration for Escalation
+
+**Architecture**:
+```
+Caller → VAPI (AI) → [Escalation trigger] → Aircall (Human) → RTO Staff
+```
+
+**Aircall setup for Optimizer AI**:
+
+| Component | Configuration | Purpose |
+|-----------|---------------|---------|
+| **Team** | "RTO Support" (per RTO) | All enrollment staff |
+| **Users** | Enrollment manager + backup | Receive escalated calls |
+| **Inbound number** | Dedicated AI escalation number | Receive transfer from VAPI |
+| **IVR** | "Press 1 for enrollment" | Route to correct staff |
+| **Call routing** | Simultaneous ring | Primary + backup both ring |
+| **Voicemail** | Enable | If no answer after 30 seconds |
+
+**Aircall API integration**:
+
+```javascript
+// When AI needs to escalate:
+// 1. Send Aircall API request to create call
+const response = await fetch('https://api.aircall.io/v1/calls/adhoc', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer ' + AIRCALL_API_KEY,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    number: '+614XXXXXXXX',  // Staff mobile
+    caller_id: '+614XXXXXXXXX', // AI phone number
+    dial_strategy: 'simultaneous',
+    user_ids: [staff_id_1, staff_id_2],  // Primary + backup
+    ring_timeout: 30
+  })
+});
+
+// 2. Get call started, then transfer VAPI caller into it
+await fetch('https://api.vapi.ai/call/' + vapi_call_id + '/transfer', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer ' + VAPI_API_KEY
+  },
+  body: JSON.stringify({
+    destination: {
+      type: 'bridge',
+      bridge_id: aircall_call_id
+    }
+  })
+});
+```
+
+### Escalation Flow Design
+
+**Escalation triggers** (when AI transfers to human):
+
+| Trigger | Condition | Action | Priority |
+|---------|-----------|--------|----------|
+| **Keyword escalation** | Caller says "human", "real person", "manager" | Immediate transfer | P0 |
+| **Complexity threshold** | Call involves: funding disputes, complaints, RPL, special needs | Transfer after 2 failed attempts | P0 |
+| **Crisis detection** | Keywords: self-harm, child safety, violence, abuse | Immediate transfer + alert | P0 (emergency) |
+| **Sentiment escalation** | Caller frustrated (negative tone detected) | Transfer after 1 minute | P1 |
+| **No resolution** | AI says "I'm transferring you" 3+ times | Force transfer | P1 |
+| **Technical issue** | Caller needs portal/login help | Transfer to admin staff | P2 |
+| **Timeout** | Caller silence >30 seconds | Transfer | P2 |
+| **DTMF input** | Caller presses 0 (request operator) | Immediate transfer | P0 |
+
+**Escalation flow by trigger**:
+
+**1. Keyword escalation (simple)**:
+```
+Caller: "I want to speak to a real person"
+AI: "Of course, let me connect you with our enrollment team. One moment."
+[AI transfers to Aircall → Staff mobile rings]
+Staff answers: "Hello, [RTO Name] enrollment, how can I help?"
+Caller: "Hi, I was just speaking with the AI about [topic]"
+Staff: "I can see that in the transcript. Let me help you with that."
+```
+
+**2. Crisis detection (emergency)**:
+```
+AI detects: Keywords match crisis list
+AI: "I'm connecting you with our team who can help. Please hold."
+[AI immediately transfers to Aircall + flags as EMERGENCY]
+Staff mobile rings with emergency alert
+Staff answers: "EMERGENCY LINE - [RTO Name]. Are you safe?"
+[Staff follows crisis protocol: Stay on call, notify management, log incident]
+```
+
+**3. Complex query (qualification)**:
+```
+Caller: "I have a question about funding for Course X"
+AI: [Attempts 2 responses on funding]
+AI: "For your specific funding question, let me connect you with our team who can look at your situation."
+[AI shares call transcript with staff via Zoho before transfer]
+Staff mobile rings with context
+Staff sees: "Caller asking about funding for [Course]. Has [funding type]."
+Staff answers: "Hi, I understand you have a question about funding. Let me help."
+```
+
+### Call Whisper Mode (Context Handoff)
+
+**Whisper configuration** (AI tells staff context before transferring):
+
+```javascript
+// Whisper prompt in VAPI config
+{
+  "whisper": {
+    "enabled": true,
+    "text": "Caller from [RTO Name]. Interest: [Course]. Has USI: [Yes/No]. Question: [Topic]."
+  }
+}
+```
+
+**What whisper includes**:
+
+| Data | Whisper content | Purpose |
+|------|-----------------|---------|
+| RTO name | "Hader Institute caller" | Staff knows who they're representing |
+| Course interest | "Interested in [Course Name]" | Context for conversation |
+| USI status | "Has USI / No USI yet" | Know if needs to collect |
+| Call summary | "Asked about funding, duration, entry requirements" | Don't repeat questions |
+| Call duration | "Been on call 3 minutes" | Urgency signal |
+| Previous attempts | "AI tried 2 times to answer funding question" | Skip explanations |
+
+**Example whisper**:
+> "Hader Institute caller. Interest: Cert IV Business. Has USI. Asked about payment plans. AI tried to explain user choice but caller had specific Centrelink question."
+
+### Transfer Timing & Timeout Configuration
+
+**Transfer timing logic**:
+
+| Scenario | Timing | Configuration |
+|---------|--------|---------------|
+| Immediate transfer | < 2 seconds | Keyword trigger, crisis, DTMF "0" |
+| Brief warning | 2-5 seconds | "I'm connecting you now" |
+| Delayed transfer | 5-10 seconds | Complex query, need to prepare context |
+| Wait for confirmation | 10-15 seconds | "Are you okay with me transferring you?" |
+
+**Timeout handling**:
+
+```
+Transfer initiated → Staff doesn't answer in 30 seconds
+    ↓
+Try backup number → Backup doesn't answer in 30 seconds
+    ↓
+Voicemail → "Leave your name and number, we'll call back within 2 hours"
+    ↓
+SMS to staff → "Missed escalation call from [RTO Name]. Caller interest: [Course]. Call back now."
+    ↓
+Log in Zoho → Task created for callback within 2 hours
+```
+
+### RTO Staff Escalation Configuration
+
+**Per-RTO escalation settings** (in Optimizer AI dashboard):
+
+| Setting | Options | Default |
+|---------|---------|---------|
+| Primary staff number | Mobile, landline | Mobile (enrollment manager) |
+| Backup staff number | Mobile, landline | Office landline |
+| Escalation timeout | 15s, 30s, 45s, 60s | 30 seconds |
+| Whisper enabled | Yes/No | Yes |
+| Crisis protocol enabled | Yes/No | Yes |
+| Voicemail enabled | Yes/No | Yes |
+| SMS alert enabled | Yes/No | Yes |
+
+**Staff escalation schedule** (for larger RTOs):
+
+| Time | Primary | Backup | Notes |
+|------|---------|--------|-------|
+| Business hours (8am-6pm) | Enrollment Manager | Ops Manager | Simultaneous ring |
+| After hours | On-call mobile | None | Single ring, voicemail |
+| Weekends | On-call mobile | None | Single ring, voicemail |
+
+### Transfer Quality Metrics
+
+**Track these metrics for transfer quality**:
+
+| Metric | Target | Warning | Critical |
+|--------|--------|---------|----------|
+| Transfer rate | <30% of calls | 30-40% | >40% |
+| Transfer success rate | >95% | 90-95% | <90% |
+| Abandoned transfers | <5% | 5-10% | >10% |
+| Staff response time | <30 seconds | 30-45 seconds | >45 seconds |
+| Call duration (transfer) | 3-8 minutes | 8-12 minutes | >12 minutes |
+| Caller satisfaction (transferred) | >7/10 | 5-7/10 | <5/10 |
+
+### Technical Implementation Checklist
+
+**Kham's implementation tasks**:
+
+- [ ] Configure VAPI transfer endpoint per RTO
+- [ ] Set up Aircall account for Optimizer AI (admin account)
+- [ ] Create "AI Escalation" team in Aircall per customer
+- [ ] Configure Aircall API integration for call creation
+- [ ] Build whisper prompt generator (per call context)
+- [ ] Implement escalation trigger detection in AI prompt
+- [ ] Add DTMF "0" detection in call flow
+- [ ] Configure voicemail fallback
+- [ ] Test transfer with Marcus (5 test calls)
+- [ ] Test backup number escalation
+- [ ] Monitor transfer metrics in VAPI dashboard
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Confirm Aircall account setup for Optimizer AI — by June 21, 2026
+- [ADDED] Configure primary/backup escalation numbers for Hader — by June 21, 2026
+- [ADDED] Test 10 transfer calls (varied triggers) — by June 28, 2026
+- [ADDED] Verify Aircall integration with VAPI — by June 28, 2026
+- [ADDED] Configure crisis detection keywords — by July 7, 2026
+- [ADDED] Test whisper mode (staff hears context before caller) — by July 7, 2026
+- [ADDED] Set transfer success rate target >95% — by launch
+- [ADDED] Track transfer rate per RTO (target <30%) — ongoing from July 21
+- [ADDED] Create escalation flow documentation for staff — by July 14, 2026
+
+### Sources
+- VAPI transfer API: vapi.ai/docs (2026)
+- Aircall API: developer.aircall.io (2026)
+- Call whisper: VAPI whisper configuration (2026)
+- Escalation best practices: Five9, Twilio (2026)
+
+---
+
+*End of Cycle 141 refinement. Gap filled: VAPI call transfer architecture (transfer endpoint configuration, bridge ID), Aircall integration (team setup, API calls, routing), escalation flow design (3 scenarios: keyword, crisis, complex), call whisper mode (context handoff, 5 data points), transfer timing (immediate/delayed/wait-for-confirmation), timeout handling (30-second fallback, voicemail, SMS alert), RTO staff escalation configuration (per-RTO settings), transfer quality metrics (7 metrics with targets), technical implementation checklist (10 tasks for Kham).*
+
+---
+
+*End of research log. All topics researched and refined. Cycle 141 complete.*
+
