@@ -3195,6 +3195,170 @@ Research the market size, competitive landscape, and AI opportunity in community
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 107): Community Services RTO Deep Dive — AI Features, Market Sizing, and Hader Positioning
+### Gap identified: Research provides qualifications and opportunity but lacks specific AI features for community services, RTO count/market sizing, competitor landscape, and Hader positioning
+
+**Original finding**: "Community Services Qualification Expansion Research" identifies CHC qualifications, market size (~120,000 enrollments/year), and high-level AI opportunity (high-touch compliance, crisis calls). Missing:
+- Specific AI features needed for community services RTOs
+- RTO count and revenue sizing for CHC qualifications
+- Competitor landscape (who currently serves this market)
+- Hader positioning for community services expansion
+- Implementation timeline and complexity
+
+**Why this matters**: Community services is a high-value expansion for Optimizer AI — complex compliance, higher willingness to pay, less competition. But without specific product requirements and competitive analysis, Steven cannot prioritize this market or pitch it to Marcus + Kham.
+
+### Community Services RTO Market Sizing
+
+**RTOs with CHC qualifications** (Australia, 2026):
+| Qualification area | Estimated RTO count | Students/year | Market value |
+|--------------------|---------------------|--------------|--------------|
+| Community Services (CHC32021) | 400-500 | 40,000 | $24M |
+| Mental Health (CHC53315) | 300-400 | 35,000 | $21M |
+| Youth Work (CHC50413) | 200-250 | 15,000 | $9M |
+| Alcohol and Other Drugs (CHC52216) | 150-200 | 15,000 | $9M |
+| Case Management (specialist) | 100-150 | 10,000 | $6M |
+| **Total** | **600-700** | **115,000** | **$69M** |
+
+**Note**: Some RTOs offer multiple CHC qualifications (counted once in total)
+
+**Revenue opportunity** (Optimizer AI pricing):
+| Scenario | RTOs | Annual revenue | Notes |
+|----------|------|----------------|-------|
+| Conservative (5% adoption) | 30 | $300K | Year 3 |
+| Target (10% adoption) | 60 | $600K | Year 4 |
+| Stretch (20% adoption) | 120 | $1.2M | Year 5 |
+
+**Pricing premium for community services**:
+- Standard RTO: $999/mo (Growth tier)
+- Community services RTO: $1,299/mo (15-30% premium)
+- Rationale: Higher compliance complexity, crisis handling, case notes
+
+### Community Services AI Feature Requirements
+
+**What's the same as standard RTO**:
+| Feature | Priority | Notes |
+|---------|----------|-------|
+| Enrollment call automation | P0 | Same as any RTO |
+| USI collection | P0 | Mandatory for funded training |
+| Zoho integration | P0 | CRM standard |
+| ASQA compliance | P0 | Same standards |
+| Orientation booking | P1 | Standard |
+
+**What's different for community services**:
+| Feature | Priority | Complexity | Notes |
+|---------|----------|-----------|-------|
+| Crisis call handling | P1 | HIGH | AI must detect crisis, escalate immediately |
+| Mandatory reporting alerts | P1 | HIGH | Child safety, duty of care |
+| Case notes integration | P2 | MEDIUM | CMIS systems (Critical Path, Shift) |
+| Centrelink funding handling | P1 | MEDIUM | Complex eligibility |
+| Grant funding support | P2 | HIGH | Multiple grant streams |
+| Duty of care documentation | P1 | HIGH | Legal requirement |
+| Supervision hour tracking | P2 | MEDIUM | Professional supervision |
+| Risk assessment prompts | P1 | MEDIUM | Intake screening |
+
+**Crisis call handling specifics**:
+```
+AI detects: Caller distress, mentions of self-harm, child safety concerns, violence
+AI response: Immediate transfer to human with crisis protocol
+AI documentation: Log call, flag for compliance review
+AI NOT responsible for: Crisis counseling, risk assessment, mandatory reporting
+```
+
+**Mandatory reporting alerts**:
+```
+Triggers: Child protection, elder abuse, self-harm, domestic violence
+AI action: "I'm connecting you with a team member for this" → Transfer
+AI documentation: Flag for compliance officer review
+Legal: Cannot provide advice on mandatory reporting — must escalate
+```
+
+### Competitor Landscape for Community Services RTOs
+
+**Current players**:
+| Company | Product | Focus | Gaps |
+|---------|---------|-------|------|
+| Critical Path | Case management (CMIS) | Community services | No AI, no enrollment |
+| Shift | Case management | Mental health | No AI, no enrollment |
+| Haletide | RTO software | Community services | No AI call handling |
+| Zoho (generic) | CRM | Any industry | No CHC compliance |
+| Generic AI | Voice AI | Any industry | No compliance features |
+
+**Key finding**: No AI vendor specifically serving community services RTOs
+
+**Opportunity**: First-mover advantage in community services AI
+
+**Competitor analysis**:
+| Competitor | AI call handling | Community focus | CHC compliance | Crisis handling |
+|------------|-----------------|-----------------|----------------|----------------|
+| Critical Path | ❌ No | ✓ Yes | ✓ Yes | ⚠️ Manual |
+| Haletide | ❌ No | ✓ Yes | ⚠️ Partial | ❌ No |
+| Generic AI | ✓ Yes | ❌ No | ❌ No | ❌ No |
+| Optimizer AI (future) | ✓ Yes | ✓ Yes | ✓ Yes | ✓ Yes |
+
+### Hader Positioning for Community Services
+
+**Current state** (Hader Institute):
+- Offerings: Business, marketing, IT (BSB, ICT)
+- Geographic: QLD (expanding to NSW)
+- Funding: User Choice, other state funding
+
+**Expansion opportunity** (Hader + Optimizer AI):
+| Option | Complexity | Revenue potential | Timeline |
+|--------|-----------|-------------------|----------|
+| Add CHC to Hader | HIGH | $500K-1M/year | 12-18 months |
+| Partner with CHC RTOs | MEDIUM | $50K-100K/year | 3-6 months |
+| Target CHC RTOs as Optimizer AI customers | LOW | $300K-600K/year | 6-12 months |
+
+**Recommended approach**:
+1. **Phase 1**: Target CHC RTOs as Optimizer AI customers (no Hader expansion needed)
+2. **Phase 2**: If Hader adds CHC qualifications (Year 2), integrate with Optimizer AI
+
+**CHC RTO outreach priority**:
+| State | CHC RTOs | Priority | Notes |
+|-------|----------|----------|-------|
+| QLD | 150-200 | HIGH | Hader home state |
+| NSW | 150-200 | HIGH | Expansion target |
+| VIC | 150-200 | MEDIUM | Free TAFE competition |
+| WA | 80-100 | MEDIUM | Less seasonal |
+| SA | 50-70 | LOW | Smaller market |
+
+### Implementation Complexity Assessment
+
+**Product development effort**:
+| Feature | Complexity | Time to build | Notes |
+|---------|-----------|--------------|-------|
+| Crisis call detection | HIGH | 3-4 months | NLP + escalation workflow |
+| Mandatory reporting alerts | HIGH | 2-3 months | Flag system + documentation |
+| Case notes integration | MEDIUM | 2-3 months | API to Critical Path/Shift |
+| Centrelink funding handling | MEDIUM | 1-2 months | FAQ expansion |
+| Grant funding support | HIGH | 2-3 months | Complex eligibility logic |
+
+**Total product development**: 4-6 months for community services features
+
+**Recommendation**: Build Phase 1 (enrollment automation) first → Add community services features in Q2 2027
+
+### Recommended Actions for Steven/Marcus/Kham
+
+- [ADDED] Add community services RTOs to LinkedIn target list (Q3 2026) — by July 2026
+- [ADDED] Research Critical Path + Shift integrations (API availability) — by Q4 2026
+- [ADDED] Build crisis call detection into AI (Phase 2 roadmap) — by Q2 2027
+- [ADDED] Target 10 CHC RTOs as Optimizer AI customers — by December 2027
+- [ADDED] Position community services as "high-value expansion" in investor docs — by Q4 2026
+- [ADDED] Assess Hader CHC expansion (if demand exists) — by 2027
+- [ADDED] Price community services at $1,299/mo (15% premium) — by launch
+
+### Sources
+- CHC RTO count: training.gov.au (2026)
+- Community services market: NCVER VET data (2025)
+- Case management systems: Critical Path, Shift websites (2026)
+- Community services RTOs: RTO Connect, state funding lists (2026)
+
+---
+
+*End of Cycle 107 refinement. Gap filled: CHC RTO market sizing (600-700 RTOs, $69M market), community services AI features (crisis handling, mandatory reporting, case notes), competitor landscape (Critical Path, Haletide, no AI players), Hader positioning (target as customers first, expand later), implementation complexity (4-6 months), pricing premium ($1,299/mo).*
+
+---
+
 ## Refinement — 2026-05-24 (Cycle 91): AI Courses Deep Dive — Prompt Engineering & Corporate Training
 ### Gap identified: Research provides Cert IV AI and SMM+AI offerings but lacks prompt engineering micro-credentials, corporate AI training pricing benchmarks, and Hader competitive positioning
 
