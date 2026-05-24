@@ -1462,3 +1462,62 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Create sales candidate interview scorecard (prospecting, demo, closing, RTO knowledge)
 - [ADDED] Set quota for first AE: 3-4 new customers/month
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Discovery interview scoring rubric and qualification criteria
+
+**Original finding**: "Discovery interview scoring rubric: Total score ≥15 = strong fit" — mentioned but not detailed. What are the specific criteria and scoring?
+
+**Research conducted**: B2B SaaS lead qualification frameworks, discovery interview best practices.
+
+**Refined findings**:
+- **Discovery interview scoring rubric** (1-5 scale for each factor):
+  | Factor | Score 1 | Score 3 | Score 5 | Weight |
+  |--------|---------|---------|--------|--------|
+  | Pain level | Low (<5 hrs/week on calls) | Medium (5-15 hrs) | High (15+ hrs) | 3x |
+  | Budget authority | None (need to escalate) | Partial (can approve <$1k) | Full (can approve $1k+) | 3x |
+  | Technology readiness | No CRM | Basic CRM | Zoho + Aircall | 2x |
+  | Decision timeline | 6+ months | 3-6 months | <3 months | 2x |
+  | Competitive pressure | No competitors | 1-2 competitors | 3+ competitors | 1x |
+
+- **Weighted scoring**: Multiply each factor score by weight, sum for total score
+  - Example: Pain 5 × 3 = 15, Budget 3 × 3 = 9, Tech 5 × 2 = 10, Timeline 3 × 2 = 6, Competition 3 × 1 = 3
+  - Total: 15 + 9 + 10 + 6 + 3 = 43 points
+  - Strong fit: 40+ (proceed to demo), Medium fit: 25-39 (nurture), Weak fit: <25 (pass)
+
+- **Qualification criteria for discovery call**:
+  - Must be RTO (not other education provider)
+  - >30 enrollments/month (can afford $1,000+/month tools)
+  - Has CRM (Zoho preferred, any CRM acceptable)
+  - Has call volume (>50 calls/month = AI makes sense)
+  - Decision-maker on call (CEO, Marketing Director, or Enrollment Manager with budget)
+
+- **Disqualification criteria**:
+  - <30 enrollments/month (too small for SaaS pricing)
+  - No CRM (data infrastructure too weak)
+  - No budget (would need to find budget, long cycle)
+  - Non-RTO (wrong segment)
+  - "AI will never work for RTOs" (high resistance, low conversion)
+
+- **Discovery call logistics**:
+  - Duration: 45-60 minutes (schedule 60, end at 45)
+  - Attendees: Steven (host) + Marcus (if warm intro, adds credibility)
+  - Note-taking: Record audio with consent OR have second person taking notes
+  - Follow-up: Send thank-you email within 24 hours with summary + commitment ask
+
+- **Post-interview actions**:
+  - Score prospect (0-50 scale using rubric)
+  - Log in CRM (Zoho) with notes, score, next steps
+  - Send follow-up email within 24 hours
+  - Schedule next call (demo or follow-up) or add to nurture sequence
+
+**Key insight**: Qualify hard at the discovery stage. Don't waste time on demos with prospects who won't buy. The scoring rubric should be used before scheduling the discovery call (screen for basic fit) and after the call (score for sales priority).
+
+**Actions added**:
+- [ADDED] Build discovery interview scorecard (printable, use during call)
+- [ADDED] Create pre-call qualification checklist (can we save 30 min by disqualifying first?)
+- [ADDED] Set up Zoho lead scoring based on rubric factors
+- [ADDED] Track discovery-to-demo conversion rate (target: 50%+)
+
