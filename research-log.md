@@ -1382,6 +1382,111 @@ ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy
 - National Code 2018: education.gov.au/national-code-2018
 - Note: Recommend legal consultation for final compliance
 
+---
+
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: DPA specifics, contractual requirements, and international student handling missing operational detail
+
+**Original finding**: "Data Processing Agreement (DPA), SLA, breach notification, indemnification — most AI vendors don't have standard DPAs, must negotiate" and "International students excluded from AI enrollment" — no specific DPA checklist, no contractual clause language, no international student identification workflow.
+
+**Refined findings**:
+
+**Data Processing Agreement (DPA) checklist for Optimizer AI** (required before POC launch with US-based AI APIs):
+
+| Clause | Required Elements | Purpose |
+|--------|-----------------|---------|
+| **Data scope** | Define exactly what data flows to AI API (call recordings, transcripts, contact info) | Limits liability, clarifies scope |
+| **Processing purpose** | State purpose: "AI voice processing for enrollment qualification" | Required under APP 5 |
+| **Data retention** | Define retention period (e.g., 90 days, then delete) | Limits data at risk |
+| **Subprocessors** | List all subprocessors (e.g., Bland AI uses AWS) + right to approve new ones | Transparency requirement |
+| **Cross-border transfer** | Explicitly acknowledge data transferred to US; list protections (Standard Contractual Clauses) | Required under APP 8 |
+| **Security standards** | Require SOC 2 Type II or ISO 27001 certification from AI vendor | Due diligence |
+| **Breach notification** | 72-hour notification SLA; define breach scope and response | APP requirement |
+| **Audit rights** | Right to audit AI vendor security practices | Ongoing assurance |
+| **Deletion/return** | On contract termination: delete all data OR return within 30 days | End-of-life data control |
+
+
+**DPA negotiation realities**: Most US AI vendors (Bland AI, Retell) have standard DPAs online. Negotiating custom terms is not realistic at POC stage. Options:
+
+| Option | Effort | Cost | Risk |
+|--------|--------|------|------|
+| Use vendor's standard DPA (found online) | Low (download, sign) | $0 | Medium (one-size-fits-all) |
+| Australian-hosted alternative (Twilio/Whisper) | Medium (migrate API) | $50-100/mo premium | Low (no cross-border) |
+| Custom DPA (legal review) | High (lawyer + weeks) | $3,000-10,000 | Low (custom protections) |
+
+
+**Recommendation for Optimizer AI**: Start with Australian-hosted voice AI (Twilio or similar) to avoid DPA complexity entirely. Saves $3,000-10,000 in legal costs and eliminates APP compliance risk. Cost premium: ~$50-100/month on voice AI is trivial vs. $10M EBITDA target.
+
+
+**ACMA DNC Register compliance for outbound AI calls** (if Optimizer AI ever does outbound):
+- Do Not Call Register applies to "unsolicited direct marketing calls" — AI voice calls likely qualify
+- Must scrub phone numbers against DNC Register before dialing (register.acma.gov.au)
+- Exemptions: Existing customers (consent implied), corporate numbers (different rules)
+- Penalty: $50,000+ for each breach
+- **For inbound-only orientation robot**: DNC doesn't apply (customer called us). For outbound qualification calls: must scrub.
+
+
+**International student exclusion workflow** (required under ESOS Act):
+
+International students have additional requirements under National Code 2018:
+- Confirmation of Enrollment (CoE) requirement
+- Overseas Student Health Cover (OSHC) requirement
+- Tuition Protection Service (TPS) obligations
+- Different refund and cancellation rules
+
+**AI call identification of international students**:
+| Indicator | How AI Detects | Action |
+|-----------|---------------|--------|
+| "I'm on a student visa" | Keyword trigger in conversation | Flag for human, end AI call |
+| Non-Australian accent (AI inference) | Tone/language analysis | Not reliable — don't rely on this |
+| Asking about CoE/OSHC requirements | Keyword trigger | Flag for human |
+| Calling from overseas number | Caller ID area code | Flag for human (but unreliable) |
+
+**Script requirement for international students**:
+Add to orientation call robot script:
+> "Are you currently studying in Australia on a student visa? If so, I'll connect you with our international student team who can help with your specific requirements."
+
+If caller confirms visa status: AI ends call with message: "I'll transfer you to our international team. They can help with CoE, OSHC, and your enrollment options. Please hold."
+
+**Contractual protection for Optimizer AI** (what Optimizer AI needs from RTO customers):
+
+Optimizer AI as a vendor needs its own protections in customer agreements:
+
+| Clause | Purpose | RTO Risk if Missing |
+|--------|---------|--------------------|
+| **AI output disclaimer** | "AI outputs are recommendations; RTO is responsible for final decisions" | RTO blames Optimizer AI for AI giving wrong info |
+| **Compliance assumption** | "RTO is responsible for ensuring AI scripts meet ASQA requirements" | Optimizer AI liable for ASQA compliance |
+| **Indemnification** | RTO indemnifies Optimizer AI for misuse of AI outputs | Legal liability for RTO decisions |
+| **Audit cooperation** | RTO must cooperate with ASQA audits involving AI outputs | Can't access data for audits |
+| **Data accuracy** | RTO responsible for accuracy of information given to AI | AI gives wrong info because RTO gave wrong inputs |
+| **Termination and data** | On termination: data export within 30 days | Data locked, no audit trail access |
+
+**Standard AI vendor agreement sections** (compare against vendor agreements):
+1. Definitions (AI services, outputs, inputs)
+2. License and use rights
+3. Data handling (what Optimizer AI stores, where, how long)
+4. Intellectual property (who owns AI outputs? who owns RTO data?)
+5. Representations and warranties (that AI works as described)
+6. Limitation of liability (cap liability at contract value — standard SaaS)
+7. Indemnification (who indemnifies whom for what)
+8. Term and termination
+9. Confidentiality
+10. Governing law (Australian law, relevant state)
+
+
+**Key insight**: The contract between Optimizer AI and RTO customers protects both parties. The contract between Optimizer AI and AI vendors (Bland/Retell) protects Optimizer AI's data. Neither can be skipped. At POC stage, a simple 2-page agreement is fine; at scale, engage a lawyer for standard SaaS terms.
+
+
+**Actions added**:
+- [ADDED] Evaluate Australian-hosted voice AI (Twilio/Whisper) as alternative to Bland AI/Retell — eliminates DPA complexity — by June 7, 2026
+- [ADDED] Download and review Bland AI/Retell standard DPA — compare against checklist above — by June 7, 2026
+- [ADDED] Add international student detection script to orientation call robot — by June 14, 2026
+- [ADDED] Draft simple 2-page AI services agreement for POC customers (RTO ↔ Optimizer AI) — by June 21, 2026
+- [ADDED] Create internal DPA checklist for vendor agreements — by June 14, 2026
+- [ADDED] Set DNC scrubbing workflow for any outbound AI calls — by July 2026
+- [ADDED] Engage lawyer for standard SaaS terms before scaling beyond 10 customers — by Month 6
+
 
 ## 1,000 enrollments/month feasibility study — 2026-05-24
 
