@@ -89,3 +89,4 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 226: Team Structure and Hiring Roadmap — Human Capital Plan, Salary Benchmarks, Org Charts
 - [x] Cycle 227: Team Structure and Hiring Roadmap — Human Capital Plan
 - [x] Cycle 228: Tier Upgrade Financial Triggers — Quantified Thresholds, Upgrade Scripts, Zoho Dashboard
+- [x] Cycle 229: AI Regulation in Australia — Mandatory Requirements Timeline, Compliance Implications, Contract Updates
