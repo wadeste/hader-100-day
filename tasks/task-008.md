@@ -90,3 +90,4 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 229: AI Regulation in Australia — Mandatory Requirements Timeline, Compliance Implications, Contract Updates
 - [x] Cycle 230: Risk Management and Mitigation Framework — 18 Risks Across 5 Categories, Top 5 Critical Risks with Contingencies, Risk Dashboard, Escalation Path
 - [x] Cycle 231: Ideal Customer Profile Firmographics — Industry Vertical Prioritization (IT/Business), Geographic Clustering (4 Metro Clusters), Funding Mix Analysis, Tech Stack Signals, ICP Scorecard (6 Criteria), Revised ICP Summary
+- [x] Cycle 232: ASQA Audit Evidence Deep-Dive — Specific Audit Criteria (3-Phase), AI-Specific Scenarios (Verbal Consent, USI Exemptions, Vulnerable Populations), Compliance Cost Benchmarks ($36-63K/year), Updated Feature Checklist (7 Must-Have, 2 Recommended), Compliance Documentation Package (8 Documents)
