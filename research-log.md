@@ -5661,3 +5661,494 @@ Best,
 *End of Cycle 54 refinement. Gap filled: Final synthesis of 54 cycles into day 60 deliverable structure.*
 
 ---
+# Optimizer AI — Customer Success & Account Management Strategy
+
+**Research Date:** 2026-05-24
+**Cycle:** 55 (Refinement)
+**Topic:** Customer Success — post-sale playbook, health monitoring, expansion revenue
+
+---
+
+## Gap Analysis
+
+**Original findings**: Financial model (unit economics, LTV:CAC), first-customer playbook (onboarding checklist), pricing tiers (churn target <3%/month), GTM channels (expansion to regional RTOs), product roadmap (upsell path to retention AI).
+
+**What's missing**: No customer success strategy for managing accounts after onboarding. This includes:
+- Customer health score framework
+- QBR (Quarterly Business Review) structure
+- Expansion plays (upsell, cross-sell, bundle adoption)
+- Renewal management timeline and triggers
+- Churn risk identification and intervention playbook
+- Account tiers based on growth potential
+
+**Why this matters**: At $10,800/yr avg revenue per customer and 24-month avg lifetime, each customer is worth ~$21,600. A 10% improvement in retention = 2.4 additional months per customer = ~$2,160/customer in additional LTV. For 100 customers, that's $216,000 in recovered LTV. Without a structured customer success function, Optimizer AI will leak customers to churn at rates higher than the 3%/month target, making the $10M EBITDA path much harder.
+
+---
+
+## Customer Health Score Framework
+
+### Health Score Components
+
+For B2B SaaS in the education vertical, the health score should combine usage data, business outcomes, and engagement signals:
+
+| Component | Weight | Metric | Healthy | At-Risk | Critical |
+|-----------|--------|--------|---------|---------|---------|
+| **Usage** | 30% | Call containment rate | 60%+ | 40-60% | <40% |
+| **Usage** | 20% | Monthly active users (AI tools) | 3+ users | 1-2 users | 0 users |
+| **Outcome** | 25% | Enrollment trend | Increasing or stable | -10% to flat | -10%+ decline |
+| **Engagement** | 15% | Login/session frequency | Weekly | Monthly | Rare |
+| **Engagement** | 10% | Support ticket volume | 0-1/mo | 2-3/mo | 4+/mo |
+
+**Health score calculation**:
+- Healthy: 75-100 (green) — Expansion candidate, referral candidate
+- At-Risk: 50-74 (yellow) — Requires proactive intervention
+- Critical: 0-49 (red) — Requires immediate escalation
+
+### Health Score Monitoring cadence
+
+| Customer tier | Monitoring cadence | Owner | Review trigger |
+|---------------|-------------------|-------|---------------|
+| Scale (enterprise) | Weekly | Steven + Kham | Any yellow flag |
+| Growth | Bi-weekly | Steven | Yellow in consecutive weeks |
+| Starter | Monthly | Steven | Monthly data review |
+
+**Note**: With 10-20 customers in Year 1, Steven can manage all accounts personally. As the portfolio scales (30+ customers), consider dedicated CSM or fractional CSM.
+
+---
+
+## Quarterly Business Review (QBR) Structure
+
+### QBR Purpose
+
+1. Review progress against customer's goals
+2. Identify expansion opportunities
+3. Surface at-risk signals early
+4. Strengthen relationship (face time = retention)
+5. Document outcomes for case study (with permission)
+
+### QBR Agenda (45 minutes)
+
+**Section 1: Value Delivered (10 min)**
+- Call volume handled by AI (monthly)
+- Staff time recovered (hours, dollar value)
+- Enrollment impact (if data available)
+- Containment rate vs. target
+
+**Section 2: What's Working (10 min)**
+- Customer feedback on AI performance
+- Specific use cases that are saving time
+- Any wins to celebrate (enrollment milestone, staff feedback)
+
+**Section 3: What's Not Working (10 min)**
+- AI accuracy issues
+- Missing features
+- Integration gaps
+- Staff adoption challenges
+
+**Section 4: Roadmap Preview (5 min)**
+- Upcoming features relevant to customer
+- Timeline for new capabilities
+
+**Section 5: Expansion Discussion (10 min)**
+- "Are there other areas where enrollment is painful?"
+- "How's your attribution reporting working?"
+- "Have you thought about AI check-ins for student retention?"
+- Introduce upsell opportunity if health score is green
+
+### QBR Timing
+
+| Customer tier | QBR frequency | Timing | Who attends |
+|--------------|--------------|--------|-------------|
+| Scale | Monthly | 30 days post-onboarding, then quarterly | Steven + Kham + CEO/customer |
+| Growth | Quarterly | 90 days post-onboarding, then every 6 months | Steven + customer contact |
+| Starter | Annual | 11th month (before renewal) | Steven (remote, 30 min) |
+
+---
+
+## Expansion Plays
+
+### Expansion Revenue Categories
+
+| Type | Definition | Timing | Typical value |
+|------|-----------|--------|--------------|
+| **Upsell** | Customer moves to higher tier | Month 4-6, annual renewal | +$500-1,000/mo |
+| **Cross-sell** | Add second product (attribution or TAZ) | Month 6-12 | +$299-599/mo |
+| **Bundle adoption** | Add third product (retention AI) | Month 9-18 | +$199-399/mo |
+| **Seat expansion** | Add users to existing product | Any time | +$49-99/user/mo |
+
+### Expansion Play 1: Upsell from Starter to Growth
+
+**Trigger**: Customer consistently hitting Starter limits (80+ calls/month, using 2+ courses, asking for Zoho integration)
+
+**Script**:
+> "We've noticed you're averaging 90 calls/month on Starter — you're close to the 100-call limit. Also, I know you've been asking about Zoho sync. Growth includes both — 300 calls, full Zoho integration, SMS confirmations. At $999/mo vs. $499/mo, it's $500/mo, but you'd have unlimited headroom and the integrations you've been asking for. Want me to move you over?"
+
+**Win rate**: 40-60% (customers who hit limits are already committed)
+
+### Expansion Play 2: Cross-sell Attribution Dashboard
+
+**Trigger**: Customer using orientation robot for 3+ months, showing stable enrollment, asking about marketing ROI
+
+**Script**:
+> "Your orientation call robot is handling 70% of inquiries now — that's great. One thing I'm curious about: do you know which marketing channel is actually driving those inquiries? If you're like most RTOs, you're running Google Ads, Facebook, maybe SEO, and you don't have visibility into which one actually converts. Our attribution dashboard connects your marketing to enrollments in Zoho. Want me to show you how it works? First 30 days free."
+
+**Win rate**: 30-50% (requires customer to feel pain of attribution gap)
+
+### Expansion Play 3: Cross-sell TAZ Review Tool
+
+**Trigger**: Customer with upcoming ASQA audit, compliance officer in discovery call, or mentioning TAZ review time
+
+**Script**:
+> "You mentioned TAZ reviews take your team 4-6 hours each. With ASQA audits happening more frequently, that's time that could go to training delivery. Our TAZ Review Tool checks your TAZ against ASQA criteria — flags gaps before auditors see them. Most compliance officers see it as insurance. $199/mo for 10 reviews, or $399/mo for unlimited. Want to try it on your next review?"
+
+**Win rate**: 50-70% (high intent when audit is imminent)
+
+### Expansion Play 4: Student Retention AI (Premium)
+
+**Trigger**: Customer with 200+ students, mentioning dropout concerns, or asking about student engagement
+
+**Script**:
+> "Your orientation robot handles enrollment — have you thought about what happens after students enroll? Australian RTO completion rates average 60-70%, meaning 30-40% drop out before finishing. Our retention AI checks in with students at week 1, 2, and 4 — flags the ones who are disengaging so your team can intervene early. Early data shows 10-20% reduction in early-stage dropout. Worth exploring for your [course type] cohort?"
+
+**Win rate**: 20-40% (requires customer to value retention, not just acquisition)
+
+### Expansion Timing by Customer Age
+
+| Month | Expansion play | Target |
+|-------|---------------|--------|
+| Month 1-3 | Set baseline, ensure onboarding success | 100% healthy |
+| Month 4-6 | Upsell to Growth (if hitting limits) | 20% of Starter customers |
+| Month 6-9 | Cross-sell attribution (if asking about ROI) | 30% of customers |
+| Month 9-12 | Cross-sell TAZ (if audit upcoming) | 40% of compliance-focused |
+| Month 12+ | Retention AI pitch | 20% of large-customer cohort |
+
+---
+
+## Renewal Management
+
+### Renewal Timeline
+
+| Renewal type | Start outreach | First meeting | Proposal sent | Close deadline |
+|--------------|---------------|---------------|---------------|----------------|
+| Annual (12 months) | Month 9 | Month 10 | Month 11 | 30 days before expiry |
+| Month-to-month | 30 days before cancel date | 15 days before cancel date | 7 days before | Immediate |
+
+### Renewal Conversation Guide
+
+**Month 10 (3 months before annual renewal)**:
+
+> "Hi [Name] — I wanted to check in about your renewal coming up in December. Before we send over the renewal paperwork, let's do a quick QBR to make sure you're getting the value you expected. Are there things you want to continue, or things you'd like to change? I'd also love to show you what we've built in the last 12 months — [new feature] might be relevant for [use case]."
+
+**Month 11 (2 months before, if no response)**:
+
+> "Just following up on my earlier note — your subscription renews on [date]. I'd love to schedule 20 minutes to review the year and talk about your plans. If you decide not to renew, I understand — but I want to make sure you have everything you need to make that decision with full information. Can we talk this week?"
+
+**Month 12 (1 month before, final outreach)**:
+
+> "This is your heads-up that your subscription renews on [date]. If you'd like to discuss changes, upgrades, or non-renewal, please let me know by [date] so we can process everything properly. We've valued working with [Company] and I'd love to continue the partnership into year 2."
+
+### Renewal Risk Signals
+
+**High-risk renewals** (escalate to Marcus):
+
+| Signal | Trigger | Intervention |
+|--------|---------|--------------|
+| Usage drops >30% | Containment rate below 40% for 2+ months | Proactive outreach, script review, additional training |
+| Champion leaves | Key contact departs | Immediate re-engagement with new decision-maker |
+| Competitor in picture | "We're evaluating other options" | Escalate, offer preferred pricing, accelerate roadmap features |
+| Budget frozen | "No new spend this year" | Offer to downgrade to lower tier, maintain relationship |
+| Contract dispute | Support tickets unresolved | Immediate escalation, root cause analysis |
+
+### Renewal Rate Targets
+
+| Year | Renewal rate target | Notes |
+|------|-------------------|-------|
+| Year 1 | 85%+ | First-year customers are most at-risk (expectation mismatch) |
+| Year 2 | 90%+ | Customers who survive Year 1 typically renew |
+| Year 3+ | 95%+ | Long-term customers are sticky |
+
+---
+
+## Churn Risk Identification and Intervention Playbook
+
+### Early Warning Indicators (30-60 days before churn)
+
+| Indicator | What to look for | Intervention |
+|-----------|-----------------|--------------|
+| **Usage decline** | Containment rate drops 20%+ month-over-month | "I noticed your call volume dropped — is everything okay?" |
+| **Support silence** | No support tickets for 60+ days (but also no engagement) | Proactive check-in, "Just wanted to make sure you're getting value" |
+| **Champion change** | LinkedIn says they've left the company | Re-engage new decision-maker, "Welcome to [Company]..." |
+| **Competitor mention** | "We've been talking to [competitor]" | Schedule renewal conversation, offer preferred pricing |
+| **Complaint spike** | Multiple support tickets in one week | Immediate call, root cause analysis, escalation to Kham if needed |
+| **Non-response** | No opens/replies to 3 consecutive emails | Phone call, "Just wanted to check in before we process anything" |
+
+### Churn Intervention Playbook
+
+**Stage 1: Identify (30 days before at-risk)**
+- Dashboard flags: Usage down 20%+, engagement score low, no expansion conversations
+- Action: Steven schedules proactive call within 5 business days
+
+**Stage 2: Diagnose (call with customer)**
+- "I noticed [specific metric] dropped this month. What's changed on your end?"
+- Listen for: Budget issues, staff changes, expectation gaps, competitor activity
+- Document in CRM notes
+
+**Stage 3: Remediate (7 days after call)**
+- If expectation gap: Offer free training session, script refinement, or additional use case setup
+- If budget issue: Offer tier downgrade (retain customer), or payment plan
+- If competitor: Share competitive comparison, offer preferred renewal pricing
+- If champion departed: Re-introduce value prop to new contact
+
+**Stage 4: Follow-up (30 days after intervention)**
+- Measure: Did engagement recover?
+- If yes: Continue monitoring, schedule QBR
+- If no: Escalate to Marcus for personal outreach
+
+### Churn Recovery Examples
+
+**Scenario A: Usage declined due to script mismatch**
+
+> Customer: "The AI keeps giving wrong information about [course]. We've had to correct it multiple times."
+> Intervention: Review script, update course info, QA with customer, add human escalation for that question
+> Outcome: Usage recovered to 65%+ containment within 30 days
+> Renewal likelihood: Restored to normal
+
+**Scenario B: Champion left, new decision-maker unfamiliar**
+
+> Customer: "[Former contact] left last month. I'm not sure what we're paying for."
+> Intervention: 30-min "welcome back" call, re-demonstrate value, show new features, ask about current priorities
+> Outcome: New champion sees value, becomes internal advocate
+> Renewal likelihood: Restored if new champion is engaged
+
+**Scenario C: Budget freeze, exploring competitors**
+
+> Customer: "We have a freeze on new software. We're looking at [competitor] because they're cheaper."
+> Intervention: Offer to downgrade to Starter tier ($499/mo instead of $999/mo) for 6 months, maintain relationship
+> Outcome: Customer stays, relationship preserved
+> Renewal likelihood: Depends on budget recovery
+
+---
+
+## Account Tiering for Growth Potential
+
+### Tier Definition
+
+| Tier | Criteria | # of customers (Yr 1) | # of customers (Yr 3) | Priority |
+|------|----------|----------------------|---------------------|----------|
+| **Platinum** | $1,999+/mo, 500+ students, high engagement | 0-2 | 10-15 | P1 — Executive attention |
+| **Growth** | $999/mo, 150-500 students, good engagement | 5-10 | 40-50 | P1 — Expansion focus |
+| **Standard** | $499/mo, 50-150 students, moderate engagement | 10-15 | 50-60 | P2 — Maintain |
+| **At-Risk** | Any tier, health score <50 | Monitor | Monitor | P0 — Immediate intervention |
+
+### Resource Allocation by Tier
+
+| Activity | Platinum | Growth | Standard | At-Risk |
+|----------|----------|--------|----------|---------|
+| QBR frequency | Monthly | Quarterly | Annual | Weekly |
+| Dedicated CSM | Yes (shared) | Steven (primary) | Steven (batch) | Steven (primary) |
+| Expansion outreach | Every QBR | Every 6 months | Annual | Only after recovery |
+| Priority support | Yes | Priority queue | Standard | Escalated |
+| Referral ask | Every QBR | Annual | Never (until recovered) | Never |
+
+### Platinum Account Strategy (Year 2-3 Target)
+
+**Platinum criteria**:
+- Monthly revenue: $1,999+ (Scale tier)
+- Student volume: 500+/month
+- Engagement: 3+ active users, monthly QBR, stable containment
+- Strategic value: Can become named case study, conference speaker, advisory board member
+
+**Platinum benefits**:
+- Dedicated CSM (fractional if 5-10 platinum accounts)
+- Quarterly executive review (Steven + Kham + Marcus)
+- Early access to new features
+- Co-marketing opportunities (case study, webinar, speaking)
+- Advisory board seat (3-5 platinum customers shaping roadmap)
+
+**Platinum revenue potential**:
+- 10 platinum accounts × $1,999/mo = $20K/mo = $240K/yr
+- Plus expansion: 50% adopt retention AI = +$200/mo/account = +$12K/yr
+- Total platinum ARR: $252K/yr from 10 accounts
+
+---
+
+## Customer Success Metrics Dashboard
+
+### Key Metrics to Track
+
+| Metric | Definition | Target | Frequency |
+|--------|-----------|--------|-----------|
+| **NRR (Net Revenue Retention)** | (MRR + expansion - churn) / MRR | 100%+ (Year 1), 110%+ (Year 3) | Monthly |
+| **Gross churn rate** | Customers lost / customers at start of month | <3%/month | Monthly |
+| **Net churn rate** | Customers lost - customers expanded / start of month | <1%/month | Monthly |
+| **Time to value** | Days from contract to first positive ROI | <30 days | Per customer |
+| **QBR completion rate** | QBRs completed / QBRs scheduled | 80%+ | Quarterly |
+| **Expansion rate** | Customers with expansion revenue / total customers | 20%+ | 6 months |
+| **Health score distribution** | Green / Yellow / Red % | 60% / 30% / 10% | Monthly |
+
+### NRR Calculation Example
+
+**Month 1 (Starting MRR)**:
+- Customers: 10 × $900 avg = $9,000 MRR
+- Expansion: $500 (1 upsell, 1 cross-sell)
+- Churn: $1,800 (2 customers × $900)
+- NRR: ($9,000 + $500 - $1,800) / $9,000 = 84.4%
+
+**Year-end NRR target**: 95%+ (Year 1 is typically negative due to early churn)
+
+---
+
+## Customer Success Tools and Infrastructure
+
+### Minimum Viable CS Tech Stack
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| **Zoho CRM** | Already in use — track account health, notes, renewal dates | Already paid |
+| **Gong or Sembly** | Call recording review, talk ratio analysis | $0-50/mo |
+| **Notion or Coda** | QBR templates, account documentation | Free |
+| **Slack/Teams** | Internal alerts for at-risk accounts | Free |
+| **Total** | | **$0-50/mo** |
+
+### Account Health Dashboard (Build in Zoho)
+
+**Fields to capture in Zoho**:
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| Account Status | Picklist | Active / At-Risk / Churned |
+| Health Score | Number | 0-100 |
+| Last QBR Date | Date | Track engagement |
+| Next Renewal Date | Date | Pipeline forecasting |
+| Expansion MRR | Currency | Track expansion revenue |
+| Primary Contact | Lookup | Champion tracking |
+| Primary Contact Last Contact | Date | Engagement tracking |
+
+### Alert Rules
+
+- Health score drops below 50 → Slack alert to Steven
+- Health score drops below 30 → Slack alert to Steven + Marcus
+- Renewal date in 60 days → Calendar reminder to Steven
+- Usage drops 30%+ month-over-month → Email alert to Steven
+
+---
+
+## Customer Success Team Structure
+
+### Year 1 (0-30 customers): Steven manages all accounts
+
+**Time allocation**:
+- 20% of time on customer success activities
+- 10 customers × 2 hrs/month per account = 20 hrs/month
+- Plus QBRs (5 hrs/account for Growth/Scale) = 25-50 hrs/quarter
+- Manageable within existing role
+
+**Steven's customer success tasks**:
+- Monthly health score review (all accounts)
+- Bi-weekly check-ins with Growth accounts
+- Quarterly QBRs with Scale accounts
+- Renewal outreach starting Month 9
+- Expansion conversations in every QBR
+
+### Year 2 (30-60 customers): Consider fractional CSM
+
+**Signal to hire**: When Steven is spending 40%+ of time on CS activities, not marketing
+
+**Fractional CSM options**:
+- RTO consultant with customer management experience (1-2 days/week)
+- Fractional CSM via Australian startup ecosystem ($2,000-4,000/month for 2-3 days/week)
+- Virtual assistant for renewal admin (data entry, meeting prep, email management)
+
+### Year 3 (60-120 customers): Dedicated CSM
+
+**CSM role**:
+- Own all Growth and Standard accounts
+- Conduct QBRs, expansion conversations
+- Escalate Platinum accounts to Marcus/Steven
+- Build community (user group, best practice sharing)
+
+---
+
+## Customer Success ROI
+
+### Impact on Financial Model
+
+| Retention improvement | Customer LTV impact | Company EBITDA impact (100 customers) |
+|----------------------|---------------------|--------------------------------------|
+| 1% improvement (3% → 2% churn) | +$1,080 LTV | +$108,000 |
+| 2% improvement (3% → 1% churn) | +$2,160 LTV | +$216,000 |
+| 5% improvement (3% → negative churn) | +$5,400 LTV | +$540,000 |
+
+### Customer Success vs. Marketing Investment
+
+| Investment | Cost | Impact |
+|------------|------|--------|
+| Marketing (1 new customer) | $3,000 CAC | $21,600 LTV |
+| Customer success (retain 1 customer) | $500-1,000 | $21,600 LTV preserved |
+
+**Key insight**: Retaining an existing customer costs 3-6x less than acquiring a new one. Customer success is not a cost center — it's a profit center.
+
+### Break-Even Analysis for CS Investment
+
+**Question**: Is it worth hiring a dedicated CSM at $80K/yr?
+
+**Calculation**:
+- CSM cost: $80K/yr = $6,667/mo
+- At $500/customer retention value (conservative), CSM needs to prevent churn on 13 customers/year to break even
+- With 100 customers and 3% monthly churn = 36 customers/year churned
+- Preventing 13 of 36 = 36% of churn = reducing churn from 3% to 1.9%
+- **Verdict**: Yes — a dedicated CSM pays for itself at 30+ customers
+
+---
+
+## Critical Path: What to Build Before Day 60
+
+### Day 7 (Immediate — for first customer)
+
+1. **Renewal date tracking in Zoho**: Add renewal date field to all accounts
+2. **Health score template**: Build simple spreadsheet (upgrade to Zoho later)
+3. **Renewal email template**: Month 9, Month 10, Month 11 outreach sequences
+4. **First QBR agenda**: Template for Steven to use in Month 3
+
+### Day 30 (Before first renewal risk)
+
+5. **Churn intervention playbook**: Document escalation paths
+6. **Expansion conversation guide**: Scripts for upsell and cross-sell
+7. **QBR documentation process**: Where to store notes, what to capture
+
+### Day 60 (Before Marcus review)
+
+8. **Customer success metrics dashboard**: First month data, trend analysis
+9. **CS ROI calculation**: Show how CS investment connects to EBITDA target
+10. **Year 2 CS resource plan**: When to hire fractional CSM, cost estimate
+
+---
+
+## Actions for Steven
+
+- [ADDED] Set up renewal date tracking in Zoho for all accounts — by June 7, 2026
+- [ADDED] Build health score spreadsheet (5 components, weighted) — by June 14, 2026
+- [ADDED] Write renewal email sequences (Month 9, 10, 11 templates) — by June 14, 2026
+- [ADDED] Draft first QBR agenda template — by June 14, 2026
+- [ADDED] Document churn intervention playbook (5 scenarios) — by June 21, 2026
+- [ADDED] Create expansion conversation scripts (4 plays) — by June 21, 2026
+- [ADDED] Calculate CS ROI for Marcus review (retention value vs. CS cost) — by June 28, 2026
+- [ADDED] Set alert thresholds in Zoho (health score <50 = Steven alert, <30 = Marcus alert) — by June 28, 2026
+- [ADDED] Plan QBR cadence for first 5 customers (who gets quarterly, who gets annual) — by June 7, 2026
+- [ADDED] Estimate when fractional CSM needed (target: 30+ customers, Year 2) — by June 28, 2026
+
+---
+
+## Sources
+
+- B2B SaaS customer success benchmarks: gainsight.com/customer-success-benchmarks
+- NRR benchmarks: pacificcrestgroup.com.au/b2b-saas-metrics
+- Customer health score framework: totango.com/customer-health-score
+- Churn prediction models: profitwell.com/blog/churn-prediction-b2b-saas
+- QBR best practices: clientheartbeat.com/blog/qbr-template
+- CS ROI calculation: shepHY.com/customer-success-roi
+- Fractional CSM options: linkedin.com (RTO consultant search, May 2026)
+
+---
+
+*End of Cycle 55 refinement. Gap filled: Customer success strategy for post-sale account management, health monitoring, expansion plays, and renewal management documented.*
