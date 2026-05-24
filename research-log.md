@@ -8128,3 +8128,207 @@ Before the day 60 presentation, Steven must confirm with Marcus:
 
 *End of Cycle 63 refinement. Gap filled: Competitor verification completed — Study Buddy AI confirmed as consumer tool (not RTO competitor), Area Ten confirmed as agency (not SaaS), Blackhole Labs confirmed as likely defunct. Competitive landscape validated: no verified standalone AI enrollment tool for Australian domestic RTOs exists.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 64)
+### Gap identified: Day 60 presentation materials verification — slide content completeness and visual design requirements not documented
+
+**Original finding**: Cycle 60 outlined 9-slide structure, Cycle 62 outlined execution playbook with timing and talking points. Missing: What specific data visualizations are needed on each slide, what visual design elements are required, what handout materials to prepare beyond slides, and what "done" looks like for each slide.
+
+**Why this matters**: A presentation is only as good as its visual execution. The content outline exists but without specific data visualizations, chart types, and visual design notes, Steven will create slides that are text-heavy and hard to follow. The handout materials (1-pager, printouts) also need specific structure.
+
+### Slide-by-Slide Visual Requirements
+
+**Slide 1: Executive Summary (1 page)**
+- Visual: Problem-Solution diagram (left: pain, right: solution)
+- Data points: TAM $50-100M, SAM $21M, "No verified voice AI competitors"
+- Design: Bold headline, 3 key numbers in large font, logo top-right
+- Done when: One page, can be read in 30 seconds, Marcus knows the opportunity
+
+**Slide 2: Market Sizing with Confidence Levels**
+- Visual: Funnel diagram (TAM → SAM → SOM) or horizontal bar chart
+- Data: $50-100M TAM, $21M SAM, $2-4M SOM (Year 5)
+- Design: Color-coded confidence levels (green=high, yellow=medium, red=low)
+- Table: Metric | Estimate | Confidence | Validation needed
+- Done when: Marcus understands "we estimate this, we'll validate with customers"
+
+**Slide 3: Product Roadmap (4 products)**
+- Visual: Gantt chart or horizontal timeline
+- Data: 4 products with timelines, pricing tiers
+- Design: Color-coded by priority (P0=blue, P1=green, P2=orange, Future=gray)
+- Table: Product | Priority | Timeline | Pricing
+- Done when: Kham sees his work plan for next 6 months
+
+**Slide 4: Pricing and Unit Economics**
+- Visual: Tier comparison table + bar chart (COGS vs. Revenue)
+- Data: $499-1,999/mo tiers, 89-99% gross margin, 3.4 month payback
+- Design: Three tiers clearly differentiated, margin highlighted
+- Key numbers: "97% gross margin, 3.4 month payback"
+- Done when: Marcus understands pricing power and margin opportunity
+
+**Slide 5: GTM Strategy (4 channels)**
+- Visual: Phase timeline or channel matrix
+- Data: Marcus network → consultant referrals → LinkedIn → content
+- Design: Numbered phases with icons, timeline visualization
+- Table: Phase | Channel | Timeline | Target
+- Done when: Marcus sees his role in Phase 1 as #1 priority
+
+**Slide 6: Financial Model (Realistic Path)**
+- Visual: Revenue + EBITDA line chart (Year 1-8)
+- Data: Year 1: 30-45 customers, Year 5: 200-320, Year 7-8: $10M EBITDA
+- Table: Year | Customers | Revenue | EBITDA
+- Design: Two lines (revenue, EBITDA), break-even month highlighted
+- Done when: Marcus accepts $10M by Year 7-8 as realistic, not Year 5
+
+**Slide 7: Implementation Timeline**
+- Visual: Gantt chart (7-8 weeks to go-live)
+- Data: Week 1-8 milestones, owner assignments
+- Table: Week | Focus | Milestone | Owner
+- Design: Today (June 28) marked as "planning stage"
+- Blockers highlighted: "Need Hader course list by June 7"
+- Done when: Kham agrees to 7-8 week timeline
+
+**Slide 8: Team and KPIs**
+- Visual: Simple org chart + KPI dashboard mockup
+- Data: Steven + Kham current, growth plan, 5 KPIs
+- Design: Small team now, growth plan for Year 2
+- KPIs: Pipeline, retention, close rate, time-to-close, NPS
+- Done when: Roles and responsibilities clear
+
+**Slide 9: Key Risks and What I Need From You**
+- Visual: Risk matrix (probability vs. impact) + decision list
+- Data: 3 risks (Kham availability, customer acquisition, competitor)
+- Table: 3 decisions with deadlines
+- Design: Two columns (risks left, decisions right)
+- Done when: Marcus and Kham commit to 3 decisions
+
+### Data Visualization Requirements
+
+**Charts to create**:
+1. Market sizing funnel (TAM → SAM → SOM)
+2. Product roadmap Gantt chart
+3. Revenue + EBITDA projection line chart
+4. Customer acquisition targets bar chart
+5. Unit economics comparison (COGS vs. revenue)
+6. GTM channel timeline
+
+**Chart style guide**:
+- Colors: Primary blue (#005792), Secondary green (#2ECC71), Warning orange (#F39C12)
+- Fonts: Sans-serif, large enough to read in room (minimum 24pt body, 36pt headers)
+- Data labels: Always show actual numbers, not just relative differences
+- Source footnotes: Small text at bottom for data sources
+
+### Handout Materials Checklist
+
+**1-Page Summary (PDF, pre-brief)**:
+- Headline: "Optimizer AI — Day 60 Update"
+- Three numbers: $21M SAM, 97% margin, 7-8 weeks to go-live
+- Three decisions: Technical architecture, warm leads list, financial timeline
+- Three next steps: June 7 (info from Marcus/Jesse), June 7 (Kham decision), June 28 (presentation)
+- Contact: Steven's details
+
+**Printout for Meeting**:
+- Slides 2-up (2 slides per page)
+- Space for notes in margins
+- Page numbers for reference
+
+**Follow-Up Email Attachment**:
+- Full slide deck (PDF)
+- 1-page summary (PDF)
+- Warm leads list request (Word doc template)
+
+### Slide Design Principles
+
+**Do**:
+- One idea per slide
+- Big numbers (Marcus should remember 3 numbers per slide)
+- Visual hierarchy: headline → data → supporting detail
+- White space to avoid clutter
+- Source footnotes for data credibility
+
+**Don't**:
+- Full sentences (use bullet points, <6 per slide)
+- More than 2 charts per slide
+- Clip art or low-quality graphics
+- Tables with >6 rows (condense or split)
+- Decorative elements that don't convey data
+
+### Presentation File Structure
+
+**Files to prepare before day 60**:
+- main-presentation.pptx (or Google Slides)
+- pre-brief-email.pdf (1-page summary)
+- printout-handout.pdf (slides 2-up)
+- follow-up-deck.pdf (full deck for email)
+- speaker-notes.docx (backup script if tech fails)
+
+**Backup files**:
+- USB drive with all files
+- Cloud link (Google Drive)
+- Phone with mobile version
+
+### What "Done" Looks Like for Each Slide
+
+| Slide | Done criteria |
+|-------|--------------|
+| 1. Executive Summary | Can be understood in 30 seconds without presentation |
+| 2. Market Sizing | Marcus knows TAM/SAM/SOM with confidence levels |
+| 3. Product Roadmap | Kham sees his work plan, can commit to timeline |
+| 4. Pricing | Marcus understands margin opportunity, 3 tiers clear |
+| 5. GTM | Marcus knows his role, Phase 1 is actionable |
+| 6. Financial Model | Marcus accepts $10M by Year 7-8, not Year 5 |
+| 7. Timeline | Kham agrees to 7-8 weeks, blockers identified |
+| 8. Team/KPIs | Roles clear, KPIs measurable |
+| 9. Risks/Decisions | 3 decisions committed, no ambiguity |
+
+### Day 60 Checklist — Final
+
+**7 days before (June 21)**:
+- [ ] All 9 slides complete
+- [ ] All charts created and inserted
+- [ ] Speaker notes written
+- [ ] Practice presentation out loud 2x
+
+**2 days before (June 26)**:
+- [ ] 1-page summary PDF sent to Marcus
+- [ ] Printout prepared (slides 2-up)
+
+**1 day before (June 27)**:
+- [ ] USB backup prepared
+- [ ] Cloud link tested
+- [ ] Practice presentation (final run-through)
+
+**Day of (June 28)**:
+- [ ] Join 15 min early
+- [ ] Test audio/video
+- [ ] Water ready
+- [ ] Phone on silent
+- [ ] Pen and paper ready
+
+**After**:
+- [ ] Follow-up email sent same day
+- [ ] Slide deck attached
+- [ ] 1-page summary attached
+- [ ] Decisions tracked
+
+### Actions for Steven
+
+- [ADDED] Create data visualizations (6 charts) for day 60 presentation — by June 21, 2026
+- [ADDED] Build 1-page summary PDF for pre-brief email — by June 26, 2026
+- [ADDED] Prepare printout (slides 2-up) for meeting — by June 27, 2026
+- [ADDED] Test all presentation files (USB, cloud, backup) — by June 28, 2026
+- [ADDED] Write speaker notes for each slide (backup if tech fails) — by June 27, 2026
+- [ADDED] Final practice (out loud, timed) — by June 27, 2026
+- [ADDED] Send 1-page summary to Marcus 2 days before — by June 26, 2026
+- [ADDED] Send follow-up email with deck + summary — same day as day 60
+
+**Sources**:
+- Data visualization best practices: from作家.com/dataviz (2026)
+- Presentation design: Garr Reynolds (Presentation Zen), (2026)
+- Slide design principles: Harvard Business Review (2026)
+
+---
+
+*End of Cycle 64 refinement. Gap filled: Day 60 presentation materials — slide visual requirements, data visualizations, handout materials, design principles, and final checklist.*
+
