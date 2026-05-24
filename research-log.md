@@ -512,6 +512,68 @@ Study existing solutions (voice AI, chatbots, call automation) in the education 
 - [ADDED] Get legal opinion on APP compliance for US-based voice AI APIs (priority: before POC launch)
 - [ADDED] Contact ASQA directly to ask about guidance on AI use in enrollment (proactive positioning)
 
+### Refinement — 2026-05-24 (Implementation Checklist)
+### Gap identified: Orientation call robot missing specific implementation timeline, technical stack, and action checklist
+
+**Original finding**: "Build MVP orientation call robot at Hader — answer calls 24/7, capture lead info, schedule orientation, populate Zoho" — no specific implementation timeline or technical requirements.
+
+**Refined findings**:
+
+**5-6 week implementation timeline**:
+| Week | Focus | Deliverables |
+|------|-------|--------------|
+| 1 | Discovery + Scripting | Interview staff, map call flow, write 20-30 question script |
+| 2 | Voice AI Setup | Set up Twilio (Australian-hosted), upload script, 10 test calls |
+| 3 | Integration | Zoho lead creation, calendar scheduling, SMS confirmation |
+| 4 | Compliance + Testing | ASQA checkpoints, recording, audit log, 50 test calls |
+| 5-6 | POC at Hader | Go live, parallel testing (AI + human), measure metrics |
+
+**Recommended technical stack**:
+| Component | Option | Cost | Notes |
+|-----------|--------|------|-------|
+| Voice AI | Twilio + Claude | $0.01-0.02/min | Australian-hosted, APP compliant |
+| Telephony | Aircall | $30/user/mo | Already in use |
+| CRM | Zoho | Existing | Lead creation, workflow |
+| Calendar | Google Calendar | Free | Orientation scheduling |
+| SMS | MessageMedia | $0.08-0.12/SMS | Confirmations |
+
+**Call script framework** (15-20 min):
+1. Opening (30s): "Hi, thanks for calling [RTO]. I'm an AI assistant for enrollment."
+2. Qualification (3min): Name, course interest, location, qualifications
+3. Course Info (5min): Delivery mode, duration, intake dates
+4. Prerequisites (2min): Entry requirements, LLN, experience
+5. Fees (2min): Fee range reference only (ACL compliance)
+6. Next Steps (2min): Orientation booking, USI collection
+7. Compliance (1min): Privacy notice, refund policy, complaints
+8. Closing (30s): Summary, confirmation, next steps
+
+**Escalation triggers**:
+- International student visa mention → Flag for human
+- Complex course questions → Transfer to staff
+- Caller requests human → Immediate transfer
+- AI low confidence → Escalate to enrollment staff
+
+**Zoho integration spec**:
+- On call start: Create lead (Name, Phone, Course, Source)
+- On call end: Update status, schedule orientation task, send SMS
+- Custom fields: `ai_handled`, `ai_outcome`, `orientation_scheduled`
+
+**POC success metrics**:
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Containment rate | 60%+ | AI calls / Total |
+| Lead quality | 90%+ of human | Enrollment conversion |
+| Staff time saved | 24 hrs/week | Timesheet vs baseline |
+| Missed calls | <5% | Aircall report |
+
+**Actions added**:
+- [ADDED] Interview enrollment staff, map call flow — Week 1
+- [ADDED] Set up Twilio + upload script — Week 2
+- [ADDED] Build Zoho/Calendar/SMS integration — Week 3
+- [ADDED] Add ASQA compliance + audit log — Week 4
+- [ADDED] Go live with parallel testing — Week 5-6
+- [ADDED] Measure and present ROI at day 60
+
 ---
 
 ## AI skill packages for RTO staff — use case validation — 2026-05-24
