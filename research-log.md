@@ -4713,3 +4713,216 @@ The research log identifies gaps that need **live web research**, not inference:
 
 *End of Cycle 48 refinement. Gap filled: Funding/cash runway model added. Three scenarios (lean/moderate/aggressive), break-even months, critical questions for Marcus/Kham identified.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 49)
+### Gap identified: Content strategy missing specific email nurture sequences, LinkedIn post templates, and guest post outreach list
+
+**Original finding**: Cycle 31 organic leads strategy includes 90-day content calendar and SEO keywords. Cycle 40 GTM channel execution includes LinkedIn templates and email sequence references. Missing: specific email nurture sequences (welcome, lead magnet, demo request, post-demo), LinkedIn post templates (hook, body, CTA format), and guest post targets list (specific sites with contact info).
+
+**Why this matters**: Without specific templates, Steven will either not execute (too time-consuming to create from scratch) or create inconsistent content. Templates reduce friction and ensure consistent quality across 12+ months of content.
+
+**What the research currently states**:
+- Email: "Build email list from blog traffic, target 100 subscribers by month 3" — no sequence
+- Email: "Email nurture sequences for trial and demo requests" — no sequence details
+- LinkedIn: "Repurpose into 3-5 posts" — no templates
+- Guest post: "Target RTO blogs, education publications" — no specific targets
+
+### Email Nurture Sequences (5 Sequences)
+
+**Sequence 1: Welcome Sequence (New Subscriber)**
+
+| Email | Send | Subject | Content |
+|-------|------|---------|----------|
+| Email 1 | Day 0 | "Thanks for downloading the ASQA Compliance Checklist" | Deliver checklist, brief intro, what to expect |
+| Email 2 | Day 2 | "The 3 biggest enrollment call mistakes RTOs make" | Educational content, no pitch |
+| Email 3 | Day 5 | "How [similar RTO] reduced call time by 60%" | Case study snippet, soft CTA |
+| Email 4 | Day 8 | "Quick question — what's your biggest enrollment challenge?" | Engagement email, reply request |
+| Email 5 | Day 12 | "Want to see how it works? Book a 15-min demo" | Demo CTA, calendar link |
+
+**Sequence 2: Lead Magnet Sequence (Compliance Checklist)**
+
+| Email | Send | Subject | Content |
+|-------|------|---------|----------|
+| Email 1 | Day 0 | "Your ASQA Compliance Checklist is ready" | PDF delivery, 1 key insight |
+| Email 2 | Day 3 | "Most RTOs fail ASQA on this one thing" | Specific ASQA gap, educational |
+| Email 3 | Day 7 | "We built a tool to automate compliance tracking" | Soft product mention |
+| Email 4 | Day 14 | "See how it works — 2-minute demo video" | Video CTA |
+| Email 5 | Day 21 | "Ready to automate your enrollment calls?" | Direct CTA |
+
+**Sequence 3: Demo Request Sequence (Warm Lead)**
+
+| Email | Send | Subject | Content |
+|-------|------|---------|----------|
+| Email 1 | Day 0 | "Quick follow-up from our call" | Recap pain points discussed |
+| Email 2 | Day 3 | "How [RTO like yours] handles 3x more calls" | Relevant case study |
+| Email 3 | Day 7 | "I put together a custom demo for you" | Demo offer, specific to their situation |
+| Email 4 | Day 14 | "Checking in — did you get a chance to watch?" | Follow-up, calendar link |
+| Email 5 | Day 21 | "No pressure — here's what we can do if timing's off" | Offer to reconnect later |
+
+**Sequence 4: Post-Demo Sequence**
+
+| Email | Send | Subject | Content |
+|-------|------|---------|----------|
+| Email 1 | Day 0 | "Great chatting today!" | Recap next steps, proposal timeline |
+| Email 2 | Day 3 | "Here's that ROI calculator I mentioned" | ROI tool, specific to their numbers |
+| Email 3 | Day 7 | "Any questions on the proposal?" | Follow-up, address objections |
+| Email 4 | Day 14 | "I know this is a big decision" | Social proof, objection handling |
+| Email 5 | Day 21 | "Last check-in — then I'll close the loop" | Final CTA, scarcity (offer expires) |
+
+**Sequence 5: Long-Term Nurture (Cold Leads)**
+
+| Email | Send | Subject | Content |
+|-------|------|---------|----------|
+| Email 1 | Day 0 | Initial outreach | Personalized pain point |
+| Email 2 | Day 7 | Follow-up #1 | New angle or data point |
+| Email 3 | Day 14 | Follow-up #2 | Case study |
+| Email 4 | Day 28 | Follow-up #3 | Content asset (checklist, guide) |
+| Email 5 | Day 45 | Final outreach | "Closing the loop, but we're here if you need us" |
+| Email 6 | Day 90 | Re-engagement | New content, new value prop |
+
+### LinkedIn Post Templates
+
+**Template 1: Pain Point Post**
+
+```
+HOOK (1-2 lines):
+"Enrollment calls are killing your team's productivity. Here's the math:"
+BODY (3-5 lines):
+"[Specific stat: 60+ hrs/week on enrollment calls at most RTOs]"
+"[Why this happens: No system to qualify, route, or follow up]"
+"[What's missing: AI can handle 70% of calls without human touch]"
+CTA:
+"What's your call volume? Drop a comment and I'll share an ROI estimate."
+```
+
+**Template 2: Story/Case Study Post**
+
+```
+HOOK (1 line):
+"We just helped an RTO in [QLD/NSW] go from 40 hrs/week to 8 hrs/week on calls."
+BODY (5-8 lines):
+"[Brief setup: The problem]"
+"[What we built: Orientation call robot with Zoho integration]"
+"[The result: Specific metrics — time saved, calls handled, conversion rate]"
+"[What the CEO said: Direct quote]"
+CTA:
+"Want to see how it works? Link in comments."
+```
+
+**Template 3: Education/Thought Leadership**
+
+```
+HOOK (1-2 lines):
+"ASQA's new digital audit program means less notice, more scrutiny. Here's what RTOs need to know."
+BODY (5-10 lines):
+"[Key insight 1: What's changing]"
+"[Key insight 2: Why it matters]"
+"[Key insight 3: What RTOs should do now]"
+CTA:
+"Save this post for reference. Tag a compliance colleague who needs to see this."
+```
+
+**Template 4: Question/Engagement Post**
+
+```
+HOOK (1-2 lines):
+"Quick question for RTO CEOs: What's your biggest enrollment bottleneck?"
+BODY (1-3 lines):
+"Is it call volume? Qualification? Follow-up? Something else?"
+CTA:
+"Comment below — I'll DM anyone who wants to chat about their specific situation."
+```
+
+**Template 5: Announcement Post**
+
+```
+HOOK (1-2 lines):
+"We just launched our orientation call robot at [RTO name]. Here's what we learned."
+BODY (3-5 lines):
+"[What we built]"
+"[The metrics: Containment rate, time saved, conversion data]"
+"[What worked: 1-2 key learnings]"
+CTA:
+"If you're thinking about AI for enrollment calls, happy to share what we know. DM me."
+```
+
+### Guest Post Outreach Targets
+
+**High-Priority Targets** (RTO-focused, high authority):
+
+| Target | URL | Contact | Why | Pitch angle |
+|--------|-----|---------|-----|-------------|
+| RTO Advice | rtoadvice.com.au | Contact form | 500+ RTO clients, compliance focus | "AI compliance tools for RTOs" |
+| ASQA Success | asqasuccess.com.au | Contact form | ASQA-focused audience | "How AI can help pass ASQA audits" |
+| RTO Connect | rtoconnect.com.au | Events team | 200+ RTO members, events | "AI in vocational education" |
+| EdTech Australia | edtechaustralia.org.au | Newsletter team | Education technology focus | "AI for student enrollment" |
+| Training Magazine | training.com.au | Editor | National VET audience | "AI transforming enrollment" |
+
+**Medium-Priority Targets** (Broader, but relevant):
+
+| Target | URL | Contact | Why | Pitch angle |
+|--------|-----|---------|-----|-------------|
+| EdTech Review | edtechreview.in | Editorial | AI in education globally | "Voice AI for vocational training" |
+| Education Technology | edtechnology.com.au | Blog team | AU education tech | "AI enrollment automation" |
+| Learn Magazine | learnmag.com.au | Editor | Lifelong learning | "AI in adult education" |
+
+**Guest Post Outreach Email Template**:
+
+```
+Subject: Guest post pitch: AI enrollment tools for Australian RTOs
+
+Hi [Name],
+
+I'm reaching out to offer a guest post for [Publication].
+
+I work with RTOs specifically on AI enrollment automation — tools that handle calls, qualify leads, and integrate with Zoho CRM. I noticed your audience would benefit from practical guidance on:
+- How AI can reduce enrollment call time by 60%+
+- ASQA compliance considerations for AI enrollment tools
+- What to look for in an AI vendor
+
+I can deliver a 1,000-word post on one of these topics, with specific examples and actionable advice.
+
+Would you be open to a post on [specific topic]?
+
+Best,
+[Steven]
+```
+
+### Content Distribution Calendar (Month 1)
+
+| Day | Content type | Platform | Purpose |
+|-----|--------------|----------|---------|
+| Day 1 | LinkedIn: Pain point post | LinkedIn | Authority building |
+| Day 4 | LinkedIn: Question post | LinkedIn | Engagement |
+| Day 7 | Blog: "AI enrollment system RTO" | Website | SEO + lead gen |
+| Day 7 | LinkedIn: Blog announcement | LinkedIn | Drive traffic to blog |
+| Day 10 | LinkedIn: Education post | LinkedIn | Thought leadership |
+| Day 14 | LinkedIn: Story/case study | LinkedIn | Social proof |
+| Day 14 | Email: Welcome sequence start | Email | New subscriber nurture |
+| Day 18 | LinkedIn: Question post | LinkedIn | Engagement |
+| Day 21 | Lead magnet: "ASQA Compliance Checklist 2026" | Website | Lead capture |
+| Day 21 | LinkedIn: Lead magnet announcement | LinkedIn | Drive checklist downloads |
+| Day 25 | LinkedIn: Pain point post | LinkedIn | Authority building |
+| Day 28 | LinkedIn: Guest post pitch | Outreach | Backlink building |
+
+### Actions for Steven
+
+- [ADDED] Create email sequence templates in ConvertKit or Mailchimp — by June 14, 2026
+- [ADDED] Write 5 LinkedIn post templates in Notion or doc — by June 7, 2026
+- [ADDED] Send first guest post outreach (RTO Advice) — by July 7, 2026
+- [ADDED] Set up welcome sequence in email tool — by June 14, 2026
+- [ADDED] Post to LinkedIn 3-5x/week using templates — ongoing
+- [ADDED] Target 2 guest posts/month (high-priority targets) — ongoing
+- [ADDED] Build email list to 100 subscribers by month 3 — by September 7, 2026
+
+**Sources**:
+- Email nurture sequences: mailchimp.com/features/email-automations (2026)
+- LinkedIn post templates: linkedin.com/business/content-platform (2026)
+- Guest post outreach: pointvisible.com/guest-posting (2026)
+
+---
+
+*End of Cycle 49 refinement. Gap filled: Specific email nurture sequences (5), LinkedIn post templates (5), guest post outreach targets (8 sites with pitches).*
+
