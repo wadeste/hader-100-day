@@ -2461,6 +2461,94 @@ Single 30-minute test with Marcus's 3 warmest contacts:
 - [ADDED] Build partner portal (simple landing page with signup form) — by July 2026
 - [ADDED] Track partner referrals in Zoho (create partner lookup field on leads)
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Partner attribution tracking and revenue share mechanics missing practical implementation details
+
+**Original finding**: "Partner referral commission: 10-20% of first year = $600-1,200 per customer" and "Commission paid quarterly" — no detail on how to track referrals, how to handle multi-touch attribution, or the operational mechanics of running partner commissions.
+
+**Refined findings**:
+
+**Partner attribution is harder than it sounds**: When a lead comes in, how do you know which partner referred them? Multiple scenarios create attribution conflicts:
+
+| Scenario | Attribution Challenge | Solution |
+|----------|----------------------|----------|
+| Lead mentions "saw your ad" AND "partner told me about you" | Which channel gets credit? | Partner always gets first-touch credit regardless of other touches |
+| Partner refers same RTO twice | First referral gets commission; second referral = upsell (no new commission) | Create unique referral link per partner; first conversion wins |
+| Partner refers RTO who already exists in CRM | Pre-existing lead exclusion | Check CRM for existing leads within 90-day window; if found, no commission |
+| Partner is also the decision-maker (consultant who recommends to own RTO) | Dual role confusion | Pay commission if consultant owns <50% of referred RTO |
+
+
+**Unique referral link system (implementation)**:
+- Create unique URL per partner: optimizer.ai/?ref=[partner-name]
+- All organic traffic via that link = attributed to partner
+- Zoho lead source = partner name (set automatically)
+- If lead submits form without partner link: Ask "How did you hear about us?" — manually match to partner
+
+**Commission calculation example**:
+| Scenario | Calculation | Commission |
+|----------|------------|-----------|
+| Partner refers RTO → signs at $1,499/mo, annual prepay ($12,499) | 15% × $12,499 | $1,875 one-time |
+| Partner refers RTO → signs at $1,499/mo, monthly | 15% × $17,988 (year 1) | $2,698 first year only |
+| Partner refers RTO → expands to $2,999/mo in month 6 | Original: $2,698; Expansion: no additional commission | $2,698 total |
+| Partner refers 3 customers/month × 12 | 3 × $2,698 | $8,094/year per partner |
+
+**Operational mechanics for running partner program at Optimizer AI scale**:
+
+At 0-10 customers: Manual tracking is fine. Spreadsheet with: Partner name, Referral date, Lead name, Deal closed date, Commission paid.
+
+At 10-50 customers: Need light automation. Options:
+- ** ReferralRock**: $50-200/month — full partner management, tracking, commission payments
+- **PartnerStack**: $500-2,000/month — marketplace-style, higher volume
+- **Manual + Zapier**: Connect Zoho to Google Sheets, automate lead attribution emails ($50/month)
+
+**Recommendation**: Start with manual spreadsheet (months 1-3), upgrade to ReferralRock or manual+Zapier at 20+ customers.
+
+**Commission payment logistics**:
+| Method | Pros | Cons | Best For |
+|--------|------|------|----------|
+| PayPal | Instant, low fees | Limited for larger amounts | <$500 commissions |
+| Bank transfer | Standard, trackable | Slower, requires invoicing | $500-2,000 |
+| Stripe Connect | Automated, auditable | Setup complexity | Year 2+ scale |
+| Check | Traditional | Slow, lost mail risk | Consultants who prefer check |
+
+**Partner performance tracking**:
+| Metric | Definition | Target | Review Frequency |
+|--------|-----------|--------|-----------------|
+| Referral rate | Partners who referred ≥1 lead in 90 days | 30%+ active |
+| Lead quality | Referrals who reached demo stage | 40%+ |
+| Close rate | Referrals who became paid customers | 25%+ |
+| Commission efficiency | Commission paid / Revenue generated | <20% of revenue |
+| Retention rate | Customers from partners still active at 12 months | 85%+ |
+
+**Partner communication cadence**:
+- Monthly: Send referral activity report (who you referred, status, next steps)
+- Quarterly: Send commission statement + performance summary
+- Ad-hoc: New case studies, product updates, co-marketing opportunities
+
+**At what point does partner channel become primary acquisition**:
+- Target: When partner referrals = 20% of new customers
+- At 10 partners referring consistently: Partners = Marcus network as #1 channel
+- At 25+ active partners: Partner channel > LinkedIn outbound (lower CAC, higher close rate)
+
+**Key insight**: Partner commissions are a math equation. At 15% first-year commission:
+- Customer at $1,499/mo × 12 = $17,988 ARR
+- Commission = $2,698
+- Customer LTV (3-year, 10% churn) = $48,000
+- Commission % = 5.6% of LTV — reasonable for the touch-free acquisition
+
+But at $2,000/month customers ($24,000 ARR), commission = $3,600 = 7.5% of LTV. Track actual numbers and adjust commission % if CAC from partners exceeds other channels.
+
+
+**Actions added**:
+- [ADDED] Create unique referral link system: optimizer.ai/?ref=[partner-name] — by July 2026
+- [ADDED] Build partner tracking spreadsheet (manual, months 1-3) — by June 21, 2026
+- [ADDED] Define commission terms clearly in partner agreement (attached to one-pager) — by June 14, 2026
+- [ADDED] Set up partner payment method (PayPal + bank transfer options) — by July 2026
+- [ADDED] Create monthly partner activity report template — by July 2026
+- [ADDED] Evaluate ReferralRock at 20+ customers (month 6) — automatic partner tracking
+
 
 ## Refinement — 2026-05-24
 ### Gap identified: Community services market missing specific CHC qualification numbers and RTO competitor landscape
