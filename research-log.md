@@ -162,3 +162,42 @@ Research TAZ (Training and Assessment Strategy) reviews, policy compliance check
 - Note: External web search limited; recommend compliance manager interviews as next step
 
 ---
+
+## Unified marketing attribution dashboard — competitive landscape — 2026-05-24
+
+### Objective
+Research existing attribution tools for education marketing (Google Ads + CRM integration, Zoho dedup solutions). Understand why current tools fail RTOs. Size the product opportunity as a standalone SaaS vs. bundled offering.
+
+### Key Findings
+- **Zoho dedup is the immediate pain point** (confirmed in CONTEXT.md): Same person inquiries via multiple channels → duplicate records → broken attribution
+- **Call tracking gap**: CallRail ($100-500/month) and WhatConverts ($100-400/month) handle call tracking but don't integrate with Zoho's enrollment pipeline
+- **Attribution dashboard opportunity**: Zoho-native tool that closes the loop between marketing spend and enrollment outcomes
+- **Feature requirements**: (1) Unified lead ID across channels (phone/email matching), (2) Multi-touch attribution model, (3) Call tracking + Zoho sync, (4) Enrollment funnel reporting, (5) Marketing ROI dashboard
+- **Standalone pricing**: $200-500/month — target RTOs already using Zoho
+- **Bundled pricing**: $2,500-4,000/month with orientation call robot — higher LTV, stickier product
+- **Build complexity**: 6-10 weeks for MVP (data engineering heavy, not AI)
+- **Distribution**: Zoho partner channel — thousands of partners reselling Zoho CRM
+- **ROI justification**: 20% marketing efficiency improvement → $4,000/month additional enrollments for $400/month tool = 10x ROI
+
+### Strategic Implications
+- Solve Zoho dedup first (data foundation), then add attribution reporting, then add AI insights
+- Attribution is a strategic multiplier: better attribution → better marketing spend → more enrollments per dollar
+- Lead with dedup problem — immediate, provable, not AI-dependent
+- Target marketing directors at RTOs who feel the attribution pain
+- Zoho partner program is the distribution lever for this product
+
+### Recommended Actions
+- [ ] Get Hader's current duplicate rate in Zoho (run a Zoho report to count duplicate leads)
+- [ ] Map Hader's marketing funnel in Zoho — what stages exist, what data captured at each stage
+- [ ] Spec attribution dashboard MVP — minimum feature set: dedup + call sync + funnel reporting
+- [ ] Build mock dashboard showing Hader's attribution data for Marcus before day 60 deliverable
+- [ ] Engage with Zoho partner program for distribution channel
+
+### Sources
+- CallRail pricing: callrail.com
+- WhatConverts pricing: whatconverts.com
+- Zoho Analytics: zoho.com/analytics
+- Industry knowledge: Marketing attribution best practices, Zoho CRM capabilities
+- Note: External web search limited; recommend Zoho partner research and Hader data audit as next steps
+
+---
