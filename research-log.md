@@ -1342,3 +1342,66 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Set up LinkedIn campaign tracking: outreach → reply → demo → POC → paid
 - [ADDED] Test message variants: ROI-focused vs. problem-focused vs. proof-focused
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: ROI calculator design and implementation
+
+**Original finding**: "Prepare pricing page and sales materials before day 60 deliverable — include ROI calculator" — mentioned but not detailed. What does the ROI calculator look like?
+
+**Research conducted**: B2B SaaS ROI calculator best practices, education sector ROI metrics, implementation approach.
+
+**Refined findings**:
+- **ROI Calculator Inputs** (user enters):
+  - Monthly call volume: [slider: 20-500]
+  - Average call duration (minutes): [slider: 5-30]
+  - Staff cost per hour ($): [input: default $35]
+  - Missed call rate (%): [slider: 10-50]
+  - Duplicate lead rate (%): [slider: 5-30]
+  
+- **ROI Calculator Outputs** (calculated):
+  - Time spent on calls/month: call volume × average duration / 60 = X hrs
+  - Monthly staff cost for calls: X hrs × $35 = $Y
+  - Missed calls/month: call volume × missed call rate = Z calls
+  - Revenue lost to missed calls: Z × average enrollment value = $A
+  - Duplicate leads cost: duplicate rate × call volume × duration = $B
+  
+- **Optimizer AI Cost Comparison**:
+  - Estimated AI cost: [calculated based on volume]
+  - Net savings: $Y - AI cost = $Z
+  - ROI: $Z / AI cost × 100 = X%
+  - Annual savings: $Z × 12 = $A
+
+- **Example calculation** (with defaults):
+  - 100 calls/month × 15 min = 25 hrs/month
+  - 25 hrs × $35/hr = $875/month staff cost
+  - 20% missed calls = 20 missed calls/month
+  - $3,000 avg enrollment × 20% dropout = $600 lost to missed calls
+  - Total pain: $1,475/month
+  - Optimizer AI cost: $1,499/month
+  - Net savings: -$24 (break-even point)
+  
+- **Better example** (higher volume):
+  - 200 calls/month × 15 min = 50 hrs/month
+  - 50 hrs × $35/hr = $1,750/month staff cost
+  - 20% missed calls = 40 missed × $3,000 = $2,400 lost
+  - Total pain: $4,150/month
+  - Optimizer AI cost: $2,499/month
+  - Net savings: $1,651/month (66% ROI)
+
+- **Implementation options**:
+  - Simple: Google Sheets with formulas (quick to build, shareable link)
+  - Medium: Web-based calculator (HTML + JavaScript, embeddable)
+  - Complex: Interactive tool with CRM integration (high conversion, high effort)
+
+- **Distribution**: Embed on website, share via LinkedIn, include in email nurture sequence, show at demos.
+
+**Key insight**: ROI calculator should show two numbers: pain (what RTO is spending) and savings (what Optimizer AI would cost). If pain > cost, sale is easy. If pain < cost, focus on qualitative value (compliance, 24/7 coverage, no missed calls).
+
+**Actions added**:
+- [ADDED] Build ROI calculator in Google Sheets (quick, shareable) — by June 14, 2026
+- [ADDED] Test with Marcus (enter Hader's actual data) — validate calculator accuracy
+- [ADDED] Create embeddable web version (HTML) for website — by July 2026
+- [ADDED] Track ROI calculator conversions: views → demo requests → paid customers
+
