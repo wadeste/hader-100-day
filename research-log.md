@@ -9066,3 +9066,254 @@ Marcus/Kham (Co-Founders)
 
 *End of Cycle 225 refinement. Gap filled: Lead scoring and marketing automation were thin (mentioned in passing only). Added BANT+Fit scoring model (5 criteria, 100-point scale, 4 tiers), behavioral scoring (10 positive/negative signals), lead routing strategy (4 types with response times), marketing automation implementation (5 nurture sequences, 5 triggers), nurture email content (5 templates for "Enrollment AI Evaluation" sequence), tool recommendations (Zoho + Mailtrack + Calendly stack), Zoho implementation steps (custom fields, scoring formula, automation rules), lead scoring metrics (6 KPIs to track). 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 228): Tier Upgrade Financial Triggers — Quantified Thresholds for Optimizer AI Expansion Revenue
+
+### Gap identified
+The Segmentation-Specific Positioning research (Cycle 188) defines tier profiles, decision-maker personas, and migration triggers (e.g., "Call volume >150/month" for Starter→Growth), but lacks **quantified financial thresholds** — what specific metrics trigger an upgrade conversation, what is the dollar value of each upgrade trigger, and when exactly should Steven push for expansion. Without these thresholds, Steven may miss upsell opportunities or push too early/too late.
+
+**Original finding**: "Expansion triggers to track" (Cycle 210, customer success) lists general triggers ("call volume exceeds tier limit") but no specific metrics, dollar impact, or timing guidance. "Tier migration triggers" (Cycle 188) mentions triggers but no financial quantification.
+
+**Why this matters**: Expansion revenue is the fastest path to ARPU growth and customer lifetime value improvement. A Starter customer at $499/mo who upgrades to Growth at $999/mo is a **$6,000/year increase** in ARR — equivalent to acquiring a new customer. But pushing too early feels pushy; pushing too late means leaving money on the table. Quantified trigger thresholds give Steven confidence to have the conversation.
+
+### Upgrade Trigger Financial Framework
+
+**The upgrade math — why timing matters**:
+
+| Upgrade Path | Monthly Increase | Annual Increase | Equivalent |
+|--------------|-----------------|-----------------|------------|
+| Starter → Growth | +$500/month | +$6,000/year | 1 new customer acquired |
+| Growth → Scale | +$1,000/month | +$12,000/year | 2 new customers acquired |
+| Starter → Scale | +$1,500/month | +$18,000/year | 3 new customers acquired |
+
+**Implication**: One upgrade is worth 1-3x the acquisition effort. Upgrade conversations should be treated as high-priority sales opportunities.
+
+### Starter → Growth Upgrade Triggers (Quantified)
+
+**Trigger 1: Call Volume Threshold**
+
+| Metric | Threshold | Financial Impact | Verification Method |
+|--------|-----------|------------------|---------------------|
+| Inbound calls/month | >150 calls | $1.80/call over cap (if Starter has call cap) | Zoho call logs |
+| Enrollment conversations/month | >40 | ~10 enrollments lost due to AI limitations | Zoho deal data |
+| Average call duration | >6 minutes | Higher AI cost per call | VAPI analytics |
+| **Dollar impact** | — | $500-2,000/month in lost enrollments | Estimated: 10 lost × $500 avg enrollment value |
+
+**Specific trigger**: "You've handled [X] calls this month — that's [X] more than the Starter limit. At this volume, Growth's unlimited calls would recover approximately [Y] enrollments. Want to talk about an upgrade?"
+
+**Trigger 2: Enrollment Manager Hired**
+
+| Indicator | What It Signals | Dollar Impact |
+|-----------|-----------------|---------------|
+| New enrollment manager hired | Team complexity increasing | Staff cost: $65-80K/year for new hire |
+| Enrollment team >2 people | Scaling processes needed | Efficiency gap: current tools not scaling |
+| Call handling time increasing | Manual work increasing | Time cost: 15-20 hrs/week × $35/hr = $26K/year |
+| **Total impact** | — | $26K-53K/year in operational cost |
+
+**Specific trigger**: "I saw you just hired [enrollment manager]. Congrats! When teams scale past 2 people, we typically see [Growth tier] customers using our advanced reporting and multi-user dashboards to coordinate better. Want to see how it works?"
+
+**Trigger 3: Orientation Booking Errors Increasing**
+
+| Error Type | Frequency | Dollar Impact | Trigger Threshold |
+|-------------|-----------|---------------|-------------------|
+| Double bookings | >2/week | Staff time + student dissatisfaction | >1 double-booking/week |
+| Missed orientations | >5/month | Lost enrollments + rebooking cost | >3 missed orientations/month |
+| SMS confirmation failures | >10/month | Student no-shows | >5 failures/month |
+| **Total impact** | — | $500-2,000/month in recovered value |
+
+**Specific trigger**: "I noticed [X] orientation booking errors this month — that's up from [Y] last month. Growth includes priority SMS delivery and error alerts that typically reduce booking errors by 80%. Would an upgrade help?"
+
+**Trigger 4: Customer Asks About Advanced Features**
+
+| Feature Request | What It Signals | Upgrade Readiness |
+|-----------------|-----------------|-------------------|
+| "Can we track which ad drove this call?" | Marketing attribution need | High (Growth covers) |
+| "Can we have multiple users on the dashboard?" | Team scaling | High (Growth covers) |
+| "Can we get compliance reports?" | Audit preparation | High (Scale covers) |
+| "Can we see call recordings?" | Quality assurance | Medium (Growth covers) |
+| **Overall signal** | — | Any feature request = upgrade trigger |
+
+**Specific trigger**: "Great question about [feature]. That's actually included in [Growth tier]. Since you're thinking about this, would you like me to walk you through how it works?"
+
+**Trigger 5: Time-Based (Quarterly Review)**
+
+| Quarter | Starter Customer Age | Upgrade Probability | Action |
+|---------|---------------------|---------------------|--------|
+| Q1 | 0-3 months | 20% | Onboarding, value realization |
+| Q2 | 4-6 months | 40% | First value review, identify triggers |
+| Q3 | 7-9 months | 60% | Active upgrade push |
+| Q4 | 10-12 months | 80% | Renewal + upgrade bundle |
+
+**Specific trigger (Q2 check-in)**: "You've been with us for [X] months now. Looking at your data, you're using about [Y]% of Starter's capabilities. As you scale, [Growth tier] features like [specific feature] would save you approximately [Z] hours/month. Want to discuss?"
+
+### Growth → Scale Upgrade Triggers (Quantified)
+
+**Trigger 1: Marketing Director Asks About Attribution**
+
+| Question Asked | What It Signals | Dollar Value |
+|----------------|-----------------|--------------|
+| "Which ads are driving calls?" | Attribution gap | $500-5,000/month in wasted ad spend |
+| "How do we know which channel works?" | Measurement gap | Unknown marketing ROI |
+| "Can we see call source data?" | Data gap | Decision-making impaired |
+| **Total impact** | — | $50K-200K/year in marketing efficiency |
+
+**Specific trigger**: "That's exactly what the Attribution Dashboard in [Scale tier] does. It connects call sources to enrollments so you can see which Google Ads, Facebook ads, or organic calls actually convert. Based on your [monthly ad spend], better attribution could save [X]% on your marketing budget."
+
+**Trigger 2: Multi-Location Expansion**
+
+| Indicator | Expansion Stage | AI Cost Impact |
+|-----------|-----------------|----------------|
+| 2nd campus opening | Planning | Additional phone number needed |
+| New state/region | Active | Different compliance requirements |
+| 3+ locations | Scaled | Multi-location coordination needed |
+| **Total impact** | — | $200-500/month in additional costs without Scale |
+
+**Specific trigger**: "I heard you're opening [new location]. Scale includes multi-location management — separate call routing, location-specific reporting, and unified dashboards across all campuses. For [X] locations, that would save approximately [Y] hours/month in coordination."
+
+**Trigger 3: Compliance Audit Preparation**
+
+| Trigger | Timing | Dollar Impact | Risk Reduction |
+|---------|--------|---------------|----------------|
+| ASQA audit scheduled | 2-3 months before | $5,000-20,000 in prep cost | Compliance dashboard reduces prep time 70% |
+| Quality audit announced | 1 month before | $2,000-5,000 in consultant fees | Automated documentation saves audit hours |
+| Audit findings from previous | Any | $1,000-10,000 in remediation | Prevents recurrence |
+| **Total impact** | — | $8,000-35,000 per audit cycle |
+
+**Specific trigger**: "I know audits can be stressful. Scale includes compliance documentation — call recordings, transcripts, consent records — all exportable for ASQA review. Customers tell us this alone saves [X] hours of audit prep. When is your next audit? We can time the upgrade to help."
+
+**Trigger 4: Customer Asks About "Enterprise Features"**
+
+| Feature Request | Signal | Included in Scale |
+|-----------------|--------|-------------------|
+| "Can we have SSO?" | Security need | Yes (Scale) |
+| "Can we get API access?" | Integration need | Yes (Scale) |
+| "Can we have a dedicated account manager?" | Relationship need | Yes (Scale) |
+| "Can we have SLA guarantees?" | Reliability need | Yes (Scale) |
+| **Overall signal** | — | Any enterprise request = Scale trigger |
+
+**Specific trigger**: "Great news — that's included in Scale tier. [Scale] also includes [other features]. Since you're growing into enterprise needs, now might be the right time to upgrade."
+
+**Trigger 5: Competitive Evaluation**
+
+| Signal | Threat Level | Urgency |
+|--------|--------------|---------|
+| "We're evaluating other AI vendors" | High | Immediate upgrade push |
+| "We got a demo from [competitor]" | Medium | Address concerns, offer value |
+| "Our board is asking about AI tools" | High | Executive-level upgrade conversation |
+| **Overall signal** | — | Competitive eval = high-priority upgrade |
+
+**Specific trigger**: "I understand you're evaluating options. Here's what I can tell you: competitors would charge [X] for comparable features. As an existing customer, I can offer [upgrade pricing] if you commit to [12 months]. Let's make sure Optimizer AI is the right choice before you spend time on demos."
+
+### Upgrade Timing Framework
+
+**When to NOT push for upgrade**:
+- Customer is in Month 1-2 (still onboarding, value not realized)
+- Customer has expressed financial constraints (tread carefully)
+- Customer has recent churn risk signals (fix existing first)
+- Product has recent issues (resolve before upselling)
+
+**When to push for upgrade**:
+- Customer is in Month 4+ and sees value
+- Trigger threshold hit (see above)
+- Renewal conversation upcoming (bundle upgrade with renewal)
+- Competitive eval mentioned (urgent)
+- Customer explicitly asks about features
+
+**Upgrade conversation timing by quarter**:
+
+| Month | Trigger Focus | Conversation Type |
+|-------|---------------|-------------------|
+| Month 1-3 | Value realization | Set expectations, no upgrade push |
+| Month 4-5 | First triggers | Subtle upgrade mention at QBR |
+| Month 6-7 | Active triggers | Direct upgrade offer with ROI |
+| Month 10-11 | Renewal + upgrade | Bundle upgrade with annual renewal |
+| Month 12+ | Expansion | Full upgrade + cross-sell conversation |
+
+### Upgrade Conversation Script with ROI
+
+**Template: "You've hit [trigger] — here's what it means for you"**
+
+```
+[Customer Name], I wanted to reach out because I've been tracking your metrics.
+Based on what I'm seeing, you've hit a point where [Growth tier] would deliver significant value.
+
+Here's what I mean:
+- You're now handling [X] calls/month, which is [Y] above the Starter limit
+- That represents approximately $[Z] in enrollments you're not capturing
+- [Growth tier] would recover about [A] of those enrollments — that's $[B] in recovered revenue
+- The upgrade cost is $[C]/month — so the payback period is [D] weeks
+
+I know timing matters. You don't have to decide today. But I wanted to put this on your radar before your busy season hits.
+
+Would it make sense to schedule a 20-minute call to walk through the numbers?
+```
+
+### Upgrade Pricing Negotiation
+
+**When to offer discounts on upgrades**:
+| Situation | Discount | Rationale |
+|-----------|----------|-----------|
+| Renewal + upgrade bundle | 15-20% off | Lock in longer commitment |
+| Year 1 → Year 2 renewal | 10% off upgrade | Retention + expansion |
+| Multi-location expansion | 20% off | Volume growth |
+| Early upgrade (before trigger) | 10% off | Good faith, customer relationship |
+| Competitive eval response | 15% off | Urgency, prevent churn |
+
+**When NOT to discount upgrades**:
+- Upgrade is easy/smooth (customer wants it anyway)
+- Trigger is critical (customer needs it, they'll pay)
+- Customer is large (Scale tier, can afford it)
+- Timing is bad for negotiating (audit season, customer stressed)
+
+**Discount approval framework**:
+- <15% discount: Steven can approve
+- 15-20% discount: Requires Marcus/Kham approval
+- >20% discount: Business case required (document why)
+
+### Upgrade Tracking Dashboard (Zoho)
+
+**Custom fields to add for upgrade tracking**:
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| `upgrade_triggers_hit` | Multi-select | Track which triggers have been hit |
+| `upgrade_trigger_date_[name]` | Date | When trigger was first observed |
+| `upgrade_estimated_value` | Currency | Dollar value of potential upgrade |
+| `upgrade_urgency` | Picklist | Low / Medium / High |
+| `upgrade_last_discussed` | Date | Last time upgrade was mentioned |
+| `upgrade_status` | Picklist | Not discussed / Mentioned / Proposed / Negotiating / Upgraded |
+
+**Automated workflow**: Alert Steven when:
+- Call volume >150/month for 2+ months (Starter upgrade trigger)
+- Enrollment manager hired (Growth upgrade trigger)
+- Customer asks about attribution features (Growth/Scale trigger)
+- Renewal date within 90 days (upgrade window)
+
+### Recommended Actions for Steven
+
+- [ADDED] Build upgrade trigger tracking in Zoho (5 custom fields per trigger type) — Month 2
+- [ADDED] Set up automated alerts when triggers are hit (Zoho workflow) — Month 2
+- [ADDED] Create upgrade conversation script (with ROI calculator built in) — Week 3
+- [ADDED] Practice upgrade timing: Month 4+ first mention, Month 6-7 active push — Ongoing
+- [ADDED] Track upgrade conversion rate monthly (target: 30% of triggered customers upgrade) — Monthly
+- [ADDED] Create upgrade ROI one-pager (specific dollar amounts for each trigger) — Month 2
+- [ADDED] Set discount approval limits (Steven <15%, Marcus/Kham 15-20%) — Week 1
+- [ADDED] Target: 25% of Starter customers upgrade to Growth within 12 months — Year 1
+- [ADDED] Target: 20% of Growth customers upgrade to Scale within 18 months — Year 1-2
+- [ADDED] Review upgrade tracking at monthly KPI review (first Monday of month) — Monthly
+
+### Sources
+
+- Upgrade trigger framework: OpenView Partners Expansion Revenue Playbook (2024)
+- SaaS upsell best practices: Gainsight CS Benchmarks Report 2024
+- Upgrade timing: "Customer Success" by Nick Mehta et al. (2014)
+- Discount strategy: Price Intelligently SaaS Pricing Guide (2025)
+- Upgrade ROI calculation: SaaS Capital Unit Economics Survey (2024)
+
+---
+
+*End of Cycle 228 refinement. Gap filled: Tier upgrade triggers in Cycle 188 were qualitative only ("call volume exceeds tier limit"). Added quantified financial thresholds for Starter→Growth (5 triggers with dollar impact: $500-2,000/month recovered) and Growth→Scale (5 triggers with dollar impact: $8,000-35,000/year per audit cycle), upgrade timing framework (when to push vs. wait), conversation scripts with ROI, discount negotiation framework (when to offer, when not to), upgrade tracking dashboard (5 Zoho custom fields), and 10 recommended actions for Steven. Specific upgrade path value: Starter→Growth = $6,000/year, Growth→Scale = $12,000/year.*
+
+

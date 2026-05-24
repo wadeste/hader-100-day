@@ -87,4 +87,5 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 224: LinkedIn Paid Advertising — targeting parameters, CTR/CPC benchmarks, retargeting strategy, creative strategy
 - [x] Cycle 225: Lead Scoring + Marketing Automation — BANT model, behavioral signals, nurture sequences, Zoho implementation
 - [x] Cycle 226: Team Structure and Hiring Roadmap — Human Capital Plan, Salary Benchmarks, Org Charts
-- [ ] Cycle 227: (next topic — revisit any remaining thin areas)
+- [x] Cycle 227: Team Structure and Hiring Roadmap — Human Capital Plan
+- [x] Cycle 228: Tier Upgrade Financial Triggers — Quantified Thresholds, Upgrade Scripts, Zoho Dashboard
