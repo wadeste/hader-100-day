@@ -2204,6 +2204,142 @@ Research best practices for executive presentations of 100-day plans. Synthesize
 - [ADDED] Set up shared folder for all deliverable materials — by June 7, 2026
 - [ADDED] Confirm Marcus/Kham availability for day 60 presentation — by June 7, 2026
 
+---
+
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: Executive summary template, rehearsal guide, and deliverable tracking system missing
+
+**Original finding**: "Present strategy at day 60" and "Present 100-day plan at day 100" — no executive summary template, no rehearsal guide, no deliverable tracking system for the 100-day plan execution itself.
+
+
+**Refined findings**:
+
+**One-page executive summary template** (send to Marcus 48 hours before presentation):
+
+```
+# Optimizer AI: 12-24 Month Strategy — Executive Summary
+**Date**: [Day 60 — June 28, 2026]
+**Prepared by**: Steven | **Status**: DRAFT (awaiting [X] data)
+
+---
+## The Opportunity
+- Market gap: No RTO-specific AI platform exists in Australia
+- First-mover window: 12-18 months before competitors catch up
+- Target: [433] RTO customers × [$30k] ARR = [$13M] ARR → [$10M] EBITDA
+
+## Our Approach
+1. **Positioning**: "AI for RTO Enrollment — From First Call to Enrolled Student"
+2. **Product priority**: Orientation call robot → Attribution dashboard → Onboarding chatbot
+3. **GTM channels**: Marcus network → Zoho partners → Content/inbound
+4. **Pricing**: $499-2,999/month tiered SaaS
+
+## Customer Targets
+| Year | Customers | MRR | ARR |
+|------|-----------|-----|-----|
+| Y1 | 50 | $75k | $900k |
+| Y2 | 150 | $300k | $3.6M |
+| Y3 | 300 | $600k | $7.2M |
+| Y4 | 433 | $1M | $12M |
+
+## Key Decisions Needed
+1. **Approve positioning** (Options A/B/C — recommend Option A)
+2. **Confirm $12-14k/month marketing budget** (Year 1)
+3. **Authorize SDR hire at 20 customers** (month 6-9)
+4. **Resolve data gaps** (Hader enrollment volume, EBITDA scope)
+
+
+## Key Risks
+- Competitor enters before we build customer base (mitigation: annual contracts, Zoho partner)
+- Target inconsistency: 1,000 enrollments vs. $10M EBITDA need reconciliation (flagged)
+- AI compliance: APP risk on US-based APIs (mitigation: Australian-hosted AI)
+
+
+## What We Need from You
+- [ ] Current Hader monthly enrollment volume (blocks all planning)
+- [ ] Clarification: Does $10M EBITDA include Hader revenue?
+- [ ] 5-10 RTO contacts for warm introductions
+- [ ] Permission to use Hader call data for AI training
+
+## Next Steps
+- Day 100 (Aug 7): Present operational 100-day plan with milestones
+- Month 6: First 5 customers, SDR hire decision
+- Month 12: 50 customers, content/inbound pipeline flowing
+```
+
+
+
+**Day 60 presentation rehearsal guide** (30 minutes before presentation day):
+
+
+| Timing | Activity | Purpose |
+|--------|----------|--------|
+| **Day -2** | Rehearse full presentation aloud (timer on) | Identify timing issues, stumble words |
+| **Day -1 AM** | Practice Q&A: Marcus/Kham likely questions | Prepare responses, not just slides |
+| **Day -1 PM** | Final check: laptop charged, projector tested, slides loaded | No tech failures |
+| **Day -1** | Send final agenda to Marcus: "30 min presentation, 15 min Q&A" | Set expectations |
+| **Day 60** | Arrive 10 min early, have water, breathe | Calm and confident |
+| **Day 60 + 24hrs** | Send follow-up email: summary, decisions needed, next steps | Closes the loop |
+
+
+**Q&A preparation — likely Marcus/Kham questions**:
+
+| Question | Anticipated Answer |
+|----------|-------------------|
+| "Why can't you hit $10M EBITDA with 20 customers?" | Clarify 1,000 enrollments ≠ end target; need 433 customers |
+| "What if a competitor copies this?" | 12-18 month integration moat + annual contracts + training data |
+| "What if ASQA bans AI enrollment?" | ASQA has not prohibited AI; our compliance features pass audits |
+| "What's the biggest risk?" | Competitor enters before we lock in first 20 customers |
+| "How do we measure success?" | Monthly KPIs: MRR, customers, CAC, containment rate |
+
+**What NOT to say in presentation**:
+- "We're still gathering data" (instead: say what data is needed and when)
+- "The market is big" without specific numbers
+- "We're first-mover" without explaining defensibility
+- "AI will solve everything" without caveats
+
+
+**100-day plan tracking system** (for day 100 deliverable and beyond):
+
+After day 60, track execution vs. plan weekly:
+
+
+| Milestone | Target Date | Owner | Status | Notes |
+|-----------|------------|-------|--------|-------|
+| Marcus data received | June 7 | Marcus | ☐ | Blocks all planning |
+| Zoho partner registered | June 1 | Steven | ☐ | |
+| ASQA compliance guide published | June 21 | Steven | ☐ | |
+| LinkedIn page launched | June 14 | Steven | ☐ | |
+| Discovery interviews complete | June 21 | Steven | ☐ | |
+| Hader POC running | June 21 | Kham | ☐ | |
+| Day 60 presentation | June 28 | Steven | ☐ | |
+| First external customer POC | July 2026 | Steven | ☐ | |
+| Zoho Marketplace applied | August 2026 | Kham | ☐ | |
+| 5 customers on paid | Month 3 | Steven | ☐ | |
+| 10 customers on paid | Month 6 | Steven | ☐ | |
+| 25 customers on paid | Month 9 | Steven | ☐ | |
+| 50 customers on paid | Month 12 | Steven | ☐ | |
+
+**What goes into the day 100 deliverable** (executive template):
+1. **Performance vs. day 60 promises**: What did we hit? What missed?
+2. **Updated numbers**: Actual MRR, actual customers, actual CAC
+3. **Revised strategy**: What changed based on learning?
+4. **Next 100 days plan**: Milestones, owners, dates
+5. **Ask**: What decisions, budget, resources needed?
+
+
+
+**Key insight**: The day 60 presentation is not the end — it's the beginning. Marcus and Kham need to leave day 60 with clear decisions to make, a plan they can track, and confidence in Steven's execution. The 100-day plan at day 100 proves execution capability.
+
+
+**Actions added**:
+- [ADDED] Write one-page executive summary template — by June 21, 2026
+- [ADDED] Draft Q&A preparation document (10 likely questions + answers) — by June 21, 2026
+- [ADDED] Schedule rehearsal session with Kham (30 min) — by June 27, 2026
+- [ADDED] Set up shared tracking folder (Google Drive) for 100-day milestones — by June 7, 2026
+- [ADDED] Create weekly status report template (15-min update to Marcus) — by June 14, 2026
+- [ADDED] Prepare day 100 deliverable outline (performance + next 100 days) — by August 1, 2026
+- [ADDED] Schedule day 100 presentation with Marcus/Kham — by August 1, 2026
+
 
 ## Community services qualification expansion research — 2026-05-24
 
