@@ -2586,3 +2586,84 @@ The original research treated AI skill packages as "objection-handling prompts i
 - [ADDED] Track course enrollment → SaaS conversion rate (target: 10%) — ongoing
 - [ADDED] Partner with TAFE or private RTO for AI skills course co-marketing — by Q4 2026
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: Marketing compliance specifics for RTOs — missing ACL requirements, advertising standards, and course information regulations
+
+**Original finding**: "Marketing compliance for education providers" listed in objective but only DNC register mentioned in findings. No detail on Australian Consumer Law (ACL) requirements for course advertising, fee disclosure rules, or what RTOs must include in promotional materials.
+
+**Refined findings**:
+
+**Australian Consumer Law (ACL) compliance for RTO marketing** (most RTOs violate at least one of these):
+
+| Requirement | ACL Reference | What RTOs Must Do | Penalty for Non-Compliance |
+|-------------|--------------|-------------------|---------------------------|
+| **Fee disclosure** | ACL s.22-23 | Must clearly state total course cost, all fees, payment terms before enrollment | Misleading conduct, fines up to $10M for corporations |
+| **No false representations** | ACL s.18 | Cannot claim courses are "accredited" if not on training.gov.au | Consumer guarantees, refunds, ACCC enforcement |
+| **Clear terms/conditions** | ACL s.21 | Refund policy must be prominent, not buried | Enforcement action, reputational damage |
+| **Comparative claims** | ACL s.19 | Cannot falsely compare with competitor RTOs | Misleading conduct, ACCC investigation |
+| **Guarantees** | ACL ss.51-54 | Consumer guarantees under Australian Consumer Law cannot be excluded | Student refunds regardless of contract |
+
+**ASQA marketing requirements** (Specific Standards 4.1-4.4):
+
+| Requirement | Standard | What RTOs Must Include |
+|-------------|----------|------------------------|
+| **Course information accuracy** | Standard 4.1 | Accurate course descriptions, entry requirements, assessment methods |
+| **USI information** | Standard 4.2 | Must inform students about USI requirements before enrollment |
+| **LLN information** | Standard 4.3 | Must inform students about LLN requirements |
+| **Complaints process** | Standard 4.4 | Must provide complaints and appeals information |
+
+**AI's role in marketing compliance**:
+
+The orientation call robot must capture the following disclosures during the call (verbatim or reference to documentation):
+
+**Required disclosures per AI enrollment call**:
+1. Total course fee (exact dollar amount OR "see website for current fees")
+2. Payment terms and deposit requirements
+3. Refund policy (or "full policy available on request")
+4. USI requirement ("A USI is required before enrollment can be completed")
+5. LLN assessment ("An LLN assessment is required before enrollment")
+6. Complaints process ("Our complaints process is available on our website")
+
+**Critical AI compliance risk**: If the AI gives incorrect fee information, the RTO is still liable under ACL. Mitigation: AI should not quote specific prices — it should direct callers to the website or enrollment form for accurate fee information.
+
+**Script compliance checklist for orientation call robot**:
+| Element | Required in Script | Notes |
+|---------|-------------------|-------|
+| Privacy notice (APP 5) | YES — at call start | "This call may be recorded and uses AI. Your information is handled per our Privacy Policy." |
+| Fee range (ACL) | Reference only | "For accurate fee information, please visit [URL] or speak with our team" — NOT specific amounts |
+| Refund policy (ACL) | Reference + available | "Our refund policy is available on our website" |
+| USI requirement (ASQA) | YES | "A USI is required before enrollment. Do you have one?" |
+| LLN assessment (ASQA) | YES | "An LLN assessment will be scheduled as part of enrollment" |
+| Complaints process (ASQA) | Reference | "Our complaints process is available on request" |
+| International students (ESOS) | Exclusion flag | If caller sounds international: "Are you currently on a student visa? I'll connect you with our international team." |
+
+**ACCC guidance on AI and consumer law** (September 2024 update):
+- ACCC published guidance on AI and ACL compliance (September 2024)
+- Key point: Businesses are responsible for AI-generated recommendations and outcomes, not just the AI itself
+- "If your AI system makes a misleading representation, your business is liable"
+- Implication: Optimizer AI must test all AI outputs for ACL compliance before deployment
+
+**What this means for the product roadmap**:
+1. Orientation call robot MVP must include compliance disclosure prompts (not optional)
+2. AI should never quote specific prices — always reference written materials
+3. Build "compliance check" into AI script review workflow (weekly review of AI calls)
+4. Create audit log export that includes which disclosures were given
+
+**Strategic implication**: Marketing compliance is a differentiator if built in. Most AI vendors don't think about ACL/ASQA marketing requirements. Optimizer AI can say: "Our AI doesn't just save you time — it protects you from compliance breaches." But this requires explicit design, not afterthought.
+
+**Actions added**:
+- [ADDED] Add ACL/ASQA marketing compliance checklist to orientation call robot script — by June 14, 2026
+- [ADDED] Build "AI output compliance review" workflow (weekly random sample of 5 calls) — by June 21, 2026
+- [ADDED] Add "compliance audit log" feature to dashboard: exports which disclosures were given per call — by July 2026
+- [ADDED] Create "RTO AI Marketing Compliance Guide" as content asset (positions Optimizer AI as compliance leader) — by July 2026
+- [ADDED] Test AI outputs for ACL compliance before each script update — ongoing QA process
+
+**Sources**
+- ASQA Standards 2015: asqa.gov.au/standards (Standards 4.1-4.4 for marketing)
+- Australian Consumer Law: consumerlaw.gov.au (sections 18-23, 51-54)
+- ACCC AI guidance: accc.gov.au (September 2024 AI and consumer law guidance)
+- OAIC APP guidance: oaic.gov.au (APP 5 — collection notice requirements)
+- ESOS Act: education.gov.au/ecos (international student requirements)
+
