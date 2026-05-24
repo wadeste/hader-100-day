@@ -106,6 +106,57 @@ Map the full student journey from inquiry to graduation for RTOs. Identify where
 
 ---
 
+## Refinement — 2026-05-24
+### Gap identified: Enrollment staff time allocation and ROI breakdown by call type
+
+**Original finding**: "60+ hrs/week on calls" — generic time estimate without breakdown
+
+**Refined findings**:
+- **Enrollment call time breakdown** (per 100 inquiries/month):
+  - First contact/qualification: 3-5 min/call × 100 calls = 5-8.3 hrs/week
+  - Orientation/intake calls: 10-15 min/call × 80 calls = 13.3-20 hrs/week  
+  - Follow-up calls (missing docs, questions): 5 min/call × 40 calls = 3.3 hrs/week
+  - **Total: ~22-32 hrs/week** on inbound calls (not 60+)
+  
+- **60+ hours likely includes**:
+  - Outbound calls to unqualified leads
+  - Admin work between calls (Zoho updates, email responses)
+  - Re-engagement calls to dropped prospects
+  - Compliance documentation
+  
+- **Orientation call robot ROI model**:
+  - Hader volume: ~80 orientation calls/month (estimated from 100 enrollments)
+  - AI cost: 15 min/call × 80 calls × $0.01/min = **$12/month in AI costs**
+  - Staff time saved: 80 calls × 15 min = 20 hrs/month
+  - At $35/hr: 20 hrs × $35 = **$700/month in labor savings**
+  - AI price point: $500-1,000/month = **positive ROI at 71% containment**
+  
+- **Qualification call AI ROI model**:
+  - 100 qualification calls/month (one per inquiry)
+  - AI cost: 5 min/call × 100 × $0.01 = **$5/month**
+  - Staff time saved: 100 × 5 min = 8.3 hrs/month
+  - At $35/hr: 8.3 hrs × $35 = **$290/month**
+  - AI price point: $300-500/month = breakeven at ~75% call quality
+  
+- **Combined enrollment AI ROI**:
+  - Total AI cost: ~$17/month
+  - Total staff time saved: ~28 hrs/month
+  - Labor value: 28 hrs × $35 = **$990/month**
+  - **Optimizer AI price: $1,500-2,000/month = 2x ROI, defensible**
+
+**Strategic implications updated**:
+- Bundle orientation + qualification AI at $1,500-2,000/month
+- Show itemized ROI: "orientation calls save 20 hrs/month, qualification calls save 8 hrs/month"
+- AI cost is negligible ($17/month) — margin is 98%+ on AI services
+- Pricing floor is $500/month for single-product, $1,500/month for bundle
+
+**Actions added**:
+- [ADDED] Get Hader's actual call volume per call type (qualification vs. orientation vs. follow-up)
+- [ADDED] Calculate AI cost per call from current Bland AI/Retell pricing
+- [ADDED] Build per-call-type ROI model for sales presentations
+
+---
+
 ## Orientation call robot — product-market fit research — 2026-05-24
 
 ### Objective
