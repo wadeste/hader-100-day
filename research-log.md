@@ -3029,3 +3029,215 @@ Risk: If top 10 RTOs account for 40% of enrollments:
 ---
 
 *End of Cycle 160 refinement. Gap filled: Community services qualification overview (5 main qualifications), market size ($1B/year), unique regulatory requirements (SIRTISS, ACWA), AI opportunity (compliance, placement tracking), competitive landscape (low AI adoption), expansion timeline (3 phases), recommended actions.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 161): Unified Marketing Attribution Dashboard — RTO-Specific Features, Integration Requirements, and Product Specification
+
+### Gap identified: Research mentions "attribution dashboard" but lacks specific features for RTOs, integration requirements with Zoho/Google Ads, and how to position it as standalone SaaS vs. bundled
+
+**Original finding**: "Unified marketing attribution dashboard — competitive landscape" in queue requires researching existing attribution tools for education marketing (Google Ads + CRM integration, Zoho dedup solutions), understanding why current tools fail RTOs, and sizing the product opportunity as a standalone SaaS vs. bundled offering. Current research mentions "attribution dashboard" in pricing but lacks product specification.
+
+**Why this matters**: The attribution dashboard could be a separate product (add-on or standalone) that addresses a real pain point (RTOs can't track which marketing channel drives enrollments). Understanding the specific features, integrations, and positioning helps prioritize development and sales.
+
+### RTO Attribution Challenges
+
+**Why RTOs struggle with attribution:**
+
+1. **Multi-channel complexity**
+   - Google Ads (lead form submissions)
+   - Facebook/Instagram (messenger inquiries)
+   - Website forms (contact requests)
+   - Phone calls (direct inquiries)
+   - Referrals (word of mouth)
+   - Each channel has different tracking capabilities
+
+2. **Lead-to-enrollment lag time**
+   - Student considers for weeks/months
+   - Multiple touchpoints before enrollment
+   - Hard to attribute final enrollment to first touch
+
+3. **Zoho dedup challenges**
+   - Same student contacts via multiple channels
+   - Duplicate records inflate metrics
+   - Manual dedup is time-consuming
+
+4. **No unified view**
+   - Marketing sees: leads generated
+   - Enrollment sees: calls handled
+   - CEO sees: enrollments completed
+   - No single source of truth
+
+### Attribution Dashboard Feature Spec
+
+**Core features (MVP):**
+
+| Feature | Description | Priority |
+|---------|-------------|----------|
+| Multi-channel tracking | Connect Google Ads, Facebook, website forms, phone | P0 |
+| Lead source tagging | Tag each lead with source, campaign, keyword | P0 |
+| Zoho sync | Sync leads to Zoho, dedup automatically | P0 |
+| Enrollment attribution | Track which leads become enrollments | P0 |
+| ROAS reporting | Revenue per marketing channel | P1 |
+| UTM parameter builder | Standardize campaign tracking | P1 |
+| Call tracking | Track which calls came from which ads | P2 |
+
+**Advanced features (V2):**
+
+| Feature | Description | Priority |
+|---------|-------------|----------|
+| Multi-touch attribution | Credit enrollments to multiple touchpoints | P2 |
+| Campaign ROI by course | Which courses are most profitable to market | P2 |
+| Predictive lead scoring | Which leads most likely to enroll | P3 |
+| Automated reporting | Weekly/monthly email reports | P3 |
+
+### Integration Requirements
+
+**Google Ads integration:**
+- Import conversion data (form submissions, phone calls)
+- Track cost per lead (CPL) by campaign
+- Monitor ROAS in real-time
+
+**Facebook/Meta integration:**
+- Track lead form submissions
+- Import messenger inquiries
+- Measure cost per lead and lead quality
+
+**Zoho CRM integration:**
+- Push leads to Zoho with source tagging
+- Sync enrollment data back to attribution
+- Automatic dedup (match by name + email + phone)
+- Custom fields for course interest, funding type
+
+**Phone system integration:**
+- Call tracking numbers (different numbers for different ads)
+- Call duration and outcome
+- Call-to-enrollment conversion
+
+### Data Flow
+
+```
+[Google Ads] → Lead Form → [Attribution Dashboard] → [Zoho CRM]
+                        ↓
+                Enrollment Status ← [Enrollment System]
+                        ↓
+                Attribution Report (leads → enrollments by channel)
+```
+
+### Standalone vs. Bundled Positioning
+
+**Standalone (separate product):**
+- Price: $199/mo standalone
+- Target: RTOs with existing enrollment AI (not Optimizer AI customers)
+- Pros: New market, additional revenue stream
+- Cons: Different sales motion, additional support burden
+
+**Bundled (add-on to enrollment AI):**
+- Price: $199/mo add-on (or included in Scale tier)
+- Target: Existing Optimizer AI customers
+- Pros: Higher ACV, stickier product, easier sales
+- Cons: Less addressable market
+
+**Recommended approach:**
+- Bundle as add-on ($199/mo) for first 12 months
+- Validate product-market fit with existing customers
+- Consider standalone offering in Year 2 if demand exists
+
+### RTO-Specific Attribution Metrics
+
+**Key metrics for RTOs:**
+
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Cost per enrollment (CPE) | Marketing spend / enrollments | <$200/enrollment |
+| Lead-to-enrollment rate | Enrollments / leads | >25% |
+| Channel ROAS | Revenue / marketing spend | >3:1 |
+| Enrollment cost by course | Marketing cost / course enrollments | Varies by course |
+| Time to enrollment | Days from first contact to enrollment | <14 days |
+
+**Reporting dashboard layout:**
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  Marketing Attribution Dashboard        [Date Range ▼]  │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  This Month         │  Last Month       │  vs Target   │
+│  ─────────────      │  ─────────────    │  ─────────   │
+│  45 Enrollments     │  38 Enrollments   │  +18%        │
+│  $8,200 Marketing   │  $7,500 Marketing │  +9%         │
+│  $182 CPE           │  $197 CPE         │  -8% ✓       │
+│                                                         │
+│  [Line graph: Leads by source over time]               │
+│                                                         │
+│  Channel Performance:                                   │
+│  ┌─────────────┬────────┬────────┬────────┐          │
+│  │ Source      │ Leads  │ Enroll │ CPE    │           │
+│  ├─────────────┼────────┼────────┼────────┤          │
+│  │ Google Ads  │ 120    │ 25     │ $180   │ ✓        │
+│  │ Facebook    │ 80     │ 12     │ $220   │          │
+│  │ Organic     │ 40     │ 8      │ $50    │ ✓        │
+│  └─────────────┴────────┴────────┴────────┘          │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Product Roadmap
+
+**Phase 1 (Month 1-3): MVP**
+- Google Ads + Facebook integration
+- Zoho sync with dedup
+- Basic ROAS reporting
+- Target: 5 pilot customers
+
+**Phase 2 (Month 4-6): V1**
+- Phone call tracking integration
+- Multi-touch attribution (basic)
+- Email reports (automated)
+- Target: Add attribution to Scale tier
+
+**Phase 3 (Month 7-12): Standalone**
+- If bundled succeeds, consider standalone offering
+- Build landing page, pricing page
+- Target: 10-20 standalone customers
+
+### Competitive Positioning
+
+**vs. Custom dashboards (built in-house):**
+- Time: In-house takes 3-6 months, Optimizer AI = 2-4 weeks
+- Cost: In-house = $20k-50k build, Optimizer AI = $199/mo
+- Maintenance: In-house = ongoing, Optimizer AI = included
+
+**vs. Agency dashboards (Area Ten, etc.):**
+- Ownership: Agency owns the dashboard
+- Cost: Agency dashboards = $500-2,000/mo (included in retainer)
+- Control: You don't own the data or logic
+
+**vs. Generic BI tools (Tableau, PowerBI):**
+- Setup: BI tools require 40-80 hours of setup
+- Cost: $100-500/mo + implementation
+- RTO-specific: Generic tools require custom configuration
+
+**Differentiation message:**
+> "Marketing attribution that actually works for RTOs. Sync your ads, Facebook, and phone calls to Zoho. Know which channels drive enrollments — not just leads."
+
+### Recommended Actions for Steven
+
+- [ADDED] Prioritize attribution as add-on to Scale tier (not standalone) — Month 1
+- [ADDED] Build attribution MVP (Google Ads, Facebook, Zoho sync) — by Month 3
+- [ADDED] Test with 5 pilot customers (existing Optimizer AI customers) — Month 2-3
+- [ADDED] Define key metrics (CPE, ROAS, lead-to-enrollment) — by Week 2
+- [ADDED] Build reporting dashboard mockup — by Month 2
+- [ADDED] Price attribution at $199/mo add-on — by Month 3
+- [ADDED] Consider standalone offering in Year 2 if demand validates — Month 12 evaluation
+- [ADDED] Track attribution customers separately in CRM — from Month 3
+
+### Sources
+
+- Attribution tools: Google Analytics, Mixpanel, Amplitude (2026)
+- RTO marketing: Area Ten case studies (2025)
+- Zoho integration: Zoho developer docs (2026)
+- Call tracking: Response Tap, CallRail (2026)
+
+---
+
+*End of Cycle 161 refinement. Gap filled: Attribution challenges for RTOs (4 specific issues), feature spec (MVP 4 features, V2 4 features), integration requirements (Google Ads, Facebook, Zoho, phone), data flow diagram, standalone vs bundled recommendation (bundle first), RTO-specific metrics (CPE, ROAS, lead-to-enrollment), dashboard mockup, product roadmap (3 phases), competitive positioning (vs custom, agency, generic BI).*
