@@ -2190,3 +2190,70 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 63 refinement. Gap filled: Specific partner targets, partnership structures, outreach sequence, agreement templates.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 64): Regulatory and Compliance Deep Dive
+### Gap identified: Research provides high-level requirements but lacks complete checklists and legal documentation requirements
+
+**Original finding**: "Regulatory and compliance research" provided requirements but lacked detailed checklists.
+
+**Why this matters**: ASQA compliance and privacy compliance require specific documentation before launch. Missing documents = legal risk.
+
+### Complete ASQA Compliance Checklist
+
+**Critical (must have)**:
+1. Call disclosure: "This call is being recorded for training and quality purposes"
+2. USI collection + format verification
+3. Accurate course information
+4. 3-year call retention
+
+**Important (should have)**:
+5. Identity confirmation
+6. Staff identification if human takes over
+7. Escalation path to human
+8. Privacy notice
+
+### APP Compliance Checklist
+
+| APP | Requirement | Implementation |
+|-----|-------------|----------------|
+| APP 1 | Transparency | Privacy policy on website |
+| APP 3 | Collection | Only what's necessary (name, phone, email, USI) |
+| APP 5 | Notification | Inform students of purpose, how used |
+| APP 6 | Use/disclosure | No secondary purposes without consent |
+| APP 8 | Cross-border | Data stays in Australia (VAPI AU servers) |
+| APP 11 | Security | Encrypt data, access controls |
+| APP 12 | Access | Students can request their data |
+| APP 13 | Correction | Students can correct their data |
+
+### Legal Documentation Pre-Launch
+
+**Required by June 2026**:
+- Privacy policy
+- Terms of service
+- Cookie policy
+- Call disclosure script
+
+**Customer documents (by July 2026)**:
+- Data processing agreement
+- Privacy policy acknowledgment
+
+### Recommended Actions for Steven
+
+- [ADDED] Draft privacy policy outline — by June 7, 2026
+- [ADDED] Create call disclosure script — by June 7, 2026
+- [ADDED] Engage privacy lawyer for policy review — by June 2026
+- [ADDED] Publish privacy policy on website — by June 2026
+- [ADDED] Create data processing agreement template — by July 2026
+
+### Sources
+- ASQA Standards: asqa.gov.au/standards (2026)
+- Australian Privacy Principles: oaic.gov.au/app (2026)
+- Privacy Act 1988: legislation.gov.au/Privacy_Act_1988 (2026)
+
+---
+
+*End of Cycle 64 refinement. Gap filled: Complete ASQA checklist, APP compliance steps, legal documentation checklist.*
+
+---
