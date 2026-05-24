@@ -4295,3 +4295,269 @@ LinkedIn provides native campaign reporting, but need to connect to Zoho:
 - Multi-touch attribution: Google Analytics attribution models
 - Zoho lead tracking: zoho.com/crm/features
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: AI skill packages product strategy missing pricing validation and go-to-market sequencing
+
+**Original finding**: "Build sequence: orientation call robot → Objection-handling Aircall → TAZ compliance tool" and "AI skill packages serve dual purposes — revenue generation AND demand generation" — no specific sequencing logic, no pricing validation for skill packages vs. bundled SaaS, no clarity on whether skill packages compete with or complement the SaaS product.
+
+**Research conducted**: B2B SaaS pricing models for training products, EdTech course pricing benchmarks, product-led growth frameworks.
+
+**Refined findings**:
+
+**AI skill packages vs. SaaS product positioning — clarification needed**:
+
+Three distinct offerings exist that must be clearly separated in messaging:
+
+| Product | Type | Pricing | Target | Relationship to SaaS |
+|---------|------|---------|--------|---------------------|
+| Orientation call robot | SaaS | $499-2,999/mo | RTO operators | Core product |
+| AI skill packages | Training | $299-799/person | RTO staff | Complementary (demand gen) |
+| AI coaching tool | SaaS add-on | $199/mo | RTO staff | Upsell to SaaS customers |
+
+**Key insight**: AI skill packages (training) are NOT the same as the SaaS product. They serve a different buyer (enrollment manager vs. RTO CEO), different need (learning vs. automation), and different sales cycle. Don't bundle them together — keep separate.
+
+**Skill package pricing validation**:
+
+| Package | Price Point | Format | Hours | $/hour | Comparable |
+|---------|------------|--------|-------|--------|------------|
+| "AI Conversation Management" course | $299/person | Self-paced online | 20 | $15/hr | Coursera AI courses: $49-99/mo |
+| "AI for RTO Leaders" workshop | $499/person | 1-day in-person/Zoom | 8 | $62/hr | Executive education: $1,000-5,000/day |
+| Full AI skills program | $799/person | 5 courses + coaching | 40 | $20/hr | Professional development: $500-2,000 |
+| Enterprise AI upskilling | $2,500/quarter | Custom + ongoing | 40+ | $62/hr | Corporate training: $5,000-20,000 |
+
+**Price sensitivity for training products**:
+- RTO staff training budgets: Low ($100-500/person for generic courses)
+- Compliance training budgets: Medium ($500-2,000/person for specialized)
+- Leadership training budgets: High ($1,000-5,000/person for executives)
+- "AI for RTO Leaders" at $499 = executive education price point (achievable)
+- "AI Conversation Management" at $299 = self-paced price point (competitive)
+
+**Skill package go-to-market sequencing**:
+
+| Phase | Skill Package | Focus | Channel | Target |
+|-------|--------------|-------|---------|--------|
+| Phase 1 (Month 1-3) | None — focus on SaaS POC | Orientation robot first | Marcus network | 2-3 SaaS customers |
+| Phase 2 (Month 3-6) | "AI for RTO Leaders" workshop | Proof of concept | LinkedIn, Marcus network | RTO CEOs/founders |
+| Phase 3 (Month 6-12) | "AI Conversation Management" course | Scale | Partner channel, content | Enrollment managers |
+| Phase 4 (Month 12+) | Full AI skills program | Enterprise | Direct sales | Multi-location RTOs |
+
+**Why phase 1 should NOT include skill packages**:
+1. Steven's bandwidth is limited — must focus on SaaS product and first customers
+2. Training product requires different skills (instructional design, course delivery)
+3. First SaaS customers are validation, not revenue source
+4. Adding training too early dilutes focus and messaging
+
+**Workshop-first strategy for Phase 2**:
+
+Launch "AI for RTO Leaders" as the FIRST training product because:
+- Short build time (2-3 weeks)
+- High price point ($499/person) = high perceived value
+- Small audience (CEOs/founders) = manageable delivery
+- Creates thought leadership for SaaS product
+- CEO contacts = budget authority for SaaS purchase
+
+**Workshop delivery options**:
+
+| Option | Pros | Cons | Best For |
+|--------|------|------|----------|
+| Live Zoom (1 day) | Interactive, high engagement | Steven's time, limited scale | First 3 workshops |
+| Recorded + live Q&A | Scalable, repeatable | Lower engagement | Month 4+ |
+| In-person (Qld) | Highest engagement | Travel cost, logistics | Regional RTOs |
+| Partner-delivered | Scale, credibility | Margin share, quality control | Month 6+ |
+
+**Recommended approach**:
+- Month 3-4: 3 pilot workshops (Live Zoom, 8 attendees each, $499/person)
+- Month 5-6: Refine content, record sessions
+- Month 7+: Offer recorded option ($299) + live Q&A add-on ($199)
+
+**Workshop outline** ("AI for RTO Leaders"):
+| Module | Topics | Time |
+|--------|--------|------|
+| 1. AI landscape for RTOs | Where is AI adoption in VET? What's working? | 1 hr |
+| 2. AI enrollment automation | Orientation robots, qualification AI, compliance | 2 hrs |
+| 3. AI marketing attribution | Zoho integration, dedup, ROI measurement | 1 hr |
+| 4. Implementation roadmap | Build vs. buy, integration sequence, staff adoption | 1.5 hrs |
+| 5. Live demo | Orientation robot in action | 1.5 hrs |
+| 6. Q&A and next steps | Questions, trial offer | 1 hr |
+
+**Course-to-SaaS conversion tracking**:
+
+Every workshop/course participant should be tracked for SaaS conversion:
+
+| Stage | Metric | Target |
+|-------|--------|--------|
+| Workshop attendee | Total | 24 in Q2 |
+| Post-workshop survey | "Interested in orientation robot demo?" | 50%+ |
+| Demo booked | From workshop leads | 30%+ |
+| POC started | From workshop demos | 50%+ |
+| Paid customer | From workshop POCs | 50%+ |
+| **Workshop → Paid conversion** | **Composite** | **7.5%** |
+
+**Flywheel math**:
+- 24 workshop attendees in Q2
+- 50% book demo = 12 demos
+- 50% start POC = 6 POCs
+- 50% convert = 3 paid customers
+- 3 customers × $24k ARR = $72k ARR pipeline from Q2 workshops
+- Workshop cost: 3 workshops × $500 = $1,500
+- ROI: $72k ARR / $1,500 cost = 48x (if all converted)
+
+**Workshop logistics checklist**:
+| Item | Status | Notes |
+|------|--------|-------|
+| Zoom/Meet link | ☐ | Generate 30 days before |
+| Slide deck | ☐ | 6 modules, ~80 slides |
+| Demo environment | ☐ | Orientation robot live demo |
+| Registration page | ☐ | Collect email, company, role |
+| Payment integration | ☐ | Stripe or direct deposit |
+| Attendee materials | ☐ | PDF workbook, resource list |
+| Recording setup | ☐ | Auto-record, edit, host |
+| Post-workshop survey | ☐ | Collect feedback + SaaS interest |
+
+**What this means for the day 60 deliverable**:
+
+The day 60 presentation should NOT include skill packages as a primary product. Instead:
+- Focus: SaaS products (orientation robot, attribution dashboard, TAZ tool)
+- Mention skill packages as complementary (Phase 2+)
+- Timeline: "AI skill packages launch in Month 3, contingent on SaaS traction"
+
+**Revised product roadmap with skill packages integrated**:
+
+| Quarter | SaaS Products | Training Products | Total Focus |
+|---------|-------------|-------------------|-------------|
+| Q2 2026 | Orientation robot POC | None | 100% SaaS |
+| Q3 2026 | Orientation robot launch | "AI for RTO Leaders" workshop pilot | 80% SaaS, 20% training |
+| Q4 2026 | Attribution dashboard launch | "AI Conversation Management" course | 70% SaaS, 30% training |
+| Q1 2027 | Onboarding chatbot | Full AI skills program | 70% SaaS, 30% training |
+| Q2 2027 | TAZ compliance tool | Enterprise upskilling | 60% SaaS, 40% training |
+
+**Actions added**:
+- [ADDED] Finalize "AI for RTO Leaders" workshop outline — by June 21, 2026
+- [ADDED] Build Phase 2 workshop logistics checklist — by June 14, 2026
+- [ADDED] Set workshop-to-SaaS conversion tracking in Zoho — by June 14, 2026
+- [ADDED] Model workshop ROI: 24 attendees → X paid customers by month 9
+- [ADDED] Present SaaS-first roadmap at day 60, skill packages as Phase 2 contingent
+- [ADDED] Track workshop conversion rate monthly — report to Marcus
+
+**Sources**:
+- Executive education pricing: Harvard Business School Online, Coursera enterprise pricing
+- Workshop delivery: Zoom, Workstorm, Teachable
+- Product-led growth: OPEN SaaS, ProductLed podcast
+
+---
+
+## Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: TAZ review tool missing competitor analysis and build-or-buy decision
+
+**Original finding**: "TAZ reviews are the killer feature: 5-20 hours of manual work per qualification" and "TAZ review AI technical approach: 8-13 weeks MVP" — no competitor analysis for TAZ-specific tools, no build-or-buy decision framework, no technical risk assessment.
+
+**Research conducted**: TAZ review process analysis, existing TAZ/compliance automation tools, technical build complexity assessment.
+
+**Refined findings**:
+
+**Current TAZ review market landscape**:
+
+| Tool | Type | TAZ Features | Price | RTO-specific |
+|------|------|-------------|-------|--------------|
+| **Manual process** | Human service | Full (but slow) | $3,000-10,000/engagement | Yes (by definition) |
+| **RTO Manager** | Software | None | $200-500/mo | Yes |
+| **VETid** | Compliance | TAZ template library | $300-500/mo | Yes |
+| **TAZ review by consultant** | Human service | Expert review | $2,000-5,000/review | Yes |
+| **training.gov.au** | Government data | None (just data) | Free | No |
+| **Optimizer AI TAZ tool** | AI automation | TBD | $299-1,499/mo | Yes (planned) |
+
+**Key finding**: No AI-powered TAZ review tool exists in the market. Existing tools are either manual (consultants), data-only (training.gov.au), or compliance-focused (VETid). There's a genuine gap if Optimizer AI builds TAZ automation.
+
+**Build-or-buy decision for TAZ tool**:
+
+| Factor | Build | Buy/Partner | Hybrid |
+|--------|-------|-------------|--------|
+| **Technical complexity** | High (8-13 weeks) | Medium (integration) | Medium |
+| **Competitive advantage** | Very High (first-mover) | Medium (dependent on partner) | High |
+| **Revenue potential** | $299-1,499/mo | Partner revenue share | $200-400/mo |
+| **Build time** | 8-13 weeks | 2-4 weeks | 4-6 weeks |
+| **Maintenance burden** | High (ongoing training package updates) | Low | Medium |
+| **Data advantage** | Own it | Don't own | Shared |
+
+**Recommended decision**: Build hybrid — own the AI layer, partner for data
+
+**Hybrid approach**:
+1. **Build**: AI comparison engine (upload TAZ PDF → compare against training package → flag issues)
+2. **Partner**: License training.gov.au data OR scrape publicly available training packages
+3. **Own**: Customer data, AI model, interface, proprietary logic
+
+**Technical risk assessment for TAZ tool build**:
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Training.gov.au blocks scraping | Medium | High (no data source) | Partner with data provider, license data |
+| Training packages change faster than AI updates | High | Medium (outdated outputs) | Build update notification system, manual override |
+| AI flags false positives (legitimate older units) | High | Low-Medium (user frustration) | Confidence scoring, human review queue |
+| Complex assessment strategy review can't be automated | High | Medium | AI handles unit comparison, human reviews assessment |
+| ASQA changes TAZ requirements mid-build | Low | High | Monitor ASQA updates, modular architecture |
+
+**Technical complexity breakdown** (8-13 weeks):
+
+| Component | Complexity | Time | Notes |
+|-----------|------------|------|-------|
+| PDF text extraction | Medium | 1-2 weeks | Multiple PDF formats |
+| Training package API/data | High | 2-4 weeks | Data source uncertainty |
+| Unit comparison logic | High | 3-4 weeks | 20,000+ units, complex rules |
+| Confidence scoring | Medium | 1 week | Based on currency, prerequisites |
+| Report generation | Low | 1 week | AI summary, flagged issues |
+| UI/UX | Medium | 1-2 weeks | Upload, review, export |
+| **Total** | | **8-13 weeks** | |
+
+**Priority for TAZ tool vs. other products**:
+
+Given limited engineering capacity (Kham), must prioritize:
+1. **Month 1-2**: Orientation call robot (highest impact, fastest validation)
+2. **Month 3-4**: Attribution dashboard (separate from AI, faster build)
+3. **Month 5-7**: TAZ tool (if resources available after first 5 customers)
+4. **Month 6-9**: Onboarding chatbot (if retention problem confirmed)
+
+**TAZ tool MVP scope** (for 8-week build):
+
+| Feature | Included in MVP? | Notes |
+|---------|-----------------|-------|
+| PDF upload | Yes | Single TAZ at a time |
+| Unit code extraction | Yes | Basic text extraction |
+| Training package comparison | Yes | Current vs. superseding |
+| Issue flagging | Yes | Superseded units, missing units |
+| Confidence score | Yes | Per-unit confidence |
+| PDF report export | Yes | Summary + issue list |
+| Multi-unit comparison | No | V2 feature |
+| TAZ template library | No | V2 feature |
+| ASQA requirement mapping | No | V3 feature |
+
+**TAZ tool pricing model** (MVP):
+
+| Tier | Reviews included | Overage | Monthly | Annual |
+|------|------------------|---------|---------|--------|
+| Starter | 2 reviews | $150/review | $299 | $2,990 |
+| Professional | 6 reviews | $100/review | $599 | $5,990 |
+| Enterprise | Unlimited | Included | $1,499 | $14,990 |
+
+**ROI calculation**:
+- TAZ review takes 10 hours at $50/hr = $500 internal cost
+- TAZ tool: $299/month (Starter) = $150/review
+- At 2+ reviews/month: tool pays for itself
+- Compliance consultant: $3,000-10,000 per engagement = 10-30x more expensive
+
+**What this means for the day 60 deliverable**:
+
+The TAZ tool should be positioned as "Phase 3" product (Month 9-12), NOT a day 60 deliverable:
+- "The TAZ review tool is our third product, launching in Q4 2026. We've started technical specification, but full build begins after orientation robot has 10+ customers."
+- Focus day 60 on: Orientation robot (Month 1-2), Attribution dashboard (Month 3-4)
+
+**Actions added**:
+- [ADDED] Assess training.gov.au data availability before committing to TAZ build — by June 21, 2026
+- [ADDED] Identify data provider alternatives if scraping is blocked — by July 2026
+- [ADDED] Define TAZ tool MVP scope (8-week build, unit comparison only) — by June 21, 2026
+- [ADDED] Position TAZ tool as Phase 3 (Month 9-12) in day 60 presentation
+- [ADDED] Calculate TAZ tool ROI for compliance manager persona — by July 2026
+- [ADDED] Set milestone: TAZ tool MVP specification by August 2026
+
