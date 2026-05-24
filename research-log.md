@@ -1521,3 +1521,58 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Set up Zoho lead scoring based on rubric factors
 - [ADDED] Track discovery-to-demo conversion rate (target: 50%+)
 
+
+## Refinement — 2026-05-24
+### Gap identified: Training data moat specifics — what exactly is trained, how many calls, and what does "AI trained on 10,000+ RTO calls" mean?
+
+**Original finding**: "Training data is POTENTIAL moat that requires explicit action... Timeline: 24-36 months to become real competitive advantage."
+
+**Refined findings**:
+**What "training data" actually means for RTO enrollment AI**:
+
+There are three types of model training relevant to Optimizer AI:
+1. **Prompt engineering / RAG (Retrieval-Augmented Generation)**: Feed the AI your enrollment scripts, FAQs, objection handlers, compliance checklists. This is near-term (weeks, not months) and doesn't require fine-tuning. This is what "AI trained on RTO enrollment" means today.
+
+2. **Fine-tuning on enrollment conversations**: Take an existing LLM (GPT-4o, Claude, etc.) and fine-tune it on thousands of real enrollment calls. This creates a custom model that "thinks like an enrollment specialist." Requires 1,000-10,000+ annotated conversations. Timeline: 3-6 months per fine-tune run.
+
+3. **Reinforcement learning from human feedback (RLHF)**: Collect feedback from enrollment managers ("good response" vs. "bad response") and train the model to match. Creates the "perfect enrollment rep" over time.
+
+**Specific data requirements for each approach**:
+
+| Approach | Data needed | Time to implement | Moat strength |
+|----------|-------------|-------------------|---------------|
+| Prompt engineering | 50-100 enrollment scripts | 2-4 weeks | Low (easily copied) |
+| RAG with your scripts | 500+ documents (scripts, FAQs, policies) | 1-2 months | Medium (requires effort to replicate) |
+| Fine-tuning | 1,000+ real call transcripts with labels | 3-6 months | High (proprietary patterns) |
+| RLHF | 10,000+ feedback signals | 6-12 months | Very High (network effect from scale) |
+
+**"AI trained on 10,000+ RTO calls" claim breakdown**:
+- 10,000 calls = approximately 2,500 hours of conversation (at 15 min/call)
+- At Hader's estimated 80 orientation calls/month = 125 months (~10 years) to reach 10,000 calls organically
+- To reach 10,000 calls in 12 months: need ~833 calls/month = 10+ RTO customers contributing data
+- **Realistic milestone**: 1,000 calls by month 6 (5-10 RTOs × 20 calls/month)
+
+**What to actually build in months 1-6** (practical, not sci-fi):
+- **Month 1-2**: Prompt library with Hader's enrollment scripts, FAQs, objection handlers, ASQA compliance checkpoints. This is "RTO-specific AI" without any fine-tuning — just better prompting.
+- **Month 3-4**: RAG pipeline: when AI doesn't know an answer, it searches a vector database of approved RTO responses. Continuously updated with new scripts.
+- **Month 5-6**: Collect first 500 call transcripts from POC customers, annotate with "good/bad" labels, prepare for fine-tuning at month 9.
+
+**Moat timeline revised**:
+| Milestone | Calls collected | Moat achieved |
+|-----------|-----------------|---------------|
+| Month 6 | ~1,000 (5 RTOs × 20/mo) | "AI trained on 1,000+ enrollment calls" — Medium moat |
+| Month 12 | ~5,000 (15 RTOs × 33/mo) | "AI trained on 5,000+ calls" — Strong moat |
+| Month 24 | ~25,000 (50 RTOs × 50/mo) | "Largest RTO enrollment dataset in Australia" — Category moat |
+
+**How competitors respond**: If a competitor enters at month 6, they start from zero calls. Optimizer AI has 1,000+ calls and a growing prompt library. Even if the competitor copies the product features, they can't copy the training data advantage — it compounds over time.
+
+**Key insight**: The training data moat is real but takes 12-24 months to become meaningful. Don't wait to start collecting data. Every POC customer should have their calls logged (with consent) from day 1.
+
+**Actions added**:
+- [ADDED] Implement call logging with consent at Hader POC (required for training data)
+- [ADDED] Create consent form for call data use in AI training — by June 21, 2026
+- [ADDED] Build prompt library from Hader's enrollment scripts — by June 14, 2026
+- [ADDED] Set milestone: "1,000 calls" by month 6, "5,000 calls" by month 12
+- [ADDED] At month 6: evaluate whether to fine-tune or continue RAG approach
+- [ADDED] Include call data contribution in POC terms ("Optimizer AI uses anonymized calls to improve AI model")
+
