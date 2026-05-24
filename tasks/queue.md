@@ -16,7 +16,7 @@
 - [x] **Pricing model research** — How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-based? Research pricing for: AI voice agents ($500–$5k/mo), marketing attribution tools ($200–$2k/mo), AI compliance tools. Build a pricing model recommendation. — researched 2026-05-24
 - [x] **Customer acquisition cost modelling** — Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer (sales cycle length, demo costs, trial conversion). Factor into the $10M EBITDA target. — researched 2026-05-24
 - [x] **12-24 month marketing strategy foundation** — Research the market trajectory: AI adoption in Australian RTOs, regulatory changes, competitor moves. Build the foundation for Steven's 12-24 month marketing strategy (due day 60). Include lead-gen for Optimizer AI itself. — researched 2026-05-24
-- [ ] **AI courses market opportunity** — Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. This is both a product line for Hader (revenue) and a credibility play for Optimizer AI (expertise).
+- [x] **AI courses market opportunity** — Research demand for AI diploma/advanced diploma courses, Social Media Marketing with AI component. Cert IV AI courses. This is both a product line for Hader (revenue) and a credibility play for Optimizer AI (expertise). — researched 2026-05-24
 
 ## Phase 3: Product Validation & Early Traction (Days 61–80)
 
