@@ -5045,3 +5045,64 @@ To build product brand equity while maintaining company brand:
 - Recording consent laws: Jandra Legal, Australian Legal Information Institute
 
 ---
+
+## Refinement — 2026-05-24 (Cycle 6)
+### Gap identified: Content calendar lists "Case study: Hader 60% reduction" but data doesn't exist
+
+**Original finding**: Content calendar shows "M1 W2: Case study: Hader 60% reduction" as a draft content piece — but 60% reduction is an assumption, not a verified fact.
+
+**Problem**: If this case study is published with unverified claims, it could damage credibility. Worse, if it's held until "real data is available," it blocks the content strategy.
+
+**Three scenarios for the Hader case study**:
+
+| Scenario | Condition | Case Study Approach |
+|----------|-----------|--------------------|
+| **A. Marcus provides baseline** (June 7) | Weekly hours known | Full quantitative case study: "X hrs → Y hrs, Z% reduction, $A saved/month" |
+| **B. Baseline derived from audits** (June 14) | Aircall + Zoho reports run | Partial case study: call volume, missed rate, projected savings (labeled "pre-POC baseline") |
+| **C. No data available** (June 14) | Marcus too busy, reports not run | Narrative case study: "How we built AI for Hader Institute" (no numbers, focus on process) |
+
+**Content calendar revision based on data availability**:
+
+| Week | With Data (Scenario A/B) | Without Data (Scenario C) |
+|------|--------------------------|---------------------------|
+| M1 W1 | ASQA Compliance Guide | ASQA Compliance Guide |
+| M1 W2 | Hader case study (quantitative) | "How We Built AI for Hader" (narrative, no metrics) |
+| M1 W3 | Thought leadership | Thought leadership |
+| M1 W4 | Pillar page: AI for RTO Enrollment | Pillar page: AI for RTO Enrollment |
+
+**Narrative case study outline** (Scenario C — no numbers yet):
+
+Title: "Building the First AI for RTO Enrollment: A Founder's Story"
+
+Sections:
+1. The problem: 60+ hours on enrollment calls (can state without exact data)
+2. The insight: Most calls are the same 10 questions
+3. The build: How we integrated Zoho + Aircall + Claude
+4. The result: "We're now testing with Hader Institute — early signals are strong"
+5. The lesson: "RTO-specific AI requires ASQA compliance built in"
+
+CTA: "Want to be our next test site?"
+
+**Key insight**: A narrative case study (without numbers) is still valuable for thought leadership and SEO. It positions Optimizer AI as the category creator without requiring verified metrics. Quantitative data can be added in an update once POC data is available (Month 3-4).
+
+**What to do this week**:
+1. Ask Marcus for baseline data (June 7 deadline)
+2. If data provided → write quantitative case study
+3. If no data → write narrative case study and note "metrics to be added post-POC"
+4. Either way, publish Week 2 — don't let missing data block content calendar
+
+**LinkedIn angle for narrative case study**:
+> "We just built the first AI orientation call robot for Australian RTOs. Here's what we learned building it at Hader Institute — including why ASQA compliance had to be built in from day one."
+
+This works without specific metrics. The proof point is "we built it" not "we measured X."
+
+**Actions added**:
+- [ADDED] Prioritize getting baseline data from Marcus by June 7 — enables quantitative case study
+- [ADDED] Prepare narrative case study outline as fallback if data not available — by June 14, 2026
+- [ADDED] Publish case study Week 2 regardless (narrative or quantitative) — by June 14, 2026
+- [ADDED] Update case study with actual POC metrics once available (Month 3-4) — ongoing
+- [ADDED] Include "metrics to be added" note if using narrative version — manages reader expectations
+
+**Sources**:
+- Hader baseline data: Pending from Marcus
+- Case study templates: Orbit Media, HubSpot
