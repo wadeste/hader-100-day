@@ -1384,6 +1384,74 @@ Research the math: how many RTO customers does Optimizer AI need to support to d
 - Industry benchmarks for SaaS growth rates (15-20%/month early stage)
 - Note: Recommend primary data collection from Hader to validate assumptions
 
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Path to 1,000 enrollments/month missing marketing spend model and customer acquisition math
+
+**Original finding**: "If current = 700, need 43% growth (achievable). If current = 200, need 5x (unlikely from AI alone)." — no specific marketing spend or channel math to close the gap.
+
+**Refined findings**:
+**Three scenarios for reaching 1,000 enrollments/month** (Hader-only assumption):
+| Metric | Low Scenario | Medium Scenario | High Scenario |
+|--------|--------------|-----------------|---------------|
+| Current enrollments | 200 | 400 | 700 |
+| Target enrollments | 1,000 | 1,000 | 1,000 |
+| Gap to close | 800 | 600 | 300 |
+| AI uplift % | 30% | 25% | 15% |
+| Enrollments from AI | 60 | 100 | 105 |
+| Enrollments from other sources | 740 | 500 | 195 |
+| Monthly marketing spend needed | $50,000+ | $30,000 | $15,000 |
+| Realistic timeline | 24-36 months | 18-24 months | 12-18 months |
+
+**Marketing spend vs. enrollment math** (conservative conversion rates):
+- Paid ads (Google/Facebook): $50-100/enrollment at $50-100 CPC → need 740-800 enrollments = $37,000-80,000/month in ad spend
+- Content/inbound: $20-50/enrollment after 12-month ramp → 800 enrollments = $16,000-40,000/month by month 12+
+- Referral/partnerships: $30-80/enrollment → 800 enrollments = $24,000-64,000/month
+- Marcus network: $100-200/enrollment → limited volume (~100-200 enrollments max)
+
+**Critical insight**: 1,000 enrollments/month is almost certainly NOT Hader-only. This would require $30,000-80,000/month in marketing spend and 18-36 months to achieve organically. More likely:
+1. 1,000 enrollments = total across all RTO customers using Optimizer AI (SaaS customers' students), OR
+2. Marcus has a different definition of "enrollment" (e.g., inquiries, not course completions), OR
+3. $10M EBITDA includes Hader's revenue (making Hader growth a different problem)
+
+**If 1,000 enrollments = total across Optimizer AI customers**:
+- 20 RTO customers × 50 enrollments/customer/month = 1,000 enrollments/month
+- This aligns with the 20-33 RTO customers needed target from the original research
+- Each customer grows to 50 enrollments/month (from AI tools) over 6-12 months
+- This is achievable if AI tools deliver 15-25% enrollment uplift per customer
+
+**Revised path to 1,000 enrollments/month** (if SaaS customers' volume):
+| Month | RTO Customers | Avg Enrollments/Customer | Total Enrollments |
+|-------|---------------|-------------------------|-------------------|
+| 1 | 1 (Hader) | 80 | 80 |
+| 3 | 4 | 70 | 280 |
+| 6 | 12 | 60 | 720 |
+| 9 | 20 | 55 | 1,100 |
+| 12 | 30 | 50 | 1,500 |
+
+**If 1,000 enrollments = Hader-only** (revised scenario):
+| Growth Driver | Monthly Enrollments Added | Timeline |
+|--------------|-------------------------|----------|
+| AI orientation robot (less missed calls) | +50 | Month 1-3 |
+| AI qualification (better lead quality) | +30 | Month 3-6 |
+| Attribution dashboard (better marketing ROI) | +50 | Month 3-6 |
+| Onboarding chatbot (less dropout) | +40 | Month 6-9 |
+| Marketing spend ($20k/month) | +200 | Month 6-12 |
+| Referral/word-of-mouth | +50 | Month 9-12 |
+| Expanded course offerings (community services) | +80 | Month 9-12 |
+| **Total** | **+500** | **12 months** |
+
+**Key insight**: Hader alone reaching 1,000 enrollments/month requires significant marketing spend ($15,000-50,000/month) AND AI tools working. If Marcus meant 1,000 enrollments total across all RTO customers, the math is much more achievable — 20 RTO customers × 50 enrollments each.
+
+**Actions added**:
+- [ADDED] Clarify with Marcus: Is 1,000 enrollments/month Hader-only OR total across all RTO customers?
+- [ADDED] Clarify with Marcus: Does $10M EBITDA include Hader's revenue or Optimizer AI SaaS only?
+- [ADDED] If Hader-only: Model $20,000/month marketing spend to close the gap
+- [ADDED] If total across customers: Target 20 RTO customers × 50 enrollments each by month 9
+- [ADDED] Build dual KPI dashboard: Hader enrollments vs. Optimizer AI customer enrollments (tracked separately)
+
+---
 
 ## Organic leads strategy research — 2026-05-24
 
