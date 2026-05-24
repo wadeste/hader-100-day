@@ -6520,4 +6520,370 @@ Many enterprise RTOs (500+ students) require vendors to have insurance before si
 
 ---
 
-*End of Cycle 56 refinement. Gap filled: SaaS agreement structure, AI-specific liability clauses, DPA requirements, insurance minimums, and contract checklist documented.*
+*End of Cycle 56 refinement. Gap filled: SaaS agreement structure, AI-specific liability clauses, DPA requirements, insurance minimums, and contract checklist documented.*# Optimizer AI — Internal Reporting & KPI Framework
+
+**Research Date:** 2026-05-24
+**Cycle:** 57 (Refinement)
+**Topic:** Internal reporting — Steven's dashboard, recurring reporting structure, operational metrics
+
+---
+
+## Gap Analysis
+
+**Original findings**: Day 60 presentation structure, customer success metrics (NRR, churn, health score), GTM channel performance, attribution dashboard features for customers.
+
+**What's missing**: No internal reporting framework for Steven to track his own performance and report to Marcus. What metrics should Steven track weekly? What should go in a monthly update to Marcus? What dashboard should Steven maintain to manage the 100-day plan?
+
+**Why this matters**: Without structured internal reporting, Steven will either under-report (Marcus doesn't know what's happening) or over-report (spending hours on reports instead of execution). Need the right cadence, right metrics, and right format for Marcus to stay informed without micromanaging. Also need operational metrics to know if the business is healthy before day 60 data arrives.
+
+---
+
+## Weekly Operations Dashboard
+
+### Steven's Weekly Metrics (Owner: Steven)
+
+**What to track every week** (build in simple spreadsheet first, move to Zoho/Notion later):
+
+| Category | Metric | Target | Red flag |
+|----------|--------|--------|----------|
+| **Pipeline** | Leads in pipeline | 10+ new/week | <5 |
+| **Pipeline** | Discovery calls scheduled | 3+/week | <2 |
+| **Pipeline** | Demos completed | 1+/week | 0 for 2+ weeks |
+| **Pipeline** | Proposals sent | 1+/week | 0 for 3+ weeks |
+| **Pipeline** | Deals closed | Monthly target: 2-3 | 0 for 4+ weeks |
+| **Revenue** | New MRR added | Monthly target: $2,000-3,000 | Negative (churn > new) |
+| **Revenue** | Churned MRR | Target: <$500/mo | >$1,000/mo |
+| **Content** | LinkedIn posts published | 3-5/week | <2 |
+| **Content** | Blog posts published | 1-2/week | 0 for 2+ weeks |
+| **Content** | Email subscribers added | 20+/week | <10 |
+| **Product** | Orientation robot milestone | On track per timeline | Behind by 1+ week |
+| **Product** | First test call completed | Week 3 milestone | Behind by 1+ week |
+
+### Weekly Status Report to Marcus (Owner: Steven, every Monday)
+
+**Format**: 15-minute meeting or written update (bullet points, not paragraphs)
+
+**Template**:
+
+```
+OPTIMIZER AI — Weekly Status
+Week of [DATE] | Prepared by: Steven
+
+1. HIGHLIGHTS (3 bullets max)
+- [One major win or insight]
+- [One challenge or risk]
+- [One thing we're solving]
+
+2. PIPELINE
+- Leads in pipeline: [X]
+- Discovery calls this week: [X]
+- Demos completed: [X]
+- Proposals pending: [X]
+- Deals closed this month: [X] / [Target]
+
+3. REVENUE
+- New MRR: $[X]
+- Churned MRR: $[X]
+- Total MRR: $[X]
+- vs. last week: [+/- $X]
+
+4. CONTENT / MARKETING
+- LinkedIn posts: [X]
+- Blog posts: [X]
+- Email list: [X] subscribers
+- Website visitors: [X] this week
+
+5. PRODUCT
+- Orientation robot: [milestone, on/behind schedule]
+- Next milestone: [date]
+- Blockers: [yes/no, if yes: describe]
+
+6. PRIORITIES FOR NEXT WEEK (3 items)
+- [1]
+- [2]
+- [3]
+
+7. BLOCKERS / NEEDS FROM MARCUS
+- [Any decisions needed, information missing, introductions pending]
+```
+
+**Why this format works**:
+- 7 sections, each 3-5 bullets max
+- Total: 15-20 minutes to prepare
+- Marcus gets what he needs without reading a novel
+- Steven stays organized and intentional
+
+### Weekly Team Sync (Steven + Kham, 30 min)
+
+**Purpose**: Keep technical work on track, unblock blockers, coordinate priorities
+
+**Format**:
+1. **Roundtable wins** (5 min): What did we ship this week?
+2. **Blockers** (10 min): What's stuck? What do we need to unblock?
+3. **Priorities** (10 min): What are the top 3 priorities for next week?
+4. **Decisions needed** (5 min): Anything Steven needs to decide or escalate?
+
+---
+
+## Monthly Reporting to Marcus
+
+### Monthly Business Review (Owner: Steven, last week of month)
+
+**Format**: 30-minute meeting, prepare 1-page summary first
+
+**Sections**:
+
+**1. Month-over-Month Performance**
+
+| Metric | This month | Last month | Change | Target | Status |
+|--------|-----------|------------|--------|--------|--------|
+| Leads generated | X | X | +/-X% | X | 🟢/🟡/🔴 |
+| Discovery calls | X | X | +/-X% | X | 🟢/🟡/🔴 |
+| Demos completed | X | X | +/-X% | X | 🟢/🟡/🔴 |
+| Proposals sent | X | X | +/-X% | X | 🟢/🟡/🔴 |
+| Deals closed | X | X | +/-X% | X | 🟢/🟡/🔴 |
+| New MRR | $X | $X | +/-X% | $X | 🟢/🟡/🔴 |
+| Churned MRR | $X | $X | +/-X% | <$X | 🟢/🟡/🔴 |
+| Total MRR | $X | $X | +/-X% | $X | 🟢/🟡/🔴 |
+| Customers (EOY projection) | X | X | +/-X% | X | 🟢/🟡/🔴 |
+
+**2. Marketing Performance**
+
+| Channel | Leads | Cost | Conversion to demo | ROI (if trackable) |
+|--------|-------|------|--------------------|-------------------|
+| Marcus's network | X | $X | X% | High |
+| LinkedIn outbound | X | $X | X% | TBD |
+| Content/SEO | X | $X | X% | TBD |
+| Conference | X | $X | X% | TBD |
+| Partner referrals | X | $X | X% | TBD |
+
+**3. Product Development**
+
+| Product | Status | Milestone | On/Behind | Next milestone |
+|---------|--------|-----------|-----------|----------------|
+| Orientation call robot | In progress | First test call (W3) | On track | Go-live (W7-8) |
+| Attribution dashboard | Not started | TBD | — | — |
+| TAZ review tool | Not started | TBD | — | — |
+
+**4. Financial Performance**
+
+| Metric | This month | Target | Variance |
+|--------|-----------|--------|----------|
+| Revenue (MRR) | $X | $X | +/-$X |
+| Gross margin | X% | X% | +/-X% |
+| EBITDA | $X | $X | +/-$X |
+| Cash position | $X | $X | +/-$X |
+
+**5. Key Decisions Needed**
+
+- [List any strategic decisions, budget requests, or approvals needed]
+
+**6. Month-Ahead Priorities**
+
+- [Top 5 priorities for next month, with owners and dates]
+
+---
+
+## KPI Tracking Framework
+
+### Primary KPIs (Dashboard)
+
+| KPI | Definition | Target | Frequency |
+|-----|-----------|--------|-----------|
+| **MRR** | Monthly Recurring Revenue | $X growing MoM | Weekly |
+| **New MRR** | Revenue from new customers | $2,000-3,000/mo | Weekly |
+| **Churn MRR** | Revenue lost to churn | <$500/mo | Monthly |
+| **Net New MRR** | New MRR - Churn MRR | Positive | Monthly |
+| **Customers** | Total active customers | X growing | Monthly |
+| **CAC** | Customer Acquisition Cost | <$3,000 | Quarterly |
+| **LTV:CAC** | Lifetime Value / CAC ratio | >5x | Quarterly |
+| **Payback period** | Months to recover CAC | <6 months | Quarterly |
+
+### Secondary KPIs (Tracking)
+
+| KPI | Definition | Target | Frequency |
+|-----|-----------|--------|-----------|
+| **Leads** | New inbound/outbound leads | 10+/week | Weekly |
+| **Discovery calls** | Calls completed | 3+/week | Weekly |
+| **Demo rate** | Discovery → Demo conversion | 40%+ | Monthly |
+| **Close rate** | Demo → Close conversion | 25%+ | Monthly |
+| **Pipeline coverage** | Pipeline value / target | >3x target | Weekly |
+| **Sales cycle** | Days from lead to close | <60 days | Quarterly |
+| **NPS** | Net Promoter Score (from customers) | 50+ | Quarterly |
+
+### Operational KPIs (Leading Indicators)
+
+| KPI | Definition | Target | Frequency |
+|-----|-----------|--------|-----------|
+| **Content published** | LinkedIn + blog posts | 5-10/week | Weekly |
+| **Email list growth** | New subscribers | 20+/week | Weekly |
+| **Website traffic** | Unique visitors | Growing MoM | Weekly |
+| **Keyword rankings** | Top 10 keywords | 10+ | Monthly |
+| **Partner leads** | Leads from referral partners | 2+/month | Monthly |
+| **Inbound ratio** | Inbound vs. outbound leads | 30%+ inbound | Quarterly |
+
+---
+
+## 100-Day Execution Tracker
+
+### Steven's Personal Dashboard
+
+**What to track for the 100-day plan** (daily/weekly):
+
+| Day | Key milestone | Status | Notes |
+|-----|--------------|--------|-------|
+| Day 1 (June 1) | Marcus warm leads received | [✓/✗] | [Who] |
+| Day 7 (June 7) | VAPI vs. Twilio decision | [✓/✗] | [Decision] |
+| Day 7 (June 7) | Hader course list received | [✓/✗] | [Complete/incomplete] |
+| Day 7 (June 7) | First LinkedIn post published | [✓/✗] | [Link] |
+| Day 14 (June 14) | First test call (Kham) | [✓/✗] | [Outcome] |
+| Day 14 (June 14) | Orientation script drafted | [✓/✗] | [Complete/draft] |
+| Day 21 (June 21) | Blog post published | [✓/✗] | [Link] |
+| Day 28 (June 28) | Day 60 presentation | [✓/✗] | [Delivered/pending] |
+| Day 60 (June 28) | Presentation delivered | [✓/✗] | [Feedback] |
+| Day 77 (July 21) | Orientation robot go-live | [✓/✗] | [Status] |
+| Day 100 (Aug 7) | 100-day plan delivered | [✓/✗] | [Delivered/pending] |
+
+### Critical Path Tracker
+
+**Items Marcus must provide** (blockers):
+
+| Item | Owner | Deadline | Status | Impact if late |
+|------|-------|----------|--------|----------------|
+| Warm lead list (5-10) | Marcus | Day 1 (June 1) | [✓/✗] | Cannot start outreach |
+| Introduction to each lead | Marcus | Day 1 (June 1) | [✓/✗] | Leads are cold |
+| Hader course list + fees | Marcus/Jesse | Day 7 (June 7) | [✓/✗] | Cannot build script |
+| VAPI/Twilio decision | Kham | Day 7 (June 7) | [✓/✗] | Cannot start build |
+| Human transfer number | Marcus | Day 14 (June 14) | [✓/✗] | Cannot go live |
+
+**Items Kham must deliver** (blockers):
+
+| Item | Owner | Deadline | Status | Impact if late |
+|------|-------|----------|--------|----------------|
+| VAPI/Twilio decision | Kham | Day 7 (June 7) | [✓/✗] | Cannot start build |
+| Hours/week available | Kham | Day 7 (June 7) | [✓/✗] | Timeline unknown |
+| First test call | Kham | Day 14 (June 21) | [✓/✗] | Week 3 milestone missed |
+| Zoho integration | Kham | Day 35 (July 7) | [✓/✗] | Week 5 milestone missed |
+| Go-live | Kham | Day 77 (July 21) | [✓/✗] | 100-day plan impacted |
+
+---
+
+## Dashboard Tool Recommendations
+
+### Phase 1: Simple Spreadsheet (Month 1-3)
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| **Google Sheets** | Weekly metrics, pipeline tracking | Free |
+| **Google Calendar** | Milestone tracking | Free |
+| **LinkedIn Analytics** | Content performance | Free |
+
+**Spreadsheet tabs**:
+1. Pipeline (leads, stages, values)
+2. Revenue (MRR, churn, targets)
+3. Marketing (leads by channel, content metrics)
+4. Product (milestones, blockers)
+5. 100-day tracker (critical path)
+
+### Phase 2: Zoho Integration (Month 3-6)
+
+Once Zoho CRM is live for customers:
+- Pipeline moves to Zoho CRM
+- Revenue tracked in Zoho Analytics
+- Marketing leads synced from forms/emails
+- Dashboard built in Zoho (dashboards module)
+
+### Phase 3: Business Intelligence (Month 6+)
+
+If ARR reaches $500K+:
+- Build Zoho analytics dashboard
+- Add Google Analytics 4 data
+- Consider BI tool (Metabase, Looker) if needed
+
+---
+
+## Reporting Cadence Summary
+
+| Report | Frequency | Owner | Audience | Format | Time to prepare |
+|--------|-----------|-------|----------|--------|----------------|
+| **Weekly status** | Weekly (Monday) | Steven | Marcus | Bullets, 7 sections | 20-30 min |
+| **Team sync** | Weekly (with Kham) | Steven + Kham | Team | Agenda, 30 min | 15 min prep |
+| **Monthly business review** | Monthly | Steven | Marcus | 1-page summary + meeting | 1-2 hrs |
+| **100-day progress** | Bi-weekly | Steven | Marcus | Milestone tracker | 30 min |
+| **Quarterly business review** | Quarterly | Steven | Marcus + Kham | Full review + strategy | 3-4 hrs |
+
+---
+
+## What to Report vs. Not Report
+
+### Report to Marcus
+
+✅ **Always report**:
+- Revenue (MRR, churn, trajectory)
+- Pipeline health (leads, demos, deals closing)
+- Product milestones (on track, behind)
+- Blockers that need Marcus's help
+- Strategic decisions needed
+- Wins worth celebrating
+
+✅ **Report if notable**:
+- Content performance (big spikes or drops)
+- Partner leads (if significant)
+- Competitive intel (relevant to strategy)
+- Team concerns (if any)
+
+❌ **Don't report** (unless asked):
+- Day-to-day operational details
+- Minor content performance fluctuations
+- Internal team dynamics (handle directly with Kham)
+- Every lead interaction (unless strategic)
+
+---
+
+## Quick Reference: Marcus's 5 Key Questions
+
+Marcus will likely ask 5 questions every update. Have answers ready:
+
+1. **"How's revenue looking?"**
+   - MRR, new MRR, churn, trajectory to target
+
+2. **"How's the pipeline?"**
+   - Leads, demos, proposals, closing timeline
+
+3. **"When does the product launch?"**
+   - Orientation robot: [date], with milestone status
+
+4. **"What are the blockers?"**
+   - [Specific blockers with ask to unblock]
+
+5. **"Do we need to make any decisions?"**
+   - [List 1-3 decisions needed this week]
+
+---
+
+## Actions for Steven
+
+- [ADDED] Create weekly status report template (Google Doc) — by June 7, 2026
+- [ADDED] Set up weekly Monday update with Marcus (30 min, standing) — by June 7, 2026
+- [ADDED] Build pipeline tracking spreadsheet in Google Sheets — by June 7, 2026
+- [ADDED] Set up 100-day milestone tracker (critical path items) — by June 7, 2026
+- [ADDED] Prepare first weekly status report — June 7, 2026
+- [ADDED] Prepare first monthly business review — June 28, 2026
+- [ADDED] Set up Google Analytics 4 for website traffic tracking — by June 7, 2026
+- [ADDED] Connect Zoho CRM (when launched) to revenue dashboard — by Month 3
+- [ADDED] Review Marcus's 5 key questions at start of every update — ongoing
+- [ADDED] Monthly: Share pipeline coverage ratio with Marcus — ongoing
+
+---
+
+## Sources
+
+- B2B SaaS reporting frameworks: hubspot.com/sales/sales-reporting
+- Weekly status report templates: statushero.com/blog/weekly-status-report
+- KPI dashboards: clearbit.com/blog/sales-kpi-dashboard
+- Monthly business review: sandler.com/blog/monthly-business-review
+- 100-day plan tracking: asana.com/blog/100-day-plan-template
+
+---
+
+*End of Cycle 57 refinement. Gap filled: Internal reporting framework for Steven — weekly status report, monthly business review, KPI dashboard, 100-day tracker, reporting cadence.*
