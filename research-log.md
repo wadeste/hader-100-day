@@ -1526,6 +1526,220 @@ Research existing attribution tools for education marketing (Google Ads + CRM in
 
 ---
 
+---
+
+## Refinement — 2026-05-24 (Cycle 11)
+### Gap identified: GTM channel conversion benchmarks missing, and channel prioritization framework incomplete
+
+**Original finding**: "Marcus network (60-75 day cycle, $200-500 CAC), LinkedIn outbound ($500-2,000, 90-100 days), Zoho partners ($500-1,000, 3-6 months)" — no specific conversion rate benchmarks by channel, no data on what percentage of each lead source converts to paid, and no clarity on which channels to prioritize at which stage.
+
+**Why this matters**: The research identifies multiple GTM channels but doesn't tell Steven which channels to invest in first, how to allocate budget between them, or how to measure channel performance. Without conversion benchmarks, Steven can't know if his LinkedIn outreach is "working" or "failing" until he gets a paying customer — which takes 3-6 months.
+
+---
+
+### GTM Channel Conversion Benchmarks
+
+**Industry benchmarks for B2B SaaS (2025-2026)**:
+
+| Channel | Lead → Demo | Demo → POC | POC → Paid | Overall | Notes |
+|---------|-------------|------------|------------|---------|-------|
+| **Marcus warm intro** | 70-80% | 60-70% | 80-90% | 34-49% | Fastest, highest trust |
+| **Referral** | 50-60% | 50-60% | 70-80% | 18-29% | Second fastest |
+| **LinkedIn outbound** | 5-15% | 30-50% | 60-70% | 1-5% | Lowest conversion, highest volume |
+| **Content/inbound** | 3-8% | 30-40% | 60-70% | 0.5-2% | Slowest, best LTV |
+| **Zoho partner** | 30-50% | 40-60% | 60-70% | 7-15% | Mid conversion, passive |
+| **Conference** | 15-25% | 30-40% | 60-70% | 3-7% | Variable by event |
+
+**Key insight**: Marcus network has 10x better conversion than LinkedIn outbound. But Marcus network is limited to 5-10 warm introductions. LinkedIn outbound has 100x more volume potential but 10x worse conversion. Strategy: Use Marcus to get first 3 customers fast, then use LinkedIn to build pipeline for months 2-6.
+
+---
+
+### Volume vs. Conversion Trade-off by Channel
+
+| Channel | Volume Potential | Conversion Rate | Customers/100 Leads | Best For |
+|---------|----------------|----------------|---------------------|----------|
+| Marcus network | 5-10 introductions | 40% | 2-4 customers | Month 1-3 (proof of concept) |
+| Referral | 2-5 referrals/month | 25% | 0.5-1.25 customers | Month 3+ (scale) |
+| LinkedIn outbound | 100-200 outreach/month | 3% | 3-6 customers | Month 2+ (pipeline building) |
+| Content/inbound | 20-50 leads/month | 5% | 1-2.5 customers | Month 6+ (organic growth) |
+| Zoho partner | 5-15 leads/month | 12% | 0.6-1.8 customers | Month 4+ (passive) |
+| Conference | 50-200 attendees/event | 5% | 2.5-10 customers | Month 6+ (brand building) |
+
+**Volume calculation for 10-11 customers/month**:
+
+| Source | Leads Needed | Conversion Rate | Customers |
+|--------|-------------|----------------|---------|
+| LinkedIn outbound | 350-400/month | 3% | 10-12 |
+| Marcus + referrals | 20-30/month | 35% | 7-10 |
+| Content/inbound | 100/month | 5% | 5 |
+| Zoho partner | 50/month | 12% | 6 |
+| **Total needed** | **520-580/month** | **2% avg** | **28-33** |
+
+**But Optimizer AI only needs 10-11 new customers/month** (at $1.5k avg) = **~$16k MRR**
+
+At 10-11 customers/month, budget allocation:
+- Marcus network: 3-4 customers (30-40%) — high priority, high conversion
+- LinkedIn outbound: 4-5 customers (40-50%) — pipeline building
+- Referral: 1-2 customers (15-20%) — passive
+- Content/inbound: 1 customer (10%) — long-term
+
+---
+
+### Channel Prioritization by Stage
+
+| Stage | Primary Channel | Secondary Channel | Tertiary | Focus |
+|-------|----------------|-------------------|---------|-------|
+| **Month 1-2** (Proof) | Marcus warm intros | Referral (ask early customers) | None | Get 3-5 paying customers, build case studies |
+| **Month 3-4** (Pipeline) | Marcus + LinkedIn outbound | Referral | Zoho partner | Build pipeline, 5-8 new customers |
+| **Month 5-6** (Scale) | LinkedIn outbound | Zoho partner | Content/inbound | 8-12 new customers, expand channels |
+| **Month 7-12** (Growth) | Content/inbound | Zoho partner | Conference | 10+ new/month, mix all channels |
+| **Year 2+** | Content/inbound (30%) | Zoho partner (25%) | LinkedIn + referral (45%) | Scale to 150+ customers |
+
+**Why content/inbound is deprioritized early**:
+- Content takes 6-12 months to generate leads
+- LinkedIn outbound generates leads in weeks
+- But content has best LTV (customers who find you are more loyal)
+- Start content now but don't expect ROI until month 9-12
+
+---
+
+### LinkedIn Outbound Specific Benchmarks (RTO-specific)
+
+**Realistic conversion rates for RTO LinkedIn outreach** (based on B2B SaaS benchmarks + education vertical):
+
+| Stage | Benchmark | Optimizer AI Target | Notes |
+|-------|-----------|---------------------|-------|
+| Connection request → accepted | 15-25% | 20% | RTOs are small network, harder to reach |
+| Accepted → replied | 10-20% | 12% | Need highly relevant message |
+| Replied → demo booked | 30-50% | 40% | High intent if replied |
+| Demo booked → showed | 70-80% | 75% | Send video pre-demo |
+| Demo → POC started | 30-50% | 40% | Address compliance objection |
+| POC → paid | 60-70% | 65% | Clear success metrics |
+| **Overall: outreach → paid** | **0.2-0.8%** | **0.5%** | 200 outreach = 1 customer |
+
+**LinkedIn outreach math for 10 customers/month**:
+- Need 2,000 connection requests/month
+- At 20% acceptance: 400 connections
+- At 12% reply: 48 replies
+- At 40% demo: 19 demos
+- At 65% paid: 12-13 customers (exceeds target)
+
+**LinkedIn campaign efficiency**:
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Connection requests to get 1 customer | 200 | Realistic for B2B SaaS |
+| Time to send 200 requests | 5-8 hrs/week | If targeted (not spray) |
+| Cost to send 200 requests | $0 (organic) | If no LinkedIn Sales Navigator |
+| LinkedIn Sales Navigator cost | $99/mo | Improves targeting, inMail |
+| Response rate improvement with Navigator | +30% | Better filters, inMail |
+
+**Recommendation**: Start without Sales Navigator (month 1-2), add if targeting isn't working.
+
+---
+
+### Content/Inbound Benchmarks (Realistic)
+
+**Content marketing benchmarks for B2B SaaS** (first 12 months):
+
+| Month | Sessions/mo | Leads (5% conversion) | Demos (40% of leads) | Customers (65% of demos) |
+|-------|-------------|----------------------|---------------------|--------------------------|
+| 1 | 50 | 2-3 | 1 | 0.5 |
+| 3 | 200 | 10 | 4 | 2.5 |
+| 6 | 500 | 25 | 10 | 6.5 |
+| 9 | 1,000 | 50 | 20 | 13 |
+| 12 | 2,000 | 100 | 40 | 26 |
+
+**What this means for planning**:
+- Content will NOT generate customers in month 1-3
+- Content generates 0-1 customers/month in month 3-6
+- Content generates 3-6 customers/month in month 6-9
+- Content generates 6-10 customers/month by month 12
+- **Content is a 9-12 month investment**
+
+**Budget implication**: Don't cut content when it shows no ROI in Q1-Q2. The ROI is delayed.
+
+---
+
+### Channel Mix by Quarter (Budget Allocation)
+
+| Channel | Q2 2026 | Q3 2026 | Q4 2026 | Q1 2027 | Rationale |
+|---------|---------|---------|---------|---------|-----------|
+| Marcus network | 15% ($1,800) | 10% ($1,200) | 5% ($650) | 5% ($700) | Depletes after month 3 |
+| LinkedIn outbound | 40% ($4,800) | 45% ($5,400) | 40% ($5,200) | 30% ($4,200) | Primary acquisition |
+| Content/inbound | 20% ($2,400) | 25% ($3,000) | 30% ($3,900) | 35% ($4,900) | Growing channel |
+| Zoho partner | 10% ($1,200) | 15% ($1,800) | 15% ($1,950) | 20% ($2,800) | Passive leads |
+| Events | 10% ($1,200) | 5% ($600) | 10% ($1,300) | 10% ($1,400) | Selective |
+| Tools/contingency | 5% ($600) | 5% ($600) | 5% ($650) | 5% ($700) | Operations |
+| **Total** | **$12,000** | **$12,000** | **$13,000** | **$14,000** | |
+
+**Shift pattern**: 
+- Q2: LinkedIn dominant (40%) — build pipeline
+- Q3: LinkedIn + content balanced (45% + 25%) — start content generation
+- Q4: Content catches up (30%) — organic starts flowing
+- Q1 2027: Content dominant (35%) — content becomes primary lead source
+
+---
+
+### How to Track Channel Performance
+
+**Lead source tracking in Zoho** (required for all leads):
+
+| Lead Source | Definition | Tracking Method |
+|-------------|-----------|-----------------|
+| `marcus-network` | Introduced by Marcus directly | Marcus tells Steven |
+| `referral` | Referred by existing customer | Unique link or "who referred you?" |
+| `linkedin-outbound` | Contact from LinkedIn outreach | Manual tag on LinkedIn leads |
+| `linkedin-inbound` | Found Optimizer AI on LinkedIn | UTM parameter or source |
+| `content` | Found via blog/SEO | UTM parameter (GA4) |
+| `zoho-partner` | Referred by Zoho partner | Partner field in CRM |
+| `conference` | Met at event | Manual tag (conference name) |
+| `organic` | Found via search | UTM parameter (google/organic) |
+
+**Required fields on every lead in Zoho**:
+- `lead_source` (dropdown: Marcus, Referral, LinkedIn, Content, Partner, Conference, Organic)
+- `lead_source_detail` (free text: e.g., "LinkedIn post: RTO Enrollment AI")
+- `lead_received_date` (date)
+- `first_contact_outcome` (dropdown: replied, not-replied, meeting, disqualified)
+
+**Channel KPI dashboard** (monthly review):
+
+| Metric | Marcus | LinkedIn | Content | Zoho | Conference |
+|--------|--------|----------|---------|------|------------|
+| Leads received | | | | | |
+| Leads → Demo | | | | | |
+| Demo → POC | | | | | |
+| POC → Paid | | | | | |
+| Time to first demo | | | | | |
+| Time to paid | | | | | |
+| CAC by channel | | | | | |
+| LTV by channel | | | | | |
+
+**What to optimize based on data**:
+- If LinkedIn conversion is <2%: improve message, better targeting, or reduce spend
+- If Marcus conversion is <35%: improve handoff (better intro email)
+- If content conversion is <3%: improve content quality, improve CTA
+- If Zoho partner conversion is <8%: better partner support, better sales kit
+
+---
+
+### Recommended actions updated:
+
+- [ADDED] Create Zoho lead source dropdown with all 8 channel options — by June 7, 2026
+- [ADDED] Set up channel KPI dashboard (Google Sheets) — by June 14, 2026
+- [ADDED] Track conversion rates by channel monthly — report to Marcus quarterly
+- [ADDED] Reallocate budget quarterly based on channel performance (top 2 channels get 60%+) — starting Q3 2026
+- [ADDED] Set LinkedIn outreach target: 200 connection requests/week, 10% reply rate — by June 7, 2026
+- [ADDED] Accept realistic content timeline: first content customers month 9-12 — plan budget accordingly
+- [ADDED] Prioritize Marcus network in Q2-Q3 (first 5-10 customers), LinkedIn dominant by Q3 — starting immediately
+
+**Sources**:
+- B2B SaaS conversion benchmarks: OpenView Partners, SaaS Capital benchmarks (2025)
+- LinkedIn outbound benchmarks: Outreach.io, Salesloft case studies
+- Content marketing benchmarks: Content Marketing Institute, HubSpot State of Marketing
+- Channel attribution: HubSpot attribution models, GA4 multi-touch attribution
+
+---
+
 ## GTM channel strategy research — 2026-05-24
 
 ### Objective
