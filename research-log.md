@@ -1907,3 +1907,74 @@ AI doesn't directly enroll more students. It enables growth by:
 - [ADDED] Identify 3-5 community services RTOs in Queensland for pilot — by June 28, 2026
 - [ADDED] Design "prerequisite verification" feature for community services orientation call — by July 2026
 
+
+## Refinement — 2026-05-24
+### Gap identified: TAZ review tool missing specific workflow, technical approach, and time-to-build estimate
+
+**Original finding**: "TAZ reviews are the killer feature: 5-20 hours of manual work per qualification, updated frequently when training packages change."
+
+**Refined findings**:
+**TAZ review workflow (current manual process)**:
+1. RTO develops Training and Assessment Strategy (TAS/TAZ) document
+2. Compliance manager compares TAS against current training package on training.gov.au
+3. Check each unit of competency: is it current? Is it correctly sequenced? Are assessment strategies appropriate?
+4. Flag any units that are superseded, deleted, or have new requirements
+5. Update TAS if needed
+6. Submit for RTO registration or audit
+
+**Time breakdown per TAZ review**:
+| Step | Time | Automation potential |
+|------|------|---------------------|
+| Download current training package | 30 min | 100% (API fetch) |
+| Extract competency units from TAS | 1-2 hrs | 50% (PDF parsing) |
+| Compare units vs. current package | 3-5 hrs | 90% (automated diff) |
+| Check assessment requirements | 2-3 hrs | 70% (rule-based checks) |
+| Flag issues and generate report | 1-2 hrs | 80% (AI summary) |
+| **Total** | **7.5-12.5 hrs** | **~75% automatable** |
+
+**TAZ review AI technical approach**:
+1. **Input**: PDF of TAS/TAZ document
+2. **Parse**: Extract unit codes, assessment tasks, delivery mode claims
+3. **Fetch**: Pull current training package from training.gov.au API (if available)
+4. **Compare**: Flag superseded units, missing units, assessment gaps
+5. **Generate**: Create issue list + recommendations report
+
+**Technical build complexity**:
+| Component | Difficulty | Time |
+|-----------|------------|------|
+| PDF parsing (upload + extract text) | Medium | 1-2 weeks |
+| Training.gov.au API integration | Unknown | 2-4 weeks (depends on API availability) |
+| Unit comparison logic (diff engine) | High | 3-4 weeks |
+| Report generation (AI summary) | Medium | 1-2 weeks |
+| UI/UX (upload, review, download) | Low | 1 week |
+| **Total MVP** | | **8-13 weeks** |
+
+**Alternative approach if no API**:
+- Scrape training.gov.au periodically (daily/weekly) → store locally
+- Compare TAS against cached training package data
+- Lower accuracy but faster to build
+
+**training.gov.au API status**:
+- TGA does not have a public REST API for training packages
+- Options: web scraping (allowed for public data), manual updates (weekly check), third-party data provider (cost)
+- Recommend: Start with web scraping (Python/BeautifulSoup), upgrade if volume warrants
+
+**TAZ review tool pricing model**:
+| Tier | Reviews included | Overage | Monthly | Annual |
+|------|------------------|---------|---------|--------|
+| Starter | 2 | $150/review | $299 | $2,990 |
+| Professional | 6 | $100/review | $599 | $5,990 |
+| Enterprise | Unlimited | Included | $1,499 | $14,990 |
+
+**ROI calculation**:
+- TAZ review takes 10 hours at $50/hr (internal cost) = $500
+- TAZ review tool: $299/month (Starter) = $150/review
+- At 2+ reviews/month: tool pays for itself
+- Compliance consultant charge: $3,000-10,000 per review = 10-30x more expensive
+
+**Actions added**:
+- [ADDED] Check if training.gov.au has scraping-friendly data structure — by June 14, 2026
+- [ADDED] Build TAZ review MVP spec (upload PDF → compare → report) — by June 21, 2026
+- [ADDED] Timeline: MVP in 3 months (Sept 2026) if resources allocated
+- [ADDED] Target launch: October 2026 (coincide with AUSPED conference)
+
