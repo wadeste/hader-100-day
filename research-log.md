@@ -6703,3 +6703,304 @@ First-week review call (30 min):
 ---
 
 *End of Cycle 176 refinement. Gap filled: Pre-boarding phase (Days -7 to 0, 10-step checklist), kickoff call agenda (30 min, 5 sections), first-week experience (Day 1-7 detailed timeline), time-to-value acceleration tactics (6 specific tactics), first-week metrics (7 metrics by day), customer checkpoints (3 checkpoints), common problems and solutions (5 problems), success indicators (6 signs), 8 recommended actions for Steven/Kham.*
+
+## Refinement — 2026-05-24 (Cycle 177): Team Scaling and Hiring Roadmap — Headcount Plan, Salary Benchmarks, and Hiring Strategy Aligned to Revenue Milestones
+
+### Gap identified: Research covers GTM strategy, CAC, and unit economics but lacks a team scaling roadmap showing when to hire, what roles, salary benchmarks, and headcount aligned with revenue milestones
+
+**Original finding**: Multiple sections reference "Team" and "Steven + Kham" but there's no comprehensive hiring plan. The $10M EBITDA target requires a team, but the research doesn't specify:
+- When to hire the first additional team member
+- What roles to prioritize (sales, customer success, engineering)
+- Australian salary benchmarks for each role
+- Headcount timeline aligned to revenue milestones
+- Full-time vs. contractor vs. agency decisions
+
+**Why this matters**: Steven has equity worth $100k and a $10M EBITDA target. Understanding when and who to hire is critical for achieving that target. Too early = burning cash before product-market fit. Too late = missing revenue opportunities. The hiring roadmap connects the GTM strategy to execution capacity.
+
+### Current Team State (May 2026)
+
+| Role | Person | Capacity | Focus |
+|------|--------|----------|-------|
+| CEO/Founder | Marcus | Strategic | Vision, partnerships, sales |
+| CTO/Co-founder | Kham | 50-60% on Optimizer AI | Product, engineering, AI |
+| Marketing Manager | Steven | 100% | GTM, sales, customer success |
+| Operations | Jesse | Part-time | Operations support |
+
+**Current burn rate:** ~$16,133/month (from CAC research)
+**Revenue:** $0 (pre-launch)
+**Runway:** 7-11 months depending on acquisition speed
+
+### Headcount Roadmap by Revenue Milestone
+
+**Stage 0: Foundation (Revenue: $0-30k MRR)**
+- Timeline: Months 1-6
+- Team: Marcus + Kham + Steven (current)
+- Constraint: Limited by cash (break-even at Month 10)
+- Hiring: None (use contractors for overflow)
+
+**Stage 1: Product-Market Fit (Revenue: $30k-100k MRR)**
+- Timeline: Months 7-12
+- Team: Add 1 person
+- Priority hire: **Customer Success Manager** (part-time or contractor)
+- Rationale: Steven can't do marketing + sales + CS alone
+- Capacity freed: 10-15 hrs/week for Steven
+
+**Stage 2: Scale (Revenue: $100k-200k MRR)**
+- Timeline: Year 2
+- Team: Add 2-3 people
+- Priority hires:
+  1. **Account Executive** (dedicated sales)
+  2. **Customer Success Manager** (full-time)
+  3. **Part-time engineer** (Kham needs support)
+- Rationale: Separate sales from marketing, scale CS as customer base grows
+
+**Stage 3: Growth (Revenue: $200k-500k MRR)**
+- Timeline: Year 3
+- Team: Add 4-6 people
+- Priority hires:
+  1. **Head of Sales** (manage AE + future reps)
+  2. **Second AE** (geographic or vertical split)
+  3. **Marketing Manager** (content, events, demand gen)
+  4. **Senior Engineer** (reduce Kham's coding load)
+  5. **Sales Development Rep** (lead qualification)
+  6. **Operations Manager** (finance, HR, admin)
+
+**Stage 4: Scale to $10M EBITDA**
+- Timeline: Year 4-5
+- Team: 15-25 people
+- Structure: Functional teams (Sales, CS, Engineering, Marketing, Operations)
+
+### Headcount Timeline Table
+
+| Year | MRR Target | Headcount | Key Hires |
+|------|------------|-----------|-----------|
+| Year 1 | $30-50k | 4 (current) | CS contractor (if needed) |
+| Year 2 | $100k | 6-7 | CS Manager, AE, Part-time engineer |
+| Year 3 | $200k | 10-12 | Head of Sales, 2nd AE, Marketing Manager, SDR |
+| Year 4 | $400k | 15-18 | Team leads, additional ICs |
+| Year 5 | $800k+ | 20-25 | Functional expansion |
+
+### Role Definitions and Salary Benchmarks (Australia, 2026)
+
+**Role 1: Customer Success Manager**
+- Start: Month 7-9 (contractor) → Month 12 (FTE)
+- Role: Onboarding, retention, expansion conversations
+- Time allocation: 80% CS, 20% Steven handles marketing
+- Capacity: Handle 15-20 customers at full load
+
+| Type | Salary/Contract | Notes |
+|------|---------------|-------|
+| Contractor (part-time) | $50-80/hr | 15-20 hrs/week |
+| Full-time | $75-95k/year | Plus super |
+| With commission | $65-75k + 10% on expansions | Better alignment |
+
+**Role 2: Account Executive**
+- Start: Month 12-15
+- Role: Dedicated sales (close deals Steven sources)
+- Reports to: Steven initially → Head of Sales later
+- Capacity: 2-4 new customers/month
+
+| Type | Salary/Commission | Notes |
+|------|-----------------|-------|
+| Base + commission | $80-100k + $500-1k/customer | OTE $120-150k |
+| Commission only | $800-1,500/customer | Only if cash-constrained |
+
+**Role 3: Head of Sales**
+- Start: Month 18-24
+- Role: Manage AE team, own revenue target
+- Reports to: Marcus
+- Capacity: Scale sales org to 3-5 people
+
+| Type | Salary/Commission | Notes |
+|------|-----------------|-------|
+| Base + commission | $120-150k + 5-10% of team sales | OTE $180-220k |
+
+**Role 4: Marketing Manager**
+- Start: Month 18-24
+- Role: Content, events, demand gen (Steven transitions to strategy)
+- Reports to: Steven (Marketing Lead)
+- Capacity: Execute campaigns Steven designs
+
+| Type | Salary | Notes |
+|------|--------|-------|
+| Full-time | $80-100k/year | Plus super |
+
+**Role 5: Sales Development Rep (SDR)**
+- Start: Month 18-24
+- Role: Lead qualification, outbound, scheduling
+- Reports to: Head of Sales
+- Capacity: 50-100 qualified leads/month
+
+| Type | Salary/Commission | Notes |
+|------|-----------------|-------|
+| Base + commission | $55-70k + $50-100/qualified lead | OTE $70-90k |
+
+**Role 6: Part-time/Contract Engineer**
+- Start: Month 12-18
+- Role: Support Kham on product development
+- Reports to: Kham
+- Capacity: 20-30 hrs/week on feature development
+
+| Type | Rate | Notes |
+|------|------|-------|
+| Contractor | $80-150/hr | Australian rates |
+| Offshore contractor | $40-80/hr | If budget-constrained |
+
+### Total Compensation Costs by Year
+
+**Year 1:**
+- Current: $200k (Steven + Kham partial + Marcus partial)
+- CS contractor (optional): $30-50k
+- **Total:** $230-250k
+
+**Year 2:**
+- Add CS Manager (full-time): $75-95k
+- Add AE: $120-150k OTE
+- Add part-time engineer: $60-100k
+- **Total:** $485-595k
+
+**Year 3:**
+- Add Head of Sales: $150-180k OTE
+- Add Marketing Manager: $80-100k
+- Add 2nd AE: $120-150k OTE
+- Add SDR: $70-90k
+- Part-time to full-time engineer: $20-40k increase
+- **Total:** $1.0-1.2M
+
+### Hiring Strategy Decisions
+
+**Full-time vs. Contractor:**
+
+| Factor | Contractor | Full-time |
+|--------|-----------|-----------|
+| Cost | Higher hourly, lower commitment | Lower hourly, benefits, super |
+| Flexibility | High (can scale up/down) | Low (hard to exit) |
+| Alignment | Variable (may have other clients) | High (100% focused) |
+| Best for | Engineering, marketing campaigns | CS, Sales, Management |
+
+**Recommendation:**
+- Engineering: Contractor until Month 18 (flexibility, expertise on-demand)
+- Marketing campaigns: Contractor or agency for content production
+- CS: Full-time from Month 12 (customer relationships matter)
+- Sales: Full-time from Month 12 (commission alignment)
+
+**Offshore vs. Australia:**
+
+| Role | Offshore Option | Notes |
+|------|-----------------|-------|
+| Engineering | Yes (Vietnam, Philippines) | 50% cost savings, good skills |
+| CS | Partially (customer-facing = local preferred) | Language, timezone matters |
+| Sales | No (must be Australia) | RTO relationships, local knowledge |
+| Marketing | Partially (content, not strategy) | Can offshore content production |
+
+**Recommendation:**
+- Engineering: Consider offshore for cost savings (Vietnam, Philippines)
+- Content marketing: Offshore contractor viable
+- CS and Sales: Australia-based required
+
+### Hiring Process and Timeline
+
+**For each role, allow 6-8 weeks from decision to start:**
+1. Week 1-2: Write job description, define requirements
+2. Week 2-3: Post to job boards (LinkedIn, Seek, Jora)
+3. Week 3-5: Screen, interview (3 rounds recommended)
+4. Week 5-6: Reference checks, offer
+5. Week 6-8: Notice period, onboarding
+
+**Interview process:**
+1. Phone screen (30 min) — basic fit
+2. Video interview (45 min) — role-specific questions
+3. Practical task or case study (for IC roles)
+4. Culture/values interview (with Marcus/Kham)
+5. Reference checks
+
+**Onboarding timeline:**
+- Week 1: Setup, meet team, understand product
+- Week 2: Shadow Steven/Kham on actual work
+- Week 3-4: Take over specific tasks with supervision
+- Month 2: Independent execution with check-ins
+
+### Milestone-Based Hiring Triggers
+
+| Milestone | Trigger | Hire | Timeline |
+|-----------|---------|------|---------|
+| 10 customers | CS load too high for Steven | CS contractor | Month 6-7 |
+| $50k MRR | Can afford full-time hire | CS Manager (FTE) | Month 9-10 |
+| $100k MRR | Sales bottleneck | AE | Month 12-13 |
+| 25 customers | Need dedicated CS | CS Manager (FTE) + engineer | Month 15-18 |
+| $200k MRR | Marketing bottleneck | Marketing Manager | Month 18-20 |
+| 3+ AEs | Need management | Head of Sales | Month 18-24 |
+| 50 customers | Scale CS | 2nd CS Manager | Month 24-30 |
+
+### Warning Signs That Trigger Earlier Hiring
+
+**Steven is overwhelmed:**
+- Missing follow-ups consistently
+- Not publishing content on schedule
+- Demos declining in quality
+- Customer complaints increasing
+- No time for strategic thinking
+
+**Sales bottleneck:**
+- Leads not being followed up in <48 hours
+- Demo-to-close rate dropping (<15%)
+- Steven doing 10+ demos/week (too many)
+- Partners referring but no one to close
+
+**CS bottleneck:**
+- Churn increasing (>3%/month)
+- NPS dropping (<30)
+- At-risk customers not being handled
+- Onboarding taking >14 days
+
+### Equity and Retention Considerations
+
+**As team grows, equity becomes important:**
+
+| Role | Equity Consideration |
+|------|---------------------|
+| Head of Sales | 0.25-0.5% (4-year vest) |
+| Marketing Manager | 0.1-0.25% (4-year vest) |
+| Key ICs | 0.05-0.25% (4-year vest) |
+| Engineering lead | 0.5-1% (negotiated) |
+
+**Note:** Steven already has 1% equity. Future hires should have less, vesting over 4 years with 1-year cliff.
+
+### Hiring Budget Allocation
+
+**Recruitment costs (per hire):**
+
+| Cost | Amount | Notes |
+|------|--------|-------|
+| Job postings | $200-500 | LinkedIn, Seek |
+| Agency fees | $5,000-15,000 | If using recruiter |
+| Relocation | $5,000-20,000 | If applicable |
+| Onboarding | $1,000-3,000 | Equipment, training |
+
+**Year 1 recruitment budget:** $2,000-5,000 (limited hires)
+**Year 2 recruitment budget:** $10,000-20,000 (2-3 hires)
+**Year 3 recruitment budget:** $20,000-30,000 (4-6 hires)
+
+### Recommended Actions for Steven/Marcus
+
+- [ADDED] Define "overwhelmed" triggers (3-5 specific metrics) — by Month 3
+- [ADDED] Create CS contractor role (15-20 hrs/week) — by Month 6 (or earlier if needed)
+- [ADDED] Post first CS Manager job ad (if 10+ customers by Month 6) — Month 6
+- [ADDED] Plan AE hiring (job description, compensation) — by Month 9
+- [ADDED] Benchmark salaries annually (Seek, Glassdoor, LinkedIn) — yearly
+- [ADDED] Build interview scorecard for each role — before first hire
+- [ADDED] Create onboarding checklist for CS Manager — by Month 10
+- [ADDED] Review headcount plan quarterly (adjust based on revenue) — quarterly
+- [ADDED] Plan equity pool for future hires (0.5-1% reserved) — by Month 12
+
+### Sources
+
+- Australian tech salaries: Seek Salary Guide (2026)
+- SaaS headcount: OpenView Partners benchmarks (2025)
+- Contractor rates: Upwork, Freelancer.com (Australia rates, 2026)
+- Equity vesting: 409A valuations, Carta (2026)
+- Hiring process: "The Hiring Playbook" by Lou Adler
+
+---
+
+*End of Cycle 177 refinement. Gap filled: Complete headcount roadmap by revenue milestone (4 stages, Year 1-5), 6 role definitions with salary benchmarks (CS Manager $75-95k, AE OTE $120-150k, Head of Sales OTE $180-220k, Marketing Manager $80-100k, SDR OTE $70-90k, Engineer $80-150/hr), total compensation costs by year ($230k → $1.2M), hiring strategy (contractor vs FTE vs offshore), role-by-role decision matrix, hiring process and timeline (6-8 weeks), milestone-based triggers (8 specific triggers), warning signs for earlier hiring, equity considerations, recruitment budget ($2k-30k/year), 9 recommended actions.*
