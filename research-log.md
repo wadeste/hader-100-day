@@ -4233,3 +4233,262 @@ Research covers CAC (Cycle 196), market sizing (Cycle 190), and pricing (Cycle 1
 
 *End of Cycle 209 refinement. Gap filled: Financial modelling was thin across multiple cycles (CAC existed but no P&L, no unit economics by tier, no break-even analysis, no sensitivity testing). Added comprehensive financial model: revenue path to $10M EBITDA ($600K→$10M over 5 years), unit economics by tier (Starter 78% gross margin, Growth 82%, Scale 86%), operating expense model ($215K Year 1), break-even analysis (23 customers), cash flow model (annual vs monthly contracts), sensitivity analysis (3 key risks), funding scenarios (bootstrapped vs seed), financial dashboard KPIs. 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 210): Customer Success and Retention Strategy — Missing Framework for Reducing Churn and Maximizing LTV
+
+### Gap identified
+Research covers customer acquisition extensively (CAC, GTM channels, social proof, sales process) and financial modelling (revenue targets, unit economics) but lacks a **customer success strategy** — how to onboard customers effectively, track health, prevent churn, drive expansion revenue, and turn customers into advocates. This is a critical gap: at 15% annual churn, Optimizer AI loses 50% of customers within 4 years. Without a defined customer success process, even excellent acquisition fails to compound growth.
+
+**Original finding**: Customer success is mentioned only in passing: "Focus on customer success" (Cycle 209, risk mitigation), "testimonial request at 60-day check-in" (Cycle 203), "premium support + dedicated CSM" (Cycle 188, Scale tier). No comprehensive framework exists.
+
+**Why this matters**: The SaaS math is unforgiving. A 20% churn rate means you must acquire 1 customer just to replace each one who leaves. At $2,000 CAC and $12K ARPU, each churned customer represents a $10,000 loss over their lifetime. But customers who stay 3+ years generate 3x revenue from the original acquisition cost. Customer success isn't overhead — it's the mechanism that converts acquisition spend into compounding returns.
+
+### The Customer Success Imperative for Optimizer AI
+
+**What customer success means in context**:
+
+Optimizer AI serves RTOs — organizations with:
+- **Complex stakeholder structures** (CEO buys, enrollment manager uses, compliance officer worries)
+- **Seasonal enrollment cycles** (Q1 and Q3 are peak, summer is slow)
+- **High switching costs** (Zoho integration, staff trained, workflows built around AI)
+- **Regulatory dependencies** (ASQA compliance creates stickiness)
+
+This means:
+- Churn is NOT inevitable — proper success management can reduce it to 5-8%
+- Expansion is possible — Starter → Growth → Scale upsells are realistic
+- Advocacy is achievable — satisfied RTOs refer their peers (the #1 channel)
+
+### Customer Lifecycle Framework
+
+**Stage 1: Pre-Onboarding (Week -1 to Day 0)**
+
+| Milestone | Owner | Actions | Success Criteria |
+|-----------|-------|---------|------------------|
+| Contract signed | Steven | Send welcome package, schedule kickoff | Signed contract in Zoho |
+| Zoho access granted | Customer | Send setup guide, schedule tech call | OAuth connected |
+| Kickoff call | Steven + Customer | Align on goals, timelines, success metrics | Signed SLA document |
+
+**Pre-onboarding checklist**:
+- [ ] Welcome email (day 0): "You're officially on board — here's what to expect"
+- [ ] Onboarding guide PDF (day 0): Zoho setup, AI call script preview, success metrics
+- [ ] Kickoff call scheduled (day 1): Calendar invite with agenda
+- [ ] Technical setup confirmed (day 3): Zoho integration tested
+- [ ] First test call completed (day 5): Customer hears their own AI
+- [ ] Go-live call (day 7): Real calls routing to Optimizer AI
+
+**Stage 2: Launch & First Value (Week 1-4)**
+
+| Milestone | Owner | Actions | Success Criteria |
+|-----------|-------|---------|------------------|
+| AI live | Kham | Route real calls to AI | First 10 calls handled |
+| Training complete | Steven | Train enrollment staff on AI workflow | Staff can review calls, export data |
+| First week report | Steven | Send call summary: calls handled, outcomes, issues | Customer sees AI working |
+| First month review | Steven | Review: calls handled, enrollments from AI, issues | Value delivered: enrollments recovered |
+
+**First value metric**: Customer sees 5+ enrollments from AI calls within 30 days. If not, investigate:
+- Call routing issues?
+- AI script not matching caller intent?
+- Staff not following up on AI leads?
+
+**Stage 3: Adoption & Optimization (Month 2-3)**
+
+| Milestone | Owner | Actions | Success Criteria |
+|-----------|-------|---------|------------------|
+| Script optimization | Kham | Adjust AI based on call data | Containment rate >70% |
+| Staff adoption | Steven | Training on advanced features | 80%+ of staff using dashboard |
+| First success report | Steven | Present: time saved, enrollments, ROI | Customer sees quantified value |
+| Expansion conversation | Steven | Discuss tier upgrade or add-ons | Starter → Growth upgrade discussed |
+
+**Month 1 success report template**:
+```
+[Customer Name] — Month 1 Summary
+
+AI CALLS HANDLED: [X] calls
+- Answer rate: [X]%
+- Containment rate: [X]% (AI resolved without human)
+- Enrollments from AI: [X]
+
+TIME SAVED: [X] hours/week
+- Staff time on enrollment calls: [before] → [after]
+- Equivalent value: $[X]/month
+
+ROI: [X]x
+- Cost: $[X]/month
+- Value delivered: $[X]/month (enrollments + time)
+- Payback: [X] months
+
+RECOMMENDATIONS:
+1. [Optimization opportunity]
+2. [Feature to explore]
+3. [Expansion conversation: [tier] tier?]
+```
+
+**Stage 4: Renewal & Expansion (Month 10-12)**
+
+| Milestone | Owner | Actions | Success Criteria |
+|-----------|-------|---------|------------------|
+| 30-day renewal reminder | Steven | Send renewal proposal | Customer receives with enough lead time |
+| Annual review call | Steven | Review year 1 results, plan year 2 | Customer sees growth trajectory |
+| Expansion discussion | Steven | Propose tier upgrade or add-ons | Commit to Growth/Scale or renew current |
+| Contract signed | Steven | Send new contract | Signed before expiry |
+
+**Renewal success criteria**:
+- Customer has seen >$50K in value from Optimizer AI (at 12 months)
+- Customer has renewed or upgraded (not churned)
+- Customer willing to provide testimonial or referral
+
+### Customer Health Scoring System
+
+**Health score** = composite metric (0-100) predicting churn risk.
+
+**Score components**:
+
+| Component | Weight | Data Source | Scoring |
+|-----------|--------|-------------|---------|
+| **Product usage** | 30% | Calls handled, dashboard logins, feature adoption | <5 logins/mo = red, >15 = green |
+| **Value realization** | 30% | Enrollments from AI, time saved, reported satisfaction | Not seeing value = red |
+| **Engagement** | 20% | Response to outreach, meeting attendance, support tickets | No response in 30 days = red |
+| **Financial** | 20% | Payment on time, contract status, ARPU trend | Late payment = orange, renewal approaching = yellow |
+
+**Health score interpretation**:
+
+| Score | Status | Action |
+|-------|--------|--------|
+| 80-100 | Healthy | Maintain, upsell opportunities |
+| 60-79 | Neutral | Monitor closely, check in monthly |
+| 40-59 | At-risk | Escalate, executive sponsor call |
+| 0-39 | Critical | Immediate intervention, executive escalation |
+
+**Automated health tracking in Zoho**:
+
+Create custom fields in Account/Contact:
+- `cs_health_score` (number, 0-100)
+- `cs_last_login` (date)
+- `cs_monthly_calls` (number)
+- `cs_enrollments_ai` (number)
+- `cs_contract_expiry` (date)
+- `cs_renewal_status` (picklist: Healthy, At Risk, Critical)
+
+Build workflow: Calculate health score monthly, alert Steven if <60.
+
+### Churn Prevention Playbook
+
+**Yellow flag signals** (monitor closely):
+- Dashboard login drops <50% for 2+ weeks
+- No response to monthly check-in email
+- Support ticket escalation (customer frustrated)
+- Missed call spike (AI not handling volume)
+- Competitor mentioned ("we're evaluating other options")
+
+**Red flag signals** (immediate action):
+- Renewal conversation delayed or avoided
+- Key champion leaves (new person in role)
+- "This isn't working for us" complaint
+- Non-payment or payment dispute
+- Contract cancelled
+
+**Churn prevention tactics by situation**:
+
+| Situation | Tactic | Owner | Timeline |
+|-----------|--------|-------|----------|
+| Low usage | Re-onboarding call | Steven | Week 1 of low usage |
+| Value not seen | ROI deep-dive (show data) | Steven | Within 1 week |
+| Competitor eval | Peer reference call | Steven + happy customer | Within 1 week |
+| Champion left | Executive intro with new person | Steven + Marcus | Within 2 weeks |
+| "Not working" | Emergency review call, script optimization | Steven + Kham | Within 48 hours |
+| Non-payment | Payment plan discussion or contract review | Marcus | Within 1 week |
+
+**Churn conversation framework** (for "this isn't working" calls):
+
+```
+1. EMPATHY: "I hear you. Let's figure out what's not working."
+2. DIAGNOSE: "Walk me through what's not meeting expectations."
+3. ACKNOWLEDGE: "That's a fair concern. Here's what I understand the issue to be."
+4. OFFER: "Here's what we can do: [specific fix]"
+5. COMMIT: "Can we agree to try this for 30 days and revisit?"
+6. ESCALATE: If unsolvable, involve Marcus for executive retention conversation
+```
+
+### Expansion Revenue Strategy
+
+**Types of expansion revenue**:
+
+| Type | Trigger | Action | Revenue Impact |
+|------|---------|--------|----------------|
+| **Tier upgrade** | Call volume exceeds tier limit | Offer Growth/Scale upgrade | $500-1,500/mo increase |
+| **Add-on modules** | Compliance officer asks for help | Offer Compliance AI add-on | $200-500/mo |
+| **Annual commitment** | Month 11 renewal approaching | Offer 15% discount for annual | Reduces churn risk |
+| **Volume expansion** | Multi-campus growth | Offer multi-location pricing | 2-3x current ARPU |
+
+**Expansion triggers to track**:
+
+Starter → Growth triggers:
+1. Call volume >150/month (hitting Starter cap)
+2. Enrollment manager hired (needs better tools)
+3. Orientation booking errors increasing
+4. Customer asks about advanced features
+
+Growth → Scale triggers:
+1. Marketing director asks for attribution data
+2. Multi-location expansion
+3. Compliance audit preparation
+4. Customer asks about "enterprise features"
+
+**Expansion conversation script**:
+
+Starter → Growth:
+> "You've been seeing great results with Starter — [specific metric]. I noticed you're now handling [X] calls/month. You're getting close to our Starter limit of 150. Growth would give you [specific features]. Want to upgrade and lock in the rate?"
+
+Growth → Scale:
+> "Your team has been getting strong results with Growth. I know [Marketing Director] has been asking about attribution. Scale includes the full attribution dashboard. And with [multi-location] expansion, unlimited calls would be helpful. Want to talk about an upgrade?"
+
+### Customer Advisory Board (Year 2+)
+
+**What it is**: A group of 5-10 power users who advise on product direction.
+
+**Why it matters**:
+- Deepens relationship with key customers (reduces churn risk)
+- Gives early input on features (ensures product-market fit)
+- Creates vocal advocates (referrals, case studies)
+- Positions Optimizer AI as community leader
+
+**Structure**:
+- Quarterly 90-minute video call
+- Agenda: Product roadmap preview, beta testing requests, industry trends
+- Benefit to members: Influence product, early access to features, peer networking
+- Benefit to Optimizer AI: Feedback, advocacy, case study opportunities
+
+**Selection criteria**:
+- 12+ months as customer
+- Active users (health score 80+)
+- Willing to commit time (4 calls/year)
+- Representative of different tiers/segments
+
+### Recommended Actions for Steven
+
+- [ADDED] Create customer onboarding checklist (Zoho setup, training, first value) — Week 1
+- [ADDED] Set up customer health score tracking in Zoho (5 custom fields) — Month 1
+- [ADDED] Send Month 1 success report to every customer (automate after first 5) — Month 1
+- [ADDED] Schedule quarterly business reviews (QBR) for all Scale tier customers — Month 3
+- [ADDED] Create churn prevention playbook (yellow/red flags, response tactics) — Month 1
+- [ADDED] Implement expansion trigger tracking (flag when tier upgrade is relevant) — Month 2
+- [ADDED] Create customer success email templates (welcome, check-in, renewal) — Week 2
+- [ADDED] Set up automated health alerts (Zoho workflow: score <60 → email Steven) — Month 2
+- [ADDED] Create customer advisory board (recruit 5 power users) — Year 2
+- [ADDED] Target: <10% annual churn, >100% net revenue retention by Year 2 — Year 2
+
+### Sources
+
+- Customer success benchmarks: Gainsight CS Benchmarks Report 2024
+- Health score methodology: Totango health scoring guide (2025)
+- Churn prevention: "Customer Success" by Nick Mehta et al. (2014)
+- SaaS retention metrics: Recurly SaaS Metrics Survey 2024
+- Expansion revenue: OpenView Partners Expansion Revenue Playbook (2024)
+- Customer advisory boards: Society of Customer Success (SOCS) best practices (2025)
+
+---
+
+*End of Cycle 210 refinement. Gap filled: Customer success strategy was thin (mentioned only in passing). Added customer lifecycle framework (4 stages: pre-onboarding → launch → adoption → renewal), first value tracking (5 enrollments in 30 days), health scoring system (5 components, 0-100 score, traffic light status), churn prevention playbook (yellow/red flags, 6 tactics), expansion revenue strategy (4 trigger types, upgrade scripts), customer advisory board concept for Year 2. 10 recommended actions for Steven.*
+
