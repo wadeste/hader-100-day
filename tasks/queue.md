@@ -22,7 +22,7 @@
 
 - [x] **Early customer discovery interviews** — Research the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers). Design interview questions around their biggest pain points and willingness to adopt AI. — researched 2026-05-24
 - [x] **Proof of concept design** — Research what a compelling POC looks like for each product line. For the orientation call robot: what metrics prove value (call handling rate, conversion lift, time saved)? For the attribution dashboard: what reporting gaps does it fill? — researched 2026-05-24
-- [ ] **Partnership opportunity scan** — Research potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers?
+- [x] **Partnership opportunity scan** — Research potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers? — researched 2026-05-24
 - [ ] **Regulatory and compliance research** — ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers. Any licensing constraints for AI agents in education?
 
 ## Phase 4: Scale Planning & 100-Day Deliverable (Days 81–100)
