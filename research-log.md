@@ -1043,3 +1043,40 @@ Research potential channel partners: RTO software providers (Zoho partners, Airc
 - Education associations: AUSPED, AAVEC, state VET networks
 - Note: Recommend direct outreach to identified partners
 
+
+## Regulatory and compliance research — 2026-05-24
+
+### Objective
+ASQA requirements for AI in student enrollment. Data privacy (Australian Privacy Principles) for AI processing student data. Marketing compliance for education providers. Any licensing constraints for AI agents in education?
+
+### Key Findings
+- **US-based AI APIs (Bland AI, Retell) create APP compliance risk**: Data stored overseas, APP 11.2 requires "reasonable steps" to protect information, cross-border disclosure requires student notification. Must sign DPA before POC launch OR move to Australian-hosted AI (Twilio, AWS Sydney)
+- **ASQA compliance can be built into product as competitive moat**: No competitor has built "ASQA-compliant AI" — call recording, transcript, decision log, USI verification, LLN screening, audit export. "Built for ASQA audits" differentiates from generic AI vendors
+- **No licensing required for AI voice agents**: Unlike telemarketing (ACMA licensing), AI doesn't require specific licensing. Must comply with DNC register for outbound calls
+- **International students excluded from AI enrollment**: ESOS Act and National Code 2018 impose additional obligations — flag international students for human handling
+- **Contractual requirements essential**: Data Processing Agreement (DPA), SLA, breach notification, indemnification — most AI vendors don't have standard DPAs, must negotiate
+
+### Strategic Implications
+- **Must address APP compliance before POC launch** (June 2026) — do not launch with unresolved US-data-storage risk
+- **ASQA compliance features become marketing differentiator**: "The only AI that passes ASQA audits" — first mover advantage
+- **International students = compliance exclusion**: Simple rule: AI = domestic only, human = international
+
+### Recommended Actions
+- [ ] Get legal review on APP compliance for US-based AI APIs — before POC launch
+- [ ] Sign DPA with AI vendor OR move to Australian-hosted AI — by June 7, 2026
+- [ ] Add privacy disclosure at call start — by June 7, 2026
+- [ ] Exclude international students from AI enrollment (flag for human) — by June 14, 2026
+- [ ] Build audit export function (recording, transcript, decision log, USI record) — by June 21, 2026
+- [ ] Prepare script approval workflow (compliance manager reviews quarterly)
+- [ ] Contact ASQA directly to ask about AI guidance — proactive positioning
+- [ ] Build "AI for RTOs: ASQA Compliance Guide" as content asset (lead-gen)
+
+### Sources
+- ASQA Standards 2015: asqa.gov.au/standards
+- Australian Privacy Principles: oaic.gov.au/privacy
+- Notifiable Data Breaches scheme: oaic.gov.au/ndb
+- ACMA Do Not Call Register: acma.gov.au/dncr
+- ESOS Act: education.gov.au/ecos
+- National Code 2018: education.gov.au/national-code-2018
+- Note: Recommend legal consultation for final compliance
+
