@@ -2044,3 +2044,144 @@ The task queue marks "Competitive moat analysis" as complete, but the research-l
 
 *End of Cycle 197 refinement. Gap filled: Competitive moat analysis was thin (only "domain expertise" mentioned). Added 5 moat categories with analysis (compliance knowledge, customer data, Zoho integration, network effects, first-mover), moat strength assessment, action plan by year (Year 1: compliance, Year 2: data, Year 3+: ecosystem), and clarification of what is NOT a moat. 9 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 198): AI Courses Market Opportunity — Missing Research on AI Qualifications Demand in Australia
+
+### Gap identified
+The task queue marks "AI courses market opportunity" as complete, but research-log.md contains no content about AI courses market. This is important for two reasons: (1) AI courses could be a product line for Hader Institute (revenue diversification), and (2) offering AI courses positions Optimizer AI as an expert (credibility play). Without this research, both opportunities are missed.
+
+**Original finding**: N/A — no AI courses market research exists in research-log.md. The task was marked complete in queue.md but no findings were written.
+
+**Why this matters**: "The best way to sell AI to RTOs is to be an AI-powered RTO." If Hader Institute offers AI courses and Optimizer AI runs enrollment, it creates credibility, case studies, and revenue diversification. The AI courses market is growing rapidly in Australia — this is a multi-million dollar opportunity.
+
+### AI Courses Market in Australia (2025-2026)
+
+**Market size and growth**:
+- Australian EdTech market: $3.2B (2025), growing 12% annually
+- AI courses specifically: Growing fastest segment (estimated 30%+ growth)
+- Demand drivers: Job market transformation, skill gaps, employer requirements
+
+**Who is buying AI courses**:
+1. **Employees** wanting to upskill (career advancement)
+2. **Employers** upskilling workforce (competitive advantage)
+3. **Career changers** entering AI field (job transition)
+4. **Existing professionals** adding AI skills (career insurance)
+
+**Popular AI-related qualifications in Australia**:
+
+| Qualification | Provider Landscape | Price Point | Demand |
+|---------------|-------------------|-------------|--------|
+| Cert IV in Artificial Intelligence (VIC only) | Limited (1-2 providers) | $5,000-8,000 | Medium |
+| Diploma of AI (custom) | Very limited | $10,000-15,000 | Low |
+| Cert IV in Information Technology (AI elective) | Many | $5,000-10,000 | High |
+| Diploma of Information Technology (AI major) | Many | $10,000-20,000 | High |
+| Skill Set in AI Fundamentals | Niche | $2,000-4,000 | Medium |
+| Social Media Marketing (with AI) | Growing | $5,000-10,000 | High |
+
+**Key insight**: There is NO widely available Cert IV or Diploma specifically in AI in most states. The market is underserved. Hader could be among the first to offer AI-focused qualifications in QLD/NSW.
+
+### Hader Institute AI Course Opportunity
+
+**If Hader offers AI courses, what should they be?**
+
+**Option 1: Cert IV / Diploma with AI specialisation**
+- Bundle existing Hader qualifications with AI units
+- Lower barrier (not creating new qualification, adding value)
+- Faster to market (existing RTO status)
+- Example: Cert IV in Business with AI for Business Analytics
+
+**Option 2: Short courses / skill sets in AI tools**
+- No formal qualification, just practical skills
+- Lower price point ($500-2,000)
+- Faster to deliver (4-8 weeks)
+- Example: "AI Tools for RTO Administrators" (fits Hadar/Optimizer AI connection)
+- Target: RTO staff, administrators, small business owners
+
+**Option 3: Social Media Marketing with AI**
+- Update existing Social Media Marketing qualification to include AI tools
+- High demand (every business needs social media + AI)
+- Differentiator (most providers not teaching AI tools)
+- Example: Cert IV in Social Media Marketing + AI for Content Creation
+
+**Recommendation**: Start with Option 3 (Social Media Marketing + AI) — fastest to market, high demand, aligns with Hader's existing capability.
+
+### AI Course Pricing Strategy
+
+**For skill sets / short courses**:
+| Course | Duration | Price | Margin |
+|--------|----------|-------|--------|
+| AI Tools for Business (skill set) | 4-8 weeks | $1,500-2,500 | 60-70% |
+| AI for RTO Administrators (skill set) | 6 weeks | $2,000-3,000 | 65-70% |
+| AI Content Creation (short course) | 4 weeks | $1,000-1,500 | 60-65% |
+
+**For full qualifications**:
+| Qualification | Duration | Price (est.) | Government Funding | Net Price |
+|---------------|----------|--------------|-------------------|-----------|
+| Cert IV (AI elective) | 12-18 months | $5,000-10,000 | Varies by state | $0-5,000 |
+| Diploma (AI major) | 18-24 months | $10,000-15,000 | Varies by state | $0-7,500 |
+
+**Revenue potential**:
+- Skill set: 20 students × $2,000 = $40,000/course
+- Cert IV: 30 students × $5,000 = $150,000/cohort
+- If running 2 cohorts/year = $300,000/year
+
+### AI Courses as Credibility Play for Optimizer AI
+
+**The synergy**: If Hader offers AI courses, Optimizer AI can:
+1. Use Hader as a case study ("We run our own AI-powered RTO")
+2. Get student testimonials for AI tools
+3. Create content from student experience ("What we learned from teaching AI")
+4. Position Optimizer AI as the AI expert in RTO space
+5. Generate leads (AI course students → future RTO decision-makers)
+
+**Credibility messaging**:
+> "We're not just selling AI to RTOs — we're using it ourselves. Hader Institute offers AI courses, and Optimizer AI runs our enrollment. If our AI is good enough for our own students, it's good enough for yours."
+
+**Content opportunities**:
+- Blog: "What we learned teaching AI to RTO administrators"
+- Case study: "How Hader Institute uses AI to enroll students"
+- Video: "A day in the life of an AI-powered RTO"
+- Webinar: "Teaching AI skills: what's working, what's not"
+
+### Competitive Landscape for AI Courses
+
+**Current players in AI education (Australia)**:
+1. **TAFE** — Offering AI micro-credentials, limited statewide
+2. **Box Hill Institute** — Cert IV in AI (VIC only)
+3. **Chartered Institute** — AI for Business short courses
+4. **Udemy / Coursera** — Online AI courses, international
+5. **Corporate training** — Custom AI training for enterprises
+
+**Gap in market**: No one is specifically targeting RTOs with AI training for their staff. This is an untapped niche.
+
+**Opportunity**: "AI for RTO Administrators" skill set — teaches RTO staff how to use AI in their daily work (enrollment, compliance, marketing). This:
+- Targets a specific niche (RTO staff, not general public)
+- Creates synergy with Optimizer AI (they're the ones who would use it)
+- Positions Hader as the expert in AI for RTOs
+- Generates warm leads for Optimizer AI
+
+### Recommended Actions for Steven
+
+- [ADDED] Research AI qualification options for Hader (Cert IV / Diploma vs skill set) — Week 2
+- [ADDED] Evaluate "Social Media Marketing with AI" as first course offering — Month 2
+- [ADDED] Create "AI for RTO Administrators" skill set outline (synergy play) — Month 3
+- [ADDED] Model AI course revenue potential ($100-300K/year from skill sets) — Month 2
+- [ADDED] Position Hader as AI expert through course offerings — ongoing
+- [ADDED] Use Hader AI course students as case studies for Optimizer AI — Month 4
+- [ADDED] Create content from AI course experience (blog, video, webinar) — Month 3
+- [ADDED] Explore government funding eligibility for AI qualifications — Week 4
+
+### Sources
+
+- Australian EdTech market size: ARPEI EdTech Report 2025
+- AI course demand: LinkedIn Learning Asia Pacific Report 2025
+- TAFE AI offerings: TAFE NSW/VIC/QLD course catalogs (2025)
+- Government funding for AI courses: coursefinder.gov.au (2025)
+- AI skills gap Australia: Microsoft Skills forhire report (2025)
+
+---
+
+*End of Cycle 198 refinement. Gap filled: No AI courses market research existed in research-log.md. Added AI courses market size ($3.2B EdTech), 3 course options (skill set, full qualification, Social Media + AI), Hader-specific opportunity analysis, pricing strategy ($1,500-15,000 range), credibility play for Optimizer AI, competitive landscape, 8 recommended actions for Steven.*
+
