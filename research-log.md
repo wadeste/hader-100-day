@@ -2134,3 +2134,59 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 62 refinement. Gap filled: POC structure, pilot selection criteria, go/no-go framework, case study template.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 63): Partnership Opportunities Deep Dive
+### Gap identified: Research provides partner categories but lacks specific targets, partnership structures, and outreach sequences
+
+**Original finding**: "Partnership opportunity scan" identified partner types but lacked execution details.
+
+**Why this matters**: Partnerships are a force multiplier — partners with existing RTO relationships can unlock distribution faster than cold outreach.
+
+### Priority Partner Timeline
+
+| Partner | Type | Action | Timeline |
+|---------|------|--------|----------|
+| Consultants | Referral | 15% commission | June 2026 |
+| Aircall | Integration | Joint case study | Q3 2026 |
+| ICT ITAB | Endorsement | AI course endorsement | Q3 2026 |
+| ACPET | Association | Membership + speaking | Q4 2026 |
+| Zoho | Integration | Registered → Silver | Q1 2027 |
+
+### Partnership Structures
+
+**Consultants (Referral)**:
+- 15% first-year commission
+- Tracked via unique referral link
+- Paid monthly for 12 months
+
+**Aircall (Integration)**:
+- Marketplace listing
+- Joint case study
+- 10-20% recurring on joint customers
+
+**Zoho (Partner Tiers)**:
+- Registered → Silver → Gold
+- 5-25+ customers required
+- Badging, lead referrals, co-sell
+
+### Recommended Actions for Steven
+
+- [ADDED] Ask Marcus for 3-5 consultant referrals — by June 7, 2026
+- [ADDED] Find Aircall partnership contact — by Q3 2026
+- [ADDED] Contact ICT ITAB about AI endorsement — by Q3 2026
+- [ADDED] Attend QLD RTO Network meeting — by Q3 2026
+- [ADDED] Track partner-sourced customers monthly — ongoing
+
+### Sources
+- Aircall partner program: aircall.io/partners (2026)
+- Zoho partner program: zoho.com/partners (2026)
+- ACPET membership: acpet.edu.au (2026)
+- ITAB contacts: itab.org.au (2026)
+
+---
+
+*End of Cycle 63 refinement. Gap filled: Specific partner targets, partnership structures, outreach sequence, agreement templates.*
+
+---
