@@ -8,7 +8,7 @@
 - [x] **RTO pain point deep-dive** — Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage (current: 60+ hrs/week on enrollment calls alone). — researched 2026-05-24
 - [x] **Orientation call robot — product-market fit research** — Study existing solutions (voice AI, chatbots, call automation) in the education sector. Research compliance requirements for AI handling student enrollment conversations (ASQA, RTO standards). Size the TAM: how many Australian RTOs could use this? — researched 2026-05-24
 - [x] **AI skill packages for RTO staff — use case validation** — Research: TAZ (Training and Assessment Strategy) reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's the willingness to pay? — researched 2026-05-24
-- [ ] **Unified marketing attribution dashboard — competitive landscape** — Research existing attribution tools for education marketing (Google Ads + CRM integration, Zoho dedup solutions). Understand why current tools fail RTOs. Size the product opportunity as a standalone SaaS vs. bundled offering.
+- [x] **Unified marketing attribution dashboard — competitive landscape** — Research existing attribution tools for education marketing (Google Ads + CRM integration, Zoho dedup solutions). Understand why current tools fail RTOs. Size the product opportunity as a standalone SaaS vs. bundled offering. — researched 2026-05-24
 
 ## Phase 2: Go-To-Market Strategy (Days 31–60)
 
