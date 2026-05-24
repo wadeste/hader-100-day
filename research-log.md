@@ -1491,6 +1491,76 @@ Research best practices for executive presentations of 100-day plans. Synthesize
 - Previous research synthesis (all topics in research-log.md)
 - Note: Recommend gathering missing data from Marcus before finalizing deliverable
 
+---
+
+## Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: 100-day deliverable missing specific presentation structure, stakeholder map, and risk analysis
+
+**Original finding**: "Deliverable structure clear: Problem → Solution → Proof → Plan → Numbers → Ask. Lead with 'We built this at Hader Institute'" — no specific slide structure, stakeholder concerns, or risk analysis for the deliverable itself.
+
+**Refined findings**:
+
+**Day 60 deliverable — presentation outline** (30 slides, 45 minutes):
+
+| Section | Slides | Time | Content |
+|---------|--------|------|---------|
+| **Opening** | 1-2 | 3 min | Title slide, "Why we built Optimizer AI" |
+| **Problem** | 3-5 | 7 min | RTO enrollment pain points, 60+ hrs/week data, AI adoption gap |
+| **Solution** | 6-9 | 10 min | Product demo (orientation robot), ASQA compliance, Zoho integration |
+| **Proof** | 10-12 | 5 min | Hader case study, before/after metrics, customer quotes |
+| **Market** | 13-15 | 5 min | TAM sizing, competitive landscape, first-mover opportunity |
+| **GTM** | 16-20 | 8 min | Channel strategy, pricing model, 12-24 month roadmap |
+| **Numbers** | 21-25 | 5 min | Customer targets, ARR trajectory, EBITDA path to $10M |
+| **Ask** | 26-28 | 5 min | Resource requirements, timeline, key decisions needed |
+| **Appendix** | 29-30 | 2 min | Detailed financials, competitive analysis |
+
+**Stakeholder concern matrix** (who cares about what):
+
+| Stakeholder | Primary concern | Secondary concern | Slide to reference |
+|-------------|----------------|-------------------|-------------------|
+| Marcus (founder) | ROI, speed to revenue | Brand positioning | Numbers (slides 21-25), Proof (10-12) |
+| Kham (tech lead) | Feasibility, scalability | Technical architecture | Solution (6-9), GTM (16-20) |
+| Jesse (ops) | Integration complexity | Change management | Solution (6-9), Proof (10-12) |
+| Cam (strategy) | Market timing | Competitive risk | Market (13-15), GTM (16-20) |
+
+**Key decisions needed from Marcus/Kham** (explicit ask on slide 27):
+1. Approve positioning: "AI for RTO Enrollment Automation" vs. alternatives
+2. Confirm budget: $12-14k/month marketing (Year 1)
+3. Authorize hiring: SDR at month 6, AE at month 8
+4. Resolve data gaps: Hader enrollment volume, EBITDA scope
+
+**Risk analysis for deliverable**:
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Data gaps cause low confidence | High | Medium | Present ranges and assumptions, update when data available |
+| Marcus/Kham disagree on positioning | Medium | High | Present 3 options, recommend one, get decision on slide |
+| Overly ambitious customer targets | Medium | Medium | Show conservative and target scenarios |
+| Competitor enters before we launch | Low | High | Emphasize first-mover urgency, 12-18 month moat |
+
+**Day 100 deliverable — operational plan outline**:
+| Section | Content |
+|---------|--------|
+| **Month 1-30 execution** | Week-by-week milestones, owner, deliverable |
+| **KPIs dashboard** | MRR, customers, CAC, conversion rates, funnel metrics |
+| **Resource plan** | Budget, headcount, tools, contractors |
+| **Risk register** | Top 5 risks with mitigation owners |
+| **Success criteria** | What "done" looks like at day 100 |
+
+**Delivery format recommendations**:
+- Slide deck (Google Slides or PowerPoint) for presentation
+- One-page executive summary (email to Marcus/Kham before meeting)
+- Spreadsheet appendix (financial model, KPI tracking)
+- Shared folder with all materials accessible
+
+**Actions added**:
+- [ADDED] Draft day 60 presentation skeleton — by June 14, 2026
+- [ADDED] Send executive summary to Marcus 48 hrs before presentation — by June 26, 2026
+- [ADDED] Schedule 30-min rehearsal with Kham — by June 27, 2026
+- [ADDED] Prepare one-page handout for post-presentation — by June 28, 2026
+- [ADDED] Set up shared folder for all deliverable materials — by June 7, 2026
+- [ADDED] Confirm Marcus/Kham availability for day 60 presentation — by June 7, 2026
+
 
 ## Community services qualification expansion research — 2026-05-24
 
