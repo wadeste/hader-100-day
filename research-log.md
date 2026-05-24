@@ -7775,3 +7775,235 @@ Backlink Report — [Month] 2026
 
 ---
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 117): Sales Pipeline Management & Deal Velocity Optimization
+### Gap identified: Research provides acquisition metrics but lacks specific pipeline management, deal velocity optimization, and sales process documentation
+
+**Original finding**: "Customer Acquisition Cost Modelling" (Cycles 111) provides CAC by channel and LTV calculations. "GTM channel strategy" (Cycle 72) provides outreach templates. However, research lacks:
+- Sales pipeline stages and definitions
+- Deal velocity metrics and optimization
+- CRM setup requirements for pipeline tracking
+- Deal risk assessment and mitigation
+- Sales process documentation
+- Time-to-close acceleration tactics
+
+**Why this matters**: Without pipeline management, deals fall through the cracks. Without deal velocity optimization, sales cycle is too long (60-90 days vs. target 30-45). Without process documentation, Steven cannot scale sales beyond himself. This is the gap between "getting demos" and "closing customers."
+
+### Sales Pipeline Stages
+
+**Optimizer AI pipeline stages** (Zoho CRM):
+
+| Stage | Name | Definition | Next stage criteria |
+|-------|------|------------|---------------------|
+| 1 | Lead | Raw lead, unqualified | Responded to outreach |
+| 2 | Qualified | Fit confirmed, pain validated | Demo scheduled |
+| 3 | Demo | Demo completed | Proposal sent |
+| 4 | Proposal | Proposal sent, pricing discussed | Contract sent |
+| 5 | Negotiation | Contract in review | Contract signed |
+| 6 | Closed Won | Contract signed | Revenue starts |
+| 7 | Closed Lost | Deal lost | Reason logged |
+
+**Pipeline conversion targets** (by stage):
+
+| Stage transition | Target rate | Warning | Critical |
+|------------------|-------------|---------|----------|
+| Lead → Qualified | 20% | 15% | 10% |
+| Qualified → Demo | 60% | 50% | 40% |
+| Demo → Proposal | 50% | 40% | 30% |
+| Proposal → Negotiation | 60% | 50% | 40% |
+| Negotiation → Closed | 70% | 60% | 50% |
+
+**End-to-end conversion target**: 100 leads → 20 qualified → 12 demos → 6 proposals → 3 closed = 3% close rate (industry standard: 2-5%)
+
+### Deal Velocity Metrics
+
+**Key metrics to track**:
+
+| Metric | Definition | Target | Measurement |
+|--------|------------|--------|-------------|
+| Deal velocity | Deals closed × average deal value ÷ number of deals | $3,000/week | Weekly |
+| Sales cycle length | Days from Qualified to Closed | <45 days | Per deal |
+| Time in stage | Days spent in each pipeline stage | <14 days/stage | Per deal |
+| Stage conversion rate | % moving to next stage | See above | Per stage |
+| Deal age | Days in current stage | <21 days | Per deal |
+| Win rate | Closed won ÷ (closed won + closed lost) | >25% | Monthly |
+| Average deal size | MRR × contract length | >$10,000 | Quarterly |
+
+**Deal velocity formula**:
+```
+Deal Velocity = (# Deals Closed × Avg Deal Value) / Sales Cycle Length
+
+Example:
+- 2 deals closed this month × $11,988 ACV = $23,976
+- Average cycle: 45 days
+- Deal velocity = $23,976 / 45 = $533/day
+```
+
+### CRM Setup Requirements (Zoho)
+
+**Required fields for pipeline tracking**:
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| Pipeline Stage | Picklist | Current stage in sales process |
+| Stage Entry Date | Date | Track time in stage |
+| Days in Stage | Formula | Auto-calculate |
+| Deal Value | Currency | ACV for planning |
+| Next Step | Text | Clear next action |
+| Next Step Date | Date | When to follow up |
+| Close Probability | % | Manual estimate or auto |
+| Loss Reason | Picklist | For lost deals |
+| Competitor Mentioned | Checkbox | Track competitive deals |
+| Purchase Trigger | Picklist | Pain level indicator |
+
+**Required Zoho workflows**:
+
+```javascript
+// Stage change automation
+Trigger: Pipeline Stage updated
+→ If new stage = "Demo": 
+    → Create task: "Schedule demo within 3 days"
+    → Send email: Demo confirmation
+→ If new stage = "Proposal":
+    → Create task: "Send proposal within 24 hours"
+    → Send email: "What to expect next"
+→ If stage = same for 14+ days:
+    → Alert: "Deal stalled"
+```
+
+**Required reports/dashboards**:
+- Pipeline by stage (funnel view)
+- Deals at risk (>21 days in stage)
+- Velocity trend (week over week)
+- Win/loss analysis (by stage, competitor, price)
+
+### Deal Risk Assessment
+
+**Risk indicators by stage**:
+
+| Stage | Risk indicator | Action |
+|-------|---------------|--------|
+| Qualified | No clear purchase trigger | Re-qualify or close out |
+| Demo | No demo in 7 days | Immediate follow-up |
+| Proposal | Proposal >14 days old | Add value, ask for feedback |
+| Negotiation | No response in 5 days | Executive outreach |
+| Any | Contact not responding | Alternative contact |
+| Any | Competitor mentioned | Competitive analysis call |
+
+**Deal risk score** (0-100):
+
+| Factor | Score | Criteria |
+|--------|-------|----------|
+| Days in stage | 0-25 | >21 days = 25 risk points |
+| Contact responsiveness | 0-25 | Unresponsive for 7+ days = 25 points |
+| Decision-maker involved | 0-25 | Not involved = 25 points |
+| Clear timeline | 0-25 | No timeline = 25 points |
+
+**Risk thresholds**:
+| Score | Risk level | Action |
+|-------|------------|--------|
+| 0-25 | Green | Monitor normally |
+| 26-50 | Yellow | Increase follow-up |
+| 51-75 | Orange | Escalate, senior outreach |
+| 76-100 | Red | Re-evaluate or close out |
+
+### Sales Process Documentation
+
+**Standard sales call structure**:
+
+**Pre-call** (5 min):
+- Review lead history (notes, last touch)
+- Confirm pain points (from discovery)
+- Prepare personalized opener
+- Prepare 2-3 questions
+
+**Opening** (2 min):
+- Thank for time
+- Confirm current situation
+- Set agenda
+
+**Discovery** (15 min):
+- Current call volume (pain validation)
+- Biggest challenge (functional need)
+- Decision process (who, timeline)
+- Budget (willingness to invest)
+- Competitors considered (competitive intel)
+
+**Demo** (20 min):
+- Live demo of relevant features
+- Address specific pain points
+- Show ROI (calculator)
+- Answer questions
+
+**Close** (10 min):
+- Summarize value
+- Address objections
+- Propose next step (trial/annual/monthly)
+- Confirm timeline
+- Schedule follow-up
+
+**Post-call** (10 min):
+- Log notes in Zoho
+- Update pipeline stage
+- Schedule next touch
+- Send follow-up email within 24 hours
+
+### Time-to-Close Acceleration Tactics
+
+**Tactics to reduce sales cycle** (target: 45 days → 30 days):
+
+| Tactic | Impact | Implementation |
+|--------|--------|----------------|
+| Same-day proposal | -5 days | Prepare proposal template, send day of demo |
+| Pre-qualified leads | -10 days | Better outreach targeting |
+| Executive sponsor | -7 days | Get CEO involved early for large deals |
+| Trial before pitch | -5 days | Offer 30-day pilot |
+| Urgency creation | -3 days | "Pricing increases in 30 days" |
+| Streamlined pricing | -5 days | Pre-built packages, no custom quotes |
+| Weekly follow-up | -5 days | Consistent touchpoints |
+| Reference customer call | -7 days | Social proof accelerates decision |
+
+**Fast-close playbook** (for hot leads):
+1. Same-day demo (if available)
+2. Same-day proposal (pre-built template)
+3. 48-hour follow-up (every other day)
+4. Decision deadline (7 days)
+5. Founder intro (if needed)
+
+**Slow-deal intervention** (for deals >45 days):
+1. Diagnosis call (understand blockers)
+2. Add value (case study, ROI calculator update)
+3. Executive outreach (Marcus/Kham)
+4. Re-scope (pilot vs. full contract)
+5. Close or close out (don't let deals die)
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Zoho pipeline stages (7 stages above) — by June 7, 2026
+- [ADDED] Configure Zoho workflows for stage automation — by June 14, 2026
+- [ADDED] Build pipeline dashboard in Zoho Analytics — by June 14, 2026
+- [ADDED] Create proposal template (Google Docs) — by June 14, 2026
+- [ADDED] Document sales call script (above structure) — by June 7, 2026
+- [ADDED] Set deal velocity target ($533/day minimum) — by Month 1
+- [ADDED] Daily pipeline review (15 min) — weekdays from June 2026
+- [ADDED] Weekly pipeline meeting (30 min) — Mondays from June 2026
+- [ADDED] Track time-to-close by stage — ongoing
+- [ADDED] Target 30-day sales cycle (vs. 45-day baseline) — by Q4 2026
+
+### Sources
+- Sales pipeline: HubSpot sales methodology (2026)
+- Deal velocity: Salesforce, Sales Hacker (2026)
+- CRM setup: Zoho CRM best practices (2026)
+- Sales process: MEDDIC, Sandler sales methodology (2026)
+- Time-to-close: Sales acceleration (2026)
+
+---
+
+*End of Cycle 117 refinement. Gap filled: Sales pipeline stages (7 stages), deal velocity metrics ($533/day target), CRM setup requirements (fields, workflows, reports), deal risk assessment (0-100 score), sales process documentation (pre-call to post-call), time-to-close acceleration tactics (target: 30 days).*
+
+---
+
+*End of research log. All topics researched and refined. Cycle 117 complete.*
+
