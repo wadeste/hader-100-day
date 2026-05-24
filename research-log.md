@@ -2165,3 +2165,172 @@ Rationale:
 ---
 
 *End of Cycle 155 refinement. Gap filled: CAC benchmarks for B2B SaaS ($2k-5k), detailed CAC breakdown ($89,600/year, $2,200-3,500 blended), sales cycle analysis (8 weeks avg), demo conversion rates (25% target), CAC payback (2.5-6.3 months), LTV:CAC (35:1), path to $10M EBITDA (794 customers, 3-year plan), CAC optimization strategies, tracking framework.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 156): 100-Day Plan Synthesis — Structure, Executive Presentation, and Deliverable Framework
+
+### Gap identified: Research mentions "synthesize all research findings into a structured deliverable" but lacks the actual structure, slide outline, and execution timeline for the 100-day plan
+
+**Original finding**: "100-day plan synthesis & deliverable preparation" in queue requires researching best practices for executive presentations, synthesizing all findings into a structured deliverable for Marcus and Kham including market sizing, product recommendations, GTM strategy, pricing, timeline, resource requirements, and KPIs. The research has all the components but lacks the synthesis structure.
+
+**Why this matters**: The 100-day plan is the main deliverable due 2026-08-07. Without a clear structure, Steven will struggle to present to Marcus and Kham. The deliverable needs to be concise (executives don't read 50-page decks), compelling (clear recommendations), and actionable (next steps for each week).
+
+### 100-Day Plan Structure
+
+**Overall format:** 15-slide executive deck + 3-page summary document
+
+**Slide structure:**
+
+| Slide | Title | Content |
+|-------|-------|---------|
+| 1 | Title | "Optimizer AI: 100-Day Go-To-Market Plan" + Steven name + date |
+| 2 | Situation | RTO pain points summary (3 stats: 60+ hrs/week, 30% missed calls, $5k-8k/mo labor) |
+| 3 | Solution | RTO Enrollment AI — what it is, how it works, 1-sentence value prop |
+| 4 | Market Opportunity | TAM/SAM/SOM (4.2k RTOs, $15B-25B TAM) |
+| 5 | Competitive Landscape | Positioning matrix, why now, first-mover advantage |
+| 6 | Product Recommendations | 3 products (Enrollment AI, TAZ AI, Attribution) with timeline |
+| 7 | Pricing | Tier structure ($499-1,999/mo), add-ons, revenue model |
+| 8 | GTM Strategy | Channels (LinkedIn + partner), 3 phases |
+| 9 | Customer Acquisition | CAC ($2,200-3,500), sales cycle (8 weeks), LTV:CAC (35:1) |
+| 10 | Path to $10M EBITDA | 3-year growth (30 → 150 → 794 customers), timeline |
+| 11 | 100-Day Timeline | Month-by-month milestones with KPIs |
+| 12 | Resource Requirements | Budget ($3,500/mo), team (Steven + Kham), tools |
+| 13 | Risks & Mitigations | Top 3 risks, mitigation plans |
+| 14 | Immediate Actions | Week 1-2 priorities (what Steven needs to do first) |
+| 15 | Appendix | Detailed research, data sources |
+
+### Executive Presentation Best Practices
+
+**Slide design principles:**
+- One key message per slide
+- Headline + supporting detail (no paragraphs on slides)
+- Data visualization (charts, icons) over text
+- "So what?" for every claim (why does it matter?)
+
+**Delivery tips:**
+- Open with the problem (RTO pain points)
+- Build to the solution (Enrollment AI)
+- Support with proof (market data, competitive analysis)
+- End with clear ask (what do you need from Marcus/Kham?)
+
+**Time allocation:**
+- 30-minute presentation
+- 5 min: Situation + Solution
+- 10 min: Market + Competition
+- 10 min: Strategy + Plan
+- 5 min: Ask + Next steps
+
+### Key Metrics to Include
+
+**For Marcus + Kham (executives):**
+- Market size: $15B-25B TAM, $2.1M-3.2M SAM
+- Target customers: 794 RTOs by Year 3
+- Revenue model: $999/mo average ACV, $10M EBITDA Year 4-5
+- Investment required: $89,600/year (marketing + sales)
+
+**For Steven (execution):**
+- Monthly activities: 50 LinkedIn outreach, 2 blog posts, 5 demos
+- KPIs: 2-3 new customers/month, 25% demo conversion, <8 week sales cycle
+- Budget: $3,500/month (channels), $22-45k data flywheel (Year 1)
+
+### 100-Day Execution Timeline
+
+**Month 1 (Days 1-30): Foundation**
+- Week 1: Set up tools (Calendly, LinkedIn, CRM), create company page, draft first blog post
+- Week 2: Identify 20 potential partners (Zoho, consultants), build outreach sequence
+- Week 3: Launch LinkedIn outreach (50/week), publish first blog post
+- Week 4: Book first 5 demos, start partner conversations, publish second blog post
+- **Month 1 KPI:** 3-5 demos, 1-2 pilot customers (50% off)
+
+**Month 2 (Days 31-60): Traction**
+- Week 5: Onboard pilot customers, capture case study data (time savings, conversion lift)
+- Week 6: Expand LinkedIn outreach (100/week), add 5 more partners
+- Week 7: Publish third blog post, create one-pager with ROI calculator
+- Week 8: Execute 10+ demos, test pricing with different segments
+- **Month 2 KPI:** 5-7 new customers, $3-5k MRR
+
+**Month 3 (Days 61-90): Validation**
+- Week 9: Build first case study (pilot customer results), create battle cards
+- Week 10: Attend first conference (if available), partner outreach intensifies
+- Week 11: Publish fourth blog post, optimize based on content performance
+- Week 12: Review metrics, adjust strategy, finalize GTM plan for Year 2
+- **Month 3 KPI:** 8-10 customers, $8-10k MRR, first case study complete
+
+### Resource Requirements
+
+**Team:**
+- Steven (Marketing Manager): Full-time GTM execution
+- Kham (CTO): 20% time on data flywheel, AI improvements
+- Marcus + Kham (strategy): Weekly check-ins, decisions
+
+**Tools (monthly):**
+- LinkedIn Sales Navigator: $99/mo
+- Calendly: $16/mo
+- Loom: $12/mo
+- CRM (Zoho): Included (existing)
+- Content writing: $200-400/post (contractor)
+- SEO tools: $100-200/mo
+- **Total:** $500-600/mo
+
+**Budget:**
+- Marketing + sales: $3,500/mo
+- Tools: $600/mo
+- Content: $800/mo (writing)
+- Data flywheel: $22-45k/year (one-time investment)
+- **Year 1 total:** $65,000-85,000
+
+### Risk Assessment
+
+**Top 3 risks:**
+
+1. **RTO adoption lag** (AI skepticism)
+   - Likelihood: Medium
+   - Impact: Slow customer acquisition
+   - Mitigation: Pilot customers, case studies, social proof
+
+2. **Area Ten response** (they build enrollment AI)
+   - Likelihood: Low (Year 1), Medium (Year 2)
+   - Impact: Competitive pressure, price pressure
+   - Mitigation: Data flywheel, ASQA compliance, switching costs
+
+3. **Regulatory change** (ASQA updates AI requirements)
+   - Likelihood: Low
+   - Impact: Product rework required
+   - Mitigation: Monitor ASQA, flexible architecture (Kham)
+
+### Immediate Actions (Week 1-2)
+
+**Must do:**
+1. Set up Calendly for demo scheduling (15 min)
+2. Create Optimizer AI LinkedIn company page (30 min)
+3. Draft first blog post ("What is RTO AI Automation?") (3 hrs)
+4. Identify 20 potential partners (1 hr)
+5. Build 3-touch LinkedIn outreach sequence (2 hrs)
+6. Set up CRM pipeline (Zoho) for lead tracking (1 hr)
+
+**Nice to do:**
+- Create first one-pager (4 hrs)
+- Set up analytics (website, LinkedIn) (1 hr)
+- Draft email templates for partners (1 hr)
+
+### Recommended Actions for Steven
+
+- [ADDED] Build 15-slide deck using structure above — by July 20, 2026
+- [ADDED] Write 3-page summary document (market + strategy + plan) — by July 25, 2026
+- [ADDED] Create one-pager with ROI calculator — by July 25, 2026
+- [ADDED] Present to Marcus + Kham for feedback — by July 28, 2026
+- [ADDED] Finalize and commit to 100-day plan — by August 7, 2026
+- [ADDED] Set up weekly tracking (demos, conversions, MRR) — by Week 1
+- [ADDED] Book monthly strategy review with Marcus + Kham — from Week 2
+
+### Sources
+
+- Executive presentation: "Presentation Zen" by Garr Reynolds
+- 100-day plans: "The First 90 Days" by Michael Watkins
+- B2B SaaS benchmarks: OpenView Partners (2025)
+- Deck structure: "Strategic Coach" frameworks (2026)
+
+---
+
+*End of Cycle 156 refinement. Gap filled: 15-slide deck structure, executive presentation tips, 100-day execution timeline (Month 1-3 with KPIs), resource requirements ($65-85k/year), risk assessment (3 risks + mitigations), immediate actions (Week 1-2 checklist), recommended actions for Steven.*
