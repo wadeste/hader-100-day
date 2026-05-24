@@ -2470,3 +2470,178 @@ Thanks,
 
 *End of Cycle 200 refinement. Gap filled: No customer discovery research existed in research-log.md. Added discovery framework (who to talk to, objectives), 15 interview questions by persona (CEO, Enrollment Manager, Marketing Director), outreach script (LinkedIn + email), interview analysis framework, minimum viable discovery (10 interviews), 9 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 201): 100-Day Plan Synthesis — Missing Executive Presentation Framework
+
+### Gap identified
+The task queue marks "100-day plan synthesis & deliverable preparation" as complete, but research-log.md contains no content about how to structure the executive presentation, what slides to include, how to present market research to Marcus/Kham, or how to synthesize all findings into a compelling deliverable. This is critical — the 100-day plan is Steven's primary deliverable and must communicate the strategy clearly.
+
+**Original finding**: N/A — no 100-day plan synthesis research exists in research-log.md. The task was marked complete in queue.md but no findings were written.
+
+**Why this matters**: A 100-day plan that's thorough but poorly presented won't influence Marcus/Kham. The delivery matters as much as the content. Steven needs a clear structure, compelling narrative, and actionable next steps that Marcus/Kham can execute.
+
+### 100-Day Plan Presentation Structure
+
+**For Marcus/Kham, the 100-day plan should**:
+1. Show what was researched (context)
+2. Explain the opportunity (market size, problem)
+3. Present the solution (product strategy)
+4. Define the go-to-market (channels, pricing, timeline)
+5. Identify what needs to happen (milestones, resources)
+6. Set success criteria (KPIs, targets)
+
+**Slide structure** (12-15 slides, 30-minute presentation):
+
+| Slide | Title | Content | Time |
+|-------|-------|---------|------|
+| 1 | Title | "Optimizer AI: 100-Day Go-to-Market Plan" | 1 min |
+| 2 | The Problem | Enrollment is broken for RTOs | 2 min |
+| 3 | The Opportunity | TAM, SAM, SOM data | 2 min |
+| 4 | The Solution | Optimizer AI product overview | 2 min |
+| 5 | Product Strategy | Tier structure, features, roadmap | 3 min |
+| 6 | Market Positioning | Differentiation, competitive advantage | 2 min |
+| 7 | Pricing Strategy | Tier pricing, contract structure | 2 min |
+| 8 | Go-to-Market | Channels, timeline, budget | 3 min |
+| 9 | Sales Strategy | Demo flow, close rate targets | 2 min |
+| 10 | Team & Resources | What's needed (Steven, Kham, Marcus) | 2 min |
+| 11 | 100-Day Milestones | Month-by-month execution plan | 3 min |
+| 12 | Success Metrics | KPIs, targets, review cadence | 2 min |
+| 13 | Ask | What do we need to decide today? | 2 min |
+| 14 | Appendix | Detailed research (reference) | — |
+
+### Key Messages for Marcus/Kham
+
+**The narrative**:
+1. "RTOs have a real problem" — missed calls, lost enrollments, staff overwhelmed
+2. "The market is ready" — 600-800 RTOs actively looking for AI solutions
+3. "We're first to market" — first-mover window, 12-18 months before competition
+4. "We have a clear path" — tiered pricing, channel strategy, clear milestones
+5. "We need to move now" — first-mover advantage is time-limited
+
+**The numbers to emphasize**:
+- $67M TAM, $38M SAM (big market)
+- $10M ARR achievable in 5 years (ambitious but realistic)
+- 2.7-month payback (healthy unit economics)
+- 16:1 LTV:CAC (efficient acquisition)
+- $499-1,999/month pricing (accessible to target market)
+
+**The ask** (what needs to be decided):
+1. Approve product roadmap priorities
+2. Confirm Kham's technical development timeline
+3. Allocate marketing budget ($50K Year 1)
+4. Set first 10 customer target (referral + outbound)
+5. Review cadence (weekly/monthly check-ins)
+
+### How to Present Research Findings
+
+**Don't**: List every research finding. Marcus/Kham don't need 50 data points.
+**Do**: Tell a story with 5-7 key insights that support the strategy.
+
+**Key insights to present**:
+1. "The enrollment call problem costs RTOs $20,000-50,000/year in lost revenue" (pain)
+2. "600-800 RTOs are actively looking for AI solutions" (market)
+3. "First-mover window is 12-18 months" (urgency)
+4. "$499-1,999/month pricing is accessible and defensible" (price)
+5. "Referral + LinkedIn is the winning channel strategy" (GTM)
+6. "We can reach break-even with 30 customers in Year 1" (milestone)
+7. "ASQA compliance is our competitive moat" (defensibility)
+
+### 100-Day Execution Priorities
+
+**Month 1: Foundation**
+- Launch referral program (Marcus/Kham's networks)
+- Start LinkedIn personal brand (Steven)
+- Build prospect list (200 highest-fit RTOs)
+- Set up demo calendar and tracking
+- Confirm technical architecture (Kham)
+- Budget allocation ($15K marketing)
+
+**Month 2: Traction**
+- First 5 customers (referral + targeted outbound)
+- Begin LinkedIn paid campaigns
+- Attend 1-2 state RTO events
+- Build first case studies
+- Publish first SEO content
+- Budget allocation ($15K marketing)
+
+**Month 3: Scale**
+- Scale to 10+ customers
+- Launch partner channel (Zoho partners)
+- Refine based on early learnings
+- Present case studies to prospects
+- Budget allocation ($20K marketing)
+
+**Success metrics**:
+| Metric | Month 1 | Month 2 | Month 3 | Year 1 |
+|--------|---------|---------|---------|--------|
+| Customers | 1-2 | 5-8 | 10-15 | 30-50 |
+| MRR | $1K-2K | $5K-8K | $10K-15K | $30K-50K |
+| Leads | 10-15 | 25-40 | 40-60 | 150-200 |
+| Demo conversion | 20% | 25% | 30% | 30% |
+
+### What to Include in the Written Deliverable
+
+**The 100-day plan document should include**:
+1. Executive summary (1 page)
+2. Problem/opportunity (2 pages)
+3. Product strategy (2 pages)
+4. Market sizing (1 page)
+5. Competitive positioning (1 page)
+6. Pricing strategy (1 page)
+7. Go-to-market plan (2 pages)
+8. 100-day execution milestones (1 page)
+9. Success metrics and KPIs (1 page)
+10. Appendix: Research summary (reference)
+
+**Total: 12-15 pages, structured for skimming**
+
+### What NOT to Do in the Presentation
+
+**Mistakes to avoid**:
+1. **Don't bury the ask** — Front-load the decision needed
+2. **Don't present all data** — Show summary, offer appendix
+3. **Don't be vague** — Specific numbers, specific timelines
+4. **Don't over-engineer** — Marcus/Kham want clarity, not slides
+5. **Don't forget the story** — Data supports narrative, not the other way around
+
+### Follow-Up Cadence After Presentation
+
+**Week 1 after presentation**:
+- Send summary email (3 key decisions needed)
+- Schedule follow-up for decisions
+- Begin first milestone execution
+
+**Month 1 check-in**:
+- Review: Leads generated, demos scheduled, product progress
+- Adjust: Channels that aren't working, pricing objections
+- Celebrate: First customer signed (if any)
+
+**Month 2-3 check-ins**:
+- Review: Customer count, revenue, channel performance
+- Iterate: Product roadmap adjustments based on feedback
+- Plan: Next quarter based on learnings
+
+### Recommended Actions for Steven
+
+- [ADDED] Create 12-15 slide deck for Marcus/Kham presentation — Week 2
+- [ADDED] Write 12-15 page written deliverable (reference document) — Week 2
+- [ADDED] Prepare 3 key decisions for Marcus/Kham (must get alignment) — Week 1
+- [ADDED] Practice presentation (2-3 dry runs with Marcus/Kham feedback) — Week 3
+- [ADDED] Prepare appendix of research (detailed data, for reference) — Week 2
+- [ADDED] Set up weekly review cadence (even if short, 30 min/week) — Week 1
+- [ADDED] Document decisions made (to track accountability) — Ongoing
+- [ADDED] Create milestone tracker (visual, shareable) — Week 1
+
+### Sources
+
+- Executive presentation structure: "The McKinsey Way" by Ethan Rasiel
+- 100-day plan frameworks: "The First 90 Days" by Michael Watkins (reference)
+- SaaS pitch deck templates: a16z pitch deck template (2019)
+- Data storytelling: "Storytelling with Data" by Cole Nussbaumer Knafic (reference)
+
+---
+
+*End of Cycle 201 refinement. Gap filled: No 100-day plan synthesis research existed in research-log.md. Added presentation structure (14 slides), key messages for Marcus/Kham, how to present research (5-7 key insights), 100-day execution priorities (3 months), written deliverable outline (12-15 pages), what NOT to do, follow-up cadence, 8 recommended actions for Steven.*
+
