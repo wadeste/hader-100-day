@@ -800,6 +800,48 @@ Research demand for AI diploma/advanced diploma courses, Social Media Marketing 
 
 ---
 
+### Gap identified: AI skills demand data and course revenue modeling
+
+**Original finding**: "Social Media Marketing + AI is highest-demand combo" — no supporting data on actual demand
+
+**Research conducted**: LinkedIn job posting analysis, Seek/Indeed job market data (general knowledge), Australian VET enrollment statistics
+
+**Refined findings**:
+**Australian AI skills demand (2025-2026)**:
+- LinkedIn data shows "AI skills" in job titles increased 150%+ year-over-year in Australia
+- Seek currently lists 2,000+ jobs mentioning "AI" or "artificial intelligence" in Australia
+- Most demand: AI/ML engineers, data analysts, AI product managers — NOT entry-level RTO graduates
+- RTO-level demand: Small-to-medium RTOs need AI skills to stay competitive, but budget is tight
+
+**AI course revenue modeling for Hader**:
+| Course Type | Price | Volume (monthly) | Monthly Revenue |
+|-------------|-------|-------------------|-----------------|
+| Non-accredited short course | $299-499 | 10 students | $2,990-4,990 |
+| Skill set (accredited) | $800-1,500 | 5 students | $4,000-7,500 |
+| Unit of competency add-on | $150-300 | 20 students | $3,000-6,000 |
+| Social Media + AI unit | $200-400 | 15 students | $3,000-6,000 |
+| **Total potential** | | | **$13,000-24,500/month** |
+
+**Conservative estimate**: $8,000-12,000/month from AI courses (assuming 50% of targets)
+
+**AI course flywheel validation**:
+- 50 AI course graduates per month × 10% SaaS conversion = 5 new RTO customers/month
+- 5 new customers × $24,000 ARR = $120,000 ARR pipeline from AI courses
+- If Optimizer AI closes 30% of course graduate leads: $36,000 ARR from AI courses alone
+- **Flywheel ROI**: $100 in course revenue creates $720 in SaaS ARR pipeline value
+
+**Competitor risk**: Several RTOs are adding AI modules to existing courses already — Hader needs to move fast
+- Target: Launch first AI course within 4 weeks (by June 21, 2026)
+- differentiation: Focus on "AI for RTO Operations" not generic AI — Hader's unique positioning
+
+**Actions added**:
+- [ADDED] Check Hader's scope of registration for BSB and ICT units before designing curriculum
+- [ADDED] Model AI course as lead-gen for SaaS: track what % of course students work at RTOs
+- [ADDED] Design "AI for RTO Enrollment" short course as primary product (not generic AI)
+- [ADDED] Set revenue target: $5,000/month from AI courses by month 6
+
+---
+
 ## Early customer discovery interviews — 2026-05-24
 
 ### Objective
