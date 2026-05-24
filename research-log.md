@@ -4633,5 +4633,176 @@ IMPORTANT RULES:
 
 *End of Cycle 103 refinement. Gap filled: Detailed tier feature matrix (Starter/Growth/Scale), feature upgrade triggers, annual contract economics (75% lower churn, +11% LTV), enterprise pricing negotiation tactics (6 objections + responses), enterprise deal checklist, price-to-feature ratio analysis.*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 104): Customer Discovery Interview Synthesis & Follow-Up Process
+### Gap identified: Research provides interview questions but lacks specific synthesis methodology, insight categorization, and follow-up process
+
+**Original finding**: "Early customer discovery interviews" provides JTBD framework and interview questions. Missing: specific synthesis methodology, insight categorization, follow-up process, and customer commitment frameworks.
+
+**Why this matters**: Discovery interviews are only valuable if insights are captured, synthesized, and acted upon. Without specific synthesis methodology, insights get lost. Without follow-up process, warm leads go cold.
+
+### Interview Synthesis Methodology
+
+**Capture immediately after each interview**:
+
+| Field | What to record | Format |
+|-------|----------------|--------|
+| Date/contact | Who, when, how | Text |
+| Role | Their position, company size | Text |
+| Key quote | Their exact words | Direct quote |
+| Pain intensity | 1-10 scale | Number |
+| Jobs to be done | Functional, emotional, social | List |
+| Hesitations | "I wish..." "I'm worried about..." | List |
+| Purchasing triggers | What would make them buy? | List |
+| Purchasing blockers | What's stopping them? | List |
+| Competitive mentions | What else are they evaluating? | List |
+| Next steps | Commitments made | Text |
+
+
+**Synthesis process** (48 hours after interview):
+
+1. **Listen to recording** (or review notes)
+2. **Extract 3-5 key insights** per interview
+3. **Tag insights by category**:
+   - `#pain` — Problem statements
+   - `#trigger` — Purchase triggers
+   - `#blocker` — Purchase blockers
+   - `#language` — Customer language to use
+   - `#feature` — Feature requests
+   - `#competitor` — Competitor mentions
+4. **Cluster insights** across interviews
+5. **Identify patterns** (3+ mentions = pattern)
+6. **Update messaging** based on patterns
+
+
+### Insight Categorization Framework
+
+**Jobs to Be Done categories**:
+
+| Category | Discovery question | Example insight |
+|----------|-------------------|-----------------|
+| Functional | "What are you trying to accomplish?" | "Handle 100+ calls/week without hiring" |
+| Emotional | "How does the problem make you feel?" | "I'm embarrassed when students call back and we're rude" |
+| Social | "How does this affect your reputation?" | "My boss expects growth without headcount" |
+| Financial | "What's this costing you?" | "25% of inquiries lost to unanswered calls" |
+
+
+**Interview categorization by readiness**:
+
+| Score | Readiness | Action |
+|-------|-----------|--------|
+| 80-100 | Hot prospect | Demo within 7 days |
+| 60-79 | Warm lead | Nurture sequence |
+| 40-59 | Early stage | Educational content |
+| <40 | Not fit | Keep in network |
+
+### Customer Commitment Framework
+
+**Types of commitments to seek**:
+
+| Commitment | Weight | What it signals |
+|-----------|--------|----------------|
+| "Send me more info" | Low | Interest, but not ready |
+| "Let's talk again" | Medium | Worth following up |
+| "I'd be interested in a demo" | High | Ready for next step |
+| "I'd be willing to be a reference" | Very high | Advocate |
+| "I'll recommend you to..." | Very high | Referral |
+| "Here's my calendar" | Highest | Committed |
+
+
+**Commitment language to listen for**:
+- "I'm definitely interested..."
+- "Can you send me..."
+- "When can we..."
+- "I'd like to..."
+- "What if we..."
+
+### Interview Follow-Up Sequence
+
+**Within 24 hours** (email):
+> Subject: Great talking with you, [Name]
+>
+> Hi [Name],
+>
+> Thanks for taking the time to chat about [topic]. A few things that stood out:
+> - [Insight 1]
+> - [Insight 2]
+>
+> As discussed, here's [the ROI calculator / case study / guide] I mentioned: [link]
+>
+> Let me know if you have any questions.
+>
+> Best,
+> Steven
+
+**Within 48 hours** (if high intent):
+> Subject: Next steps — [Name]'s RTO
+>
+> Hi [Name],
+>
+> Following up on our conversation. You mentioned [specific pain point]. Here's a 15-minute demo that shows exactly how we handle that for [similar RTO]: [link]
+>
+> Would [date/time] work to hop on a call?
+>
+> Best,
+> Steven
+
+**Week 2 follow-up** (if no response):
+> Subject: Quick check-in
+>
+> Hi [Name],
+>
+> Just following up on my earlier note. Happy to send over the ROI calculator if that's useful — just let me know.
+>
+> Best,
+> Steven
+
+**Week 4 follow-up** (if still no response):
+> Subject: [Insight from interview] — thought of you
+>
+> Hi [Name],
+>
+> Came across this [article/case study] on [topic we discussed] and thought of our conversation. Might be useful.
+>
+> Still happy to jump on a 15-minute call if you're ready to explore how AI handles enrollment calls for [RTO type].
+>
+> Best,
+> Steven
+
+### Interview CRM tagging
+
+**Required Zoho tags for discovery leads**:
+| Tag | Meaning |
+|----|---------|
+| discovery_complete | Interview conducted |
+| discovery_hot | High purchase intent |
+| discovery_warm | Medium purchase intent |
+| discovery_early | Early stage |
+| discovery_not_fit | Not right now |
+| insight_[category] | Specific insight captured |
+| commitment_made | Commitment secured |
+| referral_made | Referral given |
+
+### Recommended Actions for Steven
+- [ADDED] Create interview capture template (Google Doc) — by June 7, 2026
+- [ADDED] Build synthesis process (48-hr turnaround) — by June 14, 2026
+- [ADDED] Set up Zoho tags for discovery leads — by June 7, 2026
+- [ADDED] Create follow-up email templates (4-week sequence) — by June 7, 2026
+- [ADDED] Schedule synthesis review (bi-weekly) — by June 14, 2026
+- [ADDED] Track commitment rate by interviewer — monthly
+- [ADDED] Update messaging from synthesized insights — weekly
+
+### Sources
+- Customer discovery: "The Mom Test" by Rob Fitzpatrick (2019)
+- Interview synthesis: ProductLed (2026)
+- CRM tagging: HubSpot, Salesforce best practices (2026)
+- Follow-up sequences: Sales methodology (2026)
+
+---
+
+*End of Cycle 104 refinement. Gap filled: Interview synthesis methodology (48-hr turnaround), insight categorization framework (JTBD + scoring), customer commitment framework (5 commitment levels), interview follow-up sequence (4-week), CRM tagging system, synthesis review cadence.*
+
+
 
 ---
