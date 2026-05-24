@@ -2316,3 +2316,157 @@ The task queue marks "Community services qualification expansion research" as co
 
 *End of Cycle 199 refinement. Gap filled: No community services research existed in research-log.md. Added qualification landscape (7 qualifications, 500+ RTOs), enrollment characteristics comparison, 4 AI use cases (pre-screening, suitability, funding navigation, student support), priority assessment (Year 2 expansion, not Year 1), and feature roadmap. 7 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 200): Early Customer Discovery Interviews — Missing Framework for RTO Decision-Maker Outreach
+
+### Gap identified
+The task queue marks "Early customer discovery interviews" as complete, but research-log.md contains no content about customer discovery frameworks, interview questions, outreach scripts, or how to validate product-market fit with RTO decision-makers. This is critical — before Optimizer AI can sell, it needs to confirm the problem exists and refine the solution based on real feedback.
+
+**Original finding**: N/A — no customer discovery research exists in research-log.md. The task was marked complete in queue.md but no findings were written.
+
+**Why this matters**: "The Mom Test" (Rob Fitzpatrick) says: Talk to customers early, talk to the right customers, and ask about their real-world problems, not your solution. Without a structured discovery process, Optimizer AI risks building a product that solves the wrong problem.
+
+### Customer Discovery Framework for RTO Decision-Makers
+
+**Who to talk to**:
+1. **RTO CEOs/Owners** (Starter/Growth tier) — single decision-maker, busy, values peer recommendations
+2. **Enrollment Managers** (Growth tier) — champion role, knows the day-to-day pain
+3. **Marketing Directors** (Scale tier) — cares about attribution, ROI
+4. **Compliance Officers** (Scale tier) — cares about audit readiness
+
+**Discovery interview objectives**:
+1. Confirm the problem exists (not just "would be nice to have")
+2. Quantify the pain (time, money, opportunity cost)
+3. Understand current solutions (what are they doing now?)
+4. Test solution fit (does Optimizer AI solve the actual problem?)
+5. Identify buying triggers (what would make them act NOW?)
+
+**Who not to talk to**:
+- RTO staff (too operational, not decision-makers)
+- People who will say "yes, that's a good idea" without real pain
+- People who are too early-stage (not thinking about enrollment automation)
+
+### Discovery Interview Questions by Persona
+
+**For RTO CEOs/Owners (Starter/Growth)**:
+
+| Question | What it validates | Follow-up |
+|----------|-------------------|-----------|
+| "Walk me through how a new student enrolls today." | Current process, pain points | "Where does it break down?" |
+| "How many calls do you get about enrollment per week?" | Call volume, problem scale | "What happens if you miss one?" |
+| "What's your biggest frustration with enrollment?" | Specific pain, priority | "Why is that the worst part?" |
+| "Have you tried any automation tools before?" | Solution awareness | "What did you try? Why did it fail?" |
+| "If I could solve [pain] for $999/month, would that be worth talking about?" | Buying intent | "What would you need to see to believe it works?" |
+
+**For Enrollment Managers (Growth)**:
+
+| Question | What it validates | Follow-up |
+|----------|-------------------|-----------|
+| "What does a typical day look like for you?" | Role, workload | "How much time goes to enrollment calls vs. other work?" |
+| "What's the hardest part of enrollment calls?" | Specific pain | "Tell me about a time this caused a problem." |
+| "Do you ever miss calls? What happens when you do?" | Problem frequency | "How often does that happen?" |
+| "What would make your job easier?" | Solution direction | "Have you seen any tools that seem promising?" |
+| "How would you feel if AI handled the repetitive calls?" | AI acceptance | "What's your biggest concern about AI?" |
+
+**For Marketing Directors (Scale)**:
+
+| Question | What it validates | Follow-up |
+|----------|-------------------|-----------|
+| "How do you know which marketing channels drive enrollments?" | Attribution problem | "How confident are you in that data?" |
+| "What's your enrollment-to-lead conversion rate?" | Measurement maturity | "Do you track it by channel?" |
+| "What's your biggest frustration with enrollment data?" | Data pain | "What would you do if you had perfect data?" |
+| "How do you justify marketing spend to leadership?" | Budget pressure | "What metrics do they care about?" |
+| "If you could see exactly which ads drove enrollments, what would change?" | Solution value | "Would that be worth paying for?" |
+
+### Discovery Interview Outreach Script
+
+**LinkedIn outreach message** (for CEOs):
+```
+Hi [Name],
+
+I noticed [RTO name] handles [X] students per month — impressive volume.
+
+I'm researching how RTOs handle enrollment calls. Specifically, I'm curious: when a prospective student calls, how do you make sure they don't slip through the cracks?
+
+I don't want to sell you anything — I'm just trying to understand the problem better. Would you have 15 minutes for a quick call? I'd love to learn from someone running a RTO at your scale.
+
+Thanks,
+[Steven]
+```
+
+**Email follow-up** (if no LinkedIn response):
+```
+Subject: Quick question about enrollment calls
+
+Hi [Name],
+
+Following up on my note — I work with training organisations to understand their enrollment challenges. Not selling anything, just researching.
+
+If you have 10 minutes this week, I'd love to hear how [RTO] handles the volume you manage.
+
+Happy to work around your schedule.
+
+Thanks,
+[Steven]
+```
+
+**Discovery call agenda** (15-20 minutes):
+1. Introduction (1 min) — Who I am, why I'm calling
+2. Problem exploration (8-10 min) — Your questions above
+3. Solution validation (5 min) — "What would you think about [solution]?"
+4. Next steps (1 min) — "Can I follow up with a demo when we're ready?"
+
+### Discovery Interview Analysis Framework
+
+**After each interview, log**:
+- Company name, contact, persona
+- Problem confirmed? (Y/N with evidence)
+- Pain magnitude? (1-10 with specific data)
+- Current solution? (what they're doing now)
+- AI acceptance? (skeptical/neutral/eager)
+- Buying trigger? (what would make them act)
+- Next step? (follow-up, demo request, pass)
+
+**Interview synthesis** (after 5+ interviews):
+- Pattern identification: What problems come up most?
+- Pain quantification: Average time/cost per problem
+- Solution refinement: What features matter most?
+- Market validation: Is there real demand or just interest?
+
+### Minimum Viable Discovery (Before Building)
+
+**The minimum interviews needed before committing to development**:
+- 5 RTO CEOs (Starter/Growth tier)
+- 3 Enrollment Managers (Growth tier)
+- 2 Marketing Directors (Scale tier)
+- Total: 10 interviews
+
+**If <50% confirm the problem with specific evidence**: Pivot or validate more
+**If >50% confirm with specific data**: Build product
+**If >80% confirm and show urgency**: Accelerate development
+
+### Recommended Actions for Steven
+
+- [ADDED] Identify 20 RTO contacts for discovery interviews (filter by tier, location) — Week 1
+- [ADDED] Customize outreach message for each persona (CEO vs Manager vs Marketing) — Week 1
+- [ADDED] Schedule 3 discovery calls per week for first 4 weeks (12 total) — Week 1
+- [ADDED] Log every interview in spreadsheet (company, contact, pain, evidence) — Ongoing
+- [ADDED] Synthesize findings after 10 interviews (patterns, pain magnitude, solution direction) — Month 2
+- [ADDED] Confirm problem with specific data (not just "sounds good") — before any product build
+- [ADDED] Test solution fit by describing Optimizer AI (get reaction, not just "sounds interesting")
+- [ADDED] Identify buying triggers (what would make them sign today?) — in every interview
+- [ADDED] Build prospect pipeline from discovery calls (move to demo queue if qualified) — from Week 4
+
+### Sources
+
+- Customer discovery methodology: "The Mom Test" by Rob Fitzpatrick (2013)
+- B2B discovery interview framework: "Traction" by Gabriel Weinberg (2015)
+- Interview analysis: "Lean Customer Research" by Momoko Tsuyuki (2020)
+- RTO decision-maker outreach: Outreach automation best practices (2025)
+
+---
+
+*End of Cycle 200 refinement. Gap filled: No customer discovery research existed in research-log.md. Added discovery framework (who to talk to, objectives), 15 interview questions by persona (CEO, Enrollment Manager, Marketing Director), outreach script (LinkedIn + email), interview analysis framework, minimum viable discovery (10 interviews), 9 recommended actions for Steven.*
+
