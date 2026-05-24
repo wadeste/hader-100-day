@@ -1602,3 +1602,84 @@ RTOs increasingly want control over their marketing and enrollment processes. Po
 *End of Cycle 54 refinement. Gap filled: Voice AI infrastructure comparison, cost analysis, ASQA checklist, 8-week implementation timeline.*
 
 ---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 55): AI Skill Packages Deep Dive
+### Gap identified: Research mentions TAZ AI, compliance checks, Aircall prompts but lacks specific feature specs, prompt library examples, and consolidated pricing model
+
+**Original finding**: "AI skill packages for RTO staff" identified TAZ AI assistance and Aircall prompts as product opportunities but lacked product details.
+
+**Why this matters**: Product details enable build decisions, pricing, and sales materials. Without specific prompts and features, the product is vaporware.
+
+### TAZ AI Feature Spec (Phase 2 Product)
+
+**Clause Checker**: Flags non-compliant clauses in TAZ documents
+- Input: TAZ document text
+- Output: Flagged issues with regulatory references
+- Example: "Unit CHCCSL001 requires supervised placement hours — not specified"
+
+**Unit Mapping Assistant**: Validates unit selection against packaging rules
+- Input: Proposed unit list
+- Output: "Valid" or "X units violate packaging rules"
+- Implementation: RAG on training.gov.au training packages
+
+**Evidence Gap Analyzer**: Identifies missing assessment evidence
+- Input: TAZ + unit list
+- Output: "Missing evidence for unit [X]"
+- Implementation: RAG on unit assessment requirements
+
+**Regulatory Change Alert**: Monitors ASQA/training.gov.au updates
+- Input: ASQA newsletter feeds
+- Output: Impacted TAZs + update deadline
+
+**TAZ AI Pricing**:
+- Basic ($99/mo): Clause checker, unit mapping
+- Professional ($199/mo): + evidence gaps, change alerts
+- Enterprise ($399/mo): + custom rules, audit support
+
+### Aircall Prompt Library (Ready to Build)
+
+**15 Core Objection Handling Prompts**:
+| Objection | Response |
+|-----------|----------|
+| "Too expensive" | Acknowledge + offer payment plans, VET Student Loans, super withdrawal |
+| "Need to think" | Acknowledge + timeline, enrollment deadline, bonuses for early sign-up |
+| "Not sure which course" | Gather: career goals, experience → recommend specific course |
+| "Can I get funding?" | Gather: employment, prior quals → check Smart and Skilled, User Choice |
+| "How long does it take?" | Nominal hours + study mode + expected weekly commitment |
+| 10 more... | |
+
+**5 Compliance Scripts**:
+- Call start: Welcome, disclosure, consent
+- USI collection: USI requirement + verify format
+- Privacy notice: APP-compliant statement
+- Escalation: Human handoff rules
+- Call close: Next steps, orientation booking
+
+### Consolidated Pricing Model
+
+| Tier | Price | Includes | Standalone value | Bundle discount |
+|------|-------|----------|-----------------|-----------------|
+| Starter | $499/mo | 100 calls + 20 prompts | $648 | 23% |
+| Growth | $999/mo | 300 calls + 50 prompts + SMS | $1,298 | 23% |
+| Scale | $1,999/mo | Unlimited + 100 prompts + TAZ Basic + attribution | $2,597 | 23% |
+
+### Recommended Actions for Steven
+
+- [ADDED] Write 20 core Aircall prompts for enrollment objections — by June 7, 2026
+- [ADDED] Define TAZ AI feature spec (Phase 2 product) — by June 14, 2026
+- [ADDED] Test prompt library with Hader enrollment staff — by June 28, 2026
+- [ADDED] Expand prompt library to 100+ based on real call data — by July 2026
+- [ADDED] Explore Aircall marketplace partnership — by Q3 2026
+
+### Sources
+- Aircall AI features: aircall.io/ai (2026)
+- ASQA TAZ requirements: asqa.gov.au/standards (2026)
+- Training package rules: training.gov.au (2026)
+
+---
+
+*End of Cycle 55 refinement. Gap filled: TAZ AI feature spec, Aircall prompt library examples, consolidated pricing model.*
+
+---
