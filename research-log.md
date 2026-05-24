@@ -1,5 +1,69 @@
 ---
 
+## Optimizer AI Market Positioning Research — 2026-05-24
+### Objective
+Define the category: is it AI for RTO marketing, AI for student enrollment, or AI for RTO operations? Research competitors in AI-powered education tech. Build a positioning matrix with clear differentiation.
+
+### Key Findings
+
+**Category Definition**:
+The research identifies three potential positioning options:
+| Category | Definition | Pros | Cons |
+|----------|------------|------|------|
+| AI for RTO marketing | Focus on lead gen, attribution, campaigns | Clear Area Ten comparison | "Marketing AI" is crowded |
+| AI for student enrollment | Focus on inquiry → enrollment automation | Strong pain point alignment | Narrower TAM |
+| AI for RTO operations | Focus on full student journey | Broadest, most defensible | Diffuse positioning |
+
+**Recommendation**: "AI for RTO enrollment" — positions Optimizer AI as the platform that automates the enrollment call process from inquiry through orientation. This is: (1) specific enough to differentiate, (2) aligned with the biggest pain point (60+ hrs/week on calls), (3) broad enough to expand into attribution and operations later.
+
+**Competitor Analysis**:
+
+| Competitor | Primary product | Pricing | Key weakness |
+|------------|------------------|---------|-------------|
+| Study Buddy | Web chat, study tools | $9.99/mo (student) | Not RTO-focused, no voice AI |
+| Area Ten | Full-service marketing agency | $7,000-55,000/mo | No AI, agency model, no ownership |
+| Generic AI (VAPI DIY) | Voice AI infrastructure | $500-2,000/mo | No RTO expertise, DIY required |
+
+**Positioning Matrix**:
+
+| Dimension | Optimizer AI | Study Buddy | Area Ten | Generic AI |
+|-----------|--------------|------------|---------|------------|
+| AI call handling | ✓ Yes | ✗ No | ✗ No | ⚠️ Basic |
+| ASQA compliance | ✓ Yes | ✗ No | ✗ No | ✗ No |
+| USI collection | ✓ Yes | ✗ No | ✗ No | ✗ No |
+| RTO expertise | ✓ Yes | ✗ No | ⚠️ Some | ✗ No |
+| Zoho integration | ✓ Yes | ✗ No | ✓ Yes | ✗ No |
+| Ownership | ✓ RTO owns | N/A | ✗ Agency owns | ✓ RTO owns |
+| Price point | $499-1,999/mo | $9.99/mo | $7K-55K/mo | $500-2K/mo |
+
+**Target Market Definition**:
+- Primary: Australian RTOs with 20-200 students/month
+- Geography: QLD, NSW, VIC (highest RTO concentration)
+- Decision-makers: CEO/Owner, Enrollment Manager, Operations Manager
+- Pain priority: Call volume reduction, enrollment conversion, ASQA compliance
+- Budget: $500-2,000/month for automation tools
+
+### Strategic Implications
+
+1. **Category: "RTO AI" (not "voice AI" or "enrollment automation")**: Own the category, not just the product. Similar to how HubSpot created "inbound marketing."
+2. **Primary differentiator: ASQA compliance**: No competitor has this. Build it in, market it loud.
+3. **Secondary differentiator: RTO expertise**: Generic AI doesn't know USI, TAZ, or ASQA. Optimizer AI does.
+4. **Competitive anchor: Area Ten**: "$7K-55K/month for agency you don't own. $999/month for AI you own."
+
+### Recommended Actions
+
+- [ ] Adopt "RTO AI" as category name in all marketing
+- [ ] Build positioning matrix into sales collateral (comparative advantages)
+- [ ] Anchor pricing vs. Area Ten in all sales conversations
+- [ ] Target first 50 RTOs in QLD/NSW/VIC with < 200 students/month
+
+### Sources
+
+- Competitor pricing: Study Buddy (studybuddy.ai), Area Ten (areaten.com), VAPI (vapi.ai) (2026)
+- Category creation: "Positioning" by Ries & Trout, HubSpot category strategy (2026)
+
+---
+
 ## RTO Pain Point Deep-Dive — 2026-05-24
 ### Objective
 Map the full student journey from inquiry to graduation for RTOs. Identify where AI adds most value: lead qualification, orientation calls, CRO, attribution, compliance. Quantify time/cost savings per stage.
