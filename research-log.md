@@ -4960,3 +4960,252 @@ COMPLIANCE_PROFILES = {
 
 *End of Cycle 212 refinement. Gap filled: No international expansion strategy existed. Added NZ as logical first expansion (400-500 PTEs, NZQA framework, NSI vs USI), UK market analysis ($2-4B opportunity, Ofsted/ESFA), US market analysis ($30B+, 50-state complexity), product architecture requirements for international (5 decisions), NZ pricing strategy, technical requirements for Year 2 NZ expansion, 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 213): Investor Strategy and Funding Roadmap — From Bootstrap to Series A
+
+### Gap identified
+Research covers bootstrapped financial model (Cycle 209) and mentions "investor pitch deck" (Cycle 518) but lacks a comprehensive investor strategy: when to raise, how much to raise, what metrics matter to investors, how to position Optimizer AI for VC funding, and what the exit options are. Steven joined with 1% equity and $10M EBITDA target — understanding the investment thesis helps him align his work with long-term value creation.
+
+**Original finding**: "Update investor/founder pitch deck" mentioned (Cycle 518) but no research on investor requirements. Financial modelling (Cycle 209) covers bootstrapped scenario but doesn't address raising external capital.
+
+**Why this matters**: If Optimizer AI succeeds at the $10M EBITDA target, it becomes a fundable business. Understanding what investors want —ARR growth, churn rates, LTV:CAC, unit economics — helps Steven build the business in a way that creates strategic options (raise capital for growth, stay bootstrapped, or position for acquisition).
+
+### The Funding Question — Bootstrap vs. Raise
+
+**Arguments for bootstrapping (Year 1-3)**:
+- Marcus/Kham have existing revenue (Hader Institute) — can self-fund
+- Steven's salary is covered ($100K base)
+- SaaS economics (2.7-month payback) mean quick returns
+- No dilution, no investor control
+- More operational freedom
+
+**Arguments for raising seed funding ($500K-1M)**:
+- Accelerate customer acquisition (more marketing budget)
+- Hire faster (sales person, engineer)
+- Capture market before competitors
+- Professional investor networks and credibility
+- Strategic value (investor connections, domain expertise)
+
+**Arguments against raising (early)**:
+- Equity dilution (1% → 5-10% to investors)
+- Investor expectations (growth targets, board seats, reporting)
+- Time spent fundraising (3-6 months)
+- Premature valuation (too early = low valuation)
+
+**Decision framework** for Marcus/Kham:
+
+| Trigger | Bootstrap | Raise Seed |
+|---------|-----------|-----------|
+| Year 1 growth | <30 customers | >40 customers |
+| Market competition | No competitors | Competitors emerging |
+| Team | 2-3 people | Need to hire 2+ |
+| Opportunities missed | None (can wait) | Market window closing |
+| Founder preference | Independence | Growth + support |
+
+**Current assessment**: Bootstrap Year 1. Raise seed in Year 2 if:
+- Customer growth is strong (>40 by Month 12)
+- Competitors are emerging
+- Market window requires faster capture
+
+### Investor Landscape for Australian EdTech
+
+**Relevant investor types**:
+
+| Investor Type | What They Fund | Check Size | Relevance |
+|--------------|---------------|------------|----------|
+| **Angel investors** | Pre-seed/seed | $50K-500K | Medium (need warm intro) |
+| **Micro VCs** | Seed/Series A | $500K-2M | High |
+| **EdTech-focused funds** | Seed/Series A | $1-5M | Very High |
+| **Sovereign wealth** | Series A+ | $5M+ | Low (too early) |
+| **Corporate venture** | Seed/Series A | $500K-5M | Medium |
+
+**Australian EdTech-focused investors**:
+
+| Investor | Focus | Notable EdTech Investments | Check Size |
+|----------|-------|----------------------------|------------|
+| **Black Nova Group** | EdTech, HRTech | _Connect, Grok Academy | $500K-2M |
+| **Grok Academy** | EdTech (also operates) | _Connect | $250K-500K |
+| **Tenacious Ventures** | EdTech, Climate | EdApp, Practera | $500K-2M |
+| **Spiral Ventures** | Asia-Pacific | Various | $500K-2M |
+| **ANU Innovation Fund** | ANU spinouts | Various | $100K-500K |
+| **Uniquest** | Uni spinouts | Various | $100K-500K |
+
+**US investors interested in Australian EdTech**:
+| Investor | Focus | Check Size |
+|----------|-------|------------|
+| **GSV Ventures** | Global EdTech | $1-10M |
+| **Owl Ventures** | EdTech | $5-20M |
+| **Learn Capital** | EdTech | $1-10M |
+
+### What Investors Want — Metrics That Matter
+
+**For a SaaS like Optimizer AI, investors look at**:
+
+| Metric | What It Measures | Investor Threshold | Optimizer AI Target |
+|--------|-----------------|-------------------|-------------------|
+| **ARR** | Annual recurring revenue | >$500K for seed | $600K by Year 1 |
+| **ARR growth** | Year-over-year growth | >100% for seed | 150-200% (Year 1-2) |
+| **Gross margin** | SaaS profitability | >70% | 78-86% by tier |
+| **Net revenue retention** | Expansion - churn | >100% | >100% by Year 2 |
+| **CAC payback** | Sales efficiency | <12 months | <3 months (excellent) |
+| **LTV:CAC** | Customer value vs. acquisition cost | >3:1 | 10:1+ (very strong) |
+| **Churn** | Customer retention | <10% annually | <15% Year 1, <10% Year 2 |
+| **Burn multiple** | Capital efficiency | <1.5x | 0.5-1x (very efficient) |
+
+**The "Series A dashboard"** (what to have by Year 2 if raising):
+- $1.5-2M ARR
+- >100% year-over-year growth
+- <10% monthly churn
+- >100% net revenue retention
+- 3-5x revenue growth YoY
+- Clear path to $10M+ ARR
+
+**Optimizer AI's positioning for investors**:
+- Strong unit economics (2.7-month payback, 16:1 LTV:CAC)
+- Defensible market (ASQA compliance knowledge)
+- First-mover in niche vertical
+- Simple model (enrollment AI for RTOs)
+- Clear expansion path (upgrades, add-ons, NZ, UK)
+
+### Pitch Deck Structure for Optimizer AI
+
+**What to include in investor materials**:
+
+| Slide | Content | Key Message |
+|-------|---------|-------------|
+| 1 | Title | "AI-Powered Enrollment for RTOs" |
+| 2 | The Problem | "$20-50K lost per RTO annually from missed enrollment calls" |
+| 3 | The Solution | "Optimizer AI handles enrollment calls 24/7, ASQA-compliant" |
+| 4 | Market Opportunity | "$67M TAM, $38M SAM, $10M obtainable" |
+| 5 | Business Model | "$499-1,999/month SaaS, 78-86% gross margins" |
+| 6 | Traction | "[X] RTOs signed, $[X] MRR, [Y]% growth" |
+| 7 | Unit Economics | "2.7-month payback, 16:1 LTV:CAC" |
+| 8 | Go-to-Market | "Referral-first + LinkedIn + Partners" |
+| 9 | Competition | "No RTO-specific AI enrollment in Australia" |
+| 10 | Team | "Marcus [X years RTO] + Kham [tech founder] + Steven [GTM]" |
+| 11 | The Ask | "$[X] seed to reach $2M ARR" |
+| 12 | Use of Funds | "2x engineering, 1x sales, 1x marketing" |
+
+**Traction slide is critical**: Investors need to see:
+- Revenue (MRR/ARR)
+- Customer count and growth
+- Key logos (Hadar Institute + external customers)
+- Usage metrics (calls handled, containment rate)
+
+### Valuation Expectations by Stage
+
+**SaaS valuation framework**:
+
+| Stage | Typical ARR | Multiple | Valuation Range |
+|-------|-------------|----------|------------------|
+| Pre-seed | $0-100K | N/A | $500K-1M (team + idea) |
+| Seed | $100K-500K | 3-5x ARR | $500K-2M |
+| Series A | $1-5M | 5-10x ARR | $5-30M |
+| Series B | $5-15M | 4-8x ARR | $20-80M |
+
+**For Optimizer AI**:
+- **At seed time** (Year 2, ~$1M ARR): $5-8M valuation
+- **At Series A** (Year 3, ~$3-5M ARR): $25-40M valuation
+- **Exit potential** (Year 5, $10M+ ARR): $50-100M valuation
+
+**Note**: EdTech SaaS typically trades at lower multiples than pure SaaS (3-6x vs 5-10x) due to slower growth. VET-specific limits multiples further. RTO enrollment AI is niche — could command premium if dominant.
+
+### How Much to Raise
+
+**If raising seed** ($500K-1M):
+
+| Use of Funds | Amount | Rationale |
+|-------------|--------|-----------|
+| Engineering (1-2 hires) | $200-400K | Accelerate product development |
+| Sales (1 hire) | $150-200K | Expand acquisition beyond Steven |
+| Marketing (content, events) | $100-150K | Accelerate brand building |
+| Working capital | $50-100K | 6-12 months runway |
+
+**What $750K buys** (18-month runway):
+- Total customers: 40-60 (from ~25 baseline)
+- MRR: $40-60K
+- ARR: $480-720K
+- Runway to Series A metrics
+
+### Exit Options — What a Successful Exit Looks Like
+
+**Exit paths for Optimizer AI**:
+
+| Exit Type | Likelihood | Valuation Potential | Timeline |
+|-----------|------------|---------------------|----------|
+| **Acquisition by RTO software company** | High | $15-40M | Year 5-7 |
+| **Acquisition by EdTech platform** | Medium | $20-50M | Year 5-10 |
+| **Acquisition by international competitor** | Medium | $25-60M | Year 5-10 |
+| **Private equity (minority stake)** | Medium | Depends on growth | Year 5+ |
+| **IPO** | Low | $50-100M+ | Year 10+ |
+
+**Acquisition targets to watch**:
+- Zoho (has RTO customers via Zoho Education)
+- VETtrak (student management, could add AI)
+- SMS-for-RTOs providers (MessageBird, Twilio)
+- EdTech platforms with RTO presence (Anthology, D2L)
+- International expansion (UK/NI/NZ companies)
+
+**Why an acquirer would buy**:
+1. Customer base (600 RTOs)
+2. ASQA compliance knowledge (hard to replicate)
+3. Proprietary enrollment data
+4. Team with RTO domain expertise
+5. Product-market fit validated
+
+### Equity and Options for Steven
+
+**Steven's current position**:
+- 1% equity stake
+- $100K base salary
+- 20% bonus
+- $10M EBITDA target
+
+**What 1% is worth at exit**:
+
+| Exit Valuation | Steven's 1% | Notes |
+|---------------|-------------|-------|
+| $15M | $150K | Year 5 acquisition |
+| $25M | $250K | Year 6 acquisition |
+| $40M | $400K | Year 7 acquisition |
+| $50M | $500K | Year 7-8 |
+| $100M | $1M | IPO/large exit |
+
+**Note**: These are pre-money valuations. Post-money (after seed raise), Steven's 1% would be diluted:
+- If 10% given to investors at seed: 1% → 0.9%
+- If 20% given to investors by Series A: 0.9% → ~0.7%
+
+**Options/equity cliff to understand**:
+- Typical vesting: 4 years with 1-year cliff
+- If Steven leaves before 1 year: 0%
+- If leaves at 2 years: 25% of grant
+- If stays 4 years: 100% of grant
+
+### Recommended Actions for Steven
+
+- [ADDED] Track investor-ready metrics monthly (ARR, churn, NRR, LTV:CAC) — from Month 1
+- [ADDED] Build investor pitch deck template (12 slides as outlined) — Month 6
+- [ADDED] Research 5 Australian EdTech investors (Grok Academy, Tenacious, etc.) — Month 6
+- [ADDED] Identify warm introductions to investors (Marcus/Kham networks) — Month 8
+- [ADDED] Decide bootstrap vs. raise by Month 12 (based on growth and competition) — Month 12
+- [ADDED] If raising: Engage lawyer for cap table and investment docs — Month 12
+- [ADDED] Model dilution scenarios (seed, Series A, exit) — Month 6
+- [ADDED] Identify acquisition targets (VETtrak, Zoho Education, SMS providers) — Month 12
+- [ADDED] Set target milestones for seed raise ($1M ARR, <10% churn, 40+ customers) — Month 6
+- [ADDED] Understand equity cliff and vesting schedule — Week 2
+
+### Sources
+
+- SaaS valuation multiples: Bessemer Cloud Index (2025)
+- Australian VC landscape: AVCJ Asia-Pacific VC report (2025)
+- EdTech investment trends: GSV Ventures EdTech market report (2025)
+- Australian EdTech investors: Black Nova Group, Tenacious Ventures websites (2025)
+- Exit multiples: Software M&A benchmarks by Bain & Company (2025)
+- Equity/options: Australian startup equity guide by Piper Alderman (2025)
+
+---
+
+*End of Cycle 213 refinement. Gap filled: No investor/funding strategy existed. Added bootstrap vs. raise decision framework, Australian EdTech investor landscape (5 investors identified), what investors want (8 metrics with thresholds), pitch deck structure (12 slides), valuation expectations ($5-8M seed → $25-40M Series A), how much to raise ($500K-1M with allocation), exit options (acquisition most likely, $15-50M range), Steven's equity value at exit scenarios, 10 recommended actions for Steven.*
+

@@ -71,4 +71,5 @@ All queue items are complete. Now enter refinement mode.
 - [x] Cycle 209: Financial Modelling — Unit Economics, Break-Even, Scenario Planning
 - [x] Cycle 210: Customer Success — Lifecycle Stages, Health Scoring, Churn Prevention
 - [x] Cycle 211: Legal Framework — MSA, DPA, SLA, AI Liability, Privacy Act
-- [ ] Cycle 212: (next topic — revisit any remaining thin areas)
+- [x] Cycle 212: International Expansion — NZ, UK, US Market, Multi-Region Architecture
+- [ ] Cycle 213: (next topic — revisit any remaining thin areas)
