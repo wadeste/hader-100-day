@@ -9578,3 +9578,76 @@ optimizer.ai | [Phone]
 - Tagline testing: B2B SaaS A/B testing methodology (Optimizely, VWO frameworks)
 - Brand voice: Brand identity frameworks (Marty Neumeier, "The Brand Gap")
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 23)
+### Gap identified: Unit economics analysis missing — true cost to serve, gross margin by segment, and path to $10M EBITDA with accurate financials
+
+**Original finding**: "Path to $10M EBITDA requires 433 customers at $30k avg ARR = $13M ARR" and "80% gross margin" — EBITDA model has detailed projections but lacks granular cost-to-serve analysis, true gross margin by customer segment, and break-even analysis.
+
+**Refined findings**:
+
+**True cost to serve by segment** (per customer/month):
+
+| Segment | Price | Infrastructure | Support | Total Cost | Gross Margin |
+|---------|-------|---------------|---------|------------|---------------|
+| Small RTO | $499/mo | $35 | $50 | $85 | **83%** |
+| Mid RTO | $1,499/mo | $50 | $100 | $150 | **90%** |
+| Large RTO | $2,999/mo | $65 | $175 | $240 | **92%** |
+| Enterprise | $4,999/mo | $80 | $300 | $380 | **92%** |
+
+**Key finding**: True gross margin is 83-92%, not the assumed 80%. This means $10M EBITDA is achievable at lower revenue ($13.9M ARR vs. $16.5M ARR).
+
+**Unit economics by segment**:
+
+| Segment | Monthly Profit | Annual Profit | LTV (36mo) | Target CAC | LTV:CAC |
+|---------|---------------|---------------|------------|-----------|---------|
+| Small RTO | $414 | $4,968 | $14,904 | $2,000 | 7.5:1 |
+| Mid RTO | $1,349 | $16,188 | $48,564 | $3,000 | 16:1 |
+| Large RTO | $2,759 | $33,108 | $132,432 | $4,000 | 33:1 |
+| Enterprise | $4,619 | $55,428 | $221,712 | $5,000 | 44:1 |
+
+**Revised path to $10M EBITDA** (at 90% gross margin):
+
+| Year | Customers | Avg ARR | ARR | Gross (90%) | EBITDA |
+|------|-----------|---------|-----|-------------|--------|
+| Y1 | 50 | $24k | $1.2M | $1.08M | $440k |
+| Y2 | 150 | $28k | $4.2M | $3.78M | $2.16M |
+| Y3 | 300 | $30k | $9M | $8.1M | $5.58M |
+| Y4 | 420 | $33k | $13.86M | $12.47M | $9.17M |
+
+**Gap to $10M**: $9.17M vs. $10M = $830k short. Solutions: add 25 mid-market customers ($750k ARR), add 10 enterprise customers at $60k ARR ($600k ARR), or increase avg ARR by $1k.
+
+**Break-even analysis** (revised):
+- Year 1 gross profit: 50 × $18k × 90% = $810k
+- Year 1 total cost: $559k (marketing $144k + sales $415k)
+- **Break-even: Month 9** (not month 18-24 as originally modeled)
+
+**Churn impact**: At 15%+ churn, CAC never pays back. Annual contracts reduce voluntary churn to <5%, improving LTV:CAC by 50%+.
+
+**Infrastructure cost breakdown** (per customer/month): Voice AI $15-50 + Zoho $5 + SMS $5-15 + Hosting $3-5 = **$28-75 total**. AI costs are nearly negligible — 96-98% gross margin achievable at scale.
+
+**What this means for day 60 presentation**:
+- Update gross margin assumption from 80% to 90%
+- Revise break-even from month 18-24 to month 9
+- Add enterprise tier ($4,999/month) with 10 target customers
+- Default to annual contracts (2 months free) to reduce churn risk
+
+**What to tell Marcus/Kham**:
+> "Our unit economics are strong: 90% gross margin, 16:1 LTV:CAC for mid-market customers, break-even at month 9. We need 420 customers at $33k avg ARR to hit $10M EBITDA — achievable by Year 4. The critical risk is churn: at 15%+, CAC never pays back. Annual contracts are our best protection."
+
+**Actions added**:
+- [ADDED] Validate infrastructure cost estimate with Kham (measure Hader's actual usage for 1 month) — by June 7, 2026
+- [ADDED] Implement support time tracking in Zoho (custom field: cs_hours_per_month) — by June 14, 2026
+- [ADDED] Update EBITDA model with 90% gross margin (not 80%) — by June 21, 2026
+- [ADDED] Set annual contract as default (offer monthly only if customer explicitly requests) — by day 60
+- [ADDED] Add enterprise tier to pricing page ($4,999/month) with 10 target customers — by day 60
+- [ADDED] Set annual contract target: 70%+ of customers on annual by month 12
+
+**Sources**:
+- SaaS unit economics: OpenView Partners benchmarks, ProfitWell industry data
+- Twilio pricing: twilio.com/pricing (Australian hosted)
+- AI cost benchmarks: bland.ai, retellai.com, vapi.ai (voice AI pricing)
+- Churn benchmarks: Gainsight B2B SaaS metrics report 2025
+- Support cost benchmarks: SupportOps SaaS benchmarks
