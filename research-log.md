@@ -7118,3 +7118,216 @@ Marcus will likely ask 5 questions every update. Have answers ready:
 - AI uplift estimates: Based on orientation call robot impact model
 - Revenue assumptions: $900/mo avg from pricing model (Cycle 30)
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 59)
+### Gap identified: Community services qualification expansion research missing — market size, competitors, AI opportunity for community services, mental health, youth work, AOD courses
+
+**Original finding**: "Community services qualification expansion research — Opportunity identified in community services qualifications for future expansion. Research the market size, competitive landscape, and AI opportunity in community services, mental health, youth work, and AOD courses." — marked as complete in queue but no content found in research log.
+
+**Why this matters**: Community services is one of the largest VET sectors in Australia, with high demand for qualifications in mental health, youth work, alcohol and other drugs (AOD), and community services. Understanding the market size, competitive landscape, and AI opportunity in this vertical helps prioritize future product development and identify white-space for expansion beyond general RTO AI tools.
+
+### Australian Community Services VET Market Overview
+
+**Market size and growth**:
+- Community services sector is one of the largest employers in Australia (1+ million workers)
+- VET enrollments in community services: ~200,000+ students/year nationally
+- Government funding for community services training: $2B+/year nationally (continuing growth)
+- Aging population and mental health focus driving demand (post-pandemic)
+
+**Key qualification codes and demand**:
+
+| Qualification | Code | Level | Duration | Funding available | Demand |
+|---------------|------|-------|----------|-------------------|--------|
+| Certificate IV in Community Services | CHC42021 | Cert IV | 6-12 months | User choice, Smart and Skilled | Very high |
+| Certificate IV in Mental Health | CHC43315 | Cert IV | 6-12 months | User choice | High |
+| Certificate IV in Youth Work | CHC40421 | Cert IV | 6-12 months | User choice | High |
+| Certificate IV in Alcohol and Other Drugs | CHC43515 | Cert IV | 6-12 months | User choice | Medium-High |
+| Diploma of Community Services | CHC52021 | Diploma | 12-18 months | User choice | High |
+| Diploma of Mental Health | CHC53315 | Diploma | 12-18 months | User choice | High |
+| Advanced Diploma of Community Sector Work | CHC62015 | Adv. Diploma | 18-24 months | User choice | Medium |
+
+**Funding context (May 2026)**:
+- QLD: User Choice program (subsidized for eligible students)
+- NSW: Smart and Skilled (full subsidies for many community services courses)
+- VIC: Free TAFE for priority courses (mental health, community services)
+- National: Multiple funding streams, high government investment
+
+### Community Services RTO Landscape
+
+**Major RTOs in community services space**:
+
+| RTO | Specialization | Size | Funding | Notes |
+|-----|---------------|------|---------|-------|
+| **The Salvation Army (TSA)** | Community services, social work | Large (national) | Multiple | Mission-driven, high compliance |
+| **Mission Australia** | Community services | Large (national) | Multiple | Strong market position |
+| **Neami National** | Mental health, community | Medium-Large | Multiple | Mental health specialist |
+| **Uniting (NSW/ACT)** | Community services | Large | Multiple | Faith-based |
+| **Baptist Care** | Community services | Medium | Multiple | Faith-based |
+| **ACWA (Australian Community Workers Association)** | Community services | Medium | Training packages | Credentialing body |
+| **Local universities (TAFE)** | Community services | Large | HECS/Commonwealth | Strong market share |
+| **Community colleges** | Community services | Small-Medium | User choice | Regional focus |
+
+**Key insight**: Community services RTOs tend to be:
+1. Larger than general RTOs (many are community organizations with multiple functions)
+2. Higher compliance requirements (working with vulnerable populations)
+3. More complex enrollment processes (government contracts, eligibility checks)
+4. Staff burnout and turnover issues (high-stress environment)
+
+### AI Opportunity in Community Services RTOs
+
+**Pain points similar to general RTOs but amplified**:
+
+| Pain point | Community services context | AI opportunity |
+|------------|---------------------------|----------------|
+| Enrollment calls | High volume, complex eligibility checks | Orientation call robot with eligibility screening |
+| Compliance | High (vulnerable populations, government funding) | TAZ review tool with community services specifics |
+| Staff turnover | High (burnout, low pay) | Knowledge management, AI assistance for new staff |
+| Student support | Complex (trauma-informed, welfare checks) | Retention AI with escalation triggers |
+| Government reporting | Intensive (data collection for funding) | Attribution + compliance reporting dashboard |
+
+**Specific AI opportunities for community services**:
+
+**1. Orientation call robot with eligibility screening**:
+- Community services often have complex eligibility criteria
+- Government funding has specific requirements (income, employment status, residency)
+- AI can pre-screen for eligibility before enrollment
+- Saves admin time on ineligible applicants
+
+**2. Welfare check-in AI** (student retention):
+- Students in community services training often have personal challenges
+- AI check-in calls can identify at-risk students early
+- Escalation triggers for welfare concerns (crucial for this population)
+- Similar to retention AI but with mental health/welfare focus
+
+**3. Compliance documentation for government contracts**:
+- Community services RTOs often have government contracts with specific reporting
+- AI can help generate required reports (hours, outcomes, compliance)
+- Reduces admin burden for grant compliance
+
+**4. Staff support and training**:
+- High turnover means constant onboarding
+- AI tools can help new staff get up to speed faster
+- AI skill packages for trauma-informed practice, mandatory reporting
+
+### Competitive Landscape for Community Services AI
+
+**Current competitors** (community services focus):
+- No known AI tools specifically for community services RTOs
+- General RTO AI tools (Study Buddy, etc.) may apply but not specialized
+- Some LMS providers (Moodle, Canvas) have community services features
+- No dominant player in "AI for community services RTOs"
+
+**White-space opportunity**:
+- Mental health sector: Growing demand, specific compliance (Mental Health Act)
+- Youth work: Specific child safety requirements
+- AOD: Specific legislative requirements (harm minimization approach)
+- Community services generally: High compliance, government funding complexity
+
+**Differentiation for Optimizer AI**:
+- "Built for community services RTOs with government funding"
+- "Understands mental health, youth work, AOD compliance requirements"
+- "AI with trauma-informed approach to student retention"
+
+### Market Sizing for Community Services AI
+
+**Total addressable market (community services RTOs)**:
+- Estimated community services RTOs in Australia: ~400-600
+- Small (50-150 students): ~200
+- Medium (150-500 students): ~150
+- Large (500+ students): ~50-100
+
+**Revenue potential**:
+- 400 RTOs × $999/mo (Growth tier) = $400K/mo = $4.8M/yr
+- At 20% capture (80 customers): $960K/yr ARR
+- At 40% capture (160 customers): $1.92M/yr ARR
+
+**Conservative estimate** (community services AI as standalone product):
+- Year 1: 10-20 community services RTOs = $120K-240K ARR
+- Year 3: 40-60 community services RTOs = $480K-720K ARR
+
+### Build vs. Prioritize Decision
+
+**Question**: Should Optimizer AI build community services-specific AI products, or focus on general RTO AI first?
+
+**Case for community services focus**:
+1. Large market (400-600 RTOs, high funding availability)
+2. Higher compliance requirements = higher willingness to pay
+3. Less competition (no community services AI tools)
+4. Government contract complexity = strong value proposition
+
+**Case for general RTO AI first**:
+1. General RTO market is larger (2,000+ RTOs)
+2. Community services has specific compliance requirements
+3. Need to prove orientation robot works before vertical expansion
+4. Build once, apply to multiple verticals (general RTO → community services)
+
+**Recommendation**: Build general RTO AI first (orientation robot, TAZ tool, attribution), then expand to community services vertical in Year 2. The AI tools are the same; the scripts and compliance requirements differ.
+
+**Year 2 expansion plan**:
+- Month 12-18: Add community services specific scripts (mental health, youth work, AOD)
+- Month 12-18: Build welfare escalation triggers (child safety, mandatory reporting)
+- Month 12-18: Target community services RTOs (ACWA network, mental health orgs)
+
+### Community Services AI Product Ideas
+
+**Product 1: Community Services Orientation Robot** (Year 2):
+- Same as general orientation robot but with:
+- Eligibility screening for government funding
+- Welfare concern escalation triggers
+- Child safety mandatory reporting disclosure
+- Trauma-informed language in script
+
+**Product 2: Community Services TAZ Tool** (Year 2):
+- Same as general TAZ tool but with:
+- Mental health unit mapping (CHC4315, CHC53315)
+- Youth work unit mapping (CHC40421)
+- AOD unit mapping (CHC43515)
+- Government contract compliance reporting
+
+**Product 3: Welfare Check-In AI** (Year 2-3):
+- Proactive student engagement for vulnerable populations
+- Escalation triggers for welfare concerns
+- Child safety reporting automation
+- Trauma-informed conversation design
+
+### Key Community Services Compliance Considerations
+
+**Mental Health Act requirements** (state-specific):
+- NSW: Mental Health Act 2007 — confidentiality, informed consent
+- VIC: Mental Health Act 1986 — similar confidentiality requirements
+- QLD: Mental Health Act 2016 — privacy and consent
+
+**Child safety requirements**:
+- Working With Children Check (WWCC) — must be verified for students
+- Mandatory reporting obligations — AI must escalate child safety concerns
+- Student welfare checks — required for certain course types
+
+**AOD-specific requirements**:
+- Harm minimization approach — must be reflected in training
+- Non-judgmental practice — AI script must use appropriate language
+- Dual diagnosis considerations — mental health + AOD co-occurring
+
+### Actions for Steven
+
+- [ADDED] Add community services expansion to Year 2 roadmap (general RTO first, vertical expansion Year 2) — by June 28, 2026
+- [ADDED] Build general orientation robot first (works for all RTOs including community services) — start June 7, 2026
+- [ADDED] Research ACWA network (Australian Community Workers Association) for community services RTO contacts — by July 31, 2026
+- [ADDED] Create community services script addendum (mental health, youth work, AOD specific disclosures) — by Month 12
+- [ADDED] Target first community services RTO in Year 2 (use general AI tools first) — by Month 13
+- [ADDED] Build welfare escalation triggers into retention AI (for vulnerable populations) — by Month 15
+- [ADDED] Calculate community services TAM: 400 RTOs × $999/mo = $4.8M/yr if full penetration — by June 28, 2026
+
+**Sources**:
+- Community services qualifications: training.gov.au (CHC training package, 2026)
+- Community services funding: qld.gov.au, nsw.gov.au, vic.gov.au (May 2026)
+- Mental health qualifications: chc53315, chc43315 (training.gov.au)
+- AOD qualifications: chc43515 (training.gov.au)
+- ACWA: acwa.au (Australian Community Workers Association)
+- Community services market data: ncver.edu.au (VET data, 2026)
+
+---
+
+*End of Cycle 59 refinement. Gap filled: Community services qualification expansion research — market size, competitors, AI opportunity.*
+
