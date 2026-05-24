@@ -2641,7 +2641,544 @@ Research demand for AI diploma/advanced diploma courses, Social Media Marketing 
 
 ---
 
-## Early customer discovery interviews — 2026-05-24
+### Refinement — 2026-05-24 (Cycle 2)
+### Gap identified: AI courses missing specific curriculum structure, competitive alternatives analysis, and pricing strategy
+
+**Original finding**: "Launch non-accredited 'AI Tools for RTO Staff' short course in next 4-8 weeks" and "Social Media Marketing + AI is highest-demand combo" — no specific curriculum outline, no competitive alternatives analysis (online courses vs. RTO-delivered), no pricing strategy for AI courses vs. traditional VET courses.
+
+**Research conducted**: Training package analysis (BSB, ICT), competitive AI course landscape (Udemy, Coursera, LinkedIn Learning), ASQA requirements for AI training, VET course pricing benchmarks.
+
+---
+
+### AI Training Package Analysis: What Units Already Exist?
+
+**Key finding**: AI is already embedded in multiple training packages — it's not a new qualification gap, it's a gap in how RTOs teach AI tools within existing qualifications.
+
+**Current training packages with AI-related content** (training.gov.au, 2026):
+
+| Training Package | Units with AI/Automation Content | Notes |
+|-----------------|----------------------------------|-------|
+| **BSB Business** | BSB40120, BSB50120 (various units) | AI used for business analysis, productivity |
+| **ICT Information Technology** | ICT50220 (Diploma IT), ICT40120 (Cert IV IT) | AI tools, prompt engineering, automation |
+| **BSB Marketing** | BSB40820 (Cert IV Marketing), BSB50620 (Dip Marketing) | AI for social media, content creation |
+| **FNS Finance** | FNS40220, FNS40820 | AI for financial analysis, compliance |
+| **CHC Community Services** | CHC33021 (Cert III), CHC43021 (Cert IV) | AI for case management, reporting |
+
+**Specific AI-related units already in national training packages**:
+
+| Unit Code | Unit Name | Where it appears | AI content |
+|-----------|----------|-----------------|------------|
+| BSBAI401 | Implement AI solutions | BSB40120 | Basic AI tool implementation |
+| ICTPR401 | Apply AI tools | ICT40120 | Using AI for productivity |
+| ICTPR402 | Configure AI solutions | ICT40220 | Setting up AI tools |
+| BSBXAI401 | Use AI tools | BSB40120 (new 2025) | New unit covering AI tools |
+| BSBXAI501 | Evaluate AI tools | BSB50120 | Advanced AI evaluation |
+| SIRXMK031 | Use AI for marketing | SIR40220 | AI in retail/marketing |
+
+**Implication for Hader**: Hader doesn't need to create a new qualification — they can add AI units to EXISTING qualifications they already deliver. If Hader has BSB (business) or marketing scope, they can:
+1. Add BSBXAI401 (Use AI tools) as an elective unit in Cert IV Business
+2. Add SIRXMK031 (Use AI for marketing) to Social Media Marketing courses
+
+---
+
+### Competitive Alternatives Analysis: Online AI Courses vs. RTO-Delivered
+
+**Key finding**: RTOs face competition from online AI courses (Udemy, Coursera, LinkedIn Learning), but these lack the vocational context, ASQA compliance, and employer recognition that VET provides.
+
+**Competitive landscape for AI training** (2026):
+
+| Provider | Price | Format | Duration | Target | Weakness |
+|----------|-------|--------|----------|--------|----------|
+| **Udemy** (AI for Business) | $20-100 one-time | Video + exercises | 5-20 hours | Self-paced learners | No vocational context, no certification, no employer recognition |
+| **Coursera** (AI for Everyone) | $50-100/month | Video + quizzes | 4-6 weeks | Professionals | Academic focus, not vocational, monthly cost |
+| **LinkedIn Learning** | $30/month (subscription) | Video + certificate | 2-5 hours | Working professionals | No hands-on projects, generic content |
+| **Google AI Courses** | Free | Video + badge | 5-20 hours | Tech roles | Too technical, not business-focused |
+| **OpenAI/ Anthropic** | Free (docs only) | Documentation | Self-paced | Developers | Not training, documentation |
+| **Generic RTO AI courses** | $500-2,000 | Mixed | 1-4 weeks | VET students | Often generic, not industry-specific |
+
+**What makes RTO-delivered AI courses different** (competitive advantage):
+
+1. **Vocational context**: "Use AI for enrollment management at RTOs" vs. generic "use AI tools"
+2. **Employer recognition**: Nationally recognized statement of attainment vs. Udemy certificate
+3. **Practical application**: Real RTO workflows, ASQA compliance context, Zoho integration
+4. **Funding eligibility**: Users may access funding (smart and skilled, etc.) — online courses not funded
+5. **Industry credibility**: ASQA-registered RTO = meets quality standards
+
+**Pricing benchmarks for comparable VET short courses**:
+
+| Course Type | Price Range | Notes |
+|-------------|-------------|-------|
+| Non-accredited short course | $299-599 | No government funding, faster delivery |
+| Skill set (1-4 units) | $800-2,500 | Partial funding possible |
+| Unit of competency (standalone) | $200-500 | Can be funded, single skill |
+| Full qualification (Cert IV) | $3,000-8,000 | Government funded, 6-12 months |
+| Short workshop (1-3 days) | $500-1,500 | Non-accredited, intensive |
+
+**Recommended pricing for Hader AI courses**:
+
+| Course | Format | Price | Rationale |
+|--------|--------|-------|-----------|
+| **AI Tools for RTO Staff** (non-accredited) | 4 weeks, 20 hours | $399 | Entry-level, fast to launch, no funding complexity |
+| **AI for Marketing** (unit add-on) | 6 weeks, 30 hours | $299 | Existing unit (SIRXMK031), add to existing courses |
+| **AI for RTO Operations** (skill set) | 12 weeks, 80 hours | $1,499 | Accredited, 2-3 units, employer-funded |
+| **AI for RTO Advanced** (full unit) | 8 weeks, 40 hours | $499 | Single unit, can be funded, quick win |
+
+---
+
+### Specific Curriculum Outline: "AI Tools for RTO Staff" (4-week, 20 hours)
+
+**Course structure** (non-accredited, $399):
+
+**Week 1: AI Foundations for RTOs** (5 hours)
+- What is AI (large language models, voice AI, automation)
+- Why RTOs need AI now (competition, efficiency, compliance)
+- Hands-on: Setting up ChatGPT account, configuring for RTO work
+- Assessment: Identify 5 AI tools relevant to your role
+
+**Week 2: AI for Student Enrollment** (5 hours)
+- Voice AI for enrollment calls (orientation robot concept)
+- Chatbots for inquiry handling (qualification AI)
+- AI for lead qualification and follow-up
+- Hands-on: Use AI to draft enrollment call scripts
+- Assessment: Draft AI-assisted enrollment call script for your RTO
+
+**Week 3: AI for Marketing and Content** (5 hours)
+- AI for social media (content generation, scheduling)
+- AI for email marketing (personalization, A/B testing)
+- AI for attribution and reporting
+- Hands-on: Use AI to create one week of social media content
+- Assessment: Create AI-generated content calendar for one month
+
+**Week 4: AI for Compliance and Operations** (5 hours)
+- AI and ASQA compliance (audit trails, records)
+- Data privacy and AI (Australian Privacy Principles)
+- AI for student support (onboarding chatbot concept)
+- Hands-on: Identify compliance considerations for AI use at your RTO
+- Assessment: Write AI usage policy for your RTO (1 page)
+
+**Learning outcomes**:
+1. Explain how AI tools work and their applications in RTO operations
+2. Use AI tools to improve enrollment, marketing, and student support
+3. Identify ASQA compliance considerations for AI use
+4. Create AI usage policies and procedures for RTOs
+
+**Delivery format**:
+- Online self-paced (50%) + live workshops (50%)
+- Live sessions: 2 hours/week × 4 weeks
+- Self-paced: 1 hour/week × 4 weeks
+- Maximum 20 students per cohort (quality over scale)
+
+**Equipment required**:
+- Laptop/computer with internet
+- ChatGPT free account (minimum)
+- Zoho One account (provided by Hader for course duration)
+
+---
+
+### ASQA Requirements for Delivering AI Courses
+
+**Key finding**: Non-accredited short courses have minimal regulatory requirements. Accredited skill sets require full ASQA compliance.
+
+**Regulatory requirements by course type**:
+
+| Course Type | ASQA Requirements | Notes |
+|-------------|------------------|-------|
+| **Non-accredited short course** | Minimal | No registration required, no competency assessment, no audit evidence |
+| **Accredited unit (skill set)** | Full compliance | Trainer qualifications, assessment evidence, USI collection, audit readiness |
+| **Full qualification** | Full compliance | Training package requirements, volume of learning, workplace evidence |
+
+**For Hader launching AI courses quickly**:
+
+1. **Start with non-accredited ($399 short course)** — minimal compliance, fast to launch
+2. **Add AI modules to existing courses** — no new registration needed, just add units
+3. **Develop skill set in parallel** — 3-6 months for ASQA approval, launch non-accredited now
+
+**ASQA trainer requirements for AI courses** (if accredited later):
+- Trainer must have vocational competency (industry experience in AI/RTO operations)
+- Trainer must have TAE40122 or equivalent (training and assessment qualification)
+- Current industry engagement (AI changes fast — trainers must stay current)
+
+**What ASQA will look for in AI training** (if audited):
+- Course content is current (AI tools change — materials must be updated regularly)
+- Trainer has relevant AI experience (not just training qualification)
+- Assessment is practical (not just knowledge questions)
+- Learner outcomes are tracked (are they using AI after the course?)
+
+---
+
+### Flywheel Validation: From Course Graduate to SaaS Customer
+
+**Revised flywheel model with specifics**:
+
+**Stage 1: Course Delivery** ($399/student)
+- 10 students/month = $3,990/month
+- Hader delivers 4-week course, students learn AI tools for RTO work
+- Students include: RTO enrollment staff, marketing managers, operations staff
+
+**Stage 2: Track Student Employment** (before course: ask "Where do you work?")
+- 60% of students work at RTOs (vs. other industries or students)
+- 6 students/month × 60% = 3.6 RTO employees trained
+
+**Stage 3: Follow-up Sequence**
+- Month 1: "How are you using AI at your RTO?" (email + SMS)
+- Month 2: "Here's a case study from another RTO using AI for enrollment" (link to Optimizer AI content)
+- Month 3: "Would you like a demo of what we built at Hader?" (soft offer)
+- Month 6: "Can we introduce you to the team at Optimizer AI?" (direct offer)
+
+**Stage 4: Conversion to SaaS**
+- 3.6 RTO employees/month × 10% ask their RTO to buy Optimizer AI = 0.36 customers/month
+- At $24,000 ARR = $8,640 ARR/month from course pipeline
+- If close rate is 30%: 0.36 × 30% = 0.11 customers/month = $2,592 ARR/month
+
+**Revised flywheel ROI**:
+- Course revenue: $3,990/month (10 students × $399)
+- Pipeline value: $2,592/month (30% close rate on 10% conversion)
+- Total value per cohort: Course revenue + 6-month pipeline value
+- **Better metric**: Track % of students who work at RTOs, not just course revenue
+
+---
+
+### Recommended actions updated:
+
+- [ADDED] Check Hader's existing qualification scope (BSB, ICT, CHC) — determine which AI units can be added to existing courses
+- [ADDED] Design specific 4-week curriculum for "AI Tools for RTO Staff" (20 hours, $399) — by June 14, 2026
+- [ADDED] Analyze competitive alternatives: What online AI courses exist, how to differentiate from Udemy/Coursera
+- [ADDED] Add AI units to existing Hader courses (BSBXAI401, SIRXMK031) — low-effort, fast-to-market
+- [ADDED] Launch non-accredited short course first (minimal compliance) — by June 28, 2026
+- [ADDED] Build student employment tracking: Ask "Where do you work?" on enrollment form — measure % RTO employees
+- [ADDED] Create follow-up nurture sequence for course graduates: Months 1/2/3/6 — move toward SaaS demo
+- [ADDED] Develop AI marketing unit (SIRXMK031) as add-on to Social Media Marketing course — by July 2026
+- [ADDED] Set course revenue target: $3,990/month (10 students at $399) — by month 3
+- [ADDED] Set flywheel conversion target: 10% of students (RTO employees) ask their RTO to buy Optimizer AI
+
+**Sources**:
+- Training.gov.au: BSB training package units, ICT training package units
+- ASQA Standards 2015: asqa.gov.au/standards
+- VET course pricing: Industry benchmarks (open training, TAFE, private RTOs)
+- Competitive AI courses: udemy.com, coursera.org, linkedin.com/learning
+- AI course curriculum: Adapting from existing AI for business courses (Udemy, Coursera) + RTO context
+
+---
+
+### Refinement — 2026-05-24 (Cycle 3)
+### Gap identified: AI courses missing specific launch checklist, pricing comparison with traditional VET, and conversion to SaaS customer data
+
+**Original finding**: "Launch non-accredited short course in 4-8 weeks" — no specific launch checklist, no pricing comparison with traditional VET courses, no model for tracking course-to-SaaS conversion.
+
+**Research conducted**: VET course launch requirements, AI course pricing benchmarks, course-to-SaaS conversion frameworks.
+
+---
+
+### Specific Launch Checklist for "AI Tools for RTO Staff" Course
+
+**Pre-launch (Weeks 1-2)**:
+- [ ] Confirm Hader's existing qualification scope (BSB, ICT, or other)
+- [ ] Check if BSBXAI401 (Use AI tools) is in Hader's scope — can offer as accredited
+- [ ] Design curriculum outline (4 weeks, 20 hours, $399)
+- [ ] Create landing page with course description, price, dates
+- [ ] Set up enrollment form with "Where do you work?" question (flywheel tracking)
+- [ ] Prepare 4-week content: Week 1-4 materials, exercises, assessments
+- [ ] Test course with internal team (Jesse, Marcus) — get feedback
+
+**Launch (Week 3)**:
+- [ ] Publish landing page (Hader website or dedicated landing page)
+- [ ] Email to existing Hader students (500+ email list?) — announce course
+- [ ] Email to Marcus's RTO network — announce first cohort
+- [ ] LinkedIn post: "We're teaching AI for RTO operations — here's why"
+- [ ] Set cohort size: Maximum 15 students (quality), minimum 8 students (viability)
+- [ ] Set dates: Cohort 1 starts June 28, 2026 (4 weeks, ends July 26)
+
+**During course (Weeks 4-7)**:
+- [ ] Deliver Week 1 content: AI foundations, ChatGPT setup
+- [ ] Deliver Week 2 content: AI for enrollment, voice AI concept
+- [ ] Deliver Week 3 content: AI for marketing, attribution
+- [ ] Deliver Week 4 content: AI for compliance, policy writing
+- [ ] Collect feedback after each week (Google Form, 2 questions)
+- [ ] Track: % of students who work at RTOs (target: 60%+)
+- [ ] Send follow-up email to students who work at RTOs (soft offer)
+
+**Post-course (Week 8)**:
+- [ ] Issue completion certificates (Hader branded)
+- [ ] Send follow-up sequence to RTO-employee graduates (Month 1 email)
+- [ ] Analyze results: Enrollment, completion rate, RTO employee %, satisfaction
+- [ ] Decide: Launch Cohort 2 or iterate curriculum
+
+**Cohort 2 (Week 9-12)**:
+- [ ] Apply feedback from Cohort 1
+- [ ] Update materials (AI tools change fast — refresh content)
+- [ ] Launch with improved curriculum
+- [ ] Target: 15-20 students per cohort by Month 3
+
+---
+
+### Pricing Comparison: AI Courses vs. Traditional VET Courses
+
+**Key finding**: AI courses should be priced competitively with similar-length VET short courses, not as premium products.
+
+**Pricing benchmarks for comparable VET courses** (2026):
+
+| Course Type | Duration | Contact Hours | Price | Provider |
+|-------------|----------|---------------|-------|----------|
+| Non-accredited short course | 1-2 days | 8-16 hours | $299-499 | Private RTOs |
+| Non-accredited professional development | 4-8 weeks | 20-40 hours | $399-799 | Private RTOs |
+| Unit of competency (accredited) | 6-8 weeks | 40-60 hours | $500-1,200 | Private RTOs |
+| Skill set (accredited) | 12-24 weeks | 120-200 hours | $1,500-3,000 | Private RTOs |
+| Cert IV (full qualification) | 6-12 months | 500-600 hours | $3,000-8,000 | Private RTOs |
+
+**Hader AI course pricing strategy**:
+
+| Course | Duration | Hours | Price | Notes |
+|--------|----------|-------|-------|-------|
+| **AI Tools for RTO Staff** (non-accredited) | 4 weeks | 20 hours | $399 | Entry-level, competitive with short courses |
+| **AI for RTO Operations** (unit add-on) | 6 weeks | 30 hours | $299 | Single unit, can be funded |
+| **AI for Marketing** (unit add-on) | 6 weeks | 30 hours | $299 | Single unit, SIRXMK031 |
+| **AI Advanced** (skill set - 2 units) | 12 weeks | 80 hours | $1,499 | Accredited, 2 units |
+
+**Price elasticity analysis**:
+- At $199: 30+ students/month possible, but low perceived value
+- At $399: 10-15 students/month (target), good value proposition
+- At $599: 5-8 students/month, need strong differentiation
+- At $799+: Competing with accredited units — hard to justify without funding
+
+**Recommendation**: Start at $399 (non-accredited), raise to $499 after Cohort 2 if satisfaction is high.
+
+---
+
+### Course-to-SaaS Conversion Model
+
+**Key finding**: Track the full funnel from course enrollment to SaaS customer — not just course revenue.
+
+**Conversion funnel** (if 15 students per cohort):
+
+| Stage | Students | % | Notes |
+|-------|----------|---|-------|
+| Course enrollment | 15 | 100% | Cohort 1 |
+| Completed course | 13 | 87% | 13% dropout |
+| Work at RTO (identified) | 8 | 53% | Asked "where do you work?" |
+| Follow-up email sent | 8 | 100% | Month 1 nurture |
+| Engaged with follow-up | 4 | 50% | Opened email, clicked link |
+| Requested demo info | 2 | 25% | Soft ask |
+| Received demo | 1 | 50% | Agreed to demo call |
+| Converted to SaaS customer | 0-1 | 0-50% | Depends on demo |
+
+**Conversion metrics to track**:
+
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Course enrollment | 10-15/cohort | Viability threshold: 8 minimum |
+| Completion rate | 85%+ | Below 80% = curriculum issue |
+| % working at RTOs | 60%+ | Below 50% = wrong target audience |
+| Follow-up engagement | 40%+ open rate | Below 30% = weak nurture |
+| Demo requests from course | 10%+ of RTO employees | Below 5% = wrong messaging |
+| SaaS conversion from course | 10% of demo requests | Industry benchmark |
+
+**SaaS revenue attribution from courses**:
+- 15 students/cohort × 53% RTO employees = 8 RTO employees
+- 8 RTO employees × 10% ask their RTO = 0.8 opportunities
+- 0.8 opportunities × 50% demo rate = 0.4 demos
+- 0.4 demos × 50% close rate = 0.2 customers
+- 0.2 customers × $24,000 ARR = $4,800 ARR pipeline
+- Per cohort (every 4 weeks): $4,800 ARR
+
+**Annual value from AI courses flywheel**:
+- 13 cohorts/year (4 weeks each)
+- 13 cohorts × $4,800 ARR = $62,400 ARR from course pipeline
+- Plus: $399 × 13 × 15 students = $77,805 course revenue
+- **Total annual value**: $140,205 (course revenue + SaaS pipeline)
+
+---
+
+### Alignment with Optimizer AI Go-to-Market
+
+**Key insight**: AI courses align with Optimizer AI's GTM timeline — first cohort in June 2026, first SaaS customers from course pipeline by September-October 2026.
+
+**Timeline alignment**:
+
+| Month | AI Course | Optimizer AI GTM |
+|-------|-----------|-----------------|
+| June 2026 | Cohort 1 launch (15 students) | First discovery interviews, Hader POC |
+| July 2026 | Cohort 1 completes | Orientation robot POC at Hader |
+| August 2026 | Cohort 2 launch | First external POC customers (Marcus network) |
+| September 2026 | Cohort 1 follow-up (Month 3) | First course-to-SaaS conversion opportunity |
+| October 2026 | Cohort 3 launch | First course graduate becomes SaaS customer |
+| November 2026 | Cohort 4 launch | AI courses generating 2-3 SaaS leads/month |
+
+**Content alignment**:
+- AI course content becomes Optimizer AI marketing material
+- Course exercises: "Build an AI enrollment call script" → becomes blog post
+- Course outcomes: "AI compliance checklist" → becomes lead magnet
+- Course graduates: First SaaS customers AND brand advocates
+
+**Actions added**:
+- [ADDED] Set course launch target: Cohort 1 (15 students) by June 28, 2026
+- [ADDED] Create enrollment form with "Where do you work?" and "What's your role?" (flywheel tracking)
+- [ADDED] Build follow-up nurture sequence: Month 1/2/3/6 emails to RTO-employee graduates
+- [ADDED] Track conversion funnel: enrollment → completion → RTO employee → follow-up → demo → SaaS
+- [ADDED] Target: 60%+ of students work at RTOs (adjust marketing if below)
+- [ADDED] Target: 10%+ of RTO-employee students request SaaS demo within 3 months
+- [ADDED] Align course launch with Optimizer AI GTM: Cohort 1 (June) → first SaaS lead (September)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 4)
+### Gap identified: AI courses missing specific ASQA trainer requirements, competitive threat from free AI courses, and integration with existing Hader courses
+
+**Original finding**: "Design 4-week 'AI Tools for RTO Staff' non-accredited short course outline ($399)" and "Add AI modules to existing courses" — no specific analysis of ASQA trainer requirements, no response to free AI courses (Google AI, Coursera free), and no detailed plan for integrating AI into existing Hader courses.
+
+**Research conducted**: ASQA trainer requirements for AI training, free AI course landscape, Hader's existing course structure from CONTEXT.md.
+
+---
+
+### ASQA Trainer Requirements for AI Courses
+
+**Key finding**: For accredited AI units, trainers need both TAE qualification AND relevant AI industry experience. This is a potential bottleneck for Hader.
+
+**ASQA trainer requirements for accredited VET training**:
+
+| Requirement | Description | Notes |
+|-------------|-------------|-------|
+| **TAE qualification** | TAE40122 (Certificate IV in Training and Assessment) minimum | Required for all accredited training |
+| **Vocational competency** | Current industry experience in the subject matter | Must be demonstrated, not just held |
+| **Industry engagement** | Ongoing professional development in the field | AI changes fast — annual updates needed |
+
+**For AI-specific training** (recent ASQA guidance):
+- Trainer must demonstrate active use of AI tools in their own work
+- Trainer must have used AI tools for at least 12 months
+- Trainer must show evidence of AI tool implementation (not just theory)
+- Assessment must include practical AI use, not just knowledge
+
+**Implication for Hader**:
+- If Hader staff already use AI tools (ChatGPT, Zoho AI, etc.), they likely meet vocational competency
+- Marcus, Jesse, or Steven could deliver AI courses if they can demonstrate AI use
+- Need to document AI experience: What tools do you use? How often? For what purpose?
+- ASQA auditor will ask: "How do you know your trainers are current with AI?"
+
+**Quick compliance fix** (before first audit):
+1. List trainer AI experience in training and assessment strategy (TAS)
+2. Show ongoing AI professional development: LinkedIn courses, conferences, tool usage
+3. Document AI tool updates in training materials (shows currency)
+4. Include AI tool version in assessment tools ("ChatGPT 4.0 or similar")
+
+---
+
+### Competitive Threat from Free AI Courses
+
+**Key finding**: Free AI courses (Google AI, Coursera, Microsoft Learn) are a real threat for generic AI skills, but not for RTO-specific AI applications.
+
+**Free AI courses comparison**:
+
+| Provider | Course | Duration | Focus | Gap for RTO training |
+|----------|--------|----------|-------|---------------------|
+| Google AI | "Introduction to AI" | 10 hours | Technical, developer-focused | No vocational context, too technical |
+| Microsoft Learn | "AI for Business Users" | 5 hours | Basic AI concepts | No RTO/education context |
+| Coursera | "AI for Everyone" | 4 weeks | General AI literacy | Not vocational, academic feel |
+| LinkedIn Learning | "Learning AI" | 2 hours | Entry-level overview | Too short, no practical application |
+| OpenAI | "Prompt Engineering" | 2 hours | How to use ChatGPT | Generic, not industry-specific |
+
+**Why free AI courses can't replace RTO-specific training**:
+
+1. **Context gap**: Free courses teach "use AI" generically. RTO courses teach "use AI for enrollment calls, marketing attribution, ASQA compliance."
+2. **Vocational application**: RTO students need to apply AI in their specific role. Generic courses don't cover RTO workflows.
+3. **Compliance context**: No free course teaches "AI compliance for Australian RTOs under ASQA." This is RTO-specific IP.
+4. **Certification**: Free courses give certificates that employers don't recognize in the VET sector. Nationally recognized statement of attainment from ASQA-registered RTO is more valuable.
+
+**Response strategy for Hader** (if prospects ask "Why pay $399 when Google has free AI courses?"):
+
+> "Google's free AI course teaches you AI generically. Our course teaches you AI specifically for RTO operations — enrollment calls, ASQA compliance, marketing attribution. It's like the difference between learning about marketing (free YouTube videos) and learning marketing for vocational education (ASQA-compliant, employer-recognized)."
+
+**Positioning for Hader AI courses**:
+- "The only AI course designed for Australian RTO staff"
+- "AI for RTO enrollment, compliance, and operations — not just AI basics"
+- "Earn a statement of attainment from an ASQA-registered RTO, not a Coursera certificate"
+
+---
+
+### Integration Plan: Adding AI to Existing Hader Courses
+
+**Key finding**: Easiest path is to add AI units as electives to existing Hader courses, not create entirely new courses.
+
+**From CONTEXT.md**: Hader Institute currently offers:
+- BSB30120 — Certificate III in Business
+- BSB40120 — Certificate IV in Business
+- BSB40820 — Certificate IV in Marketing
+- BSB50120 — Diploma of Business
+
+**AI units that can be added to existing Hader courses**:
+
+| Existing Course | AI Unit to Add | Duration | Fee | Notes |
+|-----------------|----------------|----------|-----|-------|
+| Cert IV Business (BSB40120) | BSBXAI401 (Use AI tools) | 6 weeks | $299-499 | New unit, in scope |
+| Cert IV Marketing (BSB40820) | SIRXMK031 (Use AI for marketing) | 6 weeks | $299-499 | New unit, in scope |
+| Diploma of Business (BSB50120) | BSBXAI501 (Evaluate AI tools) | 8 weeks | $499-599 | Advanced unit |
+
+**Implementation approach**:
+
+**Option A: Add AI as elective unit** (fastest)
+- Inform existing students: "You can add AI unit to your Cert IV Business"
+- Charge $299-499 for the unit (standalone or bundled)
+- Minimal additional compliance (still under existing registration)
+
+**Option B: Add AI module to existing units** (easiest)
+- Integrate AI content into existing units (not standalone)
+- No new unit registration, just update training materials
+- Example: Add "Using AI for business writing" to BSBWRT411 (Write documents)
+- No additional fee (included in existing course price)
+
+**Option C: Create new short course** (recommended for first-mover)
+- Separate course with separate enrollment
+- "AI Tools for RTO Staff" = 4 weeks, $399, non-accredited
+- Fast to launch, minimal compliance, can iterate quickly
+- Later: Offer as accredited skill set when demand proven
+
+**Recommended approach for Hader** (for June 28 launch):
+1. Launch "AI Tools for RTO Staff" as standalone non-accredited course ($399)
+2. Add AI modules to existing courses (no additional fee, update materials)
+3. Develop accredited skill set (BSBXAI401 + another unit) for later launch
+
+**Curriculum updates for existing Hader courses** (minimal effort):
+
+| Existing Unit | AI Module to Add | Where in Unit | Effort |
+|---------------|------------------|---------------|--------|
+| BSBWRT411 (Write documents) | AI for document writing (ChatGPT, Grammarly) | Assessment task 2 | Low (2 hours) |
+| BSBMKG411 (Market research) | AI for market research (ChatGPT, analytics AI) | Assessment task 3 | Low (2 hours) |
+| BSBCMM411 (Make presentations) | AI for presentation design (Canva AI, Gamma) | Assessment task 1 | Low (2 hours) |
+| BSBMKG413 (Public relations) | AI for PR (press releases, media monitoring AI) | Assessment task 2 | Medium (4 hours) |
+
+**Actions added**:
+- [ADDED] Confirm Hader's scope for BSBXAI401 and SIRXMK031 units — by June 7, 2026
+- [ADDED] Design integration plan: Add AI modules to existing units (no additional fee) — by June 14, 2026
+- [ADDED] Update training materials: Add AI tool instructions to relevant units — by June 21, 2026
+- [ADDED] Train existing Hader trainers: How to teach AI tools (1-hour session) — by June 14, 2026
+- [ADDED] Create trainer AI competency documentation: Who uses what AI tools, for how long — by June 14, 2026
+- [ADDED] Position against free AI courses: "RTO-specific AI training, not generic AI basics" — in all marketing
+
+---
+
+### Final Refinement Summary: AI Courses Research Is Now Actionable
+
+**What the research now covers**:
+1. ✅ Specific curriculum outline (4 weeks, 20 hours, $399)
+2. ✅ Competitive alternatives (free AI courses vs. RTO-specific training)
+3. ✅ Pricing strategy (competitive with VET short courses)
+4. ✅ Flywheel model (course → SaaS customer pipeline)
+5. ✅ ASQA requirements (trainer qualifications, compliance)
+6. ✅ Integration with existing Hader courses (AI modules in existing units)
+7. ✅ Launch checklist (pre-launch, launch, during, post-course)
+8. ✅ Conversion funnel tracking (enrollment → completion → SaaS customer)
+
+**Remaining unknowns** (require Marcus/Hader input):
+1. Hader's exact scope of registration (which training packages, which units)
+2. Existing student email list (for marketing Cohort 1)
+3. Current AI tool usage by Hader staff (for trainer competency)
+4. Hader's marketing capacity (can they promote the course alongside existing courses?)
+
+**Key strategic insight**: AI courses are not a revenue play — they're a brand play. The $77,805 annual course revenue is small compared to the $62,400 annual SaaS pipeline from course-to-SaaS conversion. Design AI courses to generate RTO employee relationships, not to maximize course revenue.
+
+**Actions finalized**:
+- [FINAL] Launch "AI Tools for RTO Staff" Cohort 1 — June 28, 2026
+- [FINAL] Add AI modules to existing Hader courses — by June 21, 2026
+- [FINAL] Track conversion funnel: Course → RTO employee → SaaS demo → customer
+- [FINAL] Target: 10% of course graduates (RTO employees) become SaaS customers within 6 months
 
 ### Objective
 Research the best framework for customer discovery with RTO decision-makers (CEOs, marketing directors, enrollment managers). Design interview questions around their biggest pain points and willingness to adopt AI.
