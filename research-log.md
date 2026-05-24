@@ -7611,3 +7611,317 @@ Research (Cycle 191) provided per-call cost modeling based on 2025 VAPI and Elev
 
 *End of Cycle 220 refinement. Gap filled: Community services research (Cycle 199) was thin on specifics. Added detailed competitive landscape (TAFE weaknesses, 4 large private RTOs), 4 specific AI opportunity areas (student support automation, placement matching, CHC compliance, emotional labor support), first-mover window analysis (2026-2027), phased expansion roadmap (3 phases, Year 2-5), financial model ($450K Year 2 → $1.8M Year 5), decision framework for CHC qualification choice, 11 recommended actions for Steven.*
 
+
+## Refinement — 2026-05-24 (Cycle 222): Sales Pipeline and Conversion Metrics — Missing Framework for Tracking Leads Through Funnel
+
+### Gap identified
+Research covers CAC by channel (Cycle 196), demo flow (Cycle 195), and sales scripts (Cycle 217) but lacks a comprehensive **sales pipeline framework** — how to track leads through defined stages, what conversion rate targets to expect at each stage, what actions to take when pipeline stalls, and when to hire additional sales capacity. Without this, Steven can't manage pipeline health, forecast revenue, or know when to scale the sales function.
+
+**Original finding**: "Demo-to-close rate: 25-30%" mentioned in Cycle 207 (KPI framework) and "LinkedIn outreach → discovery call → demo → close" in Cycle 193 (GTM channels). No detailed pipeline stage definitions, conversion benchmarks, or sales capacity planning.
+
+**Why this matters**: The difference between a sales team that grows predictably and one that guesses is pipeline management. Without defined stages:
+1. Can't forecast revenue (don't know when deals will close)
+2. Can't identify bottlenecks (don't know where leads drop off)
+3. Can't manage sales capacity (don't know when to hire)
+4. Can't coach for improvement (don't know which stage is weak)
+
+### Optimizer AI Sales Pipeline Stages
+
+**Stage 1: Prospect (Inbound/Outbound Lead)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | RTO identified as potential customer |
+| Entry | LinkedIn connection accepted, form submission, referral, event contact |
+| Exit criteria | First meaningful contact (reply to outreach, visit to website) |
+| Velocity target | Within 7 days of identification |
+
+**Stage 2: Contacted (Initial Outreach)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | First outreach sent (LinkedIn, email, phone) |
+| Entry | First message sent |
+| Exit criteria | Response received OR 3 outreach attempts completed |
+| Velocity target | 50% response rate within 5 days |
+
+**Stage 3: Qualified (Discovery Fit)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Fit confirmed: RTO size, Zoho use, decision-maker access, problem confirmed |
+| Entry | Discovery call scheduled or response indicating interest |
+| Exit criteria | Qualified (schedule demo) OR Disqualified (no fit) |
+| Velocity target | Within 14 days of first response |
+
+**Stage 4: Demo Scheduled (Opportunity)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Demo confirmed on calendar |
+| Entry | Calendar invite confirmed |
+| Exit criteria | Demo completed OR No-show after 2 reschedules |
+| Velocity target | Within 14 days of qualification |
+
+**Stage 5: Demo Completed (Evaluating)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Live demo given, objection handled, value demonstrated |
+| Entry | Demo conducted (any outcome) |
+| Exit criteria | Proposal sent OR Demo declined OR Stalled (>14 days no response) |
+| Velocity target | Proposal within 7 days of demo |
+
+**Stage 6: Proposal Sent (Negotiating)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Formal proposal delivered with pricing and terms |
+| Entry | Proposal sent via email |
+| Exit criteria | Contract signed OR Lost to competitor OR Lost to no decision |
+| Velocity target | Decision within 21 days of proposal |
+
+**Stage 7: Closed Won (Customer)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Contract signed, onboarding begins |
+| Entry | Signed contract received |
+| Exit criteria | None (customer) |
+| Velocity target | — |
+
+**Stage 8: Closed Lost (Archived)**
+| Attribute | Detail |
+|-----------|--------|
+| Definition | Deal did not convert |
+| Entry | Declined, lost to competitor, no decision |
+| Exit criteria | None (archived) |
+| Analysis | Required: Reason for loss, loss category |
+
+### Pipeline Conversion Rate Targets
+
+**Benchmark conversion rates by stage**:
+
+| From Stage | To Stage | Target Rate | Warning | Critical |
+|------------|----------|-------------|---------|----------|
+| Prospect → Contacted | — | 80% | 60% | <40% |
+| Contacted → Qualified | — | 40% | 25% | <15% |
+| Qualified → Demo | — | 60% | 40% | <25% |
+| Demo → Proposal | — | 50% | 35% | <20% |
+| Proposal → Closed Won | — | 40% | 25% | <15% |
+| **Overall conversion** | Prospect → Customer | **3.8%** | 2.4% | 1.4% |
+
+**End-to-end funnel calculation**:
+- 100 prospects → 80 contacted → 32 qualified → 19 demos → 10 proposals → 4 customers
+- **4% overall conversion** (target)
+
+**Implication for pipeline volume**:
+| Customer Target | Prospects Needed | Contacted | Qualified | Demos | Proposals |
+|-----------------|-------------------|-----------|-----------|-------|-----------|
+| 1 customer/month | 25 | 20 | 8 | 5 | 2.5 |
+| 2 customers/month | 50 | 40 | 16 | 10 | 5 |
+| 4 customers/month | 100 | 80 | 32 | 19 | 10 |
+
+**For 50 customers in Year 1** (averaging 4/month in months 7-12):
+- Months 1-6: 1-2/month (18 customers)
+- Months 7-12: 4/month (32 customers)
+- Peak pipeline need: 100 active prospects
+
+### Pipeline Velocity Metrics
+
+**Time in stage targets** (median days):
+
+| Stage | Target Days | Warning | Critical |
+|-------|-------------|---------|----------|
+| Prospect → Contacted | 3 days | 5 days | 7+ days |
+| Contacted → Qualified | 7 days | 10 days | 14+ days |
+| Qualified → Demo | 10 days | 14 days | 21+ days |
+| Demo → Proposal | 5 days | 7 days | 10+ days |
+| Proposal → Close | 14 days | 21 days | 30+ days |
+| **Total cycle** | **39 days** | **57 days** | **82+ days** |
+
+**Sales cycle = ~5-6 weeks** for Starter/Growth (fast decision)
+**Sales cycle = 8-12 weeks** for Scale (committee decision)
+
+### Pipeline Health Metrics Dashboard
+
+**Weekly pipeline review metrics** (what to track each Monday):
+
+| Metric | Definition | Target | Action if Off |
+|--------|------------|--------|---------------|
+| **Pipeline coverage** | Pipeline value / Quota | >3x quota | Increase prospecting |
+| **Stage distribution** | % of deals in each stage | No stage >40% | Push stalled deals |
+| **Average stage days** | Days in current stage per deal | Per targets above | Nudge stale deals |
+| **Win rate** | Closes / Proposals | >40% | Improve demo/proposal |
+| **Average deal size** | $ value per closed deal | >$999/mo | Upsell Starter → Growth |
+| **New prospects** | Added this week | 5-10/week | Increase outreach |
+| **Demo rate** | Qualified → Demo | >60% | Improve qualification |
+| **No-show rate** | Demo scheduled → No-show | <15% | Reminder optimization |
+
+**Pipeline stage distribution check** (early warning):
+| Symptom | Likely Problem | Fix |
+|---------|---------------|-----|
+| 50%+ deals in Stage 4+ | Prospecting gap (not filling top) | More outreach, events |
+| 50%+ deals in Stage 5 | Demo-to-proposal gap | Improve demo scripts |
+| 50%+ deals in Stage 6 | Proposal-to-close gap | Pricing objection handling |
+| No deals in Stage 3-4 | Cold pipeline | Immediate outreach push |
+
+### Revenue Forecasting from Pipeline
+
+**How to forecast**:
+
+```
+Expected Revenue (Month N) =
+  Σ(Deal Value × Close Probability)
+  
+Where Close Probability by stage:
+  Stage 4 (Demo): 15%
+  Stage 5 (Proposal): 60%
+  Stage 6 (Negotiating): 80%
+  Stage 7 (Closed Won): 100%
+```
+
+**Example pipeline**:
+| Deal | Stage | Value | Probability | Expected Value |
+|------|-------|-------|-------------|----------------|
+| RTO A | Demo | $999/mo | 15% | $150 |
+| RTO B | Proposal | $499/mo | 60% | $299 |
+| RTO C | Negotiating | $1,999/mo | 80% | $1,599 |
+| RTO D | Closed Won | $999/mo | 100% | $999 |
+| **Total** | | **$4,496** | | **$3,047** |
+
+**Forecast confidence levels**:
+- Stage 6-7 deals: High confidence (will close)
+- Stage 5 deals: Medium confidence (50-60%)
+- Stage 4 deals: Low confidence (10-20%)
+- Stage 1-3 deals: Forecast only, not committed
+
+### Sales Capacity Planning
+
+**Steven's capacity** (current):
+| Activity | Time/Week | Frequency | Total |
+|----------|-----------|-----------|-------|
+| Prospecting/outreach | 10 hrs | Ongoing | 10 hrs |
+| Discovery calls | 1 hr/call | 5-7 calls | 7 hrs |
+| Demos | 1.5 hrs/demo | 3-4 demos | 6 hrs |
+| Follow-up/admin | 2 hrs/day | 5 days | 10 hrs |
+| Pipeline management | 3 hrs | Weekly | 3 hrs |
+| **Total** | | | **36 hrs/week** |
+
+**Capacity at 100%**: Steven handles ~5-7 discovery calls + 3-4 demos/week = ~4-6 new opportunities/week
+
+**When to hire sales person** (trigger points):
+| Metric | Trigger | Action |
+|--------|---------|--------|
+| Pipeline coverage | <2x monthly quota | Hire within 60 days |
+| Discovery calls | >7/week (Steven maxed) | Hire within 90 days |
+| Demo-to-close rate | >40% (overflow) | Hire within 60 days |
+| Quota achievement | <80% for 2+ months | Add capacity |
+| Geographic expansion | New regions | Hire or partner |
+
+**Sales hire profile** (first additional sales person):
+| Attribute | Specification |
+|-----------|---------------|
+| Role | Account Executive (AE) |
+| Base salary | $70-90K |
+| Commission | $500-1,000/closed deal |
+| Quota | 2 customers/month ($24K ACV) |
+| Experience | 2-3 years B2B SaaS |
+| Location | Australia (remote OK) |
+| Start timing | When pipeline consistently >50 prospects |
+
+**Sales hire #2** (Year 2):
+| Attribute | Specification |
+|-----------|---------------|
+| Role | Sales Development Rep (SDR) |
+| Base salary | $55-65K |
+| Commission | $100/qualified opportunity |
+| Quota | 20 qualified opportunities/month |
+| Supports | Steven + AE |
+
+### CRM Pipeline Tracking Setup (Zoho)
+
+**Pipeline view in Zoho**:
+```
+Deal: [RTO Name] - [Tier] - $[Value]/mo
+Stage: [Drop-down: Prospect → Contacted → Qualified → Demo → Proposal → Closed Won/Lost]
+Owner: Steven / [Future AE]
+Expected close: [Date]
+Last activity: [Date + notes]
+Next action: [Task]
+Loss reason: [If lost]
+```
+
+**Required fields for pipeline**:
+- Company name
+- Contact name + email + phone
+- RTO size (students/month)
+- Tier fit (Starter/Growth/Scale)
+- Decision-maker (CEO/Enroll Mgr/Marketing Dir)
+- Source (Referral/LinkedIn/Event/Inbound)
+- Stage (as above)
+- Expected close date
+- Last activity date
+- Next follow-up task
+- Lost reason (if applicable)
+
+**Automation to add**:
+- Task creation when stage changes
+- Email reminder when no activity for 5 days
+- Alert when deal exceeds stage velocity target
+- Weekly pipeline report to Steven + Marcus
+
+### Deal Review Framework (Weekly)
+
+**Every Monday: Pipeline review (30 min)**
+
+| Review Item | Question | Action |
+|-------------|----------|--------|
+| New this week | New prospects added? | Acknowledge, set follow-up |
+| Stage movement | Any deals advanced? | Note success factors |
+| Stale deals | Any >14 days no activity? | Urgent follow-up or archive |
+| Stuck deals | Any >21 days in same stage? | Intervention needed |
+| Closing this month | Deals expected to close? | Ensure all actions done |
+| Lost deals | Any closed lost? | Analyze, update playbook |
+
+**Weekly deal intervention** (for stale deals):
+
+| Situation | Action | Script |
+|-----------|--------|--------|
+| Stage 3 stuck | "Still interested in demo?" | Call directly, address concerns |
+| Stage 4 stuck | "Ready to schedule demo?" | Calendar link, reduce friction |
+| Stage 5 stuck | "Any questions on proposal?" | Address objections, add value |
+| Stage 6 stuck | "Where are you in decision?" | Executive escalation if needed |
+| Any stalled | "Is timing still right?" | Qualify out if no longer fit |
+
+### Sales Process Failure Modes and Fixes
+
+| Failure Mode | Symptom | Fix |
+|--------------|---------|-----|
+| Not enough prospects | Pipeline <50 prospects | Double outreach, events, referrals |
+| Low qualification rate | <30% contacted → qualified | Better targeting, tighter ICP |
+| Demo resistance | Qualified → Demo <50% | Improve value prop, reduce friction |
+| Demo no-shows | >20% no-show rate | Aggressive reminders, Calendly |
+| Proposal objections | Lost at proposal stage >50% | ROI calc, reference calls |
+| Price objections | Lost to budget >50% | ROI proof, payment options |
+| Slow decisions | 6+ weeks to close | Urgency, milestones, deadlines |
+| Competitor loss | Lost to same competitor >2x | Win/loss analysis, differentiation |
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Zoho pipeline view with 8 stages (Prospect → Closed Won/Lost) — Week 1
+- [ADDED] Enter all current prospects into Zoho with stage and expected close — Week 1
+- [ADDED] Define conversion rate targets by stage (this research) — Week 1
+- [ADDED] Set velocity alerts in Zoho (days in stage > target) — Week 2
+- [ADDED] Run weekly pipeline review every Monday (30 min, this agenda) — From Week 1
+- [ADDED] Track source of each prospect (LinkedIn, referral, event) — Ongoing
+- [ADDED] Calculate pipeline coverage weekly (should be >3x monthly target) — Weekly
+- [ADDED] Forecast revenue using expected value method (deal × probability) — Weekly
+- [ADDED] Set sales hire trigger points (pipeline coverage <2x = hire) — Month 1
+- [ADDED] Document first sales hire profile (AE at $70-90K base, 2-3 years B2B SaaS) — Month 6
+
+### Sources
+
+- SaaS pipeline benchmarks: SaaStr Pipeline Planning Report (2024)
+- Sales cycle benchmarks: Average 4-8 weeks for SMB: Gartner B2B Sales Cycle (2025)
+- Pipeline coverage ratio: 3x quota is industry standard: Sales Hacker Pipeline Metrics (2025)
+- Stage conversion rates: 3-5% overall is typical for mid-market B2B: TOPO Sales Development (2024)
+- Sales capacity planning: Cover Your Sales Quota: Capacity Planning Framework (2025)
+- Zoho pipeline setup: Zoho CRM pipeline management guide (2025)
+
+---
+
+*End of Cycle 222 refinement. Gap filled: No comprehensive sales pipeline framework existed. Added 8-stage pipeline definition (Prospect → Closed Won/Lost), conversion rate targets by stage (4% overall), pipeline velocity metrics (39-day target cycle), weekly dashboard metrics (8 KPIs), revenue forecasting method (expected value), sales capacity planning (Steven's 36 hrs/week), hiring triggers (pipeline coverage <2x), Zoho CRM setup requirements, weekly deal review framework, failure modes and fixes. 10 recommended actions for Steven.*
