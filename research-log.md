@@ -1,3 +1,8 @@
+# Optimizer AI — Research Log
+
+**Project:** 100-Day Go-To-Market Research
+**Updated:** 2026-05-24
+
 ---
 
 ## Refinement — 2026-05-24 (Cycle 29)
@@ -247,3 +252,245 @@ Kham's role in week 1-8: Build a system where "good enough" AI is better than no
 - GPT-4o pricing: openai.com/api/pricing
 - Zoho API: zoho.com/creator/help/rest-api
 - APP compliance: oaic.gov.au (Australian Privacy Principles)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 30)
+### Gap identified: Orientation call script missing Hader-specific content and ASQA compliance disclosure structure
+
+**Original finding**: "Design orientation call script (20 questions, ASQA compliance checklist) — by June 14, 2026" — no specific script content, no ASQA disclosure mapping, no escalation triggers defined.
+
+**Why this matters**: The orientation call robot cannot be built without a working script. The script is the product spec — it defines what the AI says, how it qualifies leads, where it discloses required information, and when it escalates. Without a draft script, Kham can't build, can't test, and can't iterate.
+
+**What the research currently states**: No script draft exists. The research log has technical architecture, but no actual call flow.
+
+### ASQA Mandatory Disclosures for AI Enrollment Calls
+
+All of these must be embedded in the script at the relevant point of the conversation, not buried in a footer:
+
+| Disclosure | When to trigger | Script placement |
+|------------|-----------------|------------------|
+| Call recording notice | Start of call | Greeting phase (Q1-2) |
+| AI disclosure (this is an AI, human available) | Start of call | Greeting phase (Q1-2) |
+| USI requirement | Early (cannot enroll without it) | Eligibility phase (Q6) |
+| Fee and payment terms | Before enrollment | Fees phase (Q12-14) |
+| Refund policy | When discussing payment | Fees phase (Q12-14) |
+| Cooling off period | For funded courses | Fees phase (Q12-14) |
+| Language and learning support | Universal disclosure | Support phase (Q15) |
+| Complaints and appeals rights | Universal disclosure | Support phase (Q15) |
+| Privacy notice (APP) | Universal disclosure | Support phase (Q15-16) |
+| Human transfer option | Universal (offer at any time) | Throughout, especially end |
+
+**Key regulatory insight**: ASQA expects disclosures to be at the point of relevance. "We record all calls" at the start is fine. But "you have the right to complain" must come when discussing enrollment, not at the end after the caller has already committed.
+
+### Draft Orientation Call Script (20 Questions, ~7 Minutes)
+
+**Phase 1: Opening (0:00-0:45)**
+
+Q1: "Hi, thanks for calling [RTO Name]. I'm an AI assistant helping with course inquiries today. What's your first name?"
+- Captures caller name
+- Implicit confirmation of company
+
+Q2: "Great [Name]. Before we start — this call may be recorded for training and quality purposes. Is that okay?"
+- Call recording consent (ASQA requirement)
+- Must get positive response to continue
+
+Q3: "Also, just so you know — you're talking to an AI today. I'm happy to transfer you to a human at any point if you'd prefer. Is that okay for now?"
+- AI disclosure (consumer law requirement)
+- Human transfer offered upfront
+- Critical: must be before collecting any personal information
+
+**Phase 2: Course Interest Qualification (0:45-2:30)**
+
+Q4: "Which course are you interested in? We currently offer [read course list]. Which one catches your eye?"
+- Must have Hader course list ready
+- AI should be able to handle any course in the list
+
+Q5: "What drew you to this course? Looking to upskill in your current role, change careers, or something else?"
+- Qualification question: intent to enroll vs. just browsing
+- Identifies career motivation (higher intent)
+
+Q6: "Are you currently working, or are you between jobs?"
+- Supplementary qualification (employment = stability)
+- Cross-sell opportunity for employer-funded courses
+
+**Phase 3: USI Eligibility Check (2:30-3:30)**
+
+Q7: "Do you have a Unique Student Identifier, or USI? It's a 10-character number like ABCD1234567. You can get one free at usi.gov.au."
+- USI disclosure and requirement (non-negotiable for enrollment)
+- AI should offer to help caller get USI if they don't have one
+- This is a hard blocker — cannot enroll without USI or exemption
+
+Q8: "Do you have an exemption from needing a USI? For example, if you're an overseas student or a foreign diplomatic individual?"
+- USI exemption check
+- Only applies to very specific visa types — most callers will say no
+
+Q9: "What's your current employment status? Full-time, part-time, or not currently working?"
+- Funding eligibility indicator
+- Could trigger concession pricing or employer-funded pathway
+
+Q10: "How are you planning to fund this course? Self-funded, employer reimbursement, or government funding?"
+- Funding pathway qualification
+- Self-funded: standard enrollment process
+- Employer: corporate enrollment workflow
+- Government: may require evidence of eligibility (concession card, funding body approval)
+
+**Phase 4: Course Information Delivery (3:30-5:00)**
+
+Q11: "Great. [Course Name] is [duration], delivered [online / in-person / blended]. We have upcoming intake on [date] and [date]. Which works better for you?"
+- Course specifics (must fill in: course name, duration, delivery mode, start dates)
+- Commitment question (picks a date = higher intent)
+
+Q12: "The course has [X] units, with assessments including [quiz type, project type, practical]. Does that fit with what you're looking for?"
+- Assessment disclosure (ASQA requirement: students must know how they'll be assessed)
+- Qualification check: can they handle the assessment load?
+
+Q13: "We offer [online learning platform], with [type of support] available if you need help. Does that sound workable for you?"
+- Learning support disclosure (ASQA requirement)
+- Reasonable adjustment flag if caller mentions disability or LLN needs
+
+**Phase 5: Fees and Payment (5:00-6:30)**
+
+Q14: "The total course fee is [amount]. We offer payment plans starting at [weekly/monthly amount]. Would that work for you?"
+- Fee disclosure (ASQA requirement: total cost before enrollment)
+- Payment options (payment plan must be disclosed if offered)
+
+Q15: "If you have a concession card — healthcare card, pension card, or similar — you may qualify for reduced fees. Do you have one of those?"
+- Concession pricing disclosure (ASQA requirement for funded courses)
+- Must be offered, not assumed
+
+Q16: "Our refund policy is [brief summary — e.g., 'full refund within 10 business days, pro-rata after that']. Questions about that?"
+- Refund policy disclosure (consumer law requirement)
+- Must be before enrollment commitment
+
+Q17: "For government-funded courses, there's a 10-business-day cooling off period, so you can change your mind after enrolling. Did you want to know more about that?"
+- Cooling off disclosure (for funded/VET students)
+- Required for some course types — must confirm with Hader which courses require this
+
+**Phase 6: Mandatory Disclosures and Support (6:30-7:00)**
+
+Q18: "Just so you know — we have language and learning support available if you need extra help. We also have a complaints and appeals process if you're not happy with anything. Would you like me to explain how that works?"
+- Language/LLN support disclosure (ASQA)
+- Complaints and appeals rights disclosure (ASQA)
+- Must be offered, not assumed the caller knows
+
+Q19: "Your information will be stored securely under Australian privacy law. You can ask us for a copy of your data or ask us to delete it at any time. Are you happy with that?"
+- APP privacy notice (Australian Privacy Principles)
+- Must be given before collecting sensitive information
+- Must get acknowledgment or move to human transfer
+
+**Phase 7: Next Steps and Human Transfer (7:00-7:30)**
+
+Q20: "To get enrolled, you'll need to bring [list: ID, USI, concession card if applicable] to our orientation on [date]. Can I send a confirmation to [email]?"
+- Documents required (ASQA: evidence of identity required)
+- Orientation scheduling (high-intent action)
+- Email confirmation (Zoho integration trigger)
+
+Q21: "Anything else you want to ask me before I send that through? Happy to transfer you to a human if you'd prefer to talk through anything in detail."
+- Final human transfer offer (must be genuine, not just a formality)
+- Closing question (capture objections before ending)
+
+Q22: "Thanks [Name]. I've sent the orientation details to [email]. We'll see you on [date]. Goodbye!"
+- Closing confirmation
+- SMS/email trigger (Zoho integration)
+
+### Objection Handling Addendum (3-5 Common Objections)
+
+The script above should include branches for common objections:
+
+**"It's too expensive"** → "I understand cost is a factor. We have payment plans starting at [amount per week]. We also have concession pricing if you have a healthcare card. Would either of those help?"
+
+**"I need to think about it"** → "Of course. I can send you a summary of what we discussed so you have it handy. What's the best email? And when should I check back in — later this week?"
+
+**"Can I do it fully online?"** → "Yes — [course name] is available fully online through our learning platform. You can study at your own pace, as long as you complete by [end date]. Would that work for you?"
+
+**"What if I fail?"** → "We have [type of] support available — including extra sessions and one-on-one help. Our completion rate is [X]%. Most students who put in the time pass. Want to know more about the support we offer?"
+
+**"I already have experience in this field"** → "Great — if you have relevant experience, you might qualify for Recognition of Prior Learning, which means we can skip some units. Would you like me to note that for our enrollment team? They can assess what you're eligible for."
+
+### Escalation Triggers (When to Transfer to Human Immediately)
+
+The AI must transfer to a human if the caller:
+1. **Asks about complaints against the RTO** → "Let me transfer you to our customer service team who can help with that."
+2. **Mentions welfare concerns (suicide, self-harm, domestic violence)** → "I'm going to transfer you to a human team member who can connect you with the right support."
+3. **Requests RPL (Recognition of Prior Learning) for many units** → Complex assessment — human required
+4. **Mentions financial hardship or credit issues** → "Let me connect you with our payment team who can discuss options."
+5. **Is clearly confused or distressed** → "I can see this might be confusing. Let me get a human to walk you through it."
+6. **Asks about legal rights or wants to dispute a previous decision** → "That's something our team can handle better than I can. Let me transfer you."
+
+**Escalation protocol for Kham**: Log every escalation in Zoho with: reason, call duration, caller sentiment, and whether human resolved the issue. This data feeds the iteration loop.
+
+### What Must Be Filled In Before Testing
+
+This script is a template. Before Kham can test it, Steven must get from Marcus/Jesse:
+
+| Item | Source | Deadline |
+|------|--------|----------|
+| Hader course list (with full names) | Marcus/Jesse | June 7 |
+| Course duration for each | Marcus/Jesse | June 7 |
+| Delivery mode (online/in-person/blended) for each | Marcus/Jesse | June 7 |
+| Next 3 intake start dates | Jesse | June 7 |
+| Total fee for each course | Marcus/Jesse | June 7 |
+| Payment plan options (amounts, frequency) | Marcus/Jesse | June 7 |
+| Refund policy (exact wording) | Jesse/legal | June 7 |
+| USI exemption categories | ASQA website | June 7 |
+| Cooling off period (which courses?) | ASQA website | June 7 |
+| LLN support details (what's available?) | Jesse | June 14 |
+| Complaints and appeals contact details | Jesse/legal | June 14 |
+| Human transfer phone number | Marcus | June 14 |
+| Documents required for enrollment (ID list) | Jesse | June 14 |
+
+**Without this information, the script cannot be tested. The June 7 deadline is critical — it's the first blocker for the orientation call robot build.**
+
+### Zoho Integration Points in the Script
+
+The script creates multiple Zoho integration opportunities:
+
+| Script moment | Zoho action | Fields to populate |
+|---------------|-------------|-------------------|
+| Q1 (name captured) | Create lead | First Name, Phone |
+| Q4 (course interest) | Update lead | Course Interest, Intent Level |
+| Q7 (USI status) | Update lead | USI Status (has/don't have/exempt) |
+| Q9 (employment) | Update lead | Employment Status |
+| Q10 (funding) | Update lead | Funding Type (self/employer/government) |
+| Q11 (intake date) | Create task | Schedule orientation — due [date] |
+| Q15 (concession) | Update lead | Concession Eligible (yes/no) |
+| Q20 (email) | Update lead | Email, Preferred Contact |
+| Q21 (objection) | Update lead | Objection Type, Follow-up Required |
+| Q22 (closing) | Update lead | Call Outcome (enrolled/interested/follow-up/disqualified), Send confirmation |
+
+**Total Zoho fields to configure**: ~15 custom fields + standard fields. Must be done by Kham in week 4 of the build (June 21-28).
+
+### Quality Assurance Framework for the Script
+
+Once the script is built, QA must cover:
+
+1. **Legal compliance check**: Does the script include all ASQA-mandated disclosures at the right points?
+2. **Objection handling check**: Does the AI handle the 5 most common objections gracefully?
+3. **Escalation check**: Does the AI transfer appropriately when escalation triggers fire?
+4. **Tone check**: Is the AI warm and helpful, or robotic and off-putting?
+5. **Containment check**: What percentage of calls are fully handled by AI vs. transferred?
+6. **Accuracy check**: Is the AI giving correct course information, or hallucinating?
+7. **Consent check**: Did every caller confirm they're okay with an AI call?
+
+**QA sample size**: 10% of all calls, minimum 20 calls per month. Review weekly in first month.
+
+**Call recording retention**: 3 years minimum (ASQA audit requirement). Store in AU-region cloud storage.
+
+### Actions for Steven
+
+- [ADDED] Get Hader course list from Marcus/Jesse — by June 7, 2026
+- [ADDED] Get course fees, start dates, payment options from Marcus/Jesse — by June 7, 2026
+- [ADDED] Get human transfer phone number from Marcus — by June 14, 2026
+- [ADDED] Fill in script placeholders with Hader-specific content — by June 14, 2026
+- [ADDED] Add objection handling branches (5 objections) — by June 14, 2026
+- [ADDED] Add escalation transfer script for each of 6 escalation triggers — by June 14, 2026
+- [ADDED] Configure Zoho fields for call outcome tracking — by June 28, 2026 (Kham)
+- [ADDED] QA the script against ASQA audit checklist before go-live — by July 7, 2026
+
+**Sources**:
+- ASQA enrollment requirements: asqa.gov.au/standards/enrolment
+- USI requirements: usi.gov.au
+- Australian Privacy Principles: oaic.gov.au/privacy-guide
+- Consumer law disclosure requirements: consumerlaw.gov.au
+- Cooling off period for VET students: asqa.gov.au/cooling-off
