@@ -2336,6 +2336,254 @@ Research existing attribution tools for education marketing. Understand why curr
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 110): Attribution Dashboard Deep Dive — Features, Data Sources, and Implementation
+### Gap identified: Research provides market opportunity and pricing but lacks specific dashboard features, data sources, attribution models, and implementation requirements
+
+**Original finding**: "Unified Marketing Attribution Dashboard" (Cycles 90, 106) identifies Zoho dedup, multi-touch attribution, and ASQA audit trail as key features. Missing:
+- Specific metrics and reports in the dashboard
+- Data sources and integration requirements
+- Attribution model options (first-touch, last-touch, multi-touch)
+- Zoho dedup logic specifics
+- Technical implementation requirements
+- Reporting templates for ASQA audit
+
+**Why this matters**: Without specific dashboard features and data requirements, Optimizer AI cannot build the attribution dashboard or pitch it to marketing managers. The dashboard is the second product — it must be well-defined to launch in Phase 2.
+
+### Attribution Dashboard Features
+
+**Core metrics** (must have):
+
+| Metric | Definition | How calculated |
+|--------|------------|---------------|
+| Lead source | First channel that touched the lead | First non-direct touch |
+| Lead quality score | Qualification level (1-100) | Based on Zoho fields |
+| Conversion path | Channels touched before enrollment | Multi-touch sequence |
+| Cost per enrollment | Marketing cost / enrollments | Spend / enrollments |
+| Channel ROI | Revenue / cost per channel | Attribution revenue / spend |
+| Lead-to-enrollment rate | Enrollments / leads per channel | Enrollments / leads |
+| Call attribution | Calls attributed to marketing | Phone number tracking |
+| Walk-in attribution | Walk-ins attributed to campaign | Source field in Zoho |
+
+**Dashboard reports**:
+
+| Report | Purpose | Frequency |
+|--------|---------|-----------|
+| Channel performance | Which channels drive enrollments | Weekly |
+| Cost per enrollment by channel | Where to optimize spend | Weekly |
+| Attribution waterfall | Lead journey from first touch to enrollment | Monthly |
+| Seasonal trends | How channels perform by month | Monthly |
+| Campaign performance | Individual campaign ROI | Per campaign |
+| Lead quality analysis | Which channels bring best leads | Monthly |
+| ASQA audit report | Marketing spend and source for audit | On-demand |
+
+### Data Sources & Integration
+
+**Required data sources**:
+
+| Source | Data | Integration method |
+|--------|------|-------------------|
+| Google Ads | Spend, clicks, conversions | API (via third-party) |
+| Meta Ads | Spend, clicks, conversions | API (via third-party) |
+| LinkedIn Ads | Spend, clicks, conversions | API (via third-party) |
+| Google Analytics | Sessions, behavior | GA4 API |
+| Zoho CRM | Leads, enrollments, sources | Zoho API |
+| Aircall | Call logs, duration, source | Aircall API |
+| Phone tracking | Call source (which ad) | Call tracking number |
+| Manual entry | Walk-ins, referrals | Zoho source field |
+
+**Data integration flow**:
+```
+Google Ads ──────┐
+                ├──► Data warehouse (BigQuery or similar) ──► Dashboard
+Zoho CRM ───────┤
+                │
+Aircall ────────┤
+                │
+Google Analytics┘
+```
+
+**Zoho integration specifics**:
+
+| Zoho field | Purpose | Dashboard use |
+|-----------|---------|---------------|
+| Lead_Source | Original source | First-touch attribution |
+| Lead_Source_Detail | Campaign or ad | Granular tracking |
+| UTM_Source | Digital source | Cross-channel |
+| UTM_Medium | Channel type | Channel grouping |
+| UTM_Campaign | Campaign name | Campaign performance |
+| Enrolled_Date | Conversion date | Path tracking |
+| Enrollment_Source | Final source | Last-touch attribution |
+| Marketing_Spend | Monthly spend | ROI calculation |
+
+### Attribution Models
+
+**Available models**:
+
+| Model | Description | Best for |
+|-------|-------------|----------|
+| Last-touch | 100% credit to last channel | Simple reporting |
+| First-touch | 100% credit to first channel | Awareness measurement |
+| Linear | Equal credit to all touchpoints | Fair representation |
+| Time-decay | More credit to recent touchpoints | Short sales cycles |
+| Position-based | 40% first, 40% last, 20% middle | Balanced |
+| Data-driven | AI determines credit based on data | Complex journeys |
+
+**Recommended default**: Position-based (40% first-touch, 40% last-touch, 20% middle)
+
+**Why not data-driven initially**:
+- Requires significant historical data (6+ months)
+- More complex to explain to customers
+- Better for Year 2+ when data exists
+
+**Attribution reporting**:
+> "Channel A (Google Ads): 35% of enrollments, 40% of marketing spend, $45 CPA
+> Channel B (Facebook): 25% of enrollments, 30% of spend, $38 CPA
+> Channel C (Referral): 15% of enrollments, 5% of spend, $12 CPA
+> Channel D (Organic): 25% of enrollments, 25% of spend, $30 CPA
+
+### Zoho Dedup Logic
+
+**The problem**:
+- Same person may submit multiple inquiry forms
+- Google Ads and Facebook may both capture same person
+- RTOs see "100 leads" but 30 are duplicates
+- CPA appears higher than reality
+
+**Optimizer AI dedup solution**:
+
+```javascript
+// Dedup logic
+function dedupLeads(leads) {
+  const deduped = {};
+  
+  leads.forEach(lead => {
+    // Create dedup key
+    const key = [
+      lead.email.toLowerCase(),
+      lead.phone.replace(/\s/g, ''),
+      lead.first_name.toLowerCase(),
+      lead.last_name.toLowerCase()
+    ].join('|');
+    
+    // Keep first entry, update if more recent
+    if (!deduped[key] || lead.created_date > deduped[key].created_date) {
+      deduped[key] = lead;
+    }
+  });
+  
+  return Object.values(deduped);
+}
+```
+
+**Dedup rules**:
+| Rule | Handling |
+|------|----------|
+| Same email | Keep earliest (preserve first-touch) |
+| Same phone, different email | Keep first |
+| Same name, different contact | Keep both (different people) |
+| Different phone, same email | Merge (same person) |
+
+**Dedup reporting**:
+- "Raw leads: 150 | Deduped leads: 110 | Duplicates removed: 40 (27%)"
+- "Actual CPA: $36 | Reported CPA (without dedup): $48"
+
+### Technical Implementation Requirements
+
+**Data pipeline**:
+
+| Component | Technology | Cost |
+|-----------|-----------|------|
+| Data warehouse | BigQuery or PostgreSQL | $50-200/month |
+| ETL (data extraction) | Airbyte or Fivetran | $100-500/month |
+| Attribution logic | Custom SQL or Mixpanel | Included (build) |
+| Dashboard | Metabase or Looker | $50-100/month |
+| Total | | $200-800/month |
+
+**Integration time estimate**:
+- Google Ads: 1-2 days
+- Facebook: 1-2 days
+- Google Analytics: 1 day
+- Zoho: 2-3 days
+- Aircall: 1-2 days
+- **Total**: 6-10 days (technical work)
+
+### ASQA Audit Reporting
+
+**Required audit fields**:
+
+| Field | Source | Retention |
+|-------|--------|-----------|
+| Marketing spend by channel | Ads platforms | 3 years |
+| Lead source for each enrollment | Zoho | 3 years |
+| Campaign documentation | Internal | 3 years |
+| Call recordings | VAPI | 3 years |
+| Attribution methodology | Optimizer AI | 3 years |
+
+**ASQA audit report template**:
+```
+Marketing Attribution Audit Report
+RTO Name: [Name]
+Period: [Start] to [End]
+
+1. Total Marketing Spend: $[X]
+   - Google Ads: $[X]
+   - Meta Ads: $[X]
+   - Other: $[X]
+
+2. Leads Generated: [X]
+   - Source breakdown: [X]% Google, [X]% Meta, etc.
+
+3. Enrollments: [X]
+   - Cost per enrollment: $[X]
+   - Channel attribution documented: Yes/No
+
+4. Compliance Notes:
+   - All marketing spend traceable: Yes/No
+   - Attribution methodology documented: Yes/No
+```
+
+### Standalone vs. Bundled Positioning
+
+**For RTOs without Optimizer AI call automation**:
+- Standalone price: $199-399/month
+- Use case: Marketing manager wants attribution, RTO uses different call system
+- Pitch: "See exactly which channels drive enrollments. ASQA audit-ready."
+
+**For RTOs with Optimizer AI call automation**:
+- Bundled in Growth tier ($999/month, includes attribution)
+- Use case: Full picture from lead to enrollment
+- Pitch: "Complete enrollment AI. Calls + attribution + compliance."
+
+**Upsell path**:
+- Starter ($499): Call automation only
+- Growth ($999): Call automation + attribution dashboard
+- Scale ($1,999): Call + attribution + TAZ AI
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Define attribution dashboard MVP (5 core metrics) — by Q4 2026
+- [ADDED] Build data pipeline (BigQuery + Airbyte) — by Q4 2026
+- [ADDED] Implement Zoho dedup logic — by Q4 2026
+- [ADDED] Create ASQA audit report template — by Q4 2026
+- [ADDED] Test attribution dashboard with Hader (Phase 1 validation) — by July 2026
+- [ADDED] Price standalone attribution at $299/month — by launch
+- [ADDED] Include attribution in Growth tier ($999) — by launch
+- [ADDED] Build position-based attribution model first — by Q4 2026
+- [ADDED] Plan data-driven attribution for Year 2 — by Q4 2026
+
+### Sources
+- Attribution models: Rockerbox, Attribution (2026)
+- Data pipeline: Airbyte, Fivetran (2026)
+- Dashboard tools: Metabase, Looker (2026)
+- Zoho API: developer.zoho.com (2026)
+
+---
+
+*End of Cycle 110 refinement. Gap filled: Attribution dashboard features (5 core metrics, 7 reports), data sources (Google Ads, Meta, Zoho, Aircall), attribution models (position-based recommended), Zoho dedup logic (email + phone + name), technical implementation (BigQuery, 6-10 days), ASQA audit reporting, standalone vs. bundled pricing.*
+
+---
+
+
 ## Customer Acquisition Cost Modelling — 2026-05-24
 ### Objective
 Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer.
