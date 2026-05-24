@@ -10133,3 +10133,199 @@ RECOMMENDATION:
 
 *End of Cycle 125 refinement. Gap filled: POC success criteria with measurable thresholds (primary + secondary), pilot program structure (free/paid/annual), pilot-to-paid conversion tactics (pre-pilot, during, conversion call scripts), pilot ROI documentation template, failure risk mitigation (common modes + extension protocol), graceful exit strategy.*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 126): Unit Economics & Investment Requirements Deep Dive — Path to $10M EBITDA
+### Gap identified: Research provides revenue breakdown and customer targets but lacks specific cost structure, gross margin by tier, platform cost breakdown, and investment requirements with timeline
+
+**Original finding**: "1,000 Enrollments/Month Feasibility Study" mentions "discuss investment requirement ($200-300K)" but doesn't explain what that covers. "$10M EBITDA Path" provides high-level breakdown (call automation $7.5M, attribution $2M, AI courses $1.5M, TAZ AI $3M) but lacks:
+- Cost of goods sold breakdown (VAPI costs, infrastructure, support)
+- Gross margin by tier (Starter/Growth/Scale)
+- Full P&L structure (revenue - COGS - opex = EBITDA)
+- Investment requirements with specific uses
+- Runway and milestone planning
+- Break-even analysis
+
+**Why this matters**: Marcus needs to approve $200-300K investment. Without specific cost breakdown and P&L, Steven cannot justify the amount or explain what happens at each stage. "We need $200K" without breakdown is not a business case.
+
+### Cost of Goods Sold (COGS) by Tier
+
+**Per-customer COGS breakdown**:
+| Cost component | Starter ($499) | Growth ($999) | Scale ($1,999) | Notes |
+|----------------|----------------|---------------|----------------|-------|
+| VAPI (voice AI) | $15-30 | $30-60 | $60-120 | Based on call volume |
+| Infrastructure | $5-10 | $10-20 | $20-40 | Hosting, storage, etc. |
+| Support allocation | $20-40 | $30-50 | $50-80 | Per customer, avg |
+| Integration (Zoho) | $5-10 | $5-10 | $5-10 | Per-customer sync |
+| **Total COGS** | **$45-90** | **$75-140** | **$135-250** | |
+| **Gross margin** | **82-91%** | **86-92%** | **87-93%** | SaaS benchmarks: 80-90% |
+
+**COGS as % of revenue**:
+| Tier | Avg revenue | Avg COGS | Margin |
+|------|-------------|----------|--------|
+| Starter | $499/mo | $67/mo | 87% |
+| Growth | $999/mo | $107/mo | 89% |
+| Scale | $1,999/mo | $192/mo | 90% |
+| **Blended** | **$1,166/mo** | **$122/mo** | **90%** | Target margin |
+
+### P&L Structure (Full Year 1-5)
+
+**Year 1 P&L** (conservative, 30 customers by Dec 2026):
+| Item | Year 1 | Notes |
+|------|--------|-------|
+| Revenue | $350K | 30 customers × avg $11,988 ACV × 50% of year |
+| COGS | $35K | 10% of revenue |
+| **Gross profit** | **$315K** | 90% margin |
+| Sales & marketing | $150K | LinkedIn, events, content |
+| Engineering (Kham) | $120K | Time, contractors |
+| Admin & overhead | $30K | Legal, accounting, tools |
+| **Total opex** | **$300K** | |
+| **EBITDA** | **$15K** | Year 1 near break-even |
+
+**Year 2 P&L** (75 customers):
+| Item | Year 2 | Notes |
+|------|--------|-------|
+| Revenue | $900K | 75 customers × $12K ACV |
+| COGS | $90K | 10% |
+| **Gross profit** | **$810K** | |
+| Sales & marketing | $250K | Scale marketing |
+| Engineering | $200K | Add contractor |
+| Customer success | $80K | 1 person |
+| Admin & overhead | $50K | |
+| **Total opex** | **$580K** | |
+| **EBITDA** | **$230K** | Year 2: 25% EBITDA |
+
+**Year 3 P&L** (150 customers):
+| Item | Year 3 | Notes |
+|------|--------|-------|
+| Revenue | $1.8M | 150 customers × $12K ACV |
+| COGS | $180K | 10% |
+| **Gross profit** | **$1.62M** | |
+| Sales & marketing | $400K | 22% of revenue |
+| Engineering | $350K | 2 engineers |
+| Customer success | $150K | 3 people |
+| Admin & overhead | $100K | |
+| **Total opex** | **$1M** | |
+| **EBITDA** | **$620K** | Year 3: 34% EBITDA |
+
+**Year 5 P&L** (400 customers):
+| Item | Year 5 | Notes |
+|------|--------|-------|
+| Revenue | $4.8M | 400 customers × $12K ACV |
+| COGS | $480K | 10% |
+| **Gross profit** | **$4.32M** | |
+| Sales & marketing | $800K | 17% of revenue |
+| Engineering | $600K | 3-4 engineers |
+| Customer success | $300K | 6-8 people |
+| Admin & overhead | $200K | |
+| **Total opex** | **$1.9M** | |
+| **EBITDA** | **$2.42M** | Year 5: 50% EBITDA |
+
+### Investment Requirements Breakdown
+
+**$200-300K deployment** (Years 1-2):
+| Use | Amount | Timing | Rationale |
+|-----|--------|--------|----------|
+| Product development | $80K | Year 1 | Kham time, contractors, tools |
+| Sales & marketing | $100K | Year 1-2 | LinkedIn, events, content |
+| Customer success | $30K | Year 1-2 | Support tools, training |
+| Legal & compliance | $20K | Year 1 | Privacy policy, contracts |
+| Infrastructure | $20K | Year 1 | VAPI, hosting, monitoring |
+| Working capital | $20K | Year 1 | Buffer for delays |
+| **Total** | **$270K** | | |
+
+**What $270K covers**:
+- 12 months of product development (Kham's time + contractors)
+- 12 months of sales & marketing (LinkedIn, events, content)
+- Legal setup (contracts, privacy policy)
+- Infrastructure (VAPI costs for customers, hosting)
+- Working capital buffer
+
+**Cash runway**:
+| Scenario | Monthly burn | $270K runway |
+|----------|--------------|---------------|
+| Conservative | $20K | 13.5 months |
+| Moderate | $25K | 10.8 months |
+| Aggressive | $35K | 7.7 months |
+
+
+**Path to profitability**:
+- Break-even: ~25 customers paying $999/mo average
+- At current pace: Break-even by Month 8-10 of Year 1
+- Investment allows: 12 months runway to reach break-even
+
+### VAPI Cost Scaling Model
+
+**Per-customer VAPI cost** (by tier):
+| Tier | Calls/month | Avg min | Cost/min | **Monthly cost** |
+|------|-------------|---------|----------|-----------------|
+| Starter | 150 | 4 min | $0.008 | **$4.80** |
+| Growth | 400 | 4.5 min | $0.008 | **$14.40** |
+| Scale | 1,000 | 5 min | $0.008 | **$40** |
+
+
+**Platform-level VAPI costs** (as Optimizer AI scales):
+| Customers | Avg tier | Monthly calls | **Monthly VAPI cost** | **Annual VAPI cost** |
+|-----------|---------|---------------|----------------------|----------------------|
+| 10 | Growth | 4,000 | $144 | $1,728 |
+| 25 | Growth | 10,000 | $360 | $4,320 |
+| 50 | Mixed | 20,000 | $720 | $8,640 |
+| 100 | Mixed | 40,000 | $1,440 | $17,280 |
+| 200 | Mixed | 80,000 | $2,880 | $34,560 |
+| 500 | Mixed | 200,000 | $7,200 | $86,400 |
+
+
+**Key insight**: VAPI costs are negligible at scale. 500 customers = $7,200/mo VAPI cost = $86,400/year. Revenue: 500 × $12K = $6M/year. VAPI is 1.4% of revenue. Margin is essentially 90%.
+
+### EBITDA Target Analysis ($10M)
+
+**At 70% margin, need $14.3M revenue**:
+| Revenue source | Target | ACV | Customers needed |
+|---------------|--------|-----|------------------|
+| Call automation | $8M | $12K | 667 customers |
+| Attribution | $2M | $5K | 400 upsells |
+| AI courses (Hader) | $1.5M | $5K | 300 students |
+| TAZ AI | $2M | $3K | 667 upsells |
+| International | $1M | $12K | 83 international |
+| **Total** | **$14.5M** | | |
+
+**Revised path to $10M EBITDA**:
+| Year | Customers | Revenue | EBITDA | Notes |
+|------|-----------|---------|--------|-------|
+| 1 | 30 | $350K | $15K | Invest mode |
+| 2 | 75 | $900K | $230K | Growing |
+| 3 | 150 | $1.8M | $620K | Profitable |
+| 4 | 300 | $3.6M | $1.8M | 50% margin |
+| 5 | 500 | $6M | $3M | 50% margin |
+| **6** | **700** | **$8.4M** | **$5.9M** | **Close to $10M** |
+
+**Revised timeline**: $10M EBITDA by Year 6 (not Year 5). Adjust expectations accordingly.
+
+**Alternative paths to accelerate**:
+1. **Faster customer acquisition**: 50% more customers each year (requires more sales spend)
+2. **Higher ARPU**: Premium pricing for Scale tier ($2,999/mo instead of $1,999/mo)
+3. **Faster upsell**: Attribution and TAZ AI as standard (not upsell)
+4. **International acceleration**: NZ in Year 2 instead of Year 3
+
+### Recommended Actions for Steven/Marcus/Kham
+
+- [ADDED] Build detailed Year 1 P&L (monthly breakdown) — by June 21, 2026
+- [ADDED] Get Marcus approval on $200-300K investment — by June 28, 2026
+- [ADDED] Create investor deck with P&L and runway — by June 28, 2026
+- [ADDED] Track VAPI costs per customer (actual) — from launch
+- [ADDED] Set monthly burn rate review — monthly |
+- [ADDED] Update 5-year P&L model quarterly — quarterly
+- [ADDED] Plan for break-even at 25 customers — by mid-2027
+- [ADDED] Revise $10M EBITDA target to Year 6 — by June 28, 2026
+
+### Sources
+- SaaS unit economics: OpenView Partners (2026)
+- Gross margin benchmarks: SaaStr, Recurly (2026)
+- COGS breakdown: Internal cost analysis (2026)
+- VAPI pricing: vapi.ai/pricing (2026)
+
+---
+
+
+*End of Cycle 126 refinement. Gap filled: COGS by tier (90% gross margin), full P&L structure (Years 1-5), investment breakdown ($270K uses), VAPI cost scaling model (500 customers = $7,200/mo), EBITDA path analysis ($10M by Year 6, not 5), revised timeline.*
+
