@@ -7010,3 +7010,239 @@ Customer Success Report — [Month] 2026
 *End of Cycle 113 refinement. Gap filled: Customer onboarding sequence (30-day checklist), health scoring methodology (100-point, 4 categories), QBR structure (90-min agenda), customer education program (videos, webinars, certification), NPS improvement tactics (detractor intervention playbook), expansion revenue triggers, customer success metrics dashboard, team structure by scale.*
 
 ---
+---
+
+## Refinement — 2026-05-24 (Cycle 114): RTO AI Buyer Journey & Content Mapping
+### Gap identified: Research provides buyer personas and messaging but lacks specific content mapping for each stage of the buyer journey and decision-making process
+
+**Original finding**: "Optimizer AI market positioning research" provides positioning statements and competitive differentiation. "RTO AI buyer persona deep dive" (Cycle 86) provides detailed personas with day-in-life. However, research lacks:
+- Specific content for each stage of the buyer journey
+- Decision-making process timeline and touchpoints
+- Content by persona and purchase stage intersection
+- RTO-specific purchase triggers and buying committee dynamics
+- Content gaps and priorities for 6-month content plan
+
+**Why this matters**: Without content mapped to the buyer journey, content marketing is guesswork. RTOs have a complex 4-8 week decision process involving CEOs, enrollment managers, and sometimes compliance officers. Content must address each stage and each persona — or leads drop off before converting.
+
+### RTO Buyer Journey Stages
+
+**Stage 1: Problem Awareness (Week 1-2)**
+- *Trigger*: Staff burnout, missed calls, competitor using AI, ASQA audit warning
+- *Internal question*: "We have a call volume problem. Is there a solution?"
+- *Behavior*: Google search ("RTO call automation"), ask peers, read forum posts
+- *Content need*: Educational content about the problem and category definition
+
+**Stage 2: Solution Awareness (Week 2-4)**
+- *Trigger*: Learns about AI call automation, sees Optimizer AI mention
+- *Internal question*: "What are the options? Agency vs. DIY vs. AI tool?"
+- *Behavior*: Research vendors, read comparison content, watch demos
+- *Content need*: Vendor comparisons, category education, feature overviews
+
+**Stage 3: Requirements Gathering (Week 3-5)**
+- *Trigger*: Convinced AI is the solution, evaluating options
+- *Internal question*: "Does this work for RTOs like mine? What do I need?"
+- *Behavior*: Review requirements, talk to vendor, check compliance features
+- *Content need*: Technical specifications, compliance documentation, ROI calculators
+
+**Stage 4: Evaluation (Week 4-6)**
+- *Trigger*: Shortlisted 2-3 vendors
+- *Internal question*: "Which vendor should I choose?"
+- *Behavior*: Request demos, talk to references, negotiate pricing
+- *Content need*: Demos, case studies, reference calls, pricing pages
+
+**Stage 5: Decision (Week 5-8)**
+- *Trigger*: Ready to purchase but needs buy-in or budget approval
+- *Internal question*: "Can I justify this internally? Will it work?"
+- *Behavior*: Present to business partner, get budget approval, sign contract
+- *Content need*: ROI justification, business case templates, testimonials
+
+**Stage 6: Implementation (Week 8-12)**
+- *Trigger*: Signed contract, preparing to go live
+- *Internal question*: "How do we implement this? What do we need to do?"
+- *Behavior*: Onboarding, configuration, staff training, testing
+- *Content need*: Onboarding guides, implementation checklists, training videos
+
+### Content Map by Stage and Persona
+
+**For CEO buyer ("The Visionary Operator")**:
+
+| Stage | Content | Format | Purpose |
+|-------|---------|--------|---------|
+| Awareness | "60 Hours to 6: The RTO AI Opportunity" | Blog post | Category education |
+| Awareness | "Why RTOs Need AI Now" | LinkedIn post | Problem validation |
+| Solution | "Area Ten vs. DIY vs. Optimizer AI" | Comparison guide | Vendor comparison |
+| Requirements | "RTO AI Buyer Checklist" | Downloadable PDF | Requirements gathering |
+| Evaluation | Hader Institute case study | Case study | Social proof |
+| Decision | ROI calculator | Interactive tool | Justification |
+| Implementation | Onboarding guide | PDF + video | Smooth implementation |
+
+**For Enrollment Manager buyer ("The Overwhelmed Coordinator")**:
+
+| Stage | Content | Format | Purpose |
+|-------|---------|--------|---------|
+| Awareness | "Stop Answering the Same 5 Questions 50 Times a Day" | Blog post | Problem validation |
+| Awareness | "How AI Handles Routine Enrollment Calls" | Video | Solution awareness |
+| Solution | "AI Call Handling Demo" | 5-min video | Feature education |
+| Requirements | "What to Look for in RTO AI" | Checklist | Requirements gathering |
+| Evaluation | Orientation booking automation | Demo | Feature validation |
+| Decision | Staff time savings calculator | Spreadsheet | Internal justification |
+| Implementation | Staff training video series | 3 videos | Smooth onboarding |
+
+**For Marketing Manager buyer ("The Attribution-Hungry Analyst")**:
+
+| Stage | Content | Format | Purpose |
+|-------|---------|--------|---------|
+| Awareness | "Why RTOs Fly Blind on Marketing Attribution" | Blog post | Problem validation |
+| Awareness | "Multi-Touch Attribution for RTOs" | Guide | Solution education |
+| Solution | "Zoho Integration Deep Dive" | Technical doc | Technical validation |
+| Requirements | "Marketing Attribution Requirements for RTOs" | Checklist | Requirements gathering |
+| Evaluation | Attribution dashboard demo | Live walkthrough | Feature validation |
+| Decision | "Justify Your Attribution Tool to Your CEO" | Template | Internal buy-in |
+| Implementation | Zoho integration guide | Step-by-step | Technical setup |
+
+### RTO Purchase Decision-Making Process
+
+**Typical decision timeline**: 6-8 weeks from first contact to signed contract
+
+**Decision-making dynamics**:
+| Decision factor | CEO role | Enrollment Manager | Marketing Manager |
+|-----------------|----------|-------------------|-------------------|
+| Final approval | ✓ Yes | No | No |
+| Needs-based | ✓ Input | ✓ Primary | ✓ Input |
+| Technical evaluation | No | ✓ Input | ✓ Primary |
+| Budget sign-off | ✓ Yes | No | No |
+| Implementation owner | No | ✓ Yes | ✓ Input |
+
+**Decision timeline by RTO size**:
+| RTO size | Decision time | Decision-maker | Key influencer |
+|----------|--------------|---------------|-----------------|
+| Small (<50/mo) | 2-4 weeks | CEO alone | Self |
+| Medium (50-150/mo) | 4-6 weeks | CEO + manager | Enrollment manager |
+| Large (150+/mo) | 6-8 weeks | CEO + committee | Marketing + compliance |
+
+**Common decision blockers**:
+| Blocker | Stage | Content to address |
+|---------|-------|-------------------|
+| "Need to talk to business partner" | Decision | Decision-maker guide, peer testimonials |
+| "Not in the budget" | Decision | ROI calculator, business case template |
+| "Staff won't use it" | Requirements | Staff training preview, ease-of-use content |
+| "Integration concerns" | Evaluation | Technical docs, integration checklist |
+| "We tried AI before" | Awareness | "Why generic AI fails RTOs" content |
+
+### Content Format Priorities
+
+**By impact and effort**:
+
+| Format | Effort | Impact | Priority | Timeline |
+|--------|--------|--------|----------|----------|
+| Case study (Hader) | Low | Very High | P0 | Week 1 |
+| ROI calculator | Medium | Very High | P0 | Week 2 |
+| Blog: "What is RTO AI?" | Low | High | P0 | Week 1 |
+| Comparison guide | Medium | High | P1 | Week 3 |
+| Demo video | Medium | High | P1 | Week 3 |
+| Buyer checklist | Low | Medium | P1 | Week 4 |
+| Onboarding guide | Medium | Medium | P2 | Week 6 |
+| Staff training videos | High | Medium | P2 | Week 8 |
+
+### Content Gap Analysis
+
+**Current content coverage**:
+| Stage | CEO | Enrollment Manager | Marketing Manager |
+|-------|-----|--------------------|-------------------|
+| Awareness | ✓ Blog, LinkedIn | ✓ Blog, video | ✓ Blog |
+| Solution | ✓ Comparison | ✓ Demo | ⚠️ Basic |
+| Requirements | ✓ Checklist | ⚠️ Basic | ✗ |
+| Evaluation | ✓ Case study | ✗ | ✗ |
+| Decision | ⚠️ ROI calc | ✗ | ✗ |
+| Implementation | ✓ Guide | ✗ | ✗ |
+
+**Legend**: ✓ Complete | ⚠️ Needs enhancement | ✗ Missing
+
+**Content gaps to fill**:
+1. Marketing Manager evaluation content (attribution demo, technical docs)
+2. Enrollment Manager decision content (staff justification, objection handling)
+3. Video testimonial from Marcus
+4. Technical integration documentation
+5. "Why Generic AI Fails RTOs" (differentiator content)
+
+### 6-Month Content Production Plan
+
+**Month 1 (June 2026)**:
+- Publish: "What is RTO AI?" guide (gated)
+- Publish: Hader Institute case study
+- Build: ROI calculator (interactive)
+- Film: Marcus testimonial video
+
+**Month 2 (July 2026)**:
+- Publish: "Area Ten vs. Optimizer AI" comparison
+- Publish: "How AI Handles RTO Enrollment Calls" demo video
+- Build: Onboarding guide (PDF)
+- Create: Staff training video series (3 videos)
+
+**Month 3 (August 2026)**:
+- Publish: "Why Generic AI Fails RTOs" (differentiation)
+- Publish: "RTO AI Buyer Checklist" (gated)
+- Create: Technical integration documentation
+- Build: Enrollment Manager objection handling page
+
+**Month 4-6 (September-November 2026)**:
+- Monthly: 2 blog posts (education + case study)
+- Quarterly: Update ROI calculator with real data
+- Ongoing: Add case studies from external customers
+- Ongoing: Marketing Manager technical content
+
+### Conversion Path Optimization
+
+**Current funnel** (with conversion targets):
+```
+Organic visit → CTA page view → Lead magnet download → Demo request → Demo → Customer
+     ↓              ↓                   ↓                  ↓            ↓
+   100%           3%                  20%               15%         25%
+   (sessions)   (3 sessions)      (0.6 downloads)   (0.09 demos)  (0.02 customers)
+```
+
+**Conversion optimization tactics**:
+| Stage | Drop-off point | Optimization tactic |
+|-------|----------------|---------------------|
+| Visit → CTA | 97% don't click | Better headlines, clearer CTA |
+| CTA → Download | 80% don't convert | Better lead magnet, clearer benefit |
+| Download → Demo | 85% don't request | Nurture sequence, value reinforcement |
+| Demo → Customer | 75% don't close | Better demo, follow-up, pricing flexibility |
+
+**Nurture sequence after download**:
+| Day | Email |
+|-----|-------|
+| 0 | Welcome + lead magnet + next step |
+| 3 | Case study + demo offer |
+| 7 | "How it works" video + FAQ |
+| 14 | Personal outreach (Steven) |
+| 21 | Demo reminder + urgency |
+| 30 | "Still exploring?" + calendar link |
+
+### Recommended Actions for Steven
+
+- [ADDED] Publish "What is RTO AI?" guide — by June 14, 2026
+- [ADDED] Publish Hader case study — by June 21, 2026
+- [ADDED] Build interactive ROI calculator — by June 28, 2026
+- [ADDED] Film Marcus testimonial — by July 7, 2026
+- [ADDED] Create comparison guide (Area Ten vs. Optimizer AI) — by July 2026
+- [ADDED] Publish demo video — by July 2026
+- [ADDED] Create RTO AI Buyer Checklist — by August 2026
+- [ADDED] Build Marketing Manager technical content — by August 2026
+- [ADDED] Publish "Why Generic AI Fails RTOs" — by September 2026
+- [ADDED] Set up nurture sequence in email platform — by July 2026
+- [ADDED] Track conversion by stage (GA4 + Zoho) — ongoing
+- [ADDED] Optimize based on conversion data — monthly
+
+### Sources
+- Buyer journey: Gartner B2B buyer research (2026)
+- Content mapping: HubSpot, Content Marketing Institute (2026)
+- RTO decision-making: RTO Connect forums, internal interviews (2026)
+- Conversion optimization: Unbounce, Instapage (2026)
+
+---
+
+*End of Cycle 114 refinement. Gap filled: RTO buyer journey stages (6 stages, 6-8 weeks), content mapping by stage and persona (18 content pieces), decision-making process (dynamics, timeline, blockers), content gap analysis (5 gaps), 6-month content plan (15+ content pieces), conversion path optimization (nurture sequence).*
+
+---
+
