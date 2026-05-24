@@ -9683,3 +9683,235 @@ RECOMMENDED ACTIONS FOR STEVEN:
 
 *End of Cycle 123 refinement. Gap filled: Competitive intelligence monitoring system (weekly/monthly/quarterly checklists), early warning indicators for voice AI entry (3 stages), response playbook by threat level (Low/Medium/High), competitive response messaging, CI tools (free minimum stack), Zoho tracking fields, monthly report template.*
 
+---
+
+## Refinement — 2026-05-24 (Cycle 124): Investor Communication & Board Meeting Preparation — Marcus/Kham Updates
+### Gap identified: Research provides product roadmap and financial models but lacks specific update cadence, board meeting structure, and investor communication framework for Marcus and Kham
+
+**Original finding**: "100-Day Plan Synthesis" provides deliverable structure and timeline. "1,000 Enrollments/Month Feasibility Study" provides financial model. "12-24 Month Marketing Strategy" includes market trajectory. However, research lacks:
+- Specific update cadence (what to report, how often)
+- Board meeting structure (agenda, frequency, participants)
+- Investor communication framework (KPIs to report, what to flag)
+- Marcus-specific updates (what he needs to know)
+- Kham-specific updates (what he needs to know)
+- Decision-making framework (when to escalate)
+
+**Why this matters**: Marcus and Kham need regular updates to make decisions, approve spend, and track progress toward $10M EBITDA. Without a structured update system, Steven risks either overwhelming them with detail or under-informing them. The 100-day plan delivery (Day 100, August 7) is a key milestone that requires structured communication before and after.
+
+### Update Cadence & Communication Structure
+
+**Daily updates** (if needed):
+| When | What | Channel | Owner |
+|------|------|---------|-------|
+| Any blocking issue | "Blocked on X — need decision" | Slack DM to Kham | Steven |
+| Hader metrics anomaly | "Call volume dropped 30%" | Slack to Marcus | Steven |
+| Urgent competitor move | "Study Buddy launched voice AI" | Slack + call | Steven |
+
+
+**Weekly updates** (every Monday 9am):
+| Item | Content | Channel | Time |
+|------|---------|---------|------|
+| Progress vs. milestones | 3-5 bullets on key items | Slack to Marcus + Kham | 5 min read |
+| Blockers | What's stopped, what needed | Slack | 2 min read |
+| This week priorities | Top 3 actions | Slack | 2 min read |
+| Metrics snapshot | Customers, leads, CAC | Google Sheet link | 3 min read |
+
+**Weekly Metrics Snapshot Template**:
+```
+Optimizer AI Weekly Update — [Date]
+
+
+ACQUISITION:
+- Active customers: [X] (target: [X])
+- Leads this week: [X] (total: [X] month-to-date)
+- Demos scheduled: [X]
+- Pipeline value: $[X]
+
+PRODUCT:
+- Containment rate (Hader): [X]% (target: 70%+)
+- Escalation rate: [X]% (target: <30%)
+- Zoho sync issues: [X]
+
+MARKETING:
+- LinkedIn outreach sent: [X]
+- Demo requests (inbound): [X]
+- Content published: [X]
+
+
+BLOCKERS:
+- [Issue] → [What's needed] → [Who can unblock]
+
+PRIORITIES THIS WEEK:
+1. [Top priority]
+2. [Second priority]
+3. [Third priority]
+
+```
+
+
+**Monthly updates** (first week of month):
+| Item | Content | Channel | Time |
+|------|---------|---------|------|
+| Full metrics review | All KPIs vs. targets | Google Sheet + Slack | 10 min read |
+| Financial performance | Revenue, burn, runway | Spreadsheet | 5 min read |
+| Competitive intelligence | Threat level changes | Slack | 5 min read |
+| Strategic updates | Roadmap changes, new opportunities | Call (30 min) | 30 min |
+
+**Quarterly reviews** (Q1, Q2, Q3, Q4):
+| Item | Content | Channel | Time |
+|------|---------|---------|------|
+| Board meeting | Full business review | Video call (60 min) | 60 min |
+| Financial deep-dive | P&L, cash flow, forecasts | Spreadsheet | 30 min |
+| Strategy review | 90-day plan, adjustments | Call | 60 min |
+| Goal reset | Next quarter targets | Document | 30 min |
+
+
+### Board Meeting Structure (Quarterly)
+
+**Meeting frequency**: Quarterly (or monthly if needed early-stage)
+**Participants**: Marcus, Kham, Steven (+ advisors if applicable)
+**Prep time**: Steven 2-3 hours
+**Duration**: 60-90 minutes
+
+**Board Meeting Agenda** (60 min):
+| Time | Topic | Presenter | Materials |
+|------|-------|-----------|----------|
+| 0-5 min | Approve last meeting minutes | Marcus | Minutes doc |
+| 5-15 min | Business highlights | Steven | Metrics dashboard |
+| 15-25 min | Financial performance | Steven | P&L, cash flow |
+| 25-35 min | Product update | Kham | Demo or feature list |
+| 35-50 min | Strategic discussion | All | Pre-read document |
+| 50-60 min | Decisions & actions | Marcus | Decision log |
+
+**Pre-read document** (sent 3 days before):
+1. Executive summary (1 page)
+2. Metrics vs. targets (dashboard)
+3. Financial performance (P&L, cash flow)
+4. Strategic questions for discussion
+5. Proposed decisions & resolutions
+
+
+**Post-meeting deliverables** (within 48 hours):
+1. Meeting minutes
+2. Decision log
+3. Action items with owners and dates
+4. Updated quarterly targets
+
+### Metrics to Report (by Audience)
+
+**For Marcus** (operational focus):
+| Category | Metrics | Frequency |
+|----------|---------|-----------|
+| Customer | Customers, churn, NPS | Monthly |
+| Revenue | MRR, ARR, growth | Monthly |
+| Product | Containment, escalation | Monthly |
+| Hader | Enrollment metrics | Weekly |
+| Competitive | Threat level changes | Monthly |
+| Blockers | What's stopped | Weekly |
+
+
+**For Kham** (technical focus):
+| Category | Metrics | Frequency |
+|----------|---------|-----------|
+| Product | Feature completion, bugs | Weekly |
+| Technical | API uptime, integration health | Weekly |
+| Engineering | Velocity, capacity | Monthly |
+| Roadmap | Progress vs. plan | Weekly |
+| Technical debt | Items flagged | Monthly |
+
+
+**For both** (strategic focus):
+| Category | Metrics | Frequency |
+|----------|---------|-----------|
+| Market | AI adoption trends | Quarterly |
+| Competitive | Threat level, moves | Monthly |
+| Financial | Revenue, burn, runway | Monthly |
+| Strategy | Milestones, pivots | Quarterly |
+
+
+### Decision-Making Framework
+
+**Decisions Steven can make independently**:
+| Decision type | Examples | Limit |
+|--------------|---------|-------|
+| Marketing spend | < $500 | Immediate |
+| Content decisions | Blog posts, messaging | Immediate |
+| Outreach targets | Which RTOs to target | Immediate |
+| Demo format | How to run demos | Immediate |
+| Customer onboarding | Standard process | Immediate |
+
+
+**Decisions requiring Kham approval**:
+| Decision type | Examples | Limit |
+|--------------|---------|-------|
+| Technical changes | API changes, integrations | >$500 or >1 week |
+| Product features | New features, changes | Any |
+| Pricing changes | Discounts, promotions | >10% |
+| Partner agreements | New partners, terms | Any |
+
+**Decisions requiring Marcus approval**:
+| Decision type | Examples | Limit |
+|--------------|---------|-------|
+| Budget | > $1,000 | Any |
+| Contracts | Customer contracts >$10K | Any |
+| Hiring | New roles, contractors | Any |
+| Strategy | Pivots, new markets | Any |
+| Investment | External funding | Any |
+
+**Escalation triggers** (immediate escalation required):
+| Trigger | Action |
+|---------|--------|
+| Customer complaint (ASQA) | Slack + call Kham within 2 hrs |
+| Competitive threat (Study Buddy) | Slack + call Marcus within 4 hrs |
+| Technical outage (>1 hr) | Slack + call Kham immediately |
+| Key team member leaving | Slack + call Marcus within 24 hrs |
+| Revenue below target by 20%+ | Discuss at next weekly |
+
+### 100-Day Plan Communication (Day 1-100)
+
+**Before Day 100** (up to August 7):
+| Date | Communication | Audience |
+|------|--------------|----------|
+| June 28 | 12-24 month strategy draft | Marcus + Kham |
+| July 7 | Mid-point progress update | Marcus + Kham |
+| July 21 | Hader go-live check-in | Marcus |
+| July 28 | Pre-deliverable review | Kham |
+| August 5 | Final dry run | Marcus + Kham |
+
+**On Day 100** (August 7):
+| Time | Activity | Owner |
+|------|---------|-------|
+| Morning | Present to Marcus + Kham | Steven |
+| Afternoon | Document Q&A responses | Steven |
+| End of day | Send written summary | Steven |
+
+**After Day 100** (ongoing):
+| Communication | Frequency | Channel |
+|--------------|-----------|--------|
+| Progress vs. 100-day plan | Monthly | Slack |
+| Strategy execution update | Quarterly | Board meeting |
+| Milestone achievements | As achieved | Slack + LinkedIn |
+
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up weekly Slack update template (Monday 9am) — by June 7, 2026
+- [ADDED] Create Google Sheet metrics dashboard (share with Marcus + Kham) — by June 7, 2026
+- [ADDED] Schedule recurring weekly update (Monday 9am) — by June 7, 2026
+- [ADDED] Draft board meeting agenda template — by June 14, 2026
+- [ADDED] Schedule first quarterly review (Q3 2026) — by June 14, 2026
+- [ADDED] Create decision framework document (share with Marcus + Kham) — by June 14, 2026
+- [ADDED] Set up Google Alert for Study Buddy AI (escalation trigger) — immediate
+- [ADDED] Plan June 28 update (12-24 month strategy) — by June 21, 2026
+- [ADDED] Schedule pre-100-day check-ins (July 7, July 21, July 28) — by June 21, 2026
+
+### Sources
+- Board meeting best practices: a16z founder guides (2026)
+- Investor communication: OpenView Partners (2026)
+- Decision frameworks: Bain decision audit (2026)
+
+---
+
+
+*End of Cycle 124 refinement. Gap filled: Update cadence (daily/weekly/monthly/quarterly), board meeting structure (60-min agenda, pre-reads), metrics by audience (Marcus/Kham/both), decision-making framework (Steven/Kham/Marcus levels), escalation triggers, 100-day communication plan (Day 1-100), ongoing communication structure.*
+
