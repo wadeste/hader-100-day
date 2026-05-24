@@ -4785,6 +4785,63 @@ To build product brand equity while maintaining company brand:
 
 ---
 
+### Refinement — 2026-05-24 (AI Course Curriculum)
+### Gap identified: AI courses missing specific curriculum, tools to include, and launch timeline
+
+**Original finding**: "Speed-to-market beats accreditation prestige" and "No dedicated AI qualification exists in Australia" — no specific curriculum outline, no AI tools list, no launch timeline.
+
+**Refined findings**:
+
+**Recommended course: "AI Tools for RTO Enrollment"**:
+- Format: Non-accredited short course, 8-12 hours, $299-399/person
+- Target: Enrollment managers, admin staff at RTOs
+- Launch: August 2026 (4-8 week build)
+
+**6-module curriculum outline**:
+| Module | Topic | Hours | Core Tools |
+|--------|-------|-------|------------|
+| 1 | AI Fundamentals for RTOs | 2 | ChatGPT, Claude |
+| 2 | ChatGPT for Administration | 3 | ChatGPT, Claude |
+| 3 | Voice AI for Enrollment | 2 | Conceptual only |
+| 4 | AI for Marketing | 2 | Canva AI, Jasper |
+| 5 | AI for Compliance | 2 | Document AI |
+| 6 | Implementation Planning | 2 | Strategy framework |
+
+**AI tools to include**:
+- Must-have: ChatGPT (free), Claude (free), Canva AI (free tier)
+- Nice-to-have: Midjourney ($10/mo), Jasper ($49/mo)
+- Avoid: Midjourney prompt engineering (too technical)
+
+**Revenue model**:
+| Metric | Conservative | Target | Optimistic |
+|--------|-------------|--------|------------|
+| Students/month | 5 | 10 | 20 |
+| Price | $299 | $399 | $499 |
+| Monthly revenue | $1,495 | $3,990 | $9,980 |
+
+**Flywheel value**: 10 students/month × 10% SaaS conversion = 1 new customer/month × $24k ARR = $24k ARR pipeline
+
+**Launch timeline**:
+| Phase | Action | Timeline |
+|-------|--------|----------|
+| Week 1-2 | Content development | June |
+| Week 3-4 | Platform setup (Teachable/Thinkific) | June |
+| Week 5-6 | Beta launch with Marcus's network | July |
+| Week 7-8 | Full public launch | August |
+| Q4 2026 | Apply for AI skill set accreditation | Q4 |
+
+**Actions added**:
+- [ADDED] Confirm Hader scope with Marcus (BSB/ICT units?) — by June 7, 2026
+- [ADDED] Choose platform: Teachable vs. Thinkific — by June 14, 2026
+- [ADDED] Build Module 1-3 content (50% of curriculum) — by June 28, 2026
+- [ADDED] Beta launch with 5-10 students — July 2026
+- [ADDED] Full launch — August 2026
+- [ADDED] Apply for AI skill set accreditation — Q4 2026
+
+**Key insight**: Course revenue is modest ($3,990/month target), but SaaS pipeline value is $24k ARR/month at 10% conversion. This is demand generation disguised as education.
+
+---
+
 ## Refinement — 2026-05-24 (Discovery Interview Privacy)
 ### Gap identified: Discovery interviews cannot proceed without understanding privacy requirements for recording, consent, and data storage
 
