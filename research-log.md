@@ -3790,3 +3790,137 @@ Based on B2B SaaS benchmarks and education vertical:
 - Discovery interview best practices: hubspot.com/sales/discovery-questions (2026)
 - Lead scoring frameworks: salesforce.com/blog/lead-scoring (2026)
 - RTO decision-maker mapping: industry knowledge and LinkedIn research
+
+---
+
+## Refinement — 2026-05-24 (Cycle 43)
+### Gap identified: Proof of concept design missing specific metrics, success criteria, POC structure, and Hader-specific measurement plan
+
+**Original finding**: "Proof of concept design — Research what a compelling POC looks like for each product line. For the orientation call robot: what metrics prove value (call handling rate, conversion lift, time saved)? For the attribution dashboard: what reporting gaps does it fill?" Previous research defined metrics but missing: success criteria thresholds, POC structure (what to demo, how long), and Hader-specific measurement plan.
+
+**Why this matters**: POC is the first real validation of product-market fit. Need specific success criteria (what "good" looks like), measurement plan (how to track), and go/no-go decision framework.
+
+### POC Success Criteria by Product
+
+**Orientation Call Robot POC**:
+- Duration: 4-8 weeks (parallel run with human staff)
+- Goal: Demonstrate 60%+ containment rate, same or better lead quality
+
+| Metric | Target | Minimum | Red flag |
+|--------|--------|---------|----------|
+| Containment rate | 70%+ | 60% | <50% (AI not working) |
+| Call handling rate | 95%+ | 90% | <85% (calls dropped) |
+| Lead quality (conversion) | Same as human | -5% | -10%+ (AI hurting conversion) |
+| Time to answer | <3 sec | <10 sec | >15 sec (too slow) |
+| Escalation rate | 10-20% | <30% | >40% (AI not handling enough) |
+| USI collection rate | 90%+ | 80% | <70% (compliance issue) |
+| Caller satisfaction | 4+/5 | 3.5/5 | <3/5 (bad experience) |
+
+**POC measurement plan**:
+- Week 1-2: Track call volume, containment, escalations (daily)
+- Week 3-4: Track lead quality (conversion to enrollment vs. human baseline)
+- Week 5-6: Track time savings (staff survey on call time)
+- Week 7-8: Calculate ROI (time saved + leads generated)
+
+**Go/no-go decision**:
+- Go: Containment 60%+, lead quality within 5% of human, no compliance issues
+- No-go: Containment <50%, lead quality down >10%, USI collection <70%
+- Iterate: Containment 50-60%, lead quality down 5-10% — fix script, re-test
+
+### Attribution Dashboard POC:
+- Duration: 4-8 weeks (integrate, compare to current reporting)
+- Goal: Show marketing source → enrollment mapping (something current tools don't show)
+
+| Metric | Target | Minimum | Red flag |
+|--------|--------|---------|----------|
+| Lead source data coverage | 90%+ | 75% | <60% (data gaps) |
+| Attribution accuracy | 95%+ | 85% | <75% (wrong data) |
+| Enrollment source identified | 80%+ | 60% | <50% (attribution failing) |
+| ROAS visibility | Yes | Yes | No (tool not working) |
+| Time to dashboard ready | <1 week | <2 weeks | >3 weeks (integration too complex) |
+
+**POC measurement plan**:
+- Week 1: UTM tagging implemented, data flowing
+- Week 2: Zoho sync working, lead source captured
+- Week 3-4: First attribution report generated
+- Week 5-8: Compare to current reporting, identify gaps filled
+
+**Go/no-go decision**:
+- Go: 75%+ lead source coverage, attribution accuracy 85%+, marketing team can use dashboard
+- No-go: <60% coverage, <75% accuracy, too complex for non-technical users
+
+### TAZ Review Tool POC:
+- Duration: 2-4 weeks (internal testing with existing TAZs)
+- Goal: Demonstrate AI can catch compliance issues human reviewers miss
+
+| Metric | Target | Minimum | Red flag |
+|--------|--------|---------|----------|
+| Issue detection rate | 80%+ | 70% | <60% (AI not finding issues) |
+| False positive rate | <20% | <30% | >40% (too many wrong flags) |
+| Time to review | <10 min | <20 min | >30 min (slower than human) |
+| Compliance report quality | "Useful" | "Adequate" | "Not useful" (waste of time) |
+| Integration usability | "Easy" | "Okay" | "Difficult" (won't use) |
+
+**POC measurement plan**:
+- Week 1: Upload 10 TAZ documents, review AI output
+- Week 2: Compare AI findings to human expert review (precision/recall)
+- Week 3-4: Refine based on feedback, generate sample compliance reports
+
+**Go/no-go decision**:
+- Go: 70%+ issue detection, <30% false positives, reviewers find useful
+- No-go: <60% detection, >40% false positives, reviewers find frustrating
+
+### POC Structure for Each Product
+
+**Orientation Call Robot POC structure**:
+1. **Week 1-2**: Technical setup (VAPI, script, Zoho integration)
+2. **Week 3-4**: Parallel run (AI + human, AI captures all calls)
+3. **Week 5-6**: Human reviews 10% of AI calls (QA)
+4. **Week 7-8**: Analyze data, calculate ROI, decide
+
+**Attribution Dashboard POC structure**:
+1. **Week 1**: UTM setup, data layer implementation
+2. **Week 2**: Zoho sync, Google Ads integration
+3. **Week 3-4**: First attribution report, marketing team review
+4. **Week 5-8**: Compare to current tools, document gaps filled
+
+**TAZ Review Tool POC structure**:
+1. **Week 1**: Tool setup, upload 20 sample TAZs
+2. **Week 2**: AI review, compare to human expert review
+3. **Week 3-4**: Refine, generate sample compliance reports
+
+### Hader-Specific POC Measurement Plan
+
+**What to measure at Hader (orientation robot)**:
+
+| Metric | How to measure | Data source | Frequency |
+|--------|---------------|-------------|-----------|
+| Call volume | Total inbound calls | VAPI dashboard | Weekly |
+| Containment rate | AI handled / total calls | VAPI dashboard | Weekly |
+| Escalation rate | Escalations / total calls | VAPI + Zoho | Weekly |
+| Lead quality | Calls converted to enrollments | Zoho (AI leads vs. human leads) | Monthly |
+| Time savings | Staff reported hours on calls | Survey (weekly) | Weekly |
+| USI collection | USI captured / total enrollments | Zoho | Monthly |
+| Caller satisfaction | 1-question survey at call end | VAPI (post-call survey) | Monthly |
+| Revenue impact | Enrollment revenue attributed to AI leads | Zoho + attribution | Monthly |
+
+**Hader baseline needed (before POC)**:
+- Current weekly call volume: [Get from Marcus]
+- Current enrollment conversion rate: [Get from Marcus]
+- Staff time on calls: [Get from Marcus]
+- Current call handling rate (answered vs. missed): [Get from Marcus]
+
+### Actions for Steven
+
+- [ADDED] Define success criteria thresholds for orientation robot POC (60%+ containment, -5% lead quality max) — by June 28, 2026
+- [ADDED] Create Hader measurement plan (8 metrics, weekly tracking) — by June 28, 2026
+- [ADDED] Build go/no-go decision framework for each POC (3 outcomes: go, no-go, iterate) — by June 28, 2026
+- [ADDED] Get Hader baseline data (call volume, conversion, staff time) from Marcus — by June 7, 2026
+- [ADDED] Set up VAPI dashboard metrics (containment, escalation, USI collection) — by July 7, 2026
+- [ADDED] Create weekly reporting template (POC progress report) — by July 7, 2026
+- [ADDED] Schedule POC review at week 4 (go/no-go decision) and week 8 (final assessment) — by July 21, 2026
+
+**Sources**:
+- POC best practices: pmmf.io/blog/proof-of-concept (2026)
+- SaaS metrics: a16z.com/saas-metrics (2026)
+- Hader measurement: industry standard and context
