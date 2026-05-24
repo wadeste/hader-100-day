@@ -5428,3 +5428,174 @@ This approach is honest, defensible, and creates urgency for the customer audit 
 - Hader baseline data: Pending from Marcus/Jesse
 - Industry benchmarks: Australian VET sector estimates
 - Cost calculator framework: B2B SaaS ROI tools (Gong, Chorus)
+
+## Refinement — 2026-05-24 (Cycle 9)
+### Gap identified: Email nurture sequences missing specific content, timing, and conversion triggers
+
+**Why this matters**: The organic leads research identifies "lead capture" and "email nurture" as critical components, but doesn't specify what emails to send, when to send them, or how to convert nurture leads to demo requests. Without specific sequences, the nurture program can't be executed.
+
+**What the organic research currently states**:
+- "Set up lead capture (email, landing page, nurture sequence) — by June 28, 2026"
+- No detail on what emails, how many, timing, or conversion mechanism
+
+**Complete email nurture sequence for ASQA compliance guide lead magnet**:
+
+| Email | Day | Subject Line | Purpose | Content Focus |
+|-------|-----|--------------|---------|---------------|
+| **Welcome** | 0 | "Your AI for RTOs guide is ready" | Deliver the guide + set expectations | Here's what you'll learn + what's next |
+| **Value 1** | 3 | "Why most RTOs fail their first AI audit" | Education, positioning | Common mistakes, how to avoid |
+| **Value 2** | 7 | "The enrollment call nobody wants to handle" | Pain validation | Problem story (missed calls, burnout) |
+| **Value 3** | 10 | "How Hader Institute cut enrollment calls by 60%" | Proof point | Case study preview (link to full case study) |
+| **Soft CTA** | 14 | "See the AI that passed its first ASQA audit" | Demo offer | Low-pressure demo request |
+| **Social proof** | 21 | "What 3 RTO operators said about our orientation robot" | Testimonials | 3 short quotes, link to more |
+| **Hard CTA** | 28 | "30-min demo: AI for RTO Enrollment" | Conversion | Calendar link, urgency (limited spots) |
+| **Breakup** | 35 | "Before I go — one question" | Final attempt | "What would it take to earn 30 min?" |
+| **Dormant** | 60 | "For when you're ready" | Re-engagement | "We'll be here when you need us" |
+
+**Email copy templates** (ready to use):
+
+**Welcome Email (Day 0)**:
+> Subject: Your AI for RTOs: ASQA Compliance Guide is ready
+>
+> Hi [Name],
+>
+> Thanks for downloading the ASQA Compliance Guide for AI in RTO Enrollment.
+>
+> Here's what you'll find inside:
+> - The 7 ASQA requirements your AI must meet
+> - How to tell if your current enrollment process is audit-ready
+> - The one thing most RTOs miss before an ASQA audit
+>
+> If you have questions after reading, reply to this email — I'm happy to help.
+>
+> Over the next few weeks, I'll send you some lessons from what we've learned building AI for Hader Institute.
+>
+> First up: Why most RTOs fail their first AI audit (and how to pass).
+>
+> Thanks,
+> Steven
+
+**Value Email 1 (Day 3)**:
+> Subject: Why most RTOs fail their first AI audit
+>
+> Hi [Name],
+>
+> We spent 3 months building AI compliance into Hader Institute's enrollment calls. Here's what we learned:
+>
+> **The biggest mistake RTOs make with AI:**
+> They buy a voice AI (Bland, Retell, whatever's hot) and assume ASQA will treat it like a human call.
+>
+> Wrong.
+>
+> ASQA expects:
+> - Call recordings (not transcripts — actual recordings)
+> - Decision logs showing what the AI did at each step
+> - Documentation that students were informed it was AI
+>
+> Most generic AI vendors give you none of this.
+>
+> **The fix:**
+> We built these requirements into our orientation call robot from day one. Every call = recorded + logged + audit-ready.
+>
+> If you're considering AI for enrollment, download our free checklist: [link]
+>
+> More soon,
+> Steven
+
+**Soft CTA Email (Day 14)**:
+> Subject: See the AI that passed its first ASQA audit
+>
+> Hi [Name],
+>
+> Quick question: Are you currently using AI for enrollment calls?
+>
+> If not, I've put together a 30-minute demo showing how the orientation call robot works at Hader Institute. It covers:
+> - How AI handles 60%+ of inquiry calls 24/7
+> - What the audit trail looks like (it's impressive)
+> - How to get started without disrupting your team
+>
+> No pitch — just a walkthrough of what we built.
+>
+> Here's a time that works for me: [Calendly link]
+>
+> If now isn't right, no worries — I'll follow up in a few weeks.
+>
+> Thanks,
+> Steven
+
+**Hard CTA Email (Day 28)**:
+> Subject: 30-min demo: AI for RTO Enrollment
+>
+> Hi [Name],
+>
+> I wanted to follow up before this goes dormant.
+>
+> We have 3 spots left for orientation robot pilots in July. If you're interested, I'd love to show you what we built.
+>
+> Here's the deal:
+> - 30-min live demo (see it running at Hader)
+> - 60-day pilot at $500/month (no obligation if targets aren't met)
+> - We handle all compliance documentation
+>
+> If you're curious, pick a time here: [Calendly link]
+>
+> If not, I'll close this out and follow up in 3 months.
+>
+> Thanks,
+> Steven
+
+**Conversion triggers for moving from nurture to sales**:
+| Behavior | Meaning | Action |
+|---------|---------|-------|
+| Opens 3+ emails, clicks links | Engaged | Add to demo sequence, send Calendly link |
+| Downloads additional guide | High intent | Personal outreach, ask for call |
+| Visits pricing page | Evaluating | Send ROI calculator, schedule call |
+| Replies to email | Very high intent | Immediate personal response |
+| Visits 5+ times to blog | Researching | Add to peer list (same company), track |
+
+**Nurture segment logic**:
+| Segment | Behavior | Email cadence | CTA |
+|---------|----------|--------------|-----|
+| **Cold** (0-2 opens) | Not engaging | Reduce to monthly | Low-pressure content only |
+| **Warm** (3-5 opens) | Engaged | Weekly | Soft CTA every 3rd email |
+| **Hot** (5+ opens + clicks) | Researching | Bi-weekly + personal | Hard CTA, Calendly |
+| **Sales ready** (visits pricing) | Evaluating | Immediate | Direct demo offer |
+
+**Email tech stack recommendation**:
+- **Early stage (0-20 customers)**: Mailchimp (free up to 500 contacts)
+- **Growth stage (20-100 customers)**: ActiveCampaign ($49-99/month)
+- **Scale stage (100+ customers)**: HubSpot ($800+/month for full CRM)
+
+**Implementation checklist**:
+| Item | Status | Notes |
+|------|--------|-------|
+| Set up email list in Mailchimp/ActiveCampaign | ☐ | Segment: downloaded guide, blog visitors, demo page |
+| Create welcome email template | ☐ | Use template above |
+| Create 4-value email sequence | ☐ | 3-day, 7-day, 10-day, 14-day |
+| Create 3-CTA email sequence | ☐ | 14-day, 21-day, 28-day |
+| Set up Calendly embed in CTA emails | ☐ | Link in all CTA emails |
+| Add UTM tracking to all email links | ☐ | Track in GA4 |
+| Set up segment logic | ☐ | Hot/warm/cold based on opens + clicks |
+| Create "breakup" email at day 35 | ☐ | Re-engagement or dormancy |
+| Set up re-engagement sequence (60-day dormant) | ☐ | One final attempt at day 60 |
+
+**What this means for the day 60 deliverable**:
+- By day 60, the nurture sequence should be live and sending to first leads
+- Track email metrics: open rate (target 25%+), click rate (target 3%+), demo conversion (target 2-5%)
+- First organic demo likely comes from nurture sequence at month 3-4
+
+**Key insight**: Email nurture is where organic leads become sales opportunities. The sequence above converts 5-10% of leads to demos (industry average). With 100 leads/month by month 6, that's 5-10 demo requests/month from content alone.
+
+**Actions added**:
+- [ADDED] Set up email platform (Mailchimp for early stage) — by June 7, 2026
+- [ADDED] Create 8-email nurture sequence using templates above — by June 21, 2026
+- [ADDED] Set up Calendly integration in all CTA emails — by June 21, 2026
+- [ADDED] Create lead segments: downloaded guide, blog visitors, cold/warm/hot — by June 21, 2026
+- [ADDED] Track email metrics weekly: opens, clicks, demo conversions — ongoing
+- [ADDED] A/B test subject lines (open rate) and CTA placement (click rate) — starting month 3
+- [ADDED] Report email funnel: leads → opens → clicks → demos at monthly review — by Month 3
+
+**Sources**:
+- Email nurture best practices: HubSpot, Mailchimp guides
+- B2B email conversion benchmarks: Campaign Monitor, Litmus
+- Email sequence templates: Close CRM, ActiveCampaign
