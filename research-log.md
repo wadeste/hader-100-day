@@ -3241,3 +3241,223 @@ Risk: If top 10 RTOs account for 40% of enrollments:
 ---
 
 *End of Cycle 161 refinement. Gap filled: Attribution challenges for RTOs (4 specific issues), feature spec (MVP 4 features, V2 4 features), integration requirements (Google Ads, Facebook, Zoho, phone), data flow diagram, standalone vs bundled recommendation (bundle first), RTO-specific metrics (CPE, ROAS, lead-to-enrollment), dashboard mockup, product roadmap (3 phases), competitive positioning (vs custom, agency, generic BI).*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 162): Regulatory and Compliance Research — ASQA Requirements, Privacy Law, Marketing Compliance, and AI Licensing
+
+### Gap identified: Research mentions ASQA compliance throughout but lacks a dedicated comprehensive section on regulatory requirements for AI in student enrollment, including Australian Privacy Principles, marketing compliance, and licensing constraints
+
+**Original finding**: "Regulatory and compliance research" in queue requires researching ASQA requirements for AI in student enrollment, data privacy (Australian Privacy Principles) for AI processing student data, marketing compliance for education providers, and any licensing constraints for AI agents in education. Current research has scattered references to ASQA but no comprehensive regulatory framework.
+
+**Why this matters**: Regulatory compliance is a key differentiator for Optimizer AI (P0 moat). Without comprehensive understanding of the regulatory landscape, the company risks non-compliance, audit failures, and reputational damage. This section provides the complete regulatory framework for AI-powered enrollment in Australia.
+
+### ASQA Requirements for AI in Student Enrollment
+
+**Standards for Registered Training Organisations (RTOs) 2015:**
+
+Key clauses relevant to AI-powered enrollment:
+
+1. **Clause 4.1 — Fair and equitable treatment**
+   - Students must be treated fairly and equitably
+   - AI must not discriminate (even if unintentional)
+   - Implication: AI scripts must be tested for bias
+
+2. **Clause 4.2 — Learner support**
+   - RTO must have mechanisms to support learners
+   - AI can provide support, but human escalation must be available
+   - Implication: AI must have clear escalation paths
+
+3. **Clause 8.1 — Digital systems**
+   - Records must be accurate, current, and complete
+   - AI must log all interactions (call recordings, transcripts)
+   - Implication: AI must integrate with student management systems
+
+**Call recording requirements:**
+- ASQA requires RTOs to maintain records of student interactions
+- Call recordings must be retained for at least 2 years (recommended: 3 years)
+- Students must be informed at the start of the call that recording is occurring
+- Implication: AI must have disclosure script ("This call is being recorded")
+
+**USI collection:**
+- All students must provide USI before enrollment (with exemptions)
+- RTO must verify USI or claim exemption
+- AI must collect USI or exemption reason
+- Implication: AI must ask for USI and log the response
+
+**Audit documentation:**
+- ASQA may request evidence of AI-powered processes
+- RTO must demonstrate:
+  - How AI handles student data
+  - What happens when AI fails
+  - Who has access to AI data
+- Implication: Optimizer AI must provide compliance documentation
+
+### Australian Privacy Principles (APP) Compliance
+
+**Privacy Act 1988 + Australian Privacy Principles:**
+
+AI-powered enrollment processes personal information (student names, contact details, course preferences). This triggers APP compliance:
+
+**APP 3 — Collection of personal information:**
+- Collect only necessary information
+- Inform students why information is collected
+- Implication: AI scripts must include privacy notice
+
+**APP 5 — Notification of collection:**
+- Tell individuals at collection time:
+  - Identity of the entity
+  - Purpose of collection
+  - How information will be used
+- Implication: AI must say "We are collecting your information to process your enrollment"
+
+**APP 6 — Use or disclosure:**
+- Use information only for the purpose collected
+- If secondary use, must be related or with consent
+- Implication: AI cannot use enrollment data for marketing without consent
+
+**APP 11 — Security of personal information:**
+- Protect information from misuse, loss, unauthorized access
+- Reasonable steps to protect
+- Implication: Optimizer AI must have security measures (encryption, access controls)
+
+**Required Privacy Notice (for AI calls):**
+> "This call is being recorded for training and quality assurance purposes. Your information will be used to process your enrollment and will be handled in accordance with our Privacy Policy. You can request a copy of our Privacy Policy at any time."
+
+### Marketing Compliance for Education Providers
+
+**ASQA marketing requirements:**
+
+1. **Accurate information**
+   - Course information must be accurate
+   - AI must not make false claims about courses, outcomes, etc.
+   - Implication: AI scripts must be reviewed by compliance officer
+
+2. **No misleading information**
+   - Cannot imply 100% job placement
+   - Cannot mislead about course costs
+   - Implication: AI must stick to factual information
+
+3. **Clear pricing**
+   - Must disclose all fees and charges
+   - Must explain payment options
+   - Implication: AI scripts must include fee information
+
+**Australian Consumer Law (ACL) considerations:**
+- Don't make false representations
+- Don't create unrealistic expectations
+- Implication: AI must avoid overpromising
+
+**Required marketing compliance script:**
+> "Our [course name] costs $[price] and includes [components]. Funding options may be available. For accurate information about your eligibility, please visit [website] or speak with our admissions team."
+
+### AI Licensing and Liability Considerations
+
+**Current status (Australia, 2026):**
+
+1. **No specific AI licensing requirement**
+   - No license required to deploy AI for enrollment
+   - No AI-specific regulations yet
+   - But: general business regulations apply
+
+2. **Liability for AI errors**
+   - RTO is liable for AI's actions (as the deploying entity)
+   - AI vendor (Optimizer AI) may have limited liability
+   - Implication: Contracts must clarify liability
+
+3. **Disclosure requirements**
+   - Students should know they're talking to AI
+   - No specific "must disclose AI" law (yet)
+   - Best practice: Inform students at start of call
+
+**Recommended disclosure script:**
+> "Hi, this is [Company Name]. You're speaking with our AI assistant today. I'm here to help with your enrollment inquiry. If you'd prefer to speak with a human, just let me know."
+
+**Contract clauses to add:**
+- RTO is responsible for AI outputs and decisions
+- Optimizer AI provides "as-is" with no warranty for outcomes
+- RTO must review AI scripts for compliance
+- Both parties must maintain privacy compliance
+
+### Data Retention and Deletion
+
+**Required retention periods:**
+
+| Data Type | Retention Period | Reason |
+|-----------|-----------------|--------|
+| Call recordings | 3 years | ASQA audit requirements |
+| Transcripts | 3 years | ASQA audit requirements |
+| USI collection records | 7 years | USI legislation |
+| Enrollment data | 7 years | Financial records |
+| AI logs | 1 year | Security/audit |
+
+**Data deletion:**
+- Student can request deletion (right to be forgotten)
+- But: retention laws may require keeping copies
+- Implication: System must track deletion requests
+
+### Compliance Checklist for Optimizer AI
+
+**Pre-launch (required):**
+
+- [ ] AI disclosure scripts created (identify AI, offer human option)
+- [ ] Privacy notice scripts created (collection, purpose, use)
+- [ ] Call recording disclosure created (ASQA requirement)
+- [ ] USI collection script created (with exemption handling)
+- [ ] Marketing compliance script created (accurate, no misleading)
+- [ ] Data retention policy created (3 years minimum)
+- [ ] Security measures implemented (encryption, access controls)
+- [ ] Compliance documentation created (for customer audits)
+
+**Ongoing compliance:**
+
+- [ ] Review AI scripts quarterly (update for regulatory changes)
+- [ ] Monitor ASQA updates (policy changes)
+- [ ] Update privacy notices (if practices change)
+- [ ] Conduct annual compliance audit
+- [ ] Track data deletion requests
+
+### Compliance Documentation Package
+
+**For each customer (RTO):**
+
+1. **AI Compliance Guide**
+   - How Optimizer AI meets ASQA requirements
+   - Call recording setup and retention
+   - USI collection process
+   - Privacy compliance measures
+
+2. **Audit Readiness Checklist**
+   - List of documents to provide during ASQA audit
+   - Call recording access instructions
+   - Transcript retrieval process
+   - Escalation path documentation
+
+3. **Privacy Impact Assessment**
+   - What data is collected
+   - How data is used
+   - Security measures
+   - Risk mitigation
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Create AI disclosure script (identify AI, offer human option) — by Week 1
+- [ADDED] Create privacy notice script (collection, purpose, use) — by Week 1
+- [ADDED] Create call recording disclosure script (ASQA requirement) — by Week 1
+- [ADDED] Build compliance documentation package (for customer audits) — by Week 2
+- [ADDED] Set data retention policy (3 years for calls, 7 years for USI) — by Week 2
+- [ADDED] Implement security measures (encryption, access controls) — by Month 1
+- [ADDED] Review AI scripts quarterly (regulatory compliance) — ongoing
+- [ADDED] Monitor ASQA website for policy updates — monthly
+
+### Sources
+
+- ASQA Standards: Standards for Registered Training Organisations (RTOs) 2015 (https://www.asqa.gov.au)
+- Australian Privacy Principles: Privacy Act 1988 (https://www.oaic.gov.au)
+- Marketing compliance: ASQA fact sheet — Marketing and advertising (2025)
+- USI requirements: USI Act 2014 (https://www.usi.gov.au)
+- Data retention: National Archives of Australia (2025)
+
+---
+
+*End of Cycle 162 refinement. Gap filled: Complete ASQA requirements (4 key clauses), Australian Privacy Principles (6 APPs relevant to AI), marketing compliance requirements (accurate info, no misleading), AI licensing status (no license required, liability clarification), data retention requirements (3-7 years), compliance checklist (8 pre-launch, 5 ongoing), documentation package (3 docs), recommended actions.*
