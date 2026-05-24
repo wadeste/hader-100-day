@@ -3568,3 +3568,206 @@ The task queue mentions "government funding eligibility" and RTO financial model
 
 *End of Cycle 206 refinement. Gap filled: No government funding research existed in research-log.md. Added 3 funding types (VET Student Loans, state subsidies, other), funding inquiry AI flows (5 common questions), RTO funding compliance requirements, funding impact on AI courses (Hader), market size implications, 10 recommended actions for Steven.*
 
+
+---
+
+## Refinement — 2026-05-24 (Cycle 207): Implementation Timeline and KPI Framework — Consolidated Success Metrics, Milestones, and Review Cadence
+
+### Gap identified
+The research-log.md contains scattered KPIs and milestones across multiple cycles (GTM channel, CAC model, 100-day plan), but lacks a consolidated implementation timeline with clear success metrics, review cadence, and accountability framework. This makes it difficult for Marcus/Kham to track progress and for Steven to prioritize.
+
+
+**Original finding**: "100-Day Plan Synthesis" (Cycle 201) mentions milestones and success metrics, but "Customer acquisition cost modelling" (Cycle 196) has separate CAC targets, "GTM channel strategy" (Cycle 193) has channel-specific metrics. None provides a unified implementation tracking framework.
+
+
+**Why this matters**: Without a consolidated KPI framework, Optimizer AI risks: missing critical milestones, unclear accountability for results, inability to track what's working vs. not working, and no early warning system for problems.
+
+
+### Consolidated Implementation Timeline (Month 1-12)
+
+
+**Phase 1: Foundation (Month 1-2)** — Build the engine
+| Week | Milestone | Owner | Success Metric | Status |
+|------|-----------|-------|----------------|--------|
+| Week 1 | Baseline metrics tracked (Hader) | Steven | Baseline call answer rate, conversion rate documented | |
+| Week 1 | Referral program launched | Steven | 3 warm intros requested from Marcus/Kham | |
+| Week 1 | Demo calendar set up | Steven/Kham | Calendly or Zoho booking linked | |
+| Week 2 | Prospect list (50 highest-fit RTOs) | Steven | 50 RTOs with contact info in CRM | |
+| Week 2 | LinkedIn profile optimized (Steven) | Steven | Profile updated with Optimizer AI positioning | |
+| Week 2 | Funding inquiry scripts built | Kham | AI handles VET Student Loans, subsidies | |
+| Week 3 | First 5 discovery calls scheduled | Steven | 5 calls completed | |
+| Week 4 | First demo given | Steven | 1 demo with qualified prospect | |
+| Month 2 | First external customer (target) | Steven | Signed contract, first payment | |
+| Month 2 | Attribution dashboard MVP spec | Kham | Spec approved by Marcus/Kham | |
+| Month 2 | LinkedIn paid campaign launched | Steven | First 10 leads from paid ads | |
+
+**Phase 2: Traction (Month 3-4)** — Prove it works
+| Week | Milestone | Owner | Success Metric | Status |
+|------|-----------|-------|----------------|--------|
+| Month 3 | 3 external customers | Steven | $2,997-5,997 MRR | |
+| Month 3 | 20 discovery calls completed | Steven | 20 calls logged in CRM | |
+| Month 3 | Hadar case study drafted | Steven | 1-page case study with metrics | |
+| Month 3 | 5 RTO consultants contacted | Steven | 2 agreed to referral partnership | |
+| Month 4 | 5 external customers | Steven | $5,000-10,000 MRR | |
+| Month 4 | First partner referral generated | Steven | 1 customer from referral | |
+| Month 4 | Attribution dashboard Phase 1 live | Kham | Unique phone numbers tracking calls | |
+| Month 4 | State RTO event attended | Steven | 20 new contacts, 2 follow-ups | |
+
+**Phase 3: Scale (Month 5-8)** — Accelerate growth
+| Month | Milestone | Owner | Success Metric | Status |
+|------|-----------|-------|----------------|--------|
+| Month 5 | 10 customers | Steven | $10,000-20,000 MRR | |
+| Month 5 | 2 case studies (Hadar + 1 external) | Steven | Published on website | |
+| Month 6 | 15 customers | Steven | $15,000-30,000 MRR | |
+| Month 6 | Zoho partner relationship established | Steven | 1 partner referring clients | |
+| Month 6 | Attribution dashboard Phase 2 | Kham | Visual dashboard live | |
+| Month 7 | 20 customers | Steven | $20,000-40,000 MRR | |
+| Month 7 | LinkedIn content flywheel running | Steven | 3 posts/week, 100+ engagement | |
+| Month 8 | 25 customers | Steven | $25,000-50,000 MRR | |
+| Month 8 | Year 1 target: 30-50 customers on track? | All | Review and adjust if behind | |
+
+**Phase 4: Optimization (Month 9-12)** — Make it repeatable
+| Month | Milestone | Owner | Success Metric | Status |
+|------|-----------|-------|----------------|--------|
+| Month 9 | 30 customers | Steven | $30,000-60,000 MRR | |
+| Month 9 | Channel performance review | Steven | Kill low-ROI channels, double winners | |
+| Month 10 | 40 customers | Steven | $40,000-80,000 MRR | |
+| Month 10 | Price increase test ($999→$1,099) | Steven | Conversion rate maintained? | |
+| Month 11 | 50 customers | Steven | $50,000-100,000 MRR | |
+| Month 11 | Year 2 planning initiated | Marcus/Kham/Steven | Resource requirements planned | |
+| Month 12 | 60 customers | Steven | $60,000-120,000 MRR | |
+| Month 12 | Year 1 review with Marcus/Kham | All | ARR target achieved, plan Year 2 | |
+
+### Success Metrics Dashboard
+
+**Financial KPIs (track monthly)**:
+| Metric | Month 1 Target | Month 6 Target | Month 12 Target | Y1 Total |
+|--------|--------------|---------------|----------------|---------|
+| Customers | 1-2 | 15-20 | 50-60 | 50-60 |
+| MRR | $1K-2K | $15K-20K | $50K-60K | — |
+| ARR | — | — | — | $600K-720K |
+| Churn | 0% | <5% | <10% | <15%/year |
+| CAC | <$3,000 | <$2,500 | <$2,000 | — |
+| LTV:CAC | >10:1 | >12:1 | >15:1 | — |
+
+**Operational KPIs (track weekly)**:
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Discovery calls/week | 3-5 | Lead pipeline health |
+| Demos/week | 1-2 | Conversion funnel |
+| Demo-to-close rate | 25-30% | Sales effectiveness |
+| Lead response time | <4 hours | Lead quality preservation |
+| Demo no-show rate | <20% | Appointment effectiveness |
+| Partner referrals/month | 1-2 | Channel diversification |
+
+**Product KPIs (track monthly)**:
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Call containment rate | >70% | AI handles most calls |
+| Call answer rate | >95% | No missed calls |
+| Enrollment conversion rate | >25% | Calls → enrollments |
+| AI response accuracy | >90% | No compliance errors |
+| Customer satisfaction (CSAT) | >4/5 | Retention indicator |
+
+**Marketing KPIs (track monthly)**:
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Leads generated | 20-30/month | Lead pipeline |
+| Cost per lead | <$100 | Channel efficiency |
+| Cost per acquisition | <$2,500 | Sustainable growth |
+| LinkedIn engagement | 100+ engagements/post | Brand building |
+| Website traffic | 500+ visits/month | SEO progress |
+| Demo requests | 10-15/month | Inbound interest |
+### Review Cadence
+
+**Weekly (30 min, every Monday)**:
+- Review last week's leads, calls, demos
+- Check demo-to-close rate (any issues?)
+- Identify blocked deals (can Marcus/Kham help?)
+- Adjust channel spend if needed
+
+**Monthly (60 min, end of month)**:
+- Full KPI review: customers, MRR, churn
+- CAC analysis by channel
+- Marketing performance vs. targets
+- Product performance metrics
+- Flag issues for team discussion
+
+**Quarterly (90 min, end of Q)**:
+- Strategy review: Are we on track for annual targets?
+- Channel performance deep-dive
+- Pricing test results
+- Competitive landscape update
+- Resource planning for next quarter
+
+**Annual (Half-day, December)**:
+- Year in review: What worked, what didn't
+- Year 2 planning: Revenue targets, team needs, product roadmap
+- Budget allocation for Year 2
+- Goal setting for team
+
+### Accountability Framework
+
+**Who owns what**:
+| Area | Owner | Reports To | Review |
+|------|-------|------------|--------|
+| Sales (customer acquisition) | Steven | Marcus/Kham | Weekly |
+| Product (AI development) | Kham | Marcus | Weekly |
+| Marketing (lead generation) | Steven | Marcus/Kham | Weekly |
+| Partnerships (referrals) | Steven | Marcus/Kham | Monthly |
+| Finance (revenue tracking) | Marcus | Self/Kham | Monthly |
+| Strategy (overall) | Marcus/Kham | Self | Quarterly |
+
+**Decision escalation**:
+| Decision Type | Who Decides | Examples |
+|--------------|-------------|----------|
+| Tactical (day-to-day) | Steven | LinkedIn ad copy, email sequences |
+| Operational (strategy within plan) | Marcus/Kham | Pricing changes, channel additions |
+| Strategic (plan changes) | Marcus + Kham together | Annual targets, product pivots |
+| Financial (>limit) | Marcus + Kham | Budget overages, contract values |
+### Early Warning System — When to Adjust
+
+**Yellow flag (review this week)**:
+- Demo-to-close rate drops below 20%
+- Week with <2 demos scheduled
+- Any customer expressing churn risk
+- CAC rising above $3,500
+
+**Red flag (immediate action needed)**:
+- Month with <1 new customer
+- Demo no-show rate >40%
+- Any compliance issue flagged
+- CAC above $5,000
+
+**Green light (keep going)**:
+- Hitting 2+ new customers/month
+- Demo-to-close rate >30%
+- CAC <$2,500
+- Partner referrals generating customers
+
+### Recommended Actions for Steven
+
+- [ADDED] Build KPI dashboard in Zoho (customers, MRR, CAC, conversions) — Week 1
+- [ADDED] Set up weekly review calendar (Monday 8:30am) — Week 1
+- [ADDED] Track baseline metrics for Hader operations — Week 1-2
+- [ADDED] Build monthly reporting template (automated email to Marcus/Kham) — Month 1
+- [ADDED] Set up early warning alerts in Zoho (yellow/red flags) — Month 1
+- [ADDED] Schedule quarterly strategy reviews (Q1: April, Q2: July, Q3: Oct, Q4: Jan) — Month 1
+- [ADDED] Create accountability matrix (who owns what, who escalates to whom) — Month 1
+- [ADDED] Build "on track / off track" scorecard (green/yellow/red) — Month 2
+- [ADDED] Present monthly KPI summary to Marcus/Kham (first Monday of month) — Monthly
+- [ADDED] Schedule Year 1 annual review (December 2026) — Month 1
+
+### Sources
+
+- SaaS KPI benchmarks: OpenView Partners SaaS Benchmarks (2024)
+- Implementation milestone best practices: "The First 90 Days" by Michael Watkins (reference)
+- Weekly review cadence: OKR methodology (WhatMatters.com)
+- Early warning systems: "Scaling Up" by Verne Harnish (operational excellence)
+- KPI dashboards: Geckoboard, Grow.com SaaS dashboards (2025)
+
+
+---
+
+*End of Cycle 207 refinement. Gap filled: Scattered KPIs existed but no consolidated implementation framework. Added Month 1-12 timeline with weekly milestones, consolidated KPI dashboard (financial/operational/product/marketing), review cadence (weekly/monthly/quarterly/annual), accountability framework (who owns what), early warning system (yellow/red flags), 10 recommended actions for Steven.*
+
