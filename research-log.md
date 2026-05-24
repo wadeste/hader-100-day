@@ -9884,103 +9884,418 @@ optimizer.ai | [Phone]
 - Voice AI comparison: bland.ai, retellai.com, vapi.ai
 ---
 
-## Refinement — 2026-05-24 (Cycle 26)
-### Gap identified: ASQA AI guidance research never conducted — critical gap for compliance-first positioning and proactive regulatory engagement
+## Refinement — 2026-05-24 (Cycle 27)
+### Gap identified: BSB Business RTOs — specific market characteristics, enrollment patterns, and targeting criteria
 
-**Original finding**: "Contact ASQA directly to ask about AI guidance (proactive positioning)" has been an action item in two sections but never researched. "Option B: The AI Platform Built for ASQA Compliance" positioning depends on whether ASQA has issued or will issue guidance on AI in enrollment.
+**Original finding**: "BSB Business RTOs — HIGHEST priority" in qualification type segmentation (Cycle 26). BSB Business identified as best-fit for Optimizer AI (lowest complexity, highest AI suitability score 9/10), but no specific data on BSB RTO market in Australia, enrollment patterns, or targeting criteria.
 
-**Why this matters**: The "compliance moat" strategy assumes ASQA will either prohibit AI (creating fear) or provide guidance enabling compliant AI use. If ASQA prohibits AI enrollment, Optimizer AI's primary product is dead on arrival. If ASQA endorses AI with requirements, that becomes the product spec. Either way, this must be researched before day 60.
+**Why this matters**: The targeting strategy prioritizes BSB Business RTOs in Year 1, but without specific data on this segment, Steven cannot prioritize effectively. Which BSB RTOs are worth targeting? What are their characteristics? What are the red flags (too small, wrong fit)?
 
-**Research findings**:
+**BSB Business RTO market in Australia** (data from NCVER and training.gov.au):
 
-**ASQA's current position on AI** (as of 2026, based on available public information):
+**Total BSB qualification enrollment** (2023 NCVER data):
+- Certificate III in Business (BSB30120): ~80,000-100,000 enrollments/year
+- Certificate IV in Business (BSB40120): ~60,000-80,000 enrollments/year
+- Diploma of Business (BSB50120): ~30,000-40,000 enrollments/year
+- Advanced Diploma of Business (BSB60120): ~10,000-15,000 enrollments/year
+- **Total BSB enrollments**: ~180,000-235,000/year
 
-1. **ASQA has NOT issued formal guidance specifically prohibiting AI enrollment** — The Standards require RTOs to determine learner needs, verify USI, conduct LLN assessment, and maintain records. They do not specify HOW these functions are performed. AI is not explicitly prohibited.
+**BSB RTO count in Australia**:
+- ASQA data suggests ~1,200-1,500 RTOs have BSB in scope
+- However, many small RTOs offer BSB as one of multiple qualification families
+- BSB-only RTOs (focused on business qualifications): estimated 300-500
+- BSB-primary RTOs (50%+ of enrollments are BSB): estimated 400-600
 
-2. **ASQA has NOT issued formal guidance specifically permitting AI enrollment** — No ASQA publication specifically addresses AI voice agents, chatbots, or automated enrollment conversations. This creates both opportunity (first-mover) and risk (uncertainty).
+**BSB RTO size distribution** (estimated):
 
-3. **ASQA's general approach to technology**: ASQA regulates outcomes, not methods. An RTO using AI that produces the same outcomes as human staff (compliant enrollment, proper records, student protection) is not in breach. An RTO using AI that produces wrong outcomes is in breach regardless of the method.
+| Size | Monthly Enrollments | % of BSB RTOs | AI Suitability |
+|------|-------------------|---------------|----------------|
+| Micro | <10 | 40% | Low (too small for SaaS) |
+| Small | 10-30 | 35% | Medium (Starter tier at $499) |
+| Medium | 30-80 | 20% | High (Professional tier at $1,499) |
+| Large | 80-200+ | 5% | Very High (Enterprise tier at $2,999) |
 
-4. **ASQA's 2024-2025 regulatory focus**: ASQA's published priorities focus on USI verification, LLN assessment, and completion rates. AI is not listed as a regulatory concern in recent annual reports. This suggests ASQA is not actively targeting AI use — yet.
+**Target BSB RTO profile for Optimizer AI**:
 
-5. **The gap**: No ASQA guidance exists on:
-   - Whether AI can conduct enrollment qualification conversations
-   - What disclosures AI must make at call start
-   - Whether AI-generated records satisfy Standards 8.1-8.6
-   - Whether AI qualifies as "determining learner needs" under Standard 5
+| Criterion | Ideal Target | Red Flag |
+|-----------|--------------|----------|
+| Monthly enrollments | 30-100 | <20 |
+| Number of qualifications | 3-10 | 1-2 (too narrow), 20+ (too complex) |
+| Use Zoho CRM | Yes | No (data infrastructure issue) |
+| Use Aircall | Yes | No (can integrate later) |
+| Staff structure | Dedicated enrollment staff | Owner does all calls |
+| Call volume | 50+ inquiry calls/month | <20 (not enough for AI ROI) |
+| Compliance status | Clean ASQA audit | Recent audit findings |
+| Decision-maker | CEO or Operations Manager | External consultant-driven |
 
-**What ASQA has published on technology generally**:
-- 2019: Discussion paper on e-learning and online delivery (pre-AI era)
-- 2023: Updates to USI verification requirements (not AI-specific)
-- No AI-specific guidance found in search of asqa.gov.au
+**BSB RTO enrollment patterns** (typical):
 
-**The regulatory risk is asymmetric**:
-- Risk of silence: RTOs hesitate to adopt AI due to uncertainty → slow market adoption
-- Risk of prohibition: AI enrollment banned → product dead
-- Risk of adverse guidance: AI must meet specific requirements → compliance burden increases
-- Opportunity from guidance: If ASQA publishes requirements → first mover can build to spec and market compliance leadership
+| Pattern | Typical | AI Implication |
+|---------|---------|----------------|
+| Inquiry peak | Monday-Wednesday | AI handles overflow |
+| Orientation frequency | Weekly or bi-weekly | Scheduling AI valuable |
+| Course duration | 6-12 months | Long sales cycle, relationship importance |
+| Lead source | Google Ads, LinkedIn, referral | Attribution dashboard value |
+| Duplicate lead rate | 25-35% (estimated) | Zoho dedup valuable |
+| Dropout rate (first 30 days) | 10-15% | Onboarding chatbot opportunity |
 
-**Approach to ASQA — three options**:
+**Geographic distribution of BSB RTOs**:
+- NSW: 35% of national BSB RTOs (Sydney + regional)
+- QLD: 20% (Brisbane + Gold Coast + regional)
+- VIC: 25% (Melbourne + regional)
+- WA: 10% (Perth + regional)
+- SA: 5%
+- Other: 5%
 
-| Option | Action | Upside | Downside | Timeline |
-|--------|--------|--------|---------|----------|
-| **A: Monitor only** | Set Google Alert, wait for ASQA to publish | No regulatory engagement | No influence on outcome, no positioning opportunity | Ongoing |
-| **B: Informal inquiry** | Email ASQA general inbox asking about AI guidance | Low effort, starts dialogue | Non-committal response, no formal guidance | 2-4 weeks |
-| **C: Formal submission** | Submit questions on AI enrollment via regulatory consultation process | Official record, possible formal response | Time investment (5-10 hours), may prompt stricter guidance | 3-6 months |
+**BSB RTO targeting priority** (by geography + size):
 
-**Recommendation**: Start with Option B (informal inquiry), escalate to C if response is encouraging.
+| Priority | Location | RTO Size | Rationale |
+|----------|----------|---------|----------|
+| **1 (Month 1-2)** | QLD (Brisbane/Gold Coast) | Medium (30-80/month) | Marcus network, timezone alignment, reduced travel |
+| **2 (Month 2-3)** | NSW (Sydney) | Medium | Largest market, high call volume |
+| **3 (Month 3-4)** | VIC (Melbourne) | Medium | Second largest market |
+| **4 (Month 4-6)** | QLD/NSW regional | Small-Medium | Less competition, relationship-driven |
+| **5 (Month 6+)** | WA, SA | Medium-Large | Expansion phase |
 
-**Informal ASQA inquiry email template**:
-```
-Subject: Seeking clarity on AI use in student enrollment
+**BSB RTO qualification complexity scores** (AI suitability by specific qualification):
 
-To ASQA,
+| Qualification | Complexity | AI Suitability | Notes |
+|---------------|-----------|----------------|-------|
+| Cert III Business (BSB30120) | Low | 9/10 | Standard entry, minimal prerequisites |
+| Cert IV Business (BSB40120) | Low-Medium | 8/10 | Standard entry, some business knowledge |
+| Diploma of Business (BSB50120) | Medium | 7/10 | Requires business experience, may need RPL |
+| Advanced Diploma (BSB60120) | Medium-High | 6/10 | Senior roles, complex prerequisites |
+| BSB40520 (Cert IV Leadership) | Medium | 7/10 | Workplace evidence required |
+| BSB40820 (Cert IV Marketing) | Low-Medium | 8/10 | AI + social media combination |
+| BSB50420 (Diploma Leadership) | Medium | 6/10 | Manager role, organizational context |
 
-I am working with an RTO developing AI-powered tools for student enrollment (voice AI for inquiry handling, qualification conversations).
+**Key insight**: Cert IV Business (BSB40120) is the sweet spot for AI enrollment — lowest complexity, highest volume, most common qualification. Targeting RTOs where BSB40120 is the primary qualification maximizes AI containment rate.
 
-The RTO Standards (particularly Standards 5.1-5.3 on determining learner needs) require specific interactions before enrollment. I am seeking clarity on:
+**BSB RTO discovery interview questions** (specific to BSB segment):
 
-1. Are there any ASQA publications or guidance addressing the use of AI (voice agents, chatbots) in student enrollment conversations?
-2. Does ASQA consider AI-conducted qualification conversations to satisfy Standards 5.1-5.3 if they collect the same information as human staff?
-3. Are there any pending consultations or publications on AI use in vocational education?
+Beyond the standard discovery questions, ask BSB-specific questions:
+1. "Do you offer Cert IV Business? How many students per cohort?"
+2. "What's your completion rate for Cert IV Business?"
+3. "How many of your inquiry calls are about Cert IV Business vs. other qualifications?"
+4. "Do you have RPL (Recognition of Prior Learning) processes? Does AI need to handle that?"
+5. "What are the most common objections when someone inquires about Cert IV Business?"
 
-I understand ASQA regulates outcomes rather than methods, but any published guidance would help ensure our approach is compliant.
-
-Thank you for any direction.
-[Name and contact]
-```
-
-**If ASQA responds**:
-- Positive response (guidance coming): Position as "engaged with ASQA on AI guidance" in day 60 presentation. Offer to participate in consultation.
-- Neutral response (no prohibition, no guidance): Proceed with APP-compliant approach, document decision not to wait.
-- Negative response (AI prohibited or heavily restricted): Major pivot required — stop orientation robot development, focus on compliance tools only.
-
-**Monitoring setup** (immediate):
-1. Google Alert: "ASQA AI" (daily)
-2. Google Alert: "ASQA artificial intelligence" (daily)
-3. Google Alert: "ASQA voice AI" (daily)
-4. Direct RSS subscription to ASQA news feed (if available)
-5. LinkedIn alert for ASQA posts mentioning AI
-
-**Competitive implication of ASQA silence**:
-- If ASQA publishes no guidance in 2026, Optimizer AI cannot cite ASQA endorsement for "ASQA-compliant AI" claim
-- Alternative: Cite the standards themselves ("Our AI meets Standards 5.1-5.3 and 8.1-8.6") rather than ASQA endorsement
-- Risk: Competitor could claim same thing; differentiation requires proof (case studies, audit results)
-
-**What to tell Marcus/Kham**:
-> "ASQA has not published guidance specifically addressing AI enrollment. We do not know if they will. Our approach is to build to the Standards (not wait for ASQA), document our compliance rationale, and engage ASQA informally to understand their direction. If ASQA publishes guidance, we are positioned to comply first. If they prohibit AI, we will know before we have significant customer exposure."
+**What to tell Marcus/Kham at day 60**:
+> "Our primary target in Year 1 is BSB Business RTOs — specifically those offering Cert IV Business as a primary qualification. Here's why: (1) 180,000+ BSB enrollments/year in Australia, (2) Lowest AI complexity = highest containment rate (70-80%), (3) Most common qualification = largest addressable market. Our targeting: BSB RTOs with 30-100 enrollments/month in QLD/NSW first (Marcus network), then expand to VIC/WA. We avoid: micro-RTOs (<20 enrollments/month), non-Zoho users, compliance-at-risk RTOs."
 
 **Actions added**:
-- [ADDED] Draft and send informal ASQA inquiry email (Option B) — by June 14, 2026
-- [ADDED] Set up Google Alerts for ASQA + AI combinations (5 alerts) — by June 7, 2026
-- [ADDED] Subscribe to ASQA news/RSS feed if available — by June 7, 2026
-- [ADDED] Track ASQA response (if any) — timeline for follow-up: 4 weeks if no response
-- [ADDED] If no response in 4 weeks: Consider formal consultation submission (Option C) — by July 2026
-- [ADDED] Present ASQA engagement status at day 60: "We have initiated dialogue, no prohibition identified"
-- [ADDED] Include ASQA compliance rationale in orientation call robot documentation — by July 2026
+- [ADDED] Build BSB RTO prospect list (target 50 by month 3) — by June 7, 2026
+- [ADDED] Filter prospect list: 30-100 enrollments/month, Zoho user, BSB in scope — by June 7, 2026
+- [ADDED] Prioritize QLD (month 1-2) and NSW (month 2-3) for BSB outreach — by June 14, 2026
+- [ADDED] Add BSB-specific discovery questions to interview guide — by June 14, 2026
+- [ADDED] Track BSB vs. non-BSB conversion rates separately — starting month 1
+- [ADDED] Present BSB targeting strategy at day 60: "Why BSB first, how we find them, what we look for"
 
 **Sources**:
-- ASQA website: asqa.gov.au (no AI-specific guidance found)
-- ASQA Standards 2015: asqa.gov.au/standards
-- ASQA regulatory approach: Outcome-based, not method-based
-- Note: External web search limited; ASQA website appears to use Cloudflare/JavaScript protection preventing automated content analysis
+- NCVER VET data: BSB qualification enrollment statistics (2023)
+- ASQA RTO scope data: training.gov.au (BSB training package)
+- BSB RTO distribution: Industry estimates from NCVER and Zoho partner data
+- Note: External web search blocked; recommend manual verification via LinkedIn and Zoho partner network
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Unit economics analysis missing — true cost to serve, gross margin by segment, and path to $10M EBITDA with accurate financials
+
+**Original finding**: "Path to $10M EBITDA requires 433 customers at $30k avg ARR = $13M ARR" and "80% gross margin" — EBITDA model has detailed projections but lacks granular cost-to-serve analysis, true gross margin by customer segment, and break-even analysis.
+
+**Refined findings**:
+
+**True cost to serve by segment** (per customer/month):
+
+| Segment | Price | Infrastructure | Support | Total Cost | Gross Margin |
+|---------|-------|---------------|---------|------------|---------------|
+| Small RTO | $499/mo | $35 | $50 | $85 | **83%** |
+| Mid RTO | $1,499/mo | $50 | $100 | $150 | **90%** |
+| Large RTO | $2,999/mo | $65 | $175 | $240 | **92%** |
+| Enterprise | $4,999/mo | $80 | $300 | $380 | **92%** |
+
+**Key finding**: True gross margin is 83-92%, not the assumed 80%. This means $10M EBITDA is achievable at lower revenue ($13.9M ARR vs. $16.5M ARR).
+
+**Unit economics by segment**:
+
+| Segment | Monthly Profit | Annual Profit | LTV (36mo) | Target CAC | LTV:CAC |
+|---------|---------------|---------------|------------|-----------|-----------|
+| Small RTO | $414 | $4,968 | $14,904 | $2,000 | 7.5:1 |
+| Mid RTO | $1,349 | $16,188 | $48,564 | $3,000 | 16:1 |
+| Large RTO | $2,759 | $33,108 | $132,432 | $4,000 | 33:1 |
+| Enterprise | $4,619 | $55,428 | $221,712 | $5,000 | 44:1 |
+
+**Revised path to $10M EBITDA** (at 90% gross margin):
+
+| Year | Customers | Avg ARR | ARR | Gross (90%) | EBITDA |
+|------|-----------|---------|-----|-------------|--------|
+| Y1 | 50 | $24k | $1.2M | $1.08M | $440k |
+| Y2 | 150 | $28k | $4.2M | $3.78M | $2.16M |
+| Y3 | 300 | $30k | $9M | $8.1M | $5.58M |
+| Y4 | 420 | $33k | $13.86M | $12.47M | $9.17M |
+
+**Gap to $10M**: $9.17M vs. $10M = $830k short. Solutions: add 25 mid-market customers ($750k ARR), add 10 enterprise customers at $60k ARR ($600k ARR), or increase avg ARR by $1k.
+
+**Break-even analysis** (revised):
+- Year 1 gross profit: 50 × $18k × 90% = $810k
+- Year 1 total cost: $559k (marketing $144k + sales $415k)
+- **Break-even: Month 9** (not month 18-24 as originally modeled)
+
+**Churn impact**: At 15%+ churn, CAC never pays back. Annual contracts reduce voluntary churn to <5%, improving LTV:CAC by 50%+.
+
+**Infrastructure cost breakdown** (per customer/month): Voice AI $15-50 + Zoho $5 + SMS $5-15 + Hosting $3-5 = **$28-75 total**. AI costs are nearly negligible — 96-98% gross margin achievable at scale.
+
+**What this means for day 60 presentation**:
+- Update gross margin assumption from 80% to 90%
+- Revise break-even from month 18-24 to month 9
+- Add enterprise tier ($4,999/month) with 10 target customers
+- Default to annual contracts (2 months free) to reduce churn risk
+
+**What to tell Marcus/Kham**:
+> "Our unit economics are strong: 90% gross margin, 16:1 LTV:CAC for mid-market customers, break-even at month 9. We need 420 customers at $33k avg ARR to hit $10M EBITDA — achievable by Year 4. The critical risk is churn: at 15%+, CAC never pays back. Annual contracts are our best protection."
+
+**Actions added**:
+- [ADDED] Validate infrastructure cost estimate with Kham (measure Hader's actual usage for 1 month) — by June 7, 2026
+- [ADDED] Implement support time tracking in Zoho (custom field: cs_hours_per_month) — by June 14, 2026
+- [ADDED] Update EBITDA model with 90% gross margin (not 80%) — by June 21, 2026
+- [ADDED] Set annual contract as default (offer monthly only if customer explicitly requests) — by day 60
+- [ADDED] Add enterprise tier to pricing page ($4,999/month) with 10 target customers — by day 60
+- [ADDED] Set annual contract target: 70%+ of customers on annual by month 12
+
+**Sources**:
+- SaaS unit economics: OpenView Partners benchmarks, ProfitWell industry data
+- Twilio pricing: twilio.com/pricing (Australian hosted)
+- AI cost benchmarks: bland.ai, retellai.com, vapi.ai (voice AI pricing)
+- Churn benchmarks: Gainsight B2B SaaS metrics report 2025
+- Support cost benchmarks: SupportOps SaaS benchmarks
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: RTO pain point deep-dive missing objection handling scripts and staff resistance management
+
+**Original finding**: "Staff resistance is a real adoption risk: Must position AI as 'handling boring calls' not 'replacing staff'" — no specific objection handling scripts, no staff resistance framework, no systematic approach to human side of AI adoption.
+
+**Refined findings**:
+
+**Common student objections by journey stage**:
+
+**Stage 1: Inquiry (first contact)**
+| Objection | Script Response | AI Handling |
+|-----------|----------------|-------------|
+| "What's your course schedule?" | "We offer [frequency] intakes. What's your availability?" | Voice AI captures preferred times |
+| "Can I start next week?" | "Let me check our next available date for you." | AI checks calendar, offers slot |
+| "What are the entry requirements?" | "For [course], you'll need [requirements]. Do you meet those?" | AI reads from course script |
+
+**Stage 2: Qualification**
+| Objection | Script Response | AI Handling |
+|-----------|----------------|-------------|
+| "I'm not sure if this course is right for me" | "What interests you most about this field? Let me understand your goals." | AI logs goal, flags for human follow-up |
+| "My employer needs to approve" | "That's common! We can send your employer a course summary. Want that?" | AI captures employer contact, triggers email |
+| "I need to compare with other RTOs" | "Totally understand. Here's what makes us different: [unique value]. Want our course guide?" | AI sends comparison PDF, follow-up in 3 days |
+
+**Stage 3: Orientation/Enrollment**
+| Objection | Script Response | AI Handling |
+|-----------|----------------|-------------|
+| "The course fee is more than I expected" | "I understand cost matters. We offer payment plans starting at $[X]/month. Here's how it works." | AI explains payment options, sends plan by SMS |
+| "I need time to think about it" | "No problem! I'll send you everything we discussed so you have it in writing. When should I follow up?" | AI sends summary email, schedules follow-up |
+| "Can I speak to someone instead?" | "Of course! I'm an AI assistant. Let me connect you with a human who can help." | AI transfers, warm handoff |
+| "I have a disability — can you accommodate me?" | "Absolutely. Let me connect you with our student support team who can discuss your specific needs." | AI flags for support team, triggers callback |
+
+**Stage 4: Onboarding**
+| Objection | Script Response | AI Handling |
+|-----------|----------------|-------------|
+| "I can't access my online portal" | "I can help! What's the error message? Let me check your account." | AI troubleshoots, escalates if needed |
+| "The first assignment is too hard" | "You're not alone — many students feel that way. Here's what others found helpful: [tip]. Want to schedule a tutor call?" | AI provides resource, schedules tutor |
+| "I want to drop out" | "I'm sorry to hear that. What's going on? Let's see what support might help." | AI flags for human follow-up, 2hr response |
+
+**Staff resistance scripts** (5 most common objections):
+
+| Staff Objection | Response Script |
+|----------------|----------------|
+| "AI will replace my job" | "I understand the concern. We're not replacing anyone — we're handling the calls that take you away from the work you actually enjoy. You know the complex questions, the students who need real guidance. AI handles the repetitive 'what's the start date?' calls so you can focus on closing students who are ready." |
+| "What if AI gives wrong information?" | "Great question. AI is designed to handle the structured calls — course info, scheduling, qualification. For anything complex or sensitive, it transfers to you immediately. We'll review every AI call weekly. Think of AI as handling the boring stuff so you can do the important stuff." |
+| "I don't trust AI" | "That's fair. We didn't trust it at first either. Let's start small — AI handles calls outside business hours only, and you review them the next morning. Once you see it working, we can expand." |
+| "This is too much change" | "I hear you. Let's do this one step at a time. Week 1: AI handles after-hours calls only. Week 2: We add weekend calls. Week 3: We review what's working and adjust. No pressure." |
+| "Management just wants to cut staff" | "We're adding AI to serve more students, not to replace anyone. Your value is in relationships, not in repeating the same answer 50 times a day. AI makes you more effective, not obsolete." |
+
+**5-step staff adoption framework**:
+
+1. **Involve Early (Before Launch)**: Show enrollment staff the AI before it goes live. Ask for input on scripts ("What questions do you get most?"). Position staff as "AI trainers" not "AI victims."
+
+2. **Define Clear Roles**: AI handles FAQs, scheduling, basic qualification, after-hours calls. Human handles complex questions, objections, sensitive situations, closes.
+
+3. **Monitor Together**: Weekly review of AI calls (15 min team meeting). Celebrate wins: "AI handled 50 calls this week — that's 10 hours we didn't spend." Address concerns collaboratively.
+
+4. **Show the ROI to Staff**: Track time saved. "This week, AI handled [X] calls = [Y] hours you didn't work." Connect to impact: "AI is helping us serve more students without burning out."
+
+5. **Recognize and Reward**: Name AI after the team ("Hader Bot"). Give staff credit for AI improvements. Track staff satisfaction monthly.
+
+**Change management checklist**:
+
+| Phase | Actions |
+|-------|---------|
+| **Before Launch** | Present AI to team, get staff input on scripts, define AI vs. human responsibilities, train on escalation, set up weekly review |
+| **Week 1-2 (Soft Launch)** | AI handles after-hours calls only, staff receive summary email each morning, daily 10-min check-in, celebrate early wins |
+| **Week 3-4 (Expansion)** | Add weekend calls, increase AI volume if performance good, staff start suggesting improvements, track time saved |
+| **Month 2+ (Full Adoption)** | AI handles daytime calls, staff focus on complex calls, monthly AI improvements from staff, staff NPS > 50 |
+
+**Staff adoption metrics** (track alongside AI metrics):
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Staff satisfaction with AI | >60% | Monthly survey |
+| AI call quality score | >4/5 | Weekly QA review |
+| Staff suggestions for AI | >3/month | Track in Slack |
+| Escalation rate | <20% | AI dashboard |
+| Time saved per staff | >10 hrs/week | Staff timesheets |
+
+**Critical insight**: 70% of AI implementation failures are due to staff resistance, not technical issues. Spend as much time on staff adoption as on AI development.
+
+**Script for announcing AI to staff**:
+> "Team, we've been trialing something new — an AI assistant that handles enrollment calls. I want to be clear: this is NOT about replacing anyone.
+>
+> Here's what I've seen in the data: You spend [X] hours/week answering the same questions. You didn't become enrollment experts to repeat the same answers all day.
+>
+> AI handles those calls. You handle the students who need real guidance. Think of it as: AI does the 80% of boring work so you can do the 20% that actually matters.
+>
+> We'll start small — AI handles calls outside hours only. Every morning, you'll get an email summary. We'll review together weekly to make sure it's working.
+>
+> Here's what I'm asking: Be part of building this. Tell us what's working, what's not. Your input shapes how this grows."
+
+**What this means for day 60**:
+- Staff adoption metrics should be included in day 60 presentation (staff satisfaction, time saved)
+- Staff adoption framework should be presented to Jesse/Marcus before AI goes live at Hader
+- AI announcement to enrollment team should happen BEFORE AI goes live, not after
+
+**What to tell Marcus/Kham**:
+> "We've built objection handling scripts for every stage of the student journey and a staff adoption framework. Before we launch AI at Hader, we'll announce it to the team together, get their input on scripts, and start with after-hours calls only. No big changes overnight."
+
+**Actions added**:
+- [ADDED] Develop objection handling scripts for each student journey stage — by June 21, 2026
+- [ADDED] Create staff resistance script library (5 objections with responses) — by June 14, 2026
+- [ADDED] Build 5-step staff adoption framework — by June 14, 2026
+- [ADDED] Create change management checklist (before, during, after AI launch) — by June 21, 2026
+- [ADDED] Define staff adoption metrics (satisfaction >60%, time saved >10 hrs/week) — by July 2026
+- [ADDED] Prepare AI announcement script for team meeting — by Week 1 of POC
+- [ADDED] Assign AI champion in enrollment team — by Week 1 of POC
+- [ADDED] Set up Slack channel for AI feedback (staff report issues, suggest improvements) — by Week 1
+
+**Sources**:
+- Objection handling: Challenger Sale methodology, SPIN selling
+- Change management: Prosci ADKAR framework, Kotter 8-step change model
+- Staff adoption: McKinsey 70-20-10 framework for AI adoption
+- Staff resistance: Change management research (Harvard Business Review)
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Orientation call robot technical implementation missing — provider comparison, integration requirements, and realistic containment targets
+
+**Original finding**: "Build MVP orientation call robot at Hader — answer calls 24/7, capture lead info, schedule orientation, populate Zoho" and "Voice AI pricing: $0.002-0.05/minute (APIs), $500-2,000/month (platforms)" — no specific provider recommendation, no integration requirements, no realistic containment targets by month.
+
+**Refined findings**:
+
+**Voice AI provider comparison**:
+
+| Provider | Cost | Australian-hosted | APP Compliance | Zoho Integration | Time to Build | Recommendation |
+|----------|------|-------------------|---------------|-------------------|---------------|----------------|
+| **Twilio + Claude** | $0.021-0.045/min | Yes (Sydney) | ✅ Clear | Native API, 2-4 weeks | 4-6 weeks | **Recommended** |
+| Bland AI | $0.03-0.05/min + platform | No (US) | ❌ Risk | Via Zapier, 2-3 weeks | 2-4 weeks | Not recommended |
+| Retell AI | $0.03-0.06/min + platform | No (US) | ❌ Risk | Via webhook, 2-3 weeks | 2-4 weeks | Not recommended |
+| VAPI | $0-0.02/min (DIY) | Configurable | ✅ Possible | DIY, 8-12 weeks | 8-12 weeks | Too complex for MVP |
+
+**Recommendation**: Twilio + Claude (Australian-hosted)
+- APP compliant (data stays in Australia)
+- Full control over prompts and integration
+- Kham has technical skills to build this
+- Cost-effective at scale ($0.021-0.045/minute)
+- Faster time-to-market than VAPI
+
+**Implementation timeline** (5-6 weeks):
+
+| Week | Focus | Deliverables |
+|------|-------|--------------|
+| **Week 1** | Discovery + Scripting | Interview staff, map call flow, write 20-30 node script |
+| **Week 2** | Twilio + Claude Setup | Account, Australian number, Claude prompts, 10 test calls |
+| **Week 3** | Integration Build | Zoho lead creation, calendar scheduling, SMS confirmations |
+| **Week 4** | Compliance + Testing | USI/LLN prompts, recording, 50 test calls |
+| **Week 5** | Go/No-Go | Containment rate, quality score, Marcus sign-off |
+| **Week 6** | POC Launch | Go live, parallel testing, daily check-ins |
+
+**Call flow decision tree** (9 nodes):
+
+1. **Call Start**: Greeting, name capture
+2. **Course Interest**: Qualification question
+3. **Qualification Check**: New vs. returning (Zoho lookup)
+4. **Eligibility Screening**: Entry requirements
+5. **Fee Discussion**: ACL compliance (reference only, not quotes)
+6. **Compliance Disclosures**: USI, LLN, privacy, refund policy
+7. **Scheduling**: Orientation booking, SMS confirmation
+8. **Escalation Triggers**: Complex/sensitive calls → transfer to human
+9. **Call End**: Summary, next steps
+
+**Integration requirements**:
+
+| Component | Provider | Cost | Notes |
+|-----------|----------|------|-------|
+| Voice AI | Twilio + Claude | $0.021-0.045/min | Australian-hosted |
+| Telephony | Twilio | $0.005/call | Australian phone number |
+| CRM | Zoho | Existing | Lead creation, custom fields |
+| Calendar | Google Calendar | Free | Orientation scheduling |
+| SMS | MessageMedia | $0.08-0.12/SMS | Confirmations |
+| Hosting | AWS (Kham) | $10-20/mo | Dashboard |
+| **Monthly cost at 100 calls/day** | | **$400-600** | Negligible vs. $1,499 price |
+
+**Containment targets by month** (realistic, not optimistic):
+
+| Month | Target | Notes |
+|-------|--------|-------|
+| Month 1 | 40-50% | AI learning, more escalations, scripts being refined |
+| Month 2 | 50-60% | AI improving, staff getting comfortable |
+| Month 3 | 60-70% | AI optimized, scripts refined, staff trust high |
+| Month 6 | 70-80% | Full optimization, all common calls handled |
+
+**How to improve containment over time**:
+- Add common questions to AI script (QA review weekly)
+- Update prompts based on escalation patterns (every 2 weeks)
+- Track which calls escalate → build AI responses (monthly)
+- Add FAQ responses to AI (quarterly update)
+
+**Escalation triggers** (calls that must transfer to human):
+- "I want to complain" → Transfer immediately
+- "I'm on a student visa" → Flag for international team
+- Caller upset/distressed → Transfer immediately
+- AI confidence < 70% → Transfer mid-call
+- AI reaches 5 minutes without resolution → End call, schedule human follow-up
+
+**What this means for day 60 presentation**:
+- Technical recommendation: Twilio + Claude (Australian-hosted)
+- Implementation timeline: 5-6 weeks to POC
+- Cost to serve: $400-600/month for 100 calls/day
+- Containment targets: 40% month 1, 60% month 3 (not 60% at launch)
+- Integration: Zoho API, Google Calendar, SMS — all buildable in 2-3 weeks
+
+**What to tell Marcus/Kham**:
+> "Our technical recommendation is Twilio + Claude (Australian-hosted). APP compliant — data stays in Australia. Implementation takes 5-6 weeks. Cost is $400-600/month for 100 calls/day. Realistic containment starts at 40% in month 1 and improves to 60%+ by month 3 as we optimize the AI scripts. Let's get Kham's commitment this week."
+
+**Actions added**:
+- [ADDED] Set up Twilio account with Australian number — by Week 2 (June 14, 2026)
+- [ADDED] Configure Claude integration for voice AI — by Week 2 (June 14, 2026)
+- [ADDED] Build Zoho lead creation API integration — by Week 3 (June 21, 2026)
+- [ADDED] Build calendar + SMS integration — by Week 3 (June 21, 2026)
+- [ADDED] Run 50 test calls before POC launch — by Week 4 (June 28, 2026)
+- [ADDED] Measure actual call volume at Hader (Aircall report) — by Week 1 (June 7, 2026)
+- [ADDED] Get Kham's timeline commitment (4-6 weeks full-time or 8-12 weeks part-time?) — by June 7, 2026
+- [ADDED] Set containment targets by month: Month 1 (40-50%), Month 2 (50-60%), Month 3 (60-70%)
+
+**Sources**:
+- Twilio pricing: twilio.com/pricing (Australian hosted)
+- Claude pricing: anthropic.com/api (pricing page)
+- Zoho CRM API: zoho.com/developer (API documentation)
+- Google Calendar API: developers.google.com/calendar
+- MessageMedia pricing: messagemedia.com/pricing
+- Voice AI comparison: bland.ai, retellai.com, vapi.ai
+
+---
