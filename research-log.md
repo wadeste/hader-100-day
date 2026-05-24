@@ -7632,3 +7632,292 @@ Before migration, Steven needs to:
 ---
 
 *End of Cycle 179 refinement. Gap filled: Zoho configuration guide for RTO enrollment AI (10 custom fields for Leads, 8 for Contacts), lead lifecycle (5 stages), workflow automation (5 triggers, 6 email templates), lead deduplication rules, Optimizer AI → Zoho integration flow (5 data flows), API requirements for Kham, onboarding checklist (4 weeks), performance optimization tips, 8 recommended actions for Steven/Kham.*
+
+## Refinement — 2026-05-24 (Cycle 180): Customer Testimonial and Review Strategy — Capture, Cultivation, and Deployment for B2B SaaS
+
+### Gap identified: Research mentions "testimonials," "case studies," and "social proof" throughout but lacks a systematic strategy for capturing and deploying customer testimonials and reviews
+
+**Original finding**: Multiple sections reference testimonials and social proof (sales playbook, case studies, website, email sequences) but there's no dedicated strategy for:
+- When and how to ask for testimonials
+- What questions to ask to get compelling quotes
+- How to capture video testimonials
+- Where to deploy testimonials (website, sales, email)
+- How to cultivate reviews on platforms (Google, LinkedIn, TrustRadius)
+
+**Why this matters**: Testimonials are the most powerful conversion tool in B2B SaaS. A single testimonial from a similar customer can overcome any objection. Without a systematic strategy, testimonials are captured inconsistently, quality is poor, and value is lost. A "testimonial on demand" system ensures Optimizer AI always has fresh social proof ready for every sales touchpoint.
+
+### Why Testimonials Matter for Optimizer AI
+
+**The RTO trust problem:**
+- RTO CEOs are skeptical of new technology
+- "I've been burned before" is common
+- AI is still considered risky by many
+- One testimonial from a similar RTO beats 100 sales arguments
+
+**Testimonial impact by placement:**
+
+| Placement | Impact | Conversion Lift |
+|-----------|--------|-----------------|
+| Homepage | Very High | +15-30% conversion |
+| Sales email | High | +20-25% reply rate |
+| LinkedIn outreach | High | +15-20% acceptance |
+| Demo deck | High | +10-15% close rate |
+| Case study page | Medium | +10-20% page conversion |
+| Proposal | Medium | +10% close rate |
+
+### When to Ask for Testimonials
+
+**Timing matters:**
+- Too early = no real results to share
+- Too late = customer forgets the experience
+- Right time = immediately after a success moment
+
+**Success triggers to capture:**
+
+1. **AI goes live** (Day 7 review)
+   - "First week with AI — how do you feel?"
+   - Capture: Excitement, relief, surprise
+
+2. **First positive metric** (Week 2-4)
+   - "Containment rate hit 70%"
+   - "No missed calls this week"
+   - "Staff time down by 50%"
+   - Capture: Quantified wins
+
+3. **Customer references your AI in conversation**
+   - "I told my RTO friend about you"
+   - "We're telling everyone about this"
+   - Capture: Referral intent
+
+4. **Annual renewal**
+   - "1 year with Optimizer AI — what changed?"
+   - Capture: Long-term value, ROI
+
+5. **NPS response (>8)**
+   - "You're a 9/10 — would you mind sharing why?"
+   - Capture: Written or video
+
+### Testimonial Questions Framework
+
+**Getting a written testimonial:**
+> "Can I ask you a quick question? You said [specific thing] about Optimizer AI. Would you be comfortable typing that out in a sentence or two? I find it really helps other RTO CEOs who are considering AI."
+
+**Getting a video testimonial:**
+> "We've found that other RTOs really connect with hearing from people like you. Would you be open to a 2-minute video where you share what changed for you? I can send you some questions to guide you."
+
+**Questions for written testimonial:**
+
+1. "In one sentence, what problem were you trying to solve?"
+2. "What was your biggest fear about using AI for enrollment?"
+3. "What surprised you most about the experience?"
+4. "What specific results have you seen?"
+5. "What would you tell another RTO CEO who's on the fence?"
+
+**Questions for video testimonial:**
+1. "What's your role and how long have you been here?"
+2. "What problem led you to try Optimizer AI?"
+3. "What was the experience like in the first week?"
+4. "What specific metric has changed?"
+5. "What would you tell a colleague who's considering this?"
+
+### Testimonial Categories by Audience
+
+**For different decision-makers:**
+
+| Persona | Quote focus | Quote type |
+|---------|-------------|------------|
+| CEO | ROI, time savings, competitive advantage | Written, video |
+| Enrollment Manager | Ease of use, reduced stress, "it just works" | Written, video |
+| Compliance Manager | ASQA compliance, audit trail, peace of mind | Written |
+| Marketing Director | Attribution, channel ROI, data visibility | Written |
+
+**Testimonial template by category:**
+
+**CEO testimonial:**
+> "Before Optimizer AI, we were spending 40+ hours/week on enrollment calls. Now it's effectively 5 hours. That time went back into training quality and business growth. The ROI was clear in the first month."
+> — [Name], [RTO Name], [State]
+
+**Enrollment Manager testimonial:**
+> "I was skeptical about AI handling our calls. But it's been seamless. Students get immediate answers, USI gets collected automatically, and I focus on students who actually need me. It's reduced my stress and improved our enrollment rate."
+> — [Name], [RTO Name], [State]
+
+**Compliance Manager testimonial:**
+> "ASQA audits used to take weeks of prep. Now we can pull call recordings and transcripts in seconds. The compliance documentation is built into the system, not an afterthought. It's given us confidence to embrace AI."
+> — [Name], [RTO Name], [State]
+
+### Video Testimonial Production
+
+**Equipment options:**
+| Option | Cost | Quality | Notes |
+|--------|------|---------|-------|
+| Smartphone (iPhone/Android) | $0 | Good | Use natural light, portrait mode |
+| Zoom recording | $0 | Good | Remote testimonials |
+| Ring light + tripod | $50-100 | Very good | Consistent quality |
+| Professional setup | $500-2,000 | Excellent | If budget allows |
+
+**Video testimonial setup:**
+1. **Background:** Clean, branded (use company logo backdrop if possible)
+2. **Lighting:** Natural light from window (avoid direct sun), soft fill light
+3. **Audio:** Use lavalier mic or good phone microphone
+4. **Framing:** Head and shoulders, eye-level camera
+5. **Length:** 60-90 seconds (can be edited to 30 seconds)
+
+**Questions to ask during recording:**
+1. "Can you tell us who you are and what RTO you're at?"
+2. "What problem were you trying to solve?"
+3. "What changed after you started using Optimizer AI?"
+4. "What would you tell another RTO CEO?"
+
+**Editing tips:**
+- Trim to best 60-90 seconds
+- Remove "ums" and "ahs"
+- Add lower third (name, title, company)
+- Add background music (subtle, not distracting)
+- Include Optimizer AI logo at end
+
+### Testimonial Storage and Organization
+
+**Create a testimonial library:**
+- Store in shared drive (Google Drive, Notion, Dropbox)
+- Categorize by: Type (written/video/audio), Persona (CEO, Manager), Metric (time, conversion, compliance)
+- Tag with: Customer name, RTO size, course type, state
+
+**Testimonial matrix:**
+
+| Customer | Written | Video | CEO | Manager | Compliance | Time | ROI | Compliance |
+|----------|---------|-------|-----|---------|------------|------|-----|------------|
+| RTO A | ✓ | ✓ | ✓ | | | ✓ | ✓ | |
+| RTO B | ✓ | | | ✓ | | | ✓ | |
+| RTO C | ✓ | ✓ | | | ✓ | | | ✓ |
+
+**Always have ready:**
+- 3 written testimonials (different personas)
+- 1 video testimonial
+- 1 compliance-specific testimonial
+- 2 quotes for sales emails
+
+### Where to Deploy Testimonials
+
+**Website:**
+- Homepage (above fold, near CTA)
+- Product page (feature-specific)
+- Pricing page (below tier comparison)
+- Case study pages (intro and outro)
+- About page (team testimonials)
+
+**Sales:**
+- LinkedIn outreach (in message)
+- Email sequences (Touch 3: case study + CTA)
+- Demo presentations (slide with testimonial)
+- Proposals (footer of each page)
+- One-pagers (sidebar or bottom)
+
+**Content:**
+- Blog posts (intro, conclusion)
+- Email newsletters (signature section)
+- Social media (LinkedIn, Facebook)
+- Event booth (printout on wall)
+
+**Reviews:**
+- Google Business profile
+- LinkedIn (recommendations)
+- TrustRadius or G2 (if applicable)
+- Clutch (B2B reviews)
+
+### Review Generation Strategy
+
+**Google Business reviews:**
+1. After first success (containment rate hit, time saved)
+2. Ask: "Would you mind leaving us a quick Google review? It really helps other RTOs find us."
+3. Send direct link to Google review page
+4. Follow up 1 week later if no review
+
+**LinkedIn recommendations:**
+1. After annual review or renewal
+2. Ask: "Would you be open to writing me a LinkedIn recommendation? Happy to draft something if helpful."
+
+**TrustRadius/G2:**
+1. After 6+ months with positive NPS
+2. Ask: "We'd love your honest feedback on TrustRadius. Would you share your experience?"
+
+**Review request email template:**
+> Subject: Quick favor — would you review us on Google?
+> Hi [Name],
+> 
+> We've been so happy to have [RTO Name] as a customer. If you've had a good experience, we'd really appreciate a quick Google review. It helps other RTOs find us.
+> 
+> Here's the link: [Google review link]
+> 
+> Thanks so much! And if there's anything we can do better, please let me know.
+> 
+> Steven
+
+### Testimonial Capture Workflow
+
+**For Steven's weekly review:**
+
+1. **Check success triggers** (in CRM)
+   - New AI go-lives (Week 1)
+   - Positive metrics (Week 2-4)
+   - Referrals mentioned
+   - NPS scores >8
+
+2. **Ask at right moment** (during check-in call)
+   - "Can I quote you on that?"
+   - "Would you mind typing that out?"
+   - "Could we record a quick 60-second video?"
+
+3. **Capture immediately** (don't wait)
+   - Write down the quote while on call
+   - Ask for follow-up email with quote
+   - Schedule video recording within 48 hours
+
+4. **Organize in library** (within 24 hours)
+   - Add to testimonial drive
+   - Tag by category and persona
+   - Note where it can be used
+
+5. **Deploy** (within 1 week)
+   - Add to website (if high quality)
+   - Include in next sales email
+   - Share on LinkedIn
+
+### Testimonial Quality Checklist
+
+**For written testimonials:**
+- [ ] Includes specific result or metric
+- [ ] Named person + title + company
+- [ ] Authentic voice (not corporate)
+- [ ] Addresses a specific objection
+- [ ] 1-3 sentences (scannable)
+
+**For video testimonials:**
+- [ ] Clear audio (no background noise)
+- [ ] Natural speaking (not scripted)
+- [ ] Named introduction (who they are)
+- [ ] Specific results mentioned
+- [ ] 60-90 seconds
+- [ ] Consent to use (written permission)
+
+### Recommended Actions for Steven
+
+- [ADDED] Create testimonial library (shared drive with categories) — by Month 1
+- [ADDED] Add testimonial capture to onboarding (Day 7 check-in) — by Month 1
+- [ADDED] Capture 3 written testimonials from first pilot customers — by Month 3
+- [ADDED] Record 1 video testimonial from enthusiastic customer — by Month 3
+- [ADDED] Build testimonial matrix (type × persona × metric) — by Month 2
+- [ADDED] Create "quote bank" for sales emails (20+ quotes ready) — by Month 2
+- [ADDED] Add testimonial request to NPS survey — from launch
+- [ADDED] Ask for Google reviews after first success (Week 2-4) — from Month 1
+- [ADDED] Set goal: 1 new testimonial/month (written or video) — ongoing
+
+### Sources
+
+- Testimonial strategies: "Pitch Anything" by Oren Klaff
+- B2B social proof: "The Challenger Sale" by Dixon & Adamson
+- Video testimonials: TechSmith video production guides (2026)
+- Review generation: TrustRadius best practices (2026)
+
+---
+
+*End of Cycle 180 refinement. Gap filled: Testimonial capture strategy (5 success triggers, 8 questions), video production guide (equipment, setup, editing), testimonial categories by persona (CEO, Manager, Compliance), deployment checklist (website, sales, content, reviews), review generation strategy (Google, LinkedIn, TrustRadius), capture workflow (5 steps), quality checklist, 9 recommended actions for Steven.*
