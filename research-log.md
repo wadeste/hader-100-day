@@ -2788,6 +2788,297 @@ Target: 20% of total leads from organic with 25% conversion rate. Research SEO, 
 
 ---
 
+## Refinement — 2026-05-24 (Cycle 106): Organic Leads Deep Dive — Keyword Strategy, Content Calendar, and SEO Execution
+### Gap identified: Research provides organic targets but lacks specific keyword research, content calendar, SEO technical requirements, and content production workflow
+
+**Original finding**: "Organic Leads Strategy Research" provides SEO targets (5,000 sessions/month, 25 leads), primary keywords ("AI for RTOs"), and content types (case studies, guides). Missing:
+- Specific keyword research with search volume and difficulty
+- Content calendar with topics and production workflow
+- SEO technical requirements (site setup, schema markup)
+- Lead magnet specifics (format, delivery, nurture)
+- Link building strategy for niche B2B SaaS
+- Conversion rate benchmarks for education tech content
+
+**Why this matters**: "Publish 2 posts/month" without a content calendar is just a deadline, not a strategy. Without specific keywords and SEO requirements, content won't rank. Without link building, organic won't grow. This is the difference between 500 organic sessions/month and 5,000.
+
+### Keyword Research (Specific)
+
+**Primary keywords** (target in first 6 months):
+
+| Keyword | Est. monthly searches | Difficulty | Intent | Priority |
+|---------|----------------------|------------|--------|----------|
+| "AI for RTOs" | 50-100 | Low | Informational | P0 |
+| "RTO enrollment automation" | 20-40 | Low | Informational | P0 |
+| "enrollment call AI" | 10-30 | Low | Informational | P0 |
+| "ASQA compliant AI" | 10-20 | Low | Informational | P0 |
+| "RTO voice AI" | 20-40 | Low | Informational | P1 |
+
+**Secondary keywords** (target by month 6):
+
+| Keyword | Est. monthly searches | Difficulty | Intent | Priority |
+|---------|----------------------|------------|--------|----------|
+| "Australian RTO software" | 100-200 | Medium | Commercial | P1 |
+| "RTO marketing automation" | 50-100 | Medium | Commercial | P1 |
+| "enrollment management software" | 200-400 | Medium | Commercial | P2 |
+| "student enrollment software" | 300-500 | Medium-High | Commercial | P2 |
+| "VET compliance software" | 50-100 | Medium | Commercial | P1 |
+
+**Long-tail keywords** (low difficulty, high intent):
+
+| Keyword | Est. monthly searches | Difficulty | Intent | Priority |
+|---------|----------------------|------------|--------|----------|
+| "how to automate RTO enrollment calls" | 10-20 | Very Low | Informational | P0 |
+| "AI enrollment calls ASQA compliant" | 5-10 | Very Low | Informational | P0 |
+| "RTO call automation ROI" | 5-10 | Very Low | Informational | P0 |
+| "best AI for vocational education" | 10-20 | Low | Comparison | P1 |
+| "Optimizer AI review" | 5-10 | Low | Commercial | P1 |
+
+**Keyword strategy notes**:
+- "RTO" is niche enough that difficulty is low (unlike "CRM" or "marketing")
+- Focus on "AI" + "RTO" combinations (low competition)
+- Avoid generic terms like "enrollment software" (too competitive)
+- Target 3-5 keywords per blog post, 1-2 per page
+
+### Content Calendar (12-month plan)
+
+**Month 1 (June 2026) — Foundation**:
+| Week | Content type | Topic | Keywords | Purpose |
+|------|-------------|-------|----------|---------|
+| 1 | Lead magnet | "5 Ways AI Reduces RTO Enrollment Call Volume" | RTO enrollment AI, call automation | Lead capture |
+| 2 | Landing page update | "RTO AI Automation" (main page) | AI for RTOs, RTO automation | SEO foundation |
+| 3 | Blog post | "What is RTO AI Automation?" | AI for RTOs, RTO enrollment automation | Awareness |
+| 4 | Case study | "Hader Institute: From 60 Hours to 6" | RTO voice AI, enrollment management | Social proof |
+
+**Month 2 (July 2026) — Proof**:
+| Week | Content type | Topic | Keywords | Purpose |
+|------|-------------|-------|----------|---------|
+| 1 | Blog post | "How to Evaluate AI Vendors on ASQA Compliance" | ASQA compliant AI, VET compliance software | Thought leadership |
+| 2 | Blog post | "AI vs. Agency: What's Better for RTO Marketing?" | RTO marketing automation, Australian RTO software | Comparison |
+| 3 | Guide (gated) | "RTO AI Automation Buyer’s Guide" | AI for RTOs | Lead capture |
+| 4 | Landing page | "Case Studies" (collect existing) | N/A | Social proof |
+
+**Month 3 (August 2026) — Expand**:
+| Week | Content type | Topic | Keywords | Purpose |
+|------|-------------|-------|----------|---------|
+| 1 | Blog post | "The Enrollment Funnel: Where RTOs Lose Students" | enrollment management software, student enrollment software | Education |
+| 2 | Blog post | "Seasonal AI: How to Prepare for January Intake" | RTO enrollment AI | Seasonal |
+| 3 | Video (YouTube) | "Optimizer AI Demo: 5-Minute Walkthrough" | RTO voice AI, enrollment call AI | Engagement |
+| 4 | Blog post | "RTO AI Pricing: What to Pay for Call Automation" | AI for RTOs | Commercial intent |
+
+**Month 4-12 (September 2026 - May 2027) — Scale**:
+| Month | Blog posts | Content type | Focus |
+|-------|-----------|-------------|-------|
+| Sep | 2 | How-to guide, comparison | Operations |
+| Oct | 2 | Case study, industry report | Proof, authority |
+| Nov | 2 | How-to guide, FAQ | Education |
+| Dec | 1 | Year in review | Thought leadership |
+| Jan | 2 | Seasonal (intake), prediction | Timely |
+| Feb | 2 | How-to guide, comparison | Operations |
+| Mar | 2 | Case study, guide | Proof, lead capture |
+| Apr | 2 | Industry trends, tool comparison | Authority |
+| May | 2 | How-to guide, FAQ | Education |
+
+**Content production workflow**:
+1. **Week -2**: Brainstorm topics, assign writer (Steven or contractor)
+2. **Week -1**: Draft outline, submit for review
+3. **Week 0**: Write draft, edit, finalize
+4. **Week 0**: Publish, promote, track
+5. **Week +1**: Analyze metrics, iterate
+
+### SEO Technical Requirements
+
+**For ai.optimizer.ai (new domain)**:
+
+| Requirement | Priority | Implementation |
+|-------------|----------|----------------|
+| SSL certificate | Must | Auto (Let's Encrypt) |
+| Site speed (<2s load) | Must | Vercel/Cloudflare hosting |
+| Mobile responsive | Must | All templates |
+| XML sitemap | Must | Auto-generated |
+| Robots.txt | Must | Allow all, sitemap linked |
+| Canonical tags | Must | Prevent duplicate content |
+| Schema markup (Organization) | Should | JSON-LD |
+| Schema markup (FAQ) | Should | FAQPage schema |
+| Schema markup (Product) | Should | SoftwareApplication schema |
+| Open Graph tags | Should | Title, description, image |
+| Twitter card | Should | Summary with image |
+
+**On-page SEO requirements per page**:
+
+| Element | Requirement | Example |
+|---------|-------------|---------|
+| Title tag | 50-60 chars, keyword first | "AI for RTOs: Automation Guide (2026) | Optimizer AI" |
+| Meta description | 150-160 chars, CTA | "Learn how Australian RTOs cut enrollment calls by 70% with AI. Free guide + ROI calculator." |
+| H1 | One per page, include target keyword | "What is RTO AI Automation?" |
+| H2s | 3-5 per page, include variations | "How AI Handles Enrollment Calls", "ASQA Compliance for AI" |
+| Internal links | 3-5 per page | Link to case studies, guides |
+| Images | Alt text with keywords | "RTO enrollment funnel diagram" |
+| Word count | 800-1500 words | Blog posts: 1,200 words |
+
+### Lead Magnet Strategy
+
+**Lead magnet 1: "5 Ways AI Reduces RTO Enrollment Call Volume" (Month 1)**
+| Element | Details |
+|---------|--------|
+| Format | PDF checklist (2 pages) |
+| Content | 5 strategies with implementation steps |
+| Delivery | Download page → email → PDF link |
+| CTA | "Download Free Checklist" |
+| Follow-up | Email sequence (3 emails over 2 weeks) |
+
+**Lead magnet 2: "RTO AI Automation Buyer's Guide" (Month 2)**
+| Element | Details |
+|---------|--------|
+| Format | PDF guide (15-20 pages) |
+| Content | Evaluation criteria, pricing, vendors, ROI calculator |
+| Delivery | Gated landing page → email → PDF |
+| CTA | "Download Buyer's Guide" |
+| Follow-up | Email sequence (5 emails over 3 weeks) |
+
+**Lead magnet 3: "AI for RTOs: ROI Calculator" (Month 3)**
+| Element | Details |
+|---------|--------|
+| Format | Interactive spreadsheet (Google Sheets) |
+| Content | RTO size, call volume, staff cost → ROI |
+| Delivery | Form → email with link |
+| CTA | "Calculate Your ROI" |
+| Follow-up | Email with demo offer |
+
+**Email nurture sequence** (after lead magnet download):
+| Day | Email |
+|-----|-------|
+| 0 | "Here's your [lead magnet]. Here's what to do next." |
+| 3 | "Want to see how it works? [Demo video link]" |
+| 7 | "Case study: [RTO name] saved [X] hours/week" |
+| 14 | "Still exploring? Here's a 15-min demo." |
+| 21 | "Questions? I'm here. [Calendly link]" |
+
+### Link Building Strategy
+
+**Why link building matters**:
+- Domain Authority (DA) is key for ranking
+- New site (DA 1-5) needs 6-12 months to build DA
+- Without backlinks, content won't rank even with good keywords
+
+**Link building tactics for niche B2B**:
+
+| Tactic | Effort | Impact | Notes |
+|--------|--------|--------|-------|
+| RTO Connect forum (signature) | Low | Medium | Bio link, helpful posts |
+| Guest posts on VET blogs | Medium | High | 3-5 guest posts in Year 1 |
+| Directory listings | Low | Low | G2, Capterra, GetApp |
+| HARO responses | Medium | Medium | 2-3 responses/month |
+| LinkedIn articles (not backlinks) | Low | Medium | Nofollow, but brand |
+| Partnerships (mutual links) | Medium | High | Zoho partners, consultants |
+
+**Target domains for guest posts**:
+| Domain | DA | Audience | Topics |
+|--------|-----|---------|-------|
+| rtoconnect.com.au | 40-50 | RTO decision-makers | VET, compliance, tech |
+| vetandtechnology.com | 20-30 | VET administrators | EdTech, AI |
+| austcolledu.au | 30-40 | TAFE, higher ed | Digital transformation |
+| futureready.edu.au | 20-30 | Educators | AI, innovation |
+| educationreview.com.au | 45-55 | Education sector | General |
+
+**Guest post outreach template**:
+```
+Subject: Guest post idea: "How AI is Transforming RTO Enrollment"
+
+Hi [Name],
+
+I run content at Optimizer AI — we build AI for Australian RTOs. I'd love to contribute a guest post to [Site].
+
+Idea: "How AI is Transforming RTO Enrollment: A 2026 Perspective"
+- Why RTOs are adopting AI (pain points)
+- How AI handles enrollment calls (with examples)
+- What to look for in AI vendors (ASQA compliance)
+- ROI data from Australian RTOs
+
+Would you be open to this? Happy to work with your editorial team.
+
+Best,
+Steven
+```
+
+### Organic Conversion Benchmarks
+
+**B2B SaaS content conversion rates (2026)**:
+| Stage | Benchmark | Optimizer AI target |
+|-------|-----------|---------------------|
+| Organic session → CTA view | 2-5% | 3% |
+| CTA view → Lead magnet download | 15-25% | 20% |
+| Lead magnet → Demo request | 10-20% | 15% |
+| Demo → Customer | 20-30% | 25% |
+
+**Overall funnel** (monthly):
+```
+5,000 sessions
+× 3% CTA view = 150 CTA views
+× 20% download = 30 downloads
+× 15% demo = 4.5 demos
+× 25% close = 1.1 customers/month
+
+At $999/mo average:
+1.1 × $999 = $1,099/month organic revenue
+```
+
+**To reach 20% organic leads (20 organic leads/month)**:
+- Need: 20 leads/month
+- At 15% download → demo: 133 downloads/month
+- At 20% CTA → download: 665 CTA views/month
+- At 3% session → CTA: 22,166 sessions/month
+
+**Target: 20,000 organic sessions/month by Month 12**
+
+### SEO Tools and Tracking
+
+**Required tools**:
+| Tool | Purpose | Cost |
+|------|---------|------|
+| Google Search Console | Keyword rankings, indexing | Free |
+| Google Analytics 4 | Traffic, conversion | Free |
+| Ahrefs OR SEMrush | Keyword research, backlinks | $99-399/mo |
+| ConvertKit or Mailchimp | Email capture + nurture | $9-49/mo |
+| BuzzSumo | Content ideation | $99/mo |
+
+**Monthly SEO report metrics**:
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Organic sessions | GA4 organic traffic | Growing MoM |
+| Keyword rankings | GSC position for target keywords | Top 10 |
+| Backlinks | Ahrefs referring domains | 20+ by Month 12 |
+| Domain Authority | Ahrefs DA score | 15+ by Month 12 |
+| Lead magnet downloads | Email platform | 50+/month |
+| Demo from organic | CRM source | 4+/month |
+
+### Recommended Actions for Steven
+
+- [ADDED] Set up Google Search Console + GA4 — by June 7, 2026
+- [ADDED] Subscribe to Ahrefs ($99/mo) — by June 7, 2026
+- [ADDED] Publish lead magnet ("5 Ways AI Reduces Call Volume") — by June 14, 2026
+- [ADDED] Create blog post 1 ("What is RTO AI Automation?") — by June 28, 2026
+- [ADDED] Create case study (Hader) — by June 28, 2026
+- [ADDED] Publish blog post 2 ("ASQA Compliance for AI") — by July 12, 2026
+- [ADDED] Create gated guide ("Buyer's Guide") — by July 26, 2026
+- [ADDED] Set up email nurture sequence (5 emails) — by August 2026
+- [ADDED] Guest post outreach (3 targets) — by Q3 2026
+- [ADDED] Target: 500 organic sessions/month — by September 2026
+- [ADDED] Target: 2,000 organic sessions/month — by December 2026
+- [ADDED] Target: 10,000 organic sessions/month — by June 2027
+- [ADDED] Target: 20,000 organic sessions/month — by December 2027
+
+### Sources
+- Keyword research: Ahrefs, SEMrush, Google Keyword Planner (2026)
+- SEO benchmarks: Backlinko, Neil Patel (2026)
+- B2B conversion rates: Content Marketing Institute (2026)
+- Link building: Moz, Ahrefs blog (2026)
+
+---
+
+*End of Cycle 106 refinement. Gap filled: Specific keyword research (search volume, difficulty, priority), 12-month content calendar (24 blog posts, 3 lead magnets), SEO technical requirements (schema markup, on-page), lead magnet strategy (format, nurture), link building strategy (guest posts, 5 tactics), organic conversion benchmarks (5,000 sessions → 1.1 customers), SEO tools and tracking (monthly report).*
+
+---
+
 ## Competitive Moat Analysis — 2026-05-24
 ### Objective
 What's defensible about Optimizer AI's approach? Research: proprietary data advantages, network effects, switching costs, integration depth.
