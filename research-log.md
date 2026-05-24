@@ -4705,3 +4705,73 @@ To build product brand equity while maintaining company brand:
 - Domain strategy: Namecheap, domainr for availability checking
 
 ---
+
+## Refinement — 2026-05-24 (Discovery Interview Privacy)
+### Gap identified: Discovery interviews cannot proceed without understanding privacy requirements for recording, consent, and data storage
+
+**Original finding**: Discovery interview framework was complete (Mom Test questions, scoring rubric, commitment ask sequence), but privacy/legal requirements for recording interviews and storing data were not addressed.
+
+**Refined findings**:
+
+**Recording consent laws by Australian state**:
+| State | Consent Type | Requirement |
+|-------|--------------|-------------|
+| NSW, SA, NT, ACT | Two-party consent | Must inform ALL parties and obtain consent |
+| QLD, VIC, TAS, WA | One-party consent | Can record if YOU are a participant |
+
+**Best practice regardless of state**: Always inform interviewee and obtain verbal consent. This builds trust and exceeds legal minimum.
+
+**Privacy Act 1988 applicability**:
+- Optimizer AI (<$3M turnover) is NOT covered by Privacy Act
+- However, best practice is to comply voluntarily
+- Interviewees deserve privacy protection regardless of law
+
+**Required disclosure at interview start** (APP 5 compliance):
+- Identity: "This is Steven Ward from Optimizer AI"
+- Purpose: "I'm researching how RTOs handle enrollment calls"
+- Use of information: "Responses will be anonymized in research reports"
+- No third-party sharing: "Interview data stays within our research team"
+
+**Consent script**:
+> "This is Steven Ward from Optimizer AI. I'm conducting research to understand how RTOs handle enrollment calls. For quality assurance and to help me take better notes, I'd like to record this conversation. The recording will be used only for internal research and will not be shared with third parties. Your responses will be anonymized in any reports. Do you consent to the recording?"
+
+**Data storage requirements**:
+- Store recordings on Australian-based cloud (Google Drive with 2FA)
+- NOT iCloud (may sync to US), NOT Dropbox (check location)
+- Retention: Delete after synthesis complete (August 2026)
+- Access: Steven + Marcus only (read-only sharing)
+
+**Anonymization requirements for research output**:
+- Use: "RTO CEO, QLD" not "Marcus from Hader"
+- Company names require separate consent for publication
+- Case studies require explicit written permission
+- Quotes in presentations require written consent
+
+**Practical workflow**:
+1. Choose recording method (iPhone voice memo recommended)
+2. State recording status at start of each interview
+3. Confirm consent: "Is that okay with you?"
+4. If consent declined: Use notes only
+5. Upload to Google Drive within 24 hours
+6. Delete from recording device
+7. Anonymize all findings in research-log.md
+
+**What this means for timeline**:
+- Discovery interviews can proceed Week 2 with consent workflow
+- No legal delays required
+- Privacy requirements are a signal of professionalism, not a barrier
+
+**Actions added**:
+- [ADDED] Use verbal consent script at start of each interview — starting immediately
+- [ADDED] Store recordings on Google Drive (Australian servers) — by June 14, 2026
+- [ADDED] Delete recordings after synthesis complete — August 2026
+- [ADDED] Anonymize all findings in research-log.md — ongoing
+- [ADDED] Obtain written consent before any public attribution or case studies
+- [ADDED] Add consent record to interview notes with date and confirmation
+
+**Sources**:
+- OAIC: oaic.gov.au
+- Privacy Act 1988: legislation.gov.au
+- Recording consent laws: Jandra Legal, Australian Legal Information Institute
+
+---
