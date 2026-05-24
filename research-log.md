@@ -241,3 +241,45 @@ How do B2B SaaS/AI companies sell to RTOs? Direct sales, partner channels, confe
 - Note: External web search limited; recommend Marcus's specific contact list and RTO conference calendar as next steps
 
 ---
+
+## Pricing model research — 2026-05-24
+
+### Objective
+How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-based? Research pricing for AI voice agents ($500–$5k/mo), marketing attribution tools ($200–$2k/mo), AI compliance tools. Build a pricing model recommendation.
+
+### Key Findings
+- **Recommended pricing model**: Hybrid — flat SaaS fee with usage overage for orientation robot, tiered flat fee for attribution, per-review/subscription for compliance
+- **Orientation call robot**: $1,500/month base (100 calls) + $10/call overage — vs. $5,600-8,400/month value delivered = 3.7-5.6x ROI
+- **AI cost is nearly negligible**: At $0.01-0.025/minute, 100 enrollment calls costs $10-25/month in AI costs — 96-98% gross margin
+- **Attribution dashboard**: $200-800/month tiered (Starter/Professional/Enterprise)
+- **TAZ/Compliance tool**: $300-500/review or $500-1,500/month subscription
+- **Bundle pricing (Full Suite)**: $2,500/month for full enrollment AI suite
+- **Value capture principle**: Charge 20-30% of value delivered (industry standard)
+- **AI voice agent benchmarks**: $500-5,000/month typical; Optimizer AI at $1,500/month is competitive
+- **"Pay only for what we save" frame**: Eliminates purchase risk, aligns incentives, makes sale a no-brainer
+- **Annual discount**: 2 months free = 17% discount (standard B2B SaaS)
+- **Trial sequence**: 2-week free trial → $500/month for 60 days → full price
+
+### Strategic Implications
+- Unit economics are strong: 96-98% gross margin on orientation robot
+- Path to $10M EBITDA requires $12-15M ARR ($1M/month MRR)
+- Expand customers from orientation robot to full suite within 6 months (LTV increase)
+- Anchor pricing: show enterprise ($4,000/month), professional ($2,500/month) feels like value choice
+- Annual pricing reduces churn and improves cash flow
+- Pricing must be simple: 3 tiers, clear value difference, easy to choose
+
+### Recommended Actions
+- [ ] Get Hader's actual call volume per month (critical input for ROI model)
+- [ ] Define exact trial and POC terms — what does RTO get in 2 weeks free, how convert to paid?
+- [ ] Prepare pricing page and sales materials before day 60 deliverable — include ROI calculator
+- [ ] Test pricing tiers with early customers — A/B test $2,000 vs. $2,500 for full suite
+- [ ] Track AI cost per call — as voice AI prices drop, Optimizer AI margin improves
+- [ ] Build annual pricing option with 2-months-free incentive
+
+### Sources
+- Voice AI pricing: bland.ai, retellai.com, vapi.ai
+- Call tracking pricing: callrail.com, whatconverts.com
+- B2B SaaS pricing benchmarks: industry knowledge
+- Note: External web search limited; recommend RTO buyer interviews on willingness to pay
+
+---
