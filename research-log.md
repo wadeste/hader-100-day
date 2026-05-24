@@ -4253,3 +4253,92 @@ Based on B2B SaaS benchmarks and education vertical:
 - Actions for Steven: 100+ specific, time-bound, assignable
 
 **Research is complete. Execution begins.**
+
+---
+
+## Refinement — 2026-05-24 (Cycle 46)
+### Gap identified: Competitor product roadmap updates missing — no recent data on Study Buddy, Blackhole Labs, or Area Ten changes since May 2026
+
+**Original finding**: Competitive landscape analysis in Cycle 34 identified Study Buddy AI ($299-999/mo, chatbot only), Blackhole Labs ($500-2,000/mo, chatbot), and Area Ten (retainer only) — but the research was based on May 2026 data with no follow-up verification since then. The "12-18 month window of opportunity" claim is unvalidated.
+
+**Why this matters**: The window of opportunity claim is central to the competitive strategy. If Study Buddy AI has added voice AI since May 2026, or announces it in the next 6 months, the positioning strategy changes. Marcus/Kham need to know:
+1. Is the window real, or are competitors already moving?
+2. What's the actual threat level today?
+3. Should we accelerate the product roadmap?
+
+**What the research currently states**:
+- Study Buddy AI: "chatbot only, no voice AI" — based on May 2026 data, never verified since
+- Blackhole Labs: "new entrant, unknown trajectory" — no recent status check
+- Window of opportunity: "12-18 months" — stated as fact but never validated
+- Threat assessment: "Study Buddy AI = Medium threat" — never re-checked
+
+### Critical Validation Needed (Not Yet Done)
+
+The research log identifies gaps that need **live web research**, not inference:
+
+| Competitor | What to check | Last verified |
+|------------|---------------|--------------|
+| Study Buddy AI | Voice AI features added? Pricing changes? Website: studybuddy.com.au | May 2026 |
+| Blackhole Labs | Still active? Any voice AI? Website: blackholelabs.com | May 2026 |
+| Area Ten | Self-serve tools added? Website: areaten.com | May 2026 |
+| New entrants | Any new voice AI for RTO competitors? | Not researched |
+
+### Threat Level Assessment (Based on May 2026 Data — Unvalidated)
+
+| Competitor | Current threat | Trend | Confidence |
+|------------|---------------|-------|------------|
+| Study Buddy AI | **Medium** | Could add voice AI in 6-12 months | Low (no recent data) |
+| Blackhole Labs | **Low-Medium** | Unknown trajectory | Very low (no recent data) |
+| Area Ten | **Low** | Retainer model, not direct SaaS competitor | Medium (stable model) |
+
+### What This Means for the Day 60 Presentation
+
+**Current state**: The research log contains the statement "Window of opportunity: 12-18 months" but this is not validated. Marcus/Kham should not be told this as fact.
+
+**Recommended language for day 60**:
+> "We believe there is a window of opportunity to be the first voice AI solution for Australian RTOs. Based on our May 2026 research, Study Buddy AI (our closest competitor) offers chatbot only, not voice AI. We recommend monitoring competitor product pages monthly to validate this window and adjust strategy if competitors move."
+
+**Key risks to present**:
+1. Study Buddy AI could add voice AI in 6-12 months — they have RTO customer relationships
+2. No recent validation means window could be shorter than estimated
+3. New entrant risk (Blackhole Labs or others could pivot to voice AI)
+
+### Immediate Actions for Steven
+
+- [ADDED] Check Study Buddy AI website for new features — by June 7, 2026 (if not done, do immediately)
+- [ADDED] Check Blackhole Labs website (blackholelabs.com) for current status — by June 7, 2026
+- [ADDED] Set Google alerts: "Study Buddy AI voice", "RTO voice AI Australia", "Blackhole Labs RTO" — by June 7, 2026
+- [ADDED] Add competitor monitoring to monthly routine (first week of each month) — ongoing
+- [ADDED] Update day 60 presentation language: "We believe window exists" not "Window is 12-18 months" — by June 28, 2026
+- [ADDED] If Study Buddy adds voice AI within 6 months, accelerate orientation robot build — decision point
+
+### Research Limitation Acknowledgment
+
+**This refinement identifies a gap that cannot be filled without live web research.** The current research log makes claims about competitor capabilities based on May 2026 data with no follow-up.
+
+**What Steven should do right now**:
+1. Spend 30 minutes checking competitor websites
+2. Set up Google Alerts for competitor names + "voice AI"
+3. Note any changes in the research log
+4. Revise threat assessment if needed
+
+**Why this matters**: The first-mover advantage claim is central to the go-to-market strategy. If competitors have already moved, or move within 6 months, the strategy needs adjustment (faster product development, different positioning).
+
+### Revised Competitive Window Statement
+
+**Original (unvalidated)**:
+> "Window of opportunity: 12-18 months before Study Buddy adds voice AI"
+
+**Revised (accurate)**:
+> "Based on May 2026 research, no competitor offers voice AI for Australian RTOs. We believe a window exists to be first-mover, but this is not recently validated. Recommend monitoring competitor product pages monthly."
+
+**Action needed**: This is a research gap that requires live verification, not more analysis. Steven must check competitor websites before day 60 and update the research log with findings.
+
+**Sources**:
+- Competitor websites need live verification (studybuddy.com.au, blackholelabs.com, areaten.com)
+- Google Alerts: alerts.google.com (set up monitoring)
+- Window of opportunity claim: unvalidated, needs update
+
+---
+
+*End of Cycle 46 refinement. Gap identified: competitor data unvalidated since May 2026. Next cycle: Live research to verify competitor product status.*
