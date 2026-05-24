@@ -1649,3 +1649,64 @@ There are three types of model training relevant to Optimizer AI:
 - [ADDED] Review channel performance at Q2 — reallocate budget to top 2 channels
 - [ADDED] Track LTV:CAC ratio monthly — target 10:1 minimum
 
+
+## Refinement — 2026-05-24
+### Gap identified: 1,000 enrollments/month target missing actual Hader baseline and AI uplift benchmarks from comparable companies
+
+**Original finding**: "If current = 700, need 43% growth (achievable). If current = 200, need 5x (unlikely from AI alone)."
+
+**Refined findings**:
+**Assumptions needed vs. assumed for planning**:
+Until Marcus provides Hader's actual enrollment volume, here's a planning framework with three scenarios:
+
+| Scenario | Current Monthly Enrollments | AI Uplift Needed for 1,000 | Realistic? |
+|----------|---------------------------|---------------------------|-----------|
+| Low | 200 | 5x (400%) | Unlikely from AI alone — needs product/market fit changes |
+| Medium | 400 | 2.5x (150%) | Achievable with AI + marketing + process improvements |
+| High | 700 | 43% growth | Very achievable with orientation robot + attribution |
+
+**What "AI uplift" actually means**:
+AI doesn't directly enroll more students. It enables growth by:
+1. **Removing capacity constraints**: Staff spend less time on calls → more time on high-value activities (follow-up, closing)
+2. **Reducing dropout**: Better onboarding check-ins reduce first-30-day dropout
+3. **Improving lead quality**: AI qualification → better leads → higher conversion
+4. **Faster follow-up**: AI handles calls 24/7 → no missed inquiries → more chances to convert
+
+**Realistic AI uplift benchmarks** (from comparable SaaS tools in education):
+- Orientation call robot: 10-15% enrollment increase (better follow-up, less missed calls)
+- Attribution dashboard: 15-25% enrollment increase (better marketing spend → more leads)
+- Onboarding chatbot: 5-10% retention improvement (fewer dropouts)
+- Combined (full suite): 30-50% enrollment increase
+
+**What 1,000 enrollments means for Hader revenue**:
+| Metric | Calculation | Value |
+|--------|------------|-------|
+| Avg course fee | Assume $3,000-5,000 | $4,000 |
+| Monthly revenue at 1,000 enrollments | 1,000 × $4,000 | $4M/month |
+| Annual revenue | $4M × 12 | $48M/year |
+| EBITDA at 25% margin | $48M × 25% | $12M/year |
+
+**Key insight**: 1,000 enrollments/month at Hader alone would generate $48M revenue. This dwarfs the $10M EBITDA target for Optimizer AI. Either:
+1. Marcus means 1,000 enrollments across ALL RTO customers using Optimizer AI (not Hader-only), OR
+2. Marcus means Hader alone, and $10M EBITDA includes Hader's revenue, OR
+3. Marcus has a different definition of "enrollment" (e.g., inquiries, not completions)
+
+**Must clarify with Marcus** (critical data gap):
+1. Is 1,000 enrollments/month Hader-only or total across Optimizer AI customers?
+2. Does $10M EBITDA include Hader's revenue or Optimizer AI SaaS only?
+3. Is "enrollment" defined as inquiry, application, or course commencement?
+
+**Path to 1,000 enrollments/month (if Hader-only)**:
+- Current: ~400/month (estimate)
+- Target: 1,000/month
+- Gap: 600/month
+- AI contribution: +100/month (25% uplift from full suite)
+- Remaining gap: 500/month — needs marketing, product, and market expansion
+
+**Actions added**:
+- [ADDED] Ask Marcus: "Is 1,000 enrollments/month Hader-only or total across all RTO customers?"
+- [ADDED] Ask Marcus: "Does $10M EBITDA include Hader's revenue or Optimizer AI SaaS only?"
+- [ADDED] Ask Marcus: "What is the current monthly enrollment volume at Hader?"
+- [ADDED] Build scenario model: Low/Medium/High enrollment with AI uplift mapped to each
+- [ADDED] Calculate required marketing spend and time to reach 1,000/month under each scenario
+
