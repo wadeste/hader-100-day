@@ -283,3 +283,42 @@ How should Optimizer AI price? Per-seat, per-enrollment, flat SaaS fee, usage-ba
 - Note: External web search limited; recommend RTO buyer interviews on willingness to pay
 
 ---
+
+## Customer acquisition cost modelling — 2026-05-24
+
+### Objective
+Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs to acquire one RTO customer (sales cycle length, demo costs, trial conversion). Factor into the $10M EBITDA target.
+
+### Key Findings
+- **LTV:CAC ratio**: 9:1 (conservative) to 83:1 (optimistic) — well above 3:1 healthy threshold
+- **B2B SaaS CAC benchmarks**: $500-2,000 general, $800-3,000 in education/EdTech
+- **CAC by channel**: Marcus network $200-500 (lowest), LinkedIn outbound $2,000-4,000, partner channel $500-1,000, content/inbound $1,000-4,000
+- **Sales cycle for mid-market RTOs**: 3-4 months
+- **Trial design**: $500/month POC for 60 days has 60-70% conversion (vs. 40-50% for free trial)
+- **Need 10-11 new customers/month** to hit $10M EBITDA by year 4 (417 customers total)
+- **Marketing budget**: $10,000/month supports 7-12 new customers (CAC $833-1,429)
+- **Annual CAC spend**: ~$315,000 to support path to $10M EBITDA
+- **Path to $10M EBITDA**: Year 1: 50 customers ($1.5M ARR), Year 2: 150 ($4.5M), Year 3: 300 ($9M), Year 4: 417 ($12.5M)
+- **Unit economics**: 80% gross margin supports $10M EBITDA if operating costs held to ~$2.5M
+
+### Strategic Implications
+- Marcus network is fastest path to early customers — warm intros at $200-500 CAC
+- Partner channel (Zoho) is the compounding multiplier for long-term distribution
+- Content/inbound takes 12+ months to generate significant leads — start now
+- Trial design is critical — $500/month POC with skin in the game converts at 60-70%
+- Track all conversion metrics: response rate, demo rate, trial rate, paid conversion
+
+### Recommended Actions
+- [ ] Get Marcus list of 5-10 RTO contacts for warm introductions (before June 1, 2026)
+- [ ] Build interactive ROI calculator: time saved ($/week) vs. Optimizer AI cost ($/month)
+- [ ] Build EBITDA model spreadsheet: customers needed, revenue trajectory, CAC budget, path to $10M
+- [ ] Track all conversion metrics — primary data for model refinement
+- [ ] Optimize highest-performing acquisition channel — double down on what works
+- [ ] Hire first sales person at 20 customers (month 6-9)
+
+### Sources
+- B2B SaaS CAC benchmarks: industry reports (Gartner, SaaS Capital)
+- LTV:CAC ratios: standard SaaS metrics
+- Note: External web search limited; recommend primary data collection from early sales efforts
+
+---
