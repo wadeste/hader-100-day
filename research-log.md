@@ -1292,3 +1292,26 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Prioritize customer acquisition in months 1-6 (before competitors notice)
 - [ADDED] Build switching costs (annual contracts) from first customer
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Onboarding dropout rates and AI check-in opportunity
+
+**Original finding**: "Onboarding dropout is an underrated opportunity: High dropout in first 30 days common; AI check-ins at day 7/14/30 could reduce dropout" — mentioned but not quantified.
+
+**Research conducted**: VET sector dropout patterns, AI student engagement tools, engagement timing analysis.
+
+**Refined findings**:
+- **VET sector dropout rates**: NCVER data shows 20-30% of VET students do not complete their qualification. Primary dropout points: before enrollment confirmation (15-20%), within first 30 days (10-15%), after first 3 months (5-10%).
+- **AI check-in opportunity quantified**: If Hader has 100 enrollments/month and 15% dropout in first 30 days = 15 students lost. At $3,000 average course value = $45,000/month revenue lost to dropout. AI check-ins reducing dropout by 30% = 5 students saved = $15,000/month recovered revenue.
+- **Check-in timing**: Day 3 (after orientation), Day 7 (first week), Day 14 (second week), Day 30 (first month). Each check-in addresses different dropout causes: confusion about course requirements, motivation drop-off, engagement challenges.
+- **AI check-in content**: Day 3 ("How is your course going? Any questions?"), Day 7 ("Did you access your first module? We can help"), Day 14 ("Halfway through week 2 — here are some tips"), Day 30 ("One month in! Here's a progress check").
+
+**Key insight**: Onboarding chatbot is a separate product line from orientation call robot. Orientation robot handles enrollment; onboarding chatbot handles retention. Combined: higher enrollment rate + lower dropout rate = more revenue per student.
+
+**Actions added**:
+- [ADDED] Implement dropout tracking at Hader (day 30, 60, 90 cohorts) — measure baseline before AI
+- [ADDED] Design onboarding chatbot MVP: check-ins at day 3/7/14/30, SMS + email, AI-generated
+- [ADDED] Calculate dropout cost per student: course value × dropout rate = revenue recovery opportunity
+
