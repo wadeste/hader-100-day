@@ -1405,3 +1405,60 @@ Opportunity identified in community services qualifications for future expansion
 - [ADDED] Create embeddable web version (HTML) for website — by July 2026
 - [ADDED] Track ROI calculator conversions: views → demo requests → paid customers
 
+
+---
+
+## Refinement — 2026-05-24
+### Gap identified: Sales team structure and hiring plan
+
+**Original finding**: "Hire first sales person at 20 customers (month 6-9)" — mentioned but not detailed. What does the sales team look like? What's the hiring criteria? What's the commission structure?
+
+**Research conducted**: B2B SaaS sales team structure, early-stage sales hiring, commission benchmarks.
+
+**Refined findings**:
+- **Sales team structure at scale** (year 2-3):
+  - SDR/BDR (1-2): Outbound prospecting, lead qualification, demo scheduling
+  - Account Executive (1-2): Demo, POC, close deals
+  - Customer Success (1): Onboard, retain, expansion
+  - Sales Manager (1): Oversee team, pipeline, forecasting
+  
+- **Hiring sequence for Optimizer AI**:
+  - Month 1-3: Steven (Marketing) handles sales (founder-led sales)
+  - Month 4-6: Hire SDR (outbound prospecting, $60-80k base)
+  - Month 7-9: Hire Account Executive (close deals, $80-100k base)
+  - Month 10-12: Hire Customer Success (onboard, $70-90k base)
+  - Month 12+: Hire Sales Manager when team is 3-4 people
+
+- **Commission structure**:
+  - SDR: $500 per qualified opportunity
+  - Account Executive: 10% commission on first year revenue
+    - $1,499/month × 12 = $17,988 first year
+    - 10% = $1,799 per deal closed
+  - Customer Success: 5% recurring commission on renewals
+    - $1,499/month × 12 = $17,988/year
+    - 5% = $899/year per customer retained
+
+- **Hiring criteria for first sales person**:
+  - Experience: 2-3 years B2B SaaS sales (ideally EdTech or VET sector)
+  - Skills: Prospecting, demo, close, objection handling
+  - Traits: Hunter mentality, consultative selling, RTO experience preferred
+  - Location: Australia-based (for timezone and cultural fit)
+
+- **Sales quota**:
+  - Year 1: 50 new customers over 12 months = ~4/month
+  - Quota for first AE: 3-4 new customers/month
+  - At $1,499/month average: $53,964 MRR when fully ramped
+
+- **Commission total**:
+  - Base salary: $80,000-100,000/year
+  - Commission (4 customers/month × 12 × $1,799): ~$86,000/year
+  - Total compensation: $166,000-186,000/year (market rate for SaaS AE)
+
+**Key insight**: First sales hire should be a "full-cycle" AE who can prospect, demo, and close. Not an SDR first — we need someone who can own the entire sales process until we have enough volume to specialize.
+
+**Actions added**:
+- [ADDED] Define sales team hiring plan: AE at month 6-9, CS at month 10-12
+- [ADDED] Build commission structure: 10% first year, 5% recurring
+- [ADDED] Create sales candidate interview scorecard (prospecting, demo, closing, RTO knowledge)
+- [ADDED] Set quota for first AE: 3-4 new customers/month
+
