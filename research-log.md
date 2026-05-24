@@ -4117,3 +4117,139 @@ Based on B2B SaaS benchmarks and education vertical:
 - RTO consultants: rtoadvice.com.au, asqasuccess.com.au (2026)
 - Education associations: rtoconnect.com.au, acpet.edu.au (2026)
 - Partnership best practices: hubspot.com/partners (2026)
+
+---
+
+## Refinement — 2026-05-24 (Cycle 45)
+### Final synthesis: 100-day research complete — consolidated state of knowledge and top 10 actionable insights
+
+**Research summary**: 45 refinement cycles covering 20 research topics. Research log now contains 4,119 lines of structured analysis, tactical execution plans, and actionable recommendations. The research is complete. The work ahead is execution.
+
+### Top 10 Actionable Insights for Steven
+
+**1. Orientation call robot is the primary product (P0)**
+- No competitor offers voice AI for Australian RTOs
+- TAM: $12M/yr for mid-market RTOs
+- Build with VAPI + GPT-4o (AU region, APP compliant)
+- Start: June 7, 2026. Go-live: July 21, 2026.
+- First metrics: August 11, 2026.
+
+**2. Marcus's network is the fastest path to first customers**
+- CAC: $500-1,000 (time only)
+- Conversion: 40-60%
+- Get list of 5-10 warm leads from Marcus by June 7
+- Execute outreach immediately (highest ROI of any channel)
+
+**3. $10M EBITDA is a 7-8 year goal, not Year 5**
+- Realistic Year 5 EBITDA: $2-3M
+- Path to $10M: Enterprise pricing + AI courses + consulting
+- Adjust Marcus/Kham expectations before day 60
+
+**4. ASQA compliance is the moat**
+- Build compliance features from day 1 (not add later)
+- 16 mandatory disclosure items in orientation call robot
+- AU-region data storage (VAPI AU region)
+- Call recordings retained 3 years for audit
+
+**5. Zoho partnership is strategic (P0)**
+- Integration depth = switching costs
+- Become "Zoho-verified solution for RTOs"
+- Apply to marketplace, co-market to Zoho customers
+- Timeline: 6 months to certified partner
+
+**6. Pricing: $499-1,999/mo, push annual**
+- COGS: $25-55/mo (negligible)
+- Gross margin: 89-99%
+- Lead with Growth tier ($999/mo)
+- 20% discount for annual payment
+
+**7. RTO consultant referral program (20% commission)**
+- Commission: 20% of first year revenue = $2,400 per customer
+- Target: RTO Advice, ASQA Success, independent consultants
+- Warm introduction via Marcus preferred
+
+**8. Content + SEO is the compounding asset**
+- Target: 20% organic leads by month 12
+- First blog post by June 14
+- "ASQA Compliance Checklist 2026" lead magnet by June 21
+- 2 posts/week for first 90 days
+
+**9. Student retention AI is the future (month 6-9)**
+- 30-40% dropout rate = massive opportunity
+- AI check-in calls at week 1, 2, 4, month 2
+- TAM: $90K-135K/year per 100-student RTO
+- Build after orientation robot and TAZ tool
+
+**10. Day 60 deliverable must include**
+- Executive summary (1 page)
+- Market sizing (TAM $48-96M, SAM $21M)
+- Product roadmap (3 products, timelines, resource requirements)
+- Pricing tiers (Starter/Growth/Scale + annual option)
+- GTM strategy (channels by phase)
+- Financial model (path to $10M EBITDA, realistic scenario)
+- Customer acquisition targets (2-3/month Year 1)
+- Implementation timeline (7-8 weeks to go-live)
+- Team roles and KPIs
+- Key risks and mitigations
+
+### Critical Path to Day 60
+
+**June 7 deadline (Week 1)**:
+- [ ] Get warm leads from Marcus (5-10 names, contacts, pain points)
+- [ ] Confirm VAPI vs. Twilio with Kham
+- [ ] Get Hader course list and fees from Marcus/Jesse
+- [ ] Start orientation call script (fill in placeholders)
+- [ ] Get Hader baseline data (call volume, conversion, staff time)
+- [ ] Set up Google Search Console and GA4
+- [ ] Create first LinkedIn post (thought leadership)
+
+**June 14 deadline (Week 2)**:
+- [ ] First test call milestone (Kham)
+- [ ] Fill in script placeholders with Hader content
+- [ ] Register for RTO Connect Forum (June/July 2026)
+- [ ] Start email domain warmup
+- [ ] Build 5 LinkedIn outreach templates
+- [ ] Add objection handling to script
+
+**June 21 deadline (Week 3)**:
+- [ ] Publish first blog post ("AI enrollment system RTO")
+- [ ] Build RTO consultant referral program
+- [ ] Create "ASQA Compliance Checklist 2026" lead magnet
+- [ ] Confirm orientation robot implementation plan with Kham
+
+**June 28 deadline (Day 60 — Presentation to Marcus/Kham)**:
+- [ ] Executive summary (1 page)
+- [ ] Market sizing (TAM/SAM/SOM)
+- [ ] Product roadmap (3 products, timelines)
+- [ ] Pricing tiers (Starter/Growth/Scale + annual)
+- [ ] GTM strategy (channels by phase)
+- [ ] Financial model (realistic path to $10M EBITDA)
+- [ ] Customer acquisition targets
+- [ ] Implementation timeline
+- [ ] Team roles and KPIs
+- [ ] Key risks and mitigations
+
+### Information Blockers Summary
+
+**Cannot build orientation call robot without**:
+1. Hader course list (full names, codes) — Marcus/Jesse
+2. Course fees and payment options — Marcus/Jesse
+3. Human transfer phone number — Marcus
+4. Refund policy wording — Jesse
+5. Hader baseline data (call volume, conversion) — Marcus
+
+**Cannot present day 60 deliverable without**:
+1. Marcus's warm leads (5-10)
+2. Kham's technical decisions (VAPI vs. Twilio, hours available)
+3. Hader baseline data
+
+### Research Log Status
+
+- Total refinement cycles: 45
+- Total research log length: 4,119 lines
+- Topics covered: 20 (all Phase 1-4 queue items)
+- Gaps filled: Specific data, tactical templates, execution plans
+- Sources documented: URLs for all data points
+- Actions for Steven: 100+ specific, time-bound, assignable
+
+**Research is complete. Execution begins.**
