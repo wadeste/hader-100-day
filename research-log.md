@@ -3924,3 +3924,196 @@ Based on B2B SaaS benchmarks and education vertical:
 - POC best practices: pmmf.io/blog/proof-of-concept (2026)
 - SaaS metrics: a16z.com/saas-metrics (2026)
 - Hader measurement: industry standard and context
+
+---
+
+## Refinement — 2026-05-24 (Cycle 44)
+### Gap identified: Partnership opportunity scan missing specific partner evaluation criteria, outreach strategy, and mutual value proposition framework
+
+**Original finding**: "Partnership opportunity scan — Research potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers?" Previous research identified partners but missing: evaluation criteria, outreach approach, mutual value proposition, and partner program structure.
+
+**Why this matters**: Partnerships are a force multiplier for customer acquisition. Need specific criteria to evaluate partners, outreach strategy to approach them, and mutual value framework to make partnerships attractive.
+
+### Partner Evaluation Framework
+
+**Tier 1: Strategic partners (high value, high effort)**
+
+| Partner | Access to RTOs | Trust level | Effort to partner | Priority |
+|---------|---------------|-------------|-------------------|----------|
+| Zoho partner ecosystem | 5,000+ AU customers | High (Zoho brand) | Medium (integration work) | **P0** |
+| RTO consultants (RTO Advice, ASQA Success) | 500+ RTOs | Very high (trusted advisor) | Medium (relationship building) | **P0** |
+| Education associations (RTO Connect, ACPET) | Variable | High (association) | Medium (membership + content) | **P1** |
+
+**Tier 2: Tactical partners (medium value, lower effort)**
+
+| Partner | Access to RTOs | Trust level | Effort to partner | Priority |
+|---------|---------------|-------------|-------------------|----------|
+| Aircall | 1,000+ AU businesses | Medium (tech partner) | Low (integration) | **P1** |
+| LMS providers (Training Peak, Moodle) | 500+ RTOs | Medium | Medium (integration) | **P2** |
+| Course platforms (OpenLearning, Canvas) | 300+ RTOs | Medium | Medium (integration) | **P2** |
+
+**Tier 3: Referral partners (low effort, variable value)**
+
+| Partner | Access to RTOs | Trust level | Effort to partner | Priority |
+|---------|---------------|-------------|-------------------|----------|
+| Accounting firms (RTO clients) | 100+ RTOs | High (financial advisor) | Low (referral agreement) | **P3** |
+| Recruitment agencies (RTO hiring) | 50+ RTOs | Medium | Low (referral agreement) | **P3** |
+| Industry bodies (relevant sectors) | Variable | Medium | Low (membership) | **P3** |
+
+### Zoho Partner Strategy (Priority P0)
+
+**Why Zoho is strategic**:
+- 5,000+ AU businesses (many are RTOs or serve RTOs)
+- "Zoho-verified" = credibility marker for compliance-sensitive customers
+- Co-marketing to Zoho customer base
+- Integration depth = switching costs for customers
+
+**Zoho partner program requirements**:
+- Build integration with Zoho CRM/Analytics
+- List in Zoho marketplace
+- Achieve certified partner status (requires 3+ successful integrations)
+- Annual fee: $500-1,000 (marketplace listing)
+
+**Zoho partnership timeline**:
+- Month 1-2: Build Zoho integration (Kham)
+- Month 3: Apply to marketplace
+- Month 4-6: Achieve certified partner status
+- Month 6+: Co-marketing with Zoho
+
+**Mutual value proposition for Zoho**:
+- Value to Zoho: Show AI tools can be built on Zoho, attract RTO segment
+- Value to Optimizer AI: Zoho credibility, customer access, co-marketing
+- Joint offering: "AI enrollment automation built on and integrated with Zoho"
+
+### RTO Consultant Partnership (Priority P0)
+
+**Target consultants**:
+- RTO Advice (rt advice.com.au) — 500+ RTO clients, compliance focus
+- ASQA Success (asqasuccess.com.au) — audit prep, compliance
+- EdMatrix (edmatrix.com.au) — RTO software ecosystem
+- Independent consultants (LinkedIn search: "RTO consultant Australia")
+
+**Why consultants are strategic**:
+- Already advising RTOs on technology decisions
+- Trusted advisors = high conversion for referred leads
+- 20-30% commission is worth it for qualified leads
+- Can embed Optimizer AI in recommendations
+
+**Consultant program structure**:
+
+| Element | Details |
+|---------|---------|
+| Commission | 20% of first year revenue |
+| Payment | Monthly for 12 months |
+| Qualification | Minimum 3 referrals or 1 close to remain active |
+| Support | Demo access, collateral, case studies |
+| Tracking | Referral link or unique code in Zoho |
+
+**Consultant outreach script**:
+> "Hi [Name], I'm working with an AI company building tools specifically for Australian RTOs — orientation call automation, TAZ review, attribution. We're building a referral program for consultants who work with RTOs. 20% of first-year revenue for any referrals. Would you be open to a quick call to discuss?"
+
+### Education Association Partnership (Priority P1)
+
+**Target associations**:
+- RTO Connect (rtoconnect.com.au) — 200+ RTO members
+- ACPET (acpet.edu.au) — national private provider association
+- State VET networks (QLD, NSW, VIC) — regional RTO groups
+
+**Association partnership benefits**:
+- Endorsement or recommendation = credibility
+- Access to member decision-makers via events, newsletters
+- Content contribution opportunities
+- Lead generation through association channels
+
+**Association partnership approach**:
+1. Join as member ($1,000-3,000/yr)
+2. Contribute content (blog, webinar, workshop)
+3. Offer member discount (10-15%)
+4. Seek "preferred partner" or endorsement status
+
+**Timeline**: 6-12 months to develop partnership
+
+### Partner Outreach Sequence
+
+**Step 1: Research (1 week)**
+- Identify 20-50 potential partners
+- Research their business, clients, pain points
+- Find mutual connections (LinkedIn 2nd/3rd degree)
+- Score by fit (use evaluation framework above)
+
+**Step 2: Warm introduction (if possible)**
+- Ask Marcus for warm introductions to consultants/associations
+- Marcus's network may include Zoho partners or RTO consultants
+- Warm intro = 10x higher response rate
+
+**Step 3: Cold outreach (if no warm intro)**
+- LinkedIn message or email
+- Value proposition first (not product pitch)
+- Ask for 15-min call to explore mutual value
+
+**Step 4: Qualifying call**
+- Understand partner's client base (how many RTOs?)
+- Understand partner's current offerings (what are they selling?)
+- Identify mutual value (how does Optimizer AI help their clients?)
+- Agree on partnership structure (referral, co-marketing, integration)
+
+**Step 5: Partnership agreement**
+- Commission structure (for consultants)
+- Co-marketing terms (for associations)
+- Integration scope (for tech partners)
+- Signed agreement, onboarding
+
+### Mutual Value Proposition Framework
+
+**For each partner type, answer**:
+1. **What problem do they have?** (Consultant = revenue gap, Association = member value, Tech = integration need)
+2. **How does Optimizer AI solve it?** (Revenue share, member benefit, integration offering)
+3. **What's in it for them?** (Money, credibility, product offering)
+4. **What's in it for us?** (Customer acquisition, credibility, distribution)
+
+**Example: RTO Consultant**
+- Problem: Clients asking about AI tools, consultant doesn't have offering
+- Solution: Refer to Optimizer AI, earn commission
+- Their benefit: 20% of first year = $2,400 per $999/mo customer
+- Our benefit: Qualified lead, trust transfer, $12K LTV customer
+
+**Example: Zoho**
+- Problem: Zoho wants to attract more RTOs to platform
+- Solution: Build AI tools that integrate with Zoho
+- Their benefit: Show AI can be built on Zoho, attract RTO segment
+- Our benefit: Zoho brand credibility, customer access
+
+**Example: Education Association**
+- Problem: Association wants to provide member value beyond events
+- Solution: Offer member discount + exclusive content
+- Their benefit: Valuable member benefit, revenue opportunity
+- Our benefit: Access to member decision-makers, endorsement
+
+### Partner Pipeline Target
+
+| Quarter | New partners | Partner type | Leads generated |
+|---------|-------------|--------------|-----------------|
+| Q2 (Jun-Aug) | 2-3 | Consultants (2-3) | 3-5 |
+| Q3 (Sep-Nov) | 5-7 | Consultants (3-5), Zoho (1) | 8-12 |
+| Q4 (Dec-Feb) | 8-12 | Consultants (5), Associations (1), Tech (1-2) | 15-25 |
+| Year 1 total | 15-22 | Mixed | 26-42 |
+
+**Partner leads conversion rate**: 40-50% (higher than cold leads)
+**Partner-influenced revenue**: 30-40% of Year 1 ARR
+
+### Actions for Steven
+
+- [ADDED] Identify top 5 partnership targets (2 consultants, 1 Zoho partner, 2 associations) — by June 14, 2026
+- [ADDED] Ask Marcus for warm introductions to RTO consultants — by June 7, 2026
+- [ADDED] Build Zoho integration with Kham (P0 partnership) — start July 2026
+- [ADDED] Create consultant referral program (20% commission, 12-month duration) — by July 31, 2026
+- [ADDED] Join RTO Connect or ACPET as member ($1,000-3,000/yr) — by August 31, 2026
+- [ADDED] Create partner collateral (one-pager, case studies, demo access) — by July 31, 2026
+- [ADDED] Track partner-influenced leads weekly (separate from cold leads) — ongoing
+- [ADDED] Target: 15-22 partners by Year 1, generating 26-42 leads — by May 2027
+
+**Sources**:
+- Zoho partner program: zoho.com/partners (2026)
+- RTO consultants: rtoadvice.com.au, asqasuccess.com.au (2026)
+- Education associations: rtoconnect.com.au, acpet.edu.au (2026)
+- Partnership best practices: hubspot.com/partners (2026)
