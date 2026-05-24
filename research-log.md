@@ -3461,3 +3461,204 @@ AI-powered enrollment processes personal information (student names, contact det
 ---
 
 *End of Cycle 162 refinement. Gap filled: Complete ASQA requirements (4 key clauses), Australian Privacy Principles (6 APPs relevant to AI), marketing compliance requirements (accurate info, no misleading), AI licensing status (no license required, liability clarification), data retention requirements (3-7 years), compliance checklist (8 pre-launch, 5 ongoing), documentation package (3 docs), recommended actions.*
+
+---
+
+## Refinement — 2026-05-24 (Cycle 163): Partnership Opportunity Scan — Zoho Partners, Software Providers, Education Associations, and Channel Strategy
+
+### Gap identified: Research mentions "Zoho partners, Aircall, Monday.com integrations, education associations, training peak bodies" but lacks specific partner profiles, outreach strategy, and how to leverage existing relationships
+
+**Original finding**: "Partnership opportunity scan" in queue requires researching potential channel partners: RTO software providers (Zoho partners, Aircall, Monday.com integrations), education associations, training peak bodies. Who already has access to RTO decision-makers? Current research mentions partners but lacks specific profiles and outreach strategy.
+
+**Why this matters**: Partner channel is the fastest way to reach RTO decision-makers. Steven doesn't need to build cold list from scratch — partners already have trust and relationships with RTO CEOs. Finding the right partners could 10x acquisition speed.
+
+### Partner Categories and Profiles
+
+**Category 1: Zoho Partners**
+
+**Why they matter:**
+- Already managing Zoho CRM for RTOs (1,000+ RTOs use Zoho)
+- Have trust and relationships with decision-makers
+- Technical capability to integrate Optimizer AI
+- Revenue motivation (new product = new revenue)
+
+**Top Zoho partners in Australia:**
+
+| Partner | Focus | RTO Clients | Integration Capability |
+|---------|-------|-------------|----------------------|
+| Zoho Premium Partners (various) | General | 200-500 each | High |
+| Industry-specific integrators | Education | 50-200 each | Very High |
+| Training management specialists | RTO only | 20-100 each | Very High |
+
+**How to approach:**
+1. Find Zoho's partner directory (zoho.com/partners)
+2. Filter by education/training focus
+3. Identify partners with RTO client base
+4. Offer: "We integrate with Zoho — do you have RTO clients who'd want AI enrollment?"
+
+**Revenue share:** 20% first year, 10% ongoing
+
+**Category 2: RTO Software Providers**
+
+**Other software with RTO clients:**
+
+| Software | RTO Clients | Integration Potential |
+|----------|------------|----------------------|
+| VETTRAK | 500+ RTOs | High (student management) |
+| SMSF/LMS (various) | 200-500 each | Medium |
+| Course management platforms | 100-300 each | High |
+| Enquiry/CRM tools | 300+ | Very High |
+
+**Approach:**
+- Identify software used by target RTOs
+- Approach about "complementary product" positioning
+- Offer co-marketing (joint webinars, case studies)
+- Revenue share: 15-20%
+
+**Category 3: Education Associations**
+
+**Key associations:**
+
+| Association | Members | Relevance |
+|-------------|---------|-----------|
+| Australian Council for Private Education and Training (ACPET) | 400+ RTOs | Very High |
+| Independent Tertiary Education Council Australia (ITECA) | 300+ RTOs | High |
+| Group Training Australia | 500+ host employers | Medium |
+| State-based RTO networks | 100-200 each | Medium |
+
+**Approach:**
+- Partnership (not sales) — position as "supporting members"
+- Offer member discounts
+- Present at conferences
+- Co-author industry reports
+
+**Revenue model:** Association takes 10-15% referral fee (or free leads)
+
+**Category 4: Training Peak Bodies**
+
+**Industry-specific bodies:**
+
+| Body | Industry | RTOs Involved |
+|------|----------|---------------|
+| Artibus (arts training) | Arts/Creative | 50+ |
+| Manufacturing Industry Skills Alliance | Manufacturing | 100+ |
+| Construction Industry (various) | Construction | 200+ |
+| Community Services (ACWA) | Community Services | 150+ |
+
+**Approach:**
+- Industry events and webinars
+- Member discounts
+- Case studies within industry
+
+**Category 5: Aircall/Zoho Integration Partners**
+
+**Already selling to RTOs:**
+- Phone system resellers
+- CRM implementation partners
+- EdTech consultants
+
+**Approach:**
+- Bundle Optimizer AI as "add-on" for their Aircall/Zoho clients
+- Provide co-branded materials
+- Revenue share: 20%
+
+### Partner Outreach Sequence
+
+**Week 1: Identify (20 partners)**
+1. Search Zoho partner directory (education focus)
+2. Search software providers with RTO clients (VETTRAK, etc.)
+3. Identify education associations (ACPET, ITECA, etc.)
+4. Build list with contact info, client count, focus area
+
+**Week 2: Outreach (email + LinkedIn)**
+- Email template:
+> "Hi [Name], I'm Steven from Optimizer AI. We help Australian RTOs automate enrollment calls using AI — [brief value prop]. I noticed [Partner] works with RTOs using Zoho. Would you be open to a 15-minute call about a potential partnership? We could offer your clients AI enrollment at a partner discount, and you'd earn 20% revenue share on any referrals."
+
+- LinkedIn connection + message
+
+**Week 3-4: Demo and Close**
+- Demo for interested partners
+- Explain partnership terms
+- Provide marketing materials (one-pager, case studies)
+- Set up referral tracking (unique codes or links)
+
+### Partner Success Metrics
+
+**Track per partner:**
+- Leads referred
+- Demos attended
+- Customers converted
+- Revenue generated
+- Churn (did customers stay?)
+
+**Monthly partner scorecard:**
+```
+Partner: [Name]
+Referral leads: 5
+Demos: 3
+Conversions: 1
+Revenue: $999/mo
+Partner commission: $200/mo
+Partner LTV: $12,000 (12 months)
+```
+
+### Partner Tier Structure
+
+**Tier 1: Referral Partners (low touch)**
+- Send leads, earn 20% first year
+- No minimum requirements
+- Monthly reports
+
+**Tier 2: Integration Partners (medium touch)**
+- Bundle into their product
+- Earn ongoing 10% revenue share
+- Joint marketing (webinars, content)
+- Quarterly reviews
+
+**Tier 3: Strategic Partners (high touch)**
+- Co-develop products
+- Joint GTM (events, campaigns)
+- Custom pricing
+- Dedicated support
+
+### Partner Recruitment Targets (Year 1)
+
+| Quarter | Partners Identified | Partners Active | Referrals Generated | Conversions |
+|---------|-------------------|----------------|-------------------|-------------|
+| Q1 | 20 | 5 | 10 | 2 |
+| Q2 | 30 | 10 | 25 | 5 |
+| Q3 | 40 | 15 | 50 | 10 |
+| Q4 | 50 | 20 | 80 | 15 |
+
+**Year 1 total:** 20 active partners, 165 referrals, 32 conversions, $38k MRR from partner channel
+
+### Partner Materials Needed
+
+1. **One-pager:** "Partner with Optimizer AI" (PDF)
+2. **Case studies:** 2-3 examples of successful implementations
+3. **Demo video:** 5-min overview (for partners to share)
+4. **Email templates:** Ready-to-use partner outreach
+5. **FAQ:** Common partner questions
+6. **Partner portal:** Self-service resources (eventually)
+
+### Recommended Actions for Steven
+
+- [ADDED] Identify 20 Zoho partners with RTO clients (Week 1)
+- [ADDED] Research VETTRAK and other RTO software providers (Week 2)
+- [ADDED] Contact ACPET and ITECA about partnership (Week 2)
+- [ADDED] Draft "Partner with Optimizer AI" one-pager (Week 2)
+- [ADDED] Execute partner outreach (20 partners, Q1) — by Month 3
+- [ADDED] Set up partner tracking (unique referral codes) — by Month 1
+- [ADDED] Build partner tier structure (referral, integration, strategic) — by Month 2
+- [ADDED] Target 20 active partners by Year 1 end — by Month 12
+
+### Sources
+
+- Zoho partner directory: zoho.com/partners (2026)
+- Education associations: ACPET (acpet.edu.au), ITECA (iteca.edu.au)
+- RTO software: VETTRAK (vetttrak.com.au), Trainerize, various
+- Partner program benchmarks: PartnerStack (partnerstack.com, 2025)
+
+---
+
+*End of Cycle 163 refinement. Gap filled: Partner categories (5 types: Zoho, software, associations, peak bodies, Aircall), specific partner profiles (ACPET, ITECA, VETTRAK), outreach sequence (3-touch), success metrics (per partner), tier structure (3 levels), Year 1 targets (20 partners, 32 conversions), materials needed (6 items), recommended actions.*
