@@ -154,42 +154,67 @@ Define the category: is it AI for RTO marketing, AI for student enrollment, AI f
 
 **Category creation strategy**:
 
-Optimizer AI is NOT competing with existing tools — it's creating a new category: "RTO Enrollment AI." Category creation requires:
+Optimizer AI is NOT competing with existing tools — it's creating a new category: "RTO Enrollment AI." Category creation requires five concrete tactics, not just awareness:
 
-1. **Own the terminology**: Use "RTO Enrollment AI" consistently in all content, not "AI for RTOs" or "AI enrollment tool"
-2. **Publish the category definition**: "What is RTO Enrollment AI?" pillar page that defines the category and why it exists
-3. **Tell the origin story**: "We built this at Hader Institute because no one else understood RTO enrollment workflows"
-4. **Create the measurement standard**: "RTO Enrollment AI should deliver 60%+ containment rate, ASQA audit readiness, and Zoho integration"
-5. **Educate the market**: ASQA compliance guide positions Optimizer AI as the category authority
+**Category Creation Execution Framework** (6-month plan):
 
-**Messaging hierarchy for day 60 deliverable**:
+| Month | Tactic | Deliverable | Owner | Success Metric |
+|-------|--------|-------------|-------|----------------|
+| M1 | **Own the terminology** | Publish 3 LinkedIn posts with "RTO Enrollment AI" hashtag | Steven | 50+ impressions per post |
+| M1-2 | **Publish the category definition** | "What is RTO Enrollment AI?" pillar page (2,500+ words) | Steven | Page indexed in Google |
+| M2 | **Tell the origin story** | Case study: "How We Built AI for Hader Institute" | Steven | 100+ views |
+| M2-3 | **Create the measurement standard** | "RTO Enrollment AI Benchmark Report" | Steven | 50+ downloads |
+| M3-4 | **Educate the market** | ASQA compliance guide (lead magnet) | Steven | 25+ email captures |
+| M4-6 | **Defend the category** | Guest posts on RTO blogs, Zoho partner content | Steven + Marcus | 3+ backlinks, 2+ partner mentions |
 
-1. **Primary message (headline)**: "AI for RTO Enrollment — From First Call to Enrolled Student"
-2. **Subhead**: "Automate 60% of enrollment calls. Pass every ASQA audit. Know which marketing works."
-3. **Proof**: "Built at Hader Institute. Deployed at 80 enrollments/month. Zero audit findings."
-4. **Call to action**: "See how it works — 30-minute demo"
+**Pillar page content outline** — "What is RTO Enrollment AI?" (2,500 words):
 
-**Tagline options to test**:
-- "The AI that enrolls students"
-- "RTO enrollment, automated"
-- "Built for ASQA. Built for enrollments."
-- "From inquiry to enrollment — AI handles it"
+1. **Opening** (200 words): The enrollment crisis in Australian RTOs — 60+ hours/week on calls, missed inquiries, compliance risk
+2. **What is RTO Enrollment AI?** (300 words): Definition + 3-sentence origin story (Hader Institute)
+3. **The problem** (400 words): Current state of RTO enrollment (data: 60 hrs/week, 30% missed calls, 20% dropout)
+4. **How RTO Enrollment AI works** (500 words): Voice AI for qualification + orientation, Zoho integration, ASQA compliance
+5. **Measurement standard** (400 words): "Real RTO Enrollment AI delivers: 60%+ containment, 100% call logging, Zoho sync, ASQA audit trail"
+6. **vs. alternatives** (300 words): DIY (Zoho+Aircall), generic AI (Bland/Retell), consultants
+7. **Case study** (400 words): Hader Institute results (60% call time reduction, 0 audit findings)
+8. **How to evaluate RTO Enrollment AI vendors** (300 words): 7 questions to ask
+9. **CTA** (100 words): "See Optimizer AI in action — 30-min demo"
 
-**Strategic implications updated**:
-- Positioning is a living document — test three options with early customers, double down on what resonates
-- Option A ("AI for RTO Enrollment Automation") is recommended for initial GTM because it's concrete, measurable, and differentiates on outcomes
-- Option B ("ASQA compliance") becomes primary differentiator when competitor enters or compliance objection spikes
-- Option C ("Student Journey AI") is the long-term category play — launch when product expands beyond enrollment
-- Category creation takes 12-18 months — start publishing "RTO Enrollment AI" content now even if product is narrow
+**"Own the terminology" execution** (specific tactics):
+- Publish LinkedIn post every Monday with "RTO Enrollment AI" in headline for 8 weeks
+- Include "RTO Enrollment AI" in all email subject lines and metadata
+- Add "RTO Enrollment AI category leader" to Optimizer AI LinkedIn tagline
+- Submit to 3 directories with "RTO Enrollment AI" category description
 
-**Actions added**:
-- [ADDED] Draft three positioning statements for Marcus/Kham alignment — by June 14, 2026
-- [ADDED] Test tagline variants with Hader staff and Marcus network — A/B test at demo stage
-- [ADDED] Publish "What is RTO Enrollment AI?" pillar page — by July 2026 (establishes category)
-- [ADDED] Create one-pager with positioning statement + proof points — by June 21, 2026
-- [ADDED] Set primary message for day 60 deliverable: Option A ("AI for RTO Enrollment Automation")
-- [ADDED] Update competitor matrix to remove Study Buddy (unless confirmed as AI competitor)
-- [ADDED] Monitor for new RTO AI entrants — set Google Alert for "RTO AI Australia" and "enrollment automation RTO"
+**Measurement standard (specific benchmarks)**:
+| Metric | Industry Standard | RTO Enrollment AI Standard | How to Verify |
+|--------|------------------|---------------------------|--------------|
+| Containment rate | 40-50% | 60%+ | % of calls handled without human |
+| Audit readiness | Manual | 100% call logging | Export audit trail in < 1 click |
+| Integration | DIY | Native Zoho + Aircall | Live sync verification |
+| Missed calls | 20-30% | < 5% | 24/7 coverage + SMS fallback |
+| Compliance documentation | Per-call manual | Auto-generated | Sample export available |
+
+**Category creation success metrics**:
+| Metric | Month 3 Target | Month 6 Target | Month 12 Target |
+|--------|---------------|---------------|-----------------|
+| "RTO Enrollment AI" search volume | 20/mo | 50/mo | 100/mo |
+| Optimizer AI % of search | 50%+ | 60%+ | 70%+ |
+| Competitor mentions of "RTO Enrollment AI" | 0 | 1-2 | 3-5 |
+| Backlinks to category content | 5 | 15 | 30 |
+| Direct inquiries mentioning category | 0 | 3 | 10 |
+
+**Competitive defense when category forms**:
+- If competitor enters: Publish "How to Choose RTO Enrollment AI" comparing features
+- Update measurement standard annually to raise the bar
+- Build "RTO Enrollment AI Certified" program for partners
+
+**Actions updated**:
+- [ADDED] Write pillar page outline for "What is RTO Enrollment AI?" — by June 14, 2026
+- [ADDED] Create specific measurement standard document (7-point checklist) — by June 21, 2026
+- [ADDED] Publish LinkedIn posts with "RTO Enrollment AI" for 8 consecutive weeks — starting May 26, 2026
+- [ADDED] Set up Google Alert for "RTO Enrollment AI" and "enrollment automation RTO" — by May 28, 2026
+- [ADDED] Submit to 3 industry directories with category description — by July 2026
+- [ADDED] Track "RTO Enrollment AI" search volume monthly — report to Marcus
 
 ---
 
