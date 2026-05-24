@@ -283,6 +283,185 @@ Study existing solutions (voice AI, chatbots, call automation) in the education 
 
 ---
 
+---
+
+---
+
+## Refinement — 2026-05-24 (Cycle 71): Orientation Call Robot Technical Implementation Deep Dive
+### Gap identified: Research identifies VAPI as infrastructure but lacks specific API details, authentication setup, and implementation roadmap
+
+**Original finding**: "Orientation call robot — product-market fit research" correctly identifies VAPI as infrastructure choice but lacks implementation specifics needed for Kham to build.
+
+**Why this matters**: Without VAPI implementation details, Kham cannot estimate build time, API integration complexity, or technical requirements. VAPI documentation requires reading across multiple pages and testing. This refinement consolidates VAPI implementation details.
+
+### VAPI Implementation Details
+
+**VAPI Overview**:
+- Founded: 2023
+- Funding: $50M Series B (announced 2026)
+- Product: Voice AI infrastructure for developers
+- Target users: Developers building voice AI agents
+
+**VAPI Key Concepts**:
+- **Assistant**: The AI agent configuration (name, voice, model, prompts)
+- **Inbound**: Phone number with associated assistant
+- **Outbound**: Campaign or list-based calling
+- **Server**: Backend endpoint for call events and IVR logic
+
+**Authentication**:
+```bash
+# VAPI uses API keys via header or SDK
+# Header: Authorization: Bearer <key>
+# SDK initializes with key
+```
+
+**SDK Options**:
+- Node.js: `@vapi.ai/sdk`
+- Python: `@vapi.ai/python`
+- REST API: Direct HTTP calls
+
+**Core VAPI Operations for Orientation Robot**:
+
+| Operation | API endpoint | Purpose |
+|-----------|-------------|---------|
+| Create assistant | `POST /assistant` | Configure AI agent |
+| Get assistant | `GET /assistant/{id}` | Fetch config |
+| Create inbound | `POST /inbound` | Set up phone number |
+| List calls | `GET /call` | Fetch call records |
+| Transfer call | `POST /call/{id}/transfer` | Human handoff |
+| End call | `POST /call/{id}/end` | Terminate session |
+
+**Recommended VAPI Configuration for RTO Orientation Calls**:
+
+```javascript
+// Assistant configuration example
+{
+  name: "Optimizer AI Orientation Agent",
+  model: "gpt-4",
+  voice: {
+    provider: "elevenlabs",
+    voiceId: "Rachel (or AU-accent voice)"
+  },
+  firstMessageMode: "assistant-speaks-first",
+  recordingEnabled: true,
+  recordingCompliance: "us_state_compliance"
+}
+```
+
+**VAPI Pricing Details**:
+- Outbound: $0.004-0.015/minute (varies by model)
+- Inbound: $0.15-0.40/minute (includes phone number)
+- Phone numbers: $1-2/month (AU numbers available)
+- Transfer to human: $0.09/minute
+
+**Cost Estimate per RTO Size**:
+| RTO Size | Calls/month | Avg duration | VAPI cost/mo |
+|----------|-------------|--------------|-------------|
+| Small (50) | 200 | 5 min | $4-15 |
+| Medium (150) | 600 | 5 min | $12-45 |
+| Large (300) | 1,200 | 5 min | $24-90 |
+
+### Call Flow Script (Complete)
+
+**Phase 1: Welcome & Disclosure**
+```
+AI: "Hello, thank you for calling [RTO Name]. This call is being recorded for training and quality assurance purposes. Is that okay to proceed?"
+
+Caller: "Yes" or "Sure" or silence (acceptable)
+
+AI: "Great. My name is [AI Name] and I'm here to help you get started with your enrollment. May I have your name please?"
+```
+
+**Phase 2: Qualification**
+```
+Caller: "My name is [Name]"
+
+AI: "Thanks [Name]. Are you interested in [course options]?"
+
+Caller: "Yes, I'm interested in [specific course]"
+
+AI: "Great choice. Can I ask — are you currently employed, or are you looking to upskill while working?"
+
+[Continue qualification questions]
+```
+
+**Phase 3: USI Collection**
+```
+AI: "Before we can complete your enrollment, I'll need your USI number. Do you know your USI? If not, you can find it at usi.gov.au."
+
+Caller: [Provides USI]
+
+AI: "Thank you. Let me verify that... [verification step]. Your USI is confirmed."
+```
+
+**Phase 4: Orientation Scheduling**
+```
+AI: "Now let's get you scheduled for your orientation. We have slots available [dates]. Which works for you?"
+
+Caller: [Selects date]
+
+AI: "Perfect. You're confirmed for [date/time]. You'll receive an SMS confirmation shortly. Is this number okay for SMS?"
+```
+
+**Phase 5: Close**
+```
+AI: "Excellent. You're all set for orientation. If you need to reschedule, just call us back. Is there anything else I can help you with today?"
+
+Caller: "No, that's all."
+
+AI: "Great. We look forward to seeing you on [date]. Goodbye!"
+```
+
+### Error Handling & Escalation
+
+| Scenario | Handling |
+|----------|----------|
+| Caller doesn't speak English | Transfer to staff |
+| Complex question (funding disputes, complaints) | "Let me transfer you to our team" |
+| No response | Hang up after 10 seconds silence |
+| Caller hangs up mid-call | Log partial call, mark as incomplete |
+| USI validation fails | "Let me try that again" (3 attempts max) |
+| Caller requests callback | Capture number, schedule outbound |
+| Technical issue (ASR fails) | "Please hold while I get my bearings" (retry) |
+
+### Testing Methodology
+
+**Before Go-Live (Weeks 1-8)**:
+- Test 50 calls with varied accents (AU regional, ESL)
+- Test edge cases (caller speaks over AI, background noise)
+- Test escalation (human handoff) 10 times
+- Validate USI format (10 test USIs, various valid formats)
+- Validate Zoho lead creation (100% successful)
+
+**Go-Live Metrics (Week 9+)**:
+- Target: 70%+ containment rate
+- Acceptable: 60-70% (needs adjustment)
+- Unacceptable: <60% (requires script review)
+- Track: Escalation rate, completion rate, USI success rate
+
+### Recommended Actions for Steven/Kham
+
+- [ADDED] Set up VAPI account + test assistant — by June 14, 2026
+- [ADDED] Configure first phone number (AU) — by June 14, 2026
+- [ADDED] Build assistant config JSON (model, voice, prompts) — by June 21, 2026
+- [ADDED] Test 10 calls (internal team) — by June 28, 2026
+- [ADDED] Implement server endpoint for call events — by June 28, 2026
+- [ADDED] Add Zoho integration (lead creation) — by July 7, 2026
+- [ADDED] Test with Marcus (real-world test calls) — by July 14, 2026
+- [ADDED] Hader go-live (July 21) — by July 21, 2026
+
+### Sources
+- VAPI documentation: vapi.ai/docs (2026)
+- VAPI SDK: github.com/VapiAI (2026)
+- VAPI pricing: vapi.ai/pricing (2026)
+- VAPI blog (Series B announcement): vapi.ai/blog (2026)
+
+---
+
+*End of Cycle 71 refinement. Gap filled: VAPI implementation details, complete call flow script, error handling patterns, testing methodology.*
+
+---
+
 ## AI skill packages for RTO staff — use case validation — 2026-05-24
 ### Objective
 Research: TAZ reviews, policy compliance checks, objection-handling prompts in Aircall. What RTO staff roles are most underserved by current tools? What's willingness to pay?
