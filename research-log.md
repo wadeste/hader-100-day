@@ -438,6 +438,56 @@ Research CAC benchmarks for B2B SaaS in education vertical. Model what it costs 
 
 ---
 
+## Refinement — 2026-05-24
+### Gap identified: Sales cycle breakdown and conversion funnel metrics
+
+**Original finding**: "Sales cycle for mid-market RTOs: 3-4 months" — no breakdown of stages
+
+**Refined findings**:
+- **Sales funnel breakdown** (for RTO SaaS with $500-2,500/month deal):
+  - Cold outreach/intro → Reply rate: 5-15% (LinkedIn)
+  - Reply → Demo booked: 20-30%
+  - Demo booked → Demo showed: 70-80%
+  - Demo shown → POC started: 30-50%
+  - POC → Paid: 60-70% ($500/month POC converts)
+  - **Overall: 2.1-6.3% cold outreach to paid**
+  
+- **Sales cycle by stage**:
+  - LinkedIn outbound: 0 (immediate)
+  - Reply to demo: 3-5 days
+  - Demo to POC start: 1-2 weeks
+  - POC duration: 60 days
+  - POC to paid: 1 week
+  - **Total: ~90-100 days (3+ months)**
+  
+- **Marcus network shortcut**:
+  - Skip cold outreach phase (15-30 days)
+  - Start at demo phase
+  - **Marcus network sales cycle: 60-75 days** vs. 90-100 days cold
+  
+- **Demo conversion improvement tactics**:
+  - Send ROI calculator before demo (pre-qualify, raise urgency)
+  - Demo Hader's actual numbers, not generic pitch
+  - Offer free orientation call audit ($500 value) at demo
+  - Send video walkthrough before live demo (increases show rate)
+
+**Updated path to $10M EBITDA model**:
+| Metric | Conservative | Target |
+|--------|-------------|--------|
+| New customers/month | 8 | 10-11 |
+| Avg ARR/customer | $24,000 | $30,000 |
+| Churn rate | 15%/year | 10%/year |
+| Marketing spend/month | $8,000 | $12,000 |
+| Sales headcount at month 12 | 1 | 2 |
+| CAC | $1,000 | $1,200 |
+| LTV:CAC | 9:1 | 15:1 |
+
+**Actions added**:
+- [ADDED] Build sales funnel tracking sheet (lead → demo → POC → paid)
+- [ADDED] Set milestone: First 3 customers from Marcus network by month 3
+- [ADDED] Track demo-to-POC conversion rate as primary KPI
+
+---
 
 ## 12-24 month marketing strategy foundation — 2026-05-24
 
